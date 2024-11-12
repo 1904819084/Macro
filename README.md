@@ -1,4 +1,4 @@
-# DAC'25 "Timing-Driven Global Placement by Efficient Critical Path Extraction"
+# DAC'25 "ReMaP: Towards Expert-Quality Macro Placement by Recursively Prototyping and Relocating"
 We provide the implementation of the method proposed in the paper. It is built upon the popular open-source infrastructure [DREAMPlace](https://github.com/limbo018/DREAMPlace).
 
 ## Build with Docker
