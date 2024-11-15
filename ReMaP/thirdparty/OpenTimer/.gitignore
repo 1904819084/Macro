@@ -37,8 +37,6 @@ build/
 
 # Binaries/examples
 bin/
-example/
-unittest/
 
 # Some editor configuration files
 .vscode/
