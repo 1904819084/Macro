@@ -3,13 +3,26 @@ This repository contains the code for ReMaP, a macro placement framework that ge
 
 We provide both implementation of our ReMaP framework, and the full scripts including evaluation metadata to replicate the **main table** in our paper.
 
-
-
 ## Quick Access to Our Meta-data and Results
 
+One line of code to get the main table:
 
+```
+cd DAC25-ReMaP
+python OpenROAD-PPA-evaluation/get_metrics.py
+```
 
+The results is presented at `DAC25-ReMaP/main_table.csv`.
 
+| Dataset | Method     | Wirelength | WNS      | TNS      | Power   | #overflow |
+| ------- | ---------- | ---------- | -------- | -------- | ------- | --------- |
+| bp_quad | RTLMP      | 55350882   | -1.403   | -22767.7 | 1.80286 | 161655    |
+| bp_quad | Hier-RTLMP | 44684974   | -0.99448 | -16445.8 | 1.80491 | 11330     |
+| bp_quad | DREAMPlace | 51924038   | -1.30537 | -21669.8 | 1.82423 | 28822     |
+| bp_quad | ReMaP      | 54296360   | -0.92684 | -14139.2 | 1.81184 | 4629      |
+| ...     | ...        | ...        | ...      | ...      | ...     | ...       |
+
+You can also access our evaluation meta-data of all baselines at `DAC25-ReMaP/OpenROAD-PPA-evaluation/eval_metadata`.
 
 ## Run ReMaP Algorithm
 
@@ -93,8 +106,6 @@ The macro placement results are stored at the following directory:
 ```
 DAC25-ReMaP/ReMaP/install/results/${date}/${design_name}/${time}
 ```
-
-
 
 ## Run OpenROAD-flow-scripts for PPA Evaluation
 
