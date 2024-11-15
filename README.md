@@ -72,8 +72,9 @@ The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/D
    cd build
    cmake .. -DCMAKE_INSTALL_PREFIX=../install
    make
-   make install
    ```
+   
+5. We don't run `make install` here since we have to get benchmarks first. It is included in our following bash scripts.
 
 ### Get Benchmarks
 
@@ -93,7 +94,7 @@ We run ORFS to generate the synthesized netlist and dump DEFs for our placement 
 Then unzip the package and put it under following the directory:
 
 ```
-DAC25-ReMaP/ReMaP/benchmarks/or_cases
+DAC25-ReMaP/ReMaP/benchmarks/
 ```
 
 ### Run Macro Placement Task
@@ -129,7 +130,7 @@ The installation of OpenROAD is required. We recommend use the [pre-built binary
 Assuming OpenROAD has been properly installed and the environment has been enabled, we should first prepare the synthesized netlist. Download the package [here](https://drive.google.com/file/d/1uweb4zQipCkS4b3uy_84UXch8XKfK8nd/view?usp=sharing) and unzip it under the following directory:
 
 ``` 
-DAC25-ReMaP/OpenROAD-PPA-evaluation/results
+DAC25-ReMaP/OpenROAD-PPA-evaluation/
 ```
 
 Then we put the previous generated macro placement result into the directory accordingly.
