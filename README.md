@@ -3,7 +3,11 @@ This repository contains the code for ReMaP, a macro placement framework that ge
 
 We provide both implementation of our ReMaP framework, and the full scripts including evaluation metadata to replicate the **main table** in our paper.
 
+
+
 ## Quick Access to Our Meta-data and Results
+
+
 
 
 
@@ -89,6 +93,8 @@ The macro placement results are stored at the following directory:
 ```
 DAC25-ReMaP/ReMaP/install/results/${date}/${design_name}/${time}
 ```
+
+
 
 ## Run OpenROAD-flow-scripts for PPA Evaluation
 
