@@ -5,7 +5,7 @@ We provide both implementation of our ReMaP framework, and the full scripts incl
 
 ## Quick Access to Our Meta-data and Results
 
-One line of code to get the main table:
+**Two line of code to replicate the main table:**
 
 ```
 cd DAC25-ReMaP
