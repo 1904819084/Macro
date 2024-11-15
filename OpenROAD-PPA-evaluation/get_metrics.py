@@ -114,7 +114,7 @@ def get_usage(content):
     return float(total_usage.replace("%", "")) / 100
 
 def get_total_overflow(content):
-    # 定位特定表格的开始位置
+
     table_start_pattern = r'\[INFO GRT-0096\] Final congestion report:'
     match = re.search(table_start_pattern, content)
     if not match:
@@ -122,7 +122,6 @@ def get_total_overflow(content):
     table_start_index = match.end()
     table_content = content[table_start_index:]
 
-    # 定位总行并提取总溢出数量
     total_line_pattern = r'Total\s+\d+\s+\d+\s+(\d+\.\d+%)\s+\d+\s+\/\s+\d+\s+\/\s+(\d+)'
     total_match = re.search(total_line_pattern, table_content)
     if not total_match:
@@ -160,16 +159,16 @@ def get_Metric_in(finalJson, routeJson, placedpLog, gproutefile, fpjson):
 
 
     metric = {}
-    metric["HPWL"] = get_cellHpwl(place)
+    # metric["HPWL"] = get_cellHpwl(place)
     metric["Wirelength"] = get_wirelength(route)
-    metric["Congestion"]=get_usage(gproute)
+    # metric["Congestion"]=get_usage(gproute)
     metric["WNS"], metric["TNS"] = get_wns_tns(final)
     metric["Power"] = get_power(final)
     metric["#overflow"] = get_total_overflow(gproute)
-    metric["NVP"]=get_nvp(final)
-    metric["Area"] = get_area(final)
-    metric["#Macro"], metric["#Cells"], metric["Util"] = get_statistics(fp)
-    metric["#Net"] = get_net_num(route)
+    # metric["NVP"]=get_nvp(final)
+    # metric["Area"] = get_area(final)
+    # metric["#Macro"], metric["#Cells"], metric["Util"] = get_statistics(fp)
+    # metric["#Net"] = get_net_num(route)
     
 
     return metric
@@ -225,34 +224,27 @@ def getMetrics(dir_path, method):
 
 if __name__ == '__main__':
 
-    variant_name = "_zumap"
-    dir_path = f"/home/shiyq/OpenROAD-flow-scripts/flow/logs/nangate45{variant_name}"
-    methods = ["RTLMP", "Hier", "DMP", "TDMP"]
+    dir_path = f"OpenROAD-PPA-evaluation/eval_metadata"
+    methods = ["RTLMP", "Hier-RTLMP", "DREAMPlace", "ReMaP"]
     metrics = []
     for method in methods:
         metric_dict = getMetrics(dir_path=dir_path, method=method)
         metrics.append(metric_dict)
-
-# 创建 DataFrame
     dataframes = []
     for dataset_name in metrics[0].keys():
         rows = []
         for idx, dataset in enumerate(metrics):
-            if dataset_name == 'tinyRocket':
-                continue
             method_data = dataset[dataset_name]
+            
             method_name = methods[idx]
             row = [method_name] + list(method_data.values())
             rows.append(row)
 
-        # 为每个项目创建 DataFrame，并设置列名
         df = pd.DataFrame(rows, columns=['Method'] + list(metrics[0][dataset_name].keys()))
-        df.insert(0, 'Dataset', dataset_name)  # 插入项目名称
+        df.insert(0, 'Dataset', dataset_name)  
         dataframes.append(df)
-        dataframes.append(pd.DataFrame([[]]))  # 添加一个空行作为分隔
+        dataframes.append(pd.DataFrame([[]]))  
 
-    # 合并所有 DataFrame
     final_df = pd.concat(dataframes, ignore_index=True)
 
-    # 保存到 CSV
-    final_df.to_csv(f'final{variant_name}.csv', index=False)
+    final_df.to_csv(f'main_table.csv', index=False)
