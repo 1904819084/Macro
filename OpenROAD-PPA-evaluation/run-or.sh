@@ -1,7 +1,5 @@
-# designs=("ariane133" "ariane136" "black_parrot" "bp_be_top" "bp_fe_top" "bp_multi_top" "bp_quad" "swerv_wrapper")
-# design_nicknames=("ariane133" "ariane136" "bp" "bp_be" "bp_fe" "bp_multi" "bp_quad" "swerv_wrapper")
-designs=("ariane133")
-design_nicknames=("ariane133")
+designs=("ariane133" "ariane136" "black_parrot" "bp_be_top" "bp_fe_top" "bp_multi_top" "bp_quad" "swerv_wrapper")
+design_nicknames=("ariane133" "ariane136" "bp" "bp_be" "bp_fe" "bp_multi" "bp_quad" "swerv_wrapper")
 
 array_length=${#designs[@]}
 
