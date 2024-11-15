@@ -6,14 +6,14 @@
 6. Executing Liberty frontend: ./objects/nangate45/bp_quad/RTLMP/lib/fakeram45_512x64.lib
 7. Executing Liberty frontend: ./objects/nangate45/bp_quad/RTLMP/lib/fakeram45_64x62.lib
 8. Executing Liberty frontend: ./objects/nangate45/bp_quad/RTLMP/lib/fakeram45_128x116.lib
-9. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+9. Executing Verilog-2005 frontend: /flow/platforms/nangate45/cells_clkgate.v
 Using ABC speed script.
 Extracting clock period from SDC file: ./results/nangate45/bp_quad/RTLMP/clock_period.txt
 Setting clock period to 5.2
 10. Executing HIERARCHY pass (managing design hierarchy).
 10.1. Analyzing design hierarchy..
 10.2. Analyzing design hierarchy..
-synth -top bsg_chip -run :fine -flatten -extra-map /home/shiyq/OR_1002/flow/platforms/common/lcu_kogge_stone.v
+synth -top bsg_chip -run :fine -flatten -extra-map /flow/platforms/common/lcu_kogge_stone.v
 11. Executing SYNTH pass.
 11.1. Executing HIERARCHY pass (managing design hierarchy).
 11.1.1. Analyzing design hierarchy..
@@ -240,8 +240,8 @@ Warning: Wire bsg_chip.\clk_out_mux.sel_i [1] is used but has no driver.
 12.3.33. Executing OPT_EXPR pass (perform const folding).
 12.3.34. Finished OPT passes. (There is nothing left to do.)
 12.4. Executing TECHMAP pass (map to technology primitives).
-12.4.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
-12.4.2. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/common/lcu_kogge_stone.v
+12.4.1. Executing Verilog-2005 frontend: /oss-cad-suite/lib/../share/yosys/techmap.v
+12.4.2. Executing Verilog-2005 frontend: /flow/platforms/common/lcu_kogge_stone.v
 12.4.3. Continuing TECHMAP pass.
 12.4.90. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
 12.4.91. Executing OPT_EXPR pass (perform const folding).
@@ -371,10 +371,10 @@ Warning: Wire bsg_chip.\clk_out_mux.sel_i [1] is used but has no driver.
 13.23. Finished OPT passes. (There is nothing left to do.)
 14. Executing EXTRACT_FA pass (find and extract full/half adders).
 15. Executing TECHMAP pass (map to technology primitives).
-15.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_adders.v
+15.1. Executing Verilog-2005 frontend: /flow/platforms/nangate45/cells_adders.v
 15.2. Continuing TECHMAP pass.
 16. Executing TECHMAP pass (map to technology primitives).
-16.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+16.1. Executing Verilog-2005 frontend: /oss-cad-suite/lib/../share/yosys/techmap.v
 16.2. Continuing TECHMAP pass.
 17. Executing OPT pass (performing simple optimizations).
 17.1. Executing OPT_EXPR pass (perform const folding).
@@ -383,7 +383,7 @@ Warning: Wire bsg_chip.\clk_out_mux.sel_i [1] is used but has no driver.
 17.4. Executing OPT_CLEAN pass (remove unused cells and wires).
 17.5. Finished fast OPT passes.
 18. Executing TECHMAP pass (map to technology primitives).
-18.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_latch.v
+18.1. Executing Verilog-2005 frontend: /flow/platforms/nangate45/cells_latch.v
 18.2. Continuing TECHMAP pass.
 19. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
 Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
@@ -412,7 +412,7 @@ Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SD
 20.14. Executing OPT_CLEAN pass (remove unused cells and wires).
 20.15. Executing OPT_EXPR pass (perform const folding).
 20.16. Finished OPT passes. (There is nothing left to do.)
-abc -script /home/shiyq/OR_1002/flow/scripts/abc_speed.script -liberty ./objects/nangate45/bp_quad/RTLMP/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/bp_quad/RTLMP/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 5.2
+abc -script /flow/scripts/abc_speed.script -liberty ./objects/nangate45/bp_quad/RTLMP/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/bp_quad/RTLMP/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 5.2
 21. Executing ABC pass (technology mapping using ABC).
 21.1. Extracting gate netlist of module `\bp_be_calculator_top_05' to `<abc-temp-dir>/input.blif'..
 21.1.1. Executing ABC.

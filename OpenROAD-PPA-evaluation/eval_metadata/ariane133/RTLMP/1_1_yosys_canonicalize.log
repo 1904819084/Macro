@@ -95,11 +95,11 @@ Imported 135 cell types from liberty file.
 4. Executing Liberty frontend: ./objects/nangate45/ariane133/RTLMP/lib/fakeram45_256x16.lib
 Imported 1 cell types from liberty file.
 
-5. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+5. Executing Verilog-2005 frontend: /flow/platforms/nangate45/cells_clkgate.v
 Using ABC speed script.
 Extracting clock period from SDC file: ./results/nangate45/ariane133/RTLMP/clock_period.txt
 Setting clock period to 4.0
-Parsing Verilog input from `/home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v' to AST representation.
+Parsing Verilog input from `/flow/platforms/nangate45/cells_clkgate.v' to AST representation.
 Storing AST representation for module `$abstract\OPENROAD_CLKGATE'.
 Successfully finished Verilog frontend.
 

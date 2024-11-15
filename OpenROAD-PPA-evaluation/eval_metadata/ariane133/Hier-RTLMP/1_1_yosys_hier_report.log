@@ -1,7 +1,7 @@
 1. Executing RTLIL frontend.
 2. Executing Liberty frontend: ./objects/nangate45/ariane133/Hier/lib/NangateOpenCellLibrary_typical.lib
 3. Executing Liberty frontend: ./objects/nangate45/ariane133/Hier/lib/fakeram45_256x16.lib
-4. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+4. Executing Verilog-2005 frontend: /flow/platforms/nangate45/cells_clkgate.v
 Using ABC speed script.
 Extracting clock period from SDC file: ./results/nangate45/ariane133/Hier/clock_period.txt
 Setting clock period to 4.0
@@ -215,7 +215,7 @@ Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_10 is used but has no d
 6.3.33. Executing OPT_EXPR pass (perform const folding).
 6.3.34. Finished OPT passes. (There is nothing left to do.)
 6.4. Executing TECHMAP pass (map to technology primitives).
-6.4.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+6.4.1. Executing Verilog-2005 frontend: /oss-cad-suite/lib/../share/yosys/techmap.v
 6.4.2. Continuing TECHMAP pass.
 6.5. Executing OPT pass (performing simple optimizations).
 6.5.1. Executing OPT_EXPR pass (perform const folding).
@@ -316,10 +316,10 @@ Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_10 is used but has no d
 6.9. Printing statistics.
 6.10. Executing CHECK pass (checking for obvious problems).
 7. Executing TECHMAP pass (map to technology primitives).
-7.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_adders.v
+7.1. Executing Verilog-2005 frontend: /flow/platforms/nangate45/cells_adders.v
 7.2. Continuing TECHMAP pass.
 8. Executing TECHMAP pass (map to technology primitives).
-8.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+8.1. Executing Verilog-2005 frontend: /oss-cad-suite/lib/../share/yosys/techmap.v
 8.2. Continuing TECHMAP pass.
 9. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
 Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
@@ -331,7 +331,7 @@ Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SD
 Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
 Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
 9.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
-abc -script /home/shiyq/OR_1002/flow/scripts/abc_speed.script -liberty ./objects/nangate45/ariane133/Hier/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/ariane133/Hier/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 4.0
+abc -script /flow/scripts/abc_speed.script -liberty ./objects/nangate45/ariane133/Hier/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/ariane133/Hier/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 4.0
 10. Executing ABC pass (technology mapping using ABC).
 10.1. Extracting gate netlist of module `\SyncSpRamBeNx64_00000008_00000100_0_2' to `<abc-temp-dir>/input.blif'..
 10.1.1. Executing ABC.
