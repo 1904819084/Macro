@@ -1,0 +1,228 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_0__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_1__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_2__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_icache/sram_block_3__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_0__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_1__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_2__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_3__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_4__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_5__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_6__tag_sram.genblk1_0__i_ram.macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_0__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_0__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_0__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_0__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_1__i_ram/macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_1__i_ram/macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_1__i_ram/macro_mem_2
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__data_sram/genblk1_1__i_ram/macro_mem_3
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__tag_sram.genblk1_0__i_ram.macro_mem_0
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__tag_sram.genblk1_0__i_ram.macro_mem_1
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - i_cache_subsystem/i_nbdcache/sram_block_7__tag_sram.genblk1_0__i_ram.macro_mem_2
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (13.8550, 389.1150) - (14.3350, 390.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (39.8300, 148.9000) - (40.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (39.8300, 208.9000) - (40.3100, 209.6550) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (67.8300, 194.1750) - (68.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (67.8300, 254.7950) - (68.3100, 255.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (95.8300, 148.9000) - (96.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (95.8300, 208.9000) - (96.3100, 209.6550) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (107.9350, 1075.3700) - (108.4150, 1076.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (108.2150, 18.1150) - (108.6950, 19.1700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (108.2150, 328.9150) - (108.6950, 330.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (108.2150, 389.1150) - (108.6950, 390.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (123.8300, 254.7950) - (124.3100, 255.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (123.8300, 1393.9000) - (124.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (151.8300, 148.9000) - (152.3100, 148.9650) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (151.8300, 208.9000) - (152.3100, 209.6550) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (151.8300, 1439.8250) - (152.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (179.8300, 254.7950) - (180.3100, 255.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (179.8300, 1393.9000) - (180.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (203.4150, 193.9000) - (203.8950, 194.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (205.3750, 1075.3700) - (205.8550, 1076.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (205.3750, 1135.3700) - (205.8550, 1135.4850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (235.8300, 194.1750) - (236.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (235.8300, 1393.9000) - (236.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (263.8300, 148.9000) - (264.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (263.8300, 1439.8250) - (264.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (291.8300, 194.1750) - (292.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (291.8300, 1393.9000) - (292.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (303.3750, 1075.3700) - (303.8550, 1076.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (304.7750, 18.1150) - (305.2550, 19.1700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (319.8300, 148.9000) - (320.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (319.8300, 1439.8250) - (320.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (347.8300, 194.1750) - (348.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (347.8300, 1393.9000) - (348.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (375.8300, 148.9000) - (376.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (375.8300, 1439.8250) - (376.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (431.8300, 148.9000) - (432.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (459.8300, 194.1750) - (460.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (459.8300, 1393.9000) - (460.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (487.8300, 148.9000) - (488.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (487.8300, 1439.8250) - (488.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (500.2150, 18.1150) - (500.6950, 19.1700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (515.8300, 194.1750) - (516.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (515.8300, 1393.9000) - (516.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (543.8300, 148.9000) - (544.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (543.8300, 1439.8250) - (544.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (571.8300, 194.1750) - (572.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (571.8300, 1393.9000) - (572.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (598.2150, 193.9000) - (598.6950, 194.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (599.8300, 1439.8250) - (600.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (627.8300, 194.1750) - (628.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (655.8300, 148.9000) - (656.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (655.8300, 1439.8250) - (656.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (683.8300, 194.1750) - (684.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (683.8300, 1393.9000) - (684.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (695.6550, 18.1150) - (696.1350, 19.1700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (711.8300, 1439.8250) - (712.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (739.8300, 1393.9000) - (740.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (767.8300, 1439.8250) - (768.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (795.8300, 1393.9000) - (796.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (851.8300, 1393.9000) - (852.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (879.8300, 1439.8250) - (880.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (891.0950, 18.1150) - (891.5750, 19.1700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (891.0950, 308.9700) - (891.5750, 309.4850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (907.8300, 1393.9000) - (908.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (935.8300, 1439.8250) - (936.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (963.8300, 1393.9000) - (964.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (991.8300, 1439.8250) - (992.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1047.8300, 1439.8250) - (1048.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1075.8300, 1393.9000) - (1076.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1091.8550, 18.1150) - (1092.3350, 19.1700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1103.8300, 1439.8250) - (1104.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1131.8300, 1393.9000) - (1132.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1159.8300, 1439.8250) - (1160.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1187.8300, 1393.9000) - (1188.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1243.8300, 1393.9000) - (1244.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1271.8300, 1439.8250) - (1272.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1299.8300, 1393.9000) - (1300.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1383.8300, 148.9000) - (1384.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1383.8300, 208.9000) - (1384.3100, 209.6550) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1383.8300, 1439.8250) - (1384.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1411.8300, 194.1750) - (1412.3100, 195.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1411.8300, 254.7950) - (1412.3100, 255.3000) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1411.8300, 1393.9000) - (1412.3100, 1394.6850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1439.8300, 148.9000) - (1440.3100, 149.0350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1439.8300, 208.9000) - (1440.3100, 209.6550) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1439.8300, 1439.8250) - (1440.3100, 1440.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1443.5350, 328.9150) - (1444.0150, 330.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1443.5350, 389.1150) - (1444.0150, 390.3000) on VDD
+[WARNING PDN-0110] No via inserted between metal6 and metal7 at (655.8300, 189.7700) - (655.9950, 191.1700) on VDD
+[WARNING PDN-0110] No via inserted between metal6 and metal7 at (655.8300, 128.9700) - (655.9950, 130.3700) on VDD
+Elapsed time: 0:09.22[h:]min:sec. CPU time: user 8.65 sys 0.56 (99%). Peak memory: 556584KB.

@@ -1,0 +1,794 @@
+1. Executing RTLIL frontend.
+2. Executing Liberty frontend: ./objects/nangate45/ariane136/Hier/lib/NangateOpenCellLibrary_typical.lib
+3. Executing Liberty frontend: ./objects/nangate45/ariane136/Hier/lib/fakeram45_256x16.lib
+4. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/nangate45/ariane136/Hier/clock_period.txt
+Setting clock period to 6
+synth -top ariane -run :fine
+5. Executing SYNTH pass.
+5.1. Executing HIERARCHY pass (managing design hierarchy).
+5.1.1. Analyzing design hierarchy..
+5.1.2. Analyzing design hierarchy..
+5.2. Executing PROC pass (convert processes to netlists).
+5.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+5.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+5.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+5.2.4. Executing PROC_INIT pass (extract init attributes).
+5.2.5. Executing PROC_ARST pass (detect async resets in processes).
+5.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+5.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+5.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+5.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+5.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+5.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+5.2.12. Executing OPT_EXPR pass (perform const folding).
+5.3. Executing OPT_EXPR pass (perform const folding).
+5.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.5. Executing CHECK pass (checking for obvious problems).
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_63 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_62 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_61 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_60 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_59 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_58 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_55 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_54 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_53 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_52 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_51 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_50 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_47 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_46 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_45 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_44 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_43 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_42 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_39 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_38 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_37 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_36 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_35 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_34 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_31 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_30 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_29 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_28 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_27 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_26 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_23 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_22 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_21 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_20 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_19 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_18 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_15 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_14 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_13 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_12 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_11 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata_10 is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata [7] is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata [6] is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata [5] is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata [4] is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata [3] is used but has no driver.
+Warning: Wire std_nbdcache_0000000080000000.\dirty_wdata [2] is used but has no driver.
+5.6. Executing OPT pass (performing simple optimizations).
+5.6.1. Executing OPT_EXPR pass (perform const folding).
+5.6.2. Executing OPT_MERGE pass (detect identical cells).
+5.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.6.5. Executing OPT_MERGE pass (detect identical cells).
+5.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+5.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.6.8. Executing OPT_EXPR pass (perform const folding).
+5.6.9. Rerunning OPT passes. (Maybe there is more to do..)
+5.6.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.6.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.6.12. Executing OPT_MERGE pass (detect identical cells).
+5.6.13. Executing OPT_DFF pass (perform DFF optimizations).
+5.6.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.6.15. Executing OPT_EXPR pass (perform const folding).
+5.6.16. Rerunning OPT passes. (Maybe there is more to do..)
+5.6.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.6.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.6.19. Executing OPT_MERGE pass (detect identical cells).
+5.6.20. Executing OPT_DFF pass (perform DFF optimizations).
+5.6.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.6.22. Executing OPT_EXPR pass (perform const folding).
+5.6.23. Finished OPT passes. (There is nothing left to do.)
+5.7. Executing FSM pass (extract and optimize FSM).
+5.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+5.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+5.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+5.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+5.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+5.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+5.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+5.8. Executing OPT pass (performing simple optimizations).
+5.8.1. Executing OPT_EXPR pass (perform const folding).
+5.8.2. Executing OPT_MERGE pass (detect identical cells).
+5.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.8.5. Executing OPT_MERGE pass (detect identical cells).
+5.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+5.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.8.8. Executing OPT_EXPR pass (perform const folding).
+5.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+5.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.8.12. Executing OPT_MERGE pass (detect identical cells).
+5.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+5.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.8.15. Executing OPT_EXPR pass (perform const folding).
+5.8.16. Rerunning OPT passes. (Maybe there is more to do..)
+5.8.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.8.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.8.19. Executing OPT_MERGE pass (detect identical cells).
+5.8.20. Executing OPT_DFF pass (perform DFF optimizations).
+5.8.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.8.22. Executing OPT_EXPR pass (perform const folding).
+5.8.23. Rerunning OPT passes. (Maybe there is more to do..)
+5.8.24. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.8.25. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.8.26. Executing OPT_MERGE pass (detect identical cells).
+5.8.27. Executing OPT_DFF pass (perform DFF optimizations).
+5.8.28. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.8.29. Executing OPT_EXPR pass (perform const folding).
+5.8.30. Finished OPT passes. (There is nothing left to do.)
+5.9. Executing WREDUCE pass (reducing word size of cells).
+5.10. Executing PEEPOPT pass (run peephole optimizers).
+5.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.12. Executing ALUMACC pass (create $alu and $macc cells).
+5.13. Executing SHARE pass (SAT-based resource sharing).
+5.14. Executing OPT pass (performing simple optimizations).
+5.14.1. Executing OPT_EXPR pass (perform const folding).
+5.14.2. Executing OPT_MERGE pass (detect identical cells).
+5.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.14.5. Executing OPT_MERGE pass (detect identical cells).
+5.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+5.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.14.8. Executing OPT_EXPR pass (perform const folding).
+5.14.9. Rerunning OPT passes. (Maybe there is more to do..)
+5.14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+5.14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+5.14.12. Executing OPT_MERGE pass (detect identical cells).
+5.14.13. Executing OPT_DFF pass (perform DFF optimizations).
+5.14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.14.15. Executing OPT_EXPR pass (perform const folding).
+5.14.16. Finished OPT passes. (There is nothing left to do.)
+5.15. Executing MEMORY pass.
+5.15.1. Executing OPT_MEM pass (optimize memories).
+5.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+5.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+5.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+5.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+5.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+5.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+5.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+5.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+5.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+6. Executing SYNTH pass.
+6.1. Executing OPT pass (performing simple optimizations).
+6.1.1. Executing OPT_EXPR pass (perform const folding).
+6.1.2. Executing OPT_MERGE pass (detect identical cells).
+6.1.3. Executing OPT_DFF pass (perform DFF optimizations).
+6.1.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.1.5. Rerunning OPT passes. (Removed registers in this run.)
+6.1.6. Executing OPT_EXPR pass (perform const folding).
+6.1.7. Executing OPT_MERGE pass (detect identical cells).
+6.1.8. Executing OPT_DFF pass (perform DFF optimizations).
+6.1.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.1.10. Finished fast OPT passes.
+6.2. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+6.3. Executing OPT pass (performing simple optimizations).
+6.3.1. Executing OPT_EXPR pass (perform const folding).
+6.3.2. Executing OPT_MERGE pass (detect identical cells).
+6.3.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+6.3.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+6.3.5. Executing OPT_MERGE pass (detect identical cells).
+6.3.6. Executing OPT_SHARE pass.
+6.3.7. Executing OPT_DFF pass (perform DFF optimizations).
+6.3.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.3.9. Executing OPT_EXPR pass (perform const folding).
+6.3.10. Rerunning OPT passes. (Maybe there is more to do..)
+6.3.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+6.3.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+6.3.13. Executing OPT_MERGE pass (detect identical cells).
+6.3.14. Executing OPT_SHARE pass.
+6.3.15. Executing OPT_DFF pass (perform DFF optimizations).
+6.3.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.3.17. Executing OPT_EXPR pass (perform const folding).
+6.3.18. Rerunning OPT passes. (Maybe there is more to do..)
+6.3.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+6.3.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+6.3.21. Executing OPT_MERGE pass (detect identical cells).
+6.3.22. Executing OPT_SHARE pass.
+6.3.23. Executing OPT_DFF pass (perform DFF optimizations).
+6.3.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.3.25. Executing OPT_EXPR pass (perform const folding).
+6.3.26. Rerunning OPT passes. (Maybe there is more to do..)
+6.3.27. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+6.3.28. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+6.3.29. Executing OPT_MERGE pass (detect identical cells).
+6.3.30. Executing OPT_SHARE pass.
+6.3.31. Executing OPT_DFF pass (perform DFF optimizations).
+6.3.32. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.3.33. Executing OPT_EXPR pass (perform const folding).
+6.3.34. Finished OPT passes. (There is nothing left to do.)
+6.4. Executing TECHMAP pass (map to technology primitives).
+6.4.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+6.4.2. Continuing TECHMAP pass.
+6.5. Executing OPT pass (performing simple optimizations).
+6.5.1. Executing OPT_EXPR pass (perform const folding).
+6.5.2. Executing OPT_MERGE pass (detect identical cells).
+6.5.3. Executing OPT_DFF pass (perform DFF optimizations).
+6.5.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.5.5. Finished fast OPT passes.
+6.6. Executing ABC pass (technology mapping using ABC).
+6.6.1. Extracting gate netlist of module `\SyncSpRamBeNx64_00000008_00000100_0_2' to `<abc-temp-dir>/input.blif'..
+6.6.2. Extracting gate netlist of module `\SyncSpRamBeNx64_00000008_00000100_0_2_d44' to `<abc-temp-dir>/input.blif'..
+6.6.3. Extracting gate netlist of module `\SyncSpRamBeNx64_00000008_00000100_0_2_d45' to `<abc-temp-dir>/input.blif'..
+6.6.4. Extracting gate netlist of module `\alu' to `<abc-temp-dir>/input.blif'..
+6.6.5. Extracting gate netlist of module `\amo_alu' to `<abc-temp-dir>/input.blif'..
+6.6.6. Extracting gate netlist of module `\amo_buffer' to `<abc-temp-dir>/input.blif'..
+6.6.7. Extracting gate netlist of module `\arbiter_00000003_64' to `<abc-temp-dir>/input.blif'..
+6.6.8. Extracting gate netlist of module `\ariane' to `<abc-temp-dir>/input.blif'..
+6.6.9. Extracting gate netlist of module `\ariane_regfile_64_2_00000002_1' to `<abc-temp-dir>/input.blif'..
+6.6.10. Extracting gate netlist of module `\axi_adapter_00000080_4_00000004' to `<abc-temp-dir>/input.blif'..
+6.6.11. Extracting gate netlist of module `\axi_adapter_64_4_00000004' to `<abc-temp-dir>/input.blif'..
+6.6.12. Extracting gate netlist of module `\bht_NR_ENTRIES128' to `<abc-temp-dir>/input.blif'..
+6.6.13. Extracting gate netlist of module `\branch_unit' to `<abc-temp-dir>/input.blif'..
+6.6.14. Extracting gate netlist of module `\btb_NR_ENTRIES64' to `<abc-temp-dir>/input.blif'..
+6.6.15. Extracting gate netlist of module `\cache_ctrl_0000000080000000' to `<abc-temp-dir>/input.blif'..
+6.6.16. Extracting gate netlist of module `\commit_stage' to `<abc-temp-dir>/input.blif'..
+6.6.17. Extracting gate netlist of module `\compressed_decoder' to `<abc-temp-dir>/input.blif'..
+6.6.18. Extracting gate netlist of module `\controller' to `<abc-temp-dir>/input.blif'..
+6.6.19. Extracting gate netlist of module `\csr_buffer' to `<abc-temp-dir>/input.blif'..
+6.6.20. Extracting gate netlist of module `\csr_regfile_0000000000000000_1' to `<abc-temp-dir>/input.blif'..
+6.6.21. Extracting gate netlist of module `\decoder' to `<abc-temp-dir>/input.blif'..
+6.6.22. Extracting gate netlist of module `\ex_stage' to `<abc-temp-dir>/input.blif'..
+6.6.23. Extracting gate netlist of module `\fifo_v2_DEPTH1_ALM_EMPTY_TH0_ALM_FULL_TH0' to `<abc-temp-dir>/input.blif'..
+6.6.24. Extracting gate netlist of module `\fifo_v2_DEPTH8' to `<abc-temp-dir>/input.blif'..
+6.6.25. Extracting gate netlist of module `\fifo_v3_0_00000020_00000001' to `<abc-temp-dir>/input.blif'..
+6.6.26. Extracting gate netlist of module `\fifo_v3_0_00000020_00000008' to `<abc-temp-dir>/input.blif'..
+6.6.27. Extracting gate netlist of module `\fifo_v3_DATA_WIDTH2_DEPTH4' to `<abc-temp-dir>/input.blif'..
+6.6.28. Extracting gate netlist of module `\frontend_0000000000000000' to `<abc-temp-dir>/input.blif'..
+6.6.29. Extracting gate netlist of module `\id_stage' to `<abc-temp-dir>/input.blif'..
+6.6.30. Extracting gate netlist of module `\instr_realigner' to `<abc-temp-dir>/input.blif'..
+6.6.31. Extracting gate netlist of module `\instr_scan' to `<abc-temp-dir>/input.blif'..
+6.6.32. Extracting gate netlist of module `\issue_read_operands' to `<abc-temp-dir>/input.blif'..
+6.6.33. Extracting gate netlist of module `\issue_stage_NR_ENTRIES8_NR_WB_PORTS4' to `<abc-temp-dir>/input.blif'..
+6.6.34. Extracting gate netlist of module `\lfsr_8bit_00000004' to `<abc-temp-dir>/input.blif'..
+6.6.35. Extracting gate netlist of module `\lfsr_8bit_00000008' to `<abc-temp-dir>/input.blif'..
+6.6.36. Extracting gate netlist of module `\limping_SyncSpRamBeNx64_00000008_00000100_0_2' to `<abc-temp-dir>/input.blif'..
+6.6.37. Extracting gate netlist of module `\load_store_unit' to `<abc-temp-dir>/input.blif'..
+6.6.38. Extracting gate netlist of module `\load_unit' to `<abc-temp-dir>/input.blif'..
+6.6.39. Extracting gate netlist of module `\lsu_bypass' to `<abc-temp-dir>/input.blif'..
+6.6.40. Extracting gate netlist of module `\lzc_00000003' to `<abc-temp-dir>/input.blif'..
+6.6.41. Extracting gate netlist of module `\lzc_00000004' to `<abc-temp-dir>/input.blif'..
+6.6.42. Extracting gate netlist of module `\lzc_WIDTH64_MODE1' to `<abc-temp-dir>/input.blif'..
+6.6.43. Extracting gate netlist of module `\miss_handler_NR_PORTS3' to `<abc-temp-dir>/input.blif'..
+6.6.44. Extracting gate netlist of module `\mmu_16_16_00000001' to `<abc-temp-dir>/input.blif'..
+6.6.45. Extracting gate netlist of module `\mult' to `<abc-temp-dir>/input.blif'..
+6.6.46. Extracting gate netlist of module `\multiplier' to `<abc-temp-dir>/input.blif'..
+6.6.47. Extracting gate netlist of module `\perf_counters' to `<abc-temp-dir>/input.blif'..
+6.6.48. Extracting gate netlist of module `\pipe_reg_simple_Depth0' to `<abc-temp-dir>/input.blif'..
+6.6.49. Extracting gate netlist of module `\pipe_reg_simple_Depth1' to `<abc-temp-dir>/input.blif'..
+6.6.50. Extracting gate netlist of module `\ptw_s00000001' to `<abc-temp-dir>/input.blif'..
+6.6.51. Extracting gate netlist of module `\ras_DEPTH2' to `<abc-temp-dir>/input.blif'..
+6.6.52. Extracting gate netlist of module `\re_name' to `<abc-temp-dir>/input.blif'..
+6.6.53. Extracting gate netlist of module `\rrarbiter_NUM_REQ3_LOCK_IN1' to `<abc-temp-dir>/input.blif'..
+6.6.54. Extracting gate netlist of module `\scoreboard_00000008_00000004' to `<abc-temp-dir>/input.blif'..
+6.6.55. Extracting gate netlist of module `\serdiv_WIDTH64' to `<abc-temp-dir>/input.blif'..
+6.6.56. Extracting gate netlist of module `\sram_0000002c_256' to `<abc-temp-dir>/input.blif'..
+6.6.57. Extracting gate netlist of module `\sram_0000002d_00000100' to `<abc-temp-dir>/input.blif'..
+6.6.58. Extracting gate netlist of module `\sram_00000040_256' to `<abc-temp-dir>/input.blif'..
+6.6.59. Extracting gate netlist of module `\sram_00000080_00000100' to `<abc-temp-dir>/input.blif'..
+6.6.60. Extracting gate netlist of module `\std_cache_subsystem_0000000080000000' to `<abc-temp-dir>/input.blif'..
+6.6.61. Extracting gate netlist of module `\std_icache' to `<abc-temp-dir>/input.blif'..
+6.6.62. Extracting gate netlist of module `\std_nbdcache_0000000080000000' to `<abc-temp-dir>/input.blif'..
+6.6.63. Extracting gate netlist of module `\store_buffer' to `<abc-temp-dir>/input.blif'..
+6.6.64. Extracting gate netlist of module `\store_unit' to `<abc-temp-dir>/input.blif'..
+6.6.65. Extracting gate netlist of module `\stream_arbiter_N_INP3' to `<abc-temp-dir>/input.blif'..
+6.6.66. Extracting gate netlist of module `\stream_arbiter_N_INP3_1' to `<abc-temp-dir>/input.blif'..
+6.6.67. Extracting gate netlist of module `\stream_demux_N_OUP3' to `<abc-temp-dir>/input.blif'..
+6.6.68. Extracting gate netlist of module `\stream_mux_N_INP3' to `<abc-temp-dir>/input.blif'..
+6.6.69. Extracting gate netlist of module `\tag_cmp_4_0000000c_00000008' to `<abc-temp-dir>/input.blif'..
+6.6.70. Extracting gate netlist of module `\tlb_00000010_00000001' to `<abc-temp-dir>/input.blif'..
+6.7. Executing OPT pass (performing simple optimizations).
+6.7.1. Executing OPT_EXPR pass (perform const folding).
+6.7.2. Executing OPT_MERGE pass (detect identical cells).
+6.7.3. Executing OPT_DFF pass (perform DFF optimizations).
+6.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.7.5. Rerunning OPT passes. (Removed registers in this run.)
+6.7.6. Executing OPT_EXPR pass (perform const folding).
+6.7.7. Executing OPT_MERGE pass (detect identical cells).
+6.7.8. Executing OPT_DFF pass (perform DFF optimizations).
+6.7.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.7.10. Rerunning OPT passes. (Removed registers in this run.)
+6.7.11. Executing OPT_EXPR pass (perform const folding).
+6.7.12. Executing OPT_MERGE pass (detect identical cells).
+6.7.13. Executing OPT_DFF pass (perform DFF optimizations).
+6.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+6.7.15. Finished fast OPT passes.
+6.8. Executing HIERARCHY pass (managing design hierarchy).
+6.8.1. Analyzing design hierarchy..
+6.8.2. Analyzing design hierarchy..
+6.9. Printing statistics.
+6.10. Executing CHECK pass (checking for obvious problems).
+7. Executing TECHMAP pass (map to technology primitives).
+7.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_adders.v
+7.2. Continuing TECHMAP pass.
+8. Executing TECHMAP pass (map to technology primitives).
+8.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+8.2. Continuing TECHMAP pass.
+9. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+9.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+abc -script /home/shiyq/OR_1002/flow/scripts/abc_speed.script -liberty ./objects/nangate45/ariane136/Hier/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/ariane136/Hier/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 6
+10. Executing ABC pass (technology mapping using ABC).
+10.1. Extracting gate netlist of module `\SyncSpRamBeNx64_00000008_00000100_0_2' to `<abc-temp-dir>/input.blif'..
+10.1.1. Executing ABC.
+10.1.2. Re-integrating ABC results.
+10.2. Extracting gate netlist of module `\SyncSpRamBeNx64_00000008_00000100_0_2_d44' to `<abc-temp-dir>/input.blif'..
+10.2.1. Executing ABC.
+10.2.2. Re-integrating ABC results.
+10.3. Extracting gate netlist of module `\SyncSpRamBeNx64_00000008_00000100_0_2_d45' to `<abc-temp-dir>/input.blif'..
+10.3.1. Executing ABC.
+10.3.2. Re-integrating ABC results.
+10.4. Extracting gate netlist of module `\alu' to `<abc-temp-dir>/input.blif'..
+10.4.1. Executing ABC.
+10.4.2. Re-integrating ABC results.
+10.5. Extracting gate netlist of module `\amo_alu' to `<abc-temp-dir>/input.blif'..
+10.5.1. Executing ABC.
+10.5.2. Re-integrating ABC results.
+10.6. Extracting gate netlist of module `\amo_buffer' to `<abc-temp-dir>/input.blif'..
+10.6.1. Executing ABC.
+10.6.2. Re-integrating ABC results.
+10.7. Extracting gate netlist of module `\arbiter_00000003_64' to `<abc-temp-dir>/input.blif'..
+10.7.1. Executing ABC.
+10.7.2. Re-integrating ABC results.
+10.8. Extracting gate netlist of module `\ariane' to `<abc-temp-dir>/input.blif'..
+10.8.1. Executing ABC.
+10.8.2. Re-integrating ABC results.
+10.9. Extracting gate netlist of module `\ariane_regfile_64_2_00000002_1' to `<abc-temp-dir>/input.blif'..
+10.9.1. Executing ABC.
+10.9.2. Re-integrating ABC results.
+10.10. Extracting gate netlist of module `\axi_adapter_00000080_4_00000004' to `<abc-temp-dir>/input.blif'..
+10.10.1. Executing ABC.
+10.10.2. Re-integrating ABC results.
+10.11. Extracting gate netlist of module `\axi_adapter_64_4_00000004' to `<abc-temp-dir>/input.blif'..
+10.11.1. Executing ABC.
+10.11.2. Re-integrating ABC results.
+10.12. Extracting gate netlist of module `\bht_NR_ENTRIES128' to `<abc-temp-dir>/input.blif'..
+10.12.1. Executing ABC.
+10.12.2. Re-integrating ABC results.
+10.13. Extracting gate netlist of module `\branch_unit' to `<abc-temp-dir>/input.blif'..
+10.13.1. Executing ABC.
+10.13.2. Re-integrating ABC results.
+10.14. Extracting gate netlist of module `\btb_NR_ENTRIES64' to `<abc-temp-dir>/input.blif'..
+10.14.1. Executing ABC.
+10.14.2. Re-integrating ABC results.
+10.15. Extracting gate netlist of module `\cache_ctrl_0000000080000000' to `<abc-temp-dir>/input.blif'..
+10.15.1. Executing ABC.
+10.15.2. Re-integrating ABC results.
+10.16. Extracting gate netlist of module `\commit_stage' to `<abc-temp-dir>/input.blif'..
+10.16.1. Executing ABC.
+10.16.2. Re-integrating ABC results.
+10.17. Extracting gate netlist of module `\compressed_decoder' to `<abc-temp-dir>/input.blif'..
+10.17.1. Executing ABC.
+10.17.2. Re-integrating ABC results.
+10.18. Extracting gate netlist of module `\controller' to `<abc-temp-dir>/input.blif'..
+10.18.1. Executing ABC.
+10.18.2. Re-integrating ABC results.
+10.19. Extracting gate netlist of module `\csr_buffer' to `<abc-temp-dir>/input.blif'..
+10.19.1. Executing ABC.
+10.19.2. Re-integrating ABC results.
+10.20. Extracting gate netlist of module `\csr_regfile_0000000000000000_1' to `<abc-temp-dir>/input.blif'..
+10.20.1. Executing ABC.
+10.20.2. Re-integrating ABC results.
+10.21. Extracting gate netlist of module `\decoder' to `<abc-temp-dir>/input.blif'..
+10.21.1. Executing ABC.
+10.21.2. Re-integrating ABC results.
+10.22. Extracting gate netlist of module `\ex_stage' to `<abc-temp-dir>/input.blif'..
+10.22.1. Executing ABC.
+10.22.2. Re-integrating ABC results.
+10.23. Extracting gate netlist of module `\fifo_v2_DEPTH1_ALM_EMPTY_TH0_ALM_FULL_TH0' to `<abc-temp-dir>/input.blif'..
+10.23.1. Executing ABC.
+10.23.2. Re-integrating ABC results.
+10.24. Extracting gate netlist of module `\fifo_v2_DEPTH8' to `<abc-temp-dir>/input.blif'..
+10.24.1. Executing ABC.
+10.24.2. Re-integrating ABC results.
+10.25. Extracting gate netlist of module `\fifo_v3_0_00000020_00000001' to `<abc-temp-dir>/input.blif'..
+10.25.1. Executing ABC.
+10.25.2. Re-integrating ABC results.
+10.26. Extracting gate netlist of module `\fifo_v3_0_00000020_00000008' to `<abc-temp-dir>/input.blif'..
+10.26.1. Executing ABC.
+10.26.2. Re-integrating ABC results.
+10.27. Extracting gate netlist of module `\fifo_v3_DATA_WIDTH2_DEPTH4' to `<abc-temp-dir>/input.blif'..
+10.27.1. Executing ABC.
+10.27.2. Re-integrating ABC results.
+10.28. Extracting gate netlist of module `\frontend_0000000000000000' to `<abc-temp-dir>/input.blif'..
+10.28.1. Executing ABC.
+10.28.2. Re-integrating ABC results.
+10.29. Extracting gate netlist of module `\id_stage' to `<abc-temp-dir>/input.blif'..
+10.29.1. Executing ABC.
+10.29.2. Re-integrating ABC results.
+10.30. Extracting gate netlist of module `\instr_realigner' to `<abc-temp-dir>/input.blif'..
+10.30.1. Executing ABC.
+10.30.2. Re-integrating ABC results.
+10.31. Extracting gate netlist of module `\instr_scan' to `<abc-temp-dir>/input.blif'..
+10.31.1. Executing ABC.
+10.31.2. Re-integrating ABC results.
+10.32. Extracting gate netlist of module `\issue_read_operands' to `<abc-temp-dir>/input.blif'..
+10.32.1. Executing ABC.
+10.32.2. Re-integrating ABC results.
+10.33. Extracting gate netlist of module `\issue_stage_NR_ENTRIES8_NR_WB_PORTS4' to `<abc-temp-dir>/input.blif'..
+10.34. Extracting gate netlist of module `\lfsr_8bit_00000004' to `<abc-temp-dir>/input.blif'..
+10.34.1. Executing ABC.
+10.34.2. Re-integrating ABC results.
+10.35. Extracting gate netlist of module `\lfsr_8bit_00000008' to `<abc-temp-dir>/input.blif'..
+10.35.1. Executing ABC.
+10.35.2. Re-integrating ABC results.
+10.36. Extracting gate netlist of module `\limping_SyncSpRamBeNx64_00000008_00000100_0_2' to `<abc-temp-dir>/input.blif'..
+10.36.1. Executing ABC.
+10.36.2. Re-integrating ABC results.
+10.37. Extracting gate netlist of module `\load_store_unit' to `<abc-temp-dir>/input.blif'..
+10.37.1. Executing ABC.
+10.37.2. Re-integrating ABC results.
+10.38. Extracting gate netlist of module `\load_unit' to `<abc-temp-dir>/input.blif'..
+10.38.1. Executing ABC.
+10.38.2. Re-integrating ABC results.
+10.39. Extracting gate netlist of module `\lsu_bypass' to `<abc-temp-dir>/input.blif'..
+10.39.1. Executing ABC.
+10.39.2. Re-integrating ABC results.
+10.40. Extracting gate netlist of module `\lzc_00000003' to `<abc-temp-dir>/input.blif'..
+10.40.1. Executing ABC.
+10.40.2. Re-integrating ABC results.
+10.41. Extracting gate netlist of module `\lzc_00000004' to `<abc-temp-dir>/input.blif'..
+10.41.1. Executing ABC.
+10.41.2. Re-integrating ABC results.
+10.42. Extracting gate netlist of module `\lzc_WIDTH64_MODE1' to `<abc-temp-dir>/input.blif'..
+10.42.1. Executing ABC.
+10.42.2. Re-integrating ABC results.
+10.43. Extracting gate netlist of module `\miss_handler_NR_PORTS3' to `<abc-temp-dir>/input.blif'..
+10.43.1. Executing ABC.
+10.43.2. Re-integrating ABC results.
+10.44. Extracting gate netlist of module `\mmu_16_16_00000001' to `<abc-temp-dir>/input.blif'..
+10.44.1. Executing ABC.
+10.44.2. Re-integrating ABC results.
+10.45. Extracting gate netlist of module `\mult' to `<abc-temp-dir>/input.blif'..
+10.45.1. Executing ABC.
+10.45.2. Re-integrating ABC results.
+10.46. Extracting gate netlist of module `\multiplier' to `<abc-temp-dir>/input.blif'..
+10.46.1. Executing ABC.
+10.46.2. Re-integrating ABC results.
+10.47. Extracting gate netlist of module `\perf_counters' to `<abc-temp-dir>/input.blif'..
+10.47.1. Executing ABC.
+10.47.2. Re-integrating ABC results.
+10.48. Extracting gate netlist of module `\pipe_reg_simple_Depth0' to `<abc-temp-dir>/input.blif'..
+10.49. Extracting gate netlist of module `\pipe_reg_simple_Depth1' to `<abc-temp-dir>/input.blif'..
+10.50. Extracting gate netlist of module `\ptw_s00000001' to `<abc-temp-dir>/input.blif'..
+10.50.1. Executing ABC.
+10.50.2. Re-integrating ABC results.
+10.51. Extracting gate netlist of module `\ras_DEPTH2' to `<abc-temp-dir>/input.blif'..
+10.51.1. Executing ABC.
+10.51.2. Re-integrating ABC results.
+10.52. Extracting gate netlist of module `\re_name' to `<abc-temp-dir>/input.blif'..
+10.53. Extracting gate netlist of module `\rrarbiter_NUM_REQ3_LOCK_IN1' to `<abc-temp-dir>/input.blif'..
+10.53.1. Executing ABC.
+10.53.2. Re-integrating ABC results.
+10.54. Extracting gate netlist of module `\scoreboard_00000008_00000004' to `<abc-temp-dir>/input.blif'..
+10.54.1. Executing ABC.
+10.54.2. Re-integrating ABC results.
+10.55. Extracting gate netlist of module `\serdiv_WIDTH64' to `<abc-temp-dir>/input.blif'..
+10.55.1. Executing ABC.
+10.55.2. Re-integrating ABC results.
+10.56. Extracting gate netlist of module `\sram_0000002c_256' to `<abc-temp-dir>/input.blif'..
+10.57. Extracting gate netlist of module `\sram_0000002d_00000100' to `<abc-temp-dir>/input.blif'..
+10.58. Extracting gate netlist of module `\sram_00000040_256' to `<abc-temp-dir>/input.blif'..
+10.59. Extracting gate netlist of module `\sram_00000080_00000100' to `<abc-temp-dir>/input.blif'..
+10.60. Extracting gate netlist of module `\std_cache_subsystem_0000000080000000' to `<abc-temp-dir>/input.blif'..
+10.60.1. Executing ABC.
+10.60.2. Re-integrating ABC results.
+10.61. Extracting gate netlist of module `\std_icache' to `<abc-temp-dir>/input.blif'..
+10.61.1. Executing ABC.
+10.61.2. Re-integrating ABC results.
+10.62. Extracting gate netlist of module `\std_nbdcache_0000000080000000' to `<abc-temp-dir>/input.blif'..
+10.62.1. Executing ABC.
+10.62.2. Re-integrating ABC results.
+10.63. Extracting gate netlist of module `\store_buffer' to `<abc-temp-dir>/input.blif'..
+10.63.1. Executing ABC.
+10.63.2. Re-integrating ABC results.
+10.64. Extracting gate netlist of module `\store_unit' to `<abc-temp-dir>/input.blif'..
+10.64.1. Executing ABC.
+10.64.2. Re-integrating ABC results.
+10.65. Extracting gate netlist of module `\stream_arbiter_N_INP3' to `<abc-temp-dir>/input.blif'..
+10.65.1. Executing ABC.
+10.65.2. Re-integrating ABC results.
+10.66. Extracting gate netlist of module `\stream_arbiter_N_INP3_1' to `<abc-temp-dir>/input.blif'..
+10.66.1. Executing ABC.
+10.66.2. Re-integrating ABC results.
+10.67. Extracting gate netlist of module `\stream_demux_N_OUP3' to `<abc-temp-dir>/input.blif'..
+10.67.1. Executing ABC.
+10.67.2. Re-integrating ABC results.
+10.68. Extracting gate netlist of module `\stream_mux_N_INP3' to `<abc-temp-dir>/input.blif'..
+10.68.1. Executing ABC.
+10.68.2. Re-integrating ABC results.
+10.69. Extracting gate netlist of module `\tag_cmp_4_0000000c_00000008' to `<abc-temp-dir>/input.blif'..
+10.69.1. Executing ABC.
+10.69.2. Re-integrating ABC results.
+10.70. Extracting gate netlist of module `\tlb_00000010_00000001' to `<abc-temp-dir>/input.blif'..
+10.70.1. Executing ABC.
+10.70.2. Re-integrating ABC results.
+11. Printing statistics.
+Ungroup modules of size 10000
+12. Executing HIERARCHY pass (managing design hierarchy).
+12.1. Analyzing design hierarchy..
+12.2. Analyzing design hierarchy..
+Found module ariane
+Found module commit_stage
+Found module controller
+Found module csr_regfile_0000000000000000_1
+Found module ex_stage
+Found module alu
+Found module branch_unit
+Found module csr_buffer
+Found module load_store_unit
+Found module load_unit
+Found module lsu_bypass
+Found module mmu_16_16_00000001
+Found module ptw_s00000001
+Found module tlb_00000010_00000001
+Found module pipe_reg_simple_Depth0
+Found module pipe_reg_simple_Depth1
+Found module store_unit
+Found module amo_buffer
+Found module fifo_v2_DEPTH1_ALM_EMPTY_TH0_ALM_FULL_TH0
+Found module fifo_v3_0_00000020_00000001
+Found module store_buffer
+Found module mult
+Found module multiplier
+Found module serdiv_WIDTH64
+Found module lzc_WIDTH64_MODE1
+Found module frontend_0000000000000000
+Found module bht_NR_ENTRIES128
+Found module btb_NR_ENTRIES64
+Found module fifo_v2_DEPTH8
+Found module fifo_v3_0_00000020_00000008
+Found module instr_scan
+Found module ras_DEPTH2
+Found module id_stage
+Found module compressed_decoder
+Found module decoder
+Found module instr_realigner
+Found module issue_stage_NR_ENTRIES8_NR_WB_PORTS4
+Found module issue_read_operands
+Found module ariane_regfile_64_2_00000002_1
+Found module re_name
+Found module scoreboard_00000008_00000004
+Found module perf_counters
+Found module std_cache_subsystem_0000000080000000
+Found module fifo_v3_DATA_WIDTH2_DEPTH4
+Found module std_icache
+Found module lfsr_8bit_00000004
+Found module lzc_00000004
+Found module sram_0000002d_00000100
+Found module SyncSpRamBeNx64_00000008_00000100_0_2_d45
+Found module sram_00000080_00000100
+Found module SyncSpRamBeNx64_00000008_00000100_0_2
+Found module std_nbdcache_0000000080000000
+Found module cache_ctrl_0000000080000000
+Found module miss_handler_NR_PORTS3
+Found module amo_alu
+Found module arbiter_00000003_64
+Found module axi_adapter_00000080_4_00000004
+Found module axi_adapter_64_4_00000004
+Found module lfsr_8bit_00000008
+Found module sram_0000002c_256
+Found module SyncSpRamBeNx64_00000008_00000100_0_2_d44
+Found module sram_00000040_256
+Found module limping_SyncSpRamBeNx64_00000008_00000100_0_2
+Found module sram_00000080_00000100
+Found module SyncSpRamBeNx64_00000008_00000100_0_2
+Found module tag_cmp_4_0000000c_00000008
+Found module stream_arbiter_N_INP3
+Found module rrarbiter_NUM_REQ3_LOCK_IN1
+Found module lzc_00000003
+Found module stream_arbiter_N_INP3_1
+Found module rrarbiter_NUM_REQ3_LOCK_IN1
+Found module lzc_00000003
+Found module stream_demux_N_OUP3
+Found module stream_mux_N_INP3
+13. Printing statistics.
+Area of module \ariane is 763683.872000
+Preserving hierarchical module: \ariane
+14. Printing statistics.
+Area of module \commit_stage is 711.816000
+15. Printing statistics.
+Area of module \controller is 29.792000
+16. Printing statistics.
+Area of module \csr_regfile_0000000000000000_1 is 15158.276000
+Preserving hierarchical module: \csr_regfile_0000000000000000_1
+17. Printing statistics.
+Area of module \ex_stage is 114999.514000
+Preserving hierarchical module: \ex_stage
+18. Printing statistics.
+Area of module \alu is 3843.966000
+19. Printing statistics.
+Area of module \branch_unit is 2374.050000
+20. Printing statistics.
+Area of module \csr_buffer is 100.282000
+21. Printing statistics.
+Area of module \load_store_unit is 57413.972000
+Preserving hierarchical module: \load_store_unit
+22. Printing statistics.
+Area of module \load_unit is 810.236000
+23. Printing statistics.
+Area of module \lsu_bypass is 3050.488000
+24. Printing statistics.
+Area of module \mmu_16_16_00000001 is 34556.060000
+Preserving hierarchical module: \mmu_16_16_00000001
+25. Printing statistics.
+Area of module \ptw_s00000001 is 1420.972000
+26. Printing statistics.
+Area of module \tlb_00000010_00000001 is 15503.810000
+Preserving hierarchical module: \tlb_00000010_00000001
+27. Printing statistics.
+28. Printing statistics.
+Area of module \pipe_reg_simple_Depth1 is 1048.040000
+29. Printing statistics.
+Area of module \store_unit is 16896.054000
+Preserving hierarchical module: \store_unit
+30. Printing statistics.
+Area of module \amo_buffer is 1068.256000
+31. Printing statistics.
+Area of module \fifo_v2_DEPTH1_ALM_EMPTY_TH0_ALM_FULL_TH0 is 1065.330000
+32. Printing statistics.
+Area of module \fifo_v3_0_00000020_00000001 is 1064.798000
+33. Printing statistics.
+Area of module \store_buffer is 14474.390000
+Preserving hierarchical module: \store_buffer
+34. Printing statistics.
+Area of module \mult is 50147.118000
+Preserving hierarchical module: \mult
+35. Printing statistics.
+Area of module \multiplier is 44110.248000
+Preserving hierarchical module: \multiplier
+36. Printing statistics.
+Area of module \serdiv_WIDTH64 is 5599.566000
+37. Printing statistics.
+Area of module \lzc_WIDTH64_MODE1 is 183.806000
+38. Printing statistics.
+Area of module \frontend_0000000000000000 is 66706.682000
+Preserving hierarchical module: \frontend_0000000000000000
+39. Printing statistics.
+Area of module \bht_NR_ENTRIES128 is 5589.458000
+40. Printing statistics.
+Area of module \btb_NR_ENTRIES64 is 37847.810000
+Preserving hierarchical module: \btb_NR_ENTRIES64
+41. Printing statistics.
+Area of module \fifo_v2_DEPTH8 is 12992.770000
+Preserving hierarchical module: \fifo_v2_DEPTH8
+42. Printing statistics.
+Area of module \fifo_v3_0_00000020_00000008 is 12989.046000
+Preserving hierarchical module: \fifo_v3_0_00000020_00000008
+43. Printing statistics.
+Area of module \instr_scan is 72.086000
+44. Printing statistics.
+Area of module \ras_DEPTH2 is 1207.374000
+45. Printing statistics.
+Area of module \id_stage is 5354.048000
+46. Printing statistics.
+Area of module \compressed_decoder is 608.076000
+47. Printing statistics.
+Area of module \decoder is 933.128000
+48. Printing statistics.
+Area of module \instr_realigner is 971.166000
+49. Printing statistics.
+Area of module \issue_stage_NR_ENTRIES8_NR_WB_PORTS4 is 81671.310000
+Preserving hierarchical module: \issue_stage_NR_ENTRIES8_NR_WB_PORTS4
+50. Printing statistics.
+Area of module \issue_read_operands is 29533.714000
+Preserving hierarchical module: \issue_read_operands
+51. Printing statistics.
+Area of module \ariane_regfile_64_2_00000002_1 is 24509.772000
+Preserving hierarchical module: \ariane_regfile_64_2_00000002_1
+52. Printing statistics.
+53. Printing statistics.
+Area of module \scoreboard_00000008_00000004 is 52137.596000
+Preserving hierarchical module: \scoreboard_00000008_00000004
+54. Printing statistics.
+Area of module \perf_counters is 11173.862000
+Preserving hierarchical module: \perf_counters
+55. Printing statistics.
+Area of module \std_cache_subsystem_0000000080000000 is 467874.848000
+Preserving hierarchical module: \std_cache_subsystem_0000000080000000
+56. Printing statistics.
+Area of module \fifo_v3_DATA_WIDTH2_DEPTH4 is 183.540000
+57. Printing statistics.
+Area of module \std_icache is 142929.780000
+Preserving hierarchical module: \std_icache
+58. Printing statistics.
+Area of module \lfsr_8bit_00000004 is 72.884000
+59. Printing statistics.
+Area of module \lzc_00000004 is 4.788000
+60. Printing statistics.
+Area of module \sram_0000002d_00000100 is 9466.142000
+61. Printing statistics.
+Area of module \SyncSpRamBeNx64_00000008_00000100_0_2_d45 is 9466.142000
+62. Printing statistics.
+Area of module \sram_00000080_00000100 is 25242.336000
+Preserving hierarchical module: \sram_00000080_00000100
+63. Printing statistics.
+Area of module \SyncSpRamBeNx64_00000008_00000100_0_2 is 12621.168000
+Preserving hierarchical module: \SyncSpRamBeNx64_00000008_00000100_0_2
+64. Printing statistics.
+Area of module \std_nbdcache_0000000080000000 is 323287.356000
+Preserving hierarchical module: \std_nbdcache_0000000080000000
+65. Printing statistics.
+Area of module \cache_ctrl_0000000080000000 is 3815.238000
+66. Printing statistics.
+Area of module \miss_handler_NR_PORTS3 is 18875.626000
+Preserving hierarchical module: \miss_handler_NR_PORTS3
+67. Printing statistics.
+Area of module \amo_alu is 2229.346000
+68. Printing statistics.
+Area of module \arbiter_00000003_64 is 2387.350000
+69. Printing statistics.
+Area of module \axi_adapter_00000080_4_00000004 is 1479.492000
+70. Printing statistics.
+Area of module \axi_adapter_64_4_00000004 is 784.168000
+71. Printing statistics.
+Area of module \lfsr_8bit_00000008 is 80.864000
+72. Printing statistics.
+Area of module \sram_0000002c_256 is 9466.142000
+73. Printing statistics.
+Area of module \SyncSpRamBeNx64_00000008_00000100_0_2_d44 is 9466.142000
+74. Printing statistics.
+Area of module \sram_00000040_256 is 12621.168000
+Preserving hierarchical module: \sram_00000040_256
+75. Printing statistics.
+Area of module \limping_SyncSpRamBeNx64_00000008_00000100_0_2 is 12621.168000
+Preserving hierarchical module: \limping_SyncSpRamBeNx64_00000008_00000100_0_2
+76. Printing statistics.
+Area of module \sram_00000080_00000100 is 25242.336000
+Preserving hierarchical module: \sram_00000080_00000100
+77. Printing statistics.
+Area of module \SyncSpRamBeNx64_00000008_00000100_0_2 is 12621.168000
+Preserving hierarchical module: \SyncSpRamBeNx64_00000008_00000100_0_2
+78. Printing statistics.
+Area of module \tag_cmp_4_0000000c_00000008 is 2671.704000
+79. Printing statistics.
+Area of module \stream_arbiter_N_INP3 is 514.710000
+80. Printing statistics.
+Area of module \rrarbiter_NUM_REQ3_LOCK_IN1 is 76.874000
+81. Printing statistics.
+Area of module \lzc_00000003 is 3.990000
+82. Printing statistics.
+Area of module \stream_arbiter_N_INP3_1 is 571.634000
+83. Printing statistics.
+Area of module \rrarbiter_NUM_REQ3_LOCK_IN1 is 76.874000
+84. Printing statistics.
+Area of module \lzc_00000003 is 3.990000
+85. Printing statistics.
+Area of module \stream_demux_N_OUP3 is 8.778000
+86. Printing statistics.
+Area of module \stream_mux_N_INP3 is 353.514000
+Warnings: 56 unique messages, 120 total
+End of script. Logfile hash: bbeac9c970, CPU: user 191.09s system 2.09s, MEM: 790.41 MB peak
+Yosys 0.45+145 (git sha1 59404f8ce, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 66% 2x abc (367 sec), 8% 37x opt_clean (44 sec), ...
+Elapsed time: 9:13.71[h:]min:sec. CPU time: user 547.37 sys 6.41 (100%). Peak memory: 809380KB.

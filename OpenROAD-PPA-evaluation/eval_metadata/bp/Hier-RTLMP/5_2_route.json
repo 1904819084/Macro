@@ -1,0 +1,15 @@
+{
+	"detailedroute__route__net": 359362,
+	"detailedroute__route__net__special": 2,
+	"detailedroute__route__drc_errors__iter:1": 98959,
+	"detailedroute__route__wirelength__iter:1": 10875778,
+	"detailedroute__route__drc_errors__iter:2": 28403,
+	"detailedroute__route__wirelength__iter:2": 10838404,
+	"detailedroute__route__drc_errors": 28403,
+	"detailedroute__route__wirelength": 10838404,
+	"detailedroute__route__vias": 2337595,
+	"detailedroute__route__vias__singlecut": 2337595,
+	"detailedroute__route__vias__multicut": 0,
+	"detailedroute__flow__warnings__count": 11,
+	"detailedroute__flow__errors__count": 0
+}

@@ -1,0 +1,22 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+HierRTLMP Flow enabled...
+rtl_macro_placer -halo_width 10 -halo_height 10 -report_directory ./objects/nangate45/bp_quad/Hier/rtlmp -target_util 0.30
+Floorplan Outline: (0.0, 0.0) (3600.0, 3600.0),  Core Outline: (10.07, 12.6) (3589.86, 3589.6)
+	Number of std cell instances: 1135027
+	Area of std cell instances: 2307379.00
+	Number of macros: 220
+	Area of macros: 2636855.25
+	Halo width: 10.00
+	Halo height: 10.00
+	Area of macros with halos: 3640327.25
+	Area of std cell instances + Area of macros: 4944234.00
+	Core area: 12804909.00
+	Design Utilization: 0.39
+	Core Utilization: 0.23
+	Manufacturing Grid: 10
+
+Elapsed time: 21:10.37[h:]min:sec. CPU time: user 36959.93 sys 46.91 (2913%). Peak memory: 7702084KB.

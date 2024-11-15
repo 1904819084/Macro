@@ -1,0 +1,505 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+detailed_route arguments: -droute_end_iter 1
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                2000
+Number of layers:     21
+Number of macros:     136
+Number of vias:       27
+Number of viarulegen: 19
+
+[INFO DRT-0150] Reading design.
+[WARNING DRT-0120] Large net net2311 has 107 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2312 has 102 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2313 has 107 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2314 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2316 has 113 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2318 has 116 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2319 has 117 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2320 has 110 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2322 has 110 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2323 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2324 has 112 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2326 has 106 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2327 has 110 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2328 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2329 has 113 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2330 has 112 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2334 has 110 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2335 has 101 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2336 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2337 has 107 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2338 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2339 has 108 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2342 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2344 has 118 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2345 has 114 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2347 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2349 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2350 has 108 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2351 has 117 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2352 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2354 has 116 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2355 has 113 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2357 has 117 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2358 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2359 has 114 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2364 has 106 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2369 has 105 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2370 has 113 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2371 has 114 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2372 has 117 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2373 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2374 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2376 has 120 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2377 has 114 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2379 has 119 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2380 has 106 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2381 has 118 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2382 has 121 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2383 has 119 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2385 has 117 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2389 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2390 has 101 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2391 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2392 has 106 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2393 has 118 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2394 has 119 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2395 has 114 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2396 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2399 has 102 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2400 has 119 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2402 has 119 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2403 has 104 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2405 has 118 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2406 has 110 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2407 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2408 has 108 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2409 has 116 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2410 has 123 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2411 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2412 has 124 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2415 has 108 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2416 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2419 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2420 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2424 has 105 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2425 has 108 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2427 has 102 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2428 has 110 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2429 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2430 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2435 has 105 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2436 has 106 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2438 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2445 has 102 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2446 has 102 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2448 has 124 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2453 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2459 has 105 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2465 has 102 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2469 has 110 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2470 has 112 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2472 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2476 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2478 has 106 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2479 has 107 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2480 has 116 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2481 has 118 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2482 has 104 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2483 has 113 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2486 has 105 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2487 has 108 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2490 has 115 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2493 has 104 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2496 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2497 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2500 has 113 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2501 has 111 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2502 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2503 has 116 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2505 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2507 has 105 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2511 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2515 has 105 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2517 has 103 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2518 has 109 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2519 has 108 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2521 has 112 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2524 has 104 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2526 has 107 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2528 has 102 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net net2529 has 105 pins which may impact routing performance. Consider optimization.
+
+Design:                   ariane
+Die area:                 ( 0 0 ) ( 3000000 3000000 )
+Number of track patterns: 20
+Number of DEF vias:       0
+Number of components:     567827
+Number of terminals:      495
+Number of snets:          2
+Number of nets:           208491
+
+[INFO DRT-0167] List of default vias:
+  Layer via1
+    default via: via1_7
+  Layer via2
+    default via: via2_5
+  Layer via3
+    default via: via3_2
+  Layer via4
+    default via: via4_0
+  Layer via5
+    default via: via5_0
+  Layer via6
+    default via: via6_0
+  Layer via7
+    default via: via7_0
+  Layer via8
+    default via: via8_0
+  Layer via9
+    default via: via9_0
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+  Complete 100000 instances.
+  Complete 200000 instances.
+  Complete 300000 instances.
+  Complete 400000 instances.
+  Complete 500000 instances.
+[INFO DRT-0164] Number of unique instances = 225.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0018]   Complete 100000 insts.
+[INFO DRT-0018]   Complete 200000 insts.
+[INFO DRT-0018]   Complete 300000 insts.
+[INFO DRT-0018]   Complete 400000 insts.
+[INFO DRT-0018]   Complete 500000 insts.
+[INFO DRT-0024]   Complete active.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete metal1.
+[INFO DRT-0024]   Complete via1.
+[INFO DRT-0024]   Complete metal2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete metal3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete metal4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete metal5.
+[INFO DRT-0024]   Complete via5.
+[INFO DRT-0024]   Complete metal6.
+[INFO DRT-0024]   Complete via6.
+[INFO DRT-0024]   Complete metal7.
+[INFO DRT-0024]   Complete via7.
+[INFO DRT-0024]   Complete metal8.
+[INFO DRT-0024]   Complete via8.
+[INFO DRT-0024]   Complete metal9.
+[INFO DRT-0024]   Complete via9.
+[INFO DRT-0024]   Complete metal10.
+[INFO DRT-0033] active shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] metal1 shape region query size = 4866003.
+[INFO DRT-0033] via1 shape region query size = 0.
+[INFO DRT-0033] metal2 shape region query size = 136.
+[INFO DRT-0033] via2 shape region query size = 0.
+[INFO DRT-0033] metal3 shape region query size = 16320.
+[INFO DRT-0033] via3 shape region query size = 0.
+[INFO DRT-0033] metal4 shape region query size = 9384.
+[INFO DRT-0033] via4 shape region query size = 0.
+[INFO DRT-0033] metal5 shape region query size = 495.
+[INFO DRT-0033] via5 shape region query size = 0.
+[INFO DRT-0033] metal6 shape region query size = 0.
+[INFO DRT-0033] via6 shape region query size = 0.
+[INFO DRT-0033] metal7 shape region query size = 0.
+[INFO DRT-0033] via7 shape region query size = 0.
+[INFO DRT-0033] metal8 shape region query size = 0.
+[INFO DRT-0033] via8 shape region query size = 0.
+[INFO DRT-0033] metal9 shape region query size = 0.
+[INFO DRT-0033] via9 shape region query size = 0.
+[INFO DRT-0033] metal10 shape region query size = 0.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0076]   Complete 1000 pins.
+[INFO DRT-0078]   Complete 1426 pins.
+[INFO DRT-0079]   Complete 100 unique inst patterns.
+[INFO DRT-0081]   Complete 191 unique inst patterns.
+[INFO DRT-0082]   Complete 10000 groups.
+[INFO DRT-0082]   Complete 20000 groups.
+[INFO DRT-0082]   Complete 30000 groups.
+[INFO DRT-0082]   Complete 40000 groups.
+[INFO DRT-0082]   Complete 50000 groups.
+[INFO DRT-0082]   Complete 60000 groups.
+[INFO DRT-0082]   Complete 70000 groups.
+[INFO DRT-0082]   Complete 80000 groups.
+[INFO DRT-0082]   Complete 90000 groups.
+[INFO DRT-0083]   Complete 100000 groups.
+[INFO DRT-0084]   Complete 123782 groups.
+#scanned instances     = 567827
+#unique  instances     = 218
+#stdCellGenAp          = 8057
+#stdCellValidPlanarAp  = 0
+#stdCellValidViaAp     = 5478
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 660238
+#instTermValidViaApCnt = 0
+#macroGenAp            = 944
+#macroValidPlanarAp    = 944
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:22:33, elapsed time = 00:00:14, memory = 1467.84 (MB), peak = 1552.43 (MB)
+[INFO DRT-0156] guideIn read 100000 guides.
+[INFO DRT-0156] guideIn read 200000 guides.
+[INFO DRT-0156] guideIn read 300000 guides.
+[INFO DRT-0156] guideIn read 400000 guides.
+[INFO DRT-0156] guideIn read 500000 guides.
+[INFO DRT-0156] guideIn read 600000 guides.
+[INFO DRT-0156] guideIn read 700000 guides.
+[INFO DRT-0156] guideIn read 800000 guides.
+[INFO DRT-0156] guideIn read 900000 guides.
+[INFO DRT-0156] guideIn read 1000000 guides.
+[INFO DRT-0156] guideIn read 2000000 guides.
+
+[INFO DRT-0157] Number of guides:     2033107
+
+[INFO DRT-0169] Post process guides.
+[INFO DRT-0176] GCELLGRID X 0 DO 714 STEP 4200 ;
+[INFO DRT-0177] GCELLGRID Y 0 DO 714 STEP 4200 ;
+[INFO DRT-0026]   Complete 100000 origin guides.
+[INFO DRT-0026]   Complete 200000 origin guides.
+[INFO DRT-0026]   Complete 300000 origin guides.
+[INFO DRT-0026]   Complete 400000 origin guides.
+[INFO DRT-0026]   Complete 500000 origin guides.
+[INFO DRT-0026]   Complete 600000 origin guides.
+[INFO DRT-0026]   Complete 700000 origin guides.
+[INFO DRT-0026]   Complete 800000 origin guides.
+[INFO DRT-0026]   Complete 900000 origin guides.
+[INFO DRT-0027]   Complete 1000000 origin guides.
+[INFO DRT-0027]   Complete 2000000 origin guides.
+[INFO DRT-0028]   Complete active.
+[INFO DRT-0028]   Complete Fr_VIA.
+[INFO DRT-0028]   Complete metal1.
+[INFO DRT-0028]   Complete via1.
+[INFO DRT-0028]   Complete metal2.
+[INFO DRT-0028]   Complete via2.
+[INFO DRT-0028]   Complete metal3.
+[INFO DRT-0028]   Complete via3.
+[INFO DRT-0028]   Complete metal4.
+[INFO DRT-0028]   Complete via4.
+[INFO DRT-0028]   Complete metal5.
+[INFO DRT-0028]   Complete via5.
+[INFO DRT-0028]   Complete metal6.
+[INFO DRT-0028]   Complete via6.
+[INFO DRT-0028]   Complete metal7.
+[INFO DRT-0028]   Complete via7.
+[INFO DRT-0028]   Complete metal8.
+[INFO DRT-0028]   Complete via8.
+[INFO DRT-0028]   Complete metal9.
+[INFO DRT-0028]   Complete via9.
+[INFO DRT-0028]   Complete metal10.
+  complete 100000 nets.
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0029]   Complete 100000 nets (guide).
+[INFO DRT-0029]   Complete 200000 nets (guide).
+[INFO DRT-0035]   Complete active (guide).
+[INFO DRT-0035]   Complete Fr_VIA (guide).
+[INFO DRT-0035]   Complete metal1 (guide).
+[INFO DRT-0035]   Complete via1 (guide).
+[INFO DRT-0035]   Complete metal2 (guide).
+[INFO DRT-0035]   Complete via2 (guide).
+[INFO DRT-0035]   Complete metal3 (guide).
+[INFO DRT-0035]   Complete via3 (guide).
+[INFO DRT-0035]   Complete metal4 (guide).
+[INFO DRT-0035]   Complete via4 (guide).
+[INFO DRT-0035]   Complete metal5 (guide).
+[INFO DRT-0035]   Complete via5 (guide).
+[INFO DRT-0035]   Complete metal6 (guide).
+[INFO DRT-0035]   Complete via6 (guide).
+[INFO DRT-0035]   Complete metal7 (guide).
+[INFO DRT-0035]   Complete via7 (guide).
+[INFO DRT-0035]   Complete metal8 (guide).
+[INFO DRT-0035]   Complete via8 (guide).
+[INFO DRT-0035]   Complete metal9 (guide).
+[INFO DRT-0035]   Complete via9 (guide).
+[INFO DRT-0035]   Complete metal10 (guide).
+[INFO DRT-0036] active guide region query size = 0.
+[INFO DRT-0036] FR_VIA guide region query size = 0.
+[INFO DRT-0036] metal1 guide region query size = 582198.
+[INFO DRT-0036] via1 guide region query size = 0.
+[INFO DRT-0036] metal2 guide region query size = 527308.
+[INFO DRT-0036] via2 guide region query size = 0.
+[INFO DRT-0036] metal3 guide region query size = 347556.
+[INFO DRT-0036] via3 guide region query size = 0.
+[INFO DRT-0036] metal4 guide region query size = 79829.
+[INFO DRT-0036] via4 guide region query size = 0.
+[INFO DRT-0036] metal5 guide region query size = 40120.
+[INFO DRT-0036] via5 guide region query size = 0.
+[INFO DRT-0036] metal6 guide region query size = 15703.
+[INFO DRT-0036] via6 guide region query size = 0.
+[INFO DRT-0036] metal7 guide region query size = 3965.
+[INFO DRT-0036] via7 guide region query size = 0.
+[INFO DRT-0036] metal8 guide region query size = 2402.
+[INFO DRT-0036] via8 guide region query size = 0.
+[INFO DRT-0036] metal9 guide region query size = 1367.
+[INFO DRT-0036] via9 guide region query size = 0.
+[INFO DRT-0036] metal10 guide region query size = 336.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0245] skipped writing guide updates to database.
+[INFO DRT-0185] Post process initialize RPin region query.
+[INFO DRT-0181] Start track assignment.
+[INFO DRT-0184] Done with 625578 vertical wires in 15 frboxes and 975206 horizontal wires in 15 frboxes.
+[INFO DRT-0186] Done with 208117 vertical wires in 15 frboxes and 209373 horizontal wires in 15 frboxes.
+[INFO DRT-0182] Complete track assignment.
+[INFO DRT-0267] cpu time = 00:03:18, elapsed time = 00:00:45, memory = 4492.09 (MB), peak = 4495.87 (MB)
+[INFO DRT-0187] Start routing data preparation.
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:01, memory = 5045.87 (MB), peak = 5045.87 (MB)
+[INFO DRT-0194] Start detail routing.
+[INFO DRT-0195] Start 0th optimization iteration.
+    Completing 10% with 662 violations.
+    elapsed time = 00:00:03, memory = 6548.37 (MB).
+    Completing 20% with 4914 violations.
+    elapsed time = 00:00:13, memory = 8415.04 (MB).
+    Completing 30% with 6157 violations.
+    elapsed time = 00:00:16, memory = 8498.25 (MB).
+    Completing 40% with 6821 violations.
+    elapsed time = 00:00:22, memory = 8813.41 (MB).
+    Completing 50% with 11317 violations.
+    elapsed time = 00:00:33, memory = 9323.15 (MB).
+    Completing 60% with 13614 violations.
+    elapsed time = 00:00:39, memory = 9381.21 (MB).
+    Completing 70% with 17607 violations.
+    elapsed time = 00:00:48, memory = 9704.31 (MB).
+    Completing 80% with 19148 violations.
+    elapsed time = 00:00:52, memory = 9748.81 (MB).
+    Completing 90% with 19922 violations.
+    elapsed time = 00:00:57, memory = 9976.84 (MB).
+    Completing 100% with 25717 violations.
+    elapsed time = 00:01:11, memory = 10323.22 (MB).
+[INFO DRT-0199]   Number of violations = 34342.
+Viol/Layer      metal1   via1 metal2   via2 metal3 metal4   via4 metal5   via5 metal6 metal7   via7 metal8 metal9   via9 me..10
+Cut Spacing          0    196      0     32      0      0    251      0     25      0      0      4      0      0     22      0
+Metal Spacing     2116      0   2072      0    129     11      0     11      0      1      0      0      0      0      0      1
+Recheck            130      0   5921      0   2187    233      0    112      0     31      6      0      3      0      0      2
+Short               49      4  17181      0   3153    184      0    205      0     65      0      0      1      2      0      2
+[INFO DRT-0267] cpu time = 01:00:33, elapsed time = 00:01:17, memory = 10324.17 (MB), peak = 10324.17 (MB)
+Total wire length = 7828533 um.
+Total wire length on LAYER metal1 = 10054 um.
+Total wire length on LAYER metal2 = 1693328 um.
+Total wire length on LAYER metal3 = 2336977 um.
+Total wire length on LAYER metal4 = 1280636 um.
+Total wire length on LAYER metal5 = 1371016 um.
+Total wire length on LAYER metal6 = 820538 um.
+Total wire length on LAYER metal7 = 138789 um.
+Total wire length on LAYER metal8 = 59755 um.
+Total wire length on LAYER metal9 = 92557 um.
+Total wire length on LAYER metal10 = 24876 um.
+Total number of vias = 1537602.
+Up-via summary (total 1537602):
+
+------------------
+ active          0
+ metal1     661608
+ metal2     683785
+ metal3     104622
+ metal4      52034
+ metal5      25623
+ metal6       4870
+ metal7       2596
+ metal8       1895
+ metal9        569
+------------------
+           1537602
+
+
+[INFO DRT-0195] Start 1st optimization iteration.
+    Completing 10% with 33751 violations.
+    elapsed time = 00:00:03, memory = 10451.88 (MB).
+    Completing 20% with 30494 violations.
+    elapsed time = 00:00:13, memory = 10741.71 (MB).
+    Completing 30% with 29111 violations.
+    elapsed time = 00:00:17, memory = 10767.62 (MB).
+    Completing 40% with 28272 violations.
+    elapsed time = 00:00:23, memory = 10832.49 (MB).
+    Completing 50% with 22958 violations.
+    elapsed time = 00:00:31, memory = 10908.96 (MB).
+    Completing 60% with 20932 violations.
+    elapsed time = 00:00:36, memory = 10909.83 (MB).
+    Completing 70% with 16840 violations.
+    elapsed time = 00:00:47, memory = 10958.12 (MB).
+    Completing 80% with 15515 violations.
+    elapsed time = 00:00:51, memory = 10975.73 (MB).
+    Completing 90% with 14480 violations.
+    elapsed time = 00:00:57, memory = 11000.98 (MB).
+    Completing 100% with 7191 violations.
+    elapsed time = 00:01:07, memory = 11056.71 (MB).
+[INFO DRT-0199]   Number of violations = 7191.
+Viol/Layer      metal1   via1 metal2   via2 metal3 metal4   via4 metal5   via5 metal6   via7 metal8 metal9   via9 me..10
+Cut Spacing          0     20      0     11      0      0     12      0      1      0      1      0      0      3      0
+Metal Spacing       11      0   1361      0     53      2      0      1      0      0      0      0      0      0      0
+Recheck              0      0     19      0      6      0      0      0      0      0      0      0      0      0      0
+Short                7      0   5070      0    579      1      0     24      0      4      0      1      3      0      1
+[INFO DRT-0267] cpu time = 00:58:49, elapsed time = 00:01:13, memory = 11057.23 (MB), peak = 11057.23 (MB)
+Total wire length = 7808416 um.
+Total wire length on LAYER metal1 = 8596 um.
+Total wire length on LAYER metal2 = 1685803 um.
+Total wire length on LAYER metal3 = 2330309 um.
+Total wire length on LAYER metal4 = 1279084 um.
+Total wire length on LAYER metal5 = 1369056 um.
+Total wire length on LAYER metal6 = 820320 um.
+Total wire length on LAYER metal7 = 138518 um.
+Total wire length on LAYER metal8 = 59669 um.
+Total wire length on LAYER metal9 = 92344 um.
+Total wire length on LAYER metal10 = 24713 um.
+Total number of vias = 1519133.
+Up-via summary (total 1519133):
+
+------------------
+ active          0
+ metal1     658319
+ metal2     671616
+ metal3     103227
+ metal4      50924
+ metal5      25386
+ metal6       4729
+ metal7       2552
+ metal8       1838
+ metal9        542
+------------------
+           1519133
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 7808416 um.
+Total wire length on LAYER metal1 = 8596 um.
+Total wire length on LAYER metal2 = 1685803 um.
+Total wire length on LAYER metal3 = 2330309 um.
+Total wire length on LAYER metal4 = 1279084 um.
+Total wire length on LAYER metal5 = 1369056 um.
+Total wire length on LAYER metal6 = 820320 um.
+Total wire length on LAYER metal7 = 138518 um.
+Total wire length on LAYER metal8 = 59669 um.
+Total wire length on LAYER metal9 = 92344 um.
+Total wire length on LAYER metal10 = 24713 um.
+Total number of vias = 1519133.
+Up-via summary (total 1519133):
+
+------------------
+ active          0
+ metal1     658319
+ metal2     671616
+ metal3     103227
+ metal4      50924
+ metal5      25386
+ metal6       4729
+ metal7       2552
+ metal8       1838
+ metal9        542
+------------------
+           1519133
+
+
+[INFO DRT-0267] cpu time = 01:59:24, elapsed time = 00:02:31, memory = 11057.23 (MB), peak = 11057.23 (MB)
+
+[INFO DRT-0180] Post processing.
+Elapsed time: 3:56.48[h:]min:sec. CPU time: user 8708.97 sys 30.46 (3695%). Peak memory: 11323168KB.

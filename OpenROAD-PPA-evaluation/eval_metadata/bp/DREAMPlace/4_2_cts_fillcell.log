@@ -1,0 +1,6 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO DPL-0001] Placed 454158 filler instances.
+Elapsed time: 0:09.36[h:]min:sec. CPU time: user 7.62 sys 1.45 (96%). Peak memory: 984520KB.

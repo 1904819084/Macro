@@ -1,0 +1,50 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+HierRTLMP Flow enabled...
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.190  1.400 ) um
+[INFO GPL-0004] CoreBBox: ( 10.070 11.200 ) ( 789.830 688.800 ) um
+[INFO GPL-0006] NumInstances:             51393
+[INFO GPL-0007] NumPlaceInstances:        51393
+[INFO GPL-0008] NumFixedInstances:            0
+[INFO GPL-0009] NumDummyInstances:            0
+[INFO GPL-0010] NumNets:                  62229
+[INFO GPL-0011] NumPins:                 193523
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 800.000 700.000 ) um
+[INFO GPL-0013] CoreBBox: ( 10.070 11.200 ) ( 789.830 688.800 ) um
+[INFO GPL-0016] CoreArea:            528365.376 um^2
+[INFO GPL-0017] NonPlaceInstsArea:        0.000 um^2
+[INFO GPL-0018] PlaceInstsArea:      236465.222 um^2
+[INFO GPL-0019] Util:                    44.754 %
+[INFO GPL-0020] StdInstsArea:         92519.588 um^2
+[INFO GPL-0021] MacroInstsArea:      143945.634 um^2
+[INFO GPL-0031] FillerInit:NumGCells:    221250
+[INFO GPL-0032] FillerInit:NumGNets:      62229
+[INFO GPL-0033] FillerInit:NumGPins:     193523
+[INFO GPL-0023] TargetDensity:            1.000
+[INFO GPL-0024] AvrgPlaceInstArea:        4.601 um^2
+[INFO GPL-0025] IdealBinArea:             4.601 um^2
+[INFO GPL-0026] IdealBinCnt:             114834
+[INFO GPL-0027] TotalBinArea:        528365.376 um^2
+[INFO GPL-0028] BinCnt:       256    256
+[INFO GPL-0029] BinSize: (  3.046  2.647 )
+[INFO GPL-0030] NumBins: 65536
+rtl_macro_placer -max_num_inst 30000 -min_num_inst 5000 -max_num_macro 12 -min_num_macro 4  -halo_width 10 -halo_height 10 -report_directory ./objects/nangate45/bp_be/Hier/rtlmp -target_util 0.5127869790792465
+Floorplan Outline: (0.0, 0.0) (800.0, 700.0),  Core Outline: (10.07, 11.2) (789.83, 688.8)
+	Number of std cell instances: 51383
+	Area of std cell instances: 92520.20
+	Number of macros: 10
+	Area of macros: 143945.64
+	Halo width: 10.00
+	Halo height: 10.00
+	Area of macros with halos: 194779.64
+	Area of std cell instances + Area of macros: 236465.84
+	Core area: 528365.38
+	Design Utilization: 0.45
+	Core Utilization: 0.24
+	Manufacturing Grid: 10
+
+Elapsed time: 0:17.88[h:]min:sec. CPU time: user 685.15 sys 0.48 (3832%). Peak memory: 351808KB.

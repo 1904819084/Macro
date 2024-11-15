@@ -1,0 +1,110 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.190  1.400 ) um
+[INFO GPL-0004] CoreBBox: ( 10.070 11.200 ) ( 1089.840 989.800 ) um
+[INFO GPL-0006] NumInstances:            113017
+[INFO GPL-0007] NumPlaceInstances:        98079
+[INFO GPL-0008] NumFixedInstances:         7386
+[INFO GPL-0009] NumDummyInstances:         7552
+[INFO GPL-0010] NumNets:                 113622
+[INFO GPL-0011] NumPins:                 379158
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 1100.000 1000.000 ) um
+[INFO GPL-0013] CoreBBox: ( 10.070 11.200 ) ( 1089.840 989.800 ) um
+[INFO GPL-0016] CoreArea:            1056662.922 um^2
+[INFO GPL-0017] NonPlaceInstsArea:   611167.984 um^2
+[INFO GPL-0018] PlaceInstsArea:      171238.032 um^2
+[INFO GPL-0019] Util:                    38.438 %
+[INFO GPL-0020] StdInstsArea:        171238.032 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[INFO GPL-0031] FillerInit:NumGCells:    267981
+[INFO GPL-0032] FillerInit:NumGNets:     113622
+[INFO GPL-0033] FillerInit:NumGPins:     379158
+[INFO GPL-0023] TargetDensity:            1.000
+[INFO GPL-0024] AvrgPlaceInstArea:        1.746 um^2
+[INFO GPL-0025] IdealBinArea:             1.746 um^2
+[INFO GPL-0026] IdealBinCnt:             605218
+[INFO GPL-0027] TotalBinArea:        1056662.922 um^2
+[INFO GPL-0028] BinCnt:       512    512
+[INFO GPL-0029] BinSize: (  2.109  1.911 )
+[INFO GPL-0030] NumBins: 262144
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.190  1.400 ) um
+[INFO GPL-0004] CoreBBox: ( 10.070 11.200 ) ( 1089.840 989.800 ) um
+[INFO GPL-0006] NumInstances:            113017
+[INFO GPL-0007] NumPlaceInstances:        98079
+[INFO GPL-0008] NumFixedInstances:         7386
+[INFO GPL-0009] NumDummyInstances:         7552
+[INFO GPL-0010] NumNets:                 113622
+[INFO GPL-0011] NumPins:                 377742
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 1100.000 1000.000 ) um
+[INFO GPL-0013] CoreBBox: ( 10.070 11.200 ) ( 1089.840 989.800 ) um
+[INFO GPL-0016] CoreArea:            1056662.922 um^2
+[INFO GPL-0017] NonPlaceInstsArea:   611167.984 um^2
+[INFO GPL-0018] PlaceInstsArea:      171238.032 um^2
+[INFO GPL-0019] Util:                    38.438 %
+[INFO GPL-0020] StdInstsArea:        171238.032 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[INFO GPL-0031] FillerInit:NumGCells:    117829
+[INFO GPL-0032] FillerInit:NumGNets:     113622
+[INFO GPL-0033] FillerInit:NumGPins:     377742
+[INFO GPL-0023] TargetDensity:            0.456
+[INFO GPL-0024] AvrgPlaceInstArea:        1.746 um^2
+[INFO GPL-0025] IdealBinArea:             3.829 um^2
+[INFO GPL-0026] IdealBinCnt:             275942
+[INFO GPL-0027] TotalBinArea:        1056662.922 um^2
+[INFO GPL-0028] BinCnt:       512    512
+[INFO GPL-0029] BinSize: (  2.109  1.911 )
+[INFO GPL-0030] NumBins: 262144
+[NesterovSolve] Iter:    1 overflow: 0.980 HPWL: 5514351537
+[NesterovSolve] Iter:   10 overflow: 0.913 HPWL: 4988652207
+[NesterovSolve] Iter:   20 overflow: 0.891 HPWL: 4361764231
+[NesterovSolve] Iter:   30 overflow: 0.894 HPWL: 3882155086
+[NesterovSolve] Iter:   40 overflow: 0.908 HPWL: 3508443073
+[NesterovSolve] Iter:   50 overflow: 0.914 HPWL: 3248795657
+[NesterovSolve] Iter:   60 overflow: 0.921 HPWL: 3036767251
+[NesterovSolve] Iter:   70 overflow: 0.929 HPWL: 2869158117
+[NesterovSolve] Iter:   80 overflow: 0.934 HPWL: 2751027981
+[NesterovSolve] Iter:   90 overflow: 0.939 HPWL: 2627643056
+[NesterovSolve] Iter:  100 overflow: 0.946 HPWL: 2501002720
+[NesterovSolve] Iter:  110 overflow: 0.954 HPWL: 2381920947
+[NesterovSolve] Iter:  120 overflow: 0.961 HPWL: 2280479506
+[NesterovSolve] Iter:  130 overflow: 0.967 HPWL: 2198582442
+[NesterovSolve] Iter:  140 overflow: 0.971 HPWL: 2154411095
+[NesterovSolve] Iter:  150 overflow: 0.972 HPWL: 2168994224
+[NesterovSolve] Iter:  160 overflow: 0.968 HPWL: 2260386517
+[NesterovSolve] Iter:  170 overflow: 0.961 HPWL: 2430095896
+[NesterovSolve] Iter:  180 overflow: 0.952 HPWL: 2673750764
+[NesterovSolve] Iter:  190 overflow: 0.935 HPWL: 2949871815
+[NesterovSolve] Iter:  200 overflow: 0.917 HPWL: 3252300994
+[NesterovSolve] Iter:  210 overflow: 0.896 HPWL: 3583239688
+[NesterovSolve] Iter:  220 overflow: 0.873 HPWL: 3911464668
+[NesterovSolve] Iter:  230 overflow: 0.845 HPWL: 4234609499
+[NesterovSolve] Iter:  240 overflow: 0.814 HPWL: 4538085842
+[NesterovSolve] Iter:  250 overflow: 0.787 HPWL: 4788072888
+[NesterovSolve] Iter:  260 overflow: 0.758 HPWL: 5095922602
+[NesterovSolve] Iter:  270 overflow: 0.724 HPWL: 5487407629
+[NesterovSolve] Iter:  280 overflow: 0.691 HPWL: 5895428143
+[NesterovSolve] Iter:  290 overflow: 0.643 HPWL: 6313941088
+[NesterovSolve] Iter:  300 overflow: 0.598 HPWL: 6591562615
+[NesterovSolve] Iter:  310 overflow: 0.555 HPWL: 6582599368
+[NesterovSolve] Iter:  320 overflow: 0.509 HPWL: 6759900145
+[NesterovSolve] Iter:  330 overflow: 0.459 HPWL: 6750330423
+[NesterovSolve] Iter:  340 overflow: 0.409 HPWL: 6832856439
+[NesterovSolve] Iter:  350 overflow: 0.365 HPWL: 6860790134
+[NesterovSolve] Iter:  360 overflow: 0.326 HPWL: 6846871914
+[NesterovSolve] Iter:  370 overflow: 0.299 HPWL: 6801749140
+[NesterovSolve] Iter:  380 overflow: 0.270 HPWL: 6769812248
+[NesterovSolve] Iter:  390 overflow: 0.241 HPWL: 6728480092
+[NesterovSolve] Iter:  400 overflow: 0.216 HPWL: 6702561782
+[NesterovSolve] Iter:  410 overflow: 0.192 HPWL: 6656266253
+[NesterovSolve] Iter:  420 overflow: 0.171 HPWL: 6653098449
+[NesterovSolve] Iter:  430 overflow: 0.151 HPWL: 6664381300
+[NesterovSolve] Iter:  440 overflow: 0.133 HPWL: 6681440851
+[NesterovSolve] Iter:  450 overflow: 0.118 HPWL: 6705406159
+[NesterovSolve] Iter:  460 overflow: 0.105 HPWL: 6720384546
+[NesterovSolve] Finished with Overflow: 0.099638
+Elapsed time: 1:00.94[h:]min:sec. CPU time: user 3795.31 sys 3.28 (6232%). Peak memory: 499228KB.

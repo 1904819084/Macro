@@ -1,0 +1,379 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+[WARNING STA-0441] set_input_delay relative to a clock defined on the same port/pin not allowed.
+[INFO MPL-0101] Found 136 macros.
+[INFO MPL-0102] West pins 495.
+[INFO MPL-0102] East pins 0.
+[INFO MPL-0102] North pins 0.
+[INFO MPL-0102] South pins 0.
+[INFO MPL-0069] Initial weighted wire length 3.74749e+08.
+Begin one level partition.
+[INFO MPL-0076] Partition 136 macros.
+[INFO MPL-0077] Using 8 cut lines.
+[INFO MPL-0079] Cut line 10.07.
+[INFO MPL-0079] Cut line 215.46.
+[INFO MPL-0079] Cut line 420.85.
+[INFO MPL-0079] Cut line 626.24.
+[INFO MPL-0079] Cut line 831.82.
+[INFO MPL-0079] Cut line 1037.21.
+[INFO MPL-0079] Cut line 1242.60.
+[INFO MPL-0079] Cut line 1447.99.
+End one level partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 136 macros.
+[INFO MPL-0077] Using 8 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 217.00.
+[INFO MPL-0079] Cut line 422.80.
+[INFO MPL-0079] Cut line 627.20.
+[INFO MPL-0079] Cut line 833.00.
+[INFO MPL-0079] Cut line 1037.40.
+[INFO MPL-0079] Cut line 1243.20.
+[INFO MPL-0079] Cut line 1447.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 17 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 1447.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 119 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 252.00.
+[INFO MPL-0079] Cut line 491.40.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 968.80.
+[INFO MPL-0079] Cut line 1208.20.
+[INFO MPL-0079] Cut line 1447.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 36 macros.
+[INFO MPL-0077] Using 4 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 491.40.
+[INFO MPL-0079] Cut line 968.80.
+[INFO MPL-0079] Cut line 1447.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 100 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 252.00.
+[INFO MPL-0079] Cut line 491.40.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 968.80.
+[INFO MPL-0079] Cut line 1208.20.
+[INFO MPL-0079] Cut line 1447.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 45 macros.
+[INFO MPL-0077] Using 5 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 371.00.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 1089.20.
+[INFO MPL-0079] Cut line 1447.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 91 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 252.00.
+[INFO MPL-0079] Cut line 491.40.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 968.80.
+[INFO MPL-0079] Cut line 1208.20.
+[INFO MPL-0079] Cut line 1447.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 60 macros.
+[INFO MPL-0077] Using 5 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 371.00.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 1089.20.
+[INFO MPL-0079] Cut line 1447.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 76 macros.
+[INFO MPL-0077] Using 6 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 299.60.
+[INFO MPL-0079] Cut line 586.60.
+[INFO MPL-0079] Cut line 873.60.
+[INFO MPL-0079] Cut line 1160.60.
+[INFO MPL-0079] Cut line 1447.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 97 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 252.00.
+[INFO MPL-0079] Cut line 491.40.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 968.80.
+[INFO MPL-0079] Cut line 1208.20.
+[INFO MPL-0079] Cut line 1447.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 39 macros.
+[INFO MPL-0077] Using 5 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 371.00.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 1089.20.
+[INFO MPL-0079] Cut line 1447.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 127 macros.
+[INFO MPL-0077] Using 8 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 217.00.
+[INFO MPL-0079] Cut line 422.80.
+[INFO MPL-0079] Cut line 627.20.
+[INFO MPL-0079] Cut line 833.00.
+[INFO MPL-0079] Cut line 1037.40.
+[INFO MPL-0079] Cut line 1243.20.
+[INFO MPL-0079] Cut line 1447.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 9 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 730.80.
+[INFO MPL-0079] Cut line 1447.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 136 macros.
+[INFO MPL-0077] Using 8 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 217.00.
+[INFO MPL-0079] Cut line 422.80.
+[INFO MPL-0079] Cut line 627.20.
+[INFO MPL-0079] Cut line 833.00.
+[INFO MPL-0079] Cut line 1037.40.
+[INFO MPL-0079] Cut line 1243.20.
+[INFO MPL-0079] Cut line 1447.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End west partition.
+End horizontal partition.
+[INFO MPL-0070] Using 189 partition sets.
+[INFO MPL-0071] Solution 1 weighted wire length 2.60018e+08.
+[INFO MPL-0071] Solution 2 weighted wire length 2.85695e+08.
+[INFO MPL-0071] Solution 3 weighted wire length 3.31911e+08.
+[INFO MPL-0071] Solution 4 weighted wire length 3.45029e+08.
+[INFO MPL-0071] Solution 5 weighted wire length 3.57875e+08.
+[WARNING MPL-0061] Parquet area 1465.65 x 424.2 exceeds the partition area 1437.92 x 410.2.
+[WARNING MPL-0061] Parquet area 2149.62 x 303 exceeds the partition area 1437.92 x 204.4.
+[INFO MPL-0071] Solution 6 weighted wire length 2.56518e+08.
+[INFO MPL-0071] Solution 7 weighted wire length 3.0467e+08.
+[INFO MPL-0071] Solution 8 weighted wire length 3.43157e+08.
+[INFO MPL-0071] Solution 9 weighted wire length 3.82545e+08.
+[WARNING MPL-0061] Parquet area 1270.23 x 727.2 exceeds the partition area 1232.53 x 716.8.
+[WARNING MPL-0061] Parquet area 1367.94 x 545.4 exceeds the partition area 1232.53 x 478.8.
+[WARNING MPL-0061] Parquet area 1563.36 x 303 exceeds the partition area 1232.53 x 239.4.
+[INFO MPL-0071] Solution 10 weighted wire length 3.19717e+08.
+[INFO MPL-0071] Solution 11 weighted wire length 3.18092e+08.
+[INFO MPL-0071] Solution 12 weighted wire length 3.54951e+08.
+[INFO MPL-0071] Solution 13 weighted wire length 3.89705e+08.
+[INFO MPL-0071] Solution 14 weighted wire length 3.8922e+08.
+[WARNING MPL-0061] Parquet area 1367.94 x 545.4 exceeds the partition area 1232.53 x 478.8.
+[WARNING MPL-0061] Parquet area 1563.36 x 303 exceeds the partition area 1232.53 x 239.4.
+[INFO MPL-0071] Solution 15 weighted wire length 3.19814e+08.
+[INFO MPL-0071] Solution 16 weighted wire length 3.13317e+08.
+[INFO MPL-0071] Solution 17 weighted wire length 3.50151e+08.
+[INFO MPL-0071] Solution 18 weighted wire length 3.8431e+08.
+[WARNING MPL-0061] Parquet area 1270.23 x 727.2 exceeds the partition area 1232.53 x 716.8.
+[WARNING MPL-0061] Parquet area 1270.23 x 484.8 exceeds the partition area 1232.53 x 478.8.
+[WARNING MPL-0061] Parquet area 1856.49 x 363.6 exceeds the partition area 1232.53 x 239.4.
+[INFO MPL-0071] Solution 19 weighted wire length 3.12795e+08.
+[INFO MPL-0071] Solution 20 weighted wire length 3.5717e+08.
+[INFO MPL-0071] Solution 21 weighted wire length 3.91984e+08.
+[INFO MPL-0071] Solution 22 weighted wire length 4.10955e+08.
+[INFO MPL-0071] Solution 23 weighted wire length 4.10961e+08.
+[WARNING MPL-0061] Parquet area 1172.52 x 545.4 exceeds the partition area 1027.14 x 478.8.
+[WARNING MPL-0061] Parquet area 1270.23 x 303 exceeds the partition area 1027.14 x 239.4.
+[INFO MPL-0071] Solution 24 weighted wire length 3.68424e+08.
+[INFO MPL-0071] Solution 25 weighted wire length 3.62845e+08.
+[INFO MPL-0071] Solution 26 weighted wire length 3.93356e+08.
+[INFO MPL-0071] Solution 27 weighted wire length 4.20365e+08.
+[INFO MPL-0071] Solution 28 weighted wire length 4.1396e+08.
+[WARNING MPL-0061] Parquet area 1172.52 x 545.4 exceeds the partition area 1027.14 x 478.8.
+[WARNING MPL-0061] Parquet area 1270.23 x 303 exceeds the partition area 1027.14 x 239.4.
+[INFO MPL-0071] Solution 29 weighted wire length 3.93197e+08.
+[WARNING MPL-0061] Parquet area 488.55 x 545.4 exceeds the partition area 410.78 x 478.8.
+[WARNING MPL-0061] Parquet area 488.55 x 545.4 exceeds the partition area 410.78 x 478.8.
+[WARNING MPL-0061] Parquet area 488.55 x 545.4 exceeds the partition area 410.78 x 478.8.
+[WARNING MPL-0061] Parquet area 488.55 x 545.4 exceeds the partition area 410.78 x 478.8.
+[WARNING MPL-0061] Parquet area 488.55 x 545.4 exceeds the partition area 410.78 x 478.8.
+[WARNING MPL-0061] Parquet area 488.55 x 545.4 exceeds the partition area 410.78 x 478.8.
+[WARNING MPL-0061] Parquet area 488.55 x 545.4 exceeds the partition area 410.78 x 478.8.
+[INFO MPL-0071] Solution 30 weighted wire length 3.63886e+08.
+[INFO MPL-0071] Solution 31 weighted wire length 3.96208e+08.
+[INFO MPL-0071] Solution 32 weighted wire length 4.17135e+08.
+[INFO MPL-0071] Solution 33 weighted wire length 4.20762e+08.
+[WARNING MPL-0061] Parquet area 1270.23 x 606 exceeds the partition area 1027.14 x 478.8.
+[WARNING MPL-0061] Parquet area 1270.23 x 303 exceeds the partition area 1027.14 x 239.4.
+[INFO MPL-0071] Solution 34 weighted wire length 3.51211e+08.
+[INFO MPL-0071] Solution 35 weighted wire length 3.73862e+08.
+[WARNING MPL-0061] Parquet area 879.39 x 242.4 exceeds the partition area 821.75 x 239.4.
+[WARNING MPL-0061] Parquet area 879.39 x 1030.2 exceeds the partition area 821.75 x 956.2.
+[INFO MPL-0071] Solution 36 weighted wire length 4.12615e+08.
+[WARNING MPL-0061] Parquet area 977.1 x 545.4 exceeds the partition area 821.75 x 478.8.
+[WARNING MPL-0061] Parquet area 1074.81 x 303 exceeds the partition area 821.75 x 239.4.
+[INFO MPL-0071] Solution 37 weighted wire length 3.84917e+08.
+[INFO MPL-0071] Solution 38 weighted wire length 3.57598e+08.
+[INFO MPL-0071] Solution 39 weighted wire length 3.91449e+08.
+[INFO MPL-0071] Solution 40 weighted wire length 4.19782e+08.
+[INFO MPL-0071] Solution 41 weighted wire length 4.15583e+08.
+[WARNING MPL-0061] Parquet area 977.1 x 545.4 exceeds the partition area 821.75 x 478.8.
+[WARNING MPL-0061] Parquet area 1074.81 x 303 exceeds the partition area 821.75 x 239.4.
+[INFO MPL-0071] Solution 42 weighted wire length 3.97871e+08.
+[WARNING MPL-0061] Parquet area 683.97 x 787.8 exceeds the partition area 616.17 x 716.8.
+[WARNING MPL-0061] Parquet area 683.97 x 787.8 exceeds the partition area 616.17 x 716.8.
+[WARNING MPL-0061] Parquet area 683.97 x 787.8 exceeds the partition area 616.17 x 716.8.
+[WARNING MPL-0061] Parquet area 683.97 x 787.8 exceeds the partition area 616.17 x 716.8.
+[WARNING MPL-0061] Parquet area 977.1 x 545.4 exceeds the partition area 821.75 x 478.8.
+[WARNING MPL-0061] Parquet area 1074.81 x 303 exceeds the partition area 821.75 x 239.4.
+[INFO MPL-0071] Solution 43 weighted wire length 4.16755e+08.
+[WARNING MPL-0061] Parquet area 586.26 x 363.6 exceeds the partition area 616.17 x 358.4.
+[WARNING MPL-0061] Parquet area 586.26 x 363.6 exceeds the partition area 616.17 x 358.4.
+[WARNING MPL-0061] Parquet area 586.26 x 363.6 exceeds the partition area 616.17 x 358.4.
+[WARNING MPL-0061] Parquet area 586.26 x 363.6 exceeds the partition area 616.17 x 358.4.
+[WARNING MPL-0061] Parquet area 586.26 x 363.6 exceeds the partition area 616.17 x 358.4.
+[WARNING MPL-0061] Parquet area 586.26 x 363.6 exceeds the partition area 616.17 x 358.4.
+[WARNING MPL-0061] Parquet area 586.26 x 363.6 exceeds the partition area 616.17 x 358.4.
+[INFO MPL-0071] Solution 44 weighted wire length 3.82653e+08.
+[WARNING MPL-0061] Parquet area 781.68 x 242.4 exceeds the partition area 821.75 x 239.4.
+[INFO MPL-0071] Solution 45 weighted wire length 4.26864e+08.
+[INFO MPL-0071] Solution 46 weighted wire length 4.23968e+08.
+[WARNING MPL-0061] Parquet area 1074.81 x 606 exceeds the partition area 821.75 x 478.8.
+[WARNING MPL-0061] Parquet area 1074.81 x 303 exceeds the partition area 821.75 x 239.4.
+[INFO MPL-0071] Solution 47 weighted wire length 3.70905e+08.
+[INFO MPL-0071] Solution 48 weighted wire length 3.90242e+08.
+[INFO MPL-0071] Solution 49 weighted wire length 4.07316e+08.
+[WARNING MPL-0061] Parquet area 683.97 x 969.6 exceeds the partition area 616.17 x 861.
+[WARNING MPL-0061] Parquet area 683.97 x 666.6 exceeds the partition area 616.17 x 574.
+[WARNING MPL-0061] Parquet area 781.68 x 363.6 exceeds the partition area 616.17 x 287.
+[INFO MPL-0071] Solution 50 weighted wire length 4.22666e+08.
+[INFO MPL-0071] Solution 51 weighted wire length 4.01647e+08.
+[INFO MPL-0071] Solution 52 weighted wire length 4.20549e+08.
+[WARNING MPL-0061] Parquet area 683.97 x 969.6 exceeds the partition area 616.17 x 861.
+[WARNING MPL-0061] Parquet area 683.97 x 666.6 exceeds the partition area 616.17 x 574.
+[WARNING MPL-0061] Parquet area 781.68 x 363.6 exceeds the partition area 616.17 x 287.
+[INFO MPL-0071] Solution 53 weighted wire length 4.4141e+08.
+[INFO MPL-0071] Solution 54 weighted wire length 4.2299e+08.
+[INFO MPL-0071] Solution 55 weighted wire length 4.39538e+08.
+[WARNING MPL-0061] Parquet area 683.97 x 969.6 exceeds the partition area 616.17 x 861.
+[WARNING MPL-0061] Parquet area 683.97 x 666.6 exceeds the partition area 616.17 x 574.
+[WARNING MPL-0061] Parquet area 781.68 x 363.6 exceeds the partition area 616.17 x 287.
+[INFO MPL-0071] Solution 56 weighted wire length 4.52569e+08.
+[WARNING MPL-0061] Parquet area 977.1 x 424.2 exceeds the partition area 821.75 x 358.4.
+[WARNING MPL-0061] Parquet area 977.1 x 424.2 exceeds the partition area 821.75 x 358.4.
+[WARNING MPL-0061] Parquet area 977.1 x 424.2 exceeds the partition area 821.75 x 358.4.
+[WARNING MPL-0061] Parquet area 977.1 x 424.2 exceeds the partition area 821.75 x 358.4.
+[WARNING MPL-0061] Parquet area 977.1 x 424.2 exceeds the partition area 821.75 x 358.4.
+[WARNING MPL-0061] Parquet area 977.1 x 424.2 exceeds the partition area 821.75 x 358.4.
+[INFO MPL-0071] Solution 57 weighted wire length 3.95028e+08.
+[INFO MPL-0071] Solution 58 weighted wire length 4.22295e+08.
+[INFO MPL-0071] Solution 59 weighted wire length 4.3101e+08.
+[WARNING MPL-0061] Parquet area 781.68 x 727.2 exceeds the partition area 616.17 x 574.
+[WARNING MPL-0061] Parquet area 781.68 x 363.6 exceeds the partition area 616.17 x 287.
+[INFO MPL-0071] Solution 60 weighted wire length 3.86737e+08.
+[INFO MPL-0071] Solution 61 weighted wire length 3.30707e+08.
+[INFO MPL-0071] Solution 62 weighted wire length 3.32508e+08.
+[WARNING MPL-0061] Parquet area 488.55 x 848.4 exceeds the partition area 410.78 x 716.8.
+[WARNING MPL-0061] Parquet area 781.68 x 666.6 exceeds the partition area 410.78 x 358.4.
+[INFO MPL-0071] Solution 63 weighted wire length 3.58177e+08.
+[INFO MPL-0071] Solution 64 weighted wire length 3.8463e+08.
+[INFO MPL-0071] Solution 65 weighted wire length 3.75218e+08.
+[WARNING MPL-0061] Parquet area 488.55 x 848.4 exceeds the partition area 410.78 x 716.8.
+[WARNING MPL-0061] Parquet area 781.68 x 666.6 exceeds the partition area 410.78 x 358.4.
+[INFO MPL-0071] Solution 66 weighted wire length 3.95954e+08.
+[INFO MPL-0071] Solution 67 weighted wire length 4.13567e+08.
+[INFO MPL-0071] Solution 68 weighted wire length 4.16765e+08.
+[WARNING MPL-0061] Parquet area 488.55 x 848.4 exceeds the partition area 410.78 x 716.8.
+[WARNING MPL-0061] Parquet area 781.68 x 666.6 exceeds the partition area 410.78 x 358.4.
+[INFO MPL-0071] Solution 69 weighted wire length 4.25221e+08.
+[INFO MPL-0071] Solution 70 weighted wire length 4.17844e+08.
+[INFO MPL-0071] Solution 71 weighted wire length 4.2028e+08.
+[INFO MPL-0071] Solution 72 weighted wire length 4.16307e+08.
+[WARNING MPL-0061] Parquet area 488.55 x 424.2 exceeds the partition area 410.78 x 358.4.
+[INFO MPL-0071] Solution 73 weighted wire length 4.28769e+08.
+[INFO MPL-0071] Solution 74 weighted wire length 4.17221e+08.
+[INFO MPL-0071] Solution 75 weighted wire length 4.19955e+08.
+[WARNING MPL-0061] Parquet area 488.55 x 848.4 exceeds the partition area 410.78 x 716.8.
+[WARNING MPL-0061] Parquet area 488.55 x 424.2 exceeds the partition area 410.78 x 358.4.
+[INFO MPL-0071] Solution 76 weighted wire length 4.29285e+08.
+[WARNING MPL-0061] Parquet area 1270.23 x 303 exceeds the partition area 1027.14 x 239.4.
+[WARNING MPL-0061] Parquet area 1270.23 x 303 exceeds the partition area 1027.14 x 239.4.
+[WARNING MPL-0061] Parquet area 1270.23 x 303 exceeds the partition area 1027.14 x 239.4.
+[WARNING MPL-0061] Parquet area 1563.36 x 363.6 exceeds the partition area 1027.14 x 239.4.
+[WARNING MPL-0061] Parquet area 1270.23 x 303 exceeds the partition area 1027.14 x 239.4.
+[INFO MPL-0071] Solution 77 weighted wire length 3.59964e+08.
+[INFO MPL-0071] Solution 78 weighted wire length 3.68247e+08.
+[INFO MPL-0071] Solution 79 weighted wire length 3.68904e+08.
+[WARNING MPL-0061] Parquet area 488.55 x 424.2 exceeds the partition area 410.78 x 358.4.
+[INFO MPL-0071] Solution 80 weighted wire length 3.44841e+08.
+[INFO MPL-0071] Solution 81 weighted wire length 2.67211e+08.
+[INFO MPL-0071] Solution 82 weighted wire length 2.67211e+08.
+[INFO MPL-0071] Solution 83 weighted wire length 2.7795e+08.
+[INFO MPL-0071] Solution 84 weighted wire length 3.00371e+08.
+[INFO MPL-0071] Solution 85 weighted wire length 3.00371e+08.
+[INFO MPL-0071] Solution 86 weighted wire length 3.06142e+08.
+[INFO MPL-0071] Solution 87 weighted wire length 3.40163e+08.
+[INFO MPL-0071] Solution 88 weighted wire length 3.40163e+08.
+[INFO MPL-0071] Solution 89 weighted wire length 3.49782e+08.
+[INFO MPL-0071] Solution 90 weighted wire length 3.56436e+08.
+[INFO MPL-0071] Solution 91 weighted wire length 3.56436e+08.
+[INFO MPL-0071] Solution 92 weighted wire length 3.6833e+08.
+[INFO MPL-0071] Solution 93 weighted wire length 3.60916e+08.
+[INFO MPL-0071] Solution 94 weighted wire length 3.60916e+08.
+[INFO MPL-0071] Solution 95 weighted wire length 3.66557e+08.
+[WARNING MPL-0061] Parquet area 1270.23 x 424.2 exceeds the partition area 1232.53 x 410.2.
+[WARNING MPL-0061] Parquet area 1270.23 x 424.2 exceeds the partition area 1232.53 x 410.2.
+[WARNING MPL-0061] Parquet area 1270.23 x 424.2 exceeds the partition area 1232.53 x 410.2.
+[WARNING MPL-0061] Parquet area 1856.49 x 303 exceeds the partition area 1232.53 x 204.4.
+[WARNING MPL-0061] Parquet area 1856.49 x 303 exceeds the partition area 1232.53 x 204.4.
+[WARNING MPL-0061] Parquet area 1856.49 x 303 exceeds the partition area 1232.53 x 204.4.
+[INFO MPL-0071] Solution 96 weighted wire length 2.7795e+08.
+[INFO MPL-0071] Solution 97 weighted wire length 2.7795e+08.
+[INFO MPL-0071] Solution 98 weighted wire length 2.67211e+08.
+[INFO MPL-0071] Solution 99 weighted wire length 2.42649e+08.
+[INFO MPL-0071] Solution 100 weighted wire length 2.69249e+08.
+[INFO MPL-0071] Solution 101 weighted wire length 3.19504e+08.
+[INFO MPL-0071] Solution 102 weighted wire length 3.34395e+08.
+[WARNING MPL-0061] Parquet area 1465.65 x 848.4 exceeds the partition area 1437.92 x 820.4.
+[WARNING MPL-0061] Parquet area 1465.65 x 424.2 exceeds the partition area 1437.92 x 410.2.
+[WARNING MPL-0061] Parquet area 2149.62 x 303 exceeds the partition area 1437.92 x 204.4.
+[INFO MPL-0071] Solution 103 weighted wire length 2.42649e+08.
+[INFO MPL-0073] Best weighted wire length 4.52569e+08.
+Elapsed time: 1:20:59[h:]min:sec. CPU time: user 4756.36 sys 3.03 (97%). Peak memory: 3463124KB.

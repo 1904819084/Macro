@@ -1,0 +1,18 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+place_pins -hor_layer metal5 -ver_layer metal6 -exclude left:* -exclude right:* -exclude top:* -exclude bottom:0-100 -exclude bottom:1200-1350
+Found 24 macro blocks.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0010] Tentative 0 to set up sections.
+[INFO PPL-0001] Number of slots           9458
+[INFO PPL-0002] Number of I/O             1198
+[INFO PPL-0003] Number of I/O w/sink      1198
+[INFO PPL-0004] Number of I/O w/o sink    0
+[INFO PPL-0005] Slots per section         200
+[INFO PPL-0006] Slots increase factor     0.01
+[INFO PPL-0008] Successfully assigned pins to sections.
+[INFO PPL-0012] I/O nets HPWL: 158023.33 um.
+Elapsed time: 0:02.94[h:]min:sec. CPU time: user 2.32 sys 0.64 (100%). Peak memory: 657968KB.

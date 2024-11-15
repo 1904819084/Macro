@@ -1,0 +1,79 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 9456 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 39
+[INFO GRT-0003] Macros: 220
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 57284
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical     32320898      11620652          64.05%
+metal3     Horizontal   44073796      16191710          63.26%
+metal4     Vertical     20568000      11608879          43.56%
+metal5     Horizontal   20568000      14682123          28.62%
+metal6     Vertical     20568000      14682123          28.62%
+metal7     Horizontal    5877306       2937795          50.01%
+metal8     Vertical      5877306       2937795          50.01%
+metal9     Horizontal    2937796       2934369          0.12%
+metal10    Vertical      2937796       2934369          0.12%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 8399716
+[INFO GRT-0198] Via related Steiner nodes: 227050
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 11265361
+[INFO GRT-0112] Final usage 3D: 59506464
+[WARNING GRT-0115] Global routing finished with overflow.
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0             6            0.00%             2 /  0 /  6
+metal2        11620652       5133523           44.18%             0 / 20 / 1718
+metal3        16191710       7570010           46.75%             4 /  1 / 272
+metal4        11608879       4363207           37.59%             0 / 22 / 1111
+metal5        14682123       4653079           31.69%             4 /  1 / 535
+metal6        14682123       2693194           18.34%             1 / 14 / 644
+metal7         2937795        512329           17.44%             1 /  0 / 34
+metal8         2937795        267498            9.11%             0 /  3 / 132
+metal9         2934369        351658           11.98%             1 /  0 / 41
+metal10        2934369        165877            5.65%             0 /  2 / 136
+---------------------------------------------------------------------------------------
+Total         80529815       25710381           31.93%            13 / 63 / 4629
+
+[INFO GRT-0018] Total wirelength: 62599404 um
+[INFO GRT-0014] Routed nets: 1236586
+[WARNING GRT-0026] Missing route to pin bp_processor/cc/y_0__x_1__tile_node/tile/cce/bp_cce_msg/_5583_/C1.
+[WARNING GRT-0026] Missing route to pin bp_processor/cc/y_1__x_0__tile_node/tile/core/be/be_mem/dcache/_16805_/B.
+[WARNING GRT-0026] Missing route to pin wire22420/A.
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock tag_clk period 5.200000
+[WARNING FLW-0010] more than one clock found. Skipping sdc update.
+[INFO FLW-0011] Path endpoint count 482534
+Elapsed time: 6:37.45[h:]min:sec. CPU time: user 371.17 sys 24.96 (99%). Peak memory: 17370644KB.

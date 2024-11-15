@@ -1,0 +1,442 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/shiyq/OpenROAD-flow-scripts/flow/platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation bp_fe_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 209305 rc segments
+[INFO RCX-0439] Coupling Cap extraction bp_fe_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 14% of 416517 wires extracted
+[INFO RCX-0442] 28% of 416517 wires extracted
+[INFO RCX-0442] 42% of 416517 wires extracted
+[INFO RCX-0442] 49% of 416517 wires extracted
+[INFO RCX-0442] 60% of 416517 wires extracted
+[INFO RCX-0442] 71% of 416517 wires extracted
+[INFO RCX-0442] 83% of 416517 wires extracted
+[INFO RCX-0442] 88% of 416517 wires extracted
+[INFO RCX-0442] 100% of 416517 wires extracted
+[INFO RCX-0045] Extract 43529 nets, 248368 rsegs, 248368 caps, 657650 ccs
+[INFO RCX-0443] 43529 nets finished
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns -43.28
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns -0.65
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack -0.65
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+icache_1/_18453_/ZN                     0.20    0.28   -0.08 (VIOLATED)
+icache_1/_18041_/ZN                     0.20    0.27   -0.07 (VIOLATED)
+icache_1/_11974_/ZN                     0.20    0.24   -0.05 (VIOLATED)
+icache_1/_12759_/ZN                     0.20    0.23   -0.04 (VIOLATED)
+icache_1/_21310_/ZN                     0.20    0.23   -0.03 (VIOLATED)
+icache_1/_21170_/ZN                     0.20    0.23   -0.03 (VIOLATED)
+icache_1/_11833_/ZN                     0.20    0.23   -0.03 (VIOLATED)
+icache_1/_21016_/ZN                     0.20    0.23   -0.03 (VIOLATED)
+icache_1/_12686_/ZN                     0.20    0.23   -0.03 (VIOLATED)
+icache_1/_21046_/ZN                     0.20    0.23   -0.03 (VIOLATED)
+icache_1/_21137_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_21087_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_14051_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_15072_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_22665_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_21428_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_12251_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_17856_/ZN                     0.20    0.21   -0.02 (VIOLATED)
+icache_1/_12328_/ZN                     0.20    0.21   -0.02 (VIOLATED)
+icache_1/_22554_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_23105_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_11774_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_23115_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_22699_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_21127_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_22001_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_11802_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_21234_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_13644_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_22875_/ZN                     0.20    0.20   -0.01 (VIOLATED)
+icache_1/_21419_/ZN                     0.20    0.20   -0.01 (VIOLATED)
+icache_1/_12366_/ZN                     0.20    0.20   -0.01 (VIOLATED)
+icache_1/_12032_/ZN                     0.20    0.20   -0.00 (VIOLATED)
+icache_1/_12129_/ZN                     0.20    0.20   -0.00 (VIOLATED)
+icache_1/_23082_/ZN                     0.20    0.20   -0.00 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+icache_1/_20882_/ZN                   104.07  174.88  -70.81 (VIOLATED)
+icache_1/_20906_/ZN                   104.07  157.58  -53.52 (VIOLATED)
+icache_1/_12686_/ZN                    43.87   93.78  -49.91 (VIOLATED)
+icache_1/_21170_/ZN                    43.87   92.49  -48.62 (VIOLATED)
+icache_1/_22665_/ZN                    43.87   89.01  -45.14 (VIOLATED)
+icache_1/_20874_/ZN                   104.07  147.74  -43.67 (VIOLATED)
+icache_1/_14051_/ZN                    43.87   86.53  -42.66 (VIOLATED)
+icache_1/_21428_/ZN                    43.87   85.99  -42.12 (VIOLATED)
+icache_1/_12328_/ZN                    43.87   85.26  -41.39 (VIOLATED)
+icache_1/_12251_/ZN                    43.87   84.78  -40.92 (VIOLATED)
+icache_1/_11774_/ZN                    43.87   83.30  -39.44 (VIOLATED)
+icache_1/_22001_/ZN                    39.60   78.04  -38.44 (VIOLATED)
+icache_1/_12032_/ZN                    43.87   82.28  -38.41 (VIOLATED)
+icache_1/_12129_/ZN                    43.87   81.88  -38.01 (VIOLATED)
+icache_1/_21234_/ZN                    43.87   81.22  -37.35 (VIOLATED)
+icache_1/_13644_/ZN                    43.87   80.87  -37.00 (VIOLATED)
+icache_1/_11974_/ZN                    25.63   61.56  -35.92 (VIOLATED)
+icache_1/lce/_20048_/ZN               101.01  136.20  -35.19 (VIOLATED)
+icache_1/_21419_/ZN                    43.87   78.21  -34.34 (VIOLATED)
+icache_1/_11787_/ZN                    43.87   77.95  -34.08 (VIOLATED)
+icache_1/_21376_/ZN                    43.87   77.88  -34.01 (VIOLATED)
+icache_1/_22568_/ZN                    43.87   77.69  -33.82 (VIOLATED)
+icache_1/_12388_/ZN                    43.87   76.83  -32.96 (VIOLATED)
+icache_1/_12759_/ZN                    25.63   58.58  -32.94 (VIOLATED)
+icache_1/_21310_/ZN                    25.63   58.18  -32.54 (VIOLATED)
+icache_1/_21472_/ZN                    43.87   76.37  -32.50 (VIOLATED)
+icache_1/_12238_/ZN                    43.87   75.87  -32.00 (VIOLATED)
+icache_1/_11833_/ZN                    25.63   56.67  -31.04 (VIOLATED)
+icache_1/_21016_/ZN                    25.63   56.52  -30.89 (VIOLATED)
+icache_1/_21046_/ZN                    27.62   58.45  -30.83 (VIOLATED)
+icache_1/_22679_/ZN                    43.87   74.43  -30.56 (VIOLATED)
+icache_1/_21087_/ZN                    27.62   58.02  -30.40 (VIOLATED)
+icache_1/_14565_/ZN                    43.87   74.19  -30.32 (VIOLATED)
+icache_1/_21367_/ZN                    43.87   73.78  -29.91 (VIOLATED)
+icache_1/_21407_/ZN                    43.87   73.42  -29.56 (VIOLATED)
+icache_1/_21922_/ZN                    43.87   73.23  -29.36 (VIOLATED)
+icache_1/_12596_/ZN                    43.87   73.09  -29.23 (VIOLATED)
+icache_1/_21137_/ZN                    27.62   56.83  -29.21 (VIOLATED)
+icache_1/_23110_/ZN                    43.87   72.71  -28.84 (VIOLATED)
+icache_1/_15072_/ZN                    27.62   56.20  -28.58 (VIOLATED)
+icache_1/_22197_/ZN                    43.87   71.62  -27.75 (VIOLATED)
+icache_1/_23105_/ZN                    27.62   54.72  -27.10 (VIOLATED)
+icache_1/_22554_/ZN                    25.63   52.18  -26.55 (VIOLATED)
+icache_1/_23115_/ZN                    25.63   51.34  -25.70 (VIOLATED)
+icache_1/_23784_/ZN                    43.87   69.52  -25.65 (VIOLATED)
+icache_1/_12411_/ZN                    43.87   69.10  -25.23 (VIOLATED)
+icache_1/_22699_/ZN                    27.62   52.78  -25.16 (VIOLATED)
+icache_1/_21127_/ZN                    27.62   52.74  -25.12 (VIOLATED)
+icache_1/_21892_/ZN                    43.87   68.92  -25.05 (VIOLATED)
+icache_1/_11802_/ZN                    25.63   50.05  -24.42 (VIOLATED)
+icache_1/_12366_/ZN                    25.63   49.77  -24.13 (VIOLATED)
+icache_1/_22875_/ZN                    25.63   49.45  -23.82 (VIOLATED)
+icache_1/_17254_/ZN                    43.87   67.31  -23.45 (VIOLATED)
+icache_1/_23082_/ZN                    27.62   50.71  -23.10 (VIOLATED)
+icache_1/_14089_/ZN                    43.87   66.69  -22.82 (VIOLATED)
+icache_1/_22144_/ZN                   104.07  126.79  -22.73 (VIOLATED)
+icache_1/_14912_/ZN                    63.32   85.93  -22.61 (VIOLATED)
+icache_1/_11991_/ZN                    43.87   66.28  -22.41 (VIOLATED)
+icache_1/_22529_/ZN                    25.63   46.67  -21.03 (VIOLATED)
+icache_1/_16368_/ZN                    43.87   64.72  -20.85 (VIOLATED)
+icache_1/_12242_/ZN                    27.62   48.39  -20.77 (VIOLATED)
+icache_1/_21117_/ZN                    27.62   48.30  -20.69 (VIOLATED)
+icache_1/_12155_/ZN                    25.63   46.29  -20.65 (VIOLATED)
+icache_1/_21981_/ZN                    25.63   46.28  -20.64 (VIOLATED)
+icache_1/_18453_/ZN                    11.48   31.96  -20.48 (VIOLATED)
+icache_1/_13948_/ZN                    27.62   48.00  -20.38 (VIOLATED)
+icache_1/_22128_/ZN                    27.62   47.84  -20.23 (VIOLATED)
+icache_1/_22577_/ZN                    43.87   64.04  -20.17 (VIOLATED)
+icache_1/_22539_/ZN                    25.63   45.73  -20.10 (VIOLATED)
+icache_1/_12379_/ZN                    43.87   63.79  -19.92 (VIOLATED)
+icache_1/_21965_/ZN                    25.63   44.99  -19.35 (VIOLATED)
+icache_1/_18041_/ZN                    11.48   30.76  -19.28 (VIOLATED)
+icache_1/_21353_/ZN                    25.63   44.89  -19.25 (VIOLATED)
+icache_1/_11905_/ZN                    43.87   62.57  -18.70 (VIOLATED)
+icache_1/_12232_/ZN                    43.87   62.50  -18.64 (VIOLATED)
+icache_1/_17404_/ZN                    27.62   46.13  -18.51 (VIOLATED)
+icache_1/_12132_/ZN                    25.63   44.12  -18.48 (VIOLATED)
+icache_1/_12030_/ZN                    43.87   62.25  -18.39 (VIOLATED)
+icache_1/_11705_/ZN                    43.87   62.16  -18.30 (VIOLATED)
+icache_1/_12015_/ZN                    43.87   61.94  -18.07 (VIOLATED)
+icache_1/_13832_/ZN                    43.87   61.39  -17.52 (VIOLATED)
+icache_1/_15238_/ZN                    27.62   44.40  -16.78 (VIOLATED)
+icache_1/_11941_/ZN                    43.87   60.36  -16.49 (VIOLATED)
+icache_1/_23280_/ZN                    25.63   41.69  -16.05 (VIOLATED)
+icache_1/_12352_/ZN                    43.87   59.75  -15.88 (VIOLATED)
+icache_1/_23100_/ZN                    27.62   43.16  -15.54 (VIOLATED)
+icache_1/_14208_/ZN                    27.62   43.13  -15.51 (VIOLATED)
+icache_1/_21502_/ZN                    43.87   59.04  -15.18 (VIOLATED)
+icache_1/_11966_/ZN                    43.87   59.01  -15.14 (VIOLATED)
+icache_1/_12389_/ZN                    25.63   40.65  -15.01 (VIOLATED)
+icache_1/_12025_/ZN                    43.87   58.73  -14.86 (VIOLATED)
+icache_1/_15665_/ZN                    39.60   54.34  -14.74 (VIOLATED)
+icache_1/_23328_/ZN                   104.07  118.79  -14.72 (VIOLATED)
+icache_1/_15894_/ZN                    43.87   58.51  -14.64 (VIOLATED)
+icache_1/_16494_/ZN                    43.87   58.49  -14.62 (VIOLATED)
+icache_1/_11880_/ZN                    43.87   58.46  -14.59 (VIOLATED)
+icache_1/_13848_/ZN                    43.87   58.46  -14.59 (VIOLATED)
+icache_1/_20897_/ZN                   104.07  118.63  -14.56 (VIOLATED)
+icache_1/_12341_/ZN                    25.63   40.14  -14.51 (VIOLATED)
+icache_1/lce/_20296_/ZN               101.01  115.34  -14.33 (VIOLATED)
+icache_1/_12197_/ZN                    43.87   58.16  -14.29 (VIOLATED)
+icache_1/_21900_/ZN                    25.63   39.81  -14.18 (VIOLATED)
+icache_1/_20914_/ZN                   104.07  117.97  -13.90 (VIOLATED)
+icache_1/_22478_/ZN                    43.87   57.66  -13.79 (VIOLATED)
+icache_1/_16525_/ZN                    43.87   57.64  -13.78 (VIOLATED)
+icache_1/_15360_/ZN                    27.62   41.08  -13.46 (VIOLATED)
+icache_1/_13579_/ZN                    27.62   40.82  -13.20 (VIOLATED)
+icache_1/_16025_/ZN                    27.62   40.77  -13.15 (VIOLATED)
+icache_1/_14414_/ZN                    27.62   40.31  -12.69 (VIOLATED)
+icache_1/lce/_20555_/ZN               106.81  119.48  -12.67 (VIOLATED)
+icache_1/_22519_/ZN                    25.63   37.97  -12.34 (VIOLATED)
+icache_1/_17856_/ZN                    11.48   23.18  -11.70 (VIOLATED)
+icache_1/_14146_/ZN                    43.87   55.09  -11.22 (VIOLATED)
+icache_1/lce/_22151_/CO                60.58   71.73  -11.15 (VIOLATED)
+icache_1/_17487_/ZN                    27.62   38.55  -10.93 (VIOLATED)
+icache_1/_13703_/ZN                    27.62   38.07  -10.46 (VIOLATED)
+icache_1/_22505_/ZN                    25.63   35.89  -10.26 (VIOLATED)
+icache_1/_15946_/ZN                    43.87   54.11  -10.24 (VIOLATED)
+icache_1/_14372_/ZN                    27.62   37.76  -10.14 (VIOLATED)
+icache_1/_15453_/ZN                    27.62   37.61   -9.99 (VIOLATED)
+icache_1/_22186_/ZN                   104.07  113.94   -9.88 (VIOLATED)
+icache_1/_15998_/ZN                    27.62   37.35   -9.73 (VIOLATED)
+icache_1/_23301_/ZN                    25.63   35.30   -9.66 (VIOLATED)
+icache_1/_13335_/ZN                    27.62   36.99   -9.37 (VIOLATED)
+icache_1/_11949_/ZN                    43.87   53.22   -9.35 (VIOLATED)
+icache_1/_12110_/ZN                    25.63   34.87   -9.24 (VIOLATED)
+icache_1/_16016_/ZN                    27.62   36.81   -9.19 (VIOLATED)
+icache_1/_23625_/ZN                    25.63   34.60   -8.96 (VIOLATED)
+icache_1/_12002_/ZN                    43.87   52.45   -8.58 (VIOLATED)
+icache_1/_16127_/ZN                    43.87   52.22   -8.35 (VIOLATED)
+icache_1/_22037_/ZN                    25.63   33.66   -8.03 (VIOLATED)
+icache_1/_16410_/ZN                    27.62   35.55   -7.93 (VIOLATED)
+icache_1/_17683_/Z                     50.51   58.34   -7.84 (VIOLATED)
+icache_1/_17440_/ZN                    27.62   35.27   -7.65 (VIOLATED)
+icache_1/_14361_/ZN                    27.62   35.16   -7.54 (VIOLATED)
+icache_1/_16692_/ZN                    43.87   51.21   -7.34 (VIOLATED)
+icache_1/_23635_/ZN                    25.63   32.92   -7.29 (VIOLATED)
+icache_1/_15527_/ZN                    27.62   34.81   -7.19 (VIOLATED)
+icache_1/_17019_/ZN                    27.62   34.76   -7.15 (VIOLATED)
+icache_1/_15260_/ZN                    27.62   34.70   -7.08 (VIOLATED)
+icache_1/_17704_/Z                     50.51   57.56   -7.05 (VIOLATED)
+icache_1/_16286_/ZN                    27.62   34.49   -6.87 (VIOLATED)
+icache_1/_12183_/ZN                    43.87   50.65   -6.78 (VIOLATED)
+icache_1/_17217_/ZN                    43.87   50.22   -6.35 (VIOLATED)
+icache_1/_17122_/ZN                    27.62   33.45   -5.83 (VIOLATED)
+icache_1/_12221_/ZN                    43.87   49.60   -5.73 (VIOLATED)
+icache_1/_23308_/ZN                    97.96  103.69   -5.73 (VIOLATED)
+icache_1/_15117_/ZN                    27.62   33.23   -5.61 (VIOLATED)
+icache_1/lce/_21782_/ZN               106.81  112.38   -5.57 (VIOLATED)
+icache_1/_14661_/ZN                    43.87   49.03   -5.16 (VIOLATED)
+icache_1/_14425_/ZN                    43.87   48.94   -5.07 (VIOLATED)
+icache_1/_14192_/ZN                    43.87   48.55   -4.68 (VIOLATED)
+icache_1/_23579_/ZN                    25.63   30.31   -4.67 (VIOLATED)
+icache_1/_18391_/ZN                    11.48   15.98   -4.50 (VIOLATED)
+icache_1/_15318_/ZN                    27.62   32.05   -4.43 (VIOLATED)
+icache_1/_18433_/ZN                    11.48   15.87   -4.39 (VIOLATED)
+icache_1/_12450_/ZN                    25.63   29.42   -3.79 (VIOLATED)
+icache_1/_16999_/ZN                    27.62   31.34   -3.72 (VIOLATED)
+icache_1/_12402_/ZN                    25.63   29.35   -3.71 (VIOLATED)
+icache_1/_15017_/ZN                    27.62   31.27   -3.65 (VIOLATED)
+icache_1/_17210_/ZN                    27.62   31.18   -3.56 (VIOLATED)
+icache_1/_17432_/ZN                    43.87   47.38   -3.51 (VIOLATED)
+icache_1/_21105_/ZN                    92.47   95.77   -3.30 (VIOLATED)
+icache_1/lce/_20675_/ZN               106.81  110.06   -3.25 (VIOLATED)
+icache_1/_14646_/ZN                    43.87   47.06   -3.19 (VIOLATED)
+icache_1/lce/_18098_/ZN               104.07  107.20   -3.13 (VIOLATED)
+icache_1/lce/_21806_/ZN               106.81  109.85   -3.04 (VIOLATED)
+icache_1/_22816_/ZN                    25.63   28.51   -2.88 (VIOLATED)
+icache_1/_22013_/ZN                   104.07  106.77   -2.71 (VIOLATED)
+icache_1/_17118_/ZN                    27.62   30.30   -2.68 (VIOLATED)
+icache_1/_23660_/ZN                    25.63   28.18   -2.55 (VIOLATED)
+icache_1/_16630_/ZN                    43.87   46.40   -2.53 (VIOLATED)
+icache_1/_12494_/ZN                    97.96  100.28   -2.32 (VIOLATED)
+icache_1/_16444_/ZN                    43.87   46.15   -2.28 (VIOLATED)
+icache_1/_22525_/ZN                    25.63   27.91   -2.27 (VIOLATED)
+icache_1/_22872_/ZN                   104.07  106.22   -2.16 (VIOLATED)
+icache_1/_12072_/ZN                    25.63   27.73   -2.09 (VIOLATED)
+icache_1/_22117_/ZN                   101.01  102.90   -1.88 (VIOLATED)
+icache_1/_17034_/ZN                    27.62   29.39   -1.77 (VIOLATED)
+icache_1/_18305_/ZN                    11.48   13.21   -1.73 (VIOLATED)
+icache_1/_15273_/ZN                    43.87   45.06   -1.19 (VIOLATED)
+icache_1/lce/_21529_/ZN               106.81  108.00   -1.19 (VIOLATED)
+icache_1/_12676_/ZN                    27.62   28.64   -1.02 (VIOLATED)
+icache_1/_23296_/ZN                   104.07  104.85   -0.78 (VIOLATED)
+icache_1/_22935_/ZN                    97.96   98.53   -0.57 (VIOLATED)
+icache_1/_14950_/ZN                    27.62   28.17   -0.55 (VIOLATED)
+icache_1/_11748_/ZN                    97.96   98.49   -0.52 (VIOLATED)
+icache_1/_17997_/ZN                    11.48   11.94   -0.46 (VIOLATED)
+icache_1/_22500_/ZN                    25.63   26.08   -0.45 (VIOLATED)
+icache_1/_17836_/ZN                    11.48   11.88   -0.40 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-0.07994893938302994
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.4027
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-70.8105697631836
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+104.06500244140625
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-0.6804
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 35
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 190
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 121
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+Startpoint: icache_1/addr_tv_r[20]$_SDFFCE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: bp_fe_pc_gen_1/pc_gen_icache_o[35]$_SDFFCE_PP0P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.31    0.31   clock network delay (propagated)
+   0.00    0.31 ^ icache_1/addr_tv_r[20]$_SDFFCE_PP0P_/CK (DFF_X2)
+   0.13    0.45 ^ icache_1/addr_tv_r[20]$_SDFFCE_PP0P_/Q (DFF_X2)
+   0.04    0.48 ^ icache_1/_18725_/Z (BUF_X4)
+   0.05    0.53 ^ icache_1/_17623_/ZN (XNOR2_X1)
+   0.04    0.57 v icache_1/_17624_/ZN (NAND4_X2)
+   0.12    0.69 ^ icache_1/_17625_/ZN (NOR4_X4)
+   0.02    0.71 v icache_1/_17687_/ZN (NOR4_X1)
+   0.14    0.84 ^ icache_1/_17698_/ZN (AOI211_X4)
+   0.20    1.05 ^ icache_1/_17704_/Z (XOR2_X2)
+   0.05    1.09 ^ icache_1/_17705_/Z (BUF_X8)
+   0.05    1.15 ^ icache_1/_17706_/Z (BUF_X16)
+   0.06    1.21 ^ icache_1/_17803_/Z (MUX2_X2)
+   0.02    1.22 v icache_1/_17804_/ZN (NAND2_X1)
+   0.05    1.27 v icache_1/_17811_/ZN (AND3_X1)
+   0.13    1.40 ^ icache_1/_17812_/ZN (OAI33_X1)
+   0.05    1.45 ^ wire2190/Z (BUF_X2)
+   0.04    1.48 ^ wire2189/Z (BUF_X2)
+   0.05    1.53 v bp_fe_pc_gen_1/_2574_/ZN (NAND3_X4)
+   0.21    1.74 v bp_fe_pc_gen_1/_2575_/ZN (OR3_X4)
+   0.07    1.81 ^ bp_fe_pc_gen_1/_2581_/ZN (NOR3_X4)
+   0.04    1.85 ^ max_cap1937/Z (BUF_X8)
+   0.13    1.98 v bp_fe_pc_gen_1/_2582_/Z (MUX2_X2)
+   0.15    2.12 v bp_fe_pc_gen_1/_2583_/ZN (AND2_X1)
+   0.06    2.19 v bp_fe_pc_gen_1/_4874_/S (HA_X1)
+   0.06    2.25 ^ bp_fe_pc_gen_1/_3216_/ZN (AOI211_X2)
+   0.03    2.28 v bp_fe_pc_gen_1/_3217_/ZN (OAI21_X4)
+   0.08    2.36 ^ bp_fe_pc_gen_1/_3344_/ZN (AOI211_X2)
+   0.02    2.38 v bp_fe_pc_gen_1/_3699_/ZN (NOR3_X1)
+   0.09    2.47 ^ bp_fe_pc_gen_1/_3701_/ZN (AOI221_X2)
+   0.06    2.53 ^ bp_fe_pc_gen_1/_3702_/ZN (AND2_X1)
+   0.03    2.56 v bp_fe_pc_gen_1/_3773_/ZN (OAI21_X1)
+   0.06    2.62 v bp_fe_pc_gen_1/_3774_/Z (XOR2_X2)
+   0.07    2.69 ^ bp_fe_pc_gen_1/_3781_/ZN (AOI221_X1)
+   0.02    2.71 v bp_fe_pc_gen_1/_3784_/ZN (AOI221_X1)
+   0.00    2.71 v bp_fe_pc_gen_1/pc_gen_icache_o[35]$_SDFFCE_PP0P_/D (DFF_X2)
+           2.71   data arrival time
+
+   1.80    1.80   clock CLK (rise edge)
+   0.30    2.10   clock network delay (propagated)
+   0.00    2.10   clock reconvergence pessimism
+           2.10 ^ bp_fe_pc_gen_1/pc_gen_icache_o[35]$_SDFFCE_PP0P_/CK (DFF_X2)
+  -0.03    2.06   library setup time
+           2.06   data required time
+---------------------------------------------------------
+           2.06   data required time
+          -2.71   data arrival time
+---------------------------------------------------------
+          -0.65   slack (VIOLATED)
+
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+2.7136
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-0.6521
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-24.030808
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.92e-02   1.71e-03   3.45e-04   2.13e-02  13.1%
+Combinational          1.75e-02   3.47e-02   1.47e-03   5.36e-02  33.0%
+Clock                  2.88e-03   6.46e-03   2.65e-05   9.36e-03   5.8%
+Macro                  7.05e-02   0.00e+00   7.60e-03   7.81e-02  48.1%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.10e-01   4.28e-02   9.44e-03   1.62e-01 100.0%
+                          67.8%      26.4%       5.8%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 231664 u^2 51% utilization.
+
+Elapsed time: 0:53.91[h:]min:sec. CPU time: user 52.59 sys 0.91 (99%). Peak memory: 606884KB.

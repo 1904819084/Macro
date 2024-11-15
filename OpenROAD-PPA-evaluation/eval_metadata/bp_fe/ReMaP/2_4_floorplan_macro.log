@@ -1,0 +1,18 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+[INFO][FLOW-xxxx] Using manual macro placement file mp_out
+[INFO MPL-0035] Macro bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem placed. Bounding box (15.770um, 68.495um), (168.340um, 181.895um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem placed. Bounding box (15.770um, 470.295um), (168.340um, 583.695um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem placed. Bounding box (186.340um, 16.835um), (338.910um, 130.235um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem placed. Bounding box (631.560um, 16.835um), (784.130um, 130.235um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem placed. Bounding box (356.915um, 16.835um), (509.485um, 130.235um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_4__data_mem_bank/macro_mem/mem placed. Bounding box (186.340um, 145.915um), (338.910um, 259.315um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_5__data_mem_bank/macro_mem/mem placed. Bounding box (631.560um, 145.915um), (784.130um, 259.315um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_6__data_mem_bank/macro_mem/mem placed. Bounding box (464.465um, 145.915um), (617.035um, 259.315um). Orientation R0
+[INFO MPL-0035] Macro icache_1/data_mem_banks_7__data_mem_bank/macro_mem/mem placed. Bounding box (186.340um, 470.295um), (338.910um, 583.695um). Orientation R0
+[INFO MPL-0035] Macro icache_1/metadata_mem.macro_mem.mem placed. Bounding box (15.770um, 16.835um), (26.410um, 53.235um). Orientation R0
+[INFO MPL-0035] Macro icache_1/tag_mem.macro_mem.mem placed. Bounding box (15.770um, 367.815um), (70.300um, 457.215um). Orientation R0
+Elapsed time: 0:00.67[h:]min:sec. CPU time: user 0.51 sys 0.15 (98%). Peak memory: 177248KB.

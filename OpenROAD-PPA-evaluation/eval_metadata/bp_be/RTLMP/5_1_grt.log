@@ -1,0 +1,246 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 340 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 33
+[INFO GRT-0003] Macros: 10
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 2596
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical      1394753        463855          66.74%
+metal3     Horizontal    1900705        645751          66.03%
+metal4     Vertical       887782        448364          49.50%
+metal5     Horizontal     887249        587162          33.82%
+metal6     Vertical       887782        588611          33.70%
+metal7     Horizontal     253554        111480          56.03%
+metal8     Vertical       253985        126824          50.07%
+metal9     Horizontal     126587        125828          0.60%
+metal10    Vertical       126826        125828          0.79%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 438700
+[INFO GRT-0198] Via related Steiner nodes: 13947
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 687510
+[INFO GRT-0112] Final usage 3D: 3638833
+[WARNING GRT-0115] Global routing finished with overflow.
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0           691            0.00%             4 /  1 / 691
+metal2          463855        212477           45.81%             1 /  4 / 2453
+metal3          645751        391848           60.68%             6 /  1 / 11247
+metal4          448364        221087           49.31%             1 /  4 / 1472
+metal5          587162        345975           58.92%             5 /  1 / 5259
+metal6          588611        226258           38.44%             1 /  4 / 1379
+metal7          111480         58022           52.05%             4 /  1 / 1544
+metal8          126824         32830           25.89%             1 /  3 / 473
+metal9          125828         63051           50.11%             3 /  0 / 1186
+metal10         125828         24064           19.12%             0 /  2 / 274
+---------------------------------------------------------------------------------------
+Total          3223703       1576303           48.90%            26 / 21 / 25978
+
+[INFO GRT-0018] Total wirelength: 3808137 um
+[INFO GRT-0014] Routed nets: 57777
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18250_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19134_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19501_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19604_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19659_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20979_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25015_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24016_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26222_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26309_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26264_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17915_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24212_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24868_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23251_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23824_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23281_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24458_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25313_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24468_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25402_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23469_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_22951_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26338_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26050_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25381_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23987_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25015_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23396_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23450_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26023_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24576_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24579_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25410_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23480_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23564_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24051_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_22887_/C1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24658_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_15750_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_15750_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_15854_/C1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18042_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19963_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16102_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18776_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16160_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20633_/C1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20633_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16286_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20191_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19028_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16784_/C1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19106_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19728_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18915_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18229_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20625_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20824_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16755_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16925_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19192_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20346_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18550_/C1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20953_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20363_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17099_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20971_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19305_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17283_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19029_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17811_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18524_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20135_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23606_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24805_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24817_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23792_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23947_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24148_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24417_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23257_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_22616_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_22785_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24681_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24214_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24772_/B1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24376_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24886_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24899_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26080_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23915_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_22813_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25400_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_22922_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25885_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23083_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24392_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23925_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26185_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26199_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23530_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_22905_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25796_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_24012_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_25820_/A3.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_23294_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_26337_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19616_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20232_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19390_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19403_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18700_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17378_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19271_/B2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17292_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19983_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20042_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18840_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19537_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19575_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17543_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18947_/A3.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18956_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16529_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18974_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_15795_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17716_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18343_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18122_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18553_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_15895_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17289_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16020_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17372_/A1.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18790_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17385_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17458_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20223_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16381_/C2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17034_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18578_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_19385_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_18695_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17288_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20004_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17386_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_20537_/A2.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17433_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_16539_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/_17907_/A.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_12458_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_11816_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_12042_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_12986_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_13697_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_13052_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_13704_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_13732_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_13737_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_13100_/B.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_17729_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_18261_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_19079_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_19159_/ZN.
+[WARNING GRT-0026] Missing route to pin be_mmu/dcache/lce/_19255_/ZN.
+[WARNING GRT-0026] Missing route to pin wire2993/Z.
+[WARNING GRT-0026] Missing route to pin wire2996/Z.
+[WARNING GRT-0026] Missing route to pin wire3291/Z.
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock CLK period 2.600000
+[INFO FLW-0008] Clock CLK period 3.236
+[INFO FLW-0009] Clock CLK slack -0.807
+[INFO FLW-0011] Path endpoint count 20077
+Elapsed time: 1:07.16[h:]min:sec. CPU time: user 66.05 sys 1.11 (99%). Peak memory: 1126536KB.

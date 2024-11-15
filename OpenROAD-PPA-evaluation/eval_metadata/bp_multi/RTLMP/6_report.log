@@ -1,0 +1,863 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/shiyq/OpenROAD-flow-scripts/flow/platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation bp_multi_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 664740 rc segments
+[INFO RCX-0439] Coupling Cap extraction bp_multi_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 6% of 1097170 wires extracted
+[INFO RCX-0442] 12% of 1097170 wires extracted
+[INFO RCX-0442] 18% of 1097170 wires extracted
+[INFO RCX-0442] 24% of 1097170 wires extracted
+[INFO RCX-0442] 32% of 1097170 wires extracted
+[INFO RCX-0442] 40% of 1097170 wires extracted
+[INFO RCX-0442] 48% of 1097170 wires extracted
+[INFO RCX-0442] 59% of 1097170 wires extracted
+[INFO RCX-0442] 69% of 1097170 wires extracted
+[INFO RCX-0442] 79% of 1097170 wires extracted
+[INFO RCX-0442] 92% of 1097170 wires extracted
+[INFO RCX-0442] 99% of 1097170 wires extracted
+[INFO RCX-0442] 100% of 1097170 wires extracted
+[INFO RCX-0045] Extract 179079 nets, 825970 rsegs, 825970 caps, 1748514 ccs
+[INFO RCX-0042] 100000 nets finished
+[INFO RCX-0443] 179079 nets finished
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns -6981.22
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns -5.84
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack -5.84
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+rof1_0__core/be/be_mmu/dcache/_27819_/ZN   43.87   66.63  -22.76 (VIOLATED)
+rof1_0__core/be/be_mmu/dcache/_27824_/ZN   43.87   53.54   -9.67 (VIOLATED)
+rof1_0__core/be/be_mmu/dcache/_27841_/ZN   43.87   51.68   -7.81 (VIOLATED)
+rof1_0__core/fe/icache_1/_26136_/ZN    43.87   50.13   -6.26 (VIOLATED)
+rof1_0__core/fe/icache_1/_23912_/ZN    52.03   57.21   -5.18 (VIOLATED)
+rof1_0__core/fe/icache_1/_20142_/ZN   104.07  105.24   -1.17 (VIOLATED)
+rof1_0__core/be/be_mmu/dcache/_32487_/ZN  104.07  104.44   -0.38 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+0.02491638995707035
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+0.1255
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-22.76032829284668
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+43.86899948120117
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-0.5188
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 0
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 7
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 12721
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+Startpoint: rof1_0__core/fe/bp_fe_pc_gen_1/last_pc[1]$_SDFFCE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/read_valid_o$_DFF_P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ rof1_0__core/fe/bp_fe_pc_gen_1/last_pc[1]$_SDFFCE_PP0P_/CK (DFF_X2)
+   0.14    0.55 ^ rof1_0__core/fe/bp_fe_pc_gen_1/last_pc[1]$_SDFFCE_PP0P_/Q (DFF_X2)
+   0.04    0.59 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_4995_/Z (BUF_X4)
+   0.02    0.61 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5016_/ZN (INV_X4)
+   0.10    0.71 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5040_/ZN (NOR3_X4)
+   0.04    0.75 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5041_/ZN (NAND3_X4)
+   0.07    0.82 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5042_/ZN (NOR2_X1)
+   0.04    0.86 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5043_/ZN (NAND2_X1)
+   0.05    0.91 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5045_/ZN (NOR2_X1)
+   0.01    0.93 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5047_/ZN (NOR3_X1)
+   0.02    0.94 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5048_/ZN (NAND2_X1)
+   0.02    0.97 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5072_/ZN (NAND4_X1)
+   0.02    0.99 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5074_/ZN (NAND2_X1)
+   0.02    1.01 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5096_/ZN (NAND3_X1)
+   0.02    1.02 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5098_/ZN (NAND2_X1)
+   0.02    1.05 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5120_/ZN (NAND4_X1)
+   0.02    1.07 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5122_/ZN (NAND2_X1)
+   0.02    1.09 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5142_/ZN (NAND3_X1)
+   0.02    1.10 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5144_/ZN (NAND2_X1)
+   0.02    1.13 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5163_/ZN (NAND4_X1)
+   0.02    1.15 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5165_/ZN (NAND2_X1)
+   0.01    1.16 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5176_/ZN (NAND2_X1)
+   0.01    1.17 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5178_/ZN (NAND2_X1)
+   0.03    1.20 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5197_/ZN (NAND4_X1)
+   0.02    1.22 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5206_/ZN (NAND2_X1)
+   0.03    1.25 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5223_/ZN (NAND4_X1)
+   0.03    1.27 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5225_/ZN (NAND2_X1)
+   0.02    1.29 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5242_/ZN (NAND3_X1)
+   0.02    1.31 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5244_/ZN (NAND2_X1)
+   0.02    1.33 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5263_/ZN (NAND4_X1)
+   0.02    1.35 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5268_/ZN (NAND2_X1)
+   0.02    1.38 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5285_/ZN (NAND4_X1)
+   0.02    1.40 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5287_/ZN (NAND2_X1)
+   0.02    1.42 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5299_/ZN (NAND3_X1)
+   0.02    1.43 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5306_/ZN (NAND2_X1)
+   0.01    1.45 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5313_/ZN (NAND2_X1)
+   0.01    1.46 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5323_/ZN (NAND2_X1)
+   0.02    1.48 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5337_/ZN (NAND3_X1)
+   0.02    1.50 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5339_/ZN (NAND2_X1)
+   0.03    1.52 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5358_/ZN (NAND4_X1)
+   0.02    1.54 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5360_/ZN (NAND2_X1)
+   0.02    1.57 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5380_/ZN (NAND4_X1)
+   0.02    1.59 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5382_/ZN (NAND2_X1)
+   0.02    1.61 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5395_/ZN (NAND3_X1)
+   0.02    1.62 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5398_/ZN (NAND2_X1)
+   0.01    1.64 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5406_/ZN (NAND2_X1)
+   0.02    1.65 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5414_/ZN (NAND2_X1)
+   0.02    1.67 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5423_/ZN (NAND3_X1)
+   0.02    1.69 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5425_/ZN (NAND2_X1)
+   0.02    1.71 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5438_/ZN (NAND4_X1)
+   0.02    1.74 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5440_/ZN (NAND2_X1)
+   0.02    1.76 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5457_/ZN (NAND3_X1)
+   0.02    1.77 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5459_/ZN (NAND2_X1)
+   0.02    1.80 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5472_/ZN (NAND4_X1)
+   0.02    1.82 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5474_/ZN (NAND2_X1)
+   0.03    1.84 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5490_/ZN (NAND4_X1)
+   0.02    1.86 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5496_/ZN (NAND2_X1)
+   0.01    1.87 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5501_/ZN (NAND2_X1)
+   0.01    1.89 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5503_/ZN (NAND2_X1)
+   0.02    1.91 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5514_/ZN (NAND3_X1)
+   0.02    1.92 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5516_/ZN (NAND2_X1)
+   0.01    1.93 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5527_/ZN (NAND2_X1)
+   0.02    1.95 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5529_/ZN (NAND2_X1)
+   0.02    1.97 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5543_/ZN (NAND4_X1)
+   0.02    1.99 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5548_/ZN (NAND2_X1)
+   0.02    2.01 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5556_/ZN (NAND3_X1)
+   0.02    2.03 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5565_/ZN (NAND2_X1)
+   0.02    2.05 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5576_/ZN (NAND4_X1)
+   0.02    2.07 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5578_/ZN (NAND2_X1)
+   0.02    2.09 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5592_/ZN (NAND4_X1)
+   0.02    2.11 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5600_/ZN (NAND2_X1)
+   0.01    2.13 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5607_/ZN (NAND2_X1)
+   0.02    2.15 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5609_/ZN (NAND2_X1)
+   0.03    2.17 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5621_/ZN (NAND4_X1)
+   0.02    2.19 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5623_/ZN (NAND2_X1)
+   0.02    2.22 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5638_/ZN (NAND4_X1)
+   0.02    2.24 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5641_/ZN (NAND2_X1)
+   0.02    2.26 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5655_/ZN (NAND4_X1)
+   0.02    2.28 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5662_/ZN (NAND2_X1)
+   0.02    2.30 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5672_/ZN (NAND3_X1)
+   0.02    2.31 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5674_/ZN (NAND2_X1)
+   0.02    2.34 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5689_/ZN (NAND4_X1)
+   0.02    2.36 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5691_/ZN (NAND2_X1)
+   0.02    2.38 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5698_/ZN (NAND3_X1)
+   0.02    2.40 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5700_/ZN (NAND2_X1)
+   0.02    2.42 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5708_/ZN (NAND3_X1)
+   0.02    2.44 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5712_/ZN (NAND2_X1)
+   0.02    2.46 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5720_/ZN (NAND3_X1)
+   0.02    2.48 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5725_/ZN (NAND2_X1)
+   0.02    2.50 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5735_/ZN (NAND4_X1)
+   0.02    2.52 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5741_/ZN (NAND2_X1)
+   0.02    2.54 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5747_/ZN (NAND3_X1)
+   0.02    2.56 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5751_/ZN (NAND2_X1)
+   0.01    2.57 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5757_/ZN (NAND2_X1)
+   0.02    2.59 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5760_/ZN (NAND2_X1)
+   0.02    2.61 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5770_/ZN (NAND4_X1)
+   0.02    2.63 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5772_/ZN (NAND2_X1)
+   0.02    2.65 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5781_/ZN (NAND3_X1)
+   0.02    2.67 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5783_/ZN (NAND2_X1)
+   0.02    2.69 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5791_/ZN (NAND4_X1)
+   0.02    2.71 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5796_/ZN (NAND2_X1)
+   0.02    2.73 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5804_/ZN (NAND4_X1)
+   0.03    2.76 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5806_/ZN (NAND2_X1)
+   0.03    2.79 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5818_/ZN (NAND4_X1)
+   0.02    2.82 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5823_/ZN (NAND2_X1)
+   0.02    2.83 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5829_/ZN (NAND3_X1)
+   0.02    2.85 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5834_/ZN (NAND2_X1)
+   0.02    2.87 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5840_/ZN (NAND3_X1)
+   0.02    2.88 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5845_/ZN (NAND2_X1)
+   0.01    2.90 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5851_/ZN (NAND2_X1)
+   0.02    2.91 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5854_/ZN (NAND2_X1)
+   0.02    2.93 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5862_/ZN (NAND4_X1)
+   0.02    2.95 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5867_/ZN (NAND2_X1)
+   0.01    2.97 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5873_/ZN (NAND2_X1)
+   0.02    2.99 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5875_/ZN (NAND2_X1)
+   0.02    3.01 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5883_/ZN (NAND3_X1)
+   0.02    3.03 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5886_/ZN (NAND2_X1)
+   0.02    3.05 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5894_/ZN (NAND4_X1)
+   0.02    3.07 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5896_/ZN (NAND2_X1)
+   0.02    3.09 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5905_/ZN (NAND3_X1)
+   0.02    3.11 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5907_/ZN (NAND2_X1)
+   0.03    3.13 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5916_/ZN (NAND4_X1)
+   0.02    3.15 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5919_/ZN (NAND2_X1)
+   0.02    3.17 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5927_/ZN (NAND3_X1)
+   0.02    3.19 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5929_/ZN (NAND2_X1)
+   0.03    3.21 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5937_/ZN (NAND4_X1)
+   0.02    3.24 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5941_/ZN (NAND2_X1)
+   0.03    3.26 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5953_/ZN (NAND4_X1)
+   0.02    3.28 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5955_/ZN (NAND2_X1)
+   0.03    3.31 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5966_/ZN (NAND4_X1)
+   0.02    3.33 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5968_/ZN (NAND2_X1)
+   0.02    3.35 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5977_/ZN (NAND4_X1)
+   0.02    3.37 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5979_/ZN (NAND2_X1)
+   0.02    3.39 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5985_/ZN (NAND3_X1)
+   0.02    3.41 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5987_/ZN (NAND2_X1)
+   0.02    3.42 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5995_/ZN (NAND3_X1)
+   0.02    3.44 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5997_/ZN (NAND2_X1)
+   0.02    3.47 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6003_/ZN (NAND4_X1)
+   0.03    3.50 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6005_/ZN (NOR2_X1)
+   0.02    3.52 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6012_/ZN (NAND3_X1)
+   0.02    3.54 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6017_/ZN (NAND2_X1)
+   0.02    3.56 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6025_/ZN (NAND3_X1)
+   0.02    3.57 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6027_/ZN (NAND2_X1)
+   0.02    3.59 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6034_/ZN (NAND3_X1)
+   0.02    3.61 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6036_/ZN (NAND2_X1)
+   0.02    3.63 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6043_/ZN (NAND3_X1)
+   0.02    3.64 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6048_/ZN (NAND2_X1)
+   0.03    3.67 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6057_/ZN (NAND4_X1)
+   0.02    3.69 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6063_/ZN (NAND2_X1)
+   0.02    3.72 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6071_/ZN (NAND4_X1)
+   0.02    3.74 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6073_/ZN (NAND2_X1)
+   0.02    3.76 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6082_/ZN (NAND3_X1)
+   0.02    3.77 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6087_/ZN (NAND2_X1)
+   0.02    3.80 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6095_/ZN (NAND4_X1)
+   0.02    3.82 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6100_/ZN (NAND2_X1)
+   0.02    3.83 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6110_/ZN (NAND3_X1)
+   0.02    3.85 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6112_/ZN (NAND2_X1)
+   0.02    3.87 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6119_/ZN (NAND3_X1)
+   0.02    3.89 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6124_/ZN (NAND2_X1)
+   0.03    3.92 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6131_/ZN (NAND4_X2)
+   0.03    3.95 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6136_/ZN (NAND2_X1)
+   0.02    3.97 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6143_/ZN (NAND3_X1)
+   0.02    3.99 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6146_/ZN (NAND2_X1)
+   0.01    4.00 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6151_/ZN (NAND2_X1)
+   0.01    4.01 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6155_/ZN (NAND2_X1)
+   0.02    4.03 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6161_/ZN (NAND3_X1)
+   0.02    4.05 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6163_/ZN (NAND2_X1)
+   0.02    4.07 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6169_/ZN (NAND3_X1)
+   0.02    4.08 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6171_/ZN (NAND2_X1)
+   0.02    4.11 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6179_/ZN (NAND4_X1)
+   0.02    4.13 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6181_/ZN (NAND2_X1)
+   0.02    4.15 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6186_/ZN (NAND3_X1)
+   0.02    4.16 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6188_/ZN (NAND2_X1)
+   0.02    4.18 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6193_/ZN (NAND3_X1)
+   0.02    4.20 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6195_/ZN (NAND2_X1)
+   0.02    4.22 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6202_/ZN (NAND3_X1)
+   0.02    4.23 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6204_/ZN (NAND2_X1)
+   0.02    4.25 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6212_/ZN (NAND3_X1)
+   0.02    4.27 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6214_/ZN (NAND2_X1)
+   0.02    4.29 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6220_/ZN (NAND3_X1)
+   0.02    4.31 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6222_/ZN (NAND2_X1)
+   0.01    4.32 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6227_/ZN (NAND2_X1)
+   0.02    4.33 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6232_/ZN (NAND2_X1)
+   0.02    4.36 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6238_/ZN (NAND3_X1)
+   0.02    4.37 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6241_/ZN (NAND2_X1)
+   0.02    4.40 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6248_/ZN (NAND4_X1)
+   0.02    4.41 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6250_/ZN (NAND2_X1)
+   0.03    4.44 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6258_/ZN (NAND4_X1)
+   0.02    4.46 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6262_/ZN (NAND2_X1)
+   0.02    4.48 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6269_/ZN (NAND3_X1)
+   0.02    4.50 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6273_/ZN (NAND2_X1)
+   0.02    4.52 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6279_/ZN (NAND4_X1)
+   0.02    4.54 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6281_/ZN (NAND2_X1)
+   0.02    4.56 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6287_/ZN (NAND3_X1)
+   0.02    4.58 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6290_/ZN (NAND2_X1)
+   0.02    4.60 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6298_/ZN (NAND4_X1)
+   0.02    4.62 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6302_/ZN (NAND2_X1)
+   0.02    4.65 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6310_/ZN (NAND4_X1)
+   0.02    4.67 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6313_/ZN (NAND2_X1)
+   0.02    4.69 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6319_/ZN (NAND3_X1)
+   0.02    4.70 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6324_/ZN (NAND2_X1)
+   0.02    4.72 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6331_/ZN (NAND3_X1)
+   0.02    4.74 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6333_/ZN (NAND2_X1)
+   0.02    4.76 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6338_/ZN (NAND3_X1)
+   0.02    4.78 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6340_/ZN (NAND2_X1)
+   0.02    4.80 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6346_/ZN (NAND4_X1)
+   0.02    4.82 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6348_/ZN (NAND2_X1)
+   0.02    4.85 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6356_/ZN (NAND4_X1)
+   0.02    4.87 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6358_/ZN (NAND2_X1)
+   0.03    4.89 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6365_/ZN (NAND4_X1)
+   0.02    4.91 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6369_/ZN (NAND2_X1)
+   0.02    4.93 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6376_/ZN (NAND3_X1)
+   0.02    4.95 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6380_/ZN (NAND2_X1)
+   0.02    4.97 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6388_/ZN (NAND4_X1)
+   0.02    4.99 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6390_/ZN (NAND2_X1)
+   0.02    5.02 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6398_/ZN (NAND4_X1)
+   0.02    5.04 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6400_/ZN (NAND2_X1)
+   0.02    5.06 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6405_/ZN (NAND3_X1)
+   0.02    5.07 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6407_/ZN (NAND2_X1)
+   0.02    5.09 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6415_/ZN (NAND3_X1)
+   0.02    5.11 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6417_/ZN (NAND2_X1)
+   0.02    5.13 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6424_/ZN (NAND3_X1)
+   0.02    5.14 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6426_/ZN (NAND2_X1)
+   0.03    5.17 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6432_/ZN (NAND4_X1)
+   0.02    5.19 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6434_/ZN (NAND2_X1)
+   0.02    5.21 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6440_/ZN (NAND3_X1)
+   0.02    5.23 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6442_/ZN (NAND2_X1)
+   0.02    5.25 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6448_/ZN (NAND3_X1)
+   0.02    5.27 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6450_/ZN (NAND2_X1)
+   0.02    5.29 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6456_/ZN (NAND4_X1)
+   0.02    5.31 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6458_/ZN (NAND2_X1)
+   0.02    5.33 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6465_/ZN (NAND4_X1)
+   0.02    5.35 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6467_/ZN (NAND2_X1)
+   0.02    5.37 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6473_/ZN (NAND3_X1)
+   0.02    5.39 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6476_/ZN (NAND2_X1)
+   0.02    5.41 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6482_/ZN (NAND3_X1)
+   0.02    5.43 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6487_/ZN (NAND2_X1)
+   0.02    5.45 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6493_/ZN (NAND3_X1)
+   0.02    5.47 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6496_/ZN (NAND2_X1)
+   0.02    5.50 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6505_/ZN (NAND4_X1)
+   0.02    5.52 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6507_/ZN (NAND2_X1)
+   0.02    5.53 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6512_/ZN (NAND3_X1)
+   0.02    5.55 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6516_/ZN (NAND2_X1)
+   0.02    5.57 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6523_/ZN (NAND3_X1)
+   0.02    5.59 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6525_/ZN (NAND2_X1)
+   0.03    5.61 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6532_/ZN (NAND4_X1)
+   0.02    5.63 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6534_/ZN (NAND2_X1)
+   0.02    5.65 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6539_/ZN (NAND3_X1)
+   0.02    5.67 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6542_/ZN (NAND2_X1)
+   0.02    5.68 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6548_/ZN (NAND3_X1)
+   0.02    5.70 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6551_/ZN (NAND2_X1)
+   0.02    5.72 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6556_/ZN (NAND3_X1)
+   0.02    5.73 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6558_/ZN (NAND2_X1)
+   0.03    5.76 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6565_/ZN (NAND4_X1)
+   0.02    5.79 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6567_/ZN (NAND2_X1)
+   0.02    5.81 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6574_/ZN (NAND3_X1)
+   0.02    5.83 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6576_/ZN (NAND2_X1)
+   0.02    5.85 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6582_/ZN (NAND3_X1)
+   0.02    5.87 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6584_/ZN (NAND2_X1)
+   0.02    5.89 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6590_/ZN (NAND3_X1)
+   0.02    5.91 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6593_/ZN (NAND2_X1)
+   0.02    5.93 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6600_/ZN (NAND3_X1)
+   0.02    5.94 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6602_/ZN (NAND2_X1)
+   0.02    5.96 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6608_/ZN (NAND3_X1)
+   0.02    5.98 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6610_/ZN (NAND2_X1)
+   0.02    6.00 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6616_/ZN (NAND3_X1)
+   0.02    6.02 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6620_/ZN (NAND2_X1)
+   0.02    6.04 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6627_/ZN (NAND3_X1)
+   0.02    6.05 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6629_/ZN (NAND2_X1)
+   0.02    6.07 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6634_/ZN (NAND3_X1)
+   0.02    6.09 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6638_/ZN (NAND2_X1)
+   0.02    6.12 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6645_/ZN (NAND4_X1)
+   0.02    6.14 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6647_/ZN (NAND2_X1)
+   0.01    6.15 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6652_/ZN (NAND2_X1)
+   0.02    6.17 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6655_/ZN (NAND2_X1)
+   0.02    6.18 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6661_/ZN (NAND3_X1)
+   0.02    6.20 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6664_/ZN (NAND2_X1)
+   0.02    6.22 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6669_/ZN (NAND3_X1)
+   0.02    6.23 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6673_/ZN (NAND2_X1)
+   0.01    6.25 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6677_/ZN (NAND2_X1)
+   0.01    6.26 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6679_/ZN (NAND2_X1)
+   0.02    6.28 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6685_/ZN (NAND3_X1)
+   0.02    6.30 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6688_/ZN (NAND2_X1)
+   0.03    6.32 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6697_/ZN (NAND4_X1)
+   0.02    6.34 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6699_/ZN (NAND2_X1)
+   0.01    6.35 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6704_/ZN (NAND2_X1)
+   0.02    6.37 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6706_/ZN (NAND2_X1)
+   0.02    6.40 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6712_/ZN (NAND3_X1)
+   0.02    6.41 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6716_/ZN (NAND2_X1)
+   0.01    6.42 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6721_/ZN (NAND2_X1)
+   0.01    6.44 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6723_/ZN (NAND2_X1)
+   0.02    6.45 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6731_/ZN (NAND3_X1)
+   0.02    6.47 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6733_/ZN (NAND2_X1)
+   0.02    6.49 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6739_/ZN (NAND3_X1)
+   0.02    6.51 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6743_/ZN (NAND2_X1)
+   0.03    6.54 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6751_/ZN (NAND4_X1)
+   0.02    6.56 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6754_/ZN (NAND2_X1)
+   0.02    6.58 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6760_/ZN (NAND3_X1)
+   0.02    6.59 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6762_/ZN (NAND2_X1)
+   0.02    6.61 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6767_/ZN (NAND3_X1)
+   0.02    6.63 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6769_/ZN (NAND2_X1)
+   0.02    6.65 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6776_/ZN (NAND3_X1)
+   0.02    6.67 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6779_/ZN (NAND2_X1)
+   0.02    6.68 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6785_/ZN (NAND3_X1)
+   0.02    6.70 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6789_/ZN (NAND2_X1)
+   0.01    6.71 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6793_/ZN (NAND2_X1)
+   0.01    6.73 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6798_/ZN (NAND2_X1)
+   0.02    6.75 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6803_/ZN (NAND3_X1)
+   0.02    6.76 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6808_/ZN (NAND2_X1)
+   0.02    6.78 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6814_/ZN (NAND3_X1)
+   0.02    6.80 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6816_/ZN (NAND2_X1)
+   0.03    6.82 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6823_/ZN (NAND4_X1)
+   0.02    6.84 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6826_/ZN (NAND2_X1)
+   0.02    6.86 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6832_/ZN (NAND3_X1)
+   0.02    6.88 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6834_/ZN (NAND2_X1)
+   0.03    6.91 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6841_/ZN (NAND4_X1)
+   0.02    6.93 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6843_/ZN (NAND2_X1)
+   0.02    6.95 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6850_/ZN (NAND4_X1)
+   0.02    6.97 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6852_/ZN (NAND2_X1)
+   0.03    7.00 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_6855_/ZN (NAND3_X1)
+   0.00    7.00 v rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/read_valid_o$_DFF_P_/D (DFF_X2)
+           7.00   data arrival time
+
+   0.80    0.80   clock CLK (rise edge)
+   0.41    1.21   clock network delay (propagated)
+   0.00    1.21   clock reconvergence pessimism
+           1.21 ^ rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/read_valid_o$_DFF_P_/CK (DFF_X2)
+  -0.04    1.17   library setup time
+           1.17   data required time
+---------------------------------------------------------
+           1.17   data required time
+          -7.00   data arrival time
+---------------------------------------------------------
+          -5.84   slack (VIOLATED)
+
+
+Startpoint: rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: rof1_0__core/be/be_calculator/instret_counter.count_o[52]$_SDFF_PP0_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.38    0.38   clock network delay (propagated)
+   0.00    0.38 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/CK (DFF_X2)
+   0.13    0.51 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/Q (DFF_X2)
+   0.02    0.53 ^ rof1_0__core/be/be_mmu/dcache/_18545_/Z (BUF_X16)
+   0.05    0.59 ^ wire1845/Z (BUF_X16)
+   0.06    0.65 v rof1_0__core/be/be_mmu/dcache/_18546_/ZN (INV_X4)
+   0.03    0.68 v rof1_0__core/be/be_mmu/dcache/_18547_/Z (BUF_X16)
+   0.02    0.69 ^ rof1_0__core/be/be_mmu/dcache/_18649_/ZN (NAND2_X1)
+   0.01    0.70 v rof1_0__core/be/be_mmu/dcache/_18650_/ZN (NAND2_X1)
+   0.03    0.74 ^ rof1_0__core/be/be_mmu/dcache/_18651_/ZN (NOR2_X1)
+   0.02    0.75 v rof1_0__core/be/be_mmu/dcache/_18661_/ZN (NAND2_X1)
+   0.04    0.79 ^ rof1_0__core/be/be_mmu/dcache/_18666_/ZN (NOR2_X2)
+   0.02    0.81 v rof1_0__core/be/be_mmu/dcache/_18676_/ZN (NAND2_X1)
+   0.07    0.88 ^ rof1_0__core/be/be_mmu/dcache/_18678_/ZN (NOR3_X1)
+   0.02    0.90 v rof1_0__core/be/be_mmu/dcache/_18679_/ZN (INV_X1)
+   0.03    0.93 ^ rof1_0__core/be/be_mmu/dcache/_18712_/ZN (NAND2_X2)
+   0.02    0.95 v rof1_0__core/be/be_mmu/dcache/_18713_/ZN (NOR2_X2)
+   0.03    0.97 v wire1671/Z (BUF_X8)
+   0.10    1.08 ^ rof1_0__core/be/be_mmu/dcache/_18714_/ZN (INV_X4)
+   0.02    1.10 v rof1_0__core/be/be_mmu/dcache/_18832_/ZN (NOR2_X4)
+   0.04    1.14 ^ rof1_0__core/be/be_mmu/dcache/_18835_/ZN (NAND2_X1)
+   0.03    1.17 v rof1_0__core/be/be_mmu/dcache/_18875_/ZN (NAND3_X2)
+   0.05    1.21 ^ rof1_0__core/be/be_mmu/dcache/_18878_/ZN (NOR2_X1)
+   0.02    1.23 v rof1_0__core/be/be_mmu/dcache/_18885_/ZN (NAND2_X1)
+   0.03    1.26 ^ rof1_0__core/be/be_mmu/dcache/_18890_/ZN (NAND2_X2)
+   0.02    1.28 v rof1_0__core/be/be_mmu/dcache/_18891_/ZN (INV_X4)
+   0.04    1.32 ^ rof1_0__core/be/be_calculator/_28479_/ZN (INV_X1)
+   0.02    1.34 v rof1_0__core/be/be_calculator/_28480_/ZN (NOR3_X4)
+   0.05    1.39 v rof1_0__core/be/_3435_/Z (CLKBUF_X3)
+   0.05    1.44 ^ rof1_0__core/be/_3436_/ZN (NOR2_X4)
+   0.04    1.48 v rof1_0__core/be/_3437_/ZN (NAND2_X4)
+   0.06    1.54 ^ rof1_0__core/be/be_calculator/_15345_/ZN (NOR2_X4)
+   0.03    1.56 v rof1_0__core/be/be_calculator/_15346_/ZN (INV_X2)
+   0.08    1.64 ^ rof1_0__core/be/be_calculator/_23230_/ZN (NOR3_X2)
+   0.06    1.70 ^ rof1_0__core/be/be_calculator/_29176_/CO (HA_X1)
+   0.04    1.75 ^ rof1_0__core/be/be_calculator/_29177_/CO (HA_X1)
+   0.02    1.77 v rof1_0__core/be/be_calculator/_24945_/ZN (NAND2_X1)
+   0.05    1.82 ^ rof1_0__core/be/be_calculator/_24947_/ZN (NOR2_X1)
+   0.03    1.85 v rof1_0__core/be/be_calculator/_24949_/ZN (NAND3_X2)
+   0.05    1.90 ^ rof1_0__core/be/be_calculator/_24951_/ZN (NOR2_X2)
+   0.03    1.93 v rof1_0__core/be/be_calculator/_24952_/ZN (NAND2_X1)
+   0.04    1.97 ^ rof1_0__core/be/be_calculator/_24988_/ZN (NOR3_X1)
+   0.03    2.00 v rof1_0__core/be/be_calculator/_24991_/ZN (NAND3_X1)
+   0.04    2.04 ^ rof1_0__core/be/be_calculator/_25002_/ZN (NOR2_X1)
+   0.02    2.06 v rof1_0__core/be/be_calculator/_25021_/ZN (NAND2_X1)
+   0.04    2.11 ^ rof1_0__core/be/be_calculator/_25036_/ZN (NOR2_X1)
+   0.04    2.14 v rof1_0__core/be/be_calculator/_25059_/ZN (NAND4_X2)
+   0.07    2.22 ^ rof1_0__core/be/be_calculator/_25088_/ZN (NOR3_X1)
+   0.03    2.24 v rof1_0__core/be/be_calculator/_25105_/ZN (NAND2_X1)
+   0.05    2.29 ^ rof1_0__core/be/be_calculator/_25115_/ZN (NOR2_X1)
+   0.01    2.30 v rof1_0__core/be/be_calculator/_25128_/ZN (INV_X1)
+   0.04    2.34 ^ rof1_0__core/be/be_calculator/_25130_/ZN (NOR2_X2)
+   0.02    2.36 v rof1_0__core/be/be_calculator/_25156_/ZN (NAND2_X1)
+   0.03    2.40 ^ rof1_0__core/be/be_calculator/_25166_/ZN (NOR2_X1)
+   0.02    2.42 v rof1_0__core/be/be_calculator/_25167_/ZN (NAND2_X1)
+   0.03    2.45 ^ rof1_0__core/be/be_calculator/_25168_/ZN (INV_X1)
+   0.02    2.47 v rof1_0__core/be/be_calculator/_25218_/ZN (NAND3_X1)
+   0.06    2.52 v rof1_0__core/be/be_calculator/_25229_/ZN (OR2_X1)
+   0.03    2.55 ^ rof1_0__core/be/be_calculator/_25242_/ZN (NOR2_X1)
+   0.01    2.56 v rof1_0__core/be/be_calculator/_25243_/ZN (NOR2_X1)
+   0.02    2.58 ^ rof1_0__core/be/be_calculator/_25246_/ZN (NOR2_X1)
+   0.00    2.58 ^ rof1_0__core/be/be_calculator/instret_counter.count_o[52]$_SDFF_PP0_/D (DFF_X1)
+           2.58   data arrival time
+
+   0.80    0.80   clock CLK (rise edge)
+   0.41    1.21   clock network delay (propagated)
+   0.00    1.21   clock reconvergence pessimism
+           1.21 ^ rof1_0__core/be/be_calculator/instret_counter.count_o[52]$_SDFF_PP0_/CK (DFF_X1)
+  -0.03    1.18   library setup time
+           1.18   data required time
+---------------------------------------------------------
+           1.18   data required time
+          -2.58   data arrival time
+---------------------------------------------------------
+          -1.40   slack (VIOLATED)
+
+
+Startpoint: rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: rof1_0__core/be/be_calculator/instret_counter.count_o[50]$_SDFF_PP0_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.38    0.38   clock network delay (propagated)
+   0.00    0.38 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/CK (DFF_X2)
+   0.13    0.51 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/Q (DFF_X2)
+   0.02    0.53 ^ rof1_0__core/be/be_mmu/dcache/_18545_/Z (BUF_X16)
+   0.05    0.59 ^ wire1845/Z (BUF_X16)
+   0.06    0.65 v rof1_0__core/be/be_mmu/dcache/_18546_/ZN (INV_X4)
+   0.03    0.68 v rof1_0__core/be/be_mmu/dcache/_18547_/Z (BUF_X16)
+   0.02    0.69 ^ rof1_0__core/be/be_mmu/dcache/_18649_/ZN (NAND2_X1)
+   0.01    0.70 v rof1_0__core/be/be_mmu/dcache/_18650_/ZN (NAND2_X1)
+   0.03    0.74 ^ rof1_0__core/be/be_mmu/dcache/_18651_/ZN (NOR2_X1)
+   0.02    0.75 v rof1_0__core/be/be_mmu/dcache/_18661_/ZN (NAND2_X1)
+   0.04    0.79 ^ rof1_0__core/be/be_mmu/dcache/_18666_/ZN (NOR2_X2)
+   0.02    0.81 v rof1_0__core/be/be_mmu/dcache/_18676_/ZN (NAND2_X1)
+   0.07    0.88 ^ rof1_0__core/be/be_mmu/dcache/_18678_/ZN (NOR3_X1)
+   0.02    0.90 v rof1_0__core/be/be_mmu/dcache/_18679_/ZN (INV_X1)
+   0.03    0.93 ^ rof1_0__core/be/be_mmu/dcache/_18712_/ZN (NAND2_X2)
+   0.02    0.95 v rof1_0__core/be/be_mmu/dcache/_18713_/ZN (NOR2_X2)
+   0.03    0.97 v wire1671/Z (BUF_X8)
+   0.10    1.08 ^ rof1_0__core/be/be_mmu/dcache/_18714_/ZN (INV_X4)
+   0.02    1.10 v rof1_0__core/be/be_mmu/dcache/_18832_/ZN (NOR2_X4)
+   0.04    1.14 ^ rof1_0__core/be/be_mmu/dcache/_18835_/ZN (NAND2_X1)
+   0.03    1.17 v rof1_0__core/be/be_mmu/dcache/_18875_/ZN (NAND3_X2)
+   0.05    1.21 ^ rof1_0__core/be/be_mmu/dcache/_18878_/ZN (NOR2_X1)
+   0.02    1.23 v rof1_0__core/be/be_mmu/dcache/_18885_/ZN (NAND2_X1)
+   0.03    1.26 ^ rof1_0__core/be/be_mmu/dcache/_18890_/ZN (NAND2_X2)
+   0.02    1.28 v rof1_0__core/be/be_mmu/dcache/_18891_/ZN (INV_X4)
+   0.04    1.32 ^ rof1_0__core/be/be_calculator/_28479_/ZN (INV_X1)
+   0.02    1.34 v rof1_0__core/be/be_calculator/_28480_/ZN (NOR3_X4)
+   0.05    1.39 v rof1_0__core/be/_3435_/Z (CLKBUF_X3)
+   0.05    1.44 ^ rof1_0__core/be/_3436_/ZN (NOR2_X4)
+   0.04    1.48 v rof1_0__core/be/_3437_/ZN (NAND2_X4)
+   0.06    1.54 ^ rof1_0__core/be/be_calculator/_15345_/ZN (NOR2_X4)
+   0.03    1.56 v rof1_0__core/be/be_calculator/_15346_/ZN (INV_X2)
+   0.08    1.64 ^ rof1_0__core/be/be_calculator/_23230_/ZN (NOR3_X2)
+   0.06    1.70 ^ rof1_0__core/be/be_calculator/_29176_/CO (HA_X1)
+   0.04    1.75 ^ rof1_0__core/be/be_calculator/_29177_/CO (HA_X1)
+   0.02    1.77 v rof1_0__core/be/be_calculator/_24945_/ZN (NAND2_X1)
+   0.05    1.82 ^ rof1_0__core/be/be_calculator/_24947_/ZN (NOR2_X1)
+   0.03    1.85 v rof1_0__core/be/be_calculator/_24949_/ZN (NAND3_X2)
+   0.05    1.90 ^ rof1_0__core/be/be_calculator/_24951_/ZN (NOR2_X2)
+   0.03    1.93 v rof1_0__core/be/be_calculator/_24952_/ZN (NAND2_X1)
+   0.04    1.97 ^ rof1_0__core/be/be_calculator/_24988_/ZN (NOR3_X1)
+   0.03    2.00 v rof1_0__core/be/be_calculator/_24991_/ZN (NAND3_X1)
+   0.04    2.04 ^ rof1_0__core/be/be_calculator/_25002_/ZN (NOR2_X1)
+   0.02    2.06 v rof1_0__core/be/be_calculator/_25021_/ZN (NAND2_X1)
+   0.04    2.11 ^ rof1_0__core/be/be_calculator/_25036_/ZN (NOR2_X1)
+   0.04    2.14 v rof1_0__core/be/be_calculator/_25059_/ZN (NAND4_X2)
+   0.07    2.22 ^ rof1_0__core/be/be_calculator/_25088_/ZN (NOR3_X1)
+   0.03    2.24 v rof1_0__core/be/be_calculator/_25105_/ZN (NAND2_X1)
+   0.05    2.29 ^ rof1_0__core/be/be_calculator/_25115_/ZN (NOR2_X1)
+   0.01    2.30 v rof1_0__core/be/be_calculator/_25128_/ZN (INV_X1)
+   0.04    2.34 ^ rof1_0__core/be/be_calculator/_25130_/ZN (NOR2_X2)
+   0.02    2.36 v rof1_0__core/be/be_calculator/_25156_/ZN (NAND2_X1)
+   0.03    2.40 ^ rof1_0__core/be/be_calculator/_25166_/ZN (NOR2_X1)
+   0.02    2.42 v rof1_0__core/be/be_calculator/_25167_/ZN (NAND2_X1)
+   0.03    2.45 ^ rof1_0__core/be/be_calculator/_25168_/ZN (INV_X1)
+   0.02    2.47 v rof1_0__core/be/be_calculator/_25218_/ZN (NAND3_X1)
+   0.06    2.52 v rof1_0__core/be/be_calculator/_25229_/ZN (OR2_X1)
+   0.02    2.54 ^ rof1_0__core/be/be_calculator/_25230_/ZN (NAND2_X1)
+   0.01    2.55 v rof1_0__core/be/be_calculator/_25235_/ZN (NOR2_X1)
+   0.00    2.55 v rof1_0__core/be/be_calculator/instret_counter.count_o[50]$_SDFF_PP0_/D (DFF_X1)
+           2.55   data arrival time
+
+   0.80    0.80   clock CLK (rise edge)
+   0.41    1.21   clock network delay (propagated)
+   0.00    1.21   clock reconvergence pessimism
+           1.21 ^ rof1_0__core/be/be_calculator/instret_counter.count_o[50]$_SDFF_PP0_/CK (DFF_X1)
+  -0.03    1.18   library setup time
+           1.18   data required time
+---------------------------------------------------------
+           1.18   data required time
+          -2.55   data arrival time
+---------------------------------------------------------
+          -1.37   slack (VIOLATED)
+
+
+Startpoint: rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: rof1_0__core/be/be_calculator/instret_counter.count_o[48]$_SDFF_PP0_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.38    0.38   clock network delay (propagated)
+   0.00    0.38 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/CK (DFF_X2)
+   0.13    0.51 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/Q (DFF_X2)
+   0.02    0.53 ^ rof1_0__core/be/be_mmu/dcache/_18545_/Z (BUF_X16)
+   0.05    0.59 ^ wire1845/Z (BUF_X16)
+   0.06    0.65 v rof1_0__core/be/be_mmu/dcache/_18546_/ZN (INV_X4)
+   0.03    0.68 v rof1_0__core/be/be_mmu/dcache/_18547_/Z (BUF_X16)
+   0.02    0.69 ^ rof1_0__core/be/be_mmu/dcache/_18649_/ZN (NAND2_X1)
+   0.01    0.70 v rof1_0__core/be/be_mmu/dcache/_18650_/ZN (NAND2_X1)
+   0.03    0.74 ^ rof1_0__core/be/be_mmu/dcache/_18651_/ZN (NOR2_X1)
+   0.02    0.75 v rof1_0__core/be/be_mmu/dcache/_18661_/ZN (NAND2_X1)
+   0.04    0.79 ^ rof1_0__core/be/be_mmu/dcache/_18666_/ZN (NOR2_X2)
+   0.02    0.81 v rof1_0__core/be/be_mmu/dcache/_18676_/ZN (NAND2_X1)
+   0.07    0.88 ^ rof1_0__core/be/be_mmu/dcache/_18678_/ZN (NOR3_X1)
+   0.02    0.90 v rof1_0__core/be/be_mmu/dcache/_18679_/ZN (INV_X1)
+   0.03    0.93 ^ rof1_0__core/be/be_mmu/dcache/_18712_/ZN (NAND2_X2)
+   0.02    0.95 v rof1_0__core/be/be_mmu/dcache/_18713_/ZN (NOR2_X2)
+   0.03    0.97 v wire1671/Z (BUF_X8)
+   0.10    1.08 ^ rof1_0__core/be/be_mmu/dcache/_18714_/ZN (INV_X4)
+   0.02    1.10 v rof1_0__core/be/be_mmu/dcache/_18832_/ZN (NOR2_X4)
+   0.04    1.14 ^ rof1_0__core/be/be_mmu/dcache/_18835_/ZN (NAND2_X1)
+   0.03    1.17 v rof1_0__core/be/be_mmu/dcache/_18875_/ZN (NAND3_X2)
+   0.05    1.21 ^ rof1_0__core/be/be_mmu/dcache/_18878_/ZN (NOR2_X1)
+   0.02    1.23 v rof1_0__core/be/be_mmu/dcache/_18885_/ZN (NAND2_X1)
+   0.03    1.26 ^ rof1_0__core/be/be_mmu/dcache/_18890_/ZN (NAND2_X2)
+   0.02    1.28 v rof1_0__core/be/be_mmu/dcache/_18891_/ZN (INV_X4)
+   0.04    1.32 ^ rof1_0__core/be/be_calculator/_28479_/ZN (INV_X1)
+   0.02    1.34 v rof1_0__core/be/be_calculator/_28480_/ZN (NOR3_X4)
+   0.05    1.39 v rof1_0__core/be/_3435_/Z (CLKBUF_X3)
+   0.05    1.44 ^ rof1_0__core/be/_3436_/ZN (NOR2_X4)
+   0.04    1.48 v rof1_0__core/be/_3437_/ZN (NAND2_X4)
+   0.06    1.54 ^ rof1_0__core/be/be_calculator/_15345_/ZN (NOR2_X4)
+   0.03    1.56 v rof1_0__core/be/be_calculator/_15346_/ZN (INV_X2)
+   0.08    1.64 ^ rof1_0__core/be/be_calculator/_23230_/ZN (NOR3_X2)
+   0.06    1.70 ^ rof1_0__core/be/be_calculator/_29176_/CO (HA_X1)
+   0.04    1.75 ^ rof1_0__core/be/be_calculator/_29177_/CO (HA_X1)
+   0.02    1.77 v rof1_0__core/be/be_calculator/_24945_/ZN (NAND2_X1)
+   0.05    1.82 ^ rof1_0__core/be/be_calculator/_24947_/ZN (NOR2_X1)
+   0.03    1.85 v rof1_0__core/be/be_calculator/_24949_/ZN (NAND3_X2)
+   0.05    1.90 ^ rof1_0__core/be/be_calculator/_24951_/ZN (NOR2_X2)
+   0.03    1.93 v rof1_0__core/be/be_calculator/_24952_/ZN (NAND2_X1)
+   0.04    1.97 ^ rof1_0__core/be/be_calculator/_24988_/ZN (NOR3_X1)
+   0.03    2.00 v rof1_0__core/be/be_calculator/_24991_/ZN (NAND3_X1)
+   0.04    2.04 ^ rof1_0__core/be/be_calculator/_25002_/ZN (NOR2_X1)
+   0.02    2.06 v rof1_0__core/be/be_calculator/_25021_/ZN (NAND2_X1)
+   0.04    2.11 ^ rof1_0__core/be/be_calculator/_25036_/ZN (NOR2_X1)
+   0.04    2.14 v rof1_0__core/be/be_calculator/_25059_/ZN (NAND4_X2)
+   0.07    2.22 ^ rof1_0__core/be/be_calculator/_25088_/ZN (NOR3_X1)
+   0.03    2.24 v rof1_0__core/be/be_calculator/_25105_/ZN (NAND2_X1)
+   0.05    2.29 ^ rof1_0__core/be/be_calculator/_25115_/ZN (NOR2_X1)
+   0.01    2.30 v rof1_0__core/be/be_calculator/_25128_/ZN (INV_X1)
+   0.04    2.34 ^ rof1_0__core/be/be_calculator/_25130_/ZN (NOR2_X2)
+   0.02    2.36 v rof1_0__core/be/be_calculator/_25156_/ZN (NAND2_X1)
+   0.03    2.40 ^ rof1_0__core/be/be_calculator/_25166_/ZN (NOR2_X1)
+   0.02    2.42 v rof1_0__core/be/be_calculator/_25167_/ZN (NAND2_X1)
+   0.03    2.45 ^ rof1_0__core/be/be_calculator/_25168_/ZN (INV_X1)
+   0.02    2.46 v rof1_0__core/be/be_calculator/_25195_/ZN (NAND2_X1)
+   0.02    2.49 ^ rof1_0__core/be/be_calculator/_25216_/ZN (OAI21_X1)
+   0.04    2.53 ^ rof1_0__core/be/be_calculator/_25219_/ZN (AND3_X1)
+   0.00    2.53 ^ rof1_0__core/be/be_calculator/instret_counter.count_o[48]$_SDFF_PP0_/D (DFF_X1)
+           2.53   data arrival time
+
+   0.80    0.80   clock CLK (rise edge)
+   0.41    1.21   clock network delay (propagated)
+   0.00    1.21   clock reconvergence pessimism
+           1.21 ^ rof1_0__core/be/be_calculator/instret_counter.count_o[48]$_SDFF_PP0_/CK (DFF_X1)
+  -0.03    1.18   library setup time
+           1.18   data required time
+---------------------------------------------------------
+           1.18   data required time
+          -2.53   data arrival time
+---------------------------------------------------------
+          -1.35   slack (VIOLATED)
+
+
+Startpoint: rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: rof1_0__core/be/be_calculator/instret_counter.count_o[54]$_SDFF_PP0_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.38    0.38   clock network delay (propagated)
+   0.00    0.38 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/CK (DFF_X2)
+   0.13    0.51 ^ rof1_0__core/be/be_mmu/dcache/paddr_tv_r[13]$_DFFE_PP_/Q (DFF_X2)
+   0.02    0.53 ^ rof1_0__core/be/be_mmu/dcache/_18545_/Z (BUF_X16)
+   0.05    0.59 ^ wire1845/Z (BUF_X16)
+   0.06    0.65 v rof1_0__core/be/be_mmu/dcache/_18546_/ZN (INV_X4)
+   0.03    0.68 v rof1_0__core/be/be_mmu/dcache/_18547_/Z (BUF_X16)
+   0.02    0.69 ^ rof1_0__core/be/be_mmu/dcache/_18649_/ZN (NAND2_X1)
+   0.01    0.70 v rof1_0__core/be/be_mmu/dcache/_18650_/ZN (NAND2_X1)
+   0.03    0.74 ^ rof1_0__core/be/be_mmu/dcache/_18651_/ZN (NOR2_X1)
+   0.02    0.75 v rof1_0__core/be/be_mmu/dcache/_18661_/ZN (NAND2_X1)
+   0.04    0.79 ^ rof1_0__core/be/be_mmu/dcache/_18666_/ZN (NOR2_X2)
+   0.02    0.81 v rof1_0__core/be/be_mmu/dcache/_18676_/ZN (NAND2_X1)
+   0.07    0.88 ^ rof1_0__core/be/be_mmu/dcache/_18678_/ZN (NOR3_X1)
+   0.02    0.90 v rof1_0__core/be/be_mmu/dcache/_18679_/ZN (INV_X1)
+   0.03    0.93 ^ rof1_0__core/be/be_mmu/dcache/_18712_/ZN (NAND2_X2)
+   0.02    0.95 v rof1_0__core/be/be_mmu/dcache/_18713_/ZN (NOR2_X2)
+   0.03    0.97 v wire1671/Z (BUF_X8)
+   0.10    1.08 ^ rof1_0__core/be/be_mmu/dcache/_18714_/ZN (INV_X4)
+   0.02    1.10 v rof1_0__core/be/be_mmu/dcache/_18832_/ZN (NOR2_X4)
+   0.04    1.14 ^ rof1_0__core/be/be_mmu/dcache/_18835_/ZN (NAND2_X1)
+   0.03    1.17 v rof1_0__core/be/be_mmu/dcache/_18875_/ZN (NAND3_X2)
+   0.05    1.21 ^ rof1_0__core/be/be_mmu/dcache/_18878_/ZN (NOR2_X1)
+   0.02    1.23 v rof1_0__core/be/be_mmu/dcache/_18885_/ZN (NAND2_X1)
+   0.03    1.26 ^ rof1_0__core/be/be_mmu/dcache/_18890_/ZN (NAND2_X2)
+   0.02    1.28 v rof1_0__core/be/be_mmu/dcache/_18891_/ZN (INV_X4)
+   0.04    1.32 ^ rof1_0__core/be/be_calculator/_28479_/ZN (INV_X1)
+   0.02    1.34 v rof1_0__core/be/be_calculator/_28480_/ZN (NOR3_X4)
+   0.05    1.39 v rof1_0__core/be/_3435_/Z (CLKBUF_X3)
+   0.05    1.44 ^ rof1_0__core/be/_3436_/ZN (NOR2_X4)
+   0.04    1.48 v rof1_0__core/be/_3437_/ZN (NAND2_X4)
+   0.06    1.54 ^ rof1_0__core/be/be_calculator/_15345_/ZN (NOR2_X4)
+   0.03    1.56 v rof1_0__core/be/be_calculator/_15346_/ZN (INV_X2)
+   0.08    1.64 ^ rof1_0__core/be/be_calculator/_23230_/ZN (NOR3_X2)
+   0.06    1.70 ^ rof1_0__core/be/be_calculator/_29176_/CO (HA_X1)
+   0.04    1.75 ^ rof1_0__core/be/be_calculator/_29177_/CO (HA_X1)
+   0.02    1.77 v rof1_0__core/be/be_calculator/_24945_/ZN (NAND2_X1)
+   0.05    1.82 ^ rof1_0__core/be/be_calculator/_24947_/ZN (NOR2_X1)
+   0.03    1.85 v rof1_0__core/be/be_calculator/_24949_/ZN (NAND3_X2)
+   0.05    1.90 ^ rof1_0__core/be/be_calculator/_24951_/ZN (NOR2_X2)
+   0.03    1.93 v rof1_0__core/be/be_calculator/_24952_/ZN (NAND2_X1)
+   0.04    1.97 ^ rof1_0__core/be/be_calculator/_24988_/ZN (NOR3_X1)
+   0.03    2.00 v rof1_0__core/be/be_calculator/_24991_/ZN (NAND3_X1)
+   0.04    2.04 ^ rof1_0__core/be/be_calculator/_25002_/ZN (NOR2_X1)
+   0.02    2.06 v rof1_0__core/be/be_calculator/_25021_/ZN (NAND2_X1)
+   0.04    2.11 ^ rof1_0__core/be/be_calculator/_25036_/ZN (NOR2_X1)
+   0.04    2.14 v rof1_0__core/be/be_calculator/_25059_/ZN (NAND4_X2)
+   0.07    2.22 ^ rof1_0__core/be/be_calculator/_25088_/ZN (NOR3_X1)
+   0.03    2.24 v rof1_0__core/be/be_calculator/_25105_/ZN (NAND2_X1)
+   0.05    2.29 ^ rof1_0__core/be/be_calculator/_25115_/ZN (NOR2_X1)
+   0.01    2.30 v rof1_0__core/be/be_calculator/_25128_/ZN (INV_X1)
+   0.04    2.34 ^ rof1_0__core/be/be_calculator/_25130_/ZN (NOR2_X2)
+   0.03    2.37 v rof1_0__core/be/be_calculator/_25180_/ZN (NAND3_X2)
+   0.05    2.42 ^ rof1_0__core/be/be_calculator/_25204_/ZN (NOR2_X1)
+   0.02    2.44 v rof1_0__core/be/be_calculator/_25253_/ZN (NAND3_X1)
+   0.02    2.46 ^ rof1_0__core/be/be_calculator/_25254_/ZN (INV_X1)
+   0.01    2.47 v rof1_0__core/be/be_calculator/_25256_/ZN (NOR2_X1)
+   0.04    2.51 ^ rof1_0__core/be/be_calculator/_25257_/ZN (NOR3_X1)
+   0.00    2.51 ^ rof1_0__core/be/be_calculator/instret_counter.count_o[54]$_SDFF_PP0_/D (DFF_X1)
+           2.51   data arrival time
+
+   0.80    0.80   clock CLK (rise edge)
+   0.41    1.21   clock network delay (propagated)
+   0.00    1.21   clock reconvergence pessimism
+           1.21 ^ rof1_0__core/be/be_calculator/instret_counter.count_o[54]$_SDFF_PP0_/CK (DFF_X1)
+  -0.03    1.18   library setup time
+           1.18   data required time
+---------------------------------------------------------
+           1.18   data required time
+          -2.51   data arrival time
+---------------------------------------------------------
+          -1.33   slack (VIOLATED)
+
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+7.0043
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-5.8362
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-83.323102
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.51e-01   3.99e-03   1.50e-03   1.56e-01  25.6%
+Combinational          2.72e-02   4.55e-02   4.23e-03   7.69e-02  12.6%
+Clock                  2.22e-02   5.52e-02   8.62e-05   7.75e-02  12.7%
+Macro                  2.83e-01   0.00e+00   1.56e-02   2.99e-01  49.1%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  4.83e-01   1.05e-01   2.14e-02   6.09e-01 100.0%
+                          79.3%      17.2%       3.5%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 582930 u^2 50% utilization.
+
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0044] Unable to find net (line: 17891): frFakeVDD
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_multi/RTLMP/final_routing.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_multi/RTLMP/final_placement.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_multi/RTLMP/final_ir_drop.webp.png
+[WARNING GUI-0066] Heat map "IR Drop" has not been populated with data.
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_multi/RTLMP/final_clocks.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_multi/RTLMP/final_congestion.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_multi/RTLMP/final_resizer.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_multi/RTLMP/cts_CLK.webp.png
+Elapsed time: 2:55.02[h:]min:sec. CPU time: user 170.29 sys 3.62 (99%). Peak memory: 1945592KB.

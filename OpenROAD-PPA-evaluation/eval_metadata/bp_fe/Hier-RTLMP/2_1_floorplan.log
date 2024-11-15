@@ -1,0 +1,35 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/NangateOpenCellLibrary.tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/NangateOpenCellLibrary.macro.mod.lef, created 135 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_512x64.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_64x7.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_64x96.lef, created 1 library cells
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There is 1 input port missing set_input_delay.
+Warning: There are 1065 unconstrained endpoints.
+number instances in verilog is 33199
+[WARNING IFP-0028] Core area lower left (10.000, 10.000) snapped to (10.070, 11.200).
+[INFO IFP-0001] Added 413 rows of 4104 site FreePDK45_38x28_10R_NP_162NW_34O.
+Default units for flow
+ time 1ns
+ capacitance 1fF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1nW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 212666 u^2 47% utilization.
+Elapsed time: 0:09.65[h:]min:sec. CPU time: user 9.31 sys 0.38 (100%). Peak memory: 262096KB.

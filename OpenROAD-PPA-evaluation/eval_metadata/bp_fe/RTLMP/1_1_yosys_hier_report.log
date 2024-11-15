@@ -1,0 +1,660 @@
+1. Executing RTLIL frontend.
+2. Executing Liberty frontend: ./objects/nangate45/bp_fe/RTLMP/lib/NangateOpenCellLibrary_typical.lib
+3. Executing Liberty frontend: ./objects/nangate45/bp_fe/RTLMP/lib/fakeram45_512x64.lib
+4. Executing Liberty frontend: ./objects/nangate45/bp_fe/RTLMP/lib/fakeram45_64x7.lib
+5. Executing Liberty frontend: ./objects/nangate45/bp_fe/RTLMP/lib/fakeram45_64x96.lib
+6. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/nangate45/bp_fe/RTLMP/clock_period.txt
+Setting clock period to 1.8
+synth -top bp_fe_top -run :fine
+7. Executing SYNTH pass.
+7.1. Executing HIERARCHY pass (managing design hierarchy).
+7.1.1. Analyzing design hierarchy..
+7.1.2. Analyzing design hierarchy..
+7.2. Executing PROC pass (convert processes to netlists).
+7.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+7.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+7.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+7.2.4. Executing PROC_INIT pass (extract init attributes).
+7.2.5. Executing PROC_ARST pass (detect async resets in processes).
+7.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+7.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+7.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+7.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+7.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+7.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+7.2.12. Executing OPT_EXPR pass (perform const folding).
+7.3. Executing OPT_EXPR pass (perform const folding).
+7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.5. Executing CHECK pass (checking for obvious problems).
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [201] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [200] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [199] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [198] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [197] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [196] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [195] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [194] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [193] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [192] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [191] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [190] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [189] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [188] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [187] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [186] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [185] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [184] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [183] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [182] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [181] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [180] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [179] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [178] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [177] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [176] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [175] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [174] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [173] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [172] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [171] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [170] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [169] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [168] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [167] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [166] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [165] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [164] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [163] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [162] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [161] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [160] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [159] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [158] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [157] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [156] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [155] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [154] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [153] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [152] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [151] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [150] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [149] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [148] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [147] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [146] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [145] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [144] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [143] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [142] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [141] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [140] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [139] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [138] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [137] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [136] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [135] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [134] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [133] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [133] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [132] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [131] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [130] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [129] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [128] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [127] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [126] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [125] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [124] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [123] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [122] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [121] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [120] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [119] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [118] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [117] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [116] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [115] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [114] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [113] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [112] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [111] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [110] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [109] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [108] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [107] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [106] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [105] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [104] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [103] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [102] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [101] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [100] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [99] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [98] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [97] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [96] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [95] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [94] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [93] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [92] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [91] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [90] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [89] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [88] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [87] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [86] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [85] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [84] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [83] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [82] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [81] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [80] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [79] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [78] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [77] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [76] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [75] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [74] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [73] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [72] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [71] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [70] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [69] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [68] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [67] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [66] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [65] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [64] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [63] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [62] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [61] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [60] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [59] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [58] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [57] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [56] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [55] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [54] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [53] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [52] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [51] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [50] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [49] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [48] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [47] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [46] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [45] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [44] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [43] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [42] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [41] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [40] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [39] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [38] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [37] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [36] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [35] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [34] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [33] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [32] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [31] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [30] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [29] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [28] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [27] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [26] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [25] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [24] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [23] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [22] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [21] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [20] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [19] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [18] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [17] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [16] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [15] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [14] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [13] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [12] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [11] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [10] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [9] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [8] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [7] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [6] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [5] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [4] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [3] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [2] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [1] is used but has no driver.
+Warning: Wire itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10.\itlb_fe_o [0] is used but has no driver.
+7.6. Executing OPT pass (performing simple optimizations).
+7.6.1. Executing OPT_EXPR pass (perform const folding).
+7.6.2. Executing OPT_MERGE pass (detect identical cells).
+7.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.6.5. Executing OPT_MERGE pass (detect identical cells).
+7.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.6.8. Executing OPT_EXPR pass (perform const folding).
+7.6.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.6.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.6.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.6.12. Executing OPT_MERGE pass (detect identical cells).
+7.6.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.6.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.6.15. Executing OPT_EXPR pass (perform const folding).
+7.6.16. Finished OPT passes. (There is nothing left to do.)
+7.7. Executing FSM pass (extract and optimize FSM).
+7.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+7.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+7.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+7.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+7.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+7.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+7.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+7.8. Executing OPT pass (performing simple optimizations).
+7.8.1. Executing OPT_EXPR pass (perform const folding).
+7.8.2. Executing OPT_MERGE pass (detect identical cells).
+7.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.5. Executing OPT_MERGE pass (detect identical cells).
+7.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.8. Executing OPT_EXPR pass (perform const folding).
+7.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.12. Executing OPT_MERGE pass (detect identical cells).
+7.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.15. Executing OPT_EXPR pass (perform const folding).
+7.8.16. Rerunning OPT passes. (Maybe there is more to do..)
+7.8.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.19. Executing OPT_MERGE pass (detect identical cells).
+7.8.20. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.22. Executing OPT_EXPR pass (perform const folding).
+7.8.23. Finished OPT passes. (There is nothing left to do.)
+7.9. Executing WREDUCE pass (reducing word size of cells).
+7.10. Executing PEEPOPT pass (run peephole optimizers).
+7.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.12. Executing ALUMACC pass (create $alu and $macc cells).
+7.13. Executing SHARE pass (SAT-based resource sharing).
+7.14. Executing OPT pass (performing simple optimizations).
+7.14.1. Executing OPT_EXPR pass (perform const folding).
+7.14.2. Executing OPT_MERGE pass (detect identical cells).
+7.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.14.5. Executing OPT_MERGE pass (detect identical cells).
+7.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.14.8. Executing OPT_EXPR pass (perform const folding).
+7.14.9. Finished OPT passes. (There is nothing left to do.)
+7.15. Executing MEMORY pass.
+7.15.1. Executing OPT_MEM pass (optimize memories).
+7.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+7.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+7.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+7.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+7.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+7.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+7.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+7.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+8. Executing SYNTH pass.
+8.1. Executing OPT pass (performing simple optimizations).
+8.1.1. Executing OPT_EXPR pass (perform const folding).
+8.1.2. Executing OPT_MERGE pass (detect identical cells).
+8.1.3. Executing OPT_DFF pass (perform DFF optimizations).
+8.1.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.1.5. Rerunning OPT passes. (Removed registers in this run.)
+8.1.6. Executing OPT_EXPR pass (perform const folding).
+8.1.7. Executing OPT_MERGE pass (detect identical cells).
+8.1.8. Executing OPT_DFF pass (perform DFF optimizations).
+8.1.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.1.10. Finished fast OPT passes.
+8.2. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+8.3. Executing OPT pass (performing simple optimizations).
+8.3.1. Executing OPT_EXPR pass (perform const folding).
+8.3.2. Executing OPT_MERGE pass (detect identical cells).
+8.3.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.3.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.3.5. Executing OPT_MERGE pass (detect identical cells).
+8.3.6. Executing OPT_SHARE pass.
+8.3.7. Executing OPT_DFF pass (perform DFF optimizations).
+8.3.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.3.9. Executing OPT_EXPR pass (perform const folding).
+8.3.10. Rerunning OPT passes. (Maybe there is more to do..)
+8.3.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.3.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.3.13. Executing OPT_MERGE pass (detect identical cells).
+8.3.14. Executing OPT_SHARE pass.
+8.3.15. Executing OPT_DFF pass (perform DFF optimizations).
+8.3.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.3.17. Executing OPT_EXPR pass (perform const folding).
+8.3.18. Rerunning OPT passes. (Maybe there is more to do..)
+8.3.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.3.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.3.21. Executing OPT_MERGE pass (detect identical cells).
+8.3.22. Executing OPT_SHARE pass.
+8.3.23. Executing OPT_DFF pass (perform DFF optimizations).
+8.3.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.3.25. Executing OPT_EXPR pass (perform const folding).
+8.3.26. Finished OPT passes. (There is nothing left to do.)
+8.4. Executing TECHMAP pass (map to technology primitives).
+8.4.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+8.4.2. Continuing TECHMAP pass.
+8.5. Executing OPT pass (performing simple optimizations).
+8.5.1. Executing OPT_EXPR pass (perform const folding).
+8.5.2. Executing OPT_MERGE pass (detect identical cells).
+8.5.3. Executing OPT_DFF pass (perform DFF optimizations).
+8.5.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.5.5. Finished fast OPT passes.
+8.6. Executing ABC pass (technology mapping using ABC).
+8.6.1. Extracting gate netlist of module `\bp_be_dcache_lru_decode_ways_p8' to `<abc-temp-dir>/input.blif'..
+8.6.2. Extracting gate netlist of module `\bp_be_dcache_lru_encode_ways_p8' to `<abc-temp-dir>/input.blif'..
+8.6.3. Extracting gate netlist of module `\bp_fe_bht_bht_indx_width_p5' to `<abc-temp-dir>/input.blif'..
+8.6.4. Extracting gate netlist of module `\bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22' to `<abc-temp-dir>/input.blif'..
+8.6.5. Extracting gate netlist of module `\bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64' to `<abc-temp-dir>/input.blif'..
+8.6.6. Extracting gate netlist of module `\bp_fe_lce_cmd_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+8.6.7. Extracting gate netlist of module `\bp_fe_lce_data_cmd_data_width_p64_lce_addr_width_p22_lce_data_width_p512_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+8.6.8. Extracting gate netlist of module `\bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+8.6.9. Extracting gate netlist of module `\bp_fe_lce_req_data_width_p64_lce_addr_width_p22_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+8.6.10. Extracting gate netlist of module `\bp_fe_lce_tr_resp_in_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+8.6.11. Extracting gate netlist of module `\bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1' to `<abc-temp-dir>/input.blif'..
+8.6.12. Extracting gate netlist of module `\bp_fe_top' to `<abc-temp-dir>/input.blif'..
+8.6.13. Extracting gate netlist of module `\bsg_encode_one_hot_width_p1' to `<abc-temp-dir>/input.blif'..
+8.6.14. Extracting gate netlist of module `\bsg_encode_one_hot_width_p2' to `<abc-temp-dir>/input.blif'..
+8.6.15. Extracting gate netlist of module `\bsg_encode_one_hot_width_p4' to `<abc-temp-dir>/input.blif'..
+8.6.16. Extracting gate netlist of module `\bsg_encode_one_hot_width_p8_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+8.6.17. Extracting gate netlist of module `\bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0' to `<abc-temp-dir>/input.blif'..
+8.6.18. Extracting gate netlist of module `\bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0' to `<abc-temp-dir>/input.blif'..
+8.6.19. Extracting gate netlist of module `\bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0' to `<abc-temp-dir>/input.blif'..
+8.6.20. Extracting gate netlist of module `\bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0' to `<abc-temp-dir>/input.blif'..
+8.6.21. Extracting gate netlist of module `\bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0' to `<abc-temp-dir>/input.blif'..
+8.6.22. Extracting gate netlist of module `\bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0' to `<abc-temp-dir>/input.blif'..
+8.6.23. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_bit_width_p7_els_p64' to `<abc-temp-dir>/input.blif'..
+8.6.24. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64' to `<abc-temp-dir>/input.blif'..
+8.6.25. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64' to `<abc-temp-dir>/input.blif'..
+8.6.26. Extracting gate netlist of module `\bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9' to `<abc-temp-dir>/input.blif'..
+8.6.27. Extracting gate netlist of module `\bsg_mux_width_p64_els_p8' to `<abc-temp-dir>/input.blif'..
+8.6.28. Extracting gate netlist of module `\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+8.6.29. Extracting gate netlist of module `\bsg_priority_encode_width_p8_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+8.6.30. Extracting gate netlist of module `\bsg_scan_width_p8_or_p1_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+8.6.31. Extracting gate netlist of module `\bsg_two_fifo_width_p36' to `<abc-temp-dir>/input.blif'..
+8.6.32. Extracting gate netlist of module `\bsg_two_fifo_width_p539' to `<abc-temp-dir>/input.blif'..
+8.6.33. Extracting gate netlist of module `\bsg_two_fifo_width_p540' to `<abc-temp-dir>/input.blif'..
+8.6.34. Extracting gate netlist of module `\hard_mem_1rw_bit_mask_d64_w7_wrapper' to `<abc-temp-dir>/input.blif'..
+8.6.35. Extracting gate netlist of module `\hard_mem_1rw_bit_mask_d64_w96_wrapper' to `<abc-temp-dir>/input.blif'..
+8.6.36. Extracting gate netlist of module `\hard_mem_1rw_byte_mask_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+8.6.37. Extracting gate netlist of module `\hard_mem_1rw_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+8.6.38. Extracting gate netlist of module `\icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+8.6.39. Extracting gate netlist of module `\instr_scan_eaddr_width_p64_instr_width_p32' to `<abc-temp-dir>/input.blif'..
+8.6.40. Extracting gate netlist of module `\itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10' to `<abc-temp-dir>/input.blif'..
+8.7. Executing OPT pass (performing simple optimizations).
+8.7.1. Executing OPT_EXPR pass (perform const folding).
+8.7.2. Executing OPT_MERGE pass (detect identical cells).
+8.7.3. Executing OPT_DFF pass (perform DFF optimizations).
+8.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.7.5. Finished fast OPT passes.
+8.8. Executing HIERARCHY pass (managing design hierarchy).
+8.8.1. Analyzing design hierarchy..
+8.8.2. Analyzing design hierarchy..
+8.9. Printing statistics.
+8.10. Executing CHECK pass (checking for obvious problems).
+9. Executing TECHMAP pass (map to technology primitives).
+9.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_adders.v
+9.2. Continuing TECHMAP pass.
+10. Executing TECHMAP pass (map to technology primitives).
+10.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+10.2. Continuing TECHMAP pass.
+11. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+11.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+abc -script /home/shiyq/OR_1002/flow/scripts/abc_speed.script -liberty ./objects/nangate45/bp_fe/RTLMP/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/bp_fe/RTLMP/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 1.8
+12. Executing ABC pass (technology mapping using ABC).
+12.1. Extracting gate netlist of module `\bp_be_dcache_lru_decode_ways_p8' to `<abc-temp-dir>/input.blif'..
+12.1.1. Executing ABC.
+12.1.2. Re-integrating ABC results.
+12.2. Extracting gate netlist of module `\bp_be_dcache_lru_encode_ways_p8' to `<abc-temp-dir>/input.blif'..
+12.2.1. Executing ABC.
+12.2.2. Re-integrating ABC results.
+12.3. Extracting gate netlist of module `\bp_fe_bht_bht_indx_width_p5' to `<abc-temp-dir>/input.blif'..
+12.3.1. Executing ABC.
+12.3.2. Re-integrating ABC results.
+12.4. Extracting gate netlist of module `\bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22' to `<abc-temp-dir>/input.blif'..
+12.4.1. Executing ABC.
+12.4.2. Re-integrating ABC results.
+12.5. Extracting gate netlist of module `\bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64' to `<abc-temp-dir>/input.blif'..
+12.5.1. Executing ABC.
+12.5.2. Re-integrating ABC results.
+12.6. Extracting gate netlist of module `\bp_fe_lce_cmd_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+12.6.1. Executing ABC.
+12.6.2. Re-integrating ABC results.
+12.7. Extracting gate netlist of module `\bp_fe_lce_data_cmd_data_width_p64_lce_addr_width_p22_lce_data_width_p512_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+12.7.1. Executing ABC.
+12.7.2. Re-integrating ABC results.
+12.8. Extracting gate netlist of module `\bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+12.8.1. Executing ABC.
+12.8.2. Re-integrating ABC results.
+12.9. Extracting gate netlist of module `\bp_fe_lce_req_data_width_p64_lce_addr_width_p22_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+12.9.1. Executing ABC.
+12.9.2. Re-integrating ABC results.
+12.10. Extracting gate netlist of module `\bp_fe_lce_tr_resp_in_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+12.10.1. Executing ABC.
+12.10.2. Re-integrating ABC results.
+12.11. Extracting gate netlist of module `\bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1' to `<abc-temp-dir>/input.blif'..
+12.11.1. Executing ABC.
+12.11.2. Re-integrating ABC results.
+12.12. Extracting gate netlist of module `\bp_fe_top' to `<abc-temp-dir>/input.blif'..
+12.12.1. Executing ABC.
+12.12.2. Re-integrating ABC results.
+12.13. Extracting gate netlist of module `\bsg_encode_one_hot_width_p1' to `<abc-temp-dir>/input.blif'..
+12.14. Extracting gate netlist of module `\bsg_encode_one_hot_width_p2' to `<abc-temp-dir>/input.blif'..
+12.14.1. Executing ABC.
+12.14.2. Re-integrating ABC results.
+12.15. Extracting gate netlist of module `\bsg_encode_one_hot_width_p4' to `<abc-temp-dir>/input.blif'..
+12.15.1. Executing ABC.
+12.15.2. Re-integrating ABC results.
+12.16. Extracting gate netlist of module `\bsg_encode_one_hot_width_p8_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+12.16.1. Executing ABC.
+12.16.2. Re-integrating ABC results.
+12.17. Extracting gate netlist of module `\bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0' to `<abc-temp-dir>/input.blif'..
+12.17.1. Executing ABC.
+12.17.2. Re-integrating ABC results.
+12.18. Extracting gate netlist of module `\bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0' to `<abc-temp-dir>/input.blif'..
+12.18.1. Executing ABC.
+12.18.2. Re-integrating ABC results.
+12.19. Extracting gate netlist of module `\bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0' to `<abc-temp-dir>/input.blif'..
+12.19.1. Executing ABC.
+12.19.2. Re-integrating ABC results.
+12.20. Extracting gate netlist of module `\bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0' to `<abc-temp-dir>/input.blif'..
+12.21. Extracting gate netlist of module `\bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0' to `<abc-temp-dir>/input.blif'..
+12.22. Extracting gate netlist of module `\bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0' to `<abc-temp-dir>/input.blif'..
+12.23. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_bit_width_p7_els_p64' to `<abc-temp-dir>/input.blif'..
+12.24. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64' to `<abc-temp-dir>/input.blif'..
+12.25. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64' to `<abc-temp-dir>/input.blif'..
+12.26. Extracting gate netlist of module `\bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9' to `<abc-temp-dir>/input.blif'..
+12.27. Extracting gate netlist of module `\bsg_mux_width_p64_els_p8' to `<abc-temp-dir>/input.blif'..
+12.27.1. Executing ABC.
+12.27.2. Re-integrating ABC results.
+12.28. Extracting gate netlist of module `\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+12.28.1. Executing ABC.
+12.28.2. Re-integrating ABC results.
+12.29. Extracting gate netlist of module `\bsg_priority_encode_width_p8_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+12.30. Extracting gate netlist of module `\bsg_scan_width_p8_or_p1_lo_to_hi_p1' to `<abc-temp-dir>/input.blif'..
+12.30.1. Executing ABC.
+12.30.2. Re-integrating ABC results.
+12.31. Extracting gate netlist of module `\bsg_two_fifo_width_p36' to `<abc-temp-dir>/input.blif'..
+12.31.1. Executing ABC.
+12.31.2. Re-integrating ABC results.
+12.32. Extracting gate netlist of module `\bsg_two_fifo_width_p539' to `<abc-temp-dir>/input.blif'..
+12.32.1. Executing ABC.
+12.32.2. Re-integrating ABC results.
+12.33. Extracting gate netlist of module `\bsg_two_fifo_width_p540' to `<abc-temp-dir>/input.blif'..
+12.33.1. Executing ABC.
+12.33.2. Re-integrating ABC results.
+12.34. Extracting gate netlist of module `\hard_mem_1rw_bit_mask_d64_w7_wrapper' to `<abc-temp-dir>/input.blif'..
+12.35. Extracting gate netlist of module `\hard_mem_1rw_bit_mask_d64_w96_wrapper' to `<abc-temp-dir>/input.blif'..
+12.36. Extracting gate netlist of module `\hard_mem_1rw_byte_mask_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+12.37. Extracting gate netlist of module `\hard_mem_1rw_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+12.38. Extracting gate netlist of module `\icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+12.38.1. Executing ABC.
+12.38.2. Re-integrating ABC results.
+12.39. Extracting gate netlist of module `\instr_scan_eaddr_width_p64_instr_width_p32' to `<abc-temp-dir>/input.blif'..
+12.39.1. Executing ABC.
+12.39.2. Re-integrating ABC results.
+12.40. Extracting gate netlist of module `\itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10' to `<abc-temp-dir>/input.blif'..
+13. Printing statistics.
+Ungroup modules of size 10000
+14. Executing HIERARCHY pass (managing design hierarchy).
+14.1. Analyzing design hierarchy..
+14.2. Analyzing design hierarchy..
+Found module bp_fe_top
+Found module bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1
+Found module bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22
+Found module bp_fe_bht_bht_indx_width_p5
+Found module bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64
+Found module bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9
+Found module hard_mem_1rw_d512_w64_wrapper
+Found module instr_scan_eaddr_width_p64_instr_width_p32
+Found module icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8
+Found module bp_be_dcache_lru_decode_ways_p8
+Found module bp_be_dcache_lru_encode_ways_p8
+Found module bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8
+Found module bp_fe_lce_cmd_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8
+Found module bp_fe_lce_data_cmd_data_width_p64_lce_addr_width_p22_lce_data_width_p512_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8
+Found module bp_fe_lce_req_data_width_p64_lce_addr_width_p22_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8
+Found module bp_fe_lce_tr_resp_in_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_num_cce_p1_num_lce_p2_block_size_in_bytes_p8
+Found module bsg_two_fifo_width_p36
+Found module bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0
+Found module bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0
+Found module bsg_two_fifo_width_p539
+Found module bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0
+Found module bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0
+Found module bsg_two_fifo_width_p540
+Found module bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0
+Found module bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0
+Found module bsg_mem_1rw_sync_mask_write_bit_width_p7_els_p64
+Found module hard_mem_1rw_bit_mask_d64_w7_wrapper
+Found module bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64
+Found module hard_mem_1rw_bit_mask_d64_w96_wrapper
+Found module bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+Found module hard_mem_1rw_byte_mask_d512_w64_wrapper
+Found module bsg_mux_width_p64_els_p8
+Found module bsg_priority_encode_width_p8_lo_to_hi_p1
+Found module bsg_encode_one_hot_width_p8_lo_to_hi_p1
+Found module bsg_encode_one_hot_width_p4
+Found module bsg_encode_one_hot_width_p2
+Found module bsg_encode_one_hot_width_p1
+Found module bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1
+Found module bsg_scan_width_p8_or_p1_lo_to_hi_p1
+Found module itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10
+15. Printing statistics.
+Area of module \bp_fe_top is 221561.242000
+Preserving hierarchical module: \bp_fe_top
+16. Printing statistics.
+Area of module \bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1 is 27483.120000
+Preserving hierarchical module: \bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1
+17. Printing statistics.
+Area of module \bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22 is 23646.602000
+Preserving hierarchical module: \bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22
+18. Printing statistics.
+Area of module \bp_fe_bht_bht_indx_width_p5 is 854.924000
+19. Printing statistics.
+Area of module \bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64 is 22790.348000
+Preserving hierarchical module: \bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64
+20. Printing statistics.
+Area of module \bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9 is 17301.438000
+Preserving hierarchical module: \bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9
+21. Printing statistics.
+Area of module \hard_mem_1rw_d512_w64_wrapper is 17301.438000
+Preserving hierarchical module: \hard_mem_1rw_d512_w64_wrapper
+22. Printing statistics.
+Area of module \instr_scan_eaddr_width_p64_instr_width_p32 is 58.254000
+23. Printing statistics.
+Area of module \icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8 is 193856.012000
+Preserving hierarchical module: \icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8
+24. Printing statistics.
+Area of module \bp_be_dcache_lru_decode_ways_p8 is 24.472000
+25. Printing statistics.
+Area of module \bp_be_dcache_lru_encode_ways_p8 is 8.778000
+26. Printing statistics.
+Area of module \bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8 is 26996.872000
+Preserving hierarchical module: \bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8
+27. Printing statistics.
+Area of module \bp_fe_lce_cmd_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8 is 5775.126000
+28. Printing statistics.
+Area of module \bp_fe_lce_data_cmd_data_width_p64_lce_addr_width_p22_lce_data_width_p512_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8 is 1.330000
+29. Printing statistics.
+Area of module \bp_fe_lce_req_data_width_p64_lce_addr_width_p22_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8 is 282.226000
+30. Printing statistics.
+Area of module \bp_fe_lce_tr_resp_in_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_num_cce_p1_num_lce_p2_block_size_in_bytes_p8 is 1.330000
+31. Printing statistics.
+Area of module \bsg_two_fifo_width_p36 is 579.614000
+32. Printing statistics.
+Area of module \bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0 is 548.758000
+33. Printing statistics.
+Area of module \bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0 is 548.758000
+34. Printing statistics.
+Area of module \bsg_two_fifo_width_p539 is 8837.850000
+35. Printing statistics.
+Area of module \bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0 is 8806.994000
+36. Printing statistics.
+Area of module \bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0 is 8806.994000
+37. Printing statistics.
+Area of module \bsg_two_fifo_width_p540 is 9153.858000
+38. Printing statistics.
+Area of module \bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0 is 9123.002000
+39. Printing statistics.
+Area of module \bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0 is 9123.002000
+40. Printing statistics.
+Area of module \bsg_mem_1rw_sync_mask_write_bit_width_p7_els_p64 is 387.296000
+41. Printing statistics.
+Area of module \hard_mem_1rw_bit_mask_d64_w7_wrapper is 387.296000
+42. Printing statistics.
+Area of module \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64 is 4874.982000
+43. Printing statistics.
+Area of module \hard_mem_1rw_bit_mask_d64_w96_wrapper is 4874.982000
+44. Printing statistics.
+Area of module \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64 is 17301.438000
+Preserving hierarchical module: \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+45. Printing statistics.
+Area of module \hard_mem_1rw_byte_mask_d512_w64_wrapper is 17301.438000
+Preserving hierarchical module: \hard_mem_1rw_byte_mask_d512_w64_wrapper
+46. Printing statistics.
+Area of module \bsg_mux_width_p64_els_p8 is 1013.194000
+47. Printing statistics.
+Area of module \bsg_priority_encode_width_p8_lo_to_hi_p1 is 38.836000
+48. Printing statistics.
+Area of module \bsg_encode_one_hot_width_p8_lo_to_hi_p1 is 14.630000
+49. Printing statistics.
+Area of module \bsg_encode_one_hot_width_p4 is 5.320000
+50. Printing statistics.
+Area of module \bsg_encode_one_hot_width_p2 is 1.330000
+51. Printing statistics.
+52. Printing statistics.
+Area of module \bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1 is 24.206000
+53. Printing statistics.
+Area of module \bsg_scan_width_p8_or_p1_lo_to_hi_p1 is 14.098000
+54. Printing statistics.
+Area of module \itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10 is 45.220000
+Warnings: 211 unique messages, 275 total
+End of script. Logfile hash: edc81bbe12, CPU: user 11.57s system 0.22s, MEM: 90.64 MB peak
+Yosys 0.45+145 (git sha1 59404f8ce, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 68% 2x abc (23 sec), 10% 42x stat (3 sec), ...
+Elapsed time: 0:34.20[h:]min:sec. CPU time: user 32.97 sys 1.28 (100%). Peak memory: 92816KB.

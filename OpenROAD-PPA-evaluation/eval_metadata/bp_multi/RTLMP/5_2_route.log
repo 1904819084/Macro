@@ -1,0 +1,1381 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+detailed_route arguments: -droute_end_iter 1
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                2000
+Number of layers:     21
+Number of macros:     141
+Number of vias:       39
+Number of viarulegen: 19
+
+[INFO DRT-0150] Reading design.
+
+Design:                   bp_multi_top
+Die area:                 ( 0 0 ) ( 2200000 2200000 )
+Number of track patterns: 20
+Number of DEF vias:       0
+Number of components:     412115
+Number of terminals:      1453
+Number of snets:          2
+Number of nets:           179079
+
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/w_mask_in[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/rd_out[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/wd_in[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/addr_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/addr_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/addr_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/addr_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/addr_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/addr_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/we_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/ce_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem/clk
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/w_mask_in[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/rd_out[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/wd_in[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/addr_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/addr_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/addr_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/addr_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/addr_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/addr_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/we_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/ce_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem/clk
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/w_mask_in[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/rd_out[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[64]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[65]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[66]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[67]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[68]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[69]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[70]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[71]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[72]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[73]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[74]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[75]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[76]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[77]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[78]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[79]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[80]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[81]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[82]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[83]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[84]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[85]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[86]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[87]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[88]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[89]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[90]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[91]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[92]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[93]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[94]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/wd_in[95]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/addr_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/we_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/ce_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem/clk
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem/rd_out[42]
+[WARNING DRT-0419] message limit reached, this message will no longer print
+[INFO DRT-0167] List of default vias:
+  Layer via1
+    default via: via1_7
+  Layer via2
+    default via: via2_5
+  Layer via3
+    default via: via3_2
+  Layer via4
+    default via: via4_0
+  Layer via5
+    default via: via5_0
+  Layer via6
+    default via: via6_0
+  Layer via7
+    default via: via7_0
+  Layer via8
+    default via: via8_0
+  Layer via9
+    default via: via9_0
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+  Complete 100000 instances.
+  Complete 200000 instances.
+  Complete 300000 instances.
+  Complete 400000 instances.
+[INFO DRT-0164] Number of unique instances = 171.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0018]   Complete 100000 insts.
+[INFO DRT-0018]   Complete 200000 insts.
+[INFO DRT-0018]   Complete 300000 insts.
+[INFO DRT-0018]   Complete 400000 insts.
+[INFO DRT-0024]   Complete active.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete metal1.
+[INFO DRT-0024]   Complete via1.
+[INFO DRT-0024]   Complete metal2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete metal3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete metal4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete metal5.
+[INFO DRT-0024]   Complete via5.
+[INFO DRT-0024]   Complete metal6.
+[INFO DRT-0024]   Complete via6.
+[INFO DRT-0024]   Complete metal7.
+[INFO DRT-0024]   Complete via7.
+[INFO DRT-0024]   Complete metal8.
+[INFO DRT-0024]   Complete via8.
+[INFO DRT-0024]   Complete metal9.
+[INFO DRT-0024]   Complete via9.
+[INFO DRT-0024]   Complete metal10.
+[INFO DRT-0033] active shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] metal1 shape region query size = 3179511.
+[INFO DRT-0033] via1 shape region query size = 35994.
+[INFO DRT-0033] metal2 shape region query size = 24022.
+[INFO DRT-0033] via2 shape region query size = 35994.
+[INFO DRT-0033] metal3 shape region query size = 34926.
+[INFO DRT-0033] via3 shape region query size = 35994.
+[INFO DRT-0033] metal4 shape region query size = 29262.
+[INFO DRT-0033] via4 shape region query size = 51536.
+[INFO DRT-0033] metal5 shape region query size = 23189.
+[INFO DRT-0033] via5 shape region query size = 73571.
+[INFO DRT-0033] metal6 shape region query size = 13371.
+[INFO DRT-0033] via6 shape region query size = 23124.
+[INFO DRT-0033] metal7 shape region query size = 3574.
+[INFO DRT-0033] via7 shape region query size = 0.
+[INFO DRT-0033] metal8 shape region query size = 0.
+[INFO DRT-0033] via8 shape region query size = 0.
+[INFO DRT-0033] metal9 shape region query size = 0.
+[INFO DRT-0033] via9 shape region query size = 0.
+[INFO DRT-0033] metal10 shape region query size = 0.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0076]   Complete 1000 pins.
+[INFO DRT-0078]   Complete 1619 pins.
+[INFO DRT-0079]   Complete 100 unique inst patterns.
+[INFO DRT-0081]   Complete 149 unique inst patterns.
+[INFO DRT-0082]   Complete 10000 groups.
+[INFO DRT-0082]   Complete 20000 groups.
+[INFO DRT-0082]   Complete 30000 groups.
+[INFO DRT-0082]   Complete 40000 groups.
+[INFO DRT-0082]   Complete 50000 groups.
+[INFO DRT-0082]   Complete 60000 groups.
+[INFO DRT-0082]   Complete 70000 groups.
+[INFO DRT-0082]   Complete 80000 groups.
+[INFO DRT-0082]   Complete 90000 groups.
+[INFO DRT-0083]   Complete 100000 groups.
+[INFO DRT-0084]   Complete 101988 groups.
+#scanned instances     = 412115
+#unique  instances     = 171
+#stdCellGenAp          = 5344
+#stdCellValidPlanarAp  = 0
+#stdCellValidViaAp     = 3719
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 512142
+#instTermValidViaApCnt = 0
+#macroGenAp            = 1084
+#macroValidPlanarAp    = 1084
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:11:59, elapsed time = 00:00:08, memory = 1143.48 (MB), peak = 1184.55 (MB)
+[INFO DRT-0156] guideIn read 100000 guides.
+[INFO DRT-0156] guideIn read 200000 guides.
+[INFO DRT-0156] guideIn read 300000 guides.
+[INFO DRT-0156] guideIn read 400000 guides.
+[INFO DRT-0156] guideIn read 500000 guides.
+[INFO DRT-0156] guideIn read 600000 guides.
+[INFO DRT-0156] guideIn read 700000 guides.
+[INFO DRT-0156] guideIn read 800000 guides.
+[INFO DRT-0156] guideIn read 900000 guides.
+[INFO DRT-0156] guideIn read 1000000 guides.
+
+[INFO DRT-0157] Number of guides:     1415639
+
+[INFO DRT-0169] Post process guides.
+[INFO DRT-0176] GCELLGRID X 0 DO 523 STEP 4200 ;
+[INFO DRT-0177] GCELLGRID Y 0 DO 523 STEP 4200 ;
+[INFO DRT-0026]   Complete 100000 origin guides.
+[INFO DRT-0026]   Complete 200000 origin guides.
+[INFO DRT-0026]   Complete 300000 origin guides.
+[INFO DRT-0026]   Complete 400000 origin guides.
+[INFO DRT-0026]   Complete 500000 origin guides.
+[INFO DRT-0026]   Complete 600000 origin guides.
+[INFO DRT-0026]   Complete 700000 origin guides.
+[INFO DRT-0026]   Complete 800000 origin guides.
+[INFO DRT-0026]   Complete 900000 origin guides.
+[INFO DRT-0027]   Complete 1000000 origin guides.
+[INFO DRT-0028]   Complete active.
+[INFO DRT-0028]   Complete Fr_VIA.
+[INFO DRT-0028]   Complete metal1.
+[INFO DRT-0028]   Complete via1.
+[INFO DRT-0028]   Complete metal2.
+[INFO DRT-0028]   Complete via2.
+[INFO DRT-0028]   Complete metal3.
+[INFO DRT-0028]   Complete via3.
+[INFO DRT-0028]   Complete metal4.
+[INFO DRT-0028]   Complete via4.
+[INFO DRT-0028]   Complete metal5.
+[INFO DRT-0028]   Complete via5.
+[INFO DRT-0028]   Complete metal6.
+[INFO DRT-0028]   Complete via6.
+[INFO DRT-0028]   Complete metal7.
+[INFO DRT-0028]   Complete via7.
+[INFO DRT-0028]   Complete metal8.
+[INFO DRT-0028]   Complete via8.
+[INFO DRT-0028]   Complete metal9.
+[INFO DRT-0028]   Complete via9.
+[INFO DRT-0028]   Complete metal10.
+  complete 100000 nets.
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0029]   Complete 100000 nets (guide).
+[INFO DRT-0035]   Complete active (guide).
+[INFO DRT-0035]   Complete Fr_VIA (guide).
+[INFO DRT-0035]   Complete metal1 (guide).
+[INFO DRT-0035]   Complete via1 (guide).
+[INFO DRT-0035]   Complete metal2 (guide).
+[INFO DRT-0035]   Complete via2 (guide).
+[INFO DRT-0035]   Complete metal3 (guide).
+[INFO DRT-0035]   Complete via3 (guide).
+[INFO DRT-0035]   Complete metal4 (guide).
+[INFO DRT-0035]   Complete via4 (guide).
+[INFO DRT-0035]   Complete metal5 (guide).
+[INFO DRT-0035]   Complete via5 (guide).
+[INFO DRT-0035]   Complete metal6 (guide).
+[INFO DRT-0035]   Complete via6 (guide).
+[INFO DRT-0035]   Complete metal7 (guide).
+[INFO DRT-0035]   Complete via7 (guide).
+[INFO DRT-0035]   Complete metal8 (guide).
+[INFO DRT-0035]   Complete via8 (guide).
+[INFO DRT-0035]   Complete metal9 (guide).
+[INFO DRT-0035]   Complete via9 (guide).
+[INFO DRT-0035]   Complete metal10 (guide).
+[INFO DRT-0036] active guide region query size = 0.
+[INFO DRT-0036] FR_VIA guide region query size = 0.
+[INFO DRT-0036] metal1 guide region query size = 430547.
+[INFO DRT-0036] via1 guide region query size = 0.
+[INFO DRT-0036] metal2 guide region query size = 364690.
+[INFO DRT-0036] via2 guide region query size = 0.
+[INFO DRT-0036] metal3 guide region query size = 231463.
+[INFO DRT-0036] via3 guide region query size = 0.
+[INFO DRT-0036] metal4 guide region query size = 52841.
+[INFO DRT-0036] via4 guide region query size = 0.
+[INFO DRT-0036] metal5 guide region query size = 26815.
+[INFO DRT-0036] via5 guide region query size = 0.
+[INFO DRT-0036] metal6 guide region query size = 11279.
+[INFO DRT-0036] via6 guide region query size = 0.
+[INFO DRT-0036] metal7 guide region query size = 3202.
+[INFO DRT-0036] via7 guide region query size = 0.
+[INFO DRT-0036] metal8 guide region query size = 2080.
+[INFO DRT-0036] via8 guide region query size = 0.
+[INFO DRT-0036] metal9 guide region query size = 1184.
+[INFO DRT-0036] via9 guide region query size = 0.
+[INFO DRT-0036] metal10 guide region query size = 183.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0245] skipped writing guide updates to database.
+[INFO DRT-0185] Post process initialize RPin region query.
+[INFO DRT-0181] Start track assignment.
+[INFO DRT-0184] Done with 431073 vertical wires in 11 frboxes and 693211 horizontal wires in 11 frboxes.
+[INFO DRT-0186] Done with 148576 vertical wires in 11 frboxes and 151219 horizontal wires in 11 frboxes.
+[INFO DRT-0182] Complete track assignment.
+[INFO DRT-0267] cpu time = 00:03:01, elapsed time = 00:00:52, memory = 3556.61 (MB), peak = 3604.87 (MB)
+[INFO DRT-0187] Start routing data preparation.
+[INFO DRT-0267] cpu time = 00:00:02, elapsed time = 00:00:02, memory = 3835.99 (MB), peak = 3835.99 (MB)
+[INFO DRT-0194] Start detail routing.
+[INFO DRT-0195] Start 0th optimization iteration.
+    Completing 10% with 0 violations.
+    elapsed time = 00:00:09, memory = 6233.15 (MB).
+    Completing 20% with 4775 violations.
+    elapsed time = 00:00:17, memory = 7603.68 (MB).
+    Completing 30% with 5653 violations.
+    elapsed time = 00:00:19, memory = 7834.17 (MB).
+    Completing 40% with 5653 violations.
+    elapsed time = 00:00:24, memory = 8178.75 (MB).
+    Completing 50% with 11375 violations.
+    elapsed time = 00:00:30, memory = 8324.00 (MB).
+    Completing 60% with 12286 violations.
+    elapsed time = 00:00:35, memory = 8477.42 (MB).
+    Completing 70% with 17387 violations.
+    elapsed time = 00:00:43, memory = 8664.56 (MB).
+    Completing 80% with 17694 violations.
+    elapsed time = 00:00:45, memory = 8773.42 (MB).
+    Completing 90% with 17694 violations.
+    elapsed time = 00:00:50, memory = 9090.65 (MB).
+    Completing 100% with 24190 violations.
+    elapsed time = 00:01:00, memory = 9246.05 (MB).
+[INFO DRT-0199]   Number of violations = 31812.
+Viol/Layer      metal1   via1 metal2   via2 metal3   via3 metal4   via4 metal5   via5 metal6   via6 metal7   via7 metal9   via9
+Cut Spacing          0    100      0     23      0      3      0    401      0     16      0      0      0      4      0      2
+Metal Spacing      957      0   1708      0    163      0     55      0    396      0     58      0     71      0      0      0
+NS Metal             0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0
+Recheck            124      0   4638      0   1829      0    157      0    482      0    127      0    264      0      1      0
+Short               60     15  14590      1   3400     16    213     17   1614     21    187     21     74      2      1      0
+[INFO DRT-0267] cpu time = 00:46:23, elapsed time = 00:01:04, memory = 9247.98 (MB), peak = 9247.98 (MB)
+Total wire length = 5183261 um.
+Total wire length on LAYER metal1 = 6963 um.
+Total wire length on LAYER metal2 = 997841 um.
+Total wire length on LAYER metal3 = 1431145 um.
+Total wire length on LAYER metal4 = 880169 um.
+Total wire length on LAYER metal5 = 1002909 um.
+Total wire length on LAYER metal6 = 525114 um.
+Total wire length on LAYER metal7 = 137119 um.
+Total wire length on LAYER metal8 = 55187 um.
+Total wire length on LAYER metal9 = 123965 um.
+Total wire length on LAYER metal10 = 22844 um.
+Total number of vias = 1116342.
+Up-via summary (total 1116342):
+
+------------------
+ active          0
+ metal1     508342
+ metal2     474618
+ metal3      68707
+ metal4      35544
+ metal5      19907
+ metal6       4882
+ metal7       2152
+ metal8       1873
+ metal9        317
+------------------
+           1116342
+
+
+[INFO DRT-0195] Start 1st optimization iteration.
+    Completing 10% with 31812 violations.
+    elapsed time = 00:00:04, memory = 9468.42 (MB).
+    Completing 20% with 27444 violations.
+    elapsed time = 00:00:16, memory = 9672.46 (MB).
+    Completing 30% with 26316 violations.
+    elapsed time = 00:00:18, memory = 9676.68 (MB).
+    Completing 40% with 26316 violations.
+    elapsed time = 00:00:25, memory = 9807.36 (MB).
+    Completing 50% with 19298 violations.
+    elapsed time = 00:00:34, memory = 9735.82 (MB).
+    Completing 60% with 18420 violations.
+    elapsed time = 00:00:39, memory = 9760.87 (MB).
+    Completing 70% with 14091 violations.
+    elapsed time = 00:00:52, memory = 9806.95 (MB).
+    Completing 80% with 13759 violations.
+    elapsed time = 00:00:55, memory = 9816.25 (MB).
+    Completing 90% with 13759 violations.
+    elapsed time = 00:01:01, memory = 10045.65 (MB).
+    Completing 100% with 5986 violations.
+    elapsed time = 00:01:10, memory = 9841.81 (MB).
+[INFO DRT-0199]   Number of violations = 5986.
+Viol/Layer      metal1   via1 metal2   via2 metal3 metal4   via4 metal5   via5 metal6
+Cut Spacing          0      9      0      7      0      0     15      0      5      0
+Metal Spacing       14      0   1019      0     36      1      0     45      0      1
+Recheck              0      0     13      0      2      1      0      0      0      0
+Short               15      0   3918      1    570      6      0    273      0     35
+[INFO DRT-0267] cpu time = 00:43:29, elapsed time = 00:01:16, memory = 9857.56 (MB), peak = 10061.16 (MB)
+Total wire length = 5167519 um.
+Total wire length on LAYER metal1 = 5825 um.
+Total wire length on LAYER metal2 = 991891 um.
+Total wire length on LAYER metal3 = 1426643 um.
+Total wire length on LAYER metal4 = 879652 um.
+Total wire length on LAYER metal5 = 1000318 um.
+Total wire length on LAYER metal6 = 524177 um.
+Total wire length on LAYER metal7 = 137312 um.
+Total wire length on LAYER metal8 = 55078 um.
+Total wire length on LAYER metal9 = 123831 um.
+Total wire length on LAYER metal10 = 22788 um.
+Total number of vias = 1101480.
+Up-via summary (total 1101480):
+
+------------------
+ active          0
+ metal1     505783
+ metal2     465561
+ metal3      68088
+ metal4      35119
+ metal5      18339
+ metal6       4345
+ metal7       2107
+ metal8       1832
+ metal9        306
+------------------
+           1101480
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 5167519 um.
+Total wire length on LAYER metal1 = 5825 um.
+Total wire length on LAYER metal2 = 991891 um.
+Total wire length on LAYER metal3 = 1426643 um.
+Total wire length on LAYER metal4 = 879652 um.
+Total wire length on LAYER metal5 = 1000318 um.
+Total wire length on LAYER metal6 = 524177 um.
+Total wire length on LAYER metal7 = 137312 um.
+Total wire length on LAYER metal8 = 55078 um.
+Total wire length on LAYER metal9 = 123831 um.
+Total wire length on LAYER metal10 = 22788 um.
+Total number of vias = 1101480.
+Up-via summary (total 1101480):
+
+------------------
+ active          0
+ metal1     505783
+ metal2     465561
+ metal3      68088
+ metal4      35119
+ metal5      18339
+ metal6       4345
+ metal7       2107
+ metal8       1832
+ metal9        306
+------------------
+           1101480
+
+
+[INFO DRT-0267] cpu time = 01:29:53, elapsed time = 00:02:21, memory = 9857.56 (MB), peak = 10061.16 (MB)
+
+[INFO DRT-0180] Post processing.
+Elapsed time: 3:43.53[h:]min:sec. CPU time: user 6290.00 sys 25.53 (2825%). Peak memory: 10302628KB.

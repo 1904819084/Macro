@@ -1,0 +1,349 @@
+1. Executing RTLIL frontend.
+2. Executing Liberty frontend: ./objects/nangate45/bp_fe/Hier/lib/NangateOpenCellLibrary_typical.lib
+3. Executing Liberty frontend: ./objects/nangate45/bp_fe/Hier/lib/fakeram45_512x64.lib
+4. Executing Liberty frontend: ./objects/nangate45/bp_fe/Hier/lib/fakeram45_64x7.lib
+5. Executing Liberty frontend: ./objects/nangate45/bp_fe/Hier/lib/fakeram45_64x96.lib
+6. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/nangate45/bp_fe/Hier/clock_period.txt
+Setting clock period to 1.8
+7. Executing HIERARCHY pass (managing design hierarchy).
+7.1. Analyzing design hierarchy..
+7.2. Analyzing design hierarchy..
+synth -top bp_fe_top -run :fine -flatten -extra-map /home/shiyq/OR_1002/flow/platforms/common/lcu_kogge_stone.v
+8. Executing SYNTH pass.
+8.1. Executing HIERARCHY pass (managing design hierarchy).
+8.1.1. Analyzing design hierarchy..
+8.1.2. Analyzing design hierarchy..
+8.2. Executing PROC pass (convert processes to netlists).
+8.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+8.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+8.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+8.2.4. Executing PROC_INIT pass (extract init attributes).
+8.2.5. Executing PROC_ARST pass (detect async resets in processes).
+8.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+8.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+8.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+8.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+8.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+8.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+8.2.12. Executing OPT_EXPR pass (perform const folding).
+8.3. Executing FLATTEN pass (flatten design).
+8.4. Executing OPT_EXPR pass (perform const folding).
+8.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.6. Executing CHECK pass (checking for obvious problems).
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [201] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [200] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [199] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [198] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [197] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [196] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [195] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [194] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [193] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [192] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [191] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [190] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [189] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [188] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [187] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [186] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [185] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [184] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [183] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [182] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [181] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [180] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [179] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [178] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [177] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [176] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [175] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [174] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [173] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [172] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [171] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [170] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [169] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [168] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [167] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [166] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [165] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [164] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [163] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [162] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [161] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [160] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [159] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [158] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [157] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [156] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [155] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [154] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [153] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [152] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [151] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [150] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [149] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [148] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [147] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [146] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [145] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [144] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [143] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [142] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [141] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [140] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [139] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [138] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [137] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [136] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [135] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [134] is used but has no driver.
+Warning: Wire bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1.\pc_gen_fe_o [133] is used but has no driver.
+8.7. Executing OPT pass (performing simple optimizations).
+8.7.1. Executing OPT_EXPR pass (perform const folding).
+8.7.2. Executing OPT_MERGE pass (detect identical cells).
+8.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.7.5. Executing OPT_MERGE pass (detect identical cells).
+8.7.6. Executing OPT_DFF pass (perform DFF optimizations).
+8.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.7.8. Executing OPT_EXPR pass (perform const folding).
+8.7.9. Rerunning OPT passes. (Maybe there is more to do..)
+8.7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.7.12. Executing OPT_MERGE pass (detect identical cells).
+8.7.13. Executing OPT_DFF pass (perform DFF optimizations).
+8.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.7.15. Executing OPT_EXPR pass (perform const folding).
+8.7.16. Finished OPT passes. (There is nothing left to do.)
+8.8. Executing FSM pass (extract and optimize FSM).
+8.8.1. Executing FSM_DETECT pass (finding FSMs in design).
+8.8.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+8.8.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+8.8.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.8.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+8.8.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+8.8.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+8.8.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+8.9. Executing OPT pass (performing simple optimizations).
+8.9.1. Executing OPT_EXPR pass (perform const folding).
+8.9.2. Executing OPT_MERGE pass (detect identical cells).
+8.9.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.9.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.9.5. Executing OPT_MERGE pass (detect identical cells).
+8.9.6. Executing OPT_DFF pass (perform DFF optimizations).
+8.9.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.9.8. Executing OPT_EXPR pass (perform const folding).
+8.9.9. Rerunning OPT passes. (Maybe there is more to do..)
+8.9.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.9.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.9.12. Executing OPT_MERGE pass (detect identical cells).
+8.9.13. Executing OPT_DFF pass (perform DFF optimizations).
+8.9.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.9.15. Executing OPT_EXPR pass (perform const folding).
+8.9.16. Rerunning OPT passes. (Maybe there is more to do..)
+8.9.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.9.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.9.19. Executing OPT_MERGE pass (detect identical cells).
+8.9.20. Executing OPT_DFF pass (perform DFF optimizations).
+8.9.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.9.22. Executing OPT_EXPR pass (perform const folding).
+8.9.23. Finished OPT passes. (There is nothing left to do.)
+8.10. Executing WREDUCE pass (reducing word size of cells).
+8.11. Executing PEEPOPT pass (run peephole optimizers).
+8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.13. Executing ALUMACC pass (create $alu and $macc cells).
+8.14. Executing SHARE pass (SAT-based resource sharing).
+8.15. Executing OPT pass (performing simple optimizations).
+8.15.1. Executing OPT_EXPR pass (perform const folding).
+8.15.2. Executing OPT_MERGE pass (detect identical cells).
+8.15.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.15.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.15.5. Executing OPT_MERGE pass (detect identical cells).
+8.15.6. Executing OPT_DFF pass (perform DFF optimizations).
+8.15.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.15.8. Executing OPT_EXPR pass (perform const folding).
+8.15.9. Finished OPT passes. (There is nothing left to do.)
+8.16. Executing MEMORY pass.
+8.16.1. Executing OPT_MEM pass (optimize memories).
+8.16.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+8.16.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+8.16.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+8.16.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+8.16.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.16.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+8.16.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+8.16.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.16.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+8.17. Executing OPT_CLEAN pass (remove unused cells and wires).
+9. Executing SYNTH pass.
+9.1. Executing OPT pass (performing simple optimizations).
+9.1.1. Executing OPT_EXPR pass (perform const folding).
+9.1.2. Executing OPT_MERGE pass (detect identical cells).
+9.1.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.1.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.1.5. Rerunning OPT passes. (Removed registers in this run.)
+9.1.6. Executing OPT_EXPR pass (perform const folding).
+9.1.7. Executing OPT_MERGE pass (detect identical cells).
+9.1.8. Executing OPT_DFF pass (perform DFF optimizations).
+9.1.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.1.10. Finished fast OPT passes.
+9.2. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+9.3. Executing OPT pass (performing simple optimizations).
+9.3.1. Executing OPT_EXPR pass (perform const folding).
+9.3.2. Executing OPT_MERGE pass (detect identical cells).
+9.3.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.3.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.3.5. Executing OPT_MERGE pass (detect identical cells).
+9.3.6. Executing OPT_SHARE pass.
+9.3.7. Executing OPT_DFF pass (perform DFF optimizations).
+9.3.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.3.9. Executing OPT_EXPR pass (perform const folding).
+9.3.10. Rerunning OPT passes. (Maybe there is more to do..)
+9.3.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.3.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.3.13. Executing OPT_MERGE pass (detect identical cells).
+9.3.14. Executing OPT_SHARE pass.
+9.3.15. Executing OPT_DFF pass (perform DFF optimizations).
+9.3.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.3.17. Executing OPT_EXPR pass (perform const folding).
+9.3.18. Rerunning OPT passes. (Maybe there is more to do..)
+9.3.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.3.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.3.21. Executing OPT_MERGE pass (detect identical cells).
+9.3.22. Executing OPT_SHARE pass.
+9.3.23. Executing OPT_DFF pass (perform DFF optimizations).
+9.3.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.3.25. Executing OPT_EXPR pass (perform const folding).
+9.3.26. Finished OPT passes. (There is nothing left to do.)
+9.4. Executing TECHMAP pass (map to technology primitives).
+9.4.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+9.4.2. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/common/lcu_kogge_stone.v
+9.4.3. Continuing TECHMAP pass.
+9.5. Executing OPT pass (performing simple optimizations).
+9.5.1. Executing OPT_EXPR pass (perform const folding).
+9.5.2. Executing OPT_MERGE pass (detect identical cells).
+9.5.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.5.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.5.5. Finished fast OPT passes.
+9.6. Executing ABC pass (technology mapping using ABC).
+9.6.1. Extracting gate netlist of module `\bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22' to `<abc-temp-dir>/input.blif'..
+9.6.2. Extracting gate netlist of module `\bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64' to `<abc-temp-dir>/input.blif'..
+9.6.3. Extracting gate netlist of module `\bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+9.6.4. Extracting gate netlist of module `\bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1' to `<abc-temp-dir>/input.blif'..
+9.6.5. Extracting gate netlist of module `\bp_fe_top' to `<abc-temp-dir>/input.blif'..
+9.6.6. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64' to `<abc-temp-dir>/input.blif'..
+9.6.7. Extracting gate netlist of module `\bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9' to `<abc-temp-dir>/input.blif'..
+9.6.8. Extracting gate netlist of module `\hard_mem_1rw_byte_mask_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+9.6.9. Extracting gate netlist of module `\hard_mem_1rw_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+9.6.10. Extracting gate netlist of module `\icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+9.7. Executing OPT pass (performing simple optimizations).
+9.7.1. Executing OPT_EXPR pass (perform const folding).
+9.7.2. Executing OPT_MERGE pass (detect identical cells).
+9.7.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.7.5. Finished fast OPT passes.
+9.8. Executing HIERARCHY pass (managing design hierarchy).
+9.8.1. Analyzing design hierarchy..
+9.8.2. Analyzing design hierarchy..
+9.9. Printing statistics.
+9.10. Executing CHECK pass (checking for obvious problems).
+10. Executing OPT pass (performing simple optimizations).
+10.1. Executing OPT_EXPR pass (perform const folding).
+10.2. Executing OPT_MERGE pass (detect identical cells).
+10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+10.5. Executing OPT_MERGE pass (detect identical cells).
+10.6. Executing OPT_DFF pass (perform DFF optimizations).
+10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+10.8. Executing OPT_EXPR pass (perform const folding).
+10.9. Rerunning OPT passes. (Maybe there is more to do..)
+10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+10.12. Executing OPT_MERGE pass (detect identical cells).
+10.13. Executing OPT_DFF pass (perform DFF optimizations).
+10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+10.15. Executing OPT_EXPR pass (perform const folding).
+10.16. Finished OPT passes. (There is nothing left to do.)
+11. Executing EXTRACT_FA pass (find and extract full/half adders).
+12. Executing TECHMAP pass (map to technology primitives).
+12.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_adders.v
+12.2. Continuing TECHMAP pass.
+13. Executing TECHMAP pass (map to technology primitives).
+13.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+13.2. Continuing TECHMAP pass.
+14. Executing OPT pass (performing simple optimizations).
+14.1. Executing OPT_EXPR pass (perform const folding).
+14.2. Executing OPT_MERGE pass (detect identical cells).
+14.3. Executing OPT_DFF pass (perform DFF optimizations).
+14.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+14.5. Finished fast OPT passes.
+15. Executing TECHMAP pass (map to technology primitives).
+15.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_latch.v
+15.2. Continuing TECHMAP pass.
+16. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+16.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+17. Executing OPT pass (performing simple optimizations).
+17.1. Executing OPT_EXPR pass (perform const folding).
+17.2. Executing OPT_MERGE pass (detect identical cells).
+17.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+17.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+17.5. Executing OPT_MERGE pass (detect identical cells).
+17.6. Executing OPT_DFF pass (perform DFF optimizations).
+17.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+17.8. Executing OPT_EXPR pass (perform const folding).
+17.9. Rerunning OPT passes. (Maybe there is more to do..)
+17.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+17.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+17.12. Executing OPT_MERGE pass (detect identical cells).
+17.13. Executing OPT_DFF pass (perform DFF optimizations).
+17.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+17.15. Executing OPT_EXPR pass (perform const folding).
+17.16. Finished OPT passes. (There is nothing left to do.)
+abc -script /home/shiyq/OR_1002/flow/scripts/abc_speed.script -liberty ./objects/nangate45/bp_fe/Hier/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/bp_fe/Hier/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 1.8
+18. Executing ABC pass (technology mapping using ABC).
+18.1. Extracting gate netlist of module `\bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22' to `<abc-temp-dir>/input.blif'..
+18.1.1. Executing ABC.
+18.1.2. Re-integrating ABC results.
+18.2. Extracting gate netlist of module `\bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64' to `<abc-temp-dir>/input.blif'..
+18.2.1. Executing ABC.
+18.2.2. Re-integrating ABC results.
+18.3. Extracting gate netlist of module `\bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+18.3.1. Executing ABC.
+18.3.2. Re-integrating ABC results.
+18.4. Extracting gate netlist of module `\bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1' to `<abc-temp-dir>/input.blif'..
+18.4.1. Executing ABC.
+18.4.2. Re-integrating ABC results.
+18.5. Extracting gate netlist of module `\bp_fe_top' to `<abc-temp-dir>/input.blif'..
+18.5.1. Executing ABC.
+18.5.2. Re-integrating ABC results.
+18.6. Extracting gate netlist of module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64' to `<abc-temp-dir>/input.blif'..
+18.7. Extracting gate netlist of module `\bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9' to `<abc-temp-dir>/input.blif'..
+18.8. Extracting gate netlist of module `\hard_mem_1rw_byte_mask_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+18.9. Extracting gate netlist of module `\hard_mem_1rw_d512_w64_wrapper' to `<abc-temp-dir>/input.blif'..
+18.10. Extracting gate netlist of module `\icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8' to `<abc-temp-dir>/input.blif'..
+18.10.1. Executing ABC.
+18.10.2. Re-integrating ABC results.
+19. Executing SETUNDEF pass (replace undef values with defined constants).
+20. Executing SPLITNETS pass (splitting up multi-bit signals).
+21. Executing OPT_CLEAN pass (remove unused cells and wires).
+22. Executing HILOMAP pass (mapping to constant drivers).
+23. Executing INSBUF pass (insert buffer cells for connected wires).
+24. Executing CHECK pass (checking for obvious problems).
+25. Printing statistics.
+26. Executing Verilog backend.
+Warnings: 77 unique messages, 141 total
+End of script. Logfile hash: 426516cec6, CPU: user 19.10s system 0.16s, MEM: 123.26 MB peak
+Yosys 0.45+145 (git sha1 59404f8ce, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 62% 2x abc (30 sec), 9% 29x opt_clean (4 sec), ...
+Elapsed time: 0:49.30[h:]min:sec. CPU time: user 48.74 sys 0.55 (99%). Peak memory: 126804KB.

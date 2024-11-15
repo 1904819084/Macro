@@ -1,0 +1,23 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+HierRTLMP Flow enabled...
+Call Macro Placer  -max_num_inst 30000 -min_num_inst 5000 -max_num_macro 16 -min_num_macro 4 -halo_width 10 -report_directory ./objects/nangate45/ariane133/Hier/rtlmp -write_macro_placement ./results/nangate45/ariane133/Hier/mp_out
+Floorplan Outline: (0.0, 0.0) (1500.0, 1500.0),  Core Outline: (10.07, 12.6) (1447.99, 1447.6)
+	Number of std cell instances: 167673
+	Area of std cell instances: 312112.88
+	Number of macros: 132
+	Area of macros: 416463.38
+	Halo width: 10.00
+	Halo height: 10.00
+	Area of macros with halos: 781602.44
+	Area of std cell instances + Area of macros: 728576.25
+	Core area: 2063415.25
+	Design Utilization: 0.35
+	Core Utilization: 0.19
+	Manufacturing Grid: 10
+
+Delete buffers for RTLMP flow...
+[INFO RSZ-0026] Removed 19748 buffers.
+Elapsed time: 33:17.49[h:]min:sec. CPU time: user 1995.67 sys 1.63 (99%). Peak memory: 1202736KB.

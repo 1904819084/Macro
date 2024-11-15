@@ -1,0 +1,231 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 1488 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 55
+[INFO GRT-0003] Macros: 24
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 6445
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical      4376696       1599755          63.45%
+metal3     Horizontal    5961315       2237590          62.46%
+metal4     Vertical      2785339       1546467          44.48%
+metal5     Horizontal    2781947       1882316          32.34%
+metal6     Vertical      2785339       1885867          32.29%
+metal7     Horizontal     794842        349908          55.98%
+metal8     Vertical       795988        397992          50.00%
+metal9     Horizontal     397421        396138          0.32%
+metal10    Vertical       397994        396138          0.47%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 1954582
+[INFO GRT-0198] Via related Steiner nodes: 46610
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 2746262
+[INFO GRT-0112] Final usage 3D: 13342853
+[WARNING GRT-0115] Global routing finished with overflow.
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0          2211            0.00%             4 /  1 / 2211
+metal2         1599755        861155           53.83%             1 /  5 / 2879
+metal3         2237590       1445076           64.58%             7 /  0 / 36543
+metal4         1546467        771404           49.88%             1 /  4 / 2756
+metal5         1882316        952800           50.62%             5 /  1 / 17486
+metal6         1885867        662400           35.12%             1 /  5 / 4810
+metal7          349908        129563           37.03%             3 /  0 / 3783
+metal8          397992         91111           22.89%             1 /  3 / 1129
+metal9          396138        119845           30.25%             3 /  1 / 2797
+metal10         396138         68502           17.29%             0 /  2 / 929
+---------------------------------------------------------------------------------------
+Total         10692171       5104067           47.74%            26 / 22 / 75323
+
+[INFO GRT-0018] Total wirelength: 12752856 um
+[INFO GRT-0014] Routed nets: 310285
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_13415_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_14275_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_13471_/B.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_13473_/B.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_14284_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_14287_/B.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_14288_/B.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_13488_/B.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/bmr/_8595_/Z.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_0__fi2_efi3_coherence_network_channel_node/_24197_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_18824_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_16760_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_16774_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_16806_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_16812_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_18886_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_18889_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_16823_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_0__fi2_efi3_coherence_network_channel_node/_24260_/A1.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_0__fi2_efi3_coherence_network_channel_node/bmr/_09499_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_0__fi2_efi3_coherence_network_channel_node/bmr/_08963_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_0__fi2_efi3_coherence_network_channel_node/_32833_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_23101_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/bmr/_4775_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/bmr/_4786_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/bmr/_4887_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/lce_lce_tr_resp_network/rof_0__fi2_efi3_coherence_network_channel_node/bmr/_13377_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/lce_lce_tr_resp_network/rof_0__fi2_efi3_coherence_network_channel_node/bmr/_13065_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/lce_lce_tr_resp_network/rof_0__fi2_efi3_coherence_network_channel_node/bmr/_13146_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30552_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_32826_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_32677_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_33380_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_26161_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_21658_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_18881_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30240_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_22374_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_25066_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_22883_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_25521_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_27011_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_21946_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_24202_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21493_/Z.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24025_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25336_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24710_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25373_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24187_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_22150_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_23065_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_23732_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24496_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25200_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_23945_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18716_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_16651_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_14256_/Z.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_20876_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19222_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18134_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18630_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19596_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18733_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18741_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19466_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18821_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18171_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21272_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19643_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_14872_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19996_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19485_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_15347_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18763_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18905_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_15804_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18720_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_16637_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_15837_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_16492_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_16740_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_14502_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_14875_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_15086_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_16540_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21068_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18556_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18024_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_15849_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_20115_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_15874_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18840_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_17433_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18444_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_18664_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19345_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25084_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25494_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_22148_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24385_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_22246_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25297_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24693_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21671_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_22770_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24838_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25476_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26217_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24331_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26250_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_24921_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25770_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26077_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26091_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21815_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26137_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26166_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26217_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26233_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21642_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26256_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26270_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_22808_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_23426_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26361_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26390_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26404_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26411_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26418_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_22674_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21581_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21596_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25586_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21628_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25770_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21683_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26067_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21787_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26091_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21815_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21845_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_26137_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21906_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_21956_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_25630_/ZN.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/lce/_16712_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/me/genblk1_0__bp_cce_top/_20415_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/genblk1_0__bp_cce_top/_20738_/A3.
+[WARNING GRT-0026] Missing route to pin multi_top/me/network/cce_lce_data_cmd_network/rof_1__efi2_fi9_coherence_network_channel_node/_18807_/A3.
+[WARNING GRT-0026] Missing route to pin wire1987/Z.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_15434_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_20115_/A2.
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock CLK period 2.000000
+[INFO FLW-0008] Clock CLK period 6.443
+[INFO FLW-0009] Clock CLK slack -4.782
+[INFO FLW-0011] Path endpoint count 111097
+Elapsed time: 3:22.85[h:]min:sec. CPU time: user 196.89 sys 5.17 (99%). Peak memory: 3593272KB.

@@ -1,0 +1,23 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO PDN-0001] Inserting grid: grid
+[WARNING PDN-0178] Remaining channel (1646.1600, 2325.3150) - (1648.4400, 2332.4850) on metal1 for nets: VDD, VSS
+[WARNING PDN-0178] Remaining channel (1495.8300, 1391.4050) - (1664.3100, 1396.3650) on metal4 for nets: VDD
+[WARNING PDN-0178] Remaining channel (1775.8300, 3191.5050) - (2000.3100, 3202.3650) on metal4 for nets: VDD
+[WARNING PDN-0178] Remaining channel (1775.8300, 3191.5050) - (2196.3100, 3202.3650) on metal4 for nets: VDD, VSS
+[WARNING PDN-0178] Remaining channel (1943.8300, 3191.5050) - (2196.3100, 3202.3650) on metal4 for nets: VDD, VSS
+[WARNING PDN-0178] Remaining channel (2279.8300, 1395.3050) - (2532.3100, 1397.7650) on metal4 for nets: VDD, VSS
+[WARNING PDN-0178] Remaining channel (2419.8300, 1136.3050) - (2812.3100, 1142.9650) on metal4 for nets: VSS
+[WARNING PDN-0178] Remaining channel (2419.8300, 1136.3050) - (2644.3100, 1142.9650) on metal4 for nets: VSS
+[WARNING PDN-0178] Remaining channel (2475.8300, 1260.9050) - (2616.3100, 1264.7650) on metal4 for nets: VDD, VSS
+[WARNING PDN-0178] Remaining channel (2587.8300, 1136.3050) - (2812.3100, 1142.9650) on metal4 for nets: VSS
+[WARNING PDN-0178] Remaining channel (2783.8300, 1363.1050) - (2952.3100, 1366.9650) on metal4 for nets: VDD
+[WARNING PDN-0178] Remaining channel (2783.8300, 2770.1050) - (2952.3100, 2778.1650) on metal4 for nets: VDD
+[WARNING PDN-0178] Remaining channel (2783.8300, 2770.1050) - (3120.3100, 2778.1650) on metal4 for nets: VDD
+[WARNING PDN-0178] Remaining channel (2811.8300, 2648.3050) - (2952.3100, 2652.1650) on metal4 for nets: VDD, VSS
+[WARNING PDN-0178] Remaining channel (2895.8300, 2770.1050) - (3120.3100, 2778.1650) on metal4 for nets: VDD
+[ERROR PDN-0179] Unable to repair all channels.
+ErrorPDN: PDN-0179
+Elapsed time: 1:16.55[h:]min:sec. CPU time: user 72.05 sys 4.00 (99%). Peak memory: 3464868KB.

@@ -1,0 +1,76 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 882 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 148
+[INFO GRT-0003] Macros: 132
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 12936
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical      5609898       2046893          63.51%
+metal3     Horizontal    7649796       2842038          62.85%
+metal4     Vertical      3570000       1981208          44.50%
+metal5     Horizontal    3570000       2425941          32.05%
+metal6     Vertical      3570000       2437582          31.72%
+metal7     Horizontal    1020306        450340          55.86%
+metal8     Vertical      1020306        509795          50.04%
+metal9     Horizontal     509796        508369          0.28%
+metal10    Vertical       509796        508369          0.28%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 1291132
+[INFO GRT-0198] Via related Steiner nodes: 46697
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1785034
+[INFO GRT-0112] Final usage 3D: 8690689
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0             0            0.00%             0 /  0 /  0
+metal2         2046893        677301           33.09%             0 /  0 /  0
+metal3         2842038        893578           31.44%             0 /  0 /  0
+metal4         1981208        542506           27.38%             0 /  0 /  0
+metal5         2425941        554345           22.85%             0 /  0 /  0
+metal6         2437582        479084           19.65%             0 /  0 /  0
+metal7          450340         58461           12.98%             0 /  0 /  0
+metal8          509795         49768            9.76%             0 /  0 /  0
+metal9          508369         49725            9.78%             0 /  0 /  0
+metal10         508369         30819            6.06%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total         13710535       3335587           24.33%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 8363182 um
+[INFO GRT-0014] Routed nets: 186186
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock core_clock period 4.000000
+[INFO FLW-0008] Clock core_clock period 4.765
+[INFO FLW-0009] Clock core_clock slack -1.016
+[INFO FLW-0011] Path endpoint count 67792
+Elapsed time: 6:57.60[h:]min:sec. CPU time: user 412.15 sys 5.38 (99%). Peak memory: 3104856KB.

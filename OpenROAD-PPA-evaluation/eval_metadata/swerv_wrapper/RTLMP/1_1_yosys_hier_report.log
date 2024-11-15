@@ -1,0 +1,2195 @@
+1. Executing RTLIL frontend.
+2. Executing Liberty frontend: ./objects/nangate45/swerv_wrapper/RTLMP/lib/NangateOpenCellLibrary_typical.lib
+3. Executing Liberty frontend: ./objects/nangate45/swerv_wrapper/RTLMP/lib/fakeram45_2048x39.lib
+4. Executing Liberty frontend: ./objects/nangate45/swerv_wrapper/RTLMP/lib/fakeram45_256x34.lib
+5. Executing Liberty frontend: ./objects/nangate45/swerv_wrapper/RTLMP/lib/fakeram45_64x21.lib
+6. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/nangate45/swerv_wrapper/RTLMP/clock_period.txt
+Setting clock period to 2.0
+synth -top swerv_wrapper -run :fine
+7. Executing SYNTH pass.
+7.1. Executing HIERARCHY pass (managing design hierarchy).
+7.1.1. Analyzing design hierarchy..
+7.1.2. Analyzing design hierarchy..
+7.2. Executing PROC pass (convert processes to netlists).
+7.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+7.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+7.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+7.2.4. Executing PROC_INIT pass (extract init attributes).
+7.2.5. Executing PROC_ARST pass (detect async resets in processes).
+7.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+7.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+7.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+7.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+7.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+7.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+7.2.12. Executing OPT_EXPR pass (perform const folding).
+7.3. Executing OPT_EXPR pass (perform const folding).
+7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.5. Executing CHECK pass (checking for obvious problems).
+Warning: Wire exu.\exu_mp_pkt [51] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [50] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [49] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [48] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [47] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [46] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [45] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [44] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [43] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [42] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [41] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [40] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [39] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [38] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [37] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [36] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [35] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [34] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [33] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [32] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [31] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [30] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [29] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [28] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [27] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [26] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [25] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [24] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [23] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [22] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [21] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [20] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [19] is used but has no driver.
+Warning: Wire exu.\exu_mp_pkt [18] is used but has no driver.
+7.6. Executing OPT pass (performing simple optimizations).
+7.6.1. Executing OPT_EXPR pass (perform const folding).
+7.6.2. Executing OPT_MERGE pass (detect identical cells).
+7.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.6.5. Executing OPT_MERGE pass (detect identical cells).
+7.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.6.8. Executing OPT_EXPR pass (perform const folding).
+7.6.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.6.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.6.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.6.12. Executing OPT_MERGE pass (detect identical cells).
+7.6.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.6.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.6.15. Executing OPT_EXPR pass (perform const folding).
+7.6.16. Finished OPT passes. (There is nothing left to do.)
+7.7. Executing FSM pass (extract and optimize FSM).
+7.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+7.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+7.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+7.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+7.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+7.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+7.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+7.8. Executing OPT pass (performing simple optimizations).
+7.8.1. Executing OPT_EXPR pass (perform const folding).
+7.8.2. Executing OPT_MERGE pass (detect identical cells).
+7.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.5. Executing OPT_MERGE pass (detect identical cells).
+7.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.8. Executing OPT_EXPR pass (perform const folding).
+7.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.12. Executing OPT_MERGE pass (detect identical cells).
+7.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.15. Executing OPT_EXPR pass (perform const folding).
+7.8.16. Rerunning OPT passes. (Maybe there is more to do..)
+7.8.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.19. Executing OPT_MERGE pass (detect identical cells).
+7.8.20. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.22. Executing OPT_EXPR pass (perform const folding).
+7.8.23. Finished OPT passes. (There is nothing left to do.)
+7.9. Executing WREDUCE pass (reducing word size of cells).
+7.10. Executing PEEPOPT pass (run peephole optimizers).
+7.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.12. Executing ALUMACC pass (create $alu and $macc cells).
+7.13. Executing SHARE pass (SAT-based resource sharing).
+7.14. Executing OPT pass (performing simple optimizations).
+7.14.1. Executing OPT_EXPR pass (perform const folding).
+7.14.2. Executing OPT_MERGE pass (detect identical cells).
+7.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.14.5. Executing OPT_MERGE pass (detect identical cells).
+7.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.14.8. Executing OPT_EXPR pass (perform const folding).
+7.14.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.14.12. Executing OPT_MERGE pass (detect identical cells).
+7.14.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.14.15. Executing OPT_EXPR pass (perform const folding).
+7.14.16. Finished OPT passes. (There is nothing left to do.)
+7.15. Executing MEMORY pass.
+7.15.1. Executing OPT_MEM pass (optimize memories).
+7.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+7.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+7.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+7.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+7.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+7.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+7.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+7.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+8. Executing SYNTH pass.
+8.1. Executing OPT pass (performing simple optimizations).
+8.1.1. Executing OPT_EXPR pass (perform const folding).
+8.1.2. Executing OPT_MERGE pass (detect identical cells).
+8.1.3. Executing OPT_DFF pass (perform DFF optimizations).
+8.1.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.1.5. Finished fast OPT passes.
+8.2. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+8.3. Executing OPT pass (performing simple optimizations).
+8.3.1. Executing OPT_EXPR pass (perform const folding).
+8.3.2. Executing OPT_MERGE pass (detect identical cells).
+8.3.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.3.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.3.5. Executing OPT_MERGE pass (detect identical cells).
+8.3.6. Executing OPT_SHARE pass.
+8.3.7. Executing OPT_DFF pass (perform DFF optimizations).
+8.3.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.3.9. Executing OPT_EXPR pass (perform const folding).
+8.3.10. Rerunning OPT passes. (Maybe there is more to do..)
+8.3.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.3.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.3.13. Executing OPT_MERGE pass (detect identical cells).
+8.3.14. Executing OPT_SHARE pass.
+8.3.15. Executing OPT_DFF pass (perform DFF optimizations).
+8.3.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.3.17. Executing OPT_EXPR pass (perform const folding).
+8.3.18. Rerunning OPT passes. (Maybe there is more to do..)
+8.3.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.3.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.3.21. Executing OPT_MERGE pass (detect identical cells).
+8.3.22. Executing OPT_SHARE pass.
+8.3.23. Executing OPT_DFF pass (perform DFF optimizations).
+8.3.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.3.25. Executing OPT_EXPR pass (perform const folding).
+8.3.26. Finished OPT passes. (There is nothing left to do.)
+8.4. Executing TECHMAP pass (map to technology primitives).
+8.4.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+8.4.2. Continuing TECHMAP pass.
+8.4.105. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.4.106. Executing OPT_EXPR pass (perform const folding).
+8.5. Executing OPT pass (performing simple optimizations).
+8.5.1. Executing OPT_EXPR pass (perform const folding).
+8.5.2. Executing OPT_MERGE pass (detect identical cells).
+8.5.3. Executing OPT_DFF pass (perform DFF optimizations).
+8.5.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.5.5. Finished fast OPT passes.
+8.6. Executing ABC pass (technology mapping using ABC).
+8.6.1. Extracting gate netlist of module `\IC_DATA_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_IC_DEPTH8' to `<abc-temp-dir>/input.blif'..
+8.6.2. Extracting gate netlist of module `\IC_TAG_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_TAG_DEPTH64' to `<abc-temp-dir>/input.blif'..
+8.6.3. Extracting gate netlist of module `\OPENROAD_CLKGATE' to `<abc-temp-dir>/input.blif'..
+8.6.4. Extracting gate netlist of module `\clockhdr' to `<abc-temp-dir>/input.blif'..
+8.6.5. Extracting gate netlist of module `\cmp_and_mux_ID_BITS8_INTPRIORITY_BITS4' to `<abc-temp-dir>/input.blif'..
+8.6.6. Extracting gate netlist of module `\configurable_gw' to `<abc-temp-dir>/input.blif'..
+8.6.7. Extracting gate netlist of module `\dbg' to `<abc-temp-dir>/input.blif'..
+8.6.8. Extracting gate netlist of module `\dec' to `<abc-temp-dir>/input.blif'..
+8.6.9. Extracting gate netlist of module `\dec_dec_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.10. Extracting gate netlist of module `\dec_decode_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.11. Extracting gate netlist of module `\dec_gpr_ctl_GPR_BANKS1_GPR_BANKS_LOG21' to `<abc-temp-dir>/input.blif'..
+8.6.12. Extracting gate netlist of module `\dec_ib_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.13. Extracting gate netlist of module `\dec_tlu_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.14. Extracting gate netlist of module `\dec_trigger' to `<abc-temp-dir>/input.blif'..
+8.6.15. Extracting gate netlist of module `\dma_ctrl' to `<abc-temp-dir>/input.blif'..
+8.6.16. Extracting gate netlist of module `\dmi_jtag_to_core_sync' to `<abc-temp-dir>/input.blif'..
+8.6.17. Extracting gate netlist of module `\dmi_wrapper' to `<abc-temp-dir>/input.blif'..
+8.6.18. Extracting gate netlist of module `\exu' to `<abc-temp-dir>/input.blif'..
+8.6.19. Extracting gate netlist of module `\exu_alu_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.20. Extracting gate netlist of module `\exu_div_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.21. Extracting gate netlist of module `\exu_mul_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.22. Extracting gate netlist of module `\ifu' to `<abc-temp-dir>/input.blif'..
+8.6.23. Extracting gate netlist of module `\ifu_aln_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.24. Extracting gate netlist of module `\ifu_bp_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.25. Extracting gate netlist of module `\ifu_compress_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.26. Extracting gate netlist of module `\ifu_ic_mem' to `<abc-temp-dir>/input.blif'..
+8.6.27. Extracting gate netlist of module `\ifu_ifc_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.28. Extracting gate netlist of module `\ifu_mem_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.29. Extracting gate netlist of module `\lsu' to `<abc-temp-dir>/input.blif'..
+8.6.30. Extracting gate netlist of module `\lsu_addrcheck' to `<abc-temp-dir>/input.blif'..
+8.6.31. Extracting gate netlist of module `\lsu_bus_buffer' to `<abc-temp-dir>/input.blif'..
+8.6.32. Extracting gate netlist of module `\lsu_bus_intf' to `<abc-temp-dir>/input.blif'..
+8.6.33. Extracting gate netlist of module `\lsu_clkdomain' to `<abc-temp-dir>/input.blif'..
+8.6.34. Extracting gate netlist of module `\lsu_dccm_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.35. Extracting gate netlist of module `\lsu_dccm_mem' to `<abc-temp-dir>/input.blif'..
+8.6.36. Extracting gate netlist of module `\lsu_ecc' to `<abc-temp-dir>/input.blif'..
+8.6.37. Extracting gate netlist of module `\lsu_lsc_ctl' to `<abc-temp-dir>/input.blif'..
+8.6.38. Extracting gate netlist of module `\lsu_stbuf' to `<abc-temp-dir>/input.blif'..
+8.6.39. Extracting gate netlist of module `\lsu_trigger' to `<abc-temp-dir>/input.blif'..
+8.6.40. Extracting gate netlist of module `\mem' to `<abc-temp-dir>/input.blif'..
+8.6.41. Extracting gate netlist of module `\pic_ctrl' to `<abc-temp-dir>/input.blif'..
+8.6.42. Extracting gate netlist of module `\ram_2048x39' to `<abc-temp-dir>/input.blif'..
+8.6.43. Extracting gate netlist of module `\ram_256x34' to `<abc-temp-dir>/input.blif'..
+8.6.44. Extracting gate netlist of module `\ram_64x21' to `<abc-temp-dir>/input.blif'..
+8.6.45. Extracting gate netlist of module `\rvbradder' to `<abc-temp-dir>/input.blif'..
+8.6.46. Extracting gate netlist of module `\rvbtb_addr_hash' to `<abc-temp-dir>/input.blif'..
+8.6.47. Extracting gate netlist of module `\rvbtb_ghr_hash' to `<abc-temp-dir>/input.blif'..
+8.6.48. Extracting gate netlist of module `\rvbtb_tag_hash' to `<abc-temp-dir>/input.blif'..
+8.6.49. Extracting gate netlist of module `\rvclkhdr' to `<abc-temp-dir>/input.blif'..
+8.6.50. Extracting gate netlist of module `\rvdff_WIDTH1' to `<abc-temp-dir>/input.blif'..
+8.6.51. Extracting gate netlist of module `\rvdff_WIDTH10' to `<abc-temp-dir>/input.blif'..
+8.6.52. Extracting gate netlist of module `\rvdff_WIDTH11' to `<abc-temp-dir>/input.blif'..
+8.6.53. Extracting gate netlist of module `\rvdff_WIDTH12' to `<abc-temp-dir>/input.blif'..
+8.6.54. Extracting gate netlist of module `\rvdff_WIDTH128' to `<abc-temp-dir>/input.blif'..
+8.6.55. Extracting gate netlist of module `\rvdff_WIDTH13' to `<abc-temp-dir>/input.blif'..
+8.6.56. Extracting gate netlist of module `\rvdff_WIDTH14' to `<abc-temp-dir>/input.blif'..
+8.6.57. Extracting gate netlist of module `\rvdff_WIDTH15' to `<abc-temp-dir>/input.blif'..
+8.6.58. Extracting gate netlist of module `\rvdff_WIDTH16' to `<abc-temp-dir>/input.blif'..
+8.6.59. Extracting gate netlist of module `\rvdff_WIDTH17' to `<abc-temp-dir>/input.blif'..
+8.6.60. Extracting gate netlist of module `\rvdff_WIDTH18' to `<abc-temp-dir>/input.blif'..
+8.6.61. Extracting gate netlist of module `\rvdff_WIDTH2' to `<abc-temp-dir>/input.blif'..
+8.6.62. Extracting gate netlist of module `\rvdff_WIDTH20' to `<abc-temp-dir>/input.blif'..
+8.6.63. Extracting gate netlist of module `\rvdff_WIDTH22' to `<abc-temp-dir>/input.blif'..
+8.6.64. Extracting gate netlist of module `\rvdff_WIDTH26' to `<abc-temp-dir>/input.blif'..
+8.6.65. Extracting gate netlist of module `\rvdff_WIDTH28' to `<abc-temp-dir>/input.blif'..
+8.6.66. Extracting gate netlist of module `\rvdff_WIDTH3' to `<abc-temp-dir>/input.blif'..
+8.6.67. Extracting gate netlist of module `\rvdff_WIDTH31' to `<abc-temp-dir>/input.blif'..
+8.6.68. Extracting gate netlist of module `\rvdff_WIDTH32' to `<abc-temp-dir>/input.blif'..
+8.6.69. Extracting gate netlist of module `\rvdff_WIDTH33' to `<abc-temp-dir>/input.blif'..
+8.6.70. Extracting gate netlist of module `\rvdff_WIDTH34' to `<abc-temp-dir>/input.blif'..
+8.6.71. Extracting gate netlist of module `\rvdff_WIDTH37' to `<abc-temp-dir>/input.blif'..
+8.6.72. Extracting gate netlist of module `\rvdff_WIDTH38' to `<abc-temp-dir>/input.blif'..
+8.6.73. Extracting gate netlist of module `\rvdff_WIDTH4' to `<abc-temp-dir>/input.blif'..
+8.6.74. Extracting gate netlist of module `\rvdff_WIDTH48' to `<abc-temp-dir>/input.blif'..
+8.6.75. Extracting gate netlist of module `\rvdff_WIDTH5' to `<abc-temp-dir>/input.blif'..
+8.6.76. Extracting gate netlist of module `\rvdff_WIDTH53' to `<abc-temp-dir>/input.blif'..
+8.6.77. Extracting gate netlist of module `\rvdff_WIDTH6' to `<abc-temp-dir>/input.blif'..
+8.6.78. Extracting gate netlist of module `\rvdff_WIDTH63' to `<abc-temp-dir>/input.blif'..
+8.6.79. Extracting gate netlist of module `\rvdff_WIDTH64' to `<abc-temp-dir>/input.blif'..
+8.6.80. Extracting gate netlist of module `\rvdff_WIDTH67' to `<abc-temp-dir>/input.blif'..
+8.6.81. Extracting gate netlist of module `\rvdff_WIDTH68' to `<abc-temp-dir>/input.blif'..
+8.6.82. Extracting gate netlist of module `\rvdff_WIDTH7' to `<abc-temp-dir>/input.blif'..
+8.6.83. Extracting gate netlist of module `\rvdff_WIDTH74' to `<abc-temp-dir>/input.blif'..
+8.6.84. Extracting gate netlist of module `\rvdff_WIDTH76' to `<abc-temp-dir>/input.blif'..
+8.6.85. Extracting gate netlist of module `\rvdff_WIDTH8' to `<abc-temp-dir>/input.blif'..
+8.6.86. Extracting gate netlist of module `\rvdff_WIDTH9' to `<abc-temp-dir>/input.blif'..
+8.6.87. Extracting gate netlist of module `\rvdffe_WIDTH12' to `<abc-temp-dir>/input.blif'..
+8.6.88. Extracting gate netlist of module `\rvdffe_WIDTH128' to `<abc-temp-dir>/input.blif'..
+8.6.89. Extracting gate netlist of module `\rvdffe_WIDTH14' to `<abc-temp-dir>/input.blif'..
+8.6.90. Extracting gate netlist of module `\rvdffe_WIDTH16' to `<abc-temp-dir>/input.blif'..
+8.6.91. Extracting gate netlist of module `\rvdffe_WIDTH17' to `<abc-temp-dir>/input.blif'..
+8.6.92. Extracting gate netlist of module `\rvdffe_WIDTH20' to `<abc-temp-dir>/input.blif'..
+8.6.93. Extracting gate netlist of module `\rvdffe_WIDTH22' to `<abc-temp-dir>/input.blif'..
+8.6.94. Extracting gate netlist of module `\rvdffe_WIDTH26' to `<abc-temp-dir>/input.blif'..
+8.6.95. Extracting gate netlist of module `\rvdffe_WIDTH28' to `<abc-temp-dir>/input.blif'..
+8.6.96. Extracting gate netlist of module `\rvdffe_WIDTH31' to `<abc-temp-dir>/input.blif'..
+8.6.97. Extracting gate netlist of module `\rvdffe_WIDTH32' to `<abc-temp-dir>/input.blif'..
+8.6.98. Extracting gate netlist of module `\rvdffe_WIDTH33' to `<abc-temp-dir>/input.blif'..
+8.6.99. Extracting gate netlist of module `\rvdffe_WIDTH37' to `<abc-temp-dir>/input.blif'..
+8.6.100. Extracting gate netlist of module `\rvdffe_WIDTH48' to `<abc-temp-dir>/input.blif'..
+8.6.101. Extracting gate netlist of module `\rvdffe_WIDTH53' to `<abc-temp-dir>/input.blif'..
+8.6.102. Extracting gate netlist of module `\rvdffe_WIDTH63' to `<abc-temp-dir>/input.blif'..
+8.6.103. Extracting gate netlist of module `\rvdffe_WIDTH64' to `<abc-temp-dir>/input.blif'..
+8.6.104. Extracting gate netlist of module `\rvdffe_WIDTH67' to `<abc-temp-dir>/input.blif'..
+8.6.105. Extracting gate netlist of module `\rvdffe_WIDTH68' to `<abc-temp-dir>/input.blif'..
+8.6.106. Extracting gate netlist of module `\rvdffe_WIDTH74' to `<abc-temp-dir>/input.blif'..
+8.6.107. Extracting gate netlist of module `\rvdffe_WIDTH76' to `<abc-temp-dir>/input.blif'..
+8.6.108. Extracting gate netlist of module `\rvdffe_WIDTH8' to `<abc-temp-dir>/input.blif'..
+8.6.109. Extracting gate netlist of module `\rvdffe_WIDTH9' to `<abc-temp-dir>/input.blif'..
+8.6.110. Extracting gate netlist of module `\rvdffs_WIDTH1' to `<abc-temp-dir>/input.blif'..
+8.6.111. Extracting gate netlist of module `\rvdffs_WIDTH11' to `<abc-temp-dir>/input.blif'..
+8.6.112. Extracting gate netlist of module `\rvdffs_WIDTH2' to `<abc-temp-dir>/input.blif'..
+8.6.113. Extracting gate netlist of module `\rvdffs_WIDTH3' to `<abc-temp-dir>/input.blif'..
+8.6.114. Extracting gate netlist of module `\rvdffs_WIDTH32' to `<abc-temp-dir>/input.blif'..
+8.6.115. Extracting gate netlist of module `\rvdffs_WIDTH4' to `<abc-temp-dir>/input.blif'..
+8.6.116. Extracting gate netlist of module `\rvdffs_WIDTH5' to `<abc-temp-dir>/input.blif'..
+8.6.117. Extracting gate netlist of module `\rvdffs_WIDTH6' to `<abc-temp-dir>/input.blif'..
+8.6.118. Extracting gate netlist of module `\rvdffs_WIDTH64' to `<abc-temp-dir>/input.blif'..
+8.6.119. Extracting gate netlist of module `\rvdffs_WIDTH8' to `<abc-temp-dir>/input.blif'..
+8.6.120. Extracting gate netlist of module `\rvdffsc_WIDTH1' to `<abc-temp-dir>/input.blif'..
+8.6.121. Extracting gate netlist of module `\rvdffsc_WIDTH2' to `<abc-temp-dir>/input.blif'..
+8.6.122. Extracting gate netlist of module `\rvecc_decode' to `<abc-temp-dir>/input.blif'..
+8.6.123. Extracting gate netlist of module `\rvecc_encode' to `<abc-temp-dir>/input.blif'..
+8.6.124. Extracting gate netlist of module `\rveven_paritycheck' to `<abc-temp-dir>/input.blif'..
+8.6.125. Extracting gate netlist of module `\rveven_paritycheck_WIDTH20' to `<abc-temp-dir>/input.blif'..
+8.6.126. Extracting gate netlist of module `\rveven_paritygen_WIDTH16' to `<abc-temp-dir>/input.blif'..
+8.6.127. Extracting gate netlist of module `\rveven_paritygen_WIDTH20' to `<abc-temp-dir>/input.blif'..
+8.6.128. Extracting gate netlist of module `\rvjtag_tap' to `<abc-temp-dir>/input.blif'..
+8.6.129. Extracting gate netlist of module `\rvlsadder' to `<abc-temp-dir>/input.blif'..
+8.6.130. Extracting gate netlist of module `\rvmaskandmatch' to `<abc-temp-dir>/input.blif'..
+8.6.131. Extracting gate netlist of module `\rvrangecheck_f0040000_64' to `<abc-temp-dir>/input.blif'..
+8.6.132. Extracting gate netlist of module `\rvrangecheck_f00c0000_32' to `<abc-temp-dir>/input.blif'..
+8.6.133. Extracting gate netlist of module `\rvsyncss_WIDTH6' to `<abc-temp-dir>/input.blif'..
+8.6.134. Extracting gate netlist of module `\rvsyncss_WIDTH8' to `<abc-temp-dir>/input.blif'..
+8.6.135. Extracting gate netlist of module `\rvtwoscomp_WIDTH32' to `<abc-temp-dir>/input.blif'..
+8.6.136. Extracting gate netlist of module `\swerv' to `<abc-temp-dir>/input.blif'..
+8.6.137. Extracting gate netlist of module `\swerv_wrapper' to `<abc-temp-dir>/input.blif'..
+8.7. Executing OPT pass (performing simple optimizations).
+8.7.1. Executing OPT_EXPR pass (perform const folding).
+8.7.2. Executing OPT_MERGE pass (detect identical cells).
+8.7.3. Executing OPT_DFF pass (perform DFF optimizations).
+8.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.7.5. Finished fast OPT passes.
+8.8. Executing HIERARCHY pass (managing design hierarchy).
+8.8.1. Analyzing design hierarchy..
+8.8.2. Analyzing design hierarchy..
+8.9. Printing statistics.
+8.10. Executing CHECK pass (checking for obvious problems).
+9. Executing TECHMAP pass (map to technology primitives).
+9.1. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_adders.v
+9.2. Continuing TECHMAP pass.
+10. Executing TECHMAP pass (map to technology primitives).
+10.1. Executing Verilog-2005 frontend: /home/shiyq/oss-cad-suite/lib/../share/yosys/techmap.v
+10.2. Continuing TECHMAP pass.
+11. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+11.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+abc -script /home/shiyq/OR_1002/flow/scripts/abc_speed.script -liberty ./objects/nangate45/swerv_wrapper/RTLMP/lib/NangateOpenCellLibrary_typical.lib -constr ./objects/nangate45/swerv_wrapper/RTLMP/abc.constr -dont_use TAPCELL_X1 -dont_use FILLCELL_X1 -dont_use AOI211_X1 -dont_use OAI211_X1 -D 2.0
+12. Executing ABC pass (technology mapping using ABC).
+12.1. Extracting gate netlist of module `\IC_DATA_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_IC_DEPTH8' to `<abc-temp-dir>/input.blif'..
+12.1.1. Executing ABC.
+12.1.2. Re-integrating ABC results.
+12.2. Extracting gate netlist of module `\IC_TAG_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_TAG_DEPTH64' to `<abc-temp-dir>/input.blif'..
+12.2.1. Executing ABC.
+12.2.2. Re-integrating ABC results.
+12.3. Extracting gate netlist of module `\OPENROAD_CLKGATE' to `<abc-temp-dir>/input.blif'..
+12.4. Extracting gate netlist of module `\clockhdr' to `<abc-temp-dir>/input.blif'..
+12.4.1. Executing ABC.
+12.4.2. Re-integrating ABC results.
+12.5. Extracting gate netlist of module `\cmp_and_mux_ID_BITS8_INTPRIORITY_BITS4' to `<abc-temp-dir>/input.blif'..
+12.5.1. Executing ABC.
+12.5.2. Re-integrating ABC results.
+12.6. Extracting gate netlist of module `\configurable_gw' to `<abc-temp-dir>/input.blif'..
+12.6.1. Executing ABC.
+12.6.2. Re-integrating ABC results.
+12.7. Extracting gate netlist of module `\dbg' to `<abc-temp-dir>/input.blif'..
+12.7.1. Executing ABC.
+12.7.2. Re-integrating ABC results.
+12.8. Extracting gate netlist of module `\dec' to `<abc-temp-dir>/input.blif'..
+12.8.1. Executing ABC.
+12.8.2. Re-integrating ABC results.
+12.9. Extracting gate netlist of module `\dec_dec_ctl' to `<abc-temp-dir>/input.blif'..
+12.9.1. Executing ABC.
+12.9.2. Re-integrating ABC results.
+12.10. Extracting gate netlist of module `\dec_decode_ctl' to `<abc-temp-dir>/input.blif'..
+12.10.1. Executing ABC.
+12.10.2. Re-integrating ABC results.
+12.11. Extracting gate netlist of module `\dec_gpr_ctl_GPR_BANKS1_GPR_BANKS_LOG21' to `<abc-temp-dir>/input.blif'..
+12.11.1. Executing ABC.
+12.11.2. Re-integrating ABC results.
+12.12. Extracting gate netlist of module `\dec_ib_ctl' to `<abc-temp-dir>/input.blif'..
+12.12.1. Executing ABC.
+12.12.2. Re-integrating ABC results.
+12.13. Extracting gate netlist of module `\dec_tlu_ctl' to `<abc-temp-dir>/input.blif'..
+12.13.1. Executing ABC.
+12.13.2. Re-integrating ABC results.
+12.14. Extracting gate netlist of module `\dec_trigger' to `<abc-temp-dir>/input.blif'..
+12.14.1. Executing ABC.
+12.14.2. Re-integrating ABC results.
+12.15. Extracting gate netlist of module `\dma_ctrl' to `<abc-temp-dir>/input.blif'..
+12.15.1. Executing ABC.
+12.15.2. Re-integrating ABC results.
+12.16. Extracting gate netlist of module `\dmi_jtag_to_core_sync' to `<abc-temp-dir>/input.blif'..
+12.16.1. Executing ABC.
+12.16.2. Re-integrating ABC results.
+12.17. Extracting gate netlist of module `\dmi_wrapper' to `<abc-temp-dir>/input.blif'..
+12.18. Extracting gate netlist of module `\exu' to `<abc-temp-dir>/input.blif'..
+12.18.1. Executing ABC.
+12.18.2. Re-integrating ABC results.
+12.19. Extracting gate netlist of module `\exu_alu_ctl' to `<abc-temp-dir>/input.blif'..
+12.19.1. Executing ABC.
+12.19.2. Re-integrating ABC results.
+12.20. Extracting gate netlist of module `\exu_div_ctl' to `<abc-temp-dir>/input.blif'..
+12.20.1. Executing ABC.
+12.20.2. Re-integrating ABC results.
+12.21. Extracting gate netlist of module `\exu_mul_ctl' to `<abc-temp-dir>/input.blif'..
+12.21.1. Executing ABC.
+12.21.2. Re-integrating ABC results.
+12.22. Extracting gate netlist of module `\ifu' to `<abc-temp-dir>/input.blif'..
+12.23. Extracting gate netlist of module `\ifu_aln_ctl' to `<abc-temp-dir>/input.blif'..
+12.23.1. Executing ABC.
+12.23.2. Re-integrating ABC results.
+12.24. Extracting gate netlist of module `\ifu_bp_ctl' to `<abc-temp-dir>/input.blif'..
+12.24.1. Executing ABC.
+12.24.2. Re-integrating ABC results.
+12.25. Extracting gate netlist of module `\ifu_compress_ctl' to `<abc-temp-dir>/input.blif'..
+12.25.1. Executing ABC.
+12.25.2. Re-integrating ABC results.
+12.26. Extracting gate netlist of module `\ifu_ic_mem' to `<abc-temp-dir>/input.blif'..
+12.27. Extracting gate netlist of module `\ifu_ifc_ctl' to `<abc-temp-dir>/input.blif'..
+12.27.1. Executing ABC.
+12.27.2. Re-integrating ABC results.
+12.28. Extracting gate netlist of module `\ifu_mem_ctl' to `<abc-temp-dir>/input.blif'..
+12.28.1. Executing ABC.
+12.28.2. Re-integrating ABC results.
+12.29. Extracting gate netlist of module `\lsu' to `<abc-temp-dir>/input.blif'..
+12.29.1. Executing ABC.
+12.29.2. Re-integrating ABC results.
+12.30. Extracting gate netlist of module `\lsu_addrcheck' to `<abc-temp-dir>/input.blif'..
+12.30.1. Executing ABC.
+12.30.2. Re-integrating ABC results.
+12.31. Extracting gate netlist of module `\lsu_bus_buffer' to `<abc-temp-dir>/input.blif'..
+12.31.1. Executing ABC.
+12.31.2. Re-integrating ABC results.
+12.32. Extracting gate netlist of module `\lsu_bus_intf' to `<abc-temp-dir>/input.blif'..
+12.32.1. Executing ABC.
+12.32.2. Re-integrating ABC results.
+12.33. Extracting gate netlist of module `\lsu_clkdomain' to `<abc-temp-dir>/input.blif'..
+12.33.1. Executing ABC.
+12.33.2. Re-integrating ABC results.
+12.34. Extracting gate netlist of module `\lsu_dccm_ctl' to `<abc-temp-dir>/input.blif'..
+12.34.1. Executing ABC.
+12.34.2. Re-integrating ABC results.
+12.35. Extracting gate netlist of module `\lsu_dccm_mem' to `<abc-temp-dir>/input.blif'..
+12.35.1. Executing ABC.
+12.35.2. Re-integrating ABC results.
+12.36. Extracting gate netlist of module `\lsu_ecc' to `<abc-temp-dir>/input.blif'..
+12.36.1. Executing ABC.
+12.36.2. Re-integrating ABC results.
+12.37. Extracting gate netlist of module `\lsu_lsc_ctl' to `<abc-temp-dir>/input.blif'..
+12.37.1. Executing ABC.
+12.37.2. Re-integrating ABC results.
+12.38. Extracting gate netlist of module `\lsu_stbuf' to `<abc-temp-dir>/input.blif'..
+12.38.1. Executing ABC.
+12.38.2. Re-integrating ABC results.
+12.39. Extracting gate netlist of module `\lsu_trigger' to `<abc-temp-dir>/input.blif'..
+12.39.1. Executing ABC.
+12.39.2. Re-integrating ABC results.
+12.40. Extracting gate netlist of module `\mem' to `<abc-temp-dir>/input.blif'..
+12.41. Extracting gate netlist of module `\pic_ctrl' to `<abc-temp-dir>/input.blif'..
+12.41.1. Executing ABC.
+12.41.2. Re-integrating ABC results.
+12.42. Extracting gate netlist of module `\ram_2048x39' to `<abc-temp-dir>/input.blif'..
+12.43. Extracting gate netlist of module `\ram_256x34' to `<abc-temp-dir>/input.blif'..
+12.44. Extracting gate netlist of module `\ram_64x21' to `<abc-temp-dir>/input.blif'..
+12.45. Extracting gate netlist of module `\rvbradder' to `<abc-temp-dir>/input.blif'..
+12.45.1. Executing ABC.
+12.45.2. Re-integrating ABC results.
+12.46. Extracting gate netlist of module `\rvbtb_addr_hash' to `<abc-temp-dir>/input.blif'..
+12.46.1. Executing ABC.
+12.46.2. Re-integrating ABC results.
+12.47. Extracting gate netlist of module `\rvbtb_ghr_hash' to `<abc-temp-dir>/input.blif'..
+12.47.1. Executing ABC.
+12.47.2. Re-integrating ABC results.
+12.48. Extracting gate netlist of module `\rvbtb_tag_hash' to `<abc-temp-dir>/input.blif'..
+12.48.1. Executing ABC.
+12.48.2. Re-integrating ABC results.
+12.49. Extracting gate netlist of module `\rvclkhdr' to `<abc-temp-dir>/input.blif'..
+12.50. Extracting gate netlist of module `\rvdff_WIDTH1' to `<abc-temp-dir>/input.blif'..
+12.51. Extracting gate netlist of module `\rvdff_WIDTH10' to `<abc-temp-dir>/input.blif'..
+12.52. Extracting gate netlist of module `\rvdff_WIDTH11' to `<abc-temp-dir>/input.blif'..
+12.53. Extracting gate netlist of module `\rvdff_WIDTH12' to `<abc-temp-dir>/input.blif'..
+12.54. Extracting gate netlist of module `\rvdff_WIDTH128' to `<abc-temp-dir>/input.blif'..
+12.55. Extracting gate netlist of module `\rvdff_WIDTH13' to `<abc-temp-dir>/input.blif'..
+12.56. Extracting gate netlist of module `\rvdff_WIDTH14' to `<abc-temp-dir>/input.blif'..
+12.57. Extracting gate netlist of module `\rvdff_WIDTH15' to `<abc-temp-dir>/input.blif'..
+12.58. Extracting gate netlist of module `\rvdff_WIDTH16' to `<abc-temp-dir>/input.blif'..
+12.59. Extracting gate netlist of module `\rvdff_WIDTH17' to `<abc-temp-dir>/input.blif'..
+12.60. Extracting gate netlist of module `\rvdff_WIDTH18' to `<abc-temp-dir>/input.blif'..
+12.61. Extracting gate netlist of module `\rvdff_WIDTH2' to `<abc-temp-dir>/input.blif'..
+12.62. Extracting gate netlist of module `\rvdff_WIDTH20' to `<abc-temp-dir>/input.blif'..
+12.63. Extracting gate netlist of module `\rvdff_WIDTH22' to `<abc-temp-dir>/input.blif'..
+12.64. Extracting gate netlist of module `\rvdff_WIDTH26' to `<abc-temp-dir>/input.blif'..
+12.65. Extracting gate netlist of module `\rvdff_WIDTH28' to `<abc-temp-dir>/input.blif'..
+12.66. Extracting gate netlist of module `\rvdff_WIDTH3' to `<abc-temp-dir>/input.blif'..
+12.67. Extracting gate netlist of module `\rvdff_WIDTH31' to `<abc-temp-dir>/input.blif'..
+12.68. Extracting gate netlist of module `\rvdff_WIDTH32' to `<abc-temp-dir>/input.blif'..
+12.69. Extracting gate netlist of module `\rvdff_WIDTH33' to `<abc-temp-dir>/input.blif'..
+12.70. Extracting gate netlist of module `\rvdff_WIDTH34' to `<abc-temp-dir>/input.blif'..
+12.71. Extracting gate netlist of module `\rvdff_WIDTH37' to `<abc-temp-dir>/input.blif'..
+12.72. Extracting gate netlist of module `\rvdff_WIDTH38' to `<abc-temp-dir>/input.blif'..
+12.73. Extracting gate netlist of module `\rvdff_WIDTH4' to `<abc-temp-dir>/input.blif'..
+12.74. Extracting gate netlist of module `\rvdff_WIDTH48' to `<abc-temp-dir>/input.blif'..
+12.75. Extracting gate netlist of module `\rvdff_WIDTH5' to `<abc-temp-dir>/input.blif'..
+12.76. Extracting gate netlist of module `\rvdff_WIDTH53' to `<abc-temp-dir>/input.blif'..
+12.77. Extracting gate netlist of module `\rvdff_WIDTH6' to `<abc-temp-dir>/input.blif'..
+12.78. Extracting gate netlist of module `\rvdff_WIDTH63' to `<abc-temp-dir>/input.blif'..
+12.79. Extracting gate netlist of module `\rvdff_WIDTH64' to `<abc-temp-dir>/input.blif'..
+12.80. Extracting gate netlist of module `\rvdff_WIDTH67' to `<abc-temp-dir>/input.blif'..
+12.81. Extracting gate netlist of module `\rvdff_WIDTH68' to `<abc-temp-dir>/input.blif'..
+12.82. Extracting gate netlist of module `\rvdff_WIDTH7' to `<abc-temp-dir>/input.blif'..
+12.83. Extracting gate netlist of module `\rvdff_WIDTH74' to `<abc-temp-dir>/input.blif'..
+12.84. Extracting gate netlist of module `\rvdff_WIDTH76' to `<abc-temp-dir>/input.blif'..
+12.85. Extracting gate netlist of module `\rvdff_WIDTH8' to `<abc-temp-dir>/input.blif'..
+12.86. Extracting gate netlist of module `\rvdff_WIDTH9' to `<abc-temp-dir>/input.blif'..
+12.87. Extracting gate netlist of module `\rvdffe_WIDTH12' to `<abc-temp-dir>/input.blif'..
+12.88. Extracting gate netlist of module `\rvdffe_WIDTH128' to `<abc-temp-dir>/input.blif'..
+12.89. Extracting gate netlist of module `\rvdffe_WIDTH14' to `<abc-temp-dir>/input.blif'..
+12.90. Extracting gate netlist of module `\rvdffe_WIDTH16' to `<abc-temp-dir>/input.blif'..
+12.91. Extracting gate netlist of module `\rvdffe_WIDTH17' to `<abc-temp-dir>/input.blif'..
+12.92. Extracting gate netlist of module `\rvdffe_WIDTH20' to `<abc-temp-dir>/input.blif'..
+12.93. Extracting gate netlist of module `\rvdffe_WIDTH22' to `<abc-temp-dir>/input.blif'..
+12.94. Extracting gate netlist of module `\rvdffe_WIDTH26' to `<abc-temp-dir>/input.blif'..
+12.95. Extracting gate netlist of module `\rvdffe_WIDTH28' to `<abc-temp-dir>/input.blif'..
+12.96. Extracting gate netlist of module `\rvdffe_WIDTH31' to `<abc-temp-dir>/input.blif'..
+12.97. Extracting gate netlist of module `\rvdffe_WIDTH32' to `<abc-temp-dir>/input.blif'..
+12.98. Extracting gate netlist of module `\rvdffe_WIDTH33' to `<abc-temp-dir>/input.blif'..
+12.99. Extracting gate netlist of module `\rvdffe_WIDTH37' to `<abc-temp-dir>/input.blif'..
+12.100. Extracting gate netlist of module `\rvdffe_WIDTH48' to `<abc-temp-dir>/input.blif'..
+12.101. Extracting gate netlist of module `\rvdffe_WIDTH53' to `<abc-temp-dir>/input.blif'..
+12.102. Extracting gate netlist of module `\rvdffe_WIDTH63' to `<abc-temp-dir>/input.blif'..
+12.103. Extracting gate netlist of module `\rvdffe_WIDTH64' to `<abc-temp-dir>/input.blif'..
+12.104. Extracting gate netlist of module `\rvdffe_WIDTH67' to `<abc-temp-dir>/input.blif'..
+12.105. Extracting gate netlist of module `\rvdffe_WIDTH68' to `<abc-temp-dir>/input.blif'..
+12.106. Extracting gate netlist of module `\rvdffe_WIDTH74' to `<abc-temp-dir>/input.blif'..
+12.107. Extracting gate netlist of module `\rvdffe_WIDTH76' to `<abc-temp-dir>/input.blif'..
+12.108. Extracting gate netlist of module `\rvdffe_WIDTH8' to `<abc-temp-dir>/input.blif'..
+12.109. Extracting gate netlist of module `\rvdffe_WIDTH9' to `<abc-temp-dir>/input.blif'..
+12.110. Extracting gate netlist of module `\rvdffs_WIDTH1' to `<abc-temp-dir>/input.blif'..
+12.110.1. Executing ABC.
+12.110.2. Re-integrating ABC results.
+12.111. Extracting gate netlist of module `\rvdffs_WIDTH11' to `<abc-temp-dir>/input.blif'..
+12.111.1. Executing ABC.
+12.111.2. Re-integrating ABC results.
+12.112. Extracting gate netlist of module `\rvdffs_WIDTH2' to `<abc-temp-dir>/input.blif'..
+12.112.1. Executing ABC.
+12.112.2. Re-integrating ABC results.
+12.113. Extracting gate netlist of module `\rvdffs_WIDTH3' to `<abc-temp-dir>/input.blif'..
+12.113.1. Executing ABC.
+12.113.2. Re-integrating ABC results.
+12.114. Extracting gate netlist of module `\rvdffs_WIDTH32' to `<abc-temp-dir>/input.blif'..
+12.114.1. Executing ABC.
+12.114.2. Re-integrating ABC results.
+12.115. Extracting gate netlist of module `\rvdffs_WIDTH4' to `<abc-temp-dir>/input.blif'..
+12.115.1. Executing ABC.
+12.115.2. Re-integrating ABC results.
+12.116. Extracting gate netlist of module `\rvdffs_WIDTH5' to `<abc-temp-dir>/input.blif'..
+12.116.1. Executing ABC.
+12.116.2. Re-integrating ABC results.
+12.117. Extracting gate netlist of module `\rvdffs_WIDTH6' to `<abc-temp-dir>/input.blif'..
+12.117.1. Executing ABC.
+12.117.2. Re-integrating ABC results.
+12.118. Extracting gate netlist of module `\rvdffs_WIDTH64' to `<abc-temp-dir>/input.blif'..
+12.118.1. Executing ABC.
+12.118.2. Re-integrating ABC results.
+12.119. Extracting gate netlist of module `\rvdffs_WIDTH8' to `<abc-temp-dir>/input.blif'..
+12.119.1. Executing ABC.
+12.119.2. Re-integrating ABC results.
+12.120. Extracting gate netlist of module `\rvdffsc_WIDTH1' to `<abc-temp-dir>/input.blif'..
+12.120.1. Executing ABC.
+12.120.2. Re-integrating ABC results.
+12.121. Extracting gate netlist of module `\rvdffsc_WIDTH2' to `<abc-temp-dir>/input.blif'..
+12.121.1. Executing ABC.
+12.121.2. Re-integrating ABC results.
+12.122. Extracting gate netlist of module `\rvecc_decode' to `<abc-temp-dir>/input.blif'..
+12.122.1. Executing ABC.
+12.122.2. Re-integrating ABC results.
+12.123. Extracting gate netlist of module `\rvecc_encode' to `<abc-temp-dir>/input.blif'..
+12.123.1. Executing ABC.
+12.123.2. Re-integrating ABC results.
+12.124. Extracting gate netlist of module `\rveven_paritycheck' to `<abc-temp-dir>/input.blif'..
+12.124.1. Executing ABC.
+12.124.2. Re-integrating ABC results.
+12.125. Extracting gate netlist of module `\rveven_paritycheck_WIDTH20' to `<abc-temp-dir>/input.blif'..
+12.125.1. Executing ABC.
+12.125.2. Re-integrating ABC results.
+12.126. Extracting gate netlist of module `\rveven_paritygen_WIDTH16' to `<abc-temp-dir>/input.blif'..
+12.126.1. Executing ABC.
+12.126.2. Re-integrating ABC results.
+12.127. Extracting gate netlist of module `\rveven_paritygen_WIDTH20' to `<abc-temp-dir>/input.blif'..
+12.127.1. Executing ABC.
+12.127.2. Re-integrating ABC results.
+12.128. Extracting gate netlist of module `\rvjtag_tap' to `<abc-temp-dir>/input.blif'..
+12.128.1. Executing ABC.
+12.128.2. Re-integrating ABC results.
+12.129. Extracting gate netlist of module `\rvlsadder' to `<abc-temp-dir>/input.blif'..
+12.129.1. Executing ABC.
+12.129.2. Re-integrating ABC results.
+12.130. Extracting gate netlist of module `\rvmaskandmatch' to `<abc-temp-dir>/input.blif'..
+12.130.1. Executing ABC.
+12.130.2. Re-integrating ABC results.
+12.131. Extracting gate netlist of module `\rvrangecheck_f0040000_64' to `<abc-temp-dir>/input.blif'..
+12.131.1. Executing ABC.
+12.131.2. Re-integrating ABC results.
+12.132. Extracting gate netlist of module `\rvrangecheck_f00c0000_32' to `<abc-temp-dir>/input.blif'..
+12.132.1. Executing ABC.
+12.132.2. Re-integrating ABC results.
+12.133. Extracting gate netlist of module `\rvsyncss_WIDTH6' to `<abc-temp-dir>/input.blif'..
+12.134. Extracting gate netlist of module `\rvsyncss_WIDTH8' to `<abc-temp-dir>/input.blif'..
+12.135. Extracting gate netlist of module `\rvtwoscomp_WIDTH32' to `<abc-temp-dir>/input.blif'..
+12.135.1. Executing ABC.
+12.135.2. Re-integrating ABC results.
+12.136. Extracting gate netlist of module `\swerv' to `<abc-temp-dir>/input.blif'..
+12.136.1. Executing ABC.
+12.136.2. Re-integrating ABC results.
+12.137. Extracting gate netlist of module `\swerv_wrapper' to `<abc-temp-dir>/input.blif'..
+13. Printing statistics.
+Ungroup modules of size 10000
+14. Executing HIERARCHY pass (managing design hierarchy).
+14.1. Analyzing design hierarchy..
+14.2. Analyzing design hierarchy..
+Found module swerv_wrapper
+Found module mem
+Found module ifu_ic_mem
+Found module IC_DATA_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_IC_DEPTH8
+Found module ram_256x34
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH5
+Found module IC_TAG_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_TAG_DEPTH64
+Found module ram_64x21
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH20
+Found module rvdff_WIDTH4
+Found module rveven_paritycheck_WIDTH20
+Found module rveven_paritygen_WIDTH20
+Found module lsu_dccm_mem
+Found module ram_2048x39
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdffs_WIDTH3
+Found module rvdff_WIDTH3
+Found module swerv
+Found module dbg
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH2
+Found module rvdff_WIDTH3
+Found module rvdff_WIDTH64
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH3
+Found module rvdff_WIDTH3
+Found module rvdffs_WIDTH32
+Found module rvdff_WIDTH32
+Found module rvdffs_WIDTH4
+Found module rvdff_WIDTH4
+Found module rvdffs_WIDTH5
+Found module rvdff_WIDTH5
+Found module rvdffsc_WIDTH1
+Found module rvdff_WIDTH1
+Found module dec
+Found module dec_decode_ctl
+Found module dec_dec_ctl
+Found module rvbradder
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH10
+Found module rvdff_WIDTH2
+Found module rvdffe_WIDTH12
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH12
+Found module rvdffe_WIDTH26
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH26
+Found module rvdffe_WIDTH31
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH31
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffe_WIDTH37
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH37
+Found module rvdffe_WIDTH67
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH67
+Found module rvdffe_WIDTH9
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH9
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH2
+Found module rvdff_WIDTH2
+Found module rvdffs_WIDTH3
+Found module rvdff_WIDTH3
+Found module rvdffs_WIDTH4
+Found module rvdff_WIDTH4
+Found module rvdffs_WIDTH5
+Found module rvdff_WIDTH5
+Found module dec_gpr_ctl_GPR_BANKS1_GPR_BANKS_LOG21
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module dec_ib_ctl
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH4
+Found module rvdffe_WIDTH16
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH16
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffe_WIDTH37
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH37
+Found module rvdffe_WIDTH68
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH68
+Found module dec_tlu_ctl
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH10
+Found module rvdff_WIDTH11
+Found module rvdff_WIDTH15
+Found module rvdff_WIDTH18
+Found module rvdff_WIDTH2
+Found module rvdff_WIDTH22
+Found module rvdff_WIDTH31
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH34
+Found module rvdff_WIDTH38
+Found module rvdff_WIDTH4
+Found module rvdff_WIDTH8
+Found module rvdffe_WIDTH14
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH14
+Found module rvdffe_WIDTH17
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH17
+Found module rvdffe_WIDTH22
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH22
+Found module rvdffe_WIDTH31
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH31
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffe_WIDTH8
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH8
+Found module rvdffe_WIDTH9
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH9
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH2
+Found module rvdff_WIDTH2
+Found module rvdffs_WIDTH6
+Found module rvdff_WIDTH6
+Found module rvsyncss_WIDTH6
+Found module rvdff_WIDTH6
+Found module dec_trigger
+Found module rvmaskandmatch
+Found module dma_ctrl
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH2
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffe_WIDTH64
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH64
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH2
+Found module rvdff_WIDTH2
+Found module rvdffs_WIDTH3
+Found module rvdff_WIDTH3
+Found module rvdffs_WIDTH8
+Found module rvdff_WIDTH8
+Found module rvdffsc_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffsc_WIDTH2
+Found module rvdff_WIDTH2
+Found module rvrangecheck_f0040000_64
+Found module rvrangecheck_f00c0000_32
+Found module dmi_wrapper
+Found module dmi_jtag_to_core_sync
+Found module rvjtag_tap
+Found module exu
+Found module exu_alu_ctl
+Found module rvbradder
+Found module rvdffe_WIDTH12
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH12
+Found module rvdffe_WIDTH31
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH31
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffe_WIDTH74
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH74
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module exu_div_ctl
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH5
+Found module rvdff_WIDTH6
+Found module rvdffe_WIDTH33
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH33
+Found module rvdffs_WIDTH4
+Found module rvdff_WIDTH4
+Found module rvtwoscomp_WIDTH32
+Found module exu_mul_ctl
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH33
+Found module rvdff_WIDTH64
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH2
+Found module rvdff_WIDTH5
+Found module rvdffe_WIDTH20
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH20
+Found module rvdffe_WIDTH31
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH31
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffe_WIDTH33
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH33
+Found module rvdffe_WIDTH63
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH63
+Found module rvdffe_WIDTH74
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH74
+Found module rvdffe_WIDTH76
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH76
+Found module rvdffs_WIDTH2
+Found module rvdff_WIDTH2
+Found module rvdffs_WIDTH5
+Found module rvdff_WIDTH5
+Found module ifu
+Found module ifu_aln_ctl
+Found module ifu_compress_ctl
+Found module rvbtb_addr_hash
+Found module rvbtb_tag_hash
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH2
+Found module rvdff_WIDTH3
+Found module rvdff_WIDTH8
+Found module rvdffe_WIDTH128
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH128
+Found module rvdffe_WIDTH16
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH16
+Found module rvdffe_WIDTH31
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH31
+Found module rvdffe_WIDTH48
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH48
+Found module rvdffe_WIDTH53
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH53
+Found module rvdffe_WIDTH8
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH8
+Found module rveven_paritycheck
+Found module ifu_bp_ctl
+Found module rvbradder
+Found module rvbtb_addr_hash
+Found module rvbtb_ghr_hash
+Found module rvbtb_tag_hash
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH13
+Found module rvdff_WIDTH5
+Found module rvdff_WIDTH9
+Found module rvdffe_WIDTH16
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH16
+Found module rvdffe_WIDTH26
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH26
+Found module rvdffe_WIDTH28
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH28
+Found module rvdffe_WIDTH31
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH31
+Found module rvdffs_WIDTH2
+Found module rvdff_WIDTH2
+Found module ifu_ifc_ctl
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH2
+Found module rvdff_WIDTH3
+Found module rvdff_WIDTH31
+Found module rvdff_WIDTH5
+Found module rvdffe_WIDTH31
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH31
+Found module ifu_mem_ctl
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH11
+Found module rvdff_WIDTH2
+Found module rvdff_WIDTH3
+Found module rvdff_WIDTH31
+Found module rvdff_WIDTH34
+Found module rvdff_WIDTH4
+Found module rvdff_WIDTH5
+Found module rvdff_WIDTH6
+Found module rvdff_WIDTH64
+Found module rvdff_WIDTH9
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH11
+Found module rvdff_WIDTH11
+Found module rvdffs_WIDTH3
+Found module rvdff_WIDTH3
+Found module rveven_paritygen_WIDTH16
+Found module lsu
+Found module lsu_bus_intf
+Found module lsu_bus_buffer
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH2
+Found module rvdff_WIDTH3
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH4
+Found module rvdff_WIDTH8
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffe_WIDTH64
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH64
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH2
+Found module rvdff_WIDTH2
+Found module rvdffs_WIDTH3
+Found module rvdff_WIDTH3
+Found module rvdffs_WIDTH4
+Found module rvdff_WIDTH4
+Found module rvdffs_WIDTH8
+Found module rvdff_WIDTH8
+Found module rvdffsc_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH4
+Found module lsu_clkdomain
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH1
+Found module lsu_dccm_ctl
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH7
+Found module lsu_ecc
+Found module rvecc_decode
+Found module rvecc_encode
+Found module lsu_lsc_ctl
+Found module lsu_addrcheck
+Found module rvdff_WIDTH1
+Found module rvrangecheck_f0040000_64
+Found module rvrangecheck_f00c0000_32
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH12
+Found module rvdff_WIDTH18
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH64
+Found module rvdffs_WIDTH64
+Found module rvdff_WIDTH64
+Found module rvlsadder
+Found module lsu_stbuf
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH3
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH4
+Found module rvdffe_WIDTH16
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH16
+Found module rvdffe_WIDTH32
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH32
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH3
+Found module rvdff_WIDTH3
+Found module rvdffs_WIDTH4
+Found module rvdff_WIDTH4
+Found module rvdffsc_WIDTH1
+Found module rvdff_WIDTH1
+Found module lsu_trigger
+Found module rvmaskandmatch
+Found module rvdff_WIDTH1
+Found module pic_ctrl
+Found module cmp_and_mux_ID_BITS8_INTPRIORITY_BITS4
+Found module configurable_gw
+Found module rvdff_WIDTH1
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+Found module rvdff_WIDTH1
+Found module rvdff_WIDTH32
+Found module rvdff_WIDTH4
+Found module rvdff_WIDTH8
+Found module rvdffs_WIDTH1
+Found module rvdff_WIDTH1
+Found module rvdffs_WIDTH2
+Found module rvdff_WIDTH2
+Found module rvdffs_WIDTH4
+Found module rvdff_WIDTH4
+Found module rvsyncss_WIDTH8
+Found module rvdff_WIDTH8
+Found module rvclkhdr
+Found module clockhdr
+Found module OPENROAD_CLKGATE
+15. Printing statistics.
+Area of module \swerv_wrapper is 671023.038000
+Preserving hierarchical module: \swerv_wrapper
+16. Printing statistics.
+Area of module \mem is 474781.804000
+Preserving hierarchical module: \mem
+17. Printing statistics.
+Area of module \ifu_ic_mem is 109259.766000
+Preserving hierarchical module: \ifu_ic_mem
+18. Printing statistics.
+Area of module \IC_DATA_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_IC_DEPTH8 is 104789.104000
+Preserving hierarchical module: \IC_DATA_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_IC_DEPTH8
+19. Printing statistics.
+Area of module \ram_256x34 is 6476.036000
+20. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+21. Printing statistics.
+Area of module \clockhdr is 1.330000
+22. Printing statistics.
+23. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+24. Printing statistics.
+Area of module \IC_TAG_ICACHE_TAG_HIGH12_ICACHE_TAG_LOW6_ICACHE_TAG_DEPTH64 is 4470.662000
+25. Printing statistics.
+Area of module \ram_64x21 is 949.354000
+26. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+27. Printing statistics.
+Area of module \clockhdr is 1.330000
+28. Printing statistics.
+29. Printing statistics.
+Area of module \rvdff_WIDTH20 is 106.400000
+30. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+31. Printing statistics.
+Area of module \rveven_paritycheck_WIDTH20 is 34.846000
+32. Printing statistics.
+Area of module \rveven_paritygen_WIDTH20 is 40.964000
+33. Printing statistics.
+Area of module \lsu_dccm_mem is 365522.038000
+Preserving hierarchical module: \lsu_dccm_mem
+34. Printing statistics.
+Area of module \ram_2048x39 is 45478.818000
+Preserving hierarchical module: \ram_2048x39
+35. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+36. Printing statistics.
+Area of module \clockhdr is 1.330000
+37. Printing statistics.
+38. Printing statistics.
+Area of module \rvdffs_WIDTH3 is 21.546000
+39. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+40. Printing statistics.
+Area of module \swerv is 196241.234000
+Preserving hierarchical module: \swerv
+41. Printing statistics.
+Area of module \dbg is 3442.306000
+42. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+43. Printing statistics.
+Area of module \clockhdr is 1.330000
+44. Printing statistics.
+45. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+46. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+47. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+48. Printing statistics.
+Area of module \rvdff_WIDTH64 is 340.480000
+49. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+50. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+51. Printing statistics.
+Area of module \clockhdr is 1.330000
+52. Printing statistics.
+53. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+54. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+55. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+56. Printing statistics.
+Area of module \rvdffs_WIDTH3 is 21.546000
+57. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+58. Printing statistics.
+Area of module \rvdffs_WIDTH32 is 242.060000
+59. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+60. Printing statistics.
+Area of module \rvdffs_WIDTH4 is 30.590000
+61. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+62. Printing statistics.
+Area of module \rvdffs_WIDTH5 is 37.772000
+63. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+64. Printing statistics.
+Area of module \rvdffsc_WIDTH1 is 9.044000
+65. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+66. Printing statistics.
+Area of module \dec is 56796.054000
+Preserving hierarchical module: \dec
+67. Printing statistics.
+Area of module \dec_decode_ctl is 18884.404000
+Preserving hierarchical module: \dec_decode_ctl
+68. Printing statistics.
+Area of module \dec_dec_ctl is 189.392000
+69. Printing statistics.
+Area of module \rvbradder is 321.860000
+70. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+71. Printing statistics.
+Area of module \rvdff_WIDTH10 is 53.200000
+72. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+73. Printing statistics.
+Area of module \rvdffe_WIDTH12 is 65.170000
+74. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+75. Printing statistics.
+Area of module \clockhdr is 1.330000
+76. Printing statistics.
+77. Printing statistics.
+Area of module \rvdff_WIDTH12 is 63.840000
+78. Printing statistics.
+Area of module \rvdffe_WIDTH26 is 139.650000
+79. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+80. Printing statistics.
+Area of module \clockhdr is 1.330000
+81. Printing statistics.
+82. Printing statistics.
+Area of module \rvdff_WIDTH26 is 138.320000
+83. Printing statistics.
+Area of module \rvdffe_WIDTH31 is 166.250000
+84. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+85. Printing statistics.
+Area of module \clockhdr is 1.330000
+86. Printing statistics.
+87. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+88. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+89. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+90. Printing statistics.
+Area of module \clockhdr is 1.330000
+91. Printing statistics.
+92. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+93. Printing statistics.
+Area of module \rvdffe_WIDTH37 is 198.170000
+94. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+95. Printing statistics.
+Area of module \clockhdr is 1.330000
+96. Printing statistics.
+97. Printing statistics.
+Area of module \rvdff_WIDTH37 is 196.840000
+98. Printing statistics.
+Area of module \rvdffe_WIDTH67 is 357.770000
+99. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+100. Printing statistics.
+Area of module \clockhdr is 1.330000
+101. Printing statistics.
+102. Printing statistics.
+Area of module \rvdff_WIDTH67 is 356.440000
+103. Printing statistics.
+Area of module \rvdffe_WIDTH9 is 49.210000
+104. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+105. Printing statistics.
+Area of module \clockhdr is 1.330000
+106. Printing statistics.
+107. Printing statistics.
+Area of module \rvdff_WIDTH9 is 47.880000
+108. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+109. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+110. Printing statistics.
+Area of module \rvdffs_WIDTH2 is 14.364000
+111. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+112. Printing statistics.
+Area of module \rvdffs_WIDTH3 is 21.546000
+113. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+114. Printing statistics.
+Area of module \rvdffs_WIDTH4 is 30.590000
+115. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+116. Printing statistics.
+Area of module \rvdffs_WIDTH5 is 37.772000
+117. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+118. Printing statistics.
+Area of module \dec_gpr_ctl_GPR_BANKS1_GPR_BANKS_LOG21 is 15074.486000
+Preserving hierarchical module: \dec_gpr_ctl_GPR_BANKS1_GPR_BANKS_LOG21
+119. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+120. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+121. Printing statistics.
+Area of module \clockhdr is 1.330000
+122. Printing statistics.
+123. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+124. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+125. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+126. Printing statistics.
+Area of module \dec_ib_ctl is 5572.966000
+127. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+128. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+129. Printing statistics.
+Area of module \rvdffe_WIDTH16 is 86.450000
+130. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+131. Printing statistics.
+Area of module \clockhdr is 1.330000
+132. Printing statistics.
+133. Printing statistics.
+Area of module \rvdff_WIDTH16 is 85.120000
+134. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+135. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+136. Printing statistics.
+Area of module \clockhdr is 1.330000
+137. Printing statistics.
+138. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+139. Printing statistics.
+Area of module \rvdffe_WIDTH37 is 198.170000
+140. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+141. Printing statistics.
+Area of module \clockhdr is 1.330000
+142. Printing statistics.
+143. Printing statistics.
+Area of module \rvdff_WIDTH37 is 196.840000
+144. Printing statistics.
+Area of module \rvdffe_WIDTH68 is 363.090000
+145. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+146. Printing statistics.
+Area of module \clockhdr is 1.330000
+147. Printing statistics.
+148. Printing statistics.
+Area of module \rvdff_WIDTH68 is 361.760000
+149. Printing statistics.
+Area of module \dec_tlu_ctl is 15012.508000
+Preserving hierarchical module: \dec_tlu_ctl
+150. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+151. Printing statistics.
+Area of module \clockhdr is 1.330000
+152. Printing statistics.
+153. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+154. Printing statistics.
+Area of module \rvdff_WIDTH10 is 53.200000
+155. Printing statistics.
+Area of module \rvdff_WIDTH11 is 58.520000
+156. Printing statistics.
+Area of module \rvdff_WIDTH15 is 79.800000
+157. Printing statistics.
+Area of module \rvdff_WIDTH18 is 95.760000
+158. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+159. Printing statistics.
+Area of module \rvdff_WIDTH22 is 117.040000
+160. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+161. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+162. Printing statistics.
+Area of module \rvdff_WIDTH34 is 180.880000
+163. Printing statistics.
+Area of module \rvdff_WIDTH38 is 202.160000
+164. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+165. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+166. Printing statistics.
+Area of module \rvdffe_WIDTH14 is 75.810000
+167. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+168. Printing statistics.
+Area of module \clockhdr is 1.330000
+169. Printing statistics.
+170. Printing statistics.
+Area of module \rvdff_WIDTH14 is 74.480000
+171. Printing statistics.
+Area of module \rvdffe_WIDTH17 is 91.770000
+172. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+173. Printing statistics.
+Area of module \clockhdr is 1.330000
+174. Printing statistics.
+175. Printing statistics.
+Area of module \rvdff_WIDTH17 is 90.440000
+176. Printing statistics.
+Area of module \rvdffe_WIDTH22 is 118.370000
+177. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+178. Printing statistics.
+Area of module \clockhdr is 1.330000
+179. Printing statistics.
+180. Printing statistics.
+Area of module \rvdff_WIDTH22 is 117.040000
+181. Printing statistics.
+Area of module \rvdffe_WIDTH31 is 166.250000
+182. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+183. Printing statistics.
+Area of module \clockhdr is 1.330000
+184. Printing statistics.
+185. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+186. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+187. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+188. Printing statistics.
+Area of module \clockhdr is 1.330000
+189. Printing statistics.
+190. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+191. Printing statistics.
+Area of module \rvdffe_WIDTH8 is 43.890000
+192. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+193. Printing statistics.
+Area of module \clockhdr is 1.330000
+194. Printing statistics.
+195. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+196. Printing statistics.
+Area of module \rvdffe_WIDTH9 is 49.210000
+197. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+198. Printing statistics.
+Area of module \clockhdr is 1.330000
+199. Printing statistics.
+200. Printing statistics.
+Area of module \rvdff_WIDTH9 is 47.880000
+201. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+202. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+203. Printing statistics.
+Area of module \rvdffs_WIDTH2 is 14.364000
+204. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+205. Printing statistics.
+Area of module \rvdffs_WIDTH6 is 44.954000
+206. Printing statistics.
+Area of module \rvdff_WIDTH6 is 31.920000
+207. Printing statistics.
+Area of module \rvsyncss_WIDTH6 is 63.840000
+208. Printing statistics.
+Area of module \rvdff_WIDTH6 is 31.920000
+209. Printing statistics.
+Area of module \dec_trigger is 2249.030000
+210. Printing statistics.
+Area of module \rvmaskandmatch is 220.780000
+211. Printing statistics.
+Area of module \dma_ctrl is 7177.478000
+212. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+213. Printing statistics.
+Area of module \clockhdr is 1.330000
+214. Printing statistics.
+215. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+216. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+217. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+218. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+219. Printing statistics.
+Area of module \clockhdr is 1.330000
+220. Printing statistics.
+221. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+222. Printing statistics.
+Area of module \rvdffe_WIDTH64 is 341.810000
+223. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+224. Printing statistics.
+Area of module \clockhdr is 1.330000
+225. Printing statistics.
+226. Printing statistics.
+Area of module \rvdff_WIDTH64 is 340.480000
+227. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+228. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+229. Printing statistics.
+Area of module \rvdffs_WIDTH2 is 14.364000
+230. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+231. Printing statistics.
+Area of module \rvdffs_WIDTH3 is 21.546000
+232. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+233. Printing statistics.
+Area of module \rvdffs_WIDTH8 is 59.318000
+234. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+235. Printing statistics.
+Area of module \rvdffsc_WIDTH1 is 9.044000
+236. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+237. Printing statistics.
+Area of module \rvdffsc_WIDTH2 is 17.556000
+238. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+239. Printing statistics.
+Area of module \rvrangecheck_f0040000_64 is 11.172000
+240. Printing statistics.
+Area of module \rvrangecheck_f00c0000_32 is 13.566000
+241. Printing statistics.
+Area of module \dmi_wrapper is 958.398000
+242. Printing statistics.
+Area of module \dmi_jtag_to_core_sync is 36.176000
+243. Printing statistics.
+Area of module \rvjtag_tap is 922.222000
+244. Printing statistics.
+Area of module \exu is 41659.590000
+Preserving hierarchical module: \exu
+245. Printing statistics.
+Area of module \exu_alu_ctl is 3525.298000
+246. Printing statistics.
+Area of module \rvbradder is 321.860000
+247. Printing statistics.
+Area of module \rvdffe_WIDTH12 is 65.170000
+248. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+249. Printing statistics.
+Area of module \clockhdr is 1.330000
+250. Printing statistics.
+251. Printing statistics.
+Area of module \rvdff_WIDTH12 is 63.840000
+252. Printing statistics.
+Area of module \rvdffe_WIDTH31 is 166.250000
+253. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+254. Printing statistics.
+Area of module \clockhdr is 1.330000
+255. Printing statistics.
+256. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+257. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+258. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+259. Printing statistics.
+Area of module \clockhdr is 1.330000
+260. Printing statistics.
+261. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+262. Printing statistics.
+Area of module \rvdffe_WIDTH74 is 395.010000
+263. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+264. Printing statistics.
+Area of module \clockhdr is 1.330000
+265. Printing statistics.
+266. Printing statistics.
+Area of module \rvdff_WIDTH74 is 393.680000
+267. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+268. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+269. Printing statistics.
+Area of module \exu_div_ctl is 2776.508000
+270. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+271. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+272. Printing statistics.
+Area of module \rvdff_WIDTH6 is 31.920000
+273. Printing statistics.
+Area of module \rvdffe_WIDTH33 is 176.890000
+274. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+275. Printing statistics.
+Area of module \clockhdr is 1.330000
+276. Printing statistics.
+277. Printing statistics.
+Area of module \rvdff_WIDTH33 is 175.560000
+278. Printing statistics.
+Area of module \rvdffs_WIDTH4 is 30.590000
+279. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+280. Printing statistics.
+Area of module \rvtwoscomp_WIDTH32 is 114.646000
+281. Printing statistics.
+Area of module \exu_mul_ctl is 14732.144000
+Preserving hierarchical module: \exu_mul_ctl
+282. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+283. Printing statistics.
+Area of module \clockhdr is 1.330000
+284. Printing statistics.
+285. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+286. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+287. Printing statistics.
+Area of module \rvdff_WIDTH33 is 175.560000
+288. Printing statistics.
+Area of module \rvdff_WIDTH64 is 340.480000
+289. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+290. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+291. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+292. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+293. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+294. Printing statistics.
+Area of module \rvdffe_WIDTH20 is 107.730000
+295. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+296. Printing statistics.
+Area of module \clockhdr is 1.330000
+297. Printing statistics.
+298. Printing statistics.
+Area of module \rvdff_WIDTH20 is 106.400000
+299. Printing statistics.
+Area of module \rvdffe_WIDTH31 is 166.250000
+300. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+301. Printing statistics.
+Area of module \clockhdr is 1.330000
+302. Printing statistics.
+303. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+304. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+305. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+306. Printing statistics.
+Area of module \clockhdr is 1.330000
+307. Printing statistics.
+308. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+309. Printing statistics.
+Area of module \rvdffe_WIDTH33 is 176.890000
+310. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+311. Printing statistics.
+Area of module \clockhdr is 1.330000
+312. Printing statistics.
+313. Printing statistics.
+Area of module \rvdff_WIDTH33 is 175.560000
+314. Printing statistics.
+Area of module \rvdffe_WIDTH63 is 336.490000
+315. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+316. Printing statistics.
+Area of module \clockhdr is 1.330000
+317. Printing statistics.
+318. Printing statistics.
+Area of module \rvdff_WIDTH63 is 335.160000
+319. Printing statistics.
+Area of module \rvdffe_WIDTH74 is 395.010000
+320. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+321. Printing statistics.
+Area of module \clockhdr is 1.330000
+322. Printing statistics.
+323. Printing statistics.
+Area of module \rvdff_WIDTH74 is 393.680000
+324. Printing statistics.
+Area of module \rvdffe_WIDTH76 is 405.650000
+325. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+326. Printing statistics.
+Area of module \clockhdr is 1.330000
+327. Printing statistics.
+328. Printing statistics.
+Area of module \rvdff_WIDTH76 is 404.320000
+329. Printing statistics.
+Area of module \rvdffs_WIDTH2 is 14.364000
+330. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+331. Printing statistics.
+Area of module \rvdffs_WIDTH5 is 37.772000
+332. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+333. Printing statistics.
+Area of module \ifu is 36008.420000
+Preserving hierarchical module: \ifu
+334. Printing statistics.
+Area of module \ifu_aln_ctl is 12385.492000
+Preserving hierarchical module: \ifu_aln_ctl
+335. Printing statistics.
+Area of module \ifu_compress_ctl is 235.942000
+336. Printing statistics.
+Area of module \rvbtb_addr_hash is 10.640000
+337. Printing statistics.
+Area of module \rvbtb_tag_hash is 14.364000
+338. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+339. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+340. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+341. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+342. Printing statistics.
+Area of module \rvdffe_WIDTH128 is 682.290000
+343. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+344. Printing statistics.
+Area of module \clockhdr is 1.330000
+345. Printing statistics.
+346. Printing statistics.
+Area of module \rvdff_WIDTH128 is 680.960000
+347. Printing statistics.
+Area of module \rvdffe_WIDTH16 is 86.450000
+348. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+349. Printing statistics.
+Area of module \clockhdr is 1.330000
+350. Printing statistics.
+351. Printing statistics.
+Area of module \rvdff_WIDTH16 is 85.120000
+352. Printing statistics.
+Area of module \rvdffe_WIDTH31 is 166.250000
+353. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+354. Printing statistics.
+Area of module \clockhdr is 1.330000
+355. Printing statistics.
+356. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+357. Printing statistics.
+Area of module \rvdffe_WIDTH48 is 256.690000
+358. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+359. Printing statistics.
+Area of module \clockhdr is 1.330000
+360. Printing statistics.
+361. Printing statistics.
+Area of module \rvdff_WIDTH48 is 255.360000
+362. Printing statistics.
+Area of module \rvdffe_WIDTH53 is 283.290000
+363. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+364. Printing statistics.
+Area of module \clockhdr is 1.330000
+365. Printing statistics.
+366. Printing statistics.
+Area of module \rvdff_WIDTH53 is 281.960000
+367. Printing statistics.
+Area of module \rvdffe_WIDTH8 is 43.890000
+368. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+369. Printing statistics.
+Area of module \clockhdr is 1.330000
+370. Printing statistics.
+371. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+372. Printing statistics.
+Area of module \rveven_paritycheck is 25.536000
+373. Printing statistics.
+Area of module \ifu_bp_ctl is 14641.172000
+Preserving hierarchical module: \ifu_bp_ctl
+374. Printing statistics.
+Area of module \rvbradder is 321.860000
+375. Printing statistics.
+Area of module \rvbtb_addr_hash is 10.640000
+376. Printing statistics.
+Area of module \rvbtb_ghr_hash is 4.788000
+377. Printing statistics.
+Area of module \rvbtb_tag_hash is 14.364000
+378. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+379. Printing statistics.
+Area of module \clockhdr is 1.330000
+380. Printing statistics.
+381. Printing statistics.
+Area of module \rvdff_WIDTH13 is 69.160000
+382. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+383. Printing statistics.
+Area of module \rvdff_WIDTH9 is 47.880000
+384. Printing statistics.
+Area of module \rvdffe_WIDTH16 is 86.450000
+385. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+386. Printing statistics.
+Area of module \clockhdr is 1.330000
+387. Printing statistics.
+388. Printing statistics.
+Area of module \rvdff_WIDTH16 is 85.120000
+389. Printing statistics.
+Area of module \rvdffe_WIDTH26 is 139.650000
+390. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+391. Printing statistics.
+Area of module \clockhdr is 1.330000
+392. Printing statistics.
+393. Printing statistics.
+Area of module \rvdff_WIDTH26 is 138.320000
+394. Printing statistics.
+Area of module \rvdffe_WIDTH28 is 150.290000
+395. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+396. Printing statistics.
+Area of module \clockhdr is 1.330000
+397. Printing statistics.
+398. Printing statistics.
+Area of module \rvdff_WIDTH28 is 148.960000
+399. Printing statistics.
+Area of module \rvdffe_WIDTH31 is 166.250000
+400. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+401. Printing statistics.
+Area of module \clockhdr is 1.330000
+402. Printing statistics.
+403. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+404. Printing statistics.
+Area of module \rvdffs_WIDTH2 is 14.364000
+405. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+406. Printing statistics.
+Area of module \ifu_ifc_ctl is 1323.616000
+407. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+408. Printing statistics.
+Area of module \clockhdr is 1.330000
+409. Printing statistics.
+410. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+411. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+412. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+413. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+414. Printing statistics.
+Area of module \rvdffe_WIDTH31 is 166.250000
+415. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+416. Printing statistics.
+Area of module \clockhdr is 1.330000
+417. Printing statistics.
+418. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+419. Printing statistics.
+Area of module \ifu_mem_ctl is 7658.140000
+420. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+421. Printing statistics.
+Area of module \clockhdr is 1.330000
+422. Printing statistics.
+423. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+424. Printing statistics.
+Area of module \rvdff_WIDTH11 is 58.520000
+425. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+426. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+427. Printing statistics.
+Area of module \rvdff_WIDTH31 is 164.920000
+428. Printing statistics.
+Area of module \rvdff_WIDTH34 is 180.880000
+429. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+430. Printing statistics.
+Area of module \rvdff_WIDTH5 is 26.600000
+431. Printing statistics.
+Area of module \rvdff_WIDTH6 is 31.920000
+432. Printing statistics.
+Area of module \rvdff_WIDTH64 is 340.480000
+433. Printing statistics.
+Area of module \rvdff_WIDTH9 is 47.880000
+434. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+435. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+436. Printing statistics.
+Area of module \rvdffs_WIDTH11 is 80.864000
+437. Printing statistics.
+Area of module \rvdff_WIDTH11 is 58.520000
+438. Printing statistics.
+Area of module \rvdffs_WIDTH3 is 21.546000
+439. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+440. Printing statistics.
+Area of module \rveven_paritygen_WIDTH16 is 23.940000
+441. Printing statistics.
+Area of module \lsu is 48045.452000
+Preserving hierarchical module: \lsu
+442. Printing statistics.
+Area of module \lsu_bus_intf is 22862.434000
+Preserving hierarchical module: \lsu_bus_intf
+443. Printing statistics.
+Area of module \lsu_bus_buffer is 19821.788000
+Preserving hierarchical module: \lsu_bus_buffer
+444. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+445. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+446. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+447. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+448. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+449. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+450. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+451. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+452. Printing statistics.
+Area of module \clockhdr is 1.330000
+453. Printing statistics.
+454. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+455. Printing statistics.
+Area of module \rvdffe_WIDTH64 is 341.810000
+456. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+457. Printing statistics.
+Area of module \clockhdr is 1.330000
+458. Printing statistics.
+459. Printing statistics.
+Area of module \rvdff_WIDTH64 is 340.480000
+460. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+461. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+462. Printing statistics.
+Area of module \rvdffs_WIDTH2 is 14.364000
+463. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+464. Printing statistics.
+Area of module \rvdffs_WIDTH3 is 21.546000
+465. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+466. Printing statistics.
+Area of module \rvdffs_WIDTH4 is 30.590000
+467. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+468. Printing statistics.
+Area of module \rvdffs_WIDTH8 is 59.318000
+469. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+470. Printing statistics.
+Area of module \rvdffsc_WIDTH1 is 9.044000
+471. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+472. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+473. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+474. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+475. Printing statistics.
+Area of module \lsu_clkdomain is 160.132000
+476. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+477. Printing statistics.
+Area of module \clockhdr is 1.330000
+478. Printing statistics.
+479. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+480. Printing statistics.
+Area of module \lsu_dccm_ctl is 1784.328000
+481. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+482. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+483. Printing statistics.
+Area of module \rvdff_WIDTH7 is 37.240000
+484. Printing statistics.
+Area of module \lsu_ecc is 1242.486000
+485. Printing statistics.
+Area of module \rvecc_decode is 283.556000
+486. Printing statistics.
+Area of module \rvecc_encode is 127.680000
+487. Printing statistics.
+Area of module \lsu_lsc_ctl is 6153.112000
+488. Printing statistics.
+Area of module \lsu_addrcheck is 155.344000
+489. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+490. Printing statistics.
+Area of module \rvrangecheck_f0040000_64 is 11.172000
+491. Printing statistics.
+Area of module \rvrangecheck_f00c0000_32 is 13.566000
+492. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+493. Printing statistics.
+Area of module \rvdff_WIDTH12 is 63.840000
+494. Printing statistics.
+Area of module \rvdff_WIDTH18 is 95.760000
+495. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+496. Printing statistics.
+Area of module \rvdff_WIDTH64 is 340.480000
+497. Printing statistics.
+Area of module \rvdffs_WIDTH64 is 474.278000
+498. Printing statistics.
+Area of module \rvdff_WIDTH64 is 340.480000
+499. Printing statistics.
+Area of module \rvlsadder is 339.948000
+500. Printing statistics.
+Area of module \lsu_stbuf is 14598.878000
+Preserving hierarchical module: \lsu_stbuf
+501. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+502. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+503. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+504. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+505. Printing statistics.
+Area of module \rvdffe_WIDTH16 is 86.450000
+506. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+507. Printing statistics.
+Area of module \clockhdr is 1.330000
+508. Printing statistics.
+509. Printing statistics.
+Area of module \rvdff_WIDTH16 is 85.120000
+510. Printing statistics.
+Area of module \rvdffe_WIDTH32 is 171.570000
+511. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+512. Printing statistics.
+Area of module \clockhdr is 1.330000
+513. Printing statistics.
+514. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+515. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+516. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+517. Printing statistics.
+Area of module \rvdffs_WIDTH3 is 21.546000
+518. Printing statistics.
+Area of module \rvdff_WIDTH3 is 15.960000
+519. Printing statistics.
+Area of module \rvdffs_WIDTH4 is 30.590000
+520. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+521. Printing statistics.
+Area of module \rvdffsc_WIDTH1 is 9.044000
+522. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+523. Printing statistics.
+Area of module \lsu_trigger is 1159.494000
+524. Printing statistics.
+Area of module \rvmaskandmatch is 220.780000
+525. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+526. Printing statistics.
+Area of module \pic_ctrl is 2072.406000
+527. Printing statistics.
+Area of module \cmp_and_mux_ID_BITS8_INTPRIORITY_BITS4 is 59.584000
+528. Printing statistics.
+Area of module \configurable_gw is 11.172000
+529. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+530. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+531. Printing statistics.
+Area of module \clockhdr is 1.330000
+532. Printing statistics.
+533. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+534. Printing statistics.
+Area of module \rvdff_WIDTH32 is 170.240000
+535. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+536. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+537. Printing statistics.
+Area of module \rvdffs_WIDTH1 is 7.182000
+538. Printing statistics.
+Area of module \rvdff_WIDTH1 is 5.320000
+539. Printing statistics.
+Area of module \rvdffs_WIDTH2 is 14.364000
+540. Printing statistics.
+Area of module \rvdff_WIDTH2 is 10.640000
+541. Printing statistics.
+Area of module \rvdffs_WIDTH4 is 30.590000
+542. Printing statistics.
+Area of module \rvdff_WIDTH4 is 21.280000
+543. Printing statistics.
+Area of module \rvsyncss_WIDTH8 is 85.120000
+544. Printing statistics.
+Area of module \rvdff_WIDTH8 is 42.560000
+545. Printing statistics.
+Area of module \rvclkhdr is 1.330000
+546. Printing statistics.
+Area of module \clockhdr is 1.330000
+547. Printing statistics.
+Warnings: 42 unique messages, 106 total
+End of script. Logfile hash: 6dff5153b1, CPU: user 176.03s system 1.87s, MEM: 444.36 MB peak
+Yosys 0.45+145 (git sha1 59404f8ce, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 54% 2x abc (201 sec), 23% 535x stat (86 sec), ...
+Elapsed time: 6:18.63[h:]min:sec. CPU time: user 371.91 sys 5.04 (99%). Peak memory: 455024KB.

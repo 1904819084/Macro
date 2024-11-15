@@ -1,0 +1,659 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 458 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 331
+[INFO GRT-0003] Macros: 28
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 4724
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical      2742195        696737          74.59%
+metal3     Horizontal    3735971        966984          74.12%
+metal4     Vertical      1745163        670767          61.56%
+metal5     Horizontal    1743488       1103508          36.71%
+metal6     Vertical      1745163       1106704          36.58%
+metal7     Horizontal     498513        219123          56.04%
+metal8     Vertical       498754        249375          50.00%
+metal9     Horizontal     248995        247950          0.42%
+metal10    Vertical       249377        247950          0.57%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 857416
+[INFO GRT-0198] Via related Steiner nodes: 32645
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1300208
+[INFO GRT-0112] Final usage 3D: 6357369
+[WARNING GRT-0115] Global routing finished with overflow.
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0          5213            0.00%             7 /  1 / 5213
+metal2          696737        353161           50.69%             2 / 12 / 13669
+metal3          966984        614593           63.56%             7 /  1 / 11254
+metal4          670767        316491           47.18%             1 /  6 / 7942
+metal5         1103508        542466           49.16%             7 /  1 / 6837
+metal6         1106704        360285           32.55%             1 /  6 / 9854
+metal7          219123         83694           38.19%             3 /  1 / 1884
+metal8          249375         55635           22.31%             1 /  3 / 2511
+metal9          247950         85966           34.67%             4 /  1 / 1780
+metal10         247950         39241           15.83%             1 /  3 / 1782
+---------------------------------------------------------------------------------------
+Total          5509098       2456745           44.59%            34 / 35 / 62726
+
+[INFO GRT-0018] Total wirelength: 6085218 um
+[INFO GRT-0014] Routed nets: 106788
+[WARNING GRT-0026] Missing route to pin swerv/lsu/_6631_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/dec/decode/_13219_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/decode/_13607_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/decode/_15091_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/dec/_5064_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/_5033_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_10397_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_10979_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_10920_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11124_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_10624_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11188_/S.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11518_/A.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11653_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_12425_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11839_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11710_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11715_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_11756_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_12820_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_13252_/A.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_12972_/A.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_13562_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_12898_/S.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_13678_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_13507_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_13461_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14265_/A.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14103_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_13981_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14223_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14368_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14065_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14366_/S.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14091_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14399_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14749_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_14746_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_13956_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_12736_/A.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_12860_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/dec/arf/_10537_/A.
+[WARNING GRT-0026] Missing route to pin swerv/exu/i1_alu_e1.predictpacketff.genblock_dff.dout\[18\]$_DFF_PN0_/Q.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_4880_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_4879_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_4883_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_8860_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_8915_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5972_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5742_/B.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5269_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5174_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5990_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5714_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5969_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5742_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5591_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5172_/B.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5151_/A.
+[WARNING GRT-0026] Missing route to pin swerv/ifu/aln/_5178_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/_6113_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/_5842_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/_6110_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/bus_intf/bus_buffer/_19647_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18561_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15067_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15033_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14520_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14575_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14492_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18125_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12918_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13684_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13769_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13714_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13682_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13884_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13841_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13821_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13799_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13957_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14875_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14820_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14985_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14923_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14907_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11935_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15244_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15388_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15409_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15367_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15475_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15472_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15458_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18913_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15569_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18986_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15739_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15669_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15655_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15894_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15884_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19256_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15872_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15850_/B3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15956_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15952_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19307_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15982_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19328_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15986_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18578_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18660_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18973_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18715_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18608_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19369_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18969_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18835_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18951_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18774_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19115_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19062_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19062_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15176_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17134_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19031_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19251_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19187_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15098_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_10142_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19031_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15479_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16909_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19616_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_10168_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18094_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16022_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19188_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16403_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16588_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19615_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18425_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17184_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16024_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15294_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19614_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18887_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17039_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15879_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15442_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13772_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_10300_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_10582_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18725_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18619_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18569_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15149_/B3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15028_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15112_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11403_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11650_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12666_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11662_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13078_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14634_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13815_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11906_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13670_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11950_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11950_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14614_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11934_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11810_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11822_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13920_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12383_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11943_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11909_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11850_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17657_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11906_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13984_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11909_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14716_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_11917_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14105_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15658_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12442_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17057_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12526_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12335_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17859_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19015_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17012_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12134_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17014_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12259_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18228_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12265_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12216_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12217_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17662_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16986_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18665_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15898_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13591_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18461_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15006_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19885_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17663_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15203_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13910_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15010_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16745_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16738_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14582_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14526_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13033_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18681_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14365_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18571_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17667_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13030_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17400_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14081_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15870_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13255_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19283_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15226_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15600_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17678_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14235_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18959_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13747_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19336_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16677_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16673_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14139_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12920_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12447_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15736_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19248_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13940_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13907_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12866_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15877_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13183_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13183_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12517_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12989_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14406_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12531_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19738_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16838_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16818_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16103_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16015_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12622_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18926_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15515_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14584_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19590_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17827_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15904_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12674_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13614_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18679_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12655_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16017_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19027_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12673_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12661_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17124_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14523_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15391_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12671_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19735_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14602_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18934_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19931_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16891_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15240_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14548_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12729_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12751_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18192_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12775_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19513_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15151_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13611_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15287_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13611_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15932_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18717_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17037_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17335_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15142_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17635_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17526_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17526_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17169_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18579_/S.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18182_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15615_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19626_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17436_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13225_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19415_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18641_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17738_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19072_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18046_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17951_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19406_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15574_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_12895_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19551_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15928_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15391_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19318_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19060_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14231_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18548_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16837_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13827_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13569_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15889_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15083_/S.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13079_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14192_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19199_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15607_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15513_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14878_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18293_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14211_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15696_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15488_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15241_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14680_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14364_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13376_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15904_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19533_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15107_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19586_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15307_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16590_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14330_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13160_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15457_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19539_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19548_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13192_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17989_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15311_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18058_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14212_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19298_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19212_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15606_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19693_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19130_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13242_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13909_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18956_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18722_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15095_/S.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17915_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16545_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15158_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14018_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19417_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13290_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19188_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15706_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14752_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19616_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18104_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13317_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19634_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17060_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16229_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18146_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15984_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17832_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17793_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18976_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18564_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17478_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13377_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19514_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14245_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13407_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19356_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19263_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19235_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19330_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18169_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17916_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15807_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18940_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13419_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19042_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19708_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15017_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19334_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14194_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13477_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18969_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13480_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13479_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16422_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16229_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16034_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15615_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19012_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16001_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13564_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18767_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15648_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14835_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14303_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13634_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17733_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16583_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19201_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15214_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15118_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13654_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17520_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13752_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13739_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18918_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15705_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18754_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18192_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18215_/S.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17918_/S.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14886_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14316_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19056_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17408_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15438_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19576_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15092_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13820_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17588_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13823_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13847_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18090_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18189_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16027_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19009_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13909_/B3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18996_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15333_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19753_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19715_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17489_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13959_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13975_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_13961_/A4.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19563_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14601_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14172_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15522_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17690_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14004_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18454_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15214_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18200_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18686_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18277_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17919_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17520_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14138_/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15118_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14471_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14181_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15368_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18718_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16626_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17069_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19539_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17599_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19005_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18218_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18213_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19901_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19542_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16949_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16043_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19606_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15962_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18996_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18597_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15922_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15912_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19420_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15927_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14437_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18940_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14555_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16011_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15046_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19733_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16626_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14615_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17286_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15525_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15938_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18538_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14660_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14946_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19609_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16696_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14985_/B3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_14909_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17058_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18153_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15020_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19381_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18812_/S.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15039_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15046_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15136_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15273_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15261_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15940_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15263_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18203_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18048_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17955_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17215_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15469_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19783_/C2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15489_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15607_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15577_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19035_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15636_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15624_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19000_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_15848_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18283_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18287_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18683_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17970_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19753_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18305_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17018_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16811_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16775_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18573_/A3.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18302_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16808_/ZN.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16818_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17390_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16867_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18755_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18076_/B1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16942_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19104_/C1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18227_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17155_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18743_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17175_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18888_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19127_/B2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18070_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19699_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_19156_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_18470_/A1.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_10582_/B.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_10514_/B.
+[WARNING GRT-0026] Missing route to pin wire1308/Z.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17690_/A2.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_16772_/A.
+[WARNING GRT-0026] Missing route to pin swerv/lsu/stbuf/_17662_/A2.
+[WARNING GRT-0026] Missing route to pin wire1744/Z.
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock core_clock period 2.000000
+[INFO FLW-0008] Clock core_clock period 3.362
+[INFO FLW-0009] Clock core_clock slack -1.539
+[INFO FLW-0011] Path endpoint count 36592
+Elapsed time: 1:32.04[h:]min:sec. CPU time: user 89.76 sys 2.25 (99%). Peak memory: 1929828KB.

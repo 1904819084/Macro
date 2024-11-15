@@ -1,0 +1,113 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_rd_w_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_rd_w_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_mem_w_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_mem_w_v_o[0]' not found.
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem0.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_calculator/int_regfile.rf.macro_mem1.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_0__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_1__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_2__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_3__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_4__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_6__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/data_mem_7__data_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_4__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_5__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_6__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/data_mem_banks_7__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/stat_mem.macro_mem.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/metadata_mem.macro_mem.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/be/be_mmu/dcache/tag_mem.macro_mem.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - rof1_0__core/fe/icache_1/tag_mem.macro_mem.mem
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (13.8550, 1083.3700) - (14.3350, 1083.6850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (84.1350, 15.3150) - (84.6150, 15.9700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (182.4150, 1083.3700) - (182.8950, 1083.6850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (354.8950, 1083.3700) - (355.3750, 1083.6850) on VDD
+[WARNING PDN-0195] Removing 3 via(s) between metal4 and metal7 at (796.0700 um, 402.4450 um) for VSS
+[WARNING PDN-0195] Removing 3 via(s) between metal4 and metal7 at (852.0700 um, 402.4450 um) for VSS
+[WARNING PDN-0195] Removing 3 via(s) between metal4 and metal7 at (908.0700 um, 402.4450 um) for VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (916.5750, 15.3150) - (917.0550, 15.9700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (916.5750, 1016.3150) - (917.0550, 1017.5000) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (916.8550, 936.9700) - (917.3350, 938.0850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (917.4150, 1061.1000) - (917.8950, 1061.2850) on VSS
+[WARNING PDN-0195] Removing 3 via(s) between metal4 and metal7 at (964.0700 um, 402.4450 um) for VSS
+[WARNING PDN-0195] Removing 3 via(s) between metal4 and metal7 at (1020.0700 um, 402.4450 um) for VSS
+[WARNING PDN-0195] Removing 3 via(s) between metal4 and metal7 at (1076.0700 um, 402.4450 um) for VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1085.4150, 15.3150) - (1085.8950, 15.9700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (1085.4150, 936.9700) - (1085.8950, 938.0850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (857.7800, 997.6550) - (858.0600, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (862.2600, 997.6550) - (862.5400, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (866.7400, 997.6550) - (867.0200, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (871.2200, 997.6550) - (871.5000, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (875.7000, 997.6550) - (875.9800, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (880.1800, 997.6550) - (880.4600, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (884.6600, 997.6550) - (884.9400, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (889.1400, 997.6550) - (889.4200, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (893.6200, 997.6550) - (893.9000, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (898.1000, 997.6550) - (898.3800, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (902.5800, 997.6550) - (902.8600, 997.7200) on VDD
+[WARNING PDN-0110] No via inserted between metal6 and metal7 at (879.8300, 936.9700) - (880.3450, 938.3700) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (857.7800, 888.4550) - (858.0600, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (862.2600, 888.4550) - (862.5400, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (866.7400, 888.4550) - (867.0200, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (871.2200, 888.4550) - (871.5000, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (875.7000, 888.4550) - (875.9800, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (880.1800, 888.4550) - (880.4600, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (884.6600, 888.4550) - (884.9400, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (889.1400, 888.4550) - (889.4200, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (893.6200, 888.4550) - (893.9000, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (898.1000, 888.4550) - (898.3800, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (902.5800, 888.4550) - (902.8600, 888.5200) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (25.0600, 106.4150) - (25.3400, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (29.5400, 106.4150) - (29.8200, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (34.0200, 106.4150) - (34.3000, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (38.5000, 106.4150) - (38.7800, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (42.9800, 106.4150) - (43.2600, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (47.4600, 106.4150) - (47.7400, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (51.9400, 106.4150) - (52.2200, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (56.4200, 106.4150) - (56.7000, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (60.9000, 106.4150) - (61.1800, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (65.3800, 106.4150) - (65.6600, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (69.8600, 106.4150) - (70.1400, 106.4800) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (857.7800, 778.9750) - (858.0600, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (862.2600, 778.9750) - (862.5400, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (866.7400, 778.9750) - (867.0200, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (871.2200, 778.9750) - (871.5000, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (875.7000, 778.9750) - (875.9800, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (880.1800, 778.9750) - (880.4600, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (884.6600, 778.9750) - (884.9400, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (889.1400, 778.9750) - (889.4200, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (893.6200, 778.9750) - (893.9000, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (898.1000, 778.9750) - (898.3800, 779.0400) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (902.5800, 778.9750) - (902.8600, 779.0400) on VDD
+Elapsed time: 0:08.10[h:]min:sec. CPU time: user 7.49 sys 0.49 (98%). Peak memory: 464404KB.

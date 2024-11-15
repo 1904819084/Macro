@@ -1,0 +1,9 @@
+{
+	"detailedplace__design__instance__displacement__total": 1.27689e+06,
+	"detailedplace__design__instance__displacement__mean": 1.037,
+	"detailedplace__design__instance__displacement__max": 66.354,
+	"detailedplace__route__wirelength__estimated": 3.95123e+07,
+	"detailedplace__design__violations": 0,
+	"detailedplace__flow__warnings__count": 0,
+	"detailedplace__flow__errors__count": 0
+}

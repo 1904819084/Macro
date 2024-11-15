@@ -1,0 +1,118 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 1484 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 55
+[INFO GRT-0003] Macros: 24
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 6445
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical      4376696       1606712          63.29%
+metal3     Horizontal    5961315       2232231          62.55%
+metal4     Vertical      2785339       1603915          42.42%
+metal5     Horizontal    2781947       1983895          28.69%
+metal6     Vertical      2785339       1986252          28.69%
+metal7     Horizontal     794842        396779          50.08%
+metal8     Vertical       795988        397992          50.00%
+metal9     Horizontal     397421        396138          0.32%
+metal10    Vertical       397994        396138          0.47%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 1924981
+[INFO GRT-0198] Via related Steiner nodes: 44548
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 2567335
+[INFO GRT-0112] Final usage 3D: 12105779
+[WARNING GRT-0115] Global routing finished with overflow.
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0            78            0.00%             2 /  0 / 78
+metal2         1606712        814030           50.66%             1 /  3 / 530
+metal3         2232231       1265261           56.68%             3 /  1 / 1757
+metal4         1603915        802373           50.03%             1 /  3 / 341
+metal5         1983895        856230           43.16%             3 /  0 / 985
+metal6         1986252        418720           21.08%             1 /  3 / 246
+metal7          396779        101040           25.47%             2 /  0 / 230
+metal8          397992         40210           10.10%             1 /  1 / 84
+metal9          396138         76204           19.24%             3 /  0 / 239
+metal10         396138         29628            7.48%             0 /  2 / 58
+---------------------------------------------------------------------------------------
+Total         11000052       4403774           40.03%            17 / 13 / 4548
+
+[INFO GRT-0018] Total wirelength: 11101311 um
+[INFO GRT-0014] Routed nets: 309605
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_24808_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_26288_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_24155_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_23390_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_25214_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_26622_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30239_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30495_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30084_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30654_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_32844_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_29778_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_32360_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_33684_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_33095_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30289_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30551_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30042_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_17494_/Z.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30290_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30760_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30772_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30139_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_30781_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_29671_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_23105_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_23118_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_26035_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_22361_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_24990_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_21708_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_26747_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_26794_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_23023_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_21868_/B2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_23201_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_26994_/A2.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/be/be_mmu/dcache/_22434_/A.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_16651_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_19970_/B1.
+[WARNING GRT-0026] Missing route to pin multi_top/rof1_0__core/fe/icache_1/_17026_/B1.
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock CLK period 2.000000
+[INFO FLW-0008] Clock CLK period 6.387
+[INFO FLW-0009] Clock CLK slack -4.723
+[INFO FLW-0011] Path endpoint count 111025
+Elapsed time: 1:53.64[h:]min:sec. CPU time: user 108.42 sys 4.72 (99%). Peak memory: 3299020KB.

@@ -1,0 +1,37 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_4__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_5__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_6__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/data_mem_banks_7__data_mem_bank/macro_mem/mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/metadata_mem.macro_mem.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - icache_1/tag_mem.macro_mem.mem
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (487.8300, 27.5000) - (488.3100, 27.5850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (543.8300, 27.5000) - (544.3100, 27.5850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (599.8300, 27.5000) - (600.3100, 27.5850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (615.8550, 413.7700) - (616.3350, 414.4850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (655.8300, 27.5000) - (656.3100, 27.5850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (711.8300, 27.5000) - (712.3100, 27.5850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (767.8300, 27.5000) - (768.3100, 27.5850) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal7 at (785.2550, 413.7700) - (785.7350, 414.4850) on VSS
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (198.9900, 576.5700) - (199.2700, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (203.4700, 576.5700) - (203.7500, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (207.9500, 576.5700) - (208.2300, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (212.4300, 576.5700) - (212.7100, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (216.9100, 576.5700) - (217.1900, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (221.3900, 576.5700) - (221.6700, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (225.8700, 576.5700) - (226.1500, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (230.3500, 576.5700) - (230.6300, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (234.8300, 576.5700) - (235.1100, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (239.3100, 576.5700) - (239.5900, 576.6350) on VDD
+[WARNING PDN-0110] No via inserted between metal4 and metal5 at (243.7900, 576.5700) - (244.0700, 576.6350) on VDD
+Elapsed time: 0:01.35[h:]min:sec. CPU time: user 1.25 sys 0.09 (99%). Peak memory: 207492KB.

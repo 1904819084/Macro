@@ -1,0 +1,681 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/shiyq/OpenROAD-flow-scripts/flow/platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation bp_be_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 330993 rc segments
+[INFO RCX-0439] Coupling Cap extraction bp_be_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 8% of 603729 wires extracted
+[INFO RCX-0442] 30% of 603729 wires extracted
+[INFO RCX-0442] 49% of 603729 wires extracted
+[INFO RCX-0442] 54% of 603729 wires extracted
+[INFO RCX-0442] 66% of 603729 wires extracted
+[INFO RCX-0442] 77% of 603729 wires extracted
+[INFO RCX-0442] 91% of 603729 wires extracted
+[INFO RCX-0442] 100% of 603729 wires extracted
+[INFO RCX-0045] Extract 66355 nets, 389108 rsegs, 389108 caps, 1034783 ccs
+[INFO RCX-0443] 66355 nets finished
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns -98.00
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns -0.90
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack -0.90
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+be_mmu/dcache/_19273_/ZN                0.20    0.26   -0.06 (VIOLATED)
+be_mmu/dcache/_22461_/ZN                0.20    0.22   -0.02 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+be_mmu/dcache/_15750_/ZN              104.07  158.78  -54.72 (VIOLATED)
+be_calculator/calc_stage_reg.data_o[61]$_DFF_P_/Q  121.15  160.23  -39.08 (VIOLATED)
+be_calculator/calc_stage_reg.data_o[54]$_DFF_P_/Q  121.15  157.54  -36.39 (VIOLATED)
+be_mmu/dcache/_22461_/ZN               27.62   57.24  -29.62 (VIOLATED)
+be_mmu/dcache/_23377_/ZN               43.87   73.25  -29.38 (VIOLATED)
+be_mmu/dcache/_15741_/ZN              104.07  131.47  -27.41 (VIOLATED)
+be_mmu/dcache/_24273_/ZN               43.87   69.14  -25.27 (VIOLATED)
+be_mmu/dcache/_23470_/ZN               43.87   67.63  -23.76 (VIOLATED)
+_4224_/ZN                              63.32   86.50  -23.17 (VIOLATED)
+be_mmu/dcache/_21033_/ZN              237.43  260.02  -22.60 (VIOLATED)
+be_mmu/dcache/lce/_13941_/ZN          101.01  123.47  -22.45 (VIOLATED)
+be_mmu/dcache/_21039_/ZN              237.43  259.03  -21.61 (VIOLATED)
+be_calculator/calc_stage_reg.data_o[57]$_DFF_P_/Q  121.15  142.36  -21.21 (VIOLATED)
+be_mmu/dcache/_21036_/ZN              237.43  258.38  -20.95 (VIOLATED)
+be_mmu/dcache/_24328_/ZN               25.63   46.50  -20.86 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13624_/ZN   27.62   48.23  -20.61 (VIOLATED)
+be_mmu/dcache/_23571_/ZN               25.63   46.19  -20.56 (VIOLATED)
+be_mmu/dcache/_23520_/ZN               43.87   64.35  -20.48 (VIOLATED)
+be_mmu/dcache/_25911_/ZN               25.63   45.90  -20.26 (VIOLATED)
+be_mmu/dcache/_24994_/ZN               43.87   63.67  -19.80 (VIOLATED)
+be_mmu/dcache/_23860_/ZN               43.87   63.67  -19.80 (VIOLATED)
+be_mmu/dcache/_24079_/ZN               25.63   45.28  -19.65 (VIOLATED)
+be_mmu/dcache/_26162_/ZN               25.63   45.12  -19.49 (VIOLATED)
+be_mmu/dcache/_24311_/ZN               43.87   63.29  -19.42 (VIOLATED)
+be_mmu/dcache/_22208_/ZN               27.62   47.00  -19.38 (VIOLATED)
+be_mmu/dcache/_25405_/ZN               25.63   44.98  -19.34 (VIOLATED)
+be_mmu/dcache/_22321_/ZN               27.62   46.39  -18.78 (VIOLATED)
+be_mmu/dcache/_23744_/ZN               25.63   44.29  -18.66 (VIOLATED)
+be_mmu/dcache/_23486_/ZN               43.87   61.95  -18.08 (VIOLATED)
+be_mmu/dcache/_22428_/ZN               27.62   45.65  -18.03 (VIOLATED)
+be_mmu/dcache/_19273_/ZN               11.48   29.44  -17.96 (VIOLATED)
+be_mmu/dcache/_23180_/ZN               25.63   43.29  -17.66 (VIOLATED)
+be_mmu/dcache/_23253_/ZN               25.63   43.09  -17.45 (VIOLATED)
+be_mmu/dcache/_21352_/ZN               27.62   45.06  -17.44 (VIOLATED)
+be_mmu/dcache/_23474_/ZN               25.63   42.88  -17.25 (VIOLATED)
+be_mmu/dcache/_21045_/ZN              237.43  254.09  -16.66 (VIOLATED)
+be_mmu/dcache/_23062_/ZN               25.63   41.98  -16.34 (VIOLATED)
+be_mmu/dcache/_24954_/ZN               25.63   41.85  -16.22 (VIOLATED)
+be_mmu/dcache/_25609_/ZN               43.87   59.88  -16.01 (VIOLATED)
+be_calculator/_18559_/Z                50.51   66.48  -15.98 (VIOLATED)
+_4148_/ZN                              63.32   78.68  -15.36 (VIOLATED)
+be_calculator/_18781_/ZN               52.03   67.35  -15.32 (VIOLATED)
+be_mmu/dcache/_19935_/ZN               25.63   40.75  -15.12 (VIOLATED)
+be_mmu/dcache/_21048_/ZN              237.43  252.25  -14.82 (VIOLATED)
+be_mmu/dcache/_24966_/ZN               43.87   58.62  -14.76 (VIOLATED)
+be_mmu/dcache/_23152_/ZN               25.63   40.29  -14.66 (VIOLATED)
+be_mmu/dcache/_25602_/ZN               27.62   42.26  -14.64 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_15944_/ZN   27.62   42.19  -14.57 (VIOLATED)
+be_calculator/_18767_/Z                50.51   65.06  -14.55 (VIOLATED)
+be_mmu/dcache/_21042_/ZN              237.43  251.83  -14.40 (VIOLATED)
+be_mmu/dcache/_19877_/ZN               25.63   39.93  -14.30 (VIOLATED)
+be_mmu/dcache/_22652_/ZN               25.63   39.84  -14.20 (VIOLATED)
+be_mmu/dcache/_23198_/ZN               43.87   58.02  -14.15 (VIOLATED)
+be_mmu/dcache/_26097_/ZN               25.63   39.78  -14.15 (VIOLATED)
+be_mmu/dcache/_20061_/ZN               25.63   39.77  -14.13 (VIOLATED)
+be_mmu/dcache/_22377_/ZN               27.62   41.06  -13.45 (VIOLATED)
+be_calculator/_18491_/Z                50.51   63.94  -13.43 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13522_/ZN   27.62   40.80  -13.18 (VIOLATED)
+be_mmu/dcache/_25703_/ZN               43.87   56.99  -13.12 (VIOLATED)
+be_mmu/dcache/_24541_/ZN               25.63   38.73  -13.10 (VIOLATED)
+be_mmu/dcache/_15760_/ZN              104.07  117.08  -13.02 (VIOLATED)
+be_mmu/dcache/_19069_/ZN               27.62   40.46  -12.84 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13805_/ZN   27.62   40.41  -12.79 (VIOLATED)
+be_mmu/dcache/_24038_/ZN               43.87   56.66  -12.79 (VIOLATED)
+be_mmu/dcache/_26211_/ZN               25.63   38.31  -12.68 (VIOLATED)
+be_mmu/dcache/_23409_/ZN               25.63   38.22  -12.59 (VIOLATED)
+be_mmu/dcache/_23932_/ZN               25.63   37.94  -12.31 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_14270_/ZN   27.62   39.84  -12.23 (VIOLATED)
+be_mmu/dcache/_23436_/ZN               27.62   39.82  -12.20 (VIOLATED)
+be_mmu/dcache/_25386_/ZN               25.63   37.74  -12.11 (VIOLATED)
+be_mmu/dcache/_25438_/ZN               43.87   55.82  -11.95 (VIOLATED)
+be_calculator/_11527_/ZN               63.32   74.96  -11.64 (VIOLATED)
+be_mmu/dcache/_17836_/ZN               27.62   38.86  -11.24 (VIOLATED)
+be_mmu/dcache/_17887_/ZN               27.62   38.82  -11.20 (VIOLATED)
+be_mmu/dcache/_20357_/ZN               27.62   38.71  -11.09 (VIOLATED)
+be_mmu/dcache/_22148_/ZN               41.50   52.23  -10.73 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_14190_/ZN   27.62   38.34  -10.72 (VIOLATED)
+be_mmu/dcache/_26373_/ZN               25.63   36.35  -10.72 (VIOLATED)
+be_mmu/dcache/_23501_/ZN               43.87   54.56  -10.69 (VIOLATED)
+be_mmu/dcache/_23914_/ZN               43.87   54.54  -10.67 (VIOLATED)
+be_mmu/dcache/_25882_/ZN               25.63   36.25  -10.61 (VIOLATED)
+be_mmu/dcache/_24129_/ZN               43.87   54.29  -10.42 (VIOLATED)
+be_mmu/dcache/_25711_/ZN               43.87   53.92  -10.06 (VIOLATED)
+be_mmu/dcache/_24010_/ZN               43.87   53.69   -9.82 (VIOLATED)
+be_mmu/dcache/_24668_/ZN               25.63   35.32   -9.69 (VIOLATED)
+be_calculator/_18465_/ZN               52.03   61.42   -9.39 (VIOLATED)
+be_mmu/dcache/_25769_/ZN               25.63   34.82   -9.19 (VIOLATED)
+be_mmu/dcache/_21050_/ZN              104.07  113.21   -9.15 (VIOLATED)
+be_mmu/dcache/_24374_/ZN               43.87   52.87   -9.00 (VIOLATED)
+be_mmu/dcache/_24203_/ZN               43.87   52.74   -8.87 (VIOLATED)
+be_mmu/dcache/_25384_/ZN               27.62   36.40   -8.78 (VIOLATED)
+be_mmu/dcache/_22130_/ZN               41.50   50.13   -8.63 (VIOLATED)
+be_mmu/dcache/_25635_/ZN               43.87   52.45   -8.58 (VIOLATED)
+be_mmu/dcache/_23537_/ZN               43.87   51.67   -7.80 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13756_/ZN   27.62   35.28   -7.66 (VIOLATED)
+be_mmu/dcache/_26264_/ZN               25.63   33.28   -7.65 (VIOLATED)
+be_mmu/dcache/_23751_/ZN               25.63   33.27   -7.63 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_15705_/ZN   27.62   35.25   -7.63 (VIOLATED)
+be_mmu/dcache/_26105_/ZN               43.87   51.25   -7.38 (VIOLATED)
+be_mmu/dcache/_22949_/ZN               25.63   32.91   -7.27 (VIOLATED)
+be_calculator/calc_stage_reg.data_o[62]$_DFF_P_/Q  121.15  128.35   -7.19 (VIOLATED)
+be_mmu/dcache/_17850_/ZN               27.62   34.81   -7.19 (VIOLATED)
+be_mmu/dcache/_23851_/ZN               43.87   50.82   -6.95 (VIOLATED)
+be_mmu/dcache/_23580_/ZN               43.87   50.59   -6.72 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13481_/ZN   27.62   34.29   -6.67 (VIOLATED)
+be_mmu/dcache/_23226_/ZN               25.63   32.26   -6.62 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13339_/ZN   27.62   34.05   -6.43 (VIOLATED)
+be_mmu/dcache/_13508_/ZN               63.32   69.62   -6.30 (VIOLATED)
+be_mmu/dcache/_21806_/ZN               41.50   47.63   -6.12 (VIOLATED)
+be_mmu/dcache/_20134_/ZN               28.99   35.11   -6.12 (VIOLATED)
+be_mmu/dcache/_24062_/ZN               43.87   49.88   -6.01 (VIOLATED)
+be_mmu/dcache/_25389_/ZN               27.62   33.57   -5.95 (VIOLATED)
+be_mmu/dcache/_24664_/ZN               43.87   49.66   -5.79 (VIOLATED)
+be_mmu/dcache/_23897_/ZN               43.87   49.59   -5.73 (VIOLATED)
+be_mmu/dcache/_22097_/ZN               41.50   47.21   -5.71 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13348_/ZN   63.32   68.99   -5.67 (VIOLATED)
+be_calculator/comp_stage_reg.data_o[463]$_DFF_P_/Q  121.15  126.78   -5.63 (VIOLATED)
+be_calculator/_18730_/ZN               52.03   57.57   -5.54 (VIOLATED)
+be_mmu/dcache/_22061_/ZN               41.50   46.96   -5.45 (VIOLATED)
+be_mmu/dcache/_24651_/ZN               25.63   31.00   -5.37 (VIOLATED)
+be_mmu/dcache/_21818_/ZN               41.50   46.84   -5.34 (VIOLATED)
+be_mmu/dcache/_24896_/ZN               25.63   30.94   -5.30 (VIOLATED)
+be_mmu/dcache/_18487_/ZN               27.62   32.85   -5.23 (VIOLATED)
+be_calculator/_18800_/ZN               52.03   57.03   -5.00 (VIOLATED)
+be_mmu/dcache/_26435_/ZN               41.50   46.47   -4.96 (VIOLATED)
+be_mmu/dcache/lce/_13947_/ZN          101.01  105.97   -4.96 (VIOLATED)
+be_mmu/dcache/_25403_/ZN               43.87   48.36   -4.49 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_14324_/ZN   27.62   32.00   -4.38 (VIOLATED)
+be_mmu/dcache/_19663_/ZN               25.63   29.84   -4.21 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_14066_/ZN   27.62   31.78   -4.16 (VIOLATED)
+be_mmu/dcache/_23420_/ZN               43.87   47.93   -4.06 (VIOLATED)
+be_mmu/dcache/_25306_/ZN               43.87   47.91   -4.04 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13669_/ZN   27.62   31.55   -3.93 (VIOLATED)
+be_calculator/calc_stage_reg.data_o[284]$_DFF_P_/Q  121.15  124.96   -3.81 (VIOLATED)
+be_mmu/dcache/_21698_/ZN               41.50   45.26   -3.76 (VIOLATED)
+_4117_/ZN                              63.32   67.06   -3.73 (VIOLATED)
+be_mmu/dcache/_21749_/ZN               41.50   44.89   -3.39 (VIOLATED)
+be_mmu/dcache/_22537_/ZN               43.87   47.07   -3.20 (VIOLATED)
+be_calculator/_18484_/ZN               52.03   55.06   -3.02 (VIOLATED)
+be_mmu/dcache/_21243_/ZN               27.62   30.60   -2.98 (VIOLATED)
+be_mmu/dcache/_25575_/ZN               43.87   46.79   -2.92 (VIOLATED)
+be_calculator/_18746_/Z                50.51   53.11   -2.61 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_15745_/ZN   27.62   30.04   -2.43 (VIOLATED)
+be_mmu/dcache/_26062_/ZN               43.87   46.24   -2.37 (VIOLATED)
+be_calculator/calc_stage_reg.data_o[66]$_DFF_P_/Q  121.15  123.41   -2.25 (VIOLATED)
+be_mmu/dcache/_24098_/ZN               43.87   45.67   -1.80 (VIOLATED)
+be_calculator/calc_stage_reg.data_o[58]$_DFF_P_/Q  121.15  122.75   -1.60 (VIOLATED)
+be_mmu/dcache/_24167_/ZN               43.87   45.45   -1.58 (VIOLATED)
+be_mmu/dcache/_25414_/ZN               43.87   45.44   -1.57 (VIOLATED)
+be_mmu/dcache/_23283_/ZN               25.63   26.98   -1.35 (VIOLATED)
+be_mmu/dcache/_19321_/ZN               27.62   28.96   -1.34 (VIOLATED)
+be_mmu/dcache/_26269_/ZN               27.62   28.93   -1.31 (VIOLATED)
+be_calculator/_14469_/ZN               27.62   28.83   -1.21 (VIOLATED)
+be_mmu/dcache/_13446_/ZN               11.48   12.60   -1.12 (VIOLATED)
+be_calculator/_18668_/Z                50.51   51.46   -0.95 (VIOLATED)
+be_calculator/_14934_/ZN               11.48   12.09   -0.61 (VIOLATED)
+be_mmu/dcache/_20535_/ZN               27.62   28.11   -0.49 (VIOLATED)
+be_mmu/dcache/_20512_/ZN               27.62   27.98   -0.37 (VIOLATED)
+be_mmu/dcache/_24365_/ZN               25.63   25.91   -0.28 (VIOLATED)
+be_calculator/int_regfile/rf/synth/_13142_/ZN   63.32   63.55   -0.23 (VIOLATED)
+be_calculator/_18741_/ZN               52.03   52.15   -0.12 (VIOLATED)
+be_calculator/_14737_/ZN               11.48   11.58   -0.10 (VIOLATED)
+be_calculator/_14254_/ZN               27.62   27.68   -0.06 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-0.06133368983864784
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.3089
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-54.71613311767578
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+104.06500244140625
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-0.5258
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 2
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 163
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 301
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+Startpoint: be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: fe_cmd_o[48] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/CK (DFF_X2)
+   0.15    0.56 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/Q (DFF_X2)
+   0.04    0.60 ^ be_calculator/_10973_/Z (BUF_X4)
+   0.02    0.62 v be_calculator/_10975_/ZN (INV_X4)
+   0.03    0.65 v be_calculator/_10996_/Z (BUF_X8)
+   0.06    0.70 ^ be_calculator/_10997_/ZN (AOI21_X2)
+   0.04    0.74 ^ be_calculator/_10998_/Z (BUF_X8)
+   0.05    0.79 ^ be_calculator/_11345_/Z (BUF_X4)
+   0.05    0.84 ^ be_calculator/_11346_/Z (BUF_X4)
+   0.04    0.88 ^ be_calculator/_11347_/Z (BUF_X4)
+   0.04    0.92 ^ be_calculator/_11348_/Z (BUF_X4)
+   0.04    0.96 ^ be_calculator/_11349_/Z (BUF_X4)
+   0.05    1.01 ^ be_calculator/_11350_/Z (BUF_X4)
+   0.06    1.07 ^ be_calculator/_18863_/S (HA_X1)
+   0.05    1.12 ^ be_calculator/_11775_/Z (CLKBUF_X3)
+   0.02    1.15 v be_calculator/_11776_/ZN (INV_X1)
+   0.02    1.17 ^ be_calculator/_11779_/ZN (OAI21_X1)
+   0.02    1.19 v be_calculator/_11780_/ZN (AOI21_X1)
+   0.08    1.27 ^ be_calculator/_11781_/ZN (NOR2_X1)
+   0.05    1.32 v be_calculator/_11783_/ZN (OAI221_X2)
+   0.11    1.43 ^ be_calculator/_11794_/ZN (AOI221_X2)
+   0.04    1.47 v be_calculator/_11805_/ZN (OAI221_X2)
+   0.09    1.56 ^ be_calculator/_11806_/ZN (NOR3_X1)
+   0.07    1.62 v be_calculator/_11833_/Z (MUX2_X1)
+   0.12    1.75 ^ be_calculator/_11848_/ZN (AOI221_X2)
+   0.02    1.77 v be_calculator/_11849_/ZN (NOR2_X1)
+   0.05    1.81 ^ be_calculator/_16915_/ZN (OAI21_X1)
+   0.06    1.87 ^ _2162_/Z (CLKBUF_X3)
+   0.05    1.93 ^ _2164_/ZN (AND2_X2)
+   0.05    1.97 ^ _2165_/Z (BUF_X4)
+   0.05    2.02 ^ _2338_/Z (BUF_X4)
+   0.03    2.05 v _3227_/ZN (NAND3_X1)
+   0.03    2.07 ^ _3229_/ZN (NAND3_X2)
+   0.02    2.09 v _3235_/ZN (AOI22_X4)
+   0.05    2.15 v _3236_/ZN (XNOR2_X1)
+   0.12    2.26 v _3642_/ZN (OR4_X1)
+   0.10    2.37 ^ _3643_/ZN (NOR4_X1)
+   0.05    2.42 v _3666_/ZN (NAND4_X2)
+   0.11    2.52 ^ _3684_/ZN (NOR4_X2)
+   0.04    2.56 ^ _3685_/Z (BUF_X8)
+   0.04    2.60 ^ _4169_/Z (BUF_X4)
+   0.11    2.71 v _4177_/Z (MUX2_X2)
+   0.13    2.84 v wire3004/Z (BUF_X8)
+   0.06    2.90 v output1774/Z (BUF_X1)
+   0.00    2.90 v fe_cmd_o[48] (out)
+           2.90   data arrival time
+
+   2.60    2.60   clock CLK (rise edge)
+   0.00    2.60   clock network delay (propagated)
+   0.00    2.60   clock reconvergence pessimism
+  -0.60    2.00   output external delay
+           2.00   data required time
+---------------------------------------------------------
+           2.00   data required time
+          -2.90   data arrival time
+---------------------------------------------------------
+          -0.90   slack (VIOLATED)
+
+
+Startpoint: be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: fe_cmd_o[52] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/CK (DFF_X2)
+   0.15    0.56 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/Q (DFF_X2)
+   0.04    0.60 ^ be_calculator/_10973_/Z (BUF_X4)
+   0.02    0.62 v be_calculator/_10975_/ZN (INV_X4)
+   0.03    0.65 v be_calculator/_10996_/Z (BUF_X8)
+   0.06    0.70 ^ be_calculator/_10997_/ZN (AOI21_X2)
+   0.04    0.74 ^ be_calculator/_10998_/Z (BUF_X8)
+   0.05    0.79 ^ be_calculator/_11345_/Z (BUF_X4)
+   0.05    0.84 ^ be_calculator/_11346_/Z (BUF_X4)
+   0.04    0.88 ^ be_calculator/_11347_/Z (BUF_X4)
+   0.04    0.92 ^ be_calculator/_11348_/Z (BUF_X4)
+   0.04    0.96 ^ be_calculator/_11349_/Z (BUF_X4)
+   0.05    1.01 ^ be_calculator/_11350_/Z (BUF_X4)
+   0.06    1.07 ^ be_calculator/_18863_/S (HA_X1)
+   0.05    1.12 ^ be_calculator/_11775_/Z (CLKBUF_X3)
+   0.02    1.15 v be_calculator/_11776_/ZN (INV_X1)
+   0.02    1.17 ^ be_calculator/_11779_/ZN (OAI21_X1)
+   0.02    1.19 v be_calculator/_11780_/ZN (AOI21_X1)
+   0.08    1.27 ^ be_calculator/_11781_/ZN (NOR2_X1)
+   0.05    1.32 v be_calculator/_11783_/ZN (OAI221_X2)
+   0.11    1.43 ^ be_calculator/_11794_/ZN (AOI221_X2)
+   0.04    1.47 v be_calculator/_11805_/ZN (OAI221_X2)
+   0.09    1.56 ^ be_calculator/_11806_/ZN (NOR3_X1)
+   0.07    1.62 v be_calculator/_11833_/Z (MUX2_X1)
+   0.12    1.75 ^ be_calculator/_11848_/ZN (AOI221_X2)
+   0.02    1.77 v be_calculator/_11849_/ZN (NOR2_X1)
+   0.05    1.81 ^ be_calculator/_16915_/ZN (OAI21_X1)
+   0.06    1.87 ^ _2162_/Z (CLKBUF_X3)
+   0.05    1.93 ^ _2164_/ZN (AND2_X2)
+   0.05    1.97 ^ _2165_/Z (BUF_X4)
+   0.05    2.02 ^ _2338_/Z (BUF_X4)
+   0.03    2.05 v _3227_/ZN (NAND3_X1)
+   0.03    2.07 ^ _3229_/ZN (NAND3_X2)
+   0.02    2.09 v _3235_/ZN (AOI22_X4)
+   0.05    2.15 v _3236_/ZN (XNOR2_X1)
+   0.12    2.26 v _3642_/ZN (OR4_X1)
+   0.10    2.37 ^ _3643_/ZN (NOR4_X1)
+   0.05    2.42 v _3666_/ZN (NAND4_X2)
+   0.11    2.52 ^ _3684_/ZN (NOR4_X2)
+   0.04    2.56 ^ _3685_/Z (BUF_X8)
+   0.04    2.60 ^ _4169_/Z (BUF_X4)
+   0.12    2.72 v _4193_/Z (MUX2_X2)
+   0.09    2.81 v wire3003/Z (BUF_X8)
+   0.08    2.89 v output1779/Z (BUF_X1)
+   0.00    2.89 v fe_cmd_o[52] (out)
+           2.89   data arrival time
+
+   2.60    2.60   clock CLK (rise edge)
+   0.00    2.60   clock network delay (propagated)
+   0.00    2.60   clock reconvergence pessimism
+  -0.60    2.00   output external delay
+           2.00   data required time
+---------------------------------------------------------
+           2.00   data required time
+          -2.89   data arrival time
+---------------------------------------------------------
+          -0.89   slack (VIOLATED)
+
+
+Startpoint: be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: fe_cmd_o[79] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/CK (DFF_X2)
+   0.15    0.56 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/Q (DFF_X2)
+   0.04    0.60 ^ be_calculator/_10973_/Z (BUF_X4)
+   0.02    0.62 v be_calculator/_10975_/ZN (INV_X4)
+   0.03    0.65 v be_calculator/_10996_/Z (BUF_X8)
+   0.06    0.70 ^ be_calculator/_10997_/ZN (AOI21_X2)
+   0.04    0.74 ^ be_calculator/_10998_/Z (BUF_X8)
+   0.05    0.79 ^ be_calculator/_11345_/Z (BUF_X4)
+   0.05    0.84 ^ be_calculator/_11346_/Z (BUF_X4)
+   0.04    0.88 ^ be_calculator/_11347_/Z (BUF_X4)
+   0.04    0.92 ^ be_calculator/_11348_/Z (BUF_X4)
+   0.04    0.96 ^ be_calculator/_11349_/Z (BUF_X4)
+   0.05    1.01 ^ be_calculator/_11350_/Z (BUF_X4)
+   0.06    1.07 ^ be_calculator/_18863_/S (HA_X1)
+   0.05    1.12 ^ be_calculator/_11775_/Z (CLKBUF_X3)
+   0.02    1.15 v be_calculator/_11776_/ZN (INV_X1)
+   0.02    1.17 ^ be_calculator/_11779_/ZN (OAI21_X1)
+   0.02    1.19 v be_calculator/_11780_/ZN (AOI21_X1)
+   0.08    1.27 ^ be_calculator/_11781_/ZN (NOR2_X1)
+   0.05    1.32 v be_calculator/_11783_/ZN (OAI221_X2)
+   0.11    1.43 ^ be_calculator/_11794_/ZN (AOI221_X2)
+   0.04    1.47 v be_calculator/_11805_/ZN (OAI221_X2)
+   0.09    1.56 ^ be_calculator/_11806_/ZN (NOR3_X1)
+   0.07    1.62 v be_calculator/_11833_/Z (MUX2_X1)
+   0.12    1.75 ^ be_calculator/_11848_/ZN (AOI221_X2)
+   0.02    1.77 v be_calculator/_11849_/ZN (NOR2_X1)
+   0.05    1.81 ^ be_calculator/_16915_/ZN (OAI21_X1)
+   0.06    1.87 ^ _2162_/Z (CLKBUF_X3)
+   0.05    1.93 ^ _2164_/ZN (AND2_X2)
+   0.05    1.97 ^ _2165_/Z (BUF_X4)
+   0.05    2.02 ^ _2338_/Z (BUF_X4)
+   0.03    2.05 v _3227_/ZN (NAND3_X1)
+   0.03    2.07 ^ _3229_/ZN (NAND3_X2)
+   0.02    2.09 v _3235_/ZN (AOI22_X4)
+   0.05    2.15 v _3236_/ZN (XNOR2_X1)
+   0.12    2.26 v _3642_/ZN (OR4_X1)
+   0.10    2.37 ^ _3643_/ZN (NOR4_X1)
+   0.05    2.42 v _3666_/ZN (NAND4_X2)
+   0.11    2.52 ^ _3684_/ZN (NOR4_X2)
+   0.04    2.56 ^ _3685_/Z (BUF_X8)
+   0.04    2.60 ^ _4289_/Z (BUF_X4)
+   0.11    2.71 v _4303_/Z (MUX2_X2)
+   0.12    2.83 v wire2992/Z (BUF_X8)
+   0.05    2.88 v output1808/Z (BUF_X1)
+   0.00    2.89 v fe_cmd_o[79] (out)
+           2.89   data arrival time
+
+   2.60    2.60   clock CLK (rise edge)
+   0.00    2.60   clock network delay (propagated)
+   0.00    2.60   clock reconvergence pessimism
+  -0.60    2.00   output external delay
+           2.00   data required time
+---------------------------------------------------------
+           2.00   data required time
+          -2.89   data arrival time
+---------------------------------------------------------
+          -0.89   slack (VIOLATED)
+
+
+Startpoint: be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: fe_cmd_o[42] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/CK (DFF_X2)
+   0.15    0.56 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/Q (DFF_X2)
+   0.04    0.60 ^ be_calculator/_10973_/Z (BUF_X4)
+   0.02    0.62 v be_calculator/_10975_/ZN (INV_X4)
+   0.03    0.65 v be_calculator/_10996_/Z (BUF_X8)
+   0.06    0.70 ^ be_calculator/_10997_/ZN (AOI21_X2)
+   0.04    0.74 ^ be_calculator/_10998_/Z (BUF_X8)
+   0.05    0.79 ^ be_calculator/_11345_/Z (BUF_X4)
+   0.05    0.84 ^ be_calculator/_11346_/Z (BUF_X4)
+   0.04    0.88 ^ be_calculator/_11347_/Z (BUF_X4)
+   0.04    0.92 ^ be_calculator/_11348_/Z (BUF_X4)
+   0.04    0.96 ^ be_calculator/_11349_/Z (BUF_X4)
+   0.05    1.01 ^ be_calculator/_11350_/Z (BUF_X4)
+   0.06    1.07 ^ be_calculator/_18863_/S (HA_X1)
+   0.05    1.12 ^ be_calculator/_11775_/Z (CLKBUF_X3)
+   0.02    1.15 v be_calculator/_11776_/ZN (INV_X1)
+   0.02    1.17 ^ be_calculator/_11779_/ZN (OAI21_X1)
+   0.02    1.19 v be_calculator/_11780_/ZN (AOI21_X1)
+   0.08    1.27 ^ be_calculator/_11781_/ZN (NOR2_X1)
+   0.05    1.32 v be_calculator/_11783_/ZN (OAI221_X2)
+   0.11    1.43 ^ be_calculator/_11794_/ZN (AOI221_X2)
+   0.04    1.47 v be_calculator/_11805_/ZN (OAI221_X2)
+   0.09    1.56 ^ be_calculator/_11806_/ZN (NOR3_X1)
+   0.07    1.62 v be_calculator/_11833_/Z (MUX2_X1)
+   0.12    1.75 ^ be_calculator/_11848_/ZN (AOI221_X2)
+   0.02    1.77 v be_calculator/_11849_/ZN (NOR2_X1)
+   0.05    1.81 ^ be_calculator/_16915_/ZN (OAI21_X1)
+   0.06    1.87 ^ _2162_/Z (CLKBUF_X3)
+   0.05    1.93 ^ _2164_/ZN (AND2_X2)
+   0.05    1.97 ^ _2165_/Z (BUF_X4)
+   0.05    2.02 ^ _2338_/Z (BUF_X4)
+   0.03    2.05 v _3227_/ZN (NAND3_X1)
+   0.03    2.07 ^ _3229_/ZN (NAND3_X2)
+   0.02    2.09 v _3235_/ZN (AOI22_X4)
+   0.05    2.15 v _3236_/ZN (XNOR2_X1)
+   0.12    2.26 v _3642_/ZN (OR4_X1)
+   0.10    2.37 ^ _3643_/ZN (NOR4_X1)
+   0.05    2.42 v _3666_/ZN (NAND4_X2)
+   0.11    2.52 ^ _3684_/ZN (NOR4_X2)
+   0.04    2.56 ^ _3685_/Z (BUF_X8)
+   0.03    2.60 ^ _4129_/Z (BUF_X8)
+   0.12    2.72 v _4154_/Z (MUX2_X2)
+   0.12    2.84 v wire3008/Z (BUF_X8)
+   0.04    2.88 v output1768/Z (BUF_X1)
+   0.00    2.88 v fe_cmd_o[42] (out)
+           2.88   data arrival time
+
+   2.60    2.60   clock CLK (rise edge)
+   0.00    2.60   clock network delay (propagated)
+   0.00    2.60   clock reconvergence pessimism
+  -0.60    2.00   output external delay
+           2.00   data required time
+---------------------------------------------------------
+           2.00   data required time
+          -2.88   data arrival time
+---------------------------------------------------------
+          -0.88   slack (VIOLATED)
+
+
+Startpoint: be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: fe_queue_ready_o (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/CK (DFF_X2)
+   0.15    0.56 ^ be_calculator/calc_stage_reg.data_o[2]$_SDFF_PP0_/Q (DFF_X2)
+   0.04    0.60 ^ be_calculator/_10973_/Z (BUF_X4)
+   0.02    0.62 v be_calculator/_10975_/ZN (INV_X4)
+   0.03    0.65 v be_calculator/_10996_/Z (BUF_X8)
+   0.06    0.70 ^ be_calculator/_10997_/ZN (AOI21_X2)
+   0.04    0.74 ^ be_calculator/_10998_/Z (BUF_X8)
+   0.05    0.79 ^ be_calculator/_11345_/Z (BUF_X4)
+   0.05    0.84 ^ be_calculator/_11346_/Z (BUF_X4)
+   0.04    0.88 ^ be_calculator/_11347_/Z (BUF_X4)
+   0.04    0.92 ^ be_calculator/_11348_/Z (BUF_X4)
+   0.04    0.96 ^ be_calculator/_11349_/Z (BUF_X4)
+   0.05    1.01 ^ be_calculator/_11350_/Z (BUF_X4)
+   0.06    1.07 ^ be_calculator/_18863_/S (HA_X1)
+   0.05    1.12 ^ be_calculator/_11775_/Z (CLKBUF_X3)
+   0.02    1.15 v be_calculator/_11776_/ZN (INV_X1)
+   0.02    1.17 ^ be_calculator/_11779_/ZN (OAI21_X1)
+   0.02    1.19 v be_calculator/_11780_/ZN (AOI21_X1)
+   0.08    1.27 ^ be_calculator/_11781_/ZN (NOR2_X1)
+   0.05    1.32 v be_calculator/_11783_/ZN (OAI221_X2)
+   0.11    1.43 ^ be_calculator/_11794_/ZN (AOI221_X2)
+   0.04    1.47 v be_calculator/_11805_/ZN (OAI221_X2)
+   0.09    1.56 ^ be_calculator/_11806_/ZN (NOR3_X1)
+   0.07    1.62 v be_calculator/_11833_/Z (MUX2_X1)
+   0.12    1.75 ^ be_calculator/_11848_/ZN (AOI221_X2)
+   0.02    1.77 v be_calculator/_11849_/ZN (NOR2_X1)
+   0.05    1.81 ^ be_calculator/_16915_/ZN (OAI21_X1)
+   0.06    1.87 ^ _2162_/Z (CLKBUF_X3)
+   0.03    1.91 v _2208_/ZN (NAND2_X2)
+   0.04    1.94 v _2209_/Z (BUF_X4)
+   0.04    1.99 v _2210_/Z (BUF_X4)
+   0.04    2.03 ^ _2553_/ZN (OAI221_X2)
+   0.03    2.05 v _2555_/ZN (AOI21_X2)
+   0.11    2.17 ^ _3248_/ZN (OAI33_X1)
+   0.04    2.20 v _3249_/ZN (NAND3_X1)
+   0.11    2.32 ^ _3250_/ZN (NOR4_X1)
+   0.04    2.36 v _3263_/ZN (NAND4_X1)
+   0.10    2.46 ^ _3297_/ZN (NOR4_X1)
+   0.08    2.55 ^ _3298_/ZN (AND4_X4)
+   0.04    2.59 ^ _3299_/Z (BUF_X8)
+   0.03    2.61 v _3787_/ZN (OAI21_X2)
+   0.06    2.67 v be_calculator/_17938_/ZN (OR2_X1)
+   0.05    2.72 ^ be_calculator/_17939_/ZN (AOI21_X2)
+   0.03    2.75 v _2098_/ZN (NAND2_X4)
+   0.02    2.78 ^ _2099_/ZN (INV_X16)
+   0.06    2.83 ^ wire2976/Z (BUF_X8)
+   0.05    2.88 ^ output1835/Z (BUF_X1)
+   0.00    2.88 ^ fe_queue_ready_o (out)
+           2.88   data arrival time
+
+   2.60    2.60   clock CLK (rise edge)
+   0.00    2.60   clock network delay (propagated)
+   0.00    2.60   clock reconvergence pessimism
+  -0.60    2.00   output external delay
+           2.00   data required time
+---------------------------------------------------------
+           2.00   data required time
+          -2.88   data arrival time
+---------------------------------------------------------
+          -0.88   slack (VIOLATED)
+
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+2.8986
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-0.8986
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-31.001173
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             2.54e-02   2.53e-03   7.02e-04   2.87e-02  21.1%
+Combinational          1.52e-02   2.81e-02   2.21e-03   4.54e-02  33.4%
+Clock                  3.30e-03   7.85e-03   4.27e-05   1.12e-02   8.2%
+Macro                  4.39e-02   0.00e+00   6.81e-03   5.07e-02  37.3%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  8.78e-02   3.84e-02   9.76e-03   1.36e-01 100.0%
+                          64.6%      28.3%       7.2%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 262839 u^2 50% utilization.
+
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0044] Unable to find net (line: 2339): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 7730): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 7733): frFakeVSS
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_be/TDMP/final_routing.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_be/TDMP/final_placement.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_be/TDMP/final_ir_drop.webp.png
+[WARNING GUI-0066] Heat map "IR Drop" has not been populated with data.
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_be/TDMP/final_clocks.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_be/TDMP/final_congestion.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_be/TDMP/final_resizer.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_be/TDMP/cts_CLK.webp.png
+Elapsed time: 1:18.15[h:]min:sec. CPU time: user 76.13 sys 1.78 (99%). Peak memory: 1130800KB.

@@ -1,0 +1,441 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO CTS-0050] Root buffer is BUF_X4.
+[INFO CTS-0051] Sink buffer is BUF_X4.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    BUF_X4
+[INFO CTS-0049] Characterization buffer is BUF_X4.
+[INFO CTS-0007] Net "p_bsg_tag_clk_i" found for clock "tag_clk".
+[INFO CTS-0010]  Clock net "p_bsg_tag_clk_i" has 118 sinks.
+[INFO CTS-0007] Net "p_clk_A_i" found for clock "bp_clk".
+[INFO CTS-0010]  Clock net "p_clk_A_i" has 194035 sinks.
+[INFO CTS-0007] Net "p_clk_B_i" found for clock "io_master_clk".
+[INFO CTS-0010]  Clock net "p_clk_B_i" has 190 sinks.
+[WARNING CTS-0041] Net "net36620" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36619" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36618" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36617" has 1 sinks. Skipping...
+[INFO CTS-0007] Net "p_clk_C_i" found for clock "router_clk".
+[INFO CTS-0010]  Clock net "p_clk_C_i" has 42118 sinks.
+[INFO CTS-0007] Net "p_ci_clk_i" found for clock "sdi_a_clk".
+[INFO CTS-0010]  Clock net "p_ci_clk_i" has 1093 sinks.
+[WARNING CTS-0041] Net "net36616" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36615" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36614" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36613" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36612" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36611" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36610" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36609" has 1 sinks. Skipping...
+[INFO CTS-0007] Net "p_ci2_tkn_i" found for clock "sdo_a_tkn_clk".
+[INFO CTS-0010]  Clock net "p_ci2_tkn_i" has 18 sinks.
+[WARNING CTS-0041] Net "net36608" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36607" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36606" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36605" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36604" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36603" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36602" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36601" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36600" has 1 sinks. Skipping...
+[INFO CTS-0007] Net "p_co_clk_i" found for clock "sdi_b_clk".
+[INFO CTS-0010]  Clock net "p_co_clk_i" has 1093 sinks.
+[WARNING CTS-0041] Net "net36599" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36598" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36597" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36596" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36595" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36594" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36593" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36592" has 1 sinks. Skipping...
+[INFO CTS-0007] Net "p_co2_tkn_i" found for clock "sdo_b_tkn_clk".
+[INFO CTS-0010]  Clock net "p_co2_tkn_i" has 18 sinks.
+[WARNING CTS-0041] Net "net36591" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36590" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36589" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36588" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36587" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36586" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36585" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36584" has 1 sinks. Skipping...
+[WARNING CTS-0041] Net "net36583" has 1 sinks. Skipping...
+[INFO CTS-0008] TritonCTS found 8 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_bsg_tag_clk_i.
+[INFO CTS-0028]  Total number of sinks: 118.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0023]  Original sink region: [(901930, 1888770), (1367430, 4058430)].
+[INFO CTS-0024]  Normalized sink region: [(64.4236, 134.912), (97.6736, 289.888)].
+[INFO CTS-0025]     Width:  33.2500.
+[INFO CTS-0026]     Height: 154.9757.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 59
+    Sub-region size: 33.2500 X 77.4879
+[INFO CTS-0034]     Segment length (rounded): 38.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 30
+    Sub-region size: 16.6250 X 77.4879
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 15
+    Sub-region size: 16.6250 X 38.7439
+[INFO CTS-0034]     Segment length (rounded): 20.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 8.3125 X 38.7439
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 118.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_clk_A_i.
+[INFO CTS-0028]  Total number of sinks: 194035.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 30 and clustering diameter of 100.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 6781.
+[INFO CTS-0024]  Normalized sink region: [(3.62064, 3.29488), (511.418, 511.333)].
+[INFO CTS-0025]     Width:  507.7978.
+[INFO CTS-0026]     Height: 508.0384.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 3391
+    Sub-region size: 507.7978 X 254.0192
+[INFO CTS-0034]     Segment length (rounded): 128.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 1696
+    Sub-region size: 253.8989 X 254.0192
+[INFO CTS-0034]     Segment length (rounded): 126.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 848
+    Sub-region size: 253.8989 X 127.0096
+[INFO CTS-0034]     Segment length (rounded): 64.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 424
+    Sub-region size: 126.9495 X 127.0096
+[INFO CTS-0034]     Segment length (rounded): 64.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 212
+    Sub-region size: 126.9495 X 63.5048
+[INFO CTS-0034]     Segment length (rounded): 32.
+ Level 6
+    Direction: Horizontal
+    Sinks per sub-region: 106
+    Sub-region size: 63.4747 X 63.5048
+[INFO CTS-0034]     Segment length (rounded): 32.
+ Level 7
+    Direction: Vertical
+    Sinks per sub-region: 53
+    Sub-region size: 63.4747 X 31.7524
+[INFO CTS-0034]     Segment length (rounded): 16.
+ Level 8
+    Direction: Horizontal
+    Sinks per sub-region: 27
+    Sub-region size: 31.7374 X 31.7524
+[INFO CTS-0034]     Segment length (rounded): 16.
+ Level 9
+    Direction: Vertical
+    Sinks per sub-region: 14
+    Sub-region size: 31.7374 X 15.8762
+[INFO CTS-0034]     Segment length (rounded): 8.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 6781.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_clk_B_i.
+[INFO CTS-0028]  Total number of sinks: 190.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0023]  Original sink region: [(1105990, 75595), (2903995, 2042430)].
+[INFO CTS-0024]  Normalized sink region: [(78.9993, 5.39964), (207.428, 145.888)].
+[INFO CTS-0025]     Width:  128.4289.
+[INFO CTS-0026]     Height: 140.4882.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 95
+    Sub-region size: 128.4289 X 70.2441
+[INFO CTS-0034]     Segment length (rounded): 36.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 48
+    Sub-region size: 64.2145 X 70.2441
+[INFO CTS-0034]     Segment length (rounded): 32.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 24
+    Sub-region size: 64.2145 X 35.1221
+[INFO CTS-0034]     Segment length (rounded): 18.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 12
+    Sub-region size: 32.1072 X 35.1221
+[INFO CTS-0034]     Segment length (rounded): 16.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 190.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_clk_C_i.
+[INFO CTS-0028]  Total number of sinks: 42118.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 30 and clustering diameter of 100.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 1435.
+[INFO CTS-0024]  Normalized sink region: [(2.72333, 18.3142), (329.638, 505.825)].
+[INFO CTS-0025]     Width:  326.9145.
+[INFO CTS-0026]     Height: 487.5108.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 718
+    Sub-region size: 326.9145 X 243.7554
+[INFO CTS-0034]     Segment length (rounded): 122.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 359
+    Sub-region size: 163.4573 X 243.7554
+[INFO CTS-0034]     Segment length (rounded): 82.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 180
+    Sub-region size: 163.4573 X 121.8777
+[INFO CTS-0034]     Segment length (rounded): 60.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 90
+    Sub-region size: 81.7286 X 121.8777
+[INFO CTS-0034]     Segment length (rounded): 40.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 45
+    Sub-region size: 81.7286 X 60.9389
+[INFO CTS-0034]     Segment length (rounded): 30.
+ Level 6
+    Direction: Horizontal
+    Sinks per sub-region: 23
+    Sub-region size: 40.8643 X 60.9389
+[INFO CTS-0034]     Segment length (rounded): 20.
+ Level 7
+    Direction: Vertical
+    Sinks per sub-region: 12
+    Sub-region size: 40.8643 X 30.4694
+[INFO CTS-0034]     Segment length (rounded): 16.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 1435.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_ci_clk_i.
+[INFO CTS-0028]  Total number of sinks: 1093.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 30 and clustering diameter of 100.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 39.
+[INFO CTS-0024]  Normalized sink region: [(50.2496, 2.91), (266.801, 61.031)].
+[INFO CTS-0025]     Width:  216.5519.
+[INFO CTS-0026]     Height: 58.1210.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 20
+    Sub-region size: 108.2759 X 58.1210
+[INFO CTS-0034]     Segment length (rounded): 54.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 10
+    Sub-region size: 108.2759 X 29.0605
+[INFO CTS-0034]     Segment length (rounded): 14.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 39.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_ci2_tkn_i.
+[INFO CTS-0028]  Total number of sinks: 18.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0023]  Original sink region: [(1306780, 1976205), (1391445, 2006620)].
+[INFO CTS-0024]  Normalized sink region: [(93.3414, 141.157), (99.3889, 143.33)].
+[INFO CTS-0025]     Width:  6.0475.
+[INFO CTS-0026]     Height: 2.1725.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 9
+    Sub-region size: 3.0237 X 2.1725
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 18.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_co_clk_i.
+[INFO CTS-0028]  Total number of sinks: 1093.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 30 and clustering diameter of 100.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 38.
+[INFO CTS-0024]  Normalized sink region: [(27.5663, 3.51699), (75.5661, 32.2384)].
+[INFO CTS-0025]     Width:  47.9998.
+[INFO CTS-0026]     Height: 28.7214.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 19
+    Sub-region size: 23.9999 X 28.7214
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 10
+    Sub-region size: 23.9999 X 14.3607
+[INFO CTS-0034]     Segment length (rounded): 8.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 38.
+[INFO CTS-0200] 293 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net p_co2_tkn_i.
+[INFO CTS-0028]  Total number of sinks: 18.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0023]  Original sink region: [(1160100, 1785805), (1186095, 1885380)].
+[INFO CTS-0024]  Normalized sink region: [(82.8643, 127.558), (84.7211, 134.67)].
+[INFO CTS-0025]     Width:  1.8568.
+[INFO CTS-0026]     Height: 7.1125.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 9
+    Sub-region size: 1.8568 X 3.5563
+[INFO CTS-0034]     Segment length (rounded): 2.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 18.
+[INFO CTS-0018]     Created 27 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 27 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 4:2, 5:3, 7:6, 9:2, 10:1, 12:1, 13:1..
+[INFO CTS-0017]     Max level of the clock tree: 4.
+[INFO CTS-0018]     Created 7632 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 17.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 18.
+[INFO CTS-0015]     Created 7632 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:31, 3:20, 4:22, 5:26, 6:33, 7:44, 8:40, 9:50, 10:51, 11:50, 12:52, 13:59, 14:70, 15:45, 16:49, 17:40, 18:42, 19:23, 20:37, 21:33, 22:28, 23:19, 24:19, 25:26, 26:14, 27:17, 28:27, 29:20, 30:6220..
+[INFO CTS-0017]     Max level of the clock tree: 9.
+[INFO CTS-0018]     Created 31 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 5.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 5.
+[INFO CTS-0015]     Created 31 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 7:4, 10:1, 11:1, 12:2, 13:2, 15:2, 16:2, 24:1..
+[INFO CTS-0017]     Max level of the clock tree: 4.
+[INFO CTS-0018]     Created 1655 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 13.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 14.
+[INFO CTS-0015]     Created 1655 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:2, 3:6, 4:7, 5:3, 6:12, 7:8, 8:19, 9:12, 10:20, 11:14, 12:7, 13:11, 14:10, 15:8, 16:3, 17:5, 18:4, 19:3, 20:5, 21:2, 22:1, 23:5, 24:1, 25:1, 28:3, 30:1386..
+[INFO CTS-0017]     Max level of the clock tree: 7.
+[INFO CTS-0018]     Created 44 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 44 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 9:1, 10:1, 14:1, 17:1, 24:1, 30:35..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 3 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 3 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 9:2..
+[INFO CTS-0017]     Max level of the clock tree: 1.
+[INFO CTS-0018]     Created 43 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 43 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:1, 8:1, 9:2, 11:1, 12:1, 30:36..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 3 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 3 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 9:2..
+[INFO CTS-0017]     Max level of the clock tree: 1.
+[INFO CTS-0098] Clock net "p_bsg_tag_clk_i"
+[INFO CTS-0099]  Sinks 125
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 2653.13 um
+[INFO CTS-0102]  Path depth 4 - 4
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO CTS-0098] Clock net "p_clk_A_i"
+[INFO CTS-0099]  Sinks 197098
+[INFO CTS-0100]  Leaf buffers 6695
+[INFO CTS-0101]  Average sink wire length 5872.78 um
+[INFO CTS-0102]  Path depth 17 - 18
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO CTS-0098] Clock net "p_clk_B_i"
+[INFO CTS-0099]  Sinks 198
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 1876.42 um
+[INFO CTS-0102]  Path depth 5 - 5
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO CTS-0098] Clock net "p_clk_C_i"
+[INFO CTS-0099]  Sinks 42465
+[INFO CTS-0100]  Leaf buffers 1430
+[INFO CTS-0101]  Average sink wire length 4435.33 um
+[INFO CTS-0102]  Path depth 13 - 14
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO CTS-0098] Clock net "p_ci_clk_i"
+[INFO CTS-0099]  Sinks 1116
+[INFO CTS-0100]  Leaf buffers 37
+[INFO CTS-0101]  Average sink wire length 2132.91 um
+[INFO CTS-0102]  Path depth 3 - 4
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO CTS-0098] Clock net "p_ci2_tkn_i"
+[INFO CTS-0099]  Sinks 19
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 2356.22 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO CTS-0098] Clock net "p_co_clk_i"
+[INFO CTS-0099]  Sinks 1115
+[INFO CTS-0100]  Leaf buffers 38
+[INFO CTS-0101]  Average sink wire length 1355.69 um
+[INFO CTS-0102]  Path depth 2 - 3
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO CTS-0098] Clock net "p_co2_tkn_i"
+[INFO CTS-0099]  Sinks 19
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 1656.68 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Leaf load cells 3472
+[INFO RSZ-0058] Using max wire length 634um.
+[INFO RSZ-0047] Found 17 long wires.
+[INFO RSZ-0048] Inserted 36 buffers in 17 nets.
+Placement Analysis
+---------------------------------
+total displacement      20487.8 u
+average displacement        0.0 u
+max displacement           69.9 u
+original HPWL        45820383.8 u
+legalized HPWL       46193833.0 u
+delta HPWL                    1 %
+
+Command succeeded: detailed_placement
+Repair setup and hold violations...
+TNS end percent 5
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL        46193833.0 u
+legalized HPWL       46193833.0 u
+delta HPWL                    0 %
+
+Command succeeded: detailed_placement
+Elapsed time: 5:23.98[h:]min:sec. CPU time: user 314.68 sys 8.69 (99%). Peak memory: 6462528KB.

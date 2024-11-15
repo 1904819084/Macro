@@ -1,0 +1,83 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+[INFO MPL-0101] Found 11 macros.
+[INFO MPL-0102] West pins 629.
+[INFO MPL-0102] East pins 629.
+[INFO MPL-0102] North pins 0.
+[INFO MPL-0102] South pins 1253.
+[INFO MPL-0069] Initial weighted wire length 3.6107e+06.
+Begin one level partition.
+[INFO MPL-0076] Partition 11 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 10.07.
+[INFO MPL-0079] Cut line 399.95.
+[INFO MPL-0079] Cut line 789.83.
+End one level partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 11 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 299.60.
+[INFO MPL-0079] Cut line 589.40.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 4 macros.
+[INFO MPL-0077] Using 4 cut lines.
+[INFO MPL-0079] Cut line 166.60.
+[INFO MPL-0079] Cut line 301.00.
+[INFO MPL-0079] Cut line 344.40.
+[INFO MPL-0079] Cut line 378.00.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 7 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 299.60.
+[INFO MPL-0079] Cut line 589.40.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 11 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 299.60.
+[INFO MPL-0079] Cut line 589.40.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End west partition.
+End horizontal partition.
+[INFO MPL-0070] Using 18 partition sets.
+[WARNING MPL-0061] Parquet area 893.49 x 667 exceeds the partition area 779.76 x 578.2.
+[INFO MPL-0071] Solution 1 weighted wire length 3.92884e+06.
+[WARNING MPL-0061] Parquet area 893.49 x 667 exceeds the partition area 779.76 x 578.2.
+[INFO MPL-0071] Solution 2 weighted wire length 3.99657e+06.
+[INFO MPL-0071] Solution 3 weighted wire length 4.02852e+06.
+[INFO MPL-0071] Solution 4 weighted wire length 3.72408e+06.
+[INFO MPL-0071] Solution 5 weighted wire length 4.02792e+06.
+[INFO MPL-0071] Solution 6 weighted wire length 4.05161e+06.
+[INFO MPL-0071] Solution 7 weighted wire length 3.74686e+06.
+[WARNING MPL-0061] Parquet area 345.14 x 266.8 exceeds the partition area 389.88 x 245.
+[WARNING MPL-0061] Parquet area 345.14 x 266.8 exceeds the partition area 389.88 x 245.
+[WARNING MPL-0061] Parquet area 345.14 x 266.8 exceeds the partition area 389.88 x 245.
+[INFO MPL-0071] Solution 8 weighted wire length 3.99468e+06.
+[INFO MPL-0071] Solution 9 weighted wire length 4.01001e+06.
+[INFO MPL-0071] Solution 10 weighted wire length 3.70424e+06.
+[WARNING MPL-0061] Parquet area 893.49 x 667 exceeds the partition area 779.76 x 578.2.
+[INFO MPL-0071] Solution 11 weighted wire length 3.94719e+06.
+[WARNING MPL-0061] Parquet area 893.49 x 667 exceeds the partition area 779.76 x 578.2.
+[INFO MPL-0073] Best weighted wire length 4.05161e+06.
+Elapsed time: 0:02.62[h:]min:sec. CPU time: user 2.52 sys 0.16 (102%). Peak memory: 241768KB.

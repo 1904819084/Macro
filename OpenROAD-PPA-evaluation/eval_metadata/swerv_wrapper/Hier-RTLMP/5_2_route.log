@@ -1,0 +1,450 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+detailed_route arguments: -droute_end_iter 1
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                2000
+Number of layers:     21
+Number of macros:     138
+Number of vias:       36
+Number of viarulegen: 19
+
+[INFO DRT-0150] Reading design.
+[WARNING DRT-0120] Large net swerv/dbg.axi_arready_ff.dffs.rst_l has 331 pins which may impact routing performance. Consider optimization.
+
+Design:                   swerv_wrapper
+Die area:                 ( 0 0 ) ( 2200000 2000000 )
+Number of track patterns: 20
+Number of DEF vias:       0
+Number of components:     255631
+Number of terminals:      1416
+Number of snets:          2
+Number of nets:           116959
+
+[INFO DRT-0167] List of default vias:
+  Layer via1
+    default via: via1_7
+  Layer via2
+    default via: via2_5
+  Layer via3
+    default via: via3_2
+  Layer via4
+    default via: via4_0
+  Layer via5
+    default via: via5_0
+  Layer via6
+    default via: via6_0
+  Layer via7
+    default via: via7_0
+  Layer via8
+    default via: via8_0
+  Layer via9
+    default via: via9_0
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+  Complete 100000 instances.
+  Complete 200000 instances.
+[INFO DRT-0164] Number of unique instances = 226.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0018]   Complete 100000 insts.
+[INFO DRT-0018]   Complete 200000 insts.
+[INFO DRT-0024]   Complete active.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete metal1.
+[INFO DRT-0024]   Complete via1.
+[INFO DRT-0024]   Complete metal2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete metal3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete metal4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete metal5.
+[INFO DRT-0024]   Complete via5.
+[INFO DRT-0024]   Complete metal6.
+[INFO DRT-0024]   Complete via6.
+[INFO DRT-0024]   Complete metal7.
+[INFO DRT-0024]   Complete via7.
+[INFO DRT-0024]   Complete metal8.
+[INFO DRT-0024]   Complete via8.
+[INFO DRT-0024]   Complete metal9.
+[INFO DRT-0024]   Complete via9.
+[INFO DRT-0024]   Complete metal10.
+[INFO DRT-0033] active shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] metal1 shape region query size = 2666421.
+[INFO DRT-0033] via1 shape region query size = 27066.
+[INFO DRT-0033] metal2 shape region query size = 18072.
+[INFO DRT-0033] via2 shape region query size = 27066.
+[INFO DRT-0033] metal3 shape region query size = 24388.
+[INFO DRT-0033] via3 shape region query size = 27066.
+[INFO DRT-0033] metal4 shape region query size = 32289.
+[INFO DRT-0033] via4 shape region query size = 66776.
+[INFO DRT-0033] metal5 shape region query size = 31032.
+[INFO DRT-0033] via5 shape region query size = 93332.
+[INFO DRT-0033] metal6 shape region query size = 16376.
+[INFO DRT-0033] via6 shape region query size = 28632.
+[INFO DRT-0033] metal7 shape region query size = 4099.
+[INFO DRT-0033] via7 shape region query size = 0.
+[INFO DRT-0033] metal8 shape region query size = 0.
+[INFO DRT-0033] via8 shape region query size = 0.
+[INFO DRT-0033] metal9 shape region query size = 0.
+[INFO DRT-0033] via9 shape region query size = 0.
+[INFO DRT-0033] metal10 shape region query size = 0.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0076]   Complete 1000 pins.
+[INFO DRT-0076]   Complete 2000 pins.
+[INFO DRT-0078]   Complete 2829 pins.
+[INFO DRT-0079]   Complete 100 unique inst patterns.
+[INFO DRT-0081]   Complete 182 unique inst patterns.
+[INFO DRT-0082]   Complete 10000 groups.
+[INFO DRT-0082]   Complete 20000 groups.
+[INFO DRT-0082]   Complete 30000 groups.
+[INFO DRT-0082]   Complete 40000 groups.
+[INFO DRT-0082]   Complete 50000 groups.
+[INFO DRT-0082]   Complete 60000 groups.
+[INFO DRT-0084]   Complete 61551 groups.
+#scanned instances     = 255631
+#unique  instances     = 216
+#stdCellGenAp          = 7584
+#stdCellValidPlanarAp  = 0
+#stdCellValidViaAp     = 5194
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 381148
+#instTermValidViaApCnt = 0
+#macroGenAp            = 3257
+#macroValidPlanarAp    = 3257
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:14:55, elapsed time = 00:00:09, memory = 844.98 (MB), peak = 889.68 (MB)
+[INFO DRT-0156] guideIn read 100000 guides.
+[INFO DRT-0156] guideIn read 200000 guides.
+[INFO DRT-0156] guideIn read 300000 guides.
+[INFO DRT-0156] guideIn read 400000 guides.
+[INFO DRT-0156] guideIn read 500000 guides.
+[INFO DRT-0156] guideIn read 600000 guides.
+[INFO DRT-0156] guideIn read 700000 guides.
+[INFO DRT-0156] guideIn read 800000 guides.
+[INFO DRT-0156] guideIn read 900000 guides.
+[INFO DRT-0156] guideIn read 1000000 guides.
+
+[INFO DRT-0157] Number of guides:     1412301
+
+[INFO DRT-0169] Post process guides.
+[INFO DRT-0176] GCELLGRID X 0 DO 523 STEP 4200 ;
+[INFO DRT-0177] GCELLGRID Y 0 DO 476 STEP 4200 ;
+[INFO DRT-0026]   Complete 100000 origin guides.
+[INFO DRT-0026]   Complete 200000 origin guides.
+[INFO DRT-0026]   Complete 300000 origin guides.
+[INFO DRT-0026]   Complete 400000 origin guides.
+[INFO DRT-0026]   Complete 500000 origin guides.
+[INFO DRT-0026]   Complete 600000 origin guides.
+[INFO DRT-0026]   Complete 700000 origin guides.
+[INFO DRT-0026]   Complete 800000 origin guides.
+[INFO DRT-0026]   Complete 900000 origin guides.
+[INFO DRT-0027]   Complete 1000000 origin guides.
+[INFO DRT-0028]   Complete active.
+[INFO DRT-0028]   Complete Fr_VIA.
+[INFO DRT-0028]   Complete metal1.
+[INFO DRT-0028]   Complete via1.
+[INFO DRT-0028]   Complete metal2.
+[INFO DRT-0028]   Complete via2.
+[INFO DRT-0028]   Complete metal3.
+[INFO DRT-0028]   Complete via3.
+[INFO DRT-0028]   Complete metal4.
+[INFO DRT-0028]   Complete via4.
+[INFO DRT-0028]   Complete metal5.
+[INFO DRT-0028]   Complete via5.
+[INFO DRT-0028]   Complete metal6.
+[INFO DRT-0028]   Complete via6.
+[INFO DRT-0028]   Complete metal7.
+[INFO DRT-0028]   Complete via7.
+[INFO DRT-0028]   Complete metal8.
+[INFO DRT-0028]   Complete via8.
+[INFO DRT-0028]   Complete metal9.
+[INFO DRT-0028]   Complete via9.
+[INFO DRT-0028]   Complete metal10.
+[WARNING DRT-0225] swerv/ifu/aln/_0264_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/ifu/aln/q0\[38\] 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00009_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00010_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00114_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00115_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00122_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00180_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00187_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00247_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_00433_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_01936_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_01938_ 9 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_02000_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_02643_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03029_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03084_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03141_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03341_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03418_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03429_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03501_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03503_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03507_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03533_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03541_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03578_ 7 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03590_ 4 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03672_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03673_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03708_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03723_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03749_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03763_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_03872_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04053_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04057_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04120_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04139_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04197_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04340_ 6 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04374_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04399_ 5 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04451_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04524_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04532_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04549_ 4 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04562_ 6 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04642_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04647_ 5 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04742_ 4 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04851_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04856_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04891_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04920_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04953_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_04992_ 7 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_05169_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_05179_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_05651_ 4 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_05770_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_05827_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_05844_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_06120_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_06188_ 4 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_06247_ 2 pin not visited, fall back to feedthrough mode.
+  complete 100000 nets.
+[WARNING DRT-0225] swerv/lsu/stbuf/_06749_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_06754_ 2 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_06767_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_07969_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_08061_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_08136_ 3 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_08348_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] swerv/lsu/stbuf/_08856_ 1 pin not visited, fall back to feedthrough mode.
+[WARNING DRT-0225] net1171 5 pin not visited, fall back to feedthrough mode.
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0029]   Complete 100000 nets (guide).
+[INFO DRT-0035]   Complete active (guide).
+[INFO DRT-0035]   Complete Fr_VIA (guide).
+[INFO DRT-0035]   Complete metal1 (guide).
+[INFO DRT-0035]   Complete via1 (guide).
+[INFO DRT-0035]   Complete metal2 (guide).
+[INFO DRT-0035]   Complete via2 (guide).
+[INFO DRT-0035]   Complete metal3 (guide).
+[INFO DRT-0035]   Complete via3 (guide).
+[INFO DRT-0035]   Complete metal4 (guide).
+[INFO DRT-0035]   Complete via4 (guide).
+[INFO DRT-0035]   Complete metal5 (guide).
+[INFO DRT-0035]   Complete via5 (guide).
+[INFO DRT-0035]   Complete metal6 (guide).
+[INFO DRT-0035]   Complete via6 (guide).
+[INFO DRT-0035]   Complete metal7 (guide).
+[INFO DRT-0035]   Complete via7 (guide).
+[INFO DRT-0035]   Complete metal8 (guide).
+[INFO DRT-0035]   Complete via8 (guide).
+[INFO DRT-0035]   Complete metal9 (guide).
+[INFO DRT-0035]   Complete via9 (guide).
+[INFO DRT-0035]   Complete metal10 (guide).
+[INFO DRT-0036] active guide region query size = 0.
+[INFO DRT-0036] FR_VIA guide region query size = 0.
+[INFO DRT-0036] metal1 guide region query size = 335947.
+[INFO DRT-0036] via1 guide region query size = 0.
+[INFO DRT-0036] metal2 guide region query size = 304498.
+[INFO DRT-0036] via2 guide region query size = 0.
+[INFO DRT-0036] metal3 guide region query size = 220504.
+[INFO DRT-0036] via3 guide region query size = 0.
+[INFO DRT-0036] metal4 guide region query size = 91618.
+[INFO DRT-0036] via4 guide region query size = 0.
+[INFO DRT-0036] metal5 guide region query size = 62965.
+[INFO DRT-0036] via5 guide region query size = 0.
+[INFO DRT-0036] metal6 guide region query size = 34804.
+[INFO DRT-0036] via6 guide region query size = 0.
+[INFO DRT-0036] metal7 guide region query size = 16127.
+[INFO DRT-0036] via7 guide region query size = 0.
+[INFO DRT-0036] metal8 guide region query size = 11731.
+[INFO DRT-0036] via8 guide region query size = 0.
+[INFO DRT-0036] metal9 guide region query size = 7205.
+[INFO DRT-0036] via9 guide region query size = 0.
+[INFO DRT-0036] metal10 guide region query size = 2036.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0245] skipped writing guide updates to database.
+[INFO DRT-0185] Post process initialize RPin region query.
+[INFO DRT-0181] Start track assignment.
+[INFO DRT-0184] Done with 444687 vertical wires in 11 frboxes and 642748 horizontal wires in 10 frboxes.
+[INFO DRT-0186] Done with 184460 vertical wires in 11 frboxes and 164944 horizontal wires in 10 frboxes.
+[INFO DRT-0182] Complete track assignment.
+[INFO DRT-0267] cpu time = 00:02:25, elapsed time = 00:00:43, memory = 3664.60 (MB), peak = 3736.06 (MB)
+[INFO DRT-0187] Start routing data preparation.
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:01, memory = 3821.85 (MB), peak = 3821.85 (MB)
+[INFO DRT-0194] Start detail routing.
+[INFO DRT-0195] Start 0th optimization iteration.
+    Completing 10% with 0 violations.
+    elapsed time = 00:00:04, memory = 6207.70 (MB).
+    Completing 20% with 0 violations.
+    elapsed time = 00:00:29, memory = 7196.04 (MB).
+    Completing 30% with 24334 violations.
+    elapsed time = 00:00:48, memory = 7756.11 (MB).
+    Completing 40% with 24334 violations.
+    elapsed time = 00:00:52, memory = 8078.95 (MB).
+    Completing 50% with 48956 violations.
+    elapsed time = 00:01:34, memory = 8506.16 (MB).
+    Completing 60% with 50107 violations.
+    elapsed time = 00:01:44, memory = 8699.66 (MB).
+    Completing 70% with 50107 violations.
+    elapsed time = 00:01:49, memory = 8982.25 (MB).
+    Completing 80% with 76183 violations.
+    elapsed time = 00:02:28, memory = 9636.68 (MB).
+    Completing 90% with 76183 violations.
+    elapsed time = 00:02:32, memory = 9775.58 (MB).
+    Completing 100% with 102494 violations.
+    elapsed time = 00:03:15, memory = 9913.10 (MB).
+[INFO DRT-0199]   Number of violations = 112843.
+Viol/Layer      metal1   via1 metal2   via2 metal3   via3 metal4   via4 metal5   via5 metal6   via6 metal7   via7 metal8   via8 metal9   via9 me..10
+Cut Spacing          0    118      0    219      0     30      0    901      0    354      0     20      0     62      0     19      0    242      0
+Metal Spacing     2764      0   3662      0    709      0    167      0   1200      0   1330      0    299      0     53      0     70      0     84
+NS Metal             1      0      3      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+Recheck            185      0   4257      0   2267      0    757      0   1206      0   1131      0    400      0     68      0     36      0     42
+Short             4405     31  37044     61  16105     45   4969    112  11707    113  12706    129    703      9    510      6    846      3    683
+[INFO DRT-0267] cpu time = 01:29:56, elapsed time = 00:03:19, memory = 9913.54 (MB), peak = 10006.52 (MB)
+Total wire length = 5268425 um.
+Total wire length on LAYER metal1 = 7945 um.
+Total wire length on LAYER metal2 = 794136 um.
+Total wire length on LAYER metal3 = 1339397 um.
+Total wire length on LAYER metal4 = 665968 um.
+Total wire length on LAYER metal5 = 1133353 um.
+Total wire length on LAYER metal6 = 755739 um.
+Total wire length on LAYER metal7 = 185205 um.
+Total wire length on LAYER metal8 = 131808 um.
+Total wire length on LAYER metal9 = 175385 um.
+Total wire length on LAYER metal10 = 79485 um.
+Total number of vias = 1074871.
+Up-via summary (total 1074871):
+
+------------------
+ active          0
+ metal1     380489
+ metal2     412040
+ metal3     108505
+ metal4      73707
+ metal5      55689
+ metal6      19452
+ metal7      12948
+ metal8       8741
+ metal9       3300
+------------------
+           1074871
+
+
+[INFO DRT-0195] Start 1st optimization iteration.
+    Completing 10% with 112843 violations.
+    elapsed time = 00:00:04, memory = 10276.78 (MB).
+    Completing 20% with 111767 violations.
+    elapsed time = 00:00:47, memory = 10124.60 (MB).
+    Completing 30% with 110818 violations.
+    elapsed time = 00:00:57, memory = 10324.41 (MB).
+    Completing 40% with 110818 violations.
+    elapsed time = 00:01:00, memory = 10565.27 (MB).
+    Completing 50% with 107716 violations.
+    elapsed time = 00:01:43, memory = 10237.20 (MB).
+    Completing 60% with 106601 violations.
+    elapsed time = 00:01:52, memory = 10537.73 (MB).
+    Completing 70% with 106601 violations.
+    elapsed time = 00:01:59, memory = 10860.01 (MB).
+    Completing 80% with 104544 violations.
+    elapsed time = 00:02:49, memory = 10729.29 (MB).
+    Completing 90% with 104544 violations.
+    elapsed time = 00:02:53, memory = 10756.86 (MB).
+    Completing 100% with 99700 violations.
+    elapsed time = 00:03:41, memory = 10364.19 (MB).
+[INFO DRT-0199]   Number of violations = 99700.
+Viol/Layer      metal1   via1 metal2   via2 metal3   via3 metal4   via4 metal5   via5 metal6   via6 metal7   via7 metal8   via8 metal9   via9 me..10
+Cut Spacing          0     48      0    214      0     30      0    353      0    224      0      7      0     42      0      3      0     53      0
+Metal Spacing      442      0   5834      0   1186      0   1494      0    347      0    991      0    201      0     70      0     44      0     93
+NS Metal             1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+Recheck              0      0      2      0      0      0      1      0      0      0      0      0      2      0      0      0      0      0      0
+Short             1986      1  42112     35  20654     19   4009     20   8207     19   8654      0    654      1    837      1    289      2    518
+[INFO DRT-0267] cpu time = 01:26:46, elapsed time = 00:03:44, memory = 10364.36 (MB), peak = 10890.67 (MB)
+Total wire length = 5255028 um.
+Total wire length on LAYER metal1 = 7248 um.
+Total wire length on LAYER metal2 = 791765 um.
+Total wire length on LAYER metal3 = 1342221 um.
+Total wire length on LAYER metal4 = 663967 um.
+Total wire length on LAYER metal5 = 1128370 um.
+Total wire length on LAYER metal6 = 751374 um.
+Total wire length on LAYER metal7 = 186765 um.
+Total wire length on LAYER metal8 = 133449 um.
+Total wire length on LAYER metal9 = 172364 um.
+Total wire length on LAYER metal10 = 77500 um.
+Total number of vias = 1059015.
+Up-via summary (total 1059015):
+
+------------------
+ active          0
+ metal1     379438
+ metal2     406311
+ metal3     107091
+ metal4      72630
+ metal5      53776
+ metal6      17141
+ metal7      11911
+ metal8       7718
+ metal9       2999
+------------------
+           1059015
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 5255028 um.
+Total wire length on LAYER metal1 = 7248 um.
+Total wire length on LAYER metal2 = 791765 um.
+Total wire length on LAYER metal3 = 1342221 um.
+Total wire length on LAYER metal4 = 663967 um.
+Total wire length on LAYER metal5 = 1128370 um.
+Total wire length on LAYER metal6 = 751374 um.
+Total wire length on LAYER metal7 = 186765 um.
+Total wire length on LAYER metal8 = 133449 um.
+Total wire length on LAYER metal9 = 172364 um.
+Total wire length on LAYER metal10 = 77500 um.
+Total number of vias = 1059015.
+Up-via summary (total 1059015):
+
+------------------
+ active          0
+ metal1     379438
+ metal2     406311
+ metal3     107091
+ metal4      72630
+ metal5      53776
+ metal6      17141
+ metal7      11911
+ metal8       7718
+ metal9       2999
+------------------
+           1059015
+
+
+[INFO DRT-0267] cpu time = 02:56:44, elapsed time = 00:07:05, memory = 10364.36 (MB), peak = 10890.67 (MB)
+
+[INFO DRT-0180] Post processing.
+Elapsed time: 8:12.99[h:]min:sec. CPU time: user 11618.53 sys 41.39 (2365%). Peak memory: 11152044KB.

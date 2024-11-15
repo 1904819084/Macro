@@ -1,0 +1,1117 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/shiyq/OpenROAD-flow-scripts/flow/platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation swerv_wrapper (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 553380 rc segments
+[INFO RCX-0439] Coupling Cap extraction swerv_wrapper ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 8% of 1032761 wires extracted
+[INFO RCX-0442] 20% of 1032761 wires extracted
+[INFO RCX-0442] 35% of 1032761 wires extracted
+[INFO RCX-0442] 45% of 1032761 wires extracted
+[INFO RCX-0442] 52% of 1032761 wires extracted
+[INFO RCX-0442] 57% of 1032761 wires extracted
+[INFO RCX-0442] 62% of 1032761 wires extracted
+[INFO RCX-0442] 69% of 1032761 wires extracted
+[INFO RCX-0442] 84% of 1032761 wires extracted
+[INFO RCX-0442] 98% of 1032761 wires extracted
+[INFO RCX-0442] 100% of 1032761 wires extracted
+[INFO RCX-0045] Extract 116621 nets, 659830 rsegs, 659830 caps, 1694145 ccs
+[INFO RCX-0042] 100000 nets finished
+[INFO RCX-0443] 116621 nets finished
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns -979.03
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns -1.12
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack -1.12
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+swerv/lsu/stbuf/_18520_/ZN              0.20    0.30   -0.10 (VIOLATED)
+swerv/lsu/stbuf/_15326_/ZN              0.20    0.21   -0.01 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+swerv/dec/decode/_08926_/Z            120.85  167.27  -46.42 (VIOLATED)
+swerv/lsu/stbuf/_11945_/ZN             63.32  105.28  -41.96 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1040_/ZN     63.32   99.35  -36.02 (VIOLATED)
+swerv/dec/arf/_10295_/ZN               41.50   67.95  -26.45 (VIOLATED)
+swerv/lsu/stbuf/_15326_/ZN             27.62   54.04  -26.42 (VIOLATED)
+swerv/exu/_18976_/ZN                   43.87   68.33  -24.46 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1147_/ZN     41.50   65.70  -24.19 (VIOLATED)
+swerv/lsu/stbuf/_18520_/ZN             11.48   34.29  -22.81 (VIOLATED)
+swerv/lsu/stbuf/_11795_/ZN             63.32   86.13  -22.81 (VIOLATED)
+swerv/lsu/stbuf/_12221_/ZN             63.32   85.04  -21.72 (VIOLATED)
+swerv/exu/_19182_/ZN                   43.87   64.05  -20.19 (VIOLATED)
+swerv/dec/arf/_08457_/ZN               41.50   61.57  -20.07 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1257_/ZN     41.50   61.22  -19.72 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20226_/ZN   43.87   63.26  -19.39 (VIOLATED)
+swerv/exu/_19356_/ZN                   43.87   62.87  -19.00 (VIOLATED)
+swerv/lsu/stbuf/_13051_/ZN             27.62   46.17  -18.55 (VIOLATED)
+swerv/dec/arf/_08454_/ZN               41.50   59.63  -18.13 (VIOLATED)
+swerv/lsu/stbuf/_17104_/ZN             27.62   45.57  -17.95 (VIOLATED)
+swerv/exu/_19029_/ZN                   43.87   59.81  -15.94 (VIOLATED)
+swerv/dec/tlu/dicawics_ff.genblock_dff.dout[2]$_DFF_PN0_/Q  120.85  136.66  -15.81 (VIOLATED)
+swerv/dec/arf/_09491_/ZN               41.50   56.98  -15.48 (VIOLATED)
+swerv/dec/arf/_08452_/ZN               41.50   56.41  -14.90 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20324_/ZN   43.87   58.77  -14.90 (VIOLATED)
+swerv/lsu/stbuf/_12222_/ZN             63.32   78.01  -14.69 (VIOLATED)
+swerv/lsu/stbuf/_12177_/ZN             63.32   77.98  -14.65 (VIOLATED)
+swerv/lsu/stbuf/_17816_/ZN             27.62   41.58  -13.96 (VIOLATED)
+swerv/dec/arf/_09495_/ZN               41.50   55.25  -13.74 (VIOLATED)
+swerv/dec/arf/_09493_/ZN               41.50   55.12  -13.61 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20080_/ZN   43.87   57.22  -13.35 (VIOLATED)
+swerv/lsu/_7650_/ZN                    27.62   40.84  -13.22 (VIOLATED)
+swerv/lsu/_4701_/ZN                    63.32   76.48  -13.16 (VIOLATED)
+mem/icm/ic_data_inst/_1013_/ZN         25.63   38.01  -12.37 (VIOLATED)
+swerv/exu/_19388_/ZN                   43.87   56.10  -12.23 (VIOLATED)
+swerv/dec/tlu/freeff.dout[2]$_DFF_PN0_/Q  120.85  133.02  -12.17 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19423_/ZN   41.50   53.58  -12.08 (VIOLATED)
+swerv/dec/decode/_07699_/ZN            41.50   53.56  -12.06 (VIOLATED)
+swerv/lsu/stbuf/_17984_/ZN             27.62   39.55  -11.93 (VIOLATED)
+swerv/dec/arf/_09723_/ZN               41.50   53.33  -11.82 (VIOLATED)
+mem/icm/ic_data_inst/_0430_/Z         120.85  132.57  -11.72 (VIOLATED)
+swerv/lsu/stbuf/_11950_/ZN             63.32   74.85  -11.53 (VIOLATED)
+swerv/dec/decode/_08928_/Z            120.85  132.27  -11.42 (VIOLATED)
+swerv/lsu/stbuf/_19568_/ZN             41.50   52.88  -11.37 (VIOLATED)
+mem/icm/ic_data_inst/_0995_/ZN         25.63   36.72  -11.09 (VIOLATED)
+swerv/dec/arf/_12670_/ZN               41.50   52.51  -11.00 (VIOLATED)
+mem/icm/ic_data_inst/_1052_/ZN         25.63   36.50  -10.86 (VIOLATED)
+swerv/lsu/stbuf/_16771_/ZN             63.32   74.06  -10.74 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20215_/ZN   43.87   54.38  -10.52 (VIOLATED)
+swerv/exu/_19251_/ZN                   43.87   54.01  -10.14 (VIOLATED)
+swerv/lsu/stbuf/_14804_/ZN             27.62   37.60   -9.98 (VIOLATED)
+swerv/lsu/stbuf/_12262_/ZN             63.32   73.30   -9.98 (VIOLATED)
+mem/icm/ic_data_inst/_1004_/ZN         25.63   35.46   -9.83 (VIOLATED)
+swerv/exu/_19057_/ZN                   43.87   53.70   -9.83 (VIOLATED)
+swerv/dec/tlu/_09827_/ZN               41.50   50.36   -8.86 (VIOLATED)
+swerv/exu/_19692_/ZN                   43.87   52.59   -8.72 (VIOLATED)
+swerv/lsu/stbuf/_18475_/ZN             41.50   50.11   -8.61 (VIOLATED)
+mem/icm/ic_data_inst/_0457_/Z         120.85  129.27   -8.42 (VIOLATED)
+swerv/exu/_19705_/ZN                   43.87   52.27   -8.40 (VIOLATED)
+swerv/lsu/stbuf/_12540_/ZN             27.62   35.97   -8.35 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19435_/ZN   41.50   49.81   -8.31 (VIOLATED)
+mem/icm/ic_data_inst/_1026_/ZN         25.63   33.84   -8.21 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18973_/ZN   41.50   49.70   -8.19 (VIOLATED)
+swerv/lsu/stbuf/_12694_/ZN             43.87   52.02   -8.15 (VIOLATED)
+swerv/lsu/_4725_/ZN                    63.32   71.21   -7.89 (VIOLATED)
+swerv/lsu/stbuf/_12208_/ZN             63.32   71.12   -7.80 (VIOLATED)
+swerv/exu/_19664_/ZN                   43.87   51.44   -7.57 (VIOLATED)
+mem/icm/ic_data_inst/_1056_/ZN         25.63   33.18   -7.55 (VIOLATED)
+swerv/dec/arf/_09721_/ZN               41.50   49.04   -7.53 (VIOLATED)
+mem/icm/ic_data_inst/_1010_/ZN         25.63   33.10   -7.47 (VIOLATED)
+mem/icm/ic_data_inst/_1045_/ZN         25.63   33.00   -7.36 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_13372_/ZN   41.50   48.74   -7.23 (VIOLATED)
+swerv/dec/arf/_12650_/ZN               41.50   48.70   -7.20 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20181_/ZN   43.87   51.01   -7.14 (VIOLATED)
+swerv/dec/arf/_10333_/ZN               41.50   48.54   -7.04 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19463_/ZN   41.50   48.38   -6.88 (VIOLATED)
+swerv/lsu/_7664_/ZN                    41.50   48.28   -6.77 (VIOLATED)
+swerv/lsu/stbuf/_12086_/ZN             63.32   70.06   -6.74 (VIOLATED)
+swerv/dec/arf/_14182_/ZN               41.50   48.06   -6.56 (VIOLATED)
+swerv/lsu/stbuf/_17704_/ZN             27.62   34.09   -6.48 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19469_/ZN   41.50   47.94   -6.44 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19271_/ZN   41.50   47.79   -6.28 (VIOLATED)
+swerv/lsu/stbuf/_15745_/ZN             43.87   50.13   -6.26 (VIOLATED)
+mem/icm/_400_/ZN                       41.50   47.57   -6.07 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20403_/ZN   43.87   49.67   -5.80 (VIOLATED)
+swerv/lsu/_7606_/ZN                    27.62   33.22   -5.61 (VIOLATED)
+swerv/exu/_13414_/ZN                   27.62   33.22   -5.60 (VIOLATED)
+mem/icm/ic_data_inst/_0584_/Z         120.85  126.35   -5.50 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18653_/ZN   41.50   46.83   -5.33 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19237_/ZN   41.50   46.72   -5.22 (VIOLATED)
+swerv/lsu/_7644_/ZN                    27.62   32.71   -5.09 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18580_/ZN   41.50   46.37   -4.87 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18932_/ZN   41.50   46.33   -4.83 (VIOLATED)
+swerv/lsu/stbuf/_14372_/ZN             27.62   32.37   -4.75 (VIOLATED)
+swerv/lsu/_7619_/ZN                    27.62   32.31   -4.70 (VIOLATED)
+swerv/lsu/_6714_/ZN                    43.87   48.49   -4.62 (VIOLATED)
+swerv/dec/decode/_08890_/Z            120.85  125.32   -4.47 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20149_/ZN   43.87   48.24   -4.37 (VIOLATED)
+swerv/_07410_/ZN                       41.50   45.60   -4.10 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19231_/ZN   41.50   45.58   -4.08 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20585_/ZN   43.87   47.92   -4.05 (VIOLATED)
+swerv/lsu/stbuf/_11858_/ZN             63.32   67.17   -3.84 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_12017_/ZN   41.50   45.32   -3.81 (VIOLATED)
+swerv/dec/arf/_09719_/ZN               41.50   45.04   -3.54 (VIOLATED)
+swerv/dec/decode/_14274_/ZN            11.48   14.75   -3.27 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20675_/ZN   43.87   47.11   -3.24 (VIOLATED)
+swerv/lsu/_7625_/ZN                    27.62   30.81   -3.19 (VIOLATED)
+swerv/lsu/stbuf/_15718_/ZN             31.74   34.63   -2.90 (VIOLATED)
+mem/icm/ic_data_inst/_0957_/ZN         25.63   28.53   -2.89 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_11085_/ZN   11.48   14.14   -2.66 (VIOLATED)
+swerv/exu/_17593_/ZN                   27.62   30.16   -2.54 (VIOLATED)
+swerv/lsu/_7613_/ZN                    27.62   30.15   -2.53 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1496_/ZN     27.62   30.11   -2.49 (VIOLATED)
+swerv/exu/_17468_/ZN                   43.87   46.33   -2.46 (VIOLATED)
+swerv/exu/_17315_/ZN                   43.87   46.26   -2.40 (VIOLATED)
+swerv/dec/tlu/_06966_/ZN               11.48   13.84   -2.36 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1536_/ZN     27.62   29.85   -2.23 (VIOLATED)
+mem/icm/ic_data_inst/_0963_/ZN         25.63   27.79   -2.16 (VIOLATED)
+swerv/ifu/aln/_5631_/ZN                11.48   13.63   -2.15 (VIOLATED)
+swerv/dec/arf/_12652_/ZN               41.50   43.60   -2.10 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1486_/ZN     27.62   29.66   -2.04 (VIOLATED)
+swerv/lsu/stbuf/_18539_/ZN             27.62   29.52   -1.90 (VIOLATED)
+swerv/dec/arf/_10317_/ZN               41.50   43.40   -1.89 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20289_/ZN   43.87   45.64   -1.77 (VIOLATED)
+swerv/lsu/_7656_/ZN                    27.62   29.37   -1.75 (VIOLATED)
+swerv/lsu/stbuf/_15688_/ZN             27.62   29.35   -1.73 (VIOLATED)
+swerv/_06069_/ZN                       41.50   43.19   -1.68 (VIOLATED)
+swerv/lsu/stbuf/_15019_/ZN             27.62   29.21   -1.59 (VIOLATED)
+mem/icm/ic_data_inst/_1039_/ZN         25.63   27.21   -1.57 (VIOLATED)
+swerv/_10239_/ZN                       25.63   27.12   -1.48 (VIOLATED)
+swerv/ifu/_5878_/ZN                    11.48   12.85   -1.37 (VIOLATED)
+mem/icm/ic_data_inst/_0972_/ZN         25.63   26.97   -1.34 (VIOLATED)
+swerv/lsu/stbuf/_11740_/ZN             41.50   42.72   -1.22 (VIOLATED)
+swerv/ifu/aln/_9096_/ZN                11.48   12.67   -1.19 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_11199_/ZN   11.48   12.67   -1.19 (VIOLATED)
+mem/icm/ic_data_inst/_0864_/ZN         25.63   26.70   -1.06 (VIOLATED)
+swerv/ifu/aln/_5999_/ZN                11.48   12.52   -1.04 (VIOLATED)
+swerv/lsu/stbuf/_19985_/S              25.25   26.24   -0.98 (VIOLATED)
+mem/icm/ic_data_inst/_0950_/ZN         25.63   26.45   -0.82 (VIOLATED)
+swerv/lsu/stbuf/_12481_/ZN             63.32   64.11   -0.78 (VIOLATED)
+swerv/lsu/stbuf/_11852_/ZN             41.50   42.13   -0.63 (VIOLATED)
+mem/icm/ic_data_inst/_0439_/Z         120.85  121.46   -0.61 (VIOLATED)
+mem/icm/ic_data_inst/_0846_/ZN         25.63   26.21   -0.57 (VIOLATED)
+mem/icm/ic_data_inst/_1001_/ZN         25.63   26.20   -0.56 (VIOLATED)
+mem/icm/ic_data_inst/_1042_/ZN         25.63   26.17   -0.53 (VIOLATED)
+swerv/dec/decode/_14301_/ZN            11.48   11.98   -0.50 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_2108_/ZN     11.48   11.79   -0.30 (VIOLATED)
+swerv/exu/_19623_/ZN                   43.87   44.17   -0.30 (VIOLATED)
+mem/icm/ic_data_inst/_0456_/Z         120.85  121.15   -0.30 (VIOLATED)
+swerv/exu/_18549_/ZN                   41.50   41.80   -0.29 (VIOLATED)
+mem/icm/ic_data_inst/_0451_/Z         120.85  121.10   -0.25 (VIOLATED)
+swerv/dec/arf/_14447_/ZN               41.50   41.75   -0.24 (VIOLATED)
+swerv/lsu/stbuf/_12248_/ZN             63.32   63.54   -0.22 (VIOLATED)
+swerv/ifu/aln/_5283_/ZN                11.48   11.66   -0.18 (VIOLATED)
+mem/icm/ic_data_inst/_0861_/ZN         25.63   25.71   -0.08 (VIOLATED)
+swerv/lsu/_4857_/ZN                    11.48   11.52   -0.04 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-0.09699796885251999
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.4886
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-46.421730041503906
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+120.8499984741211
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-0.3841
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 2
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 154
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 1407
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 359
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/exu/predict_mp_ff.genblock_dff.dout[12]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.03    0.43 ^ input384/Z (BUF_X4)
+   0.04    0.47 v swerv/_07165_/ZN (INV_X1)
+   0.12    0.59 ^ swerv/_07167_/ZN (AOI21_X4)
+   0.04    0.63 ^ max_cap1779/Z (BUF_X16)
+   0.03    0.66 ^ max_cap1778/Z (BUF_X16)
+   0.04    0.69 ^ max_cap1777/Z (BUF_X16)
+   0.03    0.72 ^ max_cap1773/Z (BUF_X16)
+   0.04    0.77 ^ max_cap1772/Z (BUF_X16)
+   0.04    0.81 ^ max_cap1770/Z (BUF_X16)
+   0.06    0.87 ^ max_cap1769/Z (BUF_X16)
+   0.03    0.91 ^ max_cap1767/Z (BUF_X16)
+   0.05    0.96 ^ max_cap1765/Z (BUF_X8)
+   0.05    1.01 ^ max_cap1764/Z (BUF_X16)
+   0.05    1.06 ^ max_cap1756/Z (BUF_X16)
+   0.06    1.11 ^ max_cap1755/Z (BUF_X16)
+   0.03    1.14 ^ max_cap1693/Z (BUF_X16)
+   0.04    1.18 ^ max_cap1692/Z (BUF_X16)
+   0.04    1.22 ^ max_cap1635/Z (BUF_X16)
+   0.04    1.26 ^ max_cap1634/Z (BUF_X16)
+   0.04    1.29 ^ max_cap1633/Z (BUF_X16)
+   0.06    1.35 ^ max_cap1632/Z (BUF_X8)
+   0.04    1.39 ^ max_cap1629/Z (BUF_X16)
+   0.03    1.43 ^ max_cap1628/Z (BUF_X16)
+   0.05    1.47 ^ max_cap1627/Z (BUF_X16)
+   0.04    1.51 ^ max_cap1626/Z (BUF_X16)
+   0.05    1.56 ^ max_cap1625/Z (BUF_X16)
+   0.04    1.60 ^ max_cap1624/Z (BUF_X16)
+   0.03    1.63 ^ max_cap1623/Z (BUF_X16)
+   0.04    1.67 ^ max_cap1619/Z (BUF_X16)
+   0.05    1.72 ^ max_cap1616/Z (BUF_X16)
+   0.04    1.76 ^ max_cap1615/Z (BUF_X16)
+   0.07    1.83 ^ max_cap1613/Z (BUF_X8)
+   0.05    1.88 ^ max_cap1611/Z (BUF_X16)
+   0.03    1.91 ^ max_cap1607/Z (BUF_X16)
+   0.04    1.96 ^ max_cap1606/Z (BUF_X16)
+   0.05    2.00 ^ max_cap1603/Z (BUF_X16)
+   0.04    2.04 ^ max_cap1602/Z (BUF_X16)
+   0.02    2.06 ^ swerv/exu/predict_mp_ff.genblock_dff.dout[12]$_DFF_PN0_/RN (DFFR_X1)
+           2.06   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.36    2.36   clock network delay (propagated)
+   0.00    2.36   clock reconvergence pessimism
+           2.36 ^ swerv/exu/predict_mp_ff.genblock_dff.dout[12]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.42   library recovery time
+           2.42   data required time
+---------------------------------------------------------
+           2.42   data required time
+          -2.06   data arrival time
+---------------------------------------------------------
+           0.36   slack (MET)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/exu/predict_mp_ff.genblock_dff.dout[11]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.03    0.43 ^ input384/Z (BUF_X4)
+   0.04    0.47 v swerv/_07165_/ZN (INV_X1)
+   0.12    0.59 ^ swerv/_07167_/ZN (AOI21_X4)
+   0.04    0.63 ^ max_cap1779/Z (BUF_X16)
+   0.03    0.66 ^ max_cap1778/Z (BUF_X16)
+   0.04    0.69 ^ max_cap1777/Z (BUF_X16)
+   0.03    0.72 ^ max_cap1773/Z (BUF_X16)
+   0.04    0.77 ^ max_cap1772/Z (BUF_X16)
+   0.04    0.81 ^ max_cap1770/Z (BUF_X16)
+   0.06    0.87 ^ max_cap1769/Z (BUF_X16)
+   0.03    0.91 ^ max_cap1767/Z (BUF_X16)
+   0.05    0.96 ^ max_cap1765/Z (BUF_X8)
+   0.05    1.01 ^ max_cap1764/Z (BUF_X16)
+   0.05    1.06 ^ max_cap1756/Z (BUF_X16)
+   0.06    1.11 ^ max_cap1755/Z (BUF_X16)
+   0.03    1.14 ^ max_cap1693/Z (BUF_X16)
+   0.04    1.18 ^ max_cap1692/Z (BUF_X16)
+   0.04    1.22 ^ max_cap1635/Z (BUF_X16)
+   0.04    1.26 ^ max_cap1634/Z (BUF_X16)
+   0.04    1.29 ^ max_cap1633/Z (BUF_X16)
+   0.06    1.35 ^ max_cap1632/Z (BUF_X8)
+   0.04    1.39 ^ max_cap1629/Z (BUF_X16)
+   0.03    1.43 ^ max_cap1628/Z (BUF_X16)
+   0.05    1.47 ^ max_cap1627/Z (BUF_X16)
+   0.04    1.51 ^ max_cap1626/Z (BUF_X16)
+   0.05    1.56 ^ max_cap1625/Z (BUF_X16)
+   0.04    1.60 ^ max_cap1624/Z (BUF_X16)
+   0.03    1.63 ^ max_cap1623/Z (BUF_X16)
+   0.04    1.67 ^ max_cap1619/Z (BUF_X16)
+   0.05    1.72 ^ max_cap1616/Z (BUF_X16)
+   0.04    1.76 ^ max_cap1615/Z (BUF_X16)
+   0.07    1.83 ^ max_cap1613/Z (BUF_X8)
+   0.05    1.88 ^ max_cap1611/Z (BUF_X16)
+   0.03    1.91 ^ max_cap1607/Z (BUF_X16)
+   0.04    1.96 ^ max_cap1606/Z (BUF_X16)
+   0.05    2.00 ^ max_cap1603/Z (BUF_X16)
+   0.04    2.04 ^ max_cap1602/Z (BUF_X16)
+   0.02    2.06 ^ swerv/exu/predict_mp_ff.genblock_dff.dout[11]$_DFF_PN0_/RN (DFFR_X1)
+           2.06   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.36    2.36   clock network delay (propagated)
+   0.00    2.36   clock reconvergence pessimism
+           2.36 ^ swerv/exu/predict_mp_ff.genblock_dff.dout[11]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.42   library recovery time
+           2.42   data required time
+---------------------------------------------------------
+           2.42   data required time
+          -2.06   data arrival time
+---------------------------------------------------------
+           0.36   slack (MET)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/ifu/bp/btb_bank3_way1_data_out.genblock_dff.dout[20]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.03    0.43 ^ input384/Z (BUF_X4)
+   0.04    0.47 v swerv/_07165_/ZN (INV_X1)
+   0.12    0.59 ^ swerv/_07167_/ZN (AOI21_X4)
+   0.04    0.63 ^ max_cap1779/Z (BUF_X16)
+   0.03    0.66 ^ max_cap1778/Z (BUF_X16)
+   0.04    0.69 ^ max_cap1777/Z (BUF_X16)
+   0.03    0.72 ^ max_cap1773/Z (BUF_X16)
+   0.04    0.77 ^ max_cap1772/Z (BUF_X16)
+   0.04    0.81 ^ max_cap1770/Z (BUF_X16)
+   0.06    0.87 ^ max_cap1769/Z (BUF_X16)
+   0.03    0.91 ^ max_cap1767/Z (BUF_X16)
+   0.05    0.96 ^ max_cap1765/Z (BUF_X8)
+   0.05    1.01 ^ max_cap1764/Z (BUF_X16)
+   0.05    1.06 ^ max_cap1756/Z (BUF_X16)
+   0.06    1.11 ^ max_cap1755/Z (BUF_X16)
+   0.03    1.14 ^ max_cap1693/Z (BUF_X16)
+   0.04    1.18 ^ max_cap1692/Z (BUF_X16)
+   0.04    1.22 ^ max_cap1635/Z (BUF_X16)
+   0.04    1.26 ^ max_cap1634/Z (BUF_X16)
+   0.04    1.29 ^ max_cap1633/Z (BUF_X16)
+   0.06    1.35 ^ max_cap1632/Z (BUF_X8)
+   0.04    1.39 ^ max_cap1629/Z (BUF_X16)
+   0.03    1.43 ^ max_cap1628/Z (BUF_X16)
+   0.05    1.47 ^ max_cap1627/Z (BUF_X16)
+   0.04    1.51 ^ max_cap1626/Z (BUF_X16)
+   0.05    1.56 ^ max_cap1625/Z (BUF_X16)
+   0.04    1.60 ^ max_cap1624/Z (BUF_X16)
+   0.03    1.63 ^ max_cap1623/Z (BUF_X16)
+   0.04    1.67 ^ max_cap1619/Z (BUF_X16)
+   0.05    1.72 ^ max_cap1616/Z (BUF_X16)
+   0.04    1.76 ^ max_cap1615/Z (BUF_X16)
+   0.07    1.83 ^ max_cap1613/Z (BUF_X8)
+   0.05    1.88 ^ max_cap1611/Z (BUF_X16)
+   0.03    1.91 ^ max_cap1607/Z (BUF_X16)
+   0.04    1.96 ^ max_cap1606/Z (BUF_X16)
+   0.05    2.00 ^ max_cap1603/Z (BUF_X16)
+   0.04    2.04 ^ max_cap1602/Z (BUF_X16)
+   0.02    2.06 ^ swerv/ifu/bp/btb_bank3_way1_data_out.genblock_dff.dout[20]$_DFF_PN0_/RN (DFFR_X1)
+           2.06   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.36    2.36   clock network delay (propagated)
+   0.00    2.36   clock reconvergence pessimism
+           2.36 ^ swerv/ifu/bp/btb_bank3_way1_data_out.genblock_dff.dout[20]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.42   library recovery time
+           2.42   data required time
+---------------------------------------------------------
+           2.42   data required time
+          -2.06   data arrival time
+---------------------------------------------------------
+           0.36   slack (MET)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/ifu/bp/BTB_FLOPS_0__btb_bank0_way0.genblock_dff.dout[19]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.03    0.43 ^ input384/Z (BUF_X4)
+   0.04    0.47 v swerv/_07165_/ZN (INV_X1)
+   0.12    0.59 ^ swerv/_07167_/ZN (AOI21_X4)
+   0.04    0.63 ^ max_cap1779/Z (BUF_X16)
+   0.03    0.66 ^ max_cap1778/Z (BUF_X16)
+   0.04    0.69 ^ max_cap1777/Z (BUF_X16)
+   0.03    0.72 ^ max_cap1773/Z (BUF_X16)
+   0.04    0.77 ^ max_cap1772/Z (BUF_X16)
+   0.04    0.81 ^ max_cap1770/Z (BUF_X16)
+   0.06    0.87 ^ max_cap1769/Z (BUF_X16)
+   0.03    0.91 ^ max_cap1767/Z (BUF_X16)
+   0.05    0.96 ^ max_cap1765/Z (BUF_X8)
+   0.05    1.01 ^ max_cap1764/Z (BUF_X16)
+   0.05    1.06 ^ max_cap1756/Z (BUF_X16)
+   0.06    1.11 ^ max_cap1755/Z (BUF_X16)
+   0.03    1.14 ^ max_cap1693/Z (BUF_X16)
+   0.04    1.18 ^ max_cap1692/Z (BUF_X16)
+   0.04    1.22 ^ max_cap1635/Z (BUF_X16)
+   0.04    1.26 ^ max_cap1634/Z (BUF_X16)
+   0.04    1.29 ^ max_cap1633/Z (BUF_X16)
+   0.06    1.35 ^ max_cap1632/Z (BUF_X8)
+   0.04    1.39 ^ max_cap1629/Z (BUF_X16)
+   0.03    1.43 ^ max_cap1628/Z (BUF_X16)
+   0.05    1.47 ^ max_cap1627/Z (BUF_X16)
+   0.04    1.51 ^ max_cap1626/Z (BUF_X16)
+   0.05    1.56 ^ max_cap1625/Z (BUF_X16)
+   0.04    1.60 ^ max_cap1624/Z (BUF_X16)
+   0.03    1.63 ^ max_cap1623/Z (BUF_X16)
+   0.04    1.67 ^ max_cap1619/Z (BUF_X16)
+   0.05    1.72 ^ max_cap1616/Z (BUF_X16)
+   0.04    1.76 ^ max_cap1615/Z (BUF_X16)
+   0.07    1.83 ^ max_cap1613/Z (BUF_X8)
+   0.05    1.88 ^ max_cap1611/Z (BUF_X16)
+   0.03    1.91 ^ max_cap1607/Z (BUF_X16)
+   0.04    1.96 ^ max_cap1606/Z (BUF_X16)
+   0.05    2.00 ^ max_cap1603/Z (BUF_X16)
+   0.04    2.04 ^ max_cap1602/Z (BUF_X16)
+   0.02    2.06 ^ swerv/ifu/bp/BTB_FLOPS_0__btb_bank0_way0.genblock_dff.dout[19]$_DFF_PN0_/RN (DFFR_X1)
+           2.06   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.36    2.36   clock network delay (propagated)
+   0.00    2.36   clock reconvergence pessimism
+           2.36 ^ swerv/ifu/bp/BTB_FLOPS_0__btb_bank0_way0.genblock_dff.dout[19]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.42   library recovery time
+           2.42   data required time
+---------------------------------------------------------
+           2.42   data required time
+          -2.06   data arrival time
+---------------------------------------------------------
+           0.36   slack (MET)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/ifu/bp/BTB_FLOPS_0__btb_bank0_way0.genblock_dff.dout[23]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.03    0.43 ^ input384/Z (BUF_X4)
+   0.04    0.47 v swerv/_07165_/ZN (INV_X1)
+   0.12    0.59 ^ swerv/_07167_/ZN (AOI21_X4)
+   0.04    0.63 ^ max_cap1779/Z (BUF_X16)
+   0.03    0.66 ^ max_cap1778/Z (BUF_X16)
+   0.04    0.69 ^ max_cap1777/Z (BUF_X16)
+   0.03    0.72 ^ max_cap1773/Z (BUF_X16)
+   0.04    0.77 ^ max_cap1772/Z (BUF_X16)
+   0.04    0.81 ^ max_cap1770/Z (BUF_X16)
+   0.06    0.87 ^ max_cap1769/Z (BUF_X16)
+   0.03    0.91 ^ max_cap1767/Z (BUF_X16)
+   0.05    0.96 ^ max_cap1765/Z (BUF_X8)
+   0.05    1.01 ^ max_cap1764/Z (BUF_X16)
+   0.05    1.06 ^ max_cap1756/Z (BUF_X16)
+   0.06    1.11 ^ max_cap1755/Z (BUF_X16)
+   0.03    1.14 ^ max_cap1693/Z (BUF_X16)
+   0.04    1.18 ^ max_cap1692/Z (BUF_X16)
+   0.04    1.22 ^ max_cap1635/Z (BUF_X16)
+   0.04    1.26 ^ max_cap1634/Z (BUF_X16)
+   0.04    1.29 ^ max_cap1633/Z (BUF_X16)
+   0.06    1.35 ^ max_cap1632/Z (BUF_X8)
+   0.04    1.39 ^ max_cap1629/Z (BUF_X16)
+   0.03    1.43 ^ max_cap1628/Z (BUF_X16)
+   0.05    1.47 ^ max_cap1627/Z (BUF_X16)
+   0.04    1.51 ^ max_cap1626/Z (BUF_X16)
+   0.05    1.56 ^ max_cap1625/Z (BUF_X16)
+   0.04    1.60 ^ max_cap1624/Z (BUF_X16)
+   0.03    1.63 ^ max_cap1623/Z (BUF_X16)
+   0.04    1.67 ^ max_cap1619/Z (BUF_X16)
+   0.05    1.72 ^ max_cap1616/Z (BUF_X16)
+   0.04    1.76 ^ max_cap1615/Z (BUF_X16)
+   0.07    1.83 ^ max_cap1613/Z (BUF_X8)
+   0.05    1.88 ^ max_cap1611/Z (BUF_X16)
+   0.03    1.91 ^ max_cap1607/Z (BUF_X16)
+   0.04    1.96 ^ max_cap1606/Z (BUF_X16)
+   0.05    2.00 ^ max_cap1603/Z (BUF_X16)
+   0.04    2.04 ^ max_cap1602/Z (BUF_X16)
+   0.02    2.06 ^ swerv/ifu/bp/BTB_FLOPS_0__btb_bank0_way0.genblock_dff.dout[23]$_DFF_PN0_/RN (DFFR_X1)
+           2.06   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.36    2.36   clock network delay (propagated)
+   0.00    2.36   clock reconvergence pessimism
+           2.36 ^ swerv/ifu/bp/BTB_FLOPS_0__btb_bank0_way0.genblock_dff.dout[23]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.42   library recovery time
+           2.42   data required time
+---------------------------------------------------------
+           2.42   data required time
+          -2.06   data arrival time
+---------------------------------------------------------
+           0.36   slack (MET)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/dec/instbuff.ib0ff.genblock_dff.dout[19]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/CK (DFFR_X2)
+   0.16    0.52 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/Q (DFFR_X2)
+   0.05    0.57 ^ swerv/lsu/_4545_/Z (BUF_X4)
+   0.04    0.61 ^ swerv/lsu/_4552_/Z (BUF_X4)
+   0.04    0.64 ^ swerv/lsu/_4553_/Z (BUF_X4)
+   0.04    0.69 ^ swerv/lsu/_4554_/Z (BUF_X4)
+   0.04    0.73 ^ swerv/lsu/_4555_/Z (BUF_X4)
+   0.04    0.77 ^ swerv/lsu/_4556_/Z (BUF_X4)
+   0.05    0.82 ^ swerv/lsu/_4573_/Z (CLKBUF_X3)
+   0.05    0.87 ^ swerv/lsu/_4574_/Z (CLKBUF_X3)
+   0.05    0.93 ^ swerv/lsu/_4575_/Z (CLKBUF_X3)
+   0.02    0.95 v swerv/lsu/_4576_/ZN (AOI21_X1)
+   0.03    0.98 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.03    1.01 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.11    1.11 ^ swerv/lsu/_4580_/ZN (AOI21_X4)
+   0.07    1.18 ^ swerv/lsu/_4587_/Z (MUX2_X2)
+   0.04    1.22 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.23 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.09    1.32 v swerv/lsu/_8619_/CO (FA_X1)
+   0.10    1.41 ^ swerv/lsu/_7038_/ZN (XNOR2_X2)
+   0.07    1.48 ^ swerv/lsu/bus_intf/_3747_/Z (XOR2_X2)
+   0.01    1.49 v swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.03    1.52 ^ swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X2)
+   0.12    1.64 v swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    1.76 ^ swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.01    1.77 v swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.11    1.88 ^ swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.12    2.00 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.05    2.04 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.12 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.18 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.03    2.21 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.03    2.24 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X4)
+   0.08    2.32 v swerv/lsu/_7889_/ZN (OR2_X4)
+   0.04    2.36 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    2.38 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    2.48 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.05    2.53 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    2.65 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    2.70 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.10    2.80 ^ swerv/dec/decode/_09326_/ZN (NOR4_X1)
+   0.04    2.84 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    2.93 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.04    2.97 ^ swerv/dec/decode/_09501_/ZN (INV_X8)
+   0.08    3.05 ^ swerv/dec/_5108_/Z (BUF_X2)
+   0.02    3.07 v swerv/dec/_5116_/ZN (INV_X1)
+   0.03    3.09 ^ swerv/dec/_5117_/ZN (NAND2_X1)
+   0.02    3.11 v swerv/dec/_5118_/ZN (NOR2_X1)
+   0.03    3.15 v swerv/dec/_5119_/Z (BUF_X8)
+   0.06    3.20 ^ swerv/dec/_5132_/ZN (AOI21_X2)
+   0.07    3.27 ^ swerv/dec/_5133_/ZN (AND3_X1)
+   0.03    3.31 ^ swerv/dec/_5134_/Z (BUF_X8)
+   0.04    3.35 ^ swerv/dec/_6389_/Z (BUF_X4)
+   0.03    3.38 v swerv/dec/_6419_/ZN (AOI222_X2)
+   0.05    3.43 ^ swerv/dec/_6420_/ZN (INV_X2)
+   0.01    3.44 ^ swerv/dec/instbuff.ib0ff.genblock_dff.dout[19]$_DFF_PN0_/D (DFFR_X2)
+           3.44   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.35    2.35   clock network delay (propagated)
+   0.00    2.35   clock reconvergence pessimism
+           2.35 ^ swerv/dec/instbuff.ib0ff.genblock_dff.dout[19]$_DFF_PN0_/CK (DFFR_X2)
+  -0.04    2.32   library setup time
+           2.32   data required time
+---------------------------------------------------------
+           2.32   data required time
+          -3.44   data arrival time
+---------------------------------------------------------
+          -1.12   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/dec/instbuff.bp1ff.genblock_dff.dout[2]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/CK (DFFR_X2)
+   0.16    0.52 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/Q (DFFR_X2)
+   0.05    0.57 ^ swerv/lsu/_4545_/Z (BUF_X4)
+   0.04    0.61 ^ swerv/lsu/_4552_/Z (BUF_X4)
+   0.04    0.64 ^ swerv/lsu/_4553_/Z (BUF_X4)
+   0.04    0.69 ^ swerv/lsu/_4554_/Z (BUF_X4)
+   0.04    0.73 ^ swerv/lsu/_4555_/Z (BUF_X4)
+   0.04    0.77 ^ swerv/lsu/_4556_/Z (BUF_X4)
+   0.05    0.82 ^ swerv/lsu/_4573_/Z (CLKBUF_X3)
+   0.05    0.87 ^ swerv/lsu/_4574_/Z (CLKBUF_X3)
+   0.05    0.93 ^ swerv/lsu/_4575_/Z (CLKBUF_X3)
+   0.02    0.95 v swerv/lsu/_4576_/ZN (AOI21_X1)
+   0.03    0.98 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.03    1.01 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.11    1.11 ^ swerv/lsu/_4580_/ZN (AOI21_X4)
+   0.07    1.18 ^ swerv/lsu/_4587_/Z (MUX2_X2)
+   0.04    1.22 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.23 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.09    1.32 v swerv/lsu/_8619_/CO (FA_X1)
+   0.10    1.41 ^ swerv/lsu/_7038_/ZN (XNOR2_X2)
+   0.07    1.48 ^ swerv/lsu/bus_intf/_3747_/Z (XOR2_X2)
+   0.01    1.49 v swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.03    1.52 ^ swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X2)
+   0.12    1.64 v swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    1.76 ^ swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.01    1.77 v swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.11    1.88 ^ swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.12    2.00 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.05    2.04 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.12 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.18 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.03    2.21 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.03    2.24 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X4)
+   0.08    2.32 v swerv/lsu/_7889_/ZN (OR2_X4)
+   0.04    2.36 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    2.38 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    2.48 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.05    2.53 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    2.65 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    2.70 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.10    2.80 ^ swerv/dec/decode/_09326_/ZN (NOR4_X1)
+   0.04    2.84 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    2.93 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.04    2.97 ^ swerv/dec/decode/_09501_/ZN (INV_X8)
+   0.08    3.05 ^ swerv/dec/_5108_/Z (BUF_X2)
+   0.02    3.07 v swerv/dec/_5116_/ZN (INV_X1)
+   0.03    3.09 ^ swerv/dec/_5117_/ZN (NAND2_X1)
+   0.02    3.11 v swerv/dec/_5118_/ZN (NOR2_X1)
+   0.03    3.15 v swerv/dec/_5119_/Z (BUF_X8)
+   0.06    3.20 ^ swerv/dec/_5132_/ZN (AOI21_X2)
+   0.04    3.25 ^ swerv/dec/_5297_/ZN (AND2_X1)
+   0.05    3.29 ^ swerv/dec/_5298_/Z (BUF_X4)
+   0.04    3.33 ^ swerv/dec/_5299_/Z (BUF_X8)
+   0.06    3.39 ^ swerv/dec/_5384_/Z (BUF_X4)
+   0.02    3.41 v swerv/dec/_5394_/ZN (AOI222_X2)
+   0.03    3.44 ^ swerv/dec/_5396_/ZN (OAI21_X1)
+   0.00    3.44 ^ swerv/dec/instbuff.bp1ff.genblock_dff.dout[2]$_DFF_PN0_/D (DFFR_X1)
+           3.44   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.36    2.36   clock network delay (propagated)
+   0.00    2.36   clock reconvergence pessimism
+           2.36 ^ swerv/dec/instbuff.bp1ff.genblock_dff.dout[2]$_DFF_PN0_/CK (DFFR_X1)
+  -0.03    2.33   library setup time
+           2.33   data required time
+---------------------------------------------------------
+           2.33   data required time
+          -3.44   data arrival time
+---------------------------------------------------------
+          -1.11   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/dec/instbuff.ib0ff.genblock_dff.dout[17]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/CK (DFFR_X2)
+   0.16    0.52 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/Q (DFFR_X2)
+   0.05    0.57 ^ swerv/lsu/_4545_/Z (BUF_X4)
+   0.04    0.61 ^ swerv/lsu/_4552_/Z (BUF_X4)
+   0.04    0.64 ^ swerv/lsu/_4553_/Z (BUF_X4)
+   0.04    0.69 ^ swerv/lsu/_4554_/Z (BUF_X4)
+   0.04    0.73 ^ swerv/lsu/_4555_/Z (BUF_X4)
+   0.04    0.77 ^ swerv/lsu/_4556_/Z (BUF_X4)
+   0.05    0.82 ^ swerv/lsu/_4573_/Z (CLKBUF_X3)
+   0.05    0.87 ^ swerv/lsu/_4574_/Z (CLKBUF_X3)
+   0.05    0.93 ^ swerv/lsu/_4575_/Z (CLKBUF_X3)
+   0.02    0.95 v swerv/lsu/_4576_/ZN (AOI21_X1)
+   0.03    0.98 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.03    1.01 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.11    1.11 ^ swerv/lsu/_4580_/ZN (AOI21_X4)
+   0.07    1.18 ^ swerv/lsu/_4587_/Z (MUX2_X2)
+   0.04    1.22 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.23 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.09    1.32 v swerv/lsu/_8619_/CO (FA_X1)
+   0.10    1.41 ^ swerv/lsu/_7038_/ZN (XNOR2_X2)
+   0.07    1.48 ^ swerv/lsu/bus_intf/_3747_/Z (XOR2_X2)
+   0.01    1.49 v swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.03    1.52 ^ swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X2)
+   0.12    1.64 v swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    1.76 ^ swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.01    1.77 v swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.11    1.88 ^ swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.12    2.00 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.05    2.04 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.12 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.18 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.03    2.21 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.03    2.24 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X4)
+   0.08    2.32 v swerv/lsu/_7889_/ZN (OR2_X4)
+   0.04    2.36 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    2.38 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    2.48 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.05    2.53 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    2.65 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    2.70 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.10    2.80 ^ swerv/dec/decode/_09326_/ZN (NOR4_X1)
+   0.04    2.84 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    2.93 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.04    2.97 ^ swerv/dec/decode/_09501_/ZN (INV_X8)
+   0.08    3.05 ^ swerv/dec/_5108_/Z (BUF_X2)
+   0.02    3.07 v swerv/dec/_5116_/ZN (INV_X1)
+   0.03    3.09 ^ swerv/dec/_5117_/ZN (NAND2_X1)
+   0.02    3.11 v swerv/dec/_5118_/ZN (NOR2_X1)
+   0.03    3.15 v swerv/dec/_5119_/Z (BUF_X8)
+   0.06    3.20 ^ swerv/dec/_5132_/ZN (AOI21_X2)
+   0.07    3.27 ^ swerv/dec/_5133_/ZN (AND3_X1)
+   0.03    3.31 ^ swerv/dec/_5134_/Z (BUF_X8)
+   0.04    3.35 ^ swerv/dec/_6389_/Z (BUF_X4)
+   0.03    3.38 v swerv/dec/_6407_/ZN (AOI222_X2)
+   0.05    3.43 ^ swerv/dec/_6408_/ZN (INV_X2)
+   0.01    3.44 ^ swerv/dec/instbuff.ib0ff.genblock_dff.dout[17]$_DFF_PN0_/D (DFFR_X2)
+           3.44   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.37    2.37   clock network delay (propagated)
+   0.00    2.37   clock reconvergence pessimism
+           2.37 ^ swerv/dec/instbuff.ib0ff.genblock_dff.dout[17]$_DFF_PN0_/CK (DFFR_X2)
+  -0.04    2.33   library setup time
+           2.33   data required time
+---------------------------------------------------------
+           2.33   data required time
+          -3.44   data arrival time
+---------------------------------------------------------
+          -1.11   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/dec/instbuff.ib0ff.genblock_dff.dout[16]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/CK (DFFR_X2)
+   0.16    0.52 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/Q (DFFR_X2)
+   0.05    0.57 ^ swerv/lsu/_4545_/Z (BUF_X4)
+   0.04    0.61 ^ swerv/lsu/_4552_/Z (BUF_X4)
+   0.04    0.64 ^ swerv/lsu/_4553_/Z (BUF_X4)
+   0.04    0.69 ^ swerv/lsu/_4554_/Z (BUF_X4)
+   0.04    0.73 ^ swerv/lsu/_4555_/Z (BUF_X4)
+   0.04    0.77 ^ swerv/lsu/_4556_/Z (BUF_X4)
+   0.05    0.82 ^ swerv/lsu/_4573_/Z (CLKBUF_X3)
+   0.05    0.87 ^ swerv/lsu/_4574_/Z (CLKBUF_X3)
+   0.05    0.93 ^ swerv/lsu/_4575_/Z (CLKBUF_X3)
+   0.02    0.95 v swerv/lsu/_4576_/ZN (AOI21_X1)
+   0.03    0.98 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.03    1.01 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.11    1.11 ^ swerv/lsu/_4580_/ZN (AOI21_X4)
+   0.07    1.18 ^ swerv/lsu/_4587_/Z (MUX2_X2)
+   0.04    1.22 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.23 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.09    1.32 v swerv/lsu/_8619_/CO (FA_X1)
+   0.10    1.41 ^ swerv/lsu/_7038_/ZN (XNOR2_X2)
+   0.07    1.48 ^ swerv/lsu/bus_intf/_3747_/Z (XOR2_X2)
+   0.01    1.49 v swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.03    1.52 ^ swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X2)
+   0.12    1.64 v swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    1.76 ^ swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.01    1.77 v swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.11    1.88 ^ swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.12    2.00 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.05    2.04 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.12 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.18 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.03    2.21 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.03    2.24 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X4)
+   0.08    2.32 v swerv/lsu/_7889_/ZN (OR2_X4)
+   0.04    2.36 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    2.38 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    2.48 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.05    2.53 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    2.65 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    2.70 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.10    2.80 ^ swerv/dec/decode/_09326_/ZN (NOR4_X1)
+   0.04    2.84 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    2.93 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.04    2.97 ^ swerv/dec/decode/_09501_/ZN (INV_X8)
+   0.08    3.05 ^ swerv/dec/_5108_/Z (BUF_X2)
+   0.02    3.07 v swerv/dec/_5116_/ZN (INV_X1)
+   0.03    3.09 ^ swerv/dec/_5117_/ZN (NAND2_X1)
+   0.02    3.11 v swerv/dec/_5118_/ZN (NOR2_X1)
+   0.03    3.15 v swerv/dec/_5119_/Z (BUF_X8)
+   0.06    3.20 ^ swerv/dec/_5132_/ZN (AOI21_X2)
+   0.07    3.27 ^ swerv/dec/_5133_/ZN (AND3_X1)
+   0.03    3.31 ^ swerv/dec/_5134_/Z (BUF_X8)
+   0.04    3.35 ^ swerv/dec/_6389_/Z (BUF_X4)
+   0.03    3.38 v swerv/dec/_6401_/ZN (AOI222_X2)
+   0.04    3.42 ^ swerv/dec/_6402_/ZN (INV_X2)
+   0.00    3.42 ^ swerv/dec/instbuff.ib0ff.genblock_dff.dout[16]$_DFF_PN0_/D (DFFR_X2)
+           3.42   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.35    2.35   clock network delay (propagated)
+   0.00    2.35   clock reconvergence pessimism
+           2.35 ^ swerv/dec/instbuff.ib0ff.genblock_dff.dout[16]$_DFF_PN0_/CK (DFFR_X2)
+  -0.03    2.32   library setup time
+           2.32   data required time
+---------------------------------------------------------
+           2.32   data required time
+          -3.42   data arrival time
+---------------------------------------------------------
+          -1.11   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/dec/instbuff.bp1ff.genblock_dff.dout[38]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/CK (DFFR_X2)
+   0.16    0.52 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[1]$_DFF_PN0_/Q (DFFR_X2)
+   0.05    0.57 ^ swerv/lsu/_4545_/Z (BUF_X4)
+   0.04    0.61 ^ swerv/lsu/_4552_/Z (BUF_X4)
+   0.04    0.64 ^ swerv/lsu/_4553_/Z (BUF_X4)
+   0.04    0.69 ^ swerv/lsu/_4554_/Z (BUF_X4)
+   0.04    0.73 ^ swerv/lsu/_4555_/Z (BUF_X4)
+   0.04    0.77 ^ swerv/lsu/_4556_/Z (BUF_X4)
+   0.05    0.82 ^ swerv/lsu/_4573_/Z (CLKBUF_X3)
+   0.05    0.87 ^ swerv/lsu/_4574_/Z (CLKBUF_X3)
+   0.05    0.93 ^ swerv/lsu/_4575_/Z (CLKBUF_X3)
+   0.02    0.95 v swerv/lsu/_4576_/ZN (AOI21_X1)
+   0.03    0.98 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.03    1.01 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.11    1.11 ^ swerv/lsu/_4580_/ZN (AOI21_X4)
+   0.07    1.18 ^ swerv/lsu/_4587_/Z (MUX2_X2)
+   0.04    1.22 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.23 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.09    1.32 v swerv/lsu/_8619_/CO (FA_X1)
+   0.10    1.41 ^ swerv/lsu/_7038_/ZN (XNOR2_X2)
+   0.07    1.48 ^ swerv/lsu/bus_intf/_3747_/Z (XOR2_X2)
+   0.01    1.49 v swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.03    1.52 ^ swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X2)
+   0.12    1.64 v swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    1.76 ^ swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.01    1.77 v swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.11    1.88 ^ swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.12    2.00 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.05    2.04 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.12 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.18 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.03    2.21 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.03    2.24 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X4)
+   0.08    2.32 v swerv/lsu/_7889_/ZN (OR2_X4)
+   0.04    2.36 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    2.38 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    2.48 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.05    2.53 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    2.65 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    2.70 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.10    2.80 ^ swerv/dec/decode/_09326_/ZN (NOR4_X1)
+   0.04    2.84 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    2.93 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.04    2.97 ^ swerv/dec/decode/_09501_/ZN (INV_X8)
+   0.08    3.05 ^ swerv/dec/_5108_/Z (BUF_X2)
+   0.02    3.07 v swerv/dec/_5116_/ZN (INV_X1)
+   0.03    3.09 ^ swerv/dec/_5117_/ZN (NAND2_X1)
+   0.02    3.11 v swerv/dec/_5118_/ZN (NOR2_X1)
+   0.03    3.15 v swerv/dec/_5119_/Z (BUF_X8)
+   0.06    3.20 ^ swerv/dec/_5132_/ZN (AOI21_X2)
+   0.04    3.25 ^ swerv/dec/_5297_/ZN (AND2_X1)
+   0.05    3.29 ^ swerv/dec/_5298_/Z (BUF_X4)
+   0.04    3.33 ^ swerv/dec/_5299_/Z (BUF_X8)
+   0.06    3.39 ^ swerv/dec/_5418_/Z (BUF_X4)
+   0.02    3.41 v swerv/dec/_5425_/ZN (AOI222_X2)
+   0.03    3.44 ^ swerv/dec/_5427_/ZN (OAI21_X1)
+   0.00    3.44 ^ swerv/dec/instbuff.bp1ff.genblock_dff.dout[38]$_DFF_PN0_/D (DFFR_X1)
+           3.44   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.36    2.36   clock network delay (propagated)
+   0.00    2.36   clock reconvergence pessimism
+           2.36 ^ swerv/dec/instbuff.bp1ff.genblock_dff.dout[38]$_DFF_PN0_/CK (DFFR_X1)
+  -0.03    2.33   library setup time
+           2.33   data required time
+---------------------------------------------------------
+           2.33   data required time
+          -3.44   data arrival time
+---------------------------------------------------------
+          -1.11   slack (VIOLATED)
+
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+3.4366
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-1.1185
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-32.546703
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             4.58e-02   3.86e-03   1.08e-03   5.08e-02  19.9%
+Combinational          2.25e-02   3.55e-02   3.81e-03   6.17e-02  24.1%
+Clock                  6.47e-03   1.42e-02   6.38e-05   2.08e-02   8.1%
+Macro                  1.02e-01   0.00e+00   2.07e-02   1.22e-01  47.9%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.76e-01   5.36e-02   2.57e-02   2.56e-01 100.0%
+                          69.0%      21.0%      10.0%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 684107 u^2 65% utilization.
+
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0044] Unable to find net (line: 4433): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 4436): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 4439): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 4442): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 4445): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 6602): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 6605): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 7970): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8966): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8969): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8972): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8975): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8978): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8981): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8984): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 8987): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 8990): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 21278): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 23852): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 23855): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 25043): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 25046): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 27254): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 28349): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 29756): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 31031): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 37616): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 41828): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 41831): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 41834): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 41837): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 41840): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 41843): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 41846): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 41849): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 41852): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 49292): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 49295): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 49298): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 49301): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 56459): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 60569): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 61892): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 62336): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 65171): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 65174): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 65177): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 65180): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 65183): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 65186): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 65189): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 65192): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 69722): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 70793): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 70796): frFakeVDD
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/swerv_wrapper/TDMP/final_routing.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/swerv_wrapper/TDMP/final_placement.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/swerv_wrapper/TDMP/final_ir_drop.webp.png
+[WARNING GUI-0066] Heat map "IR Drop" has not been populated with data.
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/swerv_wrapper/TDMP/final_clocks.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/swerv_wrapper/TDMP/final_congestion.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/swerv_wrapper/TDMP/final_resizer.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/swerv_wrapper/TDMP/cts_core_clock.webp.png
+Elapsed time: 2:12.15[h:]min:sec. CPU time: user 129.71 sys 2.56 (100%). Peak memory: 1775084KB.

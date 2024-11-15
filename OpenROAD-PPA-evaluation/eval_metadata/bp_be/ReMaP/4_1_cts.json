@@ -1,0 +1,13 @@
+{
+	"cts__design__instance__displacement__total": 1102.79,
+	"cts__design__instance__displacement__mean": 0.0185,
+	"cts__design__instance__displacement__max": 32.0735,
+	"cts__route__wirelength__estimated": 3.28584e+06,
+	"cts__design__instance__displacement__total": 0,
+	"cts__design__instance__displacement__mean": 0,
+	"cts__design__instance__displacement__max": 0,
+	"cts__route__wirelength__estimated": 3.28584e+06,
+	"cts__design__violations": 0,
+	"cts__flow__warnings__count": 0,
+	"cts__flow__errors__count": 0
+}

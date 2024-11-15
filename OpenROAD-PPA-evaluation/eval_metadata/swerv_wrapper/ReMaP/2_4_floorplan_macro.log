@@ -1,0 +1,34 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO][FLOW-xxxx] Using manual macro placement file mp_out
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_0__dccm_bank/mem placed. Bounding box (396.580um, 182.875um), (603.490um, 402.675um). Orientation R0
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_1__dccm_bank/mem placed. Bounding box (877.230um, 16.835um), (1084.140um, 236.635um). Orientation R0
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_2__dccm_bank/mem placed. Bounding box (15.770um, 764.295um), (222.680um, 984.095um). Orientation R0
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_3__dccm_bank/mem placed. Bounding box (655.490um, 16.835um), (862.400um, 236.635um). Orientation R0
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_4__dccm_bank/mem placed. Bounding box (877.230um, 252.735um), (1084.140um, 472.535um). Orientation R0
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_5__dccm_bank/mem placed. Bounding box (877.230um, 764.295um), (1084.140um, 984.095um). Orientation R0
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_6__dccm_bank/mem placed. Bounding box (242.325um, 764.295um), (449.235um, 984.095um). Orientation R0
+[INFO MPL-0035] Macro mem/Gen_dccm_enable_dccm/mem_bank_7__dccm_bank/mem placed. Bounding box (877.230um, 532.735um), (1084.140um, 752.535um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_0__SUBBANKS_0__ic_bank_sb_way_data.mem placed. Bounding box (247.145um, 265.895um), (345.565um, 331.695um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_0__SUBBANKS_1__ic_bank_sb_way_data.mem placed. Bounding box (15.770um, 261.555um), (114.190um, 327.355um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_0__SUBBANKS_2__ic_bank_sb_way_data.mem placed. Bounding box (165.200um, 16.835um), (263.620um, 82.635um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_0__SUBBANKS_3__ic_bank_sb_way_data.mem placed. Bounding box (131.455um, 348.915um), (229.875um, 414.715um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_1__SUBBANKS_0__ic_bank_sb_way_data.mem placed. Bounding box (280.890um, 16.835um), (379.310um, 82.635um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_1__SUBBANKS_1__ic_bank_sb_way_data.mem placed. Bounding box (280.890um, 99.855um), (379.310um, 165.655um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_1__SUBBANKS_2__ic_bank_sb_way_data.mem placed. Bounding box (280.890um, 182.875um), (379.310um, 248.675um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_1__SUBBANKS_3__ic_bank_sb_way_data.mem placed. Bounding box (247.145um, 348.915um), (345.565um, 414.715um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_2__SUBBANKS_0__ic_bank_sb_way_data.mem placed. Bounding box (15.770um, 348.915um), (114.190um, 414.715um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_2__SUBBANKS_1__ic_bank_sb_way_data.mem placed. Bounding box (131.455um, 265.895um), (229.875um, 331.695um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_2__SUBBANKS_2__ic_bank_sb_way_data.mem placed. Bounding box (165.200um, 182.875um), (263.620um, 248.675um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_2__SUBBANKS_3__ic_bank_sb_way_data.mem placed. Bounding box (165.200um, 99.855um), (263.620um, 165.655um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_3__SUBBANKS_0__ic_bank_sb_way_data.mem placed. Bounding box (396.580um, 16.835um), (495.000um, 82.635um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_3__SUBBANKS_1__ic_bank_sb_way_data.mem placed. Bounding box (49.510um, 178.535um), (147.930um, 244.335um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_3__SUBBANKS_2__ic_bank_sb_way_data.mem placed. Bounding box (49.510um, 95.515um), (147.930um, 161.315um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_data_inst/WAYS_3__SUBBANKS_3__ic_bank_sb_way_data.mem placed. Bounding box (396.580um, 99.855um), (495.000um, 165.655um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_tag_inst.WAYS_0__ICACHE_SZ_16_ic_way_tag.mem placed. Bounding box (15.770um, 174.195um), (31.540um, 234.395um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_tag_inst.WAYS_1__ICACHE_SZ_16_ic_way_tag.mem placed. Bounding box (15.770um, 95.515um), (31.540um, 155.715um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_tag_inst.WAYS_2__ICACHE_SZ_16_ic_way_tag.mem placed. Bounding box (49.510um, 16.835um), (65.280um, 77.035um). Orientation R0
+[INFO MPL-0035] Macro mem/icm/ic_tag_inst.WAYS_3__ICACHE_SZ_16_ic_way_tag.mem placed. Bounding box (15.770um, 16.835um), (31.540um, 77.035um). Orientation R0
+Elapsed time: 0:01.27[h:]min:sec. CPU time: user 0.97 sys 0.25 (96%). Peak memory: 277228KB.

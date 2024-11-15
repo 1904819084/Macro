@@ -1,0 +1,13 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO PDN-0001] Inserting grid: grid
+[WARNING PDN-0178] Remaining channel (421.0400, 3540.5150) - (445.1700, 3588.2850) on metal1 for nets: VSS
+[WARNING PDN-0178] Remaining channel (3586.2500, 412.9150) - (3589.8600, 418.6850) on metal1 for nets: VSS
+[WARNING PDN-0178] Remaining channel (3586.2500, 536.1150) - (3589.8600, 541.8850) on metal1 for nets: VSS
+[WARNING PDN-0178] Remaining channel (151.8300, 12.5150) - (1608.3100, 15.9650) on metal4 for nets: VDD
+[WARNING PDN-0178] Remaining channel (1887.8300, 12.5150) - (3400.3100, 15.9650) on metal4 for nets: VDD
+[ERROR PDN-0179] Unable to repair all channels.
+ErrorPDN: PDN-0179
+Elapsed time: 1:57.14[h:]min:sec. CPU time: user 111.03 sys 5.53 (99%). Peak memory: 4083496KB.

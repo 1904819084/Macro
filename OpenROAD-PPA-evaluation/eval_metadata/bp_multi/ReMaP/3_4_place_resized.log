@@ -1,0 +1,19 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Perform port buffering...
+[INFO RSZ-0027] Inserted 699 input buffers.
+[INFO RSZ-0028] Inserted 612 output buffers.
+Perform buffer insertion...
+[INFO RSZ-0058] Using max wire length 634um.
+[INFO RSZ-0034] Found 19 slew violations.
+[INFO RSZ-0036] Found 34 capacitance violations.
+[INFO RSZ-0037] Found 344 long wires.
+[INFO RSZ-0038] Inserted 420 buffers in 359 nets.
+[INFO RSZ-0039] Resized 25072 instances.
+Repair tie lo fanout...
+[INFO RSZ-0042] Inserted 891 tie LOGIC0_X1 instances.
+Repair tie hi fanout...
+[INFO RSZ-0042] Inserted 565 tie LOGIC1_X1 instances.
+Elapsed time: 0:46.95[h:]min:sec. CPU time: user 45.70 sys 1.16 (99%). Peak memory: 791796KB.

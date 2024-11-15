@@ -1,0 +1,124 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[INFO MPL-0101] Found 24 macros.
+[INFO MPL-0102] West pins 0.
+[INFO MPL-0102] East pins 0.
+[INFO MPL-0102] North pins 0.
+[INFO MPL-0102] South pins 1198.
+[INFO MPL-0069] Initial weighted wire length 1.92509e+07.
+Begin one level partition.
+[INFO MPL-0076] Partition 24 macros.
+[INFO MPL-0077] Using 4 cut lines.
+[INFO MPL-0079] Cut line 10.07.
+[INFO MPL-0079] Cut line 453.34.
+[INFO MPL-0079] Cut line 896.61.
+[INFO MPL-0079] Cut line 1339.88.
+End one level partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 24 macros.
+[INFO MPL-0077] Using 4 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 436.80.
+[INFO MPL-0079] Cut line 863.80.
+[INFO MPL-0079] Cut line 1289.40.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 7 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 651.00.
+[INFO MPL-0079] Cut line 1289.40.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 17 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 651.00.
+[INFO MPL-0079] Cut line 1289.40.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 12 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 651.00.
+[INFO MPL-0079] Cut line 1289.40.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 12 macros.
+[INFO MPL-0077] Using 3 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 651.00.
+[INFO MPL-0079] Cut line 1289.40.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 24 macros.
+[INFO MPL-0077] Using 4 cut lines.
+[INFO MPL-0079] Cut line 11.20.
+[INFO MPL-0079] Cut line 436.80.
+[INFO MPL-0079] Cut line 863.80.
+[INFO MPL-0079] Cut line 1289.40.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End west partition.
+End horizontal partition.
+[INFO MPL-0070] Using 26 partition sets.
+[INFO MPL-0071] Solution 1 weighted wire length 1.17966e+07.
+[INFO MPL-0071] Solution 2 weighted wire length 1.79769e+07.
+[INFO MPL-0071] Solution 3 weighted wire length 1.92947e+07.
+[INFO MPL-0071] Solution 4 weighted wire length 9.58584e+06.
+[INFO MPL-0071] Solution 5 weighted wire length 1.66595e+07.
+[INFO MPL-0071] Solution 6 weighted wire length 2.14558e+07.
+[INFO MPL-0071] Solution 7 weighted wire length 1.72753e+07.
+[INFO MPL-0071] Solution 8 weighted wire length 1.6651e+07.
+[INFO MPL-0071] Solution 9 weighted wire length 2.1142e+07.
+[INFO MPL-0071] Solution 10 weighted wire length 1.67874e+07.
+[INFO MPL-0071] Solution 11 weighted wire length 1.80005e+07.
+[INFO MPL-0071] Solution 12 weighted wire length 2.14176e+07.
+[INFO MPL-0071] Solution 13 weighted wire length 1.45952e+07.
+[INFO MPL-0071] Solution 14 weighted wire length 1.95006e+07.
+[INFO MPL-0071] Solution 15 weighted wire length 2.18172e+07.
+[INFO MPL-0071] Solution 16 weighted wire length 2.11275e+07.
+[INFO MPL-0071] Solution 17 weighted wire length 2.02404e+07.
+[INFO MPL-0071] Solution 18 weighted wire length 2.26213e+07.
+[INFO MPL-0071] Solution 19 weighted wire length 2.16756e+07.
+[INFO MPL-0071] Solution 20 weighted wire length 2.03602e+07.
+[INFO MPL-0071] Solution 21 weighted wire length 2.14352e+07.
+[INFO MPL-0071] Solution 22 weighted wire length 1.79933e+07.
+[INFO MPL-0071] Solution 23 weighted wire length 1.17963e+07.
+[INFO MPL-0071] Solution 24 weighted wire length 1.79396e+07.
+[INFO MPL-0071] Solution 25 weighted wire length 1.9584e+07.
+[INFO MPL-0071] Solution 26 weighted wire length 9.29997e+06.
+[INFO MPL-0073] Best weighted wire length 2.26213e+07.
+Elapsed time: 0:18.41[h:]min:sec. CPU time: user 17.41 sys 1.04 (100%). Peak memory: 1137092KB.

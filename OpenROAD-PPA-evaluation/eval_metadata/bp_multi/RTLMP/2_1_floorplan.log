@@ -1,0 +1,57 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/NangateOpenCellLibrary.tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/NangateOpenCellLibrary.macro.mod.lef, created 135 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_512x64.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_256x96.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_32x64.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_64x7.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_64x15.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/shiyq/OR_1002/flow/platforms/nangate45/lef/fakeram45_64x96.lef, created 1 library cells
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_rd_w_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_rd_w_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_mem_w_v_o[0]' not found.
+[WARNING STA-0366] port 'cmt_mem_w_v_o[0]' not found.
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There are 4 input ports missing set_input_delay.
+Warning: There are 4 output ports missing set_output_delay.
+Warning: There are 690 unconstrained endpoints.
+number instances in verilog is 152650
+[INFO IFP-0001] Added 771 rows of 5683 site FreePDK45_38x28_10R_NP_162NW_34O.
+Default units for flow
+ time 1ns
+ capacitance 1fF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1nW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 550926 u^2 47% utilization.
+Elapsed time: 0:30.95[h:]min:sec. CPU time: user 30.22 sys 0.79 (100%). Peak memory: 707764KB.

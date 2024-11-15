@@ -1,0 +1,95 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO CTS-0050] Root buffer is BUF_X4.
+[INFO CTS-0051] Sink buffer is BUF_X4.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    BUF_X4
+[INFO CTS-0049] Characterization buffer is BUF_X4.
+[INFO CTS-0007] Net "clk_i" found for clock "core_clock".
+[INFO CTS-0010]  Clock net "clk_i" has 21541 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0200] 72 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net clk_i.
+[INFO CTS-0028]  Total number of sinks: 21541.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 30 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 30 and clustering diameter of 100.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 809.
+[INFO CTS-0024]  Normalized sink region: [(3.51536, 4.15), (194.331, 204.45)].
+[INFO CTS-0025]     Width:  190.8154.
+[INFO CTS-0026]     Height: 200.3000.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 405
+    Sub-region size: 190.8154 X 100.1500
+[INFO CTS-0034]     Segment length (rounded): 50.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 203
+    Sub-region size: 95.4077 X 100.1500
+[INFO CTS-0034]     Segment length (rounded): 48.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 102
+    Sub-region size: 95.4077 X 50.0750
+[INFO CTS-0034]     Segment length (rounded): 26.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 51
+    Sub-region size: 47.7038 X 50.0750
+[INFO CTS-0034]     Segment length (rounded): 24.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 26
+    Sub-region size: 47.7038 X 25.0375
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 6
+    Direction: Horizontal
+    Sinks per sub-region: 13
+    Sub-region size: 23.8519 X 25.0375
+[INFO CTS-0034]     Segment length (rounded): 12.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 809.
+[INFO CTS-0018]     Created 890 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 7.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 8.
+[INFO CTS-0015]     Created 890 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:39, 3:9, 4:2, 5:3, 7:3, 8:6, 9:7, 10:9, 11:7, 12:12, 13:9, 14:14, 15:11, 16:6, 17:4, 18:5, 19:5, 20:3, 21:3, 22:5, 23:6, 24:2, 25:4, 27:2, 28:2, 29:5, 30:672..
+[INFO CTS-0017]     Max level of the clock tree: 6.
+[INFO CTS-0098] Clock net "clk_i"
+[INFO CTS-0099]  Sinks 22136
+[INFO CTS-0100]  Leaf buffers 791
+[INFO CTS-0101]  Average sink wire length 1887.55 um
+[INFO CTS-0102]  Path depth 7 - 8
+[INFO CTS-0207]  Leaf load cells 595
+[INFO RSZ-0058] Using max wire length 634um.
+[INFO RSZ-0047] Found 2 long wires.
+[INFO RSZ-0048] Inserted 2 buffers in 2 nets.
+Placement Analysis
+---------------------------------
+total displacement       2438.5 u
+average displacement        0.0 u
+max displacement           20.3 u
+original HPWL         6797608.0 u
+legalized HPWL        6847791.8 u
+delta HPWL                    1 %
+
+Command succeeded: detailed_placement
+Repair setup and hold violations...
+TNS end percent 100
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL         6847791.8 u
+legalized HPWL        6847791.8 u
+delta HPWL                    0 %
+
+Command succeeded: detailed_placement
+Elapsed time: 0:48.02[h:]min:sec. CPU time: user 46.47 sys 1.45 (99%). Peak memory: 1351860KB.

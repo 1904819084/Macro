@@ -1,0 +1,634 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 104 thread(s).
+[INFO MPL-0101] Found 220 macros.
+[INFO MPL-0102] West pins 0.
+[INFO MPL-0102] East pins 0.
+[INFO MPL-0102] North pins 0.
+[INFO MPL-0102] South pins 135.
+[INFO MPL-0069] Initial weighted wire length 3.74192e+08.
+Begin one level partition.
+[INFO MPL-0076] Partition 220 macros.
+[INFO MPL-0077] Using 10 cut lines.
+[INFO MPL-0079] Cut line 10.07.
+[INFO MPL-0079] Cut line 407.74.
+[INFO MPL-0079] Cut line 805.60.
+[INFO MPL-0079] Cut line 1203.27.
+[INFO MPL-0079] Cut line 1601.13.
+[INFO MPL-0079] Cut line 1998.80.
+[INFO MPL-0079] Cut line 2396.66.
+[INFO MPL-0079] Cut line 2794.33.
+[INFO MPL-0079] Cut line 3192.19.
+[INFO MPL-0079] Cut line 3589.86.
+End one level partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 220 macros.
+[INFO MPL-0077] Using 10 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 410.20.
+[INFO MPL-0079] Cut line 807.80.
+[INFO MPL-0079] Cut line 1205.40.
+[INFO MPL-0079] Cut line 1603.00.
+[INFO MPL-0079] Cut line 1999.20.
+[INFO MPL-0079] Cut line 2396.80.
+[INFO MPL-0079] Cut line 2794.40.
+[INFO MPL-0079] Cut line 3192.00.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 4 macros.
+[INFO MPL-0077] Using 4 cut lines.
+[INFO MPL-0079] Cut line 2807.00.
+[INFO MPL-0079] Cut line 3011.40.
+[INFO MPL-0079] Cut line 3175.20.
+[INFO MPL-0079] Cut line 3374.00.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 216 macros.
+[INFO MPL-0077] Using 9 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 459.20.
+[INFO MPL-0079] Cut line 907.20.
+[INFO MPL-0079] Cut line 1353.80.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2248.40.
+[INFO MPL-0079] Cut line 2695.00.
+[INFO MPL-0079] Cut line 3143.00.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 19 macros.
+[INFO MPL-0077] Using 4 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 1205.40.
+[INFO MPL-0079] Cut line 2396.80.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 201 macros.
+[INFO MPL-0077] Using 9 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 459.20.
+[INFO MPL-0079] Cut line 907.20.
+[INFO MPL-0079] Cut line 1353.80.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2248.40.
+[INFO MPL-0079] Cut line 2695.00.
+[INFO MPL-0079] Cut line 3143.00.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 41 macros.
+[INFO MPL-0077] Using 5 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 907.20.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2695.00.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 179 macros.
+[INFO MPL-0077] Using 9 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 459.20.
+[INFO MPL-0079] Cut line 907.20.
+[INFO MPL-0079] Cut line 1353.80.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2248.40.
+[INFO MPL-0079] Cut line 2695.00.
+[INFO MPL-0079] Cut line 3143.00.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 79 macros.
+[INFO MPL-0077] Using 6 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 728.00.
+[INFO MPL-0079] Cut line 1443.40.
+[INFO MPL-0079] Cut line 2158.80.
+[INFO MPL-0079] Cut line 2874.20.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 141 macros.
+[INFO MPL-0077] Using 8 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 523.60.
+[INFO MPL-0079] Cut line 1034.60.
+[INFO MPL-0079] Cut line 1545.60.
+[INFO MPL-0079] Cut line 2056.60.
+[INFO MPL-0079] Cut line 2567.60.
+[INFO MPL-0079] Cut line 3078.60.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 101 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 609.00.
+[INFO MPL-0079] Cut line 1205.40.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2396.80.
+[INFO MPL-0079] Cut line 2993.20.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 119 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 609.00.
+[INFO MPL-0079] Cut line 1205.40.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2396.80.
+[INFO MPL-0079] Cut line 2993.20.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 118 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 609.00.
+[INFO MPL-0079] Cut line 1205.40.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2396.80.
+[INFO MPL-0079] Cut line 2993.20.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 102 macros.
+[INFO MPL-0077] Using 7 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 609.00.
+[INFO MPL-0079] Cut line 1205.40.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2396.80.
+[INFO MPL-0079] Cut line 2993.20.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 148 macros.
+[INFO MPL-0077] Using 8 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 523.60.
+[INFO MPL-0079] Cut line 1034.60.
+[INFO MPL-0079] Cut line 1545.60.
+[INFO MPL-0079] Cut line 2056.60.
+[INFO MPL-0079] Cut line 2567.60.
+[INFO MPL-0079] Cut line 3078.60.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 72 macros.
+[INFO MPL-0077] Using 6 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 728.00.
+[INFO MPL-0079] Cut line 1443.40.
+[INFO MPL-0079] Cut line 2158.80.
+[INFO MPL-0079] Cut line 2874.20.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 180 macros.
+[INFO MPL-0077] Using 9 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 459.20.
+[INFO MPL-0079] Cut line 907.20.
+[INFO MPL-0079] Cut line 1353.80.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2248.40.
+[INFO MPL-0079] Cut line 2695.00.
+[INFO MPL-0079] Cut line 3143.00.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 40 macros.
+[INFO MPL-0077] Using 5 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 907.20.
+[INFO MPL-0079] Cut line 1801.80.
+[INFO MPL-0079] Cut line 2695.00.
+[INFO MPL-0079] Cut line 3589.60.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 220 macros.
+[INFO MPL-0077] Using 10 cut lines.
+[INFO MPL-0079] Cut line 12.60.
+[INFO MPL-0079] Cut line 410.20.
+[INFO MPL-0079] Cut line 807.80.
+[INFO MPL-0079] Cut line 1205.40.
+[INFO MPL-0079] Cut line 1603.00.
+[INFO MPL-0079] Cut line 1999.20.
+[INFO MPL-0079] Cut line 2396.80.
+[INFO MPL-0079] Cut line 2794.40.
+[INFO MPL-0079] Cut line 3192.00.
+[INFO MPL-0079] Cut line 3589.60.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End west partition.
+End horizontal partition.
+[INFO MPL-0070] Using 376 partition sets.
+[INFO MPL-0071] Solution 1 weighted wire length 2.12267e+08.
+[INFO MPL-0071] Solution 2 weighted wire length 3.81105e+08.
+[INFO MPL-0071] Solution 3 weighted wire length 4.47883e+08.
+[INFO MPL-0071] Solution 4 weighted wire length 4.25603e+08.
+[INFO MPL-0071] Solution 5 weighted wire length 3.57431e+08.
+[INFO MPL-0071] Solution 6 weighted wire length 3.20987e+08.
+[INFO MPL-0071] Solution 7 weighted wire length 3.94201e+08.
+[INFO MPL-0071] Solution 8 weighted wire length 4.04724e+08.
+[INFO MPL-0071] Solution 9 weighted wire length 3.88245e+08.
+[INFO MPL-0071] Solution 10 weighted wire length 2.76931e+08.
+[INFO MPL-0071] Solution 11 weighted wire length 2.3671e+08.
+[INFO MPL-0071] Solution 12 weighted wire length 3.98865e+08.
+[INFO MPL-0071] Solution 13 weighted wire length 4.70313e+08.
+[INFO MPL-0071] Solution 14 weighted wire length 3.93247e+08.
+[INFO MPL-0071] Solution 15 weighted wire length 3.49393e+08.
+[INFO MPL-0071] Solution 16 weighted wire length 3.74935e+08.
+[INFO MPL-0071] Solution 17 weighted wire length 4.19595e+08.
+[INFO MPL-0071] Solution 18 weighted wire length 3.66809e+08.
+[INFO MPL-0071] Solution 19 weighted wire length 3.32715e+08.
+[INFO MPL-0071] Solution 20 weighted wire length 2.40985e+08.
+[INFO MPL-0071] Solution 21 weighted wire length 3.98786e+08.
+[INFO MPL-0071] Solution 22 weighted wire length 4.57443e+08.
+[INFO MPL-0071] Solution 23 weighted wire length 3.86342e+08.
+[INFO MPL-0071] Solution 24 weighted wire length 3.67199e+08.
+[INFO MPL-0071] Solution 25 weighted wire length 3.85177e+08.
+[INFO MPL-0071] Solution 26 weighted wire length 4.26192e+08.
+[INFO MPL-0071] Solution 27 weighted wire length 3.75228e+08.
+[INFO MPL-0071] Solution 28 weighted wire length 3.02331e+08.
+[INFO MPL-0071] Solution 29 weighted wire length 2.25357e+08.
+[INFO MPL-0071] Solution 30 weighted wire length 3.90863e+08.
+[INFO MPL-0071] Solution 31 weighted wire length 4.39307e+08.
+[INFO MPL-0071] Solution 32 weighted wire length 3.97368e+08.
+[INFO MPL-0071] Solution 33 weighted wire length 3.46363e+08.
+[INFO MPL-0071] Solution 34 weighted wire length 3.87718e+08.
+[INFO MPL-0071] Solution 35 weighted wire length 4.29003e+08.
+[INFO MPL-0071] Solution 36 weighted wire length 3.83624e+08.
+[INFO MPL-0071] Solution 37 weighted wire length 3.22981e+08.
+[INFO MPL-0071] Solution 38 weighted wire length 2.31257e+08.
+[INFO MPL-0071] Solution 39 weighted wire length 3.98586e+08.
+[INFO MPL-0071] Solution 40 weighted wire length 4.72885e+08.
+[INFO MPL-0071] Solution 41 weighted wire length 4.13379e+08.
+[INFO MPL-0071] Solution 42 weighted wire length 3.50327e+08.
+[INFO MPL-0071] Solution 43 weighted wire length 4.02406e+08.
+[INFO MPL-0071] Solution 44 weighted wire length 4.19749e+08.
+[INFO MPL-0071] Solution 45 weighted wire length 3.87476e+08.
+[INFO MPL-0071] Solution 46 weighted wire length 3.25077e+08.
+[INFO MPL-0071] Solution 47 weighted wire length 2.74465e+08.
+[INFO MPL-0071] Solution 48 weighted wire length 4.33373e+08.
+[INFO MPL-0071] Solution 49 weighted wire length 4.90717e+08.
+[INFO MPL-0071] Solution 50 weighted wire length 4.16042e+08.
+[INFO MPL-0071] Solution 51 weighted wire length 3.80246e+08.
+[INFO MPL-0071] Solution 52 weighted wire length 4.3339e+08.
+[INFO MPL-0071] Solution 53 weighted wire length 4.60735e+08.
+[INFO MPL-0071] Solution 54 weighted wire length 3.99428e+08.
+[INFO MPL-0071] Solution 55 weighted wire length 3.6022e+08.
+[INFO MPL-0071] Solution 56 weighted wire length 2.8139e+08.
+[INFO MPL-0071] Solution 57 weighted wire length 4.37177e+08.
+[INFO MPL-0071] Solution 58 weighted wire length 4.97967e+08.
+[INFO MPL-0071] Solution 59 weighted wire length 4.33253e+08.
+[INFO MPL-0071] Solution 60 weighted wire length 3.78895e+08.
+[INFO MPL-0071] Solution 61 weighted wire length 4.32901e+08.
+[INFO MPL-0071] Solution 62 weighted wire length 4.74598e+08.
+[INFO MPL-0071] Solution 63 weighted wire length 4.15206e+08.
+[INFO MPL-0071] Solution 64 weighted wire length 3.65509e+08.
+[INFO MPL-0071] Solution 65 weighted wire length 3.09321e+08.
+[INFO MPL-0071] Solution 66 weighted wire length 4.35994e+08.
+[INFO MPL-0071] Solution 67 weighted wire length 5.04927e+08.
+[INFO MPL-0071] Solution 68 weighted wire length 4.34686e+08.
+[INFO MPL-0071] Solution 69 weighted wire length 3.79444e+08.
+[INFO MPL-0071] Solution 70 weighted wire length 4.18402e+08.
+[INFO MPL-0071] Solution 71 weighted wire length 4.7857e+08.
+[INFO MPL-0071] Solution 72 weighted wire length 4.00014e+08.
+[INFO MPL-0071] Solution 73 weighted wire length 3.81816e+08.
+[INFO MPL-0071] Solution 74 weighted wire length 2.92142e+08.
+[INFO MPL-0071] Solution 75 weighted wire length 4.45811e+08.
+[INFO MPL-0071] Solution 76 weighted wire length 4.88473e+08.
+[INFO MPL-0071] Solution 77 weighted wire length 4.3447e+08.
+[INFO MPL-0071] Solution 78 weighted wire length 3.81463e+08.
+[INFO MPL-0071] Solution 79 weighted wire length 4.29641e+08.
+[INFO MPL-0071] Solution 80 weighted wire length 4.89212e+08.
+[INFO MPL-0071] Solution 81 weighted wire length 4.16631e+08.
+[INFO MPL-0071] Solution 82 weighted wire length 3.66578e+08.
+[INFO MPL-0071] Solution 83 weighted wire length 3.90059e+08.
+[INFO MPL-0071] Solution 84 weighted wire length 4.81683e+08.
+[INFO MPL-0071] Solution 85 weighted wire length 5.52681e+08.
+[INFO MPL-0071] Solution 86 weighted wire length 4.76192e+08.
+[INFO MPL-0071] Solution 87 weighted wire length 4.34011e+08.
+[INFO MPL-0071] Solution 88 weighted wire length 4.70109e+08.
+[INFO MPL-0071] Solution 89 weighted wire length 4.99703e+08.
+[INFO MPL-0071] Solution 90 weighted wire length 4.91969e+08.
+[INFO MPL-0071] Solution 91 weighted wire length 4.39361e+08.
+[INFO MPL-0071] Solution 92 weighted wire length 3.59863e+08.
+[INFO MPL-0071] Solution 93 weighted wire length 4.88908e+08.
+[INFO MPL-0071] Solution 94 weighted wire length 5.72849e+08.
+[INFO MPL-0071] Solution 95 weighted wire length 4.77099e+08.
+[INFO MPL-0071] Solution 96 weighted wire length 4.44511e+08.
+[INFO MPL-0071] Solution 97 weighted wire length 4.68474e+08.
+[INFO MPL-0071] Solution 98 weighted wire length 4.75399e+08.
+[INFO MPL-0071] Solution 99 weighted wire length 5.03855e+08.
+[INFO MPL-0071] Solution 100 weighted wire length 4.2684e+08.
+[INFO MPL-0071] Solution 101 weighted wire length 3.818e+08.
+[INFO MPL-0071] Solution 102 weighted wire length 5.08768e+08.
+[INFO MPL-0071] Solution 103 weighted wire length 5.77399e+08.
+[INFO MPL-0071] Solution 104 weighted wire length 4.89397e+08.
+[INFO MPL-0071] Solution 105 weighted wire length 4.45195e+08.
+[INFO MPL-0071] Solution 106 weighted wire length 4.92306e+08.
+[INFO MPL-0071] Solution 107 weighted wire length 5.0637e+08.
+[INFO MPL-0071] Solution 108 weighted wire length 4.72986e+08.
+[INFO MPL-0071] Solution 109 weighted wire length 4.44884e+08.
+[INFO MPL-0071] Solution 110 weighted wire length 3.81847e+08.
+[INFO MPL-0071] Solution 111 weighted wire length 5.18103e+08.
+[INFO MPL-0071] Solution 112 weighted wire length 5.83581e+08.
+[INFO MPL-0071] Solution 113 weighted wire length 4.9952e+08.
+[INFO MPL-0071] Solution 114 weighted wire length 4.30606e+08.
+[INFO MPL-0071] Solution 115 weighted wire length 4.79293e+08.
+[INFO MPL-0071] Solution 116 weighted wire length 5.17167e+08.
+[INFO MPL-0071] Solution 117 weighted wire length 4.95792e+08.
+[INFO MPL-0071] Solution 118 weighted wire length 4.44026e+08.
+[INFO MPL-0071] Solution 119 weighted wire length 3.83428e+08.
+[INFO MPL-0071] Solution 120 weighted wire length 5.39733e+08.
+[INFO MPL-0071] Solution 121 weighted wire length 5.64475e+08.
+[INFO MPL-0071] Solution 122 weighted wire length 4.61278e+08.
+[INFO MPL-0071] Solution 123 weighted wire length 4.38594e+08.
+[INFO MPL-0071] Solution 124 weighted wire length 4.64574e+08.
+[INFO MPL-0071] Solution 125 weighted wire length 5.19828e+08.
+[INFO MPL-0071] Solution 126 weighted wire length 4.83883e+08.
+[INFO MPL-0071] Solution 127 weighted wire length 4.01032e+08.
+[INFO MPL-0071] Solution 128 weighted wire length 4.59489e+08.
+[INFO MPL-0071] Solution 129 weighted wire length 5.13407e+08.
+[INFO MPL-0071] Solution 130 weighted wire length 5.95823e+08.
+[INFO MPL-0071] Solution 131 weighted wire length 5.0448e+08.
+[INFO MPL-0071] Solution 132 weighted wire length 4.5339e+08.
+[INFO MPL-0071] Solution 133 weighted wire length 5.37471e+08.
+[INFO MPL-0071] Solution 134 weighted wire length 5.441e+08.
+[INFO MPL-0071] Solution 135 weighted wire length 4.84307e+08.
+[INFO MPL-0071] Solution 136 weighted wire length 4.69562e+08.
+[INFO MPL-0071] Solution 137 weighted wire length 5.33678e+08.
+[INFO MPL-0071] Solution 138 weighted wire length 5.81874e+08.
+[INFO MPL-0071] Solution 139 weighted wire length 5.28044e+08.
+[INFO MPL-0071] Solution 140 weighted wire length 4.75092e+08.
+[INFO MPL-0071] Solution 141 weighted wire length 5.53448e+08.
+[INFO MPL-0071] Solution 142 weighted wire length 5.8547e+08.
+[INFO MPL-0071] Solution 143 weighted wire length 5.16319e+08.
+[INFO MPL-0071] Solution 144 weighted wire length 4.82032e+08.
+[INFO MPL-0071] Solution 145 weighted wire length 5.30138e+08.
+[INFO MPL-0071] Solution 146 weighted wire length 6.09642e+08.
+[INFO MPL-0071] Solution 147 weighted wire length 5.21137e+08.
+[INFO MPL-0071] Solution 148 weighted wire length 4.79819e+08.
+[INFO MPL-0071] Solution 149 weighted wire length 5.84014e+08.
+[INFO MPL-0071] Solution 150 weighted wire length 5.76237e+08.
+[INFO MPL-0071] Solution 151 weighted wire length 5.23275e+08.
+[INFO MPL-0071] Solution 152 weighted wire length 5.1868e+08.
+[INFO MPL-0071] Solution 153 weighted wire length 5.48509e+08.
+[INFO MPL-0071] Solution 154 weighted wire length 6.3523e+08.
+[INFO MPL-0071] Solution 155 weighted wire length 5.55937e+08.
+[INFO MPL-0071] Solution 156 weighted wire length 4.99692e+08.
+[INFO MPL-0071] Solution 157 weighted wire length 5.96515e+08.
+[INFO MPL-0071] Solution 158 weighted wire length 6.00164e+08.
+[INFO MPL-0071] Solution 159 weighted wire length 5.47734e+08.
+[INFO MPL-0071] Solution 160 weighted wire length 4.98836e+08.
+[INFO MPL-0071] Solution 161 weighted wire length 5.64047e+08.
+[INFO MPL-0071] Solution 162 weighted wire length 6.436e+08.
+[INFO MPL-0071] Solution 163 weighted wire length 5.58553e+08.
+[INFO MPL-0071] Solution 164 weighted wire length 4.91537e+08.
+[INFO MPL-0071] Solution 165 weighted wire length 5.98033e+08.
+[INFO MPL-0071] Solution 166 weighted wire length 6.12509e+08.
+[INFO MPL-0071] Solution 167 weighted wire length 5.57891e+08.
+[INFO MPL-0071] Solution 168 weighted wire length 4.25677e+08.
+[INFO MPL-0071] Solution 169 weighted wire length 5.02569e+08.
+[INFO MPL-0071] Solution 170 weighted wire length 5.9077e+08.
+[INFO MPL-0071] Solution 171 weighted wire length 5.10773e+08.
+[INFO MPL-0071] Solution 172 weighted wire length 4.76452e+08.
+[INFO MPL-0071] Solution 173 weighted wire length 5.45567e+08.
+[INFO MPL-0071] Solution 174 weighted wire length 5.31979e+08.
+[INFO MPL-0071] Solution 175 weighted wire length 4.51543e+08.
+[INFO MPL-0071] Solution 176 weighted wire length 3.07828e+08.
+[INFO MPL-0071] Solution 177 weighted wire length 4.12478e+08.
+[INFO MPL-0071] Solution 178 weighted wire length 4.19786e+08.
+[INFO MPL-0071] Solution 179 weighted wire length 3.50995e+08.
+[INFO MPL-0071] Solution 180 weighted wire length 3.8881e+08.
+[INFO MPL-0071] Solution 181 weighted wire length 3.75284e+08.
+[INFO MPL-0071] Solution 182 weighted wire length 3.54419e+08.
+[INFO MPL-0071] Solution 183 weighted wire length 4.04538e+08.
+[INFO MPL-0071] Solution 184 weighted wire length 5.00057e+08.
+[INFO MPL-0071] Solution 185 weighted wire length 5.14936e+08.
+[INFO MPL-0071] Solution 186 weighted wire length 4.35435e+08.
+[INFO MPL-0071] Solution 187 weighted wire length 4.90566e+08.
+[INFO MPL-0071] Solution 188 weighted wire length 4.72875e+08.
+[INFO MPL-0071] Solution 189 weighted wire length 4.56265e+08.
+[INFO MPL-0071] Solution 190 weighted wire length 3.85376e+08.
+[INFO MPL-0071] Solution 191 weighted wire length 4.82904e+08.
+[INFO MPL-0071] Solution 192 weighted wire length 4.97909e+08.
+[INFO MPL-0071] Solution 193 weighted wire length 4.14199e+08.
+[INFO MPL-0071] Solution 194 weighted wire length 4.73945e+08.
+[INFO MPL-0071] Solution 195 weighted wire length 4.64336e+08.
+[INFO MPL-0071] Solution 196 weighted wire length 4.48549e+08.
+[INFO MPL-0071] Solution 197 weighted wire length 3.90538e+08.
+[INFO MPL-0071] Solution 198 weighted wire length 4.94525e+08.
+[INFO MPL-0071] Solution 199 weighted wire length 5.08677e+08.
+[INFO MPL-0071] Solution 200 weighted wire length 4.25466e+08.
+[INFO MPL-0071] Solution 201 weighted wire length 4.78983e+08.
+[INFO MPL-0071] Solution 202 weighted wire length 4.71266e+08.
+[INFO MPL-0071] Solution 203 weighted wire length 4.59504e+08.
+[INFO MPL-0071] Solution 204 weighted wire length 4.10801e+08.
+[INFO MPL-0071] Solution 205 weighted wire length 5.11016e+08.
+[INFO MPL-0071] Solution 206 weighted wire length 5.23333e+08.
+[INFO MPL-0071] Solution 207 weighted wire length 4.38306e+08.
+[INFO MPL-0071] Solution 208 weighted wire length 4.88357e+08.
+[INFO MPL-0071] Solution 209 weighted wire length 4.85046e+08.
+[INFO MPL-0071] Solution 210 weighted wire length 4.8309e+08.
+[INFO MPL-0071] Solution 211 weighted wire length 3.7973e+08.
+[INFO MPL-0071] Solution 212 weighted wire length 4.79537e+08.
+[INFO MPL-0071] Solution 213 weighted wire length 4.86918e+08.
+[INFO MPL-0071] Solution 214 weighted wire length 3.96228e+08.
+[INFO MPL-0071] Solution 215 weighted wire length 4.50285e+08.
+[INFO MPL-0071] Solution 216 weighted wire length 4.27219e+08.
+[INFO MPL-0071] Solution 217 weighted wire length 4.39854e+08.
+[INFO MPL-0071] Solution 218 weighted wire length 2.96106e+08.
+[INFO MPL-0071] Solution 219 weighted wire length 4.2577e+08.
+[INFO MPL-0071] Solution 220 weighted wire length 4.36948e+08.
+[INFO MPL-0071] Solution 221 weighted wire length 3.59718e+08.
+[INFO MPL-0071] Solution 222 weighted wire length 4.11088e+08.
+[INFO MPL-0071] Solution 223 weighted wire length 3.72359e+08.
+[INFO MPL-0071] Solution 224 weighted wire length 3.43231e+08.
+[INFO MPL-0071] Solution 225 weighted wire length 3.49298e+08.
+[INFO MPL-0071] Solution 226 weighted wire length 4.49851e+08.
+[INFO MPL-0071] Solution 227 weighted wire length 4.33628e+08.
+[INFO MPL-0071] Solution 228 weighted wire length 3.81343e+08.
+[INFO MPL-0071] Solution 229 weighted wire length 4.2314e+08.
+[INFO MPL-0071] Solution 230 weighted wire length 4.18676e+08.
+[INFO MPL-0071] Solution 231 weighted wire length 4.39675e+08.
+[INFO MPL-0071] Solution 232 weighted wire length 4.55418e+08.
+[INFO MPL-0071] Solution 233 weighted wire length 5.51206e+08.
+[INFO MPL-0071] Solution 234 weighted wire length 5.45482e+08.
+[INFO MPL-0071] Solution 235 weighted wire length 4.87498e+08.
+[INFO MPL-0071] Solution 236 weighted wire length 5.32571e+08.
+[INFO MPL-0071] Solution 237 weighted wire length 5.42912e+08.
+[INFO MPL-0071] Solution 238 weighted wire length 5.24043e+08.
+[INFO MPL-0071] Solution 239 weighted wire length 4.48562e+08.
+[INFO MPL-0071] Solution 240 weighted wire length 5.33178e+08.
+[INFO MPL-0071] Solution 241 weighted wire length 5.12073e+08.
+[INFO MPL-0071] Solution 242 weighted wire length 4.45826e+08.
+[INFO MPL-0071] Solution 243 weighted wire length 5.0938e+08.
+[INFO MPL-0071] Solution 244 weighted wire length 5.03072e+08.
+[INFO MPL-0071] Solution 245 weighted wire length 4.94739e+08.
+[INFO MPL-0071] Solution 246 weighted wire length 4.61727e+08.
+[INFO MPL-0071] Solution 247 weighted wire length 5.46841e+08.
+[INFO MPL-0071] Solution 248 weighted wire length 5.26212e+08.
+[INFO MPL-0071] Solution 249 weighted wire length 4.45284e+08.
+[INFO MPL-0071] Solution 250 weighted wire length 5.06645e+08.
+[INFO MPL-0071] Solution 251 weighted wire length 4.9718e+08.
+[INFO MPL-0071] Solution 252 weighted wire length 5.18068e+08.
+[INFO MPL-0071] Solution 253 weighted wire length 4.73479e+08.
+[INFO MPL-0071] Solution 254 weighted wire length 5.59905e+08.
+[INFO MPL-0071] Solution 255 weighted wire length 5.43689e+08.
+[INFO MPL-0071] Solution 256 weighted wire length 4.59231e+08.
+[INFO MPL-0071] Solution 257 weighted wire length 5.18514e+08.
+[INFO MPL-0071] Solution 258 weighted wire length 5.21417e+08.
+[INFO MPL-0071] Solution 259 weighted wire length 5.43121e+08.
+[INFO MPL-0071] Solution 260 weighted wire length 4.41779e+08.
+[INFO MPL-0071] Solution 261 weighted wire length 5.31271e+08.
+[INFO MPL-0071] Solution 262 weighted wire length 5.26328e+08.
+[INFO MPL-0071] Solution 263 weighted wire length 4.34536e+08.
+[INFO MPL-0071] Solution 264 weighted wire length 4.79955e+08.
+[INFO MPL-0071] Solution 265 weighted wire length 4.54345e+08.
+[INFO MPL-0071] Solution 266 weighted wire length 4.84665e+08.
+[INFO MPL-0071] Solution 267 weighted wire length 3.7835e+08.
+[INFO MPL-0071] Solution 268 weighted wire length 4.78282e+08.
+[INFO MPL-0071] Solution 269 weighted wire length 4.66589e+08.
+[INFO MPL-0071] Solution 270 weighted wire length 4.06463e+08.
+[INFO MPL-0071] Solution 271 weighted wire length 4.38446e+08.
+[INFO MPL-0071] Solution 272 weighted wire length 3.98718e+08.
+[INFO MPL-0071] Solution 273 weighted wire length 3.67705e+08.
+[INFO MPL-0071] Solution 274 weighted wire length 5.19137e+08.
+[INFO MPL-0071] Solution 275 weighted wire length 5.13482e+08.
+[INFO MPL-0071] Solution 276 weighted wire length 5.16833e+08.
+[INFO MPL-0071] Solution 277 weighted wire length 5.39023e+08.
+[WARNING MPL-0061] Parquet area 862.85 x 3335 exceeds the partition area 795.53 x 2861.6.
+[WARNING MPL-0061] Parquet area 879.24 x 4408.6 exceeds the partition area 795.53 x 3577.
+[INFO MPL-0071] Solution 278 weighted wire length 6.13023e+08.
+[INFO MPL-0071] Solution 279 weighted wire length 6.23342e+08.
+[INFO MPL-0071] Solution 280 weighted wire length 6.16679e+08.
+[INFO MPL-0071] Solution 281 weighted wire length 6.74054e+08.
+[WARNING MPL-0061] Parquet area 862.85 x 3335 exceeds the partition area 795.53 x 2861.6.
+[WARNING MPL-0061] Parquet area 879.24 x 4408.6 exceeds the partition area 795.53 x 3577.
+[INFO MPL-0071] Solution 282 weighted wire length 6.64147e+08.
+[INFO MPL-0071] Solution 283 weighted wire length 6.55938e+08.
+[INFO MPL-0071] Solution 284 weighted wire length 5.80009e+08.
+[INFO MPL-0071] Solution 285 weighted wire length 5.57439e+08.
+[WARNING MPL-0061] Parquet area 862.85 x 3335 exceeds the partition area 795.53 x 2861.6.
+[WARNING MPL-0061] Parquet area 879.24 x 4408.6 exceeds the partition area 795.53 x 3577.
+[INFO MPL-0071] Solution 286 weighted wire length 6.60977e+08.
+[INFO MPL-0071] Solution 287 weighted wire length 6.62743e+08.
+[INFO MPL-0071] Solution 288 weighted wire length 5.89439e+08.
+[INFO MPL-0071] Solution 289 weighted wire length 5.50609e+08.
+[WARNING MPL-0061] Parquet area 862.85 x 3335 exceeds the partition area 795.53 x 2861.6.
+[WARNING MPL-0061] Parquet area 879.24 x 4408.6 exceeds the partition area 795.53 x 3577.
+[INFO MPL-0071] Solution 290 weighted wire length 6.49714e+08.
+[INFO MPL-0071] Solution 291 weighted wire length 6.60174e+08.
+[INFO MPL-0071] Solution 292 weighted wire length 6.16001e+08.
+[INFO MPL-0071] Solution 293 weighted wire length 5.89392e+08.
+[WARNING MPL-0061] Parquet area 862.85 x 3335 exceeds the partition area 795.53 x 2861.6.
+[WARNING MPL-0061] Parquet area 879.24 x 4408.6 exceeds the partition area 795.53 x 3577.
+[INFO MPL-0071] Solution 294 weighted wire length 6.61366e+08.
+[INFO MPL-0071] Solution 295 weighted wire length 6.94841e+08.
+[INFO MPL-0071] Solution 296 weighted wire length 6.24456e+08.
+[INFO MPL-0071] Solution 297 weighted wire length 5.85866e+08.
+[WARNING MPL-0061] Parquet area 1035.42 x 3735.2 exceeds the partition area 795.53 x 2861.6.
+[INFO MPL-0071] Solution 298 weighted wire length 6.58483e+08.
+[INFO MPL-0071] Solution 299 weighted wire length 6.29352e+08.
+[INFO MPL-0071] Solution 300 weighted wire length 6.17836e+08.
+[INFO MPL-0071] Solution 301 weighted wire length 5.71793e+08.
+[INFO MPL-0071] Solution 302 weighted wire length 5.97046e+08.
+[WARNING MPL-0061] Parquet area 784.76 x 2934.8 exceeds the partition area 795.53 x 2861.6.
+[WARNING MPL-0061] Parquet area 957.33 x 4402.2 exceeds the partition area 795.53 x 3577.
+[INFO MPL-0071] Solution 303 weighted wire length 4.99489e+08.
+[INFO MPL-0071] Solution 304 weighted wire length 5.48274e+08.
+[INFO MPL-0071] Solution 305 weighted wire length 5.35263e+08.
+[INFO MPL-0071] Solution 306 weighted wire length 5.42043e+08.
+[WARNING MPL-0061] Parquet area 784.76 x 2934.8 exceeds the partition area 795.53 x 2861.6.
+[WARNING MPL-0061] Parquet area 957.33 x 4402.2 exceeds the partition area 795.53 x 3577.
+[INFO MPL-0071] Solution 307 weighted wire length 3.80676e+08.
+[INFO MPL-0071] Solution 308 weighted wire length 4.12655e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 2267 exceeds the partition area 397.67 x 1789.2.
+[INFO MPL-0071] Solution 309 weighted wire length 4.20124e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 4667.4 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 310 weighted wire length 5.39878e+08.
+[INFO MPL-0071] Solution 311 weighted wire length 5.30194e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 2399.6 exceeds the partition area 397.67 x 1789.2.
+[WARNING MPL-0061] Parquet area 517.71 x 3067.4 exceeds the partition area 397.67 x 2682.4.
+[WARNING MPL-0061] Parquet area 517.71 x 4534 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 312 weighted wire length 5.68726e+08.
+[INFO MPL-0071] Solution 313 weighted wire length 5.72286e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 2399.6 exceeds the partition area 397.67 x 1789.2.
+[WARNING MPL-0061] Parquet area 517.71 x 3067.4 exceeds the partition area 397.67 x 2682.4.
+[WARNING MPL-0061] Parquet area 517.71 x 4534 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 314 weighted wire length 5.69568e+08.
+[INFO MPL-0071] Solution 315 weighted wire length 5.52405e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 2399.6 exceeds the partition area 397.67 x 1789.2.
+[WARNING MPL-0061] Parquet area 517.71 x 3067.4 exceeds the partition area 397.67 x 2682.4.
+[WARNING MPL-0061] Parquet area 517.71 x 4534 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 316 weighted wire length 5.7064e+08.
+[INFO MPL-0071] Solution 317 weighted wire length 5.52625e+08.
+[INFO MPL-0071] Solution 318 weighted wire length 4.89915e+08.
+[INFO MPL-0071] Solution 319 weighted wire length 5.10495e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 4534 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 320 weighted wire length 5.59637e+08.
+[INFO MPL-0071] Solution 321 weighted wire length 5.766e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 2267 exceeds the partition area 397.67 x 1789.2.
+[INFO MPL-0071] Solution 322 weighted wire length 5.7635e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 4667.4 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 323 weighted wire length 5.87807e+08.
+[INFO MPL-0071] Solution 324 weighted wire length 6.13624e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 2267 exceeds the partition area 397.67 x 1789.2.
+[WARNING MPL-0061] Parquet area 345.14 x 2800.6 exceeds the partition area 397.67 x 2682.4.
+[WARNING MPL-0061] Parquet area 517.71 x 4400.6 exceeds the partition area 397.67 x 3577.
+[WARNING MPL-0061] Parquet area 517.71 x 3601.8 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 325 weighted wire length 5.04204e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 2267 exceeds the partition area 397.67 x 1789.2.
+[INFO MPL-0071] Solution 326 weighted wire length 4.6868e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 4400.6 exceeds the partition area 397.67 x 3577.
+[WARNING MPL-0061] Parquet area 443.23 x 3201.6 exceeds the partition area 397.67 x 3577.
+[WARNING MPL-0061] Parquet area 517.71 x 3201.6 exceeds the partition area 397.67 x 2682.4.
+[WARNING MPL-0061] Parquet area 517.71 x 2267 exceeds the partition area 397.67 x 1789.2.
+[INFO MPL-0071] Solution 327 weighted wire length 3.77091e+08.
+[WARNING MPL-0061] Parquet area 517.71 x 4534 exceeds the partition area 397.67 x 3577.
+[INFO MPL-0071] Solution 328 weighted wire length 2.1227e+08.
+[INFO MPL-0071] Solution 329 weighted wire length 3.80499e+08.
+[INFO MPL-0071] Solution 330 weighted wire length 4.42626e+08.
+[INFO MPL-0071] Solution 331 weighted wire length 4.23422e+08.
+[INFO MPL-0071] Solution 332 weighted wire length 3.34922e+08.
+[INFO MPL-0071] Solution 333 weighted wire length 3.01721e+08.
+[INFO MPL-0071] Solution 334 weighted wire length 3.72073e+08.
+[INFO MPL-0071] Solution 335 weighted wire length 3.6829e+08.
+[INFO MPL-0071] Solution 336 weighted wire length 3.29332e+08.
+[INFO MPL-0071] Solution 337 weighted wire length 2.12272e+08.
+[INFO MPL-0073] Best weighted wire length 6.94841e+08.
+Elapsed time: 3:01:58[h:]min:sec. CPU time: user 10901.80 sys 5.64 (99%). Peak memory: 5278404KB.

@@ -1,0 +1,918 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.45+145 (git sha1 59404f8ce, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: ./designs/src/bp_be_top/pickled.v
+Parsing SystemVerilog input from `./designs/src/bp_be_top/pickled.v' to AST representation.
+Storing AST representation for module `$abstract\bsg_dff_reset_en_64_80000124'.
+Storing AST representation for module `$abstract\bsg_mux_width_p64_els_p2'.
+Storing AST representation for module `$abstract\bsg_dff_en_width_p36'.
+Storing AST representation for module `$abstract\bsg_dff_reset_en_width_p1'.
+Storing AST representation for module `$abstract\bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Storing AST representation for module `$abstract\bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Storing AST representation for module `$abstract\bsg_dff_reset_en_width_p8'.
+Storing AST representation for module `$abstract\bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Storing AST representation for module `$abstract\bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Storing AST representation for module `$abstract\bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0'.
+Storing AST representation for module `$abstract\bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1'.
+Storing AST representation for module `$abstract\bsg_dff_en_width_p5'.
+Storing AST representation for module `$abstract\bp_be_regfile'.
+Storing AST representation for module `$abstract\bsg_dff_reset_en_width_p221'.
+Storing AST representation for module `$abstract\bp_be_instr_decoder'.
+Storing AST representation for module `$abstract\bsg_scan_width_p5_or_p1_lo_to_hi_p1'.
+Storing AST representation for module `$abstract\bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1'.
+Storing AST representation for module `$abstract\bsg_mux_one_hot_width_p64_els_p5'.
+Storing AST representation for module `$abstract\bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64'.
+Storing AST representation for module `$abstract\bp_be_bypass_fwd_els_p4'.
+Storing AST representation for module `$abstract\bp_be_int_alu'.
+Storing AST representation for module `$abstract\bp_be_pipe_int_core_els_p1'.
+Storing AST representation for module `$abstract\bp_be_pipe_mul'.
+Storing AST representation for module `$abstract\bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64'.
+Storing AST representation for module `$abstract\bp_be_pipe_fp'.
+Storing AST representation for module `$abstract\bsg_dff_width_p1890'.
+Storing AST representation for module `$abstract\bsg_mux_segmented_segments_p5_segment_width_p128'.
+Storing AST representation for module `$abstract\bsg_dff_width_p640'.
+Storing AST representation for module `$abstract\bsg_dff_width_p35'.
+Storing AST representation for module `$abstract\bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64'.
+Storing AST representation for module `$abstract\bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64'.
+Storing AST representation for module `$abstract\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64'.
+Storing AST representation for module `$abstract\bsg_scan_width_p8_or_p1_lo_to_hi_p1'.
+Storing AST representation for module `$abstract\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1'.
+Storing AST representation for module `$abstract\bsg_encode_one_hot_width_p1'.
+Storing AST representation for module `$abstract\bsg_encode_one_hot_width_p2'.
+Storing AST representation for module `$abstract\bsg_encode_one_hot_width_p4'.
+Storing AST representation for module `$abstract\bsg_encode_one_hot_width_p8_lo_to_hi_p1'.
+Storing AST representation for module `$abstract\bsg_priority_encode_width_p8_lo_to_hi_p1'.
+Storing AST representation for module `$abstract\bp_be_dcache_wbuf_queue_width_p97'.
+Storing AST representation for module `$abstract\bsg_mux_segmented_segments_p8_segment_width_p8'.
+Storing AST representation for module `$abstract\bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64'.
+Storing AST representation for module `$abstract\bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64'.
+Storing AST representation for module `$abstract\bp_be_dcache_lru_encode_ways_p8'.
+Storing AST representation for module `$abstract\bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64'.
+Storing AST representation for module `$abstract\bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0'.
+Storing AST representation for module `$abstract\bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0'.
+Storing AST representation for module `$abstract\bsg_two_fifo_width_p36'.
+Storing AST representation for module `$abstract\bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64'.
+Storing AST representation for module `$abstract\bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0'.
+Storing AST representation for module `$abstract\bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0'.
+Storing AST representation for module `$abstract\bsg_two_fifo_width_p540'.
+Storing AST representation for module `$abstract\bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+Storing AST representation for module `$abstract\bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0'.
+Storing AST representation for module `$abstract\bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0'.
+Storing AST representation for module `$abstract\bsg_two_fifo_width_p539'.
+Storing AST representation for module `$abstract\bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+Storing AST representation for module `$abstract\bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+Storing AST representation for module `$abstract\bsg_mux_width_p64_els_p8'.
+Storing AST representation for module `$abstract\bsg_mux_width_p32_els_p2'.
+Storing AST representation for module `$abstract\bsg_mux_width_p16_els_p4'.
+Storing AST representation for module `$abstract\bsg_mux_width_p8_els_p8'.
+Storing AST representation for module `$abstract\bsg_decode_num_out_p8'.
+Storing AST representation for module `$abstract\bp_be_dcache_lru_decode_ways_p8'.
+Storing AST representation for module `$abstract\bsg_decode_with_v_num_out_p8'.
+Storing AST representation for module `$abstract\bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+Storing AST representation for module `$abstract\bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64'.
+Storing AST representation for module `$abstract\bp_be_top'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: ./designs/nangate45/bp_be_top/macros.v
+Parsing SystemVerilog input from `./designs/nangate45/bp_be_top/macros.v' to AST representation.
+Storing AST representation for module `$abstract\hard_mem_1rw_bit_mask_d64_w96_wrapper'.
+Storing AST representation for module `$abstract\hard_mem_1rw_byte_mask_d512_w64_wrapper'.
+Storing AST representation for module `$abstract\hard_mem_1rw_bit_mask_d64_w15_wrapper'.
+Successfully finished Verilog frontend.
+
+3. Executing Liberty frontend: ./objects/nangate45/bp_be/RTLMP/lib/NangateOpenCellLibrary_typical.lib
+Imported 135 cell types from liberty file.
+
+4. Executing Liberty frontend: ./objects/nangate45/bp_be/RTLMP/lib/fakeram45_512x64.lib
+Imported 1 cell types from liberty file.
+
+5. Executing Liberty frontend: ./objects/nangate45/bp_be/RTLMP/lib/fakeram45_64x15.lib
+Imported 1 cell types from liberty file.
+
+6. Executing Liberty frontend: ./objects/nangate45/bp_be/RTLMP/lib/fakeram45_64x96.lib
+Imported 1 cell types from liberty file.
+
+7. Executing Verilog-2005 frontend: /home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/nangate45/bp_be/RTLMP/clock_period.txt
+Setting clock period to 2.6
+Parsing Verilog input from `/home/shiyq/OR_1002/flow/platforms/nangate45/cells_clkgate.v' to AST representation.
+Storing AST representation for module `$abstract\OPENROAD_CLKGATE'.
+Successfully finished Verilog frontend.
+
+8. Executing HIERARCHY pass (managing design hierarchy).
+
+9. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_top'.
+Generating RTLIL representation for module `\bp_be_top'.
+
+9.1. Analyzing design hierarchy..
+Top module:  \bp_be_top
+
+9.2. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64'.
+Generating RTLIL representation for module `\bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64'.
+
+9.3. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64'.
+Generating RTLIL representation for module `\bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64'.
+
+9.4. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Generating RTLIL representation for module `\bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+
+9.5. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+
+9.6. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Generating RTLIL representation for module `\bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+
+9.7. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Generating RTLIL representation for module `\bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+
+9.8. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Generating RTLIL representation for module `\bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+
+9.9. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_width_p35'.
+Generating RTLIL representation for module `\bsg_dff_width_p35'.
+
+9.10. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_width_p640'.
+Generating RTLIL representation for module `\bsg_dff_width_p640'.
+
+9.11. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_segmented_segments_p5_segment_width_p128'.
+Generating RTLIL representation for module `\bsg_mux_segmented_segments_p5_segment_width_p128'.
+
+9.12. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_width_p1890'.
+Generating RTLIL representation for module `\bsg_dff_width_p1890'.
+
+9.13. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_pipe_fp'.
+Generating RTLIL representation for module `\bp_be_pipe_fp'.
+
+9.14. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64'.
+Generating RTLIL representation for module `\bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64'.
+
+9.15. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_pipe_mul'.
+Generating RTLIL representation for module `\bp_be_pipe_mul'.
+
+9.16. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_pipe_int_core_els_p1'.
+Generating RTLIL representation for module `\bp_be_pipe_int_core_els_p1'.
+
+9.17. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p64_els_p2'.
+Generating RTLIL representation for module `\bsg_mux_width_p64_els_p2'.
+
+9.18. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_bypass_fwd_els_p4'.
+Generating RTLIL representation for module `\bp_be_bypass_fwd_els_p4'.
+
+9.19. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_instr_decoder'.
+Generating RTLIL representation for module `\bp_be_instr_decoder'.
+
+9.20. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_en_width_p1'.
+Generating RTLIL representation for module `\bsg_dff_reset_en_width_p1'.
+
+9.21. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_en_width_p221'.
+Generating RTLIL representation for module `\bsg_dff_reset_en_width_p221'.
+
+9.22. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_regfile'.
+Generating RTLIL representation for module `\bp_be_regfile'.
+
+9.23. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+Generating RTLIL representation for module `\bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+
+9.24. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:         \bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bsg_dff_width_p35
+Used module:         \bsg_dff_width_p640
+Used module:         \bsg_mux_segmented_segments_p5_segment_width_p128
+Used module:         \bsg_dff_width_p1890
+Used module:         \bp_be_pipe_fp
+Used module:         \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bp_be_pipe_mul
+Used module:         \bp_be_pipe_int_core_els_p1
+Used module:         \bsg_mux_width_p64_els_p2
+Used module:         \bp_be_bypass_fwd_els_p4
+Used module:         \bp_be_instr_decoder
+Used module:         \bsg_dff_reset_en_width_p1
+Used module:         \bsg_dff_reset_en_width_p221
+Used module:         \bp_be_regfile
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+
+9.25. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p64_els_p8'.
+Generating RTLIL representation for module `\bsg_mux_width_p64_els_p8'.
+
+9.26. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_decode_with_v_num_out_p8'.
+Generating RTLIL representation for module `\bsg_decode_with_v_num_out_p8'.
+
+9.27. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lru_decode_ways_p8'.
+Generating RTLIL representation for module `\bp_be_dcache_lru_decode_ways_p8'.
+
+9.28. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_decode_num_out_p8'.
+Generating RTLIL representation for module `\bsg_decode_num_out_p8'.
+
+9.29. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p8_els_p8'.
+Generating RTLIL representation for module `\bsg_mux_width_p8_els_p8'.
+
+9.30. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p16_els_p4'.
+Generating RTLIL representation for module `\bsg_mux_width_p16_els_p4'.
+
+9.31. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p32_els_p2'.
+Generating RTLIL representation for module `\bsg_mux_width_p32_els_p2'.
+
+9.32. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_segmented_segments_p8_segment_width_p8'.
+Generating RTLIL representation for module `\bsg_mux_segmented_segments_p8_segment_width_p8'.
+
+9.33. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+Generating RTLIL representation for module `\bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+
+9.34. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_priority_encode_width_p8_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_priority_encode_width_p8_lo_to_hi_p1'.
+
+9.35. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lru_encode_ways_p8'.
+Generating RTLIL representation for module `\bp_be_dcache_lru_encode_ways_p8'.
+
+9.36. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64'.
+
+9.37. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64'.
+Generating RTLIL representation for module `\bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64'.
+
+9.38. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64'.
+
+9.39. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64'.
+
+9.40. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_width_p5'.
+Generating RTLIL representation for module `\bsg_dff_en_width_p5'.
+
+9.41. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1'.
+Generating RTLIL representation for module `\bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1'.
+
+9.42. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64'.
+Generating RTLIL representation for module `\bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64'.
+
+9.43. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1'.
+
+9.44. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_int_alu'.
+Generating RTLIL representation for module `\bp_be_int_alu'.
+
+9.45. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_width_p36'.
+Generating RTLIL representation for module `\bsg_dff_en_width_p36'.
+
+9.46. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_en_64_80000124'.
+Generating RTLIL representation for module `\bsg_dff_reset_en_64_80000124'.
+
+9.47. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_en_width_p8'.
+Generating RTLIL representation for module `\bsg_dff_reset_en_width_p8'.
+
+9.48. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:         \bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:             \bsg_mux_width_p64_els_p8
+Used module:             \bsg_decode_with_v_num_out_p8
+Used module:                 \bsg_decode_num_out_p8
+Used module:             \bp_be_dcache_lru_decode_ways_p8
+Used module:             \bsg_mux_width_p8_els_p8
+Used module:             \bsg_mux_width_p16_els_p4
+Used module:             \bsg_mux_width_p32_els_p2
+Used module:             \bsg_mux_segmented_segments_p8_segment_width_p8
+Used module:             \bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:             \bsg_priority_encode_width_p8_lo_to_hi_p1
+Used module:             \bp_be_dcache_lru_encode_ways_p8
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64
+Used module:             \bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64
+Used module:             \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bsg_dff_width_p35
+Used module:         \bsg_dff_width_p640
+Used module:         \bsg_mux_segmented_segments_p5_segment_width_p128
+Used module:         \bsg_dff_width_p1890
+Used module:         \bp_be_pipe_fp
+Used module:         \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bp_be_pipe_mul
+Used module:         \bp_be_pipe_int_core_els_p1
+Used module:             \bp_be_int_alu
+Used module:         \bsg_mux_width_p64_els_p2
+Used module:         \bp_be_bypass_fwd_els_p4
+Used module:             \bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64
+Used module:             \bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1
+Used module:         \bp_be_instr_decoder
+Used module:         \bsg_dff_reset_en_width_p1
+Used module:         \bsg_dff_reset_en_width_p221
+Used module:         \bp_be_regfile
+Used module:             \bsg_dff_en_width_p5
+Used module:             \bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_reset_en_width_p8
+Used module:         \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_en_width_p36
+Used module:             \bsg_dff_reset_en_64_80000124
+
+9.49. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_scan_width_p5_or_p1_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_scan_width_p5_or_p1_lo_to_hi_p1'.
+
+9.50. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_width_p64_els_p5'.
+Generating RTLIL representation for module `\bsg_mux_one_hot_width_p64_els_p5'.
+
+9.51. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0'.
+
+9.52. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_bit_mask_d64_w96_wrapper'.
+Generating RTLIL representation for module `\hard_mem_1rw_bit_mask_d64_w96_wrapper'.
+
+9.53. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_byte_mask_d512_w64_wrapper'.
+Generating RTLIL representation for module `\hard_mem_1rw_byte_mask_d512_w64_wrapper'.
+
+9.54. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p8_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p8_lo_to_hi_p1'.
+
+9.55. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1'.
+
+9.56. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_wbuf_queue_width_p97'.
+Generating RTLIL representation for module `\bp_be_dcache_wbuf_queue_width_p97'.
+
+9.57. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_bit_mask_d64_w15_wrapper'.
+Generating RTLIL representation for module `\hard_mem_1rw_bit_mask_d64_w15_wrapper'.
+
+9.58. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+Generating RTLIL representation for module `\bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+
+9.59. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p539'.
+Generating RTLIL representation for module `\bsg_two_fifo_width_p539'.
+
+9.60. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+Generating RTLIL representation for module `\bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+
+9.61. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p540'.
+Generating RTLIL representation for module `\bsg_two_fifo_width_p540'.
+
+9.62. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64'.
+Generating RTLIL representation for module `\bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64'.
+
+9.63. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p36'.
+Generating RTLIL representation for module `\bsg_two_fifo_width_p36'.
+
+9.64. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64'.
+Generating RTLIL representation for module `\bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64'.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_be_top/pickled.v:10438.10-10438.30.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_be_top/pickled.v:10439.10-10439.30.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_be_top/pickled.v:10463.10-10463.37.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_be_top/pickled.v:10484.10-10485.49.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_be_top/pickled.v:10488.10-10489.41.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_be_top/pickled.v:10547.10-10547.29.
+
+9.65. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:         \bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:             \bsg_mux_width_p64_els_p8
+Used module:             \bsg_decode_with_v_num_out_p8
+Used module:                 \bsg_decode_num_out_p8
+Used module:             \bp_be_dcache_lru_decode_ways_p8
+Used module:             \bsg_mux_width_p8_els_p8
+Used module:             \bsg_mux_width_p16_els_p4
+Used module:             \bsg_mux_width_p32_els_p2
+Used module:             \bsg_mux_segmented_segments_p8_segment_width_p8
+Used module:             \bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:                 \bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p539
+Used module:                 \bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p540
+Used module:                 \bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64
+Used module:                 \bsg_two_fifo_width_p36
+Used module:                 \bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64
+Used module:             \bsg_priority_encode_width_p8_lo_to_hi_p1
+Used module:                 \bsg_encode_one_hot_width_p8_lo_to_hi_p1
+Used module:                 \bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1
+Used module:             \bp_be_dcache_lru_encode_ways_p8
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w15_wrapper
+Used module:             \bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64
+Used module:                 \bp_be_dcache_wbuf_queue_width_p97
+Used module:             \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+Used module:                 \hard_mem_1rw_byte_mask_d512_w64_wrapper
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w96_wrapper
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bsg_dff_width_p35
+Used module:         \bsg_dff_width_p640
+Used module:         \bsg_mux_segmented_segments_p5_segment_width_p128
+Used module:         \bsg_dff_width_p1890
+Used module:         \bp_be_pipe_fp
+Used module:         \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bp_be_pipe_mul
+Used module:         \bp_be_pipe_int_core_els_p1
+Used module:             \bp_be_int_alu
+Used module:         \bsg_mux_width_p64_els_p2
+Used module:         \bp_be_bypass_fwd_els_p4
+Used module:             \bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64
+Used module:                 \bsg_mux_one_hot_width_p64_els_p5
+Used module:             \bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1
+Used module:                 \bsg_scan_width_p5_or_p1_lo_to_hi_p1
+Used module:         \bp_be_instr_decoder
+Used module:         \bsg_dff_reset_en_width_p1
+Used module:         \bsg_dff_reset_en_width_p221
+Used module:         \bp_be_regfile
+Used module:             \bsg_dff_en_width_p5
+Used module:             \bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1
+Used module:                 \bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_reset_en_width_p8
+Used module:         \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_en_width_p36
+Used module:             \bsg_dff_reset_en_64_80000124
+
+9.66. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0'.
+
+9.67. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0'.
+
+9.68. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0'.
+
+9.69. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_scan_width_p8_or_p1_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_scan_width_p8_or_p1_lo_to_hi_p1'.
+
+9.70. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p4'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p4'.
+
+9.71. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:         \bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:             \bsg_mux_width_p64_els_p8
+Used module:             \bsg_decode_with_v_num_out_p8
+Used module:                 \bsg_decode_num_out_p8
+Used module:             \bp_be_dcache_lru_decode_ways_p8
+Used module:             \bsg_mux_width_p8_els_p8
+Used module:             \bsg_mux_width_p16_els_p4
+Used module:             \bsg_mux_width_p32_els_p2
+Used module:             \bsg_mux_segmented_segments_p8_segment_width_p8
+Used module:             \bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:                 \bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p539
+Used module:                     \bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0
+Used module:                 \bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p540
+Used module:                     \bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0
+Used module:                 \bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64
+Used module:                 \bsg_two_fifo_width_p36
+Used module:                     \bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0
+Used module:                 \bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64
+Used module:             \bsg_priority_encode_width_p8_lo_to_hi_p1
+Used module:                 \bsg_encode_one_hot_width_p8_lo_to_hi_p1
+Used module:                     \bsg_encode_one_hot_width_p4
+Used module:                 \bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1
+Used module:                     \bsg_scan_width_p8_or_p1_lo_to_hi_p1
+Used module:             \bp_be_dcache_lru_encode_ways_p8
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w15_wrapper
+Used module:             \bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64
+Used module:                 \bp_be_dcache_wbuf_queue_width_p97
+Used module:             \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+Used module:                 \hard_mem_1rw_byte_mask_d512_w64_wrapper
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w96_wrapper
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bsg_dff_width_p35
+Used module:         \bsg_dff_width_p640
+Used module:         \bsg_mux_segmented_segments_p5_segment_width_p128
+Used module:         \bsg_dff_width_p1890
+Used module:         \bp_be_pipe_fp
+Used module:         \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bp_be_pipe_mul
+Used module:         \bp_be_pipe_int_core_els_p1
+Used module:             \bp_be_int_alu
+Used module:         \bsg_mux_width_p64_els_p2
+Used module:         \bp_be_bypass_fwd_els_p4
+Used module:             \bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64
+Used module:                 \bsg_mux_one_hot_width_p64_els_p5
+Used module:             \bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1
+Used module:                 \bsg_scan_width_p5_or_p1_lo_to_hi_p1
+Used module:         \bp_be_instr_decoder
+Used module:         \bsg_dff_reset_en_width_p1
+Used module:         \bsg_dff_reset_en_width_p221
+Used module:         \bp_be_regfile
+Used module:             \bsg_dff_en_width_p5
+Used module:             \bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1
+Used module:                 \bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_reset_en_width_p8
+Used module:         \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_en_width_p36
+Used module:             \bsg_dff_reset_en_64_80000124
+
+9.72. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p2'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p2'.
+
+9.73. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0'.
+
+9.74. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0'.
+
+9.75. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0'.
+
+9.76. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:         \bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:             \bsg_mux_width_p64_els_p8
+Used module:             \bsg_decode_with_v_num_out_p8
+Used module:                 \bsg_decode_num_out_p8
+Used module:             \bp_be_dcache_lru_decode_ways_p8
+Used module:             \bsg_mux_width_p8_els_p8
+Used module:             \bsg_mux_width_p16_els_p4
+Used module:             \bsg_mux_width_p32_els_p2
+Used module:             \bsg_mux_segmented_segments_p8_segment_width_p8
+Used module:             \bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:                 \bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p539
+Used module:                     \bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p540
+Used module:                     \bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64
+Used module:                 \bsg_two_fifo_width_p36
+Used module:                     \bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64
+Used module:             \bsg_priority_encode_width_p8_lo_to_hi_p1
+Used module:                 \bsg_encode_one_hot_width_p8_lo_to_hi_p1
+Used module:                     \bsg_encode_one_hot_width_p4
+Used module:                         \bsg_encode_one_hot_width_p2
+Used module:                 \bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1
+Used module:                     \bsg_scan_width_p8_or_p1_lo_to_hi_p1
+Used module:             \bp_be_dcache_lru_encode_ways_p8
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w15_wrapper
+Used module:             \bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64
+Used module:                 \bp_be_dcache_wbuf_queue_width_p97
+Used module:             \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+Used module:                 \hard_mem_1rw_byte_mask_d512_w64_wrapper
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w96_wrapper
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bsg_dff_width_p35
+Used module:         \bsg_dff_width_p640
+Used module:         \bsg_mux_segmented_segments_p5_segment_width_p128
+Used module:         \bsg_dff_width_p1890
+Used module:         \bp_be_pipe_fp
+Used module:         \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bp_be_pipe_mul
+Used module:         \bp_be_pipe_int_core_els_p1
+Used module:             \bp_be_int_alu
+Used module:         \bsg_mux_width_p64_els_p2
+Used module:         \bp_be_bypass_fwd_els_p4
+Used module:             \bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64
+Used module:                 \bsg_mux_one_hot_width_p64_els_p5
+Used module:             \bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1
+Used module:                 \bsg_scan_width_p5_or_p1_lo_to_hi_p1
+Used module:         \bp_be_instr_decoder
+Used module:         \bsg_dff_reset_en_width_p1
+Used module:         \bsg_dff_reset_en_width_p221
+Used module:         \bp_be_regfile
+Used module:             \bsg_dff_en_width_p5
+Used module:             \bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1
+Used module:                 \bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_reset_en_width_p8
+Used module:         \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_en_width_p36
+Used module:             \bsg_dff_reset_en_64_80000124
+
+9.77. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p1'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p1'.
+
+9.78. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:         \bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:             \bsg_mux_width_p64_els_p8
+Used module:             \bsg_decode_with_v_num_out_p8
+Used module:                 \bsg_decode_num_out_p8
+Used module:             \bp_be_dcache_lru_decode_ways_p8
+Used module:             \bsg_mux_width_p8_els_p8
+Used module:             \bsg_mux_width_p16_els_p4
+Used module:             \bsg_mux_width_p32_els_p2
+Used module:             \bsg_mux_segmented_segments_p8_segment_width_p8
+Used module:             \bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:                 \bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p539
+Used module:                     \bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p540
+Used module:                     \bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64
+Used module:                 \bsg_two_fifo_width_p36
+Used module:                     \bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64
+Used module:             \bsg_priority_encode_width_p8_lo_to_hi_p1
+Used module:                 \bsg_encode_one_hot_width_p8_lo_to_hi_p1
+Used module:                     \bsg_encode_one_hot_width_p4
+Used module:                         \bsg_encode_one_hot_width_p2
+Used module:                             \bsg_encode_one_hot_width_p1
+Used module:                 \bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1
+Used module:                     \bsg_scan_width_p8_or_p1_lo_to_hi_p1
+Used module:             \bp_be_dcache_lru_encode_ways_p8
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w15_wrapper
+Used module:             \bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64
+Used module:                 \bp_be_dcache_wbuf_queue_width_p97
+Used module:             \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+Used module:                 \hard_mem_1rw_byte_mask_d512_w64_wrapper
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w96_wrapper
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bsg_dff_width_p35
+Used module:         \bsg_dff_width_p640
+Used module:         \bsg_mux_segmented_segments_p5_segment_width_p128
+Used module:         \bsg_dff_width_p1890
+Used module:         \bp_be_pipe_fp
+Used module:         \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bp_be_pipe_mul
+Used module:         \bp_be_pipe_int_core_els_p1
+Used module:             \bp_be_int_alu
+Used module:         \bsg_mux_width_p64_els_p2
+Used module:         \bp_be_bypass_fwd_els_p4
+Used module:             \bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64
+Used module:                 \bsg_mux_one_hot_width_p64_els_p5
+Used module:             \bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1
+Used module:                 \bsg_scan_width_p5_or_p1_lo_to_hi_p1
+Used module:         \bp_be_instr_decoder
+Used module:         \bsg_dff_reset_en_width_p1
+Used module:         \bsg_dff_reset_en_width_p221
+Used module:         \bp_be_regfile
+Used module:             \bsg_dff_en_width_p5
+Used module:             \bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1
+Used module:                 \bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_reset_en_width_p8
+Used module:         \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_en_width_p36
+Used module:             \bsg_dff_reset_en_64_80000124
+
+9.79. Analyzing design hierarchy..
+Top module:  \bp_be_top
+Used module:     \bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64
+Used module:         \bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:             \bsg_mux_width_p64_els_p8
+Used module:             \bsg_decode_with_v_num_out_p8
+Used module:                 \bsg_decode_num_out_p8
+Used module:             \bp_be_dcache_lru_decode_ways_p8
+Used module:             \bsg_mux_width_p8_els_p8
+Used module:             \bsg_mux_width_p16_els_p4
+Used module:             \bsg_mux_width_p32_els_p2
+Used module:             \bsg_mux_segmented_segments_p8_segment_width_p8
+Used module:             \bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2
+Used module:                 \bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p539
+Used module:                     \bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64
+Used module:                 \bsg_two_fifo_width_p540
+Used module:                     \bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64
+Used module:                 \bsg_two_fifo_width_p36
+Used module:                     \bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0
+Used module:                         \bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0
+Used module:                 \bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64
+Used module:             \bsg_priority_encode_width_p8_lo_to_hi_p1
+Used module:                 \bsg_encode_one_hot_width_p8_lo_to_hi_p1
+Used module:                     \bsg_encode_one_hot_width_p4
+Used module:                         \bsg_encode_one_hot_width_p2
+Used module:                             \bsg_encode_one_hot_width_p1
+Used module:                 \bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1
+Used module:                     \bsg_scan_width_p8_or_p1_lo_to_hi_p1
+Used module:             \bp_be_dcache_lru_encode_ways_p8
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w15_wrapper
+Used module:             \bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64
+Used module:                 \bp_be_dcache_wbuf_queue_width_p97
+Used module:             \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64
+Used module:                 \hard_mem_1rw_byte_mask_d512_w64_wrapper
+Used module:             \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64
+Used module:                 \hard_mem_1rw_bit_mask_d64_w96_wrapper
+Used module:     \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bsg_dff_width_p35
+Used module:         \bsg_dff_width_p640
+Used module:         \bsg_mux_segmented_segments_p5_segment_width_p128
+Used module:         \bsg_dff_width_p1890
+Used module:         \bp_be_pipe_fp
+Used module:         \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64
+Used module:         \bp_be_pipe_mul
+Used module:         \bp_be_pipe_int_core_els_p1
+Used module:             \bp_be_int_alu
+Used module:         \bsg_mux_width_p64_els_p2
+Used module:         \bp_be_bypass_fwd_els_p4
+Used module:             \bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64
+Used module:                 \bsg_mux_one_hot_width_p64_els_p5
+Used module:             \bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1
+Used module:                 \bsg_scan_width_p5_or_p1_lo_to_hi_p1
+Used module:         \bp_be_instr_decoder
+Used module:         \bsg_dff_reset_en_width_p1
+Used module:         \bsg_dff_reset_en_width_p221
+Used module:         \bp_be_regfile
+Used module:             \bsg_dff_en_width_p5
+Used module:             \bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1
+Used module:                 \bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0
+Used module:     \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_reset_en_width_p8
+Used module:         \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:         \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36
+Used module:             \bsg_dff_en_width_p36
+Used module:             \bsg_dff_reset_en_64_80000124
+Removing unused module `$abstract\OPENROAD_CLKGATE'.
+Removing unused module `$abstract\hard_mem_1rw_bit_mask_d64_w15_wrapper'.
+Removing unused module `$abstract\hard_mem_1rw_byte_mask_d512_w64_wrapper'.
+Removing unused module `$abstract\hard_mem_1rw_bit_mask_d64_w96_wrapper'.
+Removing unused module `$abstract\bp_be_top'.
+Removing unused module `$abstract\bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64'.
+Removing unused module `$abstract\bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+Removing unused module `$abstract\bsg_decode_with_v_num_out_p8'.
+Removing unused module `$abstract\bp_be_dcache_lru_decode_ways_p8'.
+Removing unused module `$abstract\bsg_decode_num_out_p8'.
+Removing unused module `$abstract\bsg_mux_width_p8_els_p8'.
+Removing unused module `$abstract\bsg_mux_width_p16_els_p4'.
+Removing unused module `$abstract\bsg_mux_width_p32_els_p2'.
+Removing unused module `$abstract\bsg_mux_width_p64_els_p8'.
+Removing unused module `$abstract\bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2'.
+Removing unused module `$abstract\bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+Removing unused module `$abstract\bsg_two_fifo_width_p539'.
+Removing unused module `$abstract\bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0'.
+Removing unused module `$abstract\bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0'.
+Removing unused module `$abstract\bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64'.
+Removing unused module `$abstract\bsg_two_fifo_width_p540'.
+Removing unused module `$abstract\bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0'.
+Removing unused module `$abstract\bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0'.
+Removing unused module `$abstract\bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64'.
+Removing unused module `$abstract\bsg_two_fifo_width_p36'.
+Removing unused module `$abstract\bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0'.
+Removing unused module `$abstract\bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0'.
+Removing unused module `$abstract\bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64'.
+Removing unused module `$abstract\bp_be_dcache_lru_encode_ways_p8'.
+Removing unused module `$abstract\bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64'.
+Removing unused module `$abstract\bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64'.
+Removing unused module `$abstract\bsg_mux_segmented_segments_p8_segment_width_p8'.
+Removing unused module `$abstract\bp_be_dcache_wbuf_queue_width_p97'.
+Removing unused module `$abstract\bsg_priority_encode_width_p8_lo_to_hi_p1'.
+Removing unused module `$abstract\bsg_encode_one_hot_width_p8_lo_to_hi_p1'.
+Removing unused module `$abstract\bsg_encode_one_hot_width_p4'.
+Removing unused module `$abstract\bsg_encode_one_hot_width_p2'.
+Removing unused module `$abstract\bsg_encode_one_hot_width_p1'.
+Removing unused module `$abstract\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1'.
+Removing unused module `$abstract\bsg_scan_width_p8_or_p1_lo_to_hi_p1'.
+Removing unused module `$abstract\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64'.
+Removing unused module `$abstract\bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64'.
+Removing unused module `$abstract\bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64'.
+Removing unused module `$abstract\bsg_dff_width_p35'.
+Removing unused module `$abstract\bsg_dff_width_p640'.
+Removing unused module `$abstract\bsg_mux_segmented_segments_p5_segment_width_p128'.
+Removing unused module `$abstract\bsg_dff_width_p1890'.
+Removing unused module `$abstract\bp_be_pipe_fp'.
+Removing unused module `$abstract\bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64'.
+Removing unused module `$abstract\bp_be_pipe_mul'.
+Removing unused module `$abstract\bp_be_pipe_int_core_els_p1'.
+Removing unused module `$abstract\bp_be_int_alu'.
+Removing unused module `$abstract\bp_be_bypass_fwd_els_p4'.
+Removing unused module `$abstract\bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64'.
+Removing unused module `$abstract\bsg_mux_one_hot_width_p64_els_p5'.
+Removing unused module `$abstract\bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1'.
+Removing unused module `$abstract\bsg_scan_width_p5_or_p1_lo_to_hi_p1'.
+Removing unused module `$abstract\bp_be_instr_decoder'.
+Removing unused module `$abstract\bsg_dff_reset_en_width_p221'.
+Removing unused module `$abstract\bp_be_regfile'.
+Removing unused module `$abstract\bsg_dff_en_width_p5'.
+Removing unused module `$abstract\bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1'.
+Removing unused module `$abstract\bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0'.
+Removing unused module `$abstract\bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Removing unused module `$abstract\bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Removing unused module `$abstract\bsg_dff_reset_en_width_p8'.
+Removing unused module `$abstract\bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Removing unused module `$abstract\bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36'.
+Removing unused module `$abstract\bsg_dff_reset_en_width_p1'.
+Removing unused module `$abstract\bsg_dff_en_width_p36'.
+Removing unused module `$abstract\bsg_mux_width_p64_els_p2'.
+Removing unused module `$abstract\bsg_dff_reset_en_64_80000124'.
+Removed 72 unused modules.
+
+10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_encode_one_hot_width_p2..
+Finding unused cells or wires in module \bsg_encode_one_hot_width_p4..
+Finding unused cells or wires in module \bsg_scan_width_p8_or_p1_lo_to_hi_p1..
+Finding unused cells or wires in module \bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0..
+Finding unused cells or wires in module \bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0..
+Finding unused cells or wires in module \bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0..
+Warning: Ignoring module bp_be_dcache_lce_req_data_width_p64_paddr_width_p22_num_cce_p1_num_lce_p2_ways_p8_sets_p64 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_two_fifo_width_p36 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bp_be_dcache_lce_cmd_num_cce_p1_num_lce_p2_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_data_width_p64 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_two_fifo_width_p540 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bp_be_dcache_lce_data_cmd_num_cce_p1_num_lce_p2_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64..
+Warning: Ignoring module bsg_two_fifo_width_p539 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bp_be_dcache_lce_tr_num_lce_p2_num_cce_p1_data_width_p64_paddr_width_p22_lce_data_width_p512_ways_p8_sets_p64..
+Finding unused cells or wires in module \hard_mem_1rw_bit_mask_d64_w15_wrapper..
+Warning: Ignoring module bp_be_dcache_wbuf_queue_width_p97 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1..
+Finding unused cells or wires in module \bsg_encode_one_hot_width_p8_lo_to_hi_p1..
+Finding unused cells or wires in module \hard_mem_1rw_byte_mask_d512_w64_wrapper..
+Finding unused cells or wires in module \hard_mem_1rw_bit_mask_d64_w96_wrapper..
+Warning: Ignoring module bsg_mem_2r1w_sync_synth_width_p64_els_p32_read_write_same_addr_p1_harden_p0 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_mux_one_hot_width_p64_els_p5..
+Finding unused cells or wires in module \bsg_scan_width_p5_or_p1_lo_to_hi_p1..
+Warning: Ignoring module bsg_dff_reset_en_width_p8 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_dff_reset_en_64_80000124 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_dff_en_width_p36 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bp_be_int_alu..
+Finding unused cells or wires in module \bsg_priority_encode_one_hot_out_width_p5_lo_to_hi_p1..
+Finding unused cells or wires in module \bsg_crossbar_o_by_i_i_els_p5_o_els_p1_width_p64..
+Finding unused cells or wires in module \bsg_mem_2r1w_sync_width_p64_els_p32_read_write_same_addr_p1..
+Warning: Ignoring module bsg_dff_en_width_p5 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64..
+Finding unused cells or wires in module \bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64..
+Warning: Ignoring module bp_be_dcache_wbuf_data_width_p64_paddr_width_p22_ways_p8_sets_p64 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_mem_1rw_sync_mask_write_bit_width_p15_els_p64..
+Finding unused cells or wires in module \bp_be_dcache_lru_encode_ways_p8..
+Finding unused cells or wires in module \bsg_priority_encode_width_p8_lo_to_hi_p1..
+Warning: Ignoring module bp_be_dcache_lce_data_width_p64_paddr_width_p22_lce_data_width_p512_sets_p64_ways_p8_num_cce_p1_num_lce_p2 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_mux_segmented_segments_p8_segment_width_p8..
+Finding unused cells or wires in module \bsg_mux_width_p32_els_p2..
+Finding unused cells or wires in module \bsg_mux_width_p16_els_p4..
+Finding unused cells or wires in module \bsg_mux_width_p8_els_p8..
+Finding unused cells or wires in module \bsg_decode_num_out_p8..
+Finding unused cells or wires in module \bp_be_dcache_lru_decode_ways_p8..
+Finding unused cells or wires in module \bsg_decode_with_v_num_out_p8..
+Finding unused cells or wires in module \bsg_mux_width_p64_els_p8..
+Warning: Ignoring module bp_be_dcache_data_width_p64_paddr_width_p22_sets_p64_ways_p8_num_cce_p1_num_lce_p2 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bp_be_regfile..
+Warning: Ignoring module bsg_dff_reset_en_width_p221 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_dff_reset_en_width_p1 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bp_be_instr_decoder..
+Finding unused cells or wires in module \bp_be_bypass_fwd_els_p4..
+Finding unused cells or wires in module \bsg_mux_width_p64_els_p2..
+Finding unused cells or wires in module \bp_be_pipe_int_core_els_p1..
+Finding unused cells or wires in module \bp_be_pipe_mul..
+Finding unused cells or wires in module \bp_be_pipe_mem_vaddr_width_p56_lce_sets_p64_cce_block_size_in_bytes_p64..
+Finding unused cells or wires in module \bp_be_pipe_fp..
+Warning: Ignoring module bsg_dff_width_p1890 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_mux_segmented_segments_p5_segment_width_p128..
+Warning: Ignoring module bsg_dff_width_p640 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bsg_dff_width_p35 because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bp_be_director_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36..
+Finding unused cells or wires in module \bp_be_detector_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36..
+Finding unused cells or wires in module \bp_be_scheduler_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36..
+Finding unused cells or wires in module \bp_be_checker_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36..
+Finding unused cells or wires in module \bp_be_calculator_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_core_els_p1_num_lce_p2_lce_sets_p64_cce_block_size_in_bytes_p64..
+Warning: Ignoring module bp_be_mmu_top_vaddr_width_p56_paddr_width_p22_asid_width_p10_branch_metadata_fwd_width_p36_num_cce_p1_num_lce_p2_cce_block_size_in_bytes_p64_lce_assoc_p8_lce_sets_p64 because it contains processes (run 'proc' command first).
+Warning: Ignoring module bp_be_top because it contains processes (run 'proc' command first).
+Finding unused cells or wires in module \bsg_encode_one_hot_width_p1..
+Removed 0 unused cells and 2431 unused wires.
+<suppressed ~229 debug messages>
+
+11. Executing RTLIL backend.
+Output filename: ./results/nangate45/bp_be/RTLMP/1_synth.rtlil
+
+Warnings: 30 unique messages, 30 total
+End of script. Logfile hash: dd1c72e51c, CPU: user 1.19s system 0.12s, MEM: 146.65 MB peak
+Yosys 0.45+145 (git sha1 59404f8ce, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 62% 1x hierarchy (0 sec), 18% 6x read_verilog (0 sec), ...
+Elapsed time: 0:01.37[h:]min:sec. CPU time: user 1.23 sys 0.12 (99%). Peak memory: 151628KB.

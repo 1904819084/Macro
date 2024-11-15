@@ -1,0 +1,28 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[INFO PDN-0001] Inserting grid: grid
+[WARNING PDN-0178] Remaining channel (11.8300, 1285.9650) - (908.3100, 1289.4850) on metal4 for nets: VSS
+[WARNING PDN-0178] Remaining channel (39.8300, 11.1150) - (320.3100, 14.5650) on metal4 for nets: VDD
+[WARNING PDN-0178] Remaining channel (963.8300, 1285.9650) - (1339.9650, 1289.4850) on metal4 for nets: VSS
+[WARNING PDN-0178] Remaining channel (991.8300, 11.1150) - (1339.9650, 14.5650) on metal4 for nets: VDD
+[ERROR PDN-0179] Unable to repair all channels.
+ErrorPDN: PDN-0179
+Elapsed time: 0:13.02[h:]min:sec. CPU time: user 11.86 sys 1.05 (99%). Peak memory: 834356KB.

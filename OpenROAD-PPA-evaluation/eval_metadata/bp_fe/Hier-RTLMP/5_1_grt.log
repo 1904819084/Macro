@@ -1,0 +1,309 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 184 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 70
+[INFO GRT-0003] Macros: 11
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 2848
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical      1193105        353410          70.38%
+metal3     Horizontal    1629725        491423          69.85%
+metal4     Vertical       759430        341330          55.05%
+metal5     Horizontal     760665        492114          35.30%
+metal6     Vertical       759430        492188          35.19%
+metal7     Horizontal     217550         96013          55.87%
+metal8     Vertical       217265        108488          50.07%
+metal9     Horizontal     108775        107636          1.05%
+metal10    Vertical       108490        107636          0.79%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 274643
+[INFO GRT-0198] Via related Steiner nodes: 9288
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 437328
+[INFO GRT-0112] Final usage 3D: 2325341
+[WARNING GRT-0115] Global routing finished with overflow.
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0          1329            0.00%             4 /  1 / 1329
+metal2          353410        133681           37.83%             1 /  6 / 2069
+metal3          491423        255852           52.06%             9 /  1 / 15975
+metal4          341330        131247           38.45%             1 /  4 / 1322
+metal5          492114        244757           49.74%             6 /  1 / 9014
+metal6          492188        129744           26.36%             1 /  4 / 1097
+metal7           96013         40654           42.34%             3 /  0 / 1831
+metal8          108488         20918           19.28%             1 /  3 / 368
+metal9          107636         40134           37.29%             3 /  0 / 1677
+metal10         107636         15041           13.97%             1 /  2 / 157
+---------------------------------------------------------------------------------------
+Total          2590238       1013357           39.12%            30 / 22 / 34839
+
+[INFO GRT-0018] Total wirelength: 2441949 um
+[INFO GRT-0014] Routed nets: 38694
+[WARNING GRT-0026] Missing route to pin icache_1/_16552_/A3.
+[WARNING GRT-0026] Missing route to pin icache_1/_16567_/C2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14855_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_17028_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_14173_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12993_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_12997_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_16597_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16594_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_16816_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15833_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_13174_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14271_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_17108_/C2.
+[WARNING GRT-0026] Missing route to pin icache_1/_13399_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_17145_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_17379_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16359_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_13713_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_16701_/C2.
+[WARNING GRT-0026] Missing route to pin icache_1/_16279_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13460_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16724_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15060_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_17324_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_15098_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13585_/A3.
+[WARNING GRT-0026] Missing route to pin icache_1/_13596_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_17341_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13644_/C2.
+[WARNING GRT-0026] Missing route to pin icache_1/_13651_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_17477_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16351_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13716_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14196_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13825_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_15950_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_15300_/C1.
+[WARNING GRT-0026] Missing route to pin icache_1/_14688_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13979_/A3.
+[WARNING GRT-0026] Missing route to pin icache_1/_16927_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15307_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14781_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_16042_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_14804_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_15359_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_15468_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15652_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15754_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_16381_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_11870_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_21139_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_21169_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_21237_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22655_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23145_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_21583_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22853_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_21918_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22018_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22550_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_21243_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12419_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22733_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12263_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23535_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23285_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12292_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_11915_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23553_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22439_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_12307_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23573_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_21041_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_21512_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_11717_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_22757_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_22189_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23351_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22785_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12730_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22906_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22736_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_12508_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_23211_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_12520_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12369_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23635_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_21154_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_21160_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_22736_/C1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12764_/C1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23600_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_21223_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_23154_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12417_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_23211_/C1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12520_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_12069_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_23253_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22873_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_12732_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22984_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_21016_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_23658_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_21278_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_21336_/Z.
+[WARNING GRT-0026] Missing route to pin icache_1/_21465_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22500_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22598_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_11802_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_12363_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_23241_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_23237_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_11813_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_12225_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_21859_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_21072_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_21128_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_21669_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_22359_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22731_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_23005_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_23621_/A3.
+[WARNING GRT-0026] Missing route to pin icache_1/_21159_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22005_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22666_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_22971_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_22137_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_21811_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_22729_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_23149_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_12197_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_12748_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/_15761_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14558_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13690_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15883_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_17398_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16467_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_15365_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_17405_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15538_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14281_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14294_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16878_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15923_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_16469_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_16923_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15984_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_16272_/A3.
+[WARNING GRT-0026] Missing route to pin icache_1/_12900_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_16298_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_15797_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15218_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_17540_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16931_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13224_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16244_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15663_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15717_/B2.
+[WARNING GRT-0026] Missing route to pin icache_1/_15837_/C1.
+[WARNING GRT-0026] Missing route to pin icache_1/_15187_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13111_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14855_/C2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14295_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_14658_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13856_/B1.
+[WARNING GRT-0026] Missing route to pin icache_1/_16575_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_12988_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14167_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13191_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_15759_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13561_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14552_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_16362_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13713_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_15199_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15881_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15923_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14663_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13879_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15274_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15297_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14918_/A2.
+[WARNING GRT-0026] Missing route to pin icache_1/_13941_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_16085_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14165_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_15621_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13239_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_16661_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_14315_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_14423_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/_16249_/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_13484_/A1.
+[WARNING GRT-0026] Missing route to pin icache_1/_13947_/A.
+[WARNING GRT-0026] Missing route to pin wire1956/A.
+[WARNING GRT-0026] Missing route to pin icache_1/_17457_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_18110_/B1.
+[WARNING GRT-0026] Missing route to pin wire2242/A.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13088_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13094_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13104_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13107_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_12473_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_12476_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_12477_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13122_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_12483_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13153_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_12774_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13673_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13682_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_14344_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_14373_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13767_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13776_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13784_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13786_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13792_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13793_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13919_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13490_/B.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_14008_/B.
+[WARNING GRT-0026] Missing route to pin output1213/A.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_20630_/ZN.
+[WARNING GRT-0026] Missing route to pin output1541/A.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_21183_/ZN.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_21232_/ZN.
+[WARNING GRT-0026] Missing route to pin max_cap2081/A.
+[WARNING GRT-0026] Missing route to pin wire2241/Z.
+[WARNING GRT-0026] Missing route to pin icache_1/lce/_13138_/B.
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock CLK period 1.800000
+[INFO FLW-0008] Clock CLK period 2.028
+[INFO FLW-0009] Clock CLK slack -0.335
+[INFO FLW-0011] Path endpoint count 10430
+Elapsed time: 0:44.10[h:]min:sec. CPU time: user 43.36 sys 0.73 (99%). Peak memory: 746052KB.

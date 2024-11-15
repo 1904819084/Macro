@@ -1,0 +1,24 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+HierRTLMP Flow enabled...
+Call Macro Placer  -max_num_inst 30000 -min_num_inst 5000 -max_num_macro 12 -min_num_macro 4  -halo_width 10 -report_directory ./objects/nangate45/bp_fe/Hier/rtlmp -write_macro_placement ./results/nangate45/bp_fe/Hier/mp_out
+Floorplan Outline: (0.0, 0.0) (800.0, 600.0),  Core Outline: (10.07, 11.2) (789.83, 589.4)
+	Number of std cell instances: 33188
+	Area of std cell instances: 51690.92
+	Number of macros: 11
+	Area of macros: 160975.22
+	Halo width: 10.00
+	Halo height: 10.00
+	Area of macros with halos: 217069.23
+	Area of std cell instances + Area of macros: 212666.14
+	Core area: 450857.25
+	Design Utilization: 0.47
+	Core Utilization: 0.18
+	Manufacturing Grid: 10
+
+Delete buffers for RTLMP flow...
+[INFO RSZ-0026] Removed 3662 buffers.
+Elapsed time: 3:47.30[h:]min:sec. CPU time: user 227.09 sys 0.19 (99%). Peak memory: 219484KB.

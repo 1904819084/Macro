@@ -1,0 +1,566 @@
+OpenROAD dde957fc52d5efd43fa5e1ba4d44c942c16f2dde 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/shiyq/OpenROAD-flow-scripts/flow/platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation bp_fe_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 203671 rc segments
+[INFO RCX-0439] Coupling Cap extraction bp_fe_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 4% of 360696 wires extracted
+[INFO RCX-0442] 16% of 360696 wires extracted
+[INFO RCX-0442] 40% of 360696 wires extracted
+[INFO RCX-0442] 49% of 360696 wires extracted
+[INFO RCX-0442] 55% of 360696 wires extracted
+[INFO RCX-0442] 61% of 360696 wires extracted
+[INFO RCX-0442] 77% of 360696 wires extracted
+[INFO RCX-0442] 93% of 360696 wires extracted
+[INFO RCX-0442] 100% of 360696 wires extracted
+[INFO RCX-0045] Extract 43368 nets, 242573 rsegs, 242573 caps, 610898 ccs
+[INFO RCX-0443] 43368 nets finished
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns -6.88
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns -0.27
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack -0.27
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+icache_1/_17249_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_23188_/ZN                     0.20    0.22   -0.02 (VIOLATED)
+icache_1/_23115_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_17034_/ZN                     0.20    0.21   -0.01 (VIOLATED)
+icache_1/_17019_/ZN                     0.20    0.20   -0.01 (VIOLATED)
+icache_1/_13219_/ZN                     0.20    0.20   -0.00 (VIOLATED)
+icache_1/_23067_/ZN                     0.20    0.20   -0.00 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+icache_1/_20914_/ZN                   104.07  168.19  -64.13 (VIOLATED)
+icache_1/_17217_/ZN                    43.87   77.62  -33.75 (VIOLATED)
+icache_1/_15894_/ZN                    43.87   77.50  -33.63 (VIOLATED)
+icache_1/_17249_/ZN                    27.62   57.10  -29.48 (VIOLATED)
+icache_1/_14425_/ZN                    43.87   71.45  -27.58 (VIOLATED)
+icache_1/_23188_/ZN                    25.63   53.18  -27.55 (VIOLATED)
+icache_1/_17019_/ZN                    27.62   53.13  -25.51 (VIOLATED)
+icache_1/_23115_/ZN                    25.63   50.96  -25.32 (VIOLATED)
+icache_1/_17034_/ZN                    27.62   52.79  -25.18 (VIOLATED)
+icache_1/_17254_/ZN                    43.87   68.89  -25.02 (VIOLATED)
+icache_1/_17283_/ZN                    27.62   50.47  -22.85 (VIOLATED)
+icache_1/_13219_/ZN                    27.62   50.38  -22.76 (VIOLATED)
+icache_1/_16127_/ZN                    43.87   66.50  -22.63 (VIOLATED)
+icache_1/_23067_/ZN                    25.63   48.02  -22.39 (VIOLATED)
+icache_1/_22947_/ZN                    25.63   47.44  -21.81 (VIOLATED)
+icache_1/_15946_/ZN                    43.87   65.28  -21.41 (VIOLATED)
+icache_1/_17304_/ZN                    27.62   48.77  -21.15 (VIOLATED)
+icache_1/_21666_/ZN                    25.63   45.83  -20.19 (VIOLATED)
+icache_1/_14313_/ZN                    43.87   63.63  -19.77 (VIOLATED)
+icache_1/_21612_/ZN                    25.63   45.06  -19.43 (VIOLATED)
+icache_1/_17138_/ZN                    27.62   47.00  -19.38 (VIOLATED)
+icache_1/_23042_/ZN                    25.63   43.92  -18.28 (VIOLATED)
+icache_1/_11802_/ZN                    25.63   42.56  -16.93 (VIOLATED)
+icache_1/_15625_/ZN                    27.62   43.72  -16.10 (VIOLATED)
+icache_1/_17271_/ZN                    27.62   43.39  -15.77 (VIOLATED)
+icache_1/_17149_/ZN                    27.62   43.28  -15.66 (VIOLATED)
+icache_1/_22001_/ZN                    39.60   55.06  -15.46 (VIOLATED)
+icache_1/_15998_/ZN                    27.62   43.06  -15.44 (VIOLATED)
+icache_1/_15665_/ZN                    39.60   54.82  -15.22 (VIOLATED)
+icache_1/_12924_/ZN                    43.87   58.81  -14.94 (VIOLATED)
+icache_1/_13624_/ZN                    27.62   42.42  -14.81 (VIOLATED)
+icache_1/_13750_/ZN                    27.62   41.84  -14.23 (VIOLATED)
+icache_1/_21658_/ZN                    25.63   39.57  -13.93 (VIOLATED)
+icache_1/_12759_/ZN                    25.63   39.52  -13.89 (VIOLATED)
+icache_1/_17261_/ZN                    27.62   41.17  -13.55 (VIOLATED)
+icache_1/_16327_/ZN                    43.87   57.41  -13.55 (VIOLATED)
+icache_1/_20890_/ZN                   104.07  117.43  -13.36 (VIOLATED)
+icache_1/_13916_/ZN                    27.62   40.83  -13.21 (VIOLATED)
+icache_1/_12756_/ZN                    25.63   38.83  -13.20 (VIOLATED)
+icache_1/_22128_/ZN                    27.62   40.69  -13.07 (VIOLATED)
+icache_1/_14950_/ZN                    27.62   40.23  -12.61 (VIOLATED)
+icache_1/lce/_19987_/ZN               104.07  116.62  -12.56 (VIOLATED)
+icache_1/_15300_/ZN                    27.62   40.05  -12.43 (VIOLATED)
+icache_1/_13420_/ZN                    27.62   39.81  -12.19 (VIOLATED)
+icache_1/_13466_/ZN                    43.87   55.85  -11.98 (VIOLATED)
+icache_1/_15682_/ZN                    27.62   39.44  -11.82 (VIOLATED)
+icache_1/_12669_/ZN                    25.63   37.45  -11.81 (VIOLATED)
+icache_1/_21127_/ZN                    27.62   38.96  -11.35 (VIOLATED)
+icache_1/_23028_/ZN                    25.63   36.85  -11.21 (VIOLATED)
+icache_1/_15532_/ZN                    27.62   38.46  -10.85 (VIOLATED)
+icache_1/_14669_/ZN                    27.62   38.33  -10.71 (VIOLATED)
+icache_1/_15817_/ZN                    27.62   38.11  -10.49 (VIOLATED)
+icache_1/_16286_/ZN                    27.62   37.98  -10.36 (VIOLATED)
+icache_1/_16906_/ZN                    27.62   37.98  -10.36 (VIOLATED)
+icache_1/_12730_/ZN                    27.62   37.70  -10.08 (VIOLATED)
+icache_1/_16016_/ZN                    27.62   37.62  -10.01 (VIOLATED)
+icache_1/_14875_/ZN                    27.62   37.42   -9.80 (VIOLATED)
+icache_1/_21456_/ZN                    25.63   35.42   -9.78 (VIOLATED)
+icache_1/_21117_/ZN                    27.62   37.33   -9.71 (VIOLATED)
+icache_1/_21830_/ZN                    27.62   37.31   -9.69 (VIOLATED)
+icache_1/_15810_/ZN                    27.62   37.19   -9.57 (VIOLATED)
+icache_1/_15460_/ZN                    27.62   36.93   -9.31 (VIOLATED)
+icache_1/_17230_/ZN                    27.62   36.93   -9.31 (VIOLATED)
+icache_1/_22875_/ZN                    25.63   34.24   -8.60 (VIOLATED)
+icache_1/_21639_/ZN                    39.60   48.05   -8.45 (VIOLATED)
+icache_1/_21922_/ZN                    43.87   52.03   -8.16 (VIOLATED)
+icache_1/_15889_/ZN                    27.62   35.60   -7.98 (VIOLATED)
+icache_1/_15017_/ZN                    27.62   35.53   -7.91 (VIOLATED)
+icache_1/_16999_/ZN                    27.62   35.09   -7.47 (VIOLATED)
+icache_1/_16354_/ZN                    43.87   50.71   -6.84 (VIOLATED)
+icache_1/lce/_19096_/ZN               104.07  110.83   -6.77 (VIOLATED)
+icache_1/_15072_/ZN                    27.62   34.36   -6.74 (VIOLATED)
+icache_1/_12169_/ZN                    25.63   32.25   -6.62 (VIOLATED)
+icache_1/_22554_/ZN                    25.63   32.12   -6.48 (VIOLATED)
+icache_1/_12155_/ZN                    25.63   31.60   -5.96 (VIOLATED)
+icache_1/_16142_/ZN                    27.62   33.35   -5.73 (VIOLATED)
+icache_1/_23167_/ZN                    43.87   49.20   -5.33 (VIOLATED)
+icache_1/_14807_/ZN                    27.62   32.76   -5.14 (VIOLATED)
+icache_1/_12132_/ZN                    25.63   30.45   -4.81 (VIOLATED)
+icache_1/_23232_/ZN                    43.87   48.54   -4.67 (VIOLATED)
+icache_1/_12750_/ZN                    25.63   29.78   -4.14 (VIOLATED)
+icache_1/_14546_/ZN                    27.62   31.52   -3.90 (VIOLATED)
+icache_1/_23053_/ZN                    27.62   31.28   -3.66 (VIOLATED)
+icache_1/_14758_/ZN                    27.62   30.69   -3.07 (VIOLATED)
+icache_1/_16740_/ZN                    27.62   30.49   -2.87 (VIOLATED)
+icache_1/_23110_/ZN                    43.87   46.59   -2.72 (VIOLATED)
+icache_1/_17384_/ZN                    63.32   65.78   -2.46 (VIOLATED)
+icache_1/_21678_/ZN                    43.87   46.09   -2.23 (VIOLATED)
+icache_1/_17108_/ZN                    27.62   29.26   -1.64 (VIOLATED)
+icache_1/_23105_/ZN                    27.62   29.10   -1.48 (VIOLATED)
+icache_1/_14414_/ZN                    27.62   29.07   -1.45 (VIOLATED)
+icache_1/_17460_/ZN                    43.87   45.31   -1.44 (VIOLATED)
+icache_1/_16763_/ZN                    43.87   44.91   -1.04 (VIOLATED)
+icache_1/_12742_/ZN                    25.63   26.58   -0.94 (VIOLATED)
+bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_5048_/ZN   11.48   12.31   -0.82 (VIOLATED)
+icache_1/_23091_/ZN                    27.62   28.12   -0.51 (VIOLATED)
+icache_1/_22406_/ZN                    43.87   44.27   -0.40 (VIOLATED)
+icache_1/lce/_20276_/ZN               106.81  107.20   -0.39 (VIOLATED)
+icache_1/_15318_/ZN                    27.62   27.85   -0.23 (VIOLATED)
+icache_1/_18203_/ZN                    11.48   11.67   -0.18 (VIOLATED)
+icache_1/_21046_/ZN                    27.62   27.73   -0.11 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-0.0221949964761734
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.1118
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-64.12879943847656
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+104.06500244140625
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-0.6162
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 7
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 101
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 57
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+Startpoint: icache_1/addr_tv_r[18]$_SDFFCE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: bp_fe_pc_gen_1/pc_gen_icache_o[35]$_SDFFCE_PP0P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.31    0.31   clock network delay (propagated)
+   0.00    0.31 ^ icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/CK (DFF_X1)
+   0.10    0.41 v icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/Q (DFF_X1)
+   0.03    0.44 v icache_1/_18717_/Z (BUF_X4)
+   0.05    0.50 v icache_1/_17578_/Z (XOR2_X1)
+   0.11    0.61 ^ icache_1/_17579_/ZN (NOR4_X1)
+   0.03    0.64 v icache_1/_17680_/ZN (NAND3_X1)
+   0.05    0.69 v icache_1/_17681_/ZN (AND3_X1)
+   0.10    0.79 ^ icache_1/_17682_/ZN (OAI21_X4)
+   0.16    0.95 ^ icache_1/_17683_/Z (XOR2_X2)
+   0.09    1.05 ^ icache_1/_17789_/Z (CLKBUF_X3)
+   0.03    1.07 v icache_1/_17790_/ZN (NAND3_X1)
+   0.03    1.11 ^ icache_1/_17791_/ZN (NAND2_X1)
+   0.02    1.13 v icache_1/_17792_/ZN (NOR4_X1)
+   0.12    1.25 ^ icache_1/_17812_/ZN (OAI33_X1)
+   0.04    1.29 ^ wire2200/Z (BUF_X2)
+   0.03    1.32 v bp_fe_pc_gen_1/_2574_/ZN (NAND3_X2)
+   0.09    1.41 v bp_fe_pc_gen_1/_2575_/ZN (OR3_X4)
+   0.07    1.48 ^ bp_fe_pc_gen_1/_2579_/ZN (AOI21_X1)
+   0.13    1.61 ^ bp_fe_pc_gen_1/_2630_/ZN (AND2_X4)
+   0.17    1.78 ^ bp_fe_pc_gen_1/_4911_/S (HA_X1)
+   0.04    1.82 v bp_fe_pc_gen_1/_3643_/ZN (NAND4_X2)
+   0.13    1.95 ^ bp_fe_pc_gen_1/_3644_/ZN (NOR4_X2)
+   0.02    1.97 v bp_fe_pc_gen_1/_3698_/ZN (NAND2_X1)
+   0.07    2.05 ^ bp_fe_pc_gen_1/_3699_/ZN (NOR3_X1)
+   0.03    2.07 v bp_fe_pc_gen_1/_3701_/ZN (AOI221_X2)
+   0.05    2.12 v bp_fe_pc_gen_1/_3702_/ZN (AND2_X1)
+   0.05    2.17 ^ bp_fe_pc_gen_1/_3773_/ZN (OAI21_X1)
+   0.07    2.24 ^ bp_fe_pc_gen_1/_3774_/Z (XOR2_X2)
+   0.03    2.27 v bp_fe_pc_gen_1/_3781_/ZN (AOI221_X1)
+   0.07    2.34 ^ bp_fe_pc_gen_1/_3784_/ZN (AOI221_X1)
+   0.00    2.34 ^ bp_fe_pc_gen_1/pc_gen_icache_o[35]$_SDFFCE_PP0P_/D (DFF_X1)
+           2.34   data arrival time
+
+   1.80    1.80   clock CLK (rise edge)
+   0.30    2.10   clock network delay (propagated)
+   0.00    2.10   clock reconvergence pessimism
+           2.10 ^ bp_fe_pc_gen_1/pc_gen_icache_o[35]$_SDFFCE_PP0P_/CK (DFF_X1)
+  -0.04    2.07   library setup time
+           2.07   data required time
+---------------------------------------------------------
+           2.07   data required time
+          -2.34   data arrival time
+---------------------------------------------------------
+          -0.27   slack (VIOLATED)
+
+
+Startpoint: icache_1/addr_tv_r[18]$_SDFFCE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: bp_fe_pc_gen_1/pc_gen_icache_o[43]$_SDFFCE_PP0P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.31    0.31   clock network delay (propagated)
+   0.00    0.31 ^ icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/CK (DFF_X1)
+   0.10    0.41 v icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/Q (DFF_X1)
+   0.03    0.44 v icache_1/_18717_/Z (BUF_X4)
+   0.05    0.50 v icache_1/_17578_/Z (XOR2_X1)
+   0.11    0.61 ^ icache_1/_17579_/ZN (NOR4_X1)
+   0.03    0.64 v icache_1/_17680_/ZN (NAND3_X1)
+   0.05    0.69 v icache_1/_17681_/ZN (AND3_X1)
+   0.10    0.79 ^ icache_1/_17682_/ZN (OAI21_X4)
+   0.16    0.95 ^ icache_1/_17683_/Z (XOR2_X2)
+   0.09    1.05 ^ icache_1/_17789_/Z (CLKBUF_X3)
+   0.03    1.07 v icache_1/_17790_/ZN (NAND3_X1)
+   0.03    1.11 ^ icache_1/_17791_/ZN (NAND2_X1)
+   0.02    1.13 v icache_1/_17792_/ZN (NOR4_X1)
+   0.12    1.25 ^ icache_1/_17812_/ZN (OAI33_X1)
+   0.04    1.29 ^ wire2200/Z (BUF_X2)
+   0.03    1.32 v bp_fe_pc_gen_1/_2574_/ZN (NAND3_X2)
+   0.09    1.41 v bp_fe_pc_gen_1/_2575_/ZN (OR3_X4)
+   0.07    1.48 ^ bp_fe_pc_gen_1/_2579_/ZN (AOI21_X1)
+   0.13    1.61 ^ bp_fe_pc_gen_1/_2630_/ZN (AND2_X4)
+   0.17    1.78 ^ bp_fe_pc_gen_1/_4911_/S (HA_X1)
+   0.04    1.82 v bp_fe_pc_gen_1/_3643_/ZN (NAND4_X2)
+   0.13    1.95 ^ bp_fe_pc_gen_1/_3644_/ZN (NOR4_X2)
+   0.04    1.99 v bp_fe_pc_gen_1/_3880_/ZN (OAI21_X1)
+   0.06    2.05 ^ bp_fe_pc_gen_1/_3882_/ZN (AOI21_X2)
+   0.02    2.07 v bp_fe_pc_gen_1/_3883_/ZN (NOR2_X1)
+   0.05    2.13 ^ bp_fe_pc_gen_1/_3884_/ZN (OAI21_X2)
+   0.03    2.16 v bp_fe_pc_gen_1/_3982_/ZN (AOI221_X2)
+   0.07    2.23 v bp_fe_pc_gen_1/_3983_/Z (XOR2_X2)
+   0.06    2.28 ^ bp_fe_pc_gen_1/_3990_/ZN (OAI221_X1)
+   0.04    2.32 ^ bp_fe_pc_gen_1/_3991_/ZN (AND2_X1)
+   0.00    2.32 ^ bp_fe_pc_gen_1/pc_gen_icache_o[43]$_SDFFCE_PP0P_/D (DFF_X2)
+           2.32   data arrival time
+
+   1.80    1.80   clock CLK (rise edge)
+   0.30    2.10   clock network delay (propagated)
+   0.00    2.10   clock reconvergence pessimism
+           2.10 ^ bp_fe_pc_gen_1/pc_gen_icache_o[43]$_SDFFCE_PP0P_/CK (DFF_X2)
+  -0.03    2.08   library setup time
+           2.08   data required time
+---------------------------------------------------------
+           2.08   data required time
+          -2.32   data arrival time
+---------------------------------------------------------
+          -0.24   slack (VIOLATED)
+
+
+Startpoint: icache_1/addr_tv_r[18]$_SDFFCE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: bp_fe_pc_gen_1/pc_gen_icache_o[49]$_SDFFCE_PP0P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.31    0.31   clock network delay (propagated)
+   0.00    0.31 ^ icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/CK (DFF_X1)
+   0.10    0.41 v icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/Q (DFF_X1)
+   0.03    0.44 v icache_1/_18717_/Z (BUF_X4)
+   0.05    0.50 v icache_1/_17578_/Z (XOR2_X1)
+   0.11    0.61 ^ icache_1/_17579_/ZN (NOR4_X1)
+   0.03    0.64 v icache_1/_17680_/ZN (NAND3_X1)
+   0.05    0.69 v icache_1/_17681_/ZN (AND3_X1)
+   0.10    0.79 ^ icache_1/_17682_/ZN (OAI21_X4)
+   0.16    0.95 ^ icache_1/_17683_/Z (XOR2_X2)
+   0.09    1.05 ^ icache_1/_17789_/Z (CLKBUF_X3)
+   0.03    1.07 v icache_1/_17790_/ZN (NAND3_X1)
+   0.03    1.11 ^ icache_1/_17791_/ZN (NAND2_X1)
+   0.02    1.13 v icache_1/_17792_/ZN (NOR4_X1)
+   0.12    1.25 ^ icache_1/_17812_/ZN (OAI33_X1)
+   0.04    1.29 ^ wire2200/Z (BUF_X2)
+   0.03    1.32 v bp_fe_pc_gen_1/_2574_/ZN (NAND3_X2)
+   0.09    1.41 v bp_fe_pc_gen_1/_2575_/ZN (OR3_X4)
+   0.07    1.48 ^ bp_fe_pc_gen_1/_2579_/ZN (AOI21_X1)
+   0.13    1.61 ^ bp_fe_pc_gen_1/_2630_/ZN (AND2_X4)
+   0.17    1.78 ^ bp_fe_pc_gen_1/_4911_/S (HA_X1)
+   0.04    1.82 v bp_fe_pc_gen_1/_3643_/ZN (NAND4_X2)
+   0.13    1.95 ^ bp_fe_pc_gen_1/_3644_/ZN (NOR4_X2)
+   0.04    1.99 v bp_fe_pc_gen_1/_3880_/ZN (OAI21_X1)
+   0.06    2.05 ^ bp_fe_pc_gen_1/_3882_/ZN (AOI21_X2)
+   0.03    2.09 v bp_fe_pc_gen_1/_4075_/ZN (OAI21_X1)
+   0.04    2.13 ^ bp_fe_pc_gen_1/_4115_/ZN (NAND2_X1)
+   0.03    2.16 v bp_fe_pc_gen_1/_4119_/ZN (AOI221_X2)
+   0.05    2.21 ^ bp_fe_pc_gen_1/_4120_/ZN (XNOR2_X2)
+   0.03    2.25 v bp_fe_pc_gen_1/_4123_/ZN (AOI221_X1)
+   0.07    2.32 ^ bp_fe_pc_gen_1/_4129_/ZN (AOI221_X1)
+   0.00    2.32 ^ bp_fe_pc_gen_1/pc_gen_icache_o[49]$_SDFFCE_PP0P_/D (DFF_X2)
+           2.32   data arrival time
+
+   1.80    1.80   clock CLK (rise edge)
+   0.31    2.11   clock network delay (propagated)
+   0.00    2.11   clock reconvergence pessimism
+           2.11 ^ bp_fe_pc_gen_1/pc_gen_icache_o[49]$_SDFFCE_PP0P_/CK (DFF_X2)
+  -0.03    2.08   library setup time
+           2.08   data required time
+---------------------------------------------------------
+           2.08   data required time
+          -2.32   data arrival time
+---------------------------------------------------------
+          -0.24   slack (VIOLATED)
+
+
+Startpoint: icache_1/addr_tv_r[18]$_SDFFCE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: bp_fe_pc_gen_1/pc_gen_icache_o[63]$_SDFFCE_PP0P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.31    0.31   clock network delay (propagated)
+   0.00    0.31 ^ icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/CK (DFF_X1)
+   0.10    0.41 v icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/Q (DFF_X1)
+   0.03    0.44 v icache_1/_18717_/Z (BUF_X4)
+   0.05    0.50 v icache_1/_17578_/Z (XOR2_X1)
+   0.11    0.61 ^ icache_1/_17579_/ZN (NOR4_X1)
+   0.03    0.64 v icache_1/_17680_/ZN (NAND3_X1)
+   0.05    0.69 v icache_1/_17681_/ZN (AND3_X1)
+   0.10    0.79 ^ icache_1/_17682_/ZN (OAI21_X4)
+   0.16    0.95 ^ icache_1/_17683_/Z (XOR2_X2)
+   0.09    1.05 ^ icache_1/_17789_/Z (CLKBUF_X3)
+   0.03    1.07 v icache_1/_17790_/ZN (NAND3_X1)
+   0.03    1.11 ^ icache_1/_17791_/ZN (NAND2_X1)
+   0.02    1.13 v icache_1/_17792_/ZN (NOR4_X1)
+   0.12    1.25 ^ icache_1/_17812_/ZN (OAI33_X1)
+   0.04    1.29 ^ wire2200/Z (BUF_X2)
+   0.03    1.32 v bp_fe_pc_gen_1/_2574_/ZN (NAND3_X2)
+   0.09    1.41 v bp_fe_pc_gen_1/_2575_/ZN (OR3_X4)
+   0.07    1.48 ^ bp_fe_pc_gen_1/_2579_/ZN (AOI21_X1)
+   0.13    1.61 ^ bp_fe_pc_gen_1/_2630_/ZN (AND2_X4)
+   0.17    1.78 ^ bp_fe_pc_gen_1/_4911_/S (HA_X1)
+   0.04    1.82 v bp_fe_pc_gen_1/_3643_/ZN (NAND4_X2)
+   0.13    1.95 ^ bp_fe_pc_gen_1/_3644_/ZN (NOR4_X2)
+   0.04    1.99 v bp_fe_pc_gen_1/_3880_/ZN (OAI21_X1)
+   0.06    2.05 ^ bp_fe_pc_gen_1/_3882_/ZN (AOI21_X2)
+   0.03    2.09 v bp_fe_pc_gen_1/_4075_/ZN (OAI21_X1)
+   0.04    2.13 ^ bp_fe_pc_gen_1/_4115_/ZN (NAND2_X1)
+   0.02    2.15 v bp_fe_pc_gen_1/_4524_/ZN (NAND3_X1)
+   0.02    2.18 ^ bp_fe_pc_gen_1/_4525_/ZN (NAND2_X1)
+   0.06    2.24 v bp_fe_pc_gen_1/_4526_/Z (MUX2_X1)
+   0.08    2.31 ^ bp_fe_pc_gen_1/_4527_/ZN (AOI221_X1)
+   0.00    2.31 ^ bp_fe_pc_gen_1/pc_gen_icache_o[63]$_SDFFCE_PP0P_/D (DFF_X2)
+           2.31   data arrival time
+
+   1.80    1.80   clock CLK (rise edge)
+   0.31    2.11   clock network delay (propagated)
+   0.00    2.11   clock reconvergence pessimism
+           2.11 ^ bp_fe_pc_gen_1/pc_gen_icache_o[63]$_SDFFCE_PP0P_/CK (DFF_X2)
+  -0.03    2.07   library setup time
+           2.07   data required time
+---------------------------------------------------------
+           2.07   data required time
+          -2.31   data arrival time
+---------------------------------------------------------
+          -0.24   slack (VIOLATED)
+
+
+Startpoint: icache_1/addr_tv_r[18]$_SDFFCE_PP0P_
+            (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: bp_fe_pc_gen_1/pc_gen_icache_o[41]$_SDFFCE_PP0P_
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.31    0.31   clock network delay (propagated)
+   0.00    0.31 ^ icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/CK (DFF_X1)
+   0.10    0.41 v icache_1/addr_tv_r[18]$_SDFFCE_PP0P_/Q (DFF_X1)
+   0.03    0.44 v icache_1/_18717_/Z (BUF_X4)
+   0.05    0.50 v icache_1/_17578_/Z (XOR2_X1)
+   0.11    0.61 ^ icache_1/_17579_/ZN (NOR4_X1)
+   0.03    0.64 v icache_1/_17680_/ZN (NAND3_X1)
+   0.05    0.69 v icache_1/_17681_/ZN (AND3_X1)
+   0.10    0.79 ^ icache_1/_17682_/ZN (OAI21_X4)
+   0.16    0.95 ^ icache_1/_17683_/Z (XOR2_X2)
+   0.09    1.05 ^ icache_1/_17789_/Z (CLKBUF_X3)
+   0.03    1.07 v icache_1/_17790_/ZN (NAND3_X1)
+   0.03    1.11 ^ icache_1/_17791_/ZN (NAND2_X1)
+   0.02    1.13 v icache_1/_17792_/ZN (NOR4_X1)
+   0.12    1.25 ^ icache_1/_17812_/ZN (OAI33_X1)
+   0.04    1.29 ^ wire2200/Z (BUF_X2)
+   0.03    1.32 v bp_fe_pc_gen_1/_2574_/ZN (NAND3_X2)
+   0.09    1.41 v bp_fe_pc_gen_1/_2575_/ZN (OR3_X4)
+   0.07    1.48 ^ bp_fe_pc_gen_1/_2579_/ZN (AOI21_X1)
+   0.13    1.61 ^ bp_fe_pc_gen_1/_2630_/ZN (AND2_X4)
+   0.17    1.78 ^ bp_fe_pc_gen_1/_4911_/S (HA_X1)
+   0.04    1.82 v bp_fe_pc_gen_1/_3643_/ZN (NAND4_X2)
+   0.13    1.95 ^ bp_fe_pc_gen_1/_3644_/ZN (NOR4_X2)
+   0.02    1.97 v bp_fe_pc_gen_1/_3698_/ZN (NAND2_X1)
+   0.07    2.05 ^ bp_fe_pc_gen_1/_3699_/ZN (NOR3_X1)
+   0.03    2.07 v bp_fe_pc_gen_1/_3701_/ZN (AOI221_X2)
+   0.05    2.12 ^ bp_fe_pc_gen_1/_3828_/ZN (OAI21_X2)
+   0.03    2.14 v bp_fe_pc_gen_1/_3938_/ZN (AOI21_X1)
+   0.06    2.20 ^ bp_fe_pc_gen_1/_3939_/ZN (XNOR2_X2)
+   0.02    2.22 v bp_fe_pc_gen_1/_3940_/ZN (AOI21_X1)
+   0.07    2.29 ^ bp_fe_pc_gen_1/_3947_/ZN (AOI221_X1)
+   0.00    2.29 ^ bp_fe_pc_gen_1/pc_gen_icache_o[41]$_SDFFCE_PP0P_/D (DFF_X2)
+           2.29   data arrival time
+
+   1.80    1.80   clock CLK (rise edge)
+   0.31    2.11   clock network delay (propagated)
+   0.00    2.11   clock reconvergence pessimism
+           2.11 ^ bp_fe_pc_gen_1/pc_gen_icache_o[41]$_SDFFCE_PP0P_/CK (DFF_X2)
+  -0.04    2.07   library setup time
+           2.07   data required time
+---------------------------------------------------------
+           2.07   data required time
+          -2.29   data arrival time
+---------------------------------------------------------
+          -0.22   slack (VIOLATED)
+
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+2.3412
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-0.2727
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-11.647873
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.92e-02   1.69e-03   3.45e-04   2.13e-02  13.3%
+Combinational          1.72e-02   3.30e-02   1.45e-03   5.17e-02  32.3%
+Clock                  2.85e-03   6.39e-03   2.64e-05   9.27e-03   5.8%
+Macro                  7.05e-02   0.00e+00   7.60e-03   7.81e-02  48.7%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.10e-01   4.11e-02   9.42e-03   1.60e-01 100.0%
+                          68.5%      25.6%       5.9%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 231201 u^2 51% utilization.
+
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0076] This plugin does not support propagateSizeHints()
+[WARNING GUI-0044] Unable to find net (line: 2264): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 5090): frFakeVSS
+[WARNING GUI-0044] Unable to find net (line: 5279): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 5282): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 5285): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 8705): frFakeVDD
+[WARNING GUI-0044] Unable to find net (line: 9242): frFakeVDD
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_fe/TDMP/final_routing.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_fe/TDMP/final_placement.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_fe/TDMP/final_ir_drop.webp.png
+[WARNING GUI-0066] Heat map "IR Drop" has not been populated with data.
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_fe/TDMP/final_clocks.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_fe/TDMP/final_congestion.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_fe/TDMP/final_resizer.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/nangate45/bp_fe/TDMP/cts_CLK.webp.png
+Elapsed time: 0:42.20[h:]min:sec. CPU time: user 40.89 sys 1.25 (99%). Peak memory: 785580KB.
