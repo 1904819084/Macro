@@ -5,6 +5,12 @@ We provide both implementation of our ReMaP framework, and the full scripts incl
 
 ## Quick Access to Our Meta-data and Results
 
+Get the code and put it in folder `DAC25-ReMaP`.
+
+```
+git clone https://github.com/xiaosinju/DAC25-ReMaP.git
+```
+
 **Two line of code to replicate the main table:**
 
 ```
@@ -34,7 +40,10 @@ We highly recommend the use of Docker to enable a smooth environment configurati
 
 The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/DREAMPlace) repository. We make minor revisions to make it more clear.
 
-1. Get the code and put it in folder `DAC25-ReMaP`.
+1. To ReMaP directory:
+
+   ```
+   cd ReMaP
 
 2. Get the container:
 
