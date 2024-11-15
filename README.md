@@ -146,6 +146,7 @@ If you failed to generate macro placement results, while wishing to run the eval
 Run the evaluation script through the following bash script:
 
 ```
+cd DAC25-ReMaP/OpenROAD-PPA-evaluation
 bash run-or.sh
 ```
 
