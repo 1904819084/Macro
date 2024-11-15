@@ -74,7 +74,7 @@ The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/D
    make
    ```
    
-5. We don't run `make install` here since we have to get benchmarks first. It is included in our following bash scripts.
+5. We don't run `make install` here since we have to get benchmarks first. `make install` is included in our following bash scripts.
 
 ### Get Benchmarks
 
