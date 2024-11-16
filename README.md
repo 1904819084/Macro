@@ -7,10 +7,6 @@ We provide both implementation of our ReMaP framework, and the full scripts incl
 
 Get the code and put it in folder `DAC25-ReMaP`.
 
-```
-git clone https://github.com/xiaosinju/DAC25-ReMaP.git
-```
-
 **Two line of code to replicate the main table:**
 
 ```
