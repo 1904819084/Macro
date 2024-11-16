@@ -36,10 +36,11 @@ We highly recommend the use of Docker to enable a smooth environment configurati
 
 The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/DREAMPlace) repository. We make minor revisions to make it more clear.
 
-1. To ReMaP directory:
+1. To `ReMaP` directory:
 
    ```
    cd ReMaP
+   ```
 
 2. Get the container:
 
@@ -55,7 +56,7 @@ The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/D
   docker build . --file Dockerfile --tag your_name/dreamplace:cuda
   ```
 
-3. Make sure you are in root directory of `ReMaP` (e.g. `/path-to-DAC25-ReMaP/ReMaP`). Enter bash environment of the container. Replace `limbo018` with your name if option 2 is chosen in the previous step.
+3. Make sure you are in root directory of `ReMaP` (e.g. `/path/to/DAC25-ReMaP/ReMaP`). Enter bash environment of the container. Replace `limbo018` with your name if option 2 is chosen in the previous step.
 
    ```
    sudo docker run --gpus=all -it -v $(pwd):/workspace limbo018/dreamplace:cuda bash
@@ -71,6 +72,15 @@ The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/D
    ```
    
 5. We don't run `make install` here since we have to get benchmarks first. `make install` is included in our following bash scripts.
+
+6. If option 1 is chosen in step 2, there are some necessary Python packages to be installed. Run the command below in the container:
+   ```
+   pip install -r requirements.txt
+   ``` 
+   Then exit from the container, and execute
+   ```
+   sudo docker commit $(sudo docker ps -a | head -2 | grep -Po "^[a-z0-9]+\s+limbo018/dreamplace:cuda" | awk '{print $1}') limbo018/dreamplace:cuda
+   ```
 
 ### Get Benchmarks
 
