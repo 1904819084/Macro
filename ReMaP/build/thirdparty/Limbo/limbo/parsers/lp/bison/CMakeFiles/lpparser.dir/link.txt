@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblpparser.a CMakeFiles/lpparser.dir/LpDriver.cc.o CMakeFiles/lpparser.dir/LpParser.cc.o CMakeFiles/lpparser.dir/LpScanner.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblpparser.a
