@@ -1,0 +1,12 @@
+ReMaP/benchmarks/or_cases/bp_quad/bp_quad.def filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/bp_be/ReMaP/6_final.odb filter=lfs diff=lfs merge=lfs -text
+.venv/lib/python3.9/site-packages/torch/lib/libtorch_cpu.dylib filter=lfs diff=lfs merge=lfs -text
+ReMaP/install/results/20260616/bp_quad/131422/bp_quad.gp.def filter=lfs diff=lfs merge=lfs -text
+ReMaP/install/benchmarks/or_cases/bp_quad/bp_quad.def filter=lfs diff=lfs merge=lfs -text
+ReMaP/benchmarks/or_cases/black_parrot/black_parrot.def filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/bp_be/ReMaP/5_2_route.odb filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/bp_be/ReMaP/5_route.odb filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/bp_be/ReMaP/6_1_fill.odb filter=lfs diff=lfs merge=lfs -text
+downloads/openroad_ppa_synth_netlists.zip filter=lfs diff=lfs merge=lfs -text
+ReMaP/install/results/20260616/black_parrot/123509/black_parrot.gp.def filter=lfs diff=lfs merge=lfs -text
+ReMaP/install/benchmarks/or_cases/black_parrot/black_parrot.def filter=lfs diff=lfs merge=lfs -text
