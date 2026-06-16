@@ -1,0 +1,10 @@
+prefix=/Users/bytedance/Documents/trae_projects/Remap/DAC25-ReMaP/ReMaP/install
+exec_prefix=/Users/bytedance/Documents/trae_projects/Remap/DAC25-ReMaP/ReMaP/install/bin
+libdir=/Users/bytedance/Documents/trae_projects/Remap/DAC25-ReMaP/ReMaP/install/lib
+includedir=/Users/bytedance/Documents/trae_projects/Remap/DAC25-ReMaP/ReMaP/install/include
+
+Name: LEMON
+Description: Library for Efficient Modeling and Optimization in Networks
+Version: 1.3.1
+Libs: -L${libdir} -lemon     
+Cflags: -I${includedir}

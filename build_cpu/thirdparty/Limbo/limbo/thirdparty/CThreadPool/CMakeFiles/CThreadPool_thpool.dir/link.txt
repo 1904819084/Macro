@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libCThreadPool_thpool.a CMakeFiles/CThreadPool_thpool.dir/thpool.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libCThreadPool_thpool.a

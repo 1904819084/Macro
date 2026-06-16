@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libgdsparser.a CMakeFiles/gdsparser.dir/GdsDriver.cpp.o CMakeFiles/gdsparser.dir/GdsReader.cpp.o CMakeFiles/gdsparser.dir/GdsWriter.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libgdsparser.a
