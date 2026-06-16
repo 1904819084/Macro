@@ -18,7 +18,7 @@
              ],
 "def_input" : "benchmarks/or_cases/black_parrot/black_parrot.def",
 "ref_path" : "benchmarks/or_cases/black_parrot/mp_out",
-"gpu" : 1,
+"gpu" : 0,
 "num_bins_x" : 1024,
 "num_bins_y" : 1024,
 "global_place_stages" : [

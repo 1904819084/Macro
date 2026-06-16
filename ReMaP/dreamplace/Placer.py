@@ -35,6 +35,7 @@ from Plot import extract_adjacency_matrix, plot_ports, plot_clusters
 
 from remap.ClusterPlacer import CoordinateClusterPlacer, ABPlacer
 from remap.MacroDistributor import NaiveDistributor, GridGuideDistributor
+from remap.device import select_torch_device
 from remap.utils.def2mp import def2mp
 from datetime import datetime
 
@@ -203,7 +204,7 @@ def place(params):
         
         abpl = ABPlacer(
             adjacency_matrix, macro_w, macro_h, layout_info,
-            device="cuda:0",
+            device=select_torch_device(params.gpu),
         )
         abpl(cluster_x, cluster_y, movable_macro_mask[:num_nodes])
         theta = \

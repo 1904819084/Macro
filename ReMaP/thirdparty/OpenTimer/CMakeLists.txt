@@ -10,7 +10,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON CACHE BOOL "turn on the verbose makefile")
 
 
 # CXX target properties
-if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU" OR CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU" OR CMAKE_CXX_COMPILER_ID STREQUAL "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL "AppleClang")
   find_package(OpenMP REQUIRED)
   if(OpenMP_CXX_FOUND)
     message(STATUS "OpenMP version: ${OpenMP_CXX_VERSION}")
@@ -25,7 +25,7 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     message(FATAL_ERROR "\nOpenTimer requires G++ at least v7.3 to build.")
   endif()
 ## clang++
-elseif (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL "AppleClang")
   if(CMAKE_CXX_COMPILER_VERSION VERSION_LESS "6.0")
     message(FATAL_ERROR "\nOpenTimer requires clang++ at least v6.0")
   endif() 
@@ -182,7 +182,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 list(APPEND OT_LINK_FLAGS "")
 list(APPEND OT_LINK_FLAGS OpenTimer)
 list(APPEND OT_LINK_FLAGS Threads::Threads)
-list(APPEND OT_LINK_FLAGS stdc++fs)
+if (NOT CMAKE_CXX_COMPILER_ID STREQUAL "AppleClang")
+  list(APPEND OT_LINK_FLAGS stdc++fs)
+endif()
 message(STATUS "OT_LINK_FLAGS: ${OT_LINK_FLAGS}")
 
 # tau15
@@ -354,7 +356,5 @@ add_test(it.shell.ac97_ctrl ${OT_SHELL_CHECKER} ${OT_SHELL} ${OT_BENCHMARK_DIR} 
 add_test(it.shell.aes_core ${OT_SHELL_CHECKER} ${OT_SHELL} ${OT_BENCHMARK_DIR} aes_core)
 add_test(it.shell.des_perf ${OT_SHELL_CHECKER} ${OT_SHELL} ${OT_BENCHMARK_DIR} des_perf)
 add_test(it.shell.vga_lcd ${OT_SHELL_CHECKER} ${OT_SHELL} ${OT_BENCHMARK_DIR} vga_lcd)
-
-
 
 

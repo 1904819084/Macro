@@ -6,8 +6,8 @@ proc find_macros {} {
   foreach inst [$block getInsts] {
     set inst_master [$inst getMaster]
 
-    # BLOCK means MACRO cells
-    if { [string match [$inst_master getType] "BLOCK"] } {
+    # OpenROAD versions may report macro masters as BLOCK or BLOCK_BLACKBOX.
+    if { [string match "BLOCK*" [$inst_master getType]] } {
       append macros " " $inst
     }
   }

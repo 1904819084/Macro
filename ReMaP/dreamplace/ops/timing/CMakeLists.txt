@@ -15,8 +15,11 @@ set(LINK_LIBS utility_cxx
   programoptions
   flute
   OpenTimer
-  stdc++fs
   )
+
+if(NOT CMAKE_CXX_COMPILER_ID MATCHES "AppleClang")
+  list(APPEND LINK_LIBS stdc++fs)
+endif()
 
 file(GLOB CPP_SOURCES
   src/timing_cpp.cpp
@@ -34,4 +37,3 @@ install(TARGETS
 
 file(GLOB INSTALL_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/*.py)
 install(FILES ${INSTALL_SRCS} DESTINATION dreamplace/ops/${OP_NAME})
-

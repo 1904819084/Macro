@@ -1,14 +1,1 @@
-*.o
-*.a
-lib/*
-bin/*
-include/*
-wiki
-obj/*
-*.d
-*.nfs*
-limbo/thirdparty/liblinear/predict
-limbo/thirdparty/liblinear/train
-build
-install
-.DS_Store
+# emptied: do not ignore anything

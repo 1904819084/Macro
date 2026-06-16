@@ -1,4 +1,1 @@
-obj
-test_ProgramOptions
-test_ProgramOptions_simple
-valgrind.*
+# emptied: do not ignore anything

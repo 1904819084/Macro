@@ -14,6 +14,13 @@
 
 DREAMPLACE_BEGIN_NAMESPACE
 
+template <typename T>
+class Interval;
+
+template <typename T>
+inline typename coordinate_traits<T>::coordinate_type
+center(Interval<T> const& i1);
+
 /// an interval class 
 /// it consists of a low value and a high value 
 template <typename T>
@@ -145,7 +152,7 @@ class Interval
         };
         struct CompareByCenter
         {
-            bool operator()(Interval const& i1, Interval const& i2) const {return i1.center() < i2.center();}
+            bool operator()(Interval const& i1, Interval const& i2) const {return center(i1) < center(i2);}
         };
 
     protected:

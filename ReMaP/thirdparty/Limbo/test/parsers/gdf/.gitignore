@@ -1,4 +1,1 @@
-test_bison
-valgrind*.txt
-valgrind*.log
-*.dSYM
+# emptied: do not ignore anything

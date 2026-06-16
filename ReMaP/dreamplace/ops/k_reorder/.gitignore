@@ -1,10 +1,1 @@
-*.pkl
-*.dat
-*.png
-unitest/a.out
-*.dp.pklz
-*.bk
-unitest/in.txt
-unitest/log
-*.gds
-*.bk?
+# emptied: do not ignore anything

@@ -20,7 +20,7 @@
              ],
 "def_input" : "benchmarks/or_cases/bp_quad/bp_quad.def",
 "ref_path" : "benchmarks/or_cases/bp_quad/mp_out",
-"gpu" : 1,
+"gpu" : 0,
 "num_bins_x" : 1024,
 "num_bins_y" : 1024,
 "global_place_stages" : [

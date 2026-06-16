@@ -9,6 +9,7 @@
 #include <cstdlib>
 #include <limits>
 #include <numeric>
+#include <random>
 #include <vector>
 #include "utility/src/torch.h"
 #include "utility/src/utils.h"
@@ -590,7 +591,7 @@ int globalSwapCPULauncher(DetailedPlaceDB<T> db, int batch_size, int max_iters,
                        state.bin2node_map, state.node2bin_map);
 
   // fix random seed
-  std::srand(1000);
+  std::mt19937 random_generator(1000);
 
   state.ordered_nodes.resize(db.num_movable_nodes);
   std::iota(state.ordered_nodes.begin(), state.ordered_nodes.end(), 0);
@@ -609,7 +610,8 @@ int globalSwapCPULauncher(DetailedPlaceDB<T> db, int batch_size, int max_iters,
   dreamplacePrint(kINFO, "initial hpwl = %.3f\n", hpwls[0]);
   for (int iter = 0; iter < max_iters; ++iter) {
     iter_time_start = CPUTimer::getGlobaltime();
-    std::random_shuffle(state.ordered_nodes.begin(), state.ordered_nodes.end());
+    std::shuffle(state.ordered_nodes.begin(), state.ordered_nodes.end(),
+                 random_generator);
     global_swap(db, state);
     iter_time_stop = CPUTimer::getGlobaltime();
     dreamplacePrint(
