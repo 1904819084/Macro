@@ -1,0 +1,13 @@
+{
+	"detailedplace__utilizatin__before__dpl": 45.8767,
+	"detailedplace__design__instance__displacement__total": 59255.7,
+	"detailedplace__design__instance__displacement__mean": 0.9885,
+	"detailedplace__design__instance__displacement__max": 60.664,
+	"detailedplace__route__wirelength__estimated": 3.27909e+06,
+	"detailedplace__dpl__hpwl__delta": 6.36798e+07,
+	"detailedplace__dpl__hpwl__delta__percent": 1,
+	"detailedplace__design__violations": 0,
+	"detailedplace__flow__warnings__count": 0,
+	"detailedplace__flow__errors__count": 0,
+	"detailedplace__flow__warnings__type_count": 0
+}

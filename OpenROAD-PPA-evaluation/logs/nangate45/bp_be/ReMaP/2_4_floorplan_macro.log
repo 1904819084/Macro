@@ -1,0 +1,16 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO][FLOW-xxxx] Using manual macro placement file mp_out
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_0__data_mem/macro_mem/mem placed. Bounding box (631.560um, 16.975um), (784.130um, 130.375um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_1__data_mem/macro_mem/mem placed. Bounding box (464.470um, 16.975um), (617.040um, 130.375um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_2__data_mem/macro_mem/mem placed. Bounding box (85.390um, 16.975um), (237.960um, 130.375um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_3__data_mem/macro_mem/mem placed. Bounding box (255.965um, 16.975um), (408.535um, 130.375um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_4__data_mem/macro_mem/mem placed. Bounding box (15.770um, 147.035um), (168.340um, 260.435um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem placed. Bounding box (186.345um, 147.035um), (338.915um, 260.435um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_6__data_mem/macro_mem/mem placed. Bounding box (15.770um, 277.095um), (168.340um, 390.495um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/data_mem_7__data_mem/macro_mem/mem placed. Bounding box (631.560um, 147.035um), (784.130um, 260.435um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/stat_mem.macro_mem.mem placed. Bounding box (15.770um, 624.435um), (26.980um, 683.235um). Orientation R0
+[INFO MPL-0035] Macro be_mmu/dcache/tag_mem.macro_mem.mem placed. Bounding box (15.770um, 16.975um), (70.300um, 106.375um). Orientation R0
+Elapsed time: 0:05.31[h:]min:sec. CPU time: user 4.60 sys 0.18 (90%). Peak memory: 237696KB.
