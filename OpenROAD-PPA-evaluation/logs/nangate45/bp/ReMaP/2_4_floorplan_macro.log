@@ -1,0 +1,46 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_yumi_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_v_i[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_cmd_v_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[WARNING STA-0366] port 'mem_data_resp_ready_o[0]' not found.
+[INFO][FLOW-xxxx] Using manual macro placement file mp_out
+[INFO MPL-0035] Macro multi_top/me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem0.mem placed. Bounding box (181.995um, 16.975um), (236.525um, 106.375um). Orientation R0
+[INFO MPL-0035] Macro multi_top/me/genblk1_0__bp_cce_top/bp_cce/directory/wg_ram.macro_mem1.mem placed. Bounding box (259.175um, 16.975um), (313.705um, 106.375um). Orientation R0
+[INFO MPL-0035] Macro multi_top/me/genblk1_0__bp_cce_top/bp_cce/pc_inst_ram/cce_inst_ram/macro_mem/mem placed. Bounding box (45.455um, 16.975um), (160.595um, 135.975um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_0__data_mem/macro_mem/mem placed. Bounding box (1181.610um, 16.975um), (1334.180um, 130.375um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_1__data_mem/macro_mem/mem placed. Bounding box (1181.610um, 148.155um), (1334.180um, 261.555um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_2__data_mem/macro_mem/mem placed. Bounding box (1181.610um, 279.475um), (1334.180um, 392.875um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_3__data_mem/macro_mem/mem placed. Bounding box (1181.610um, 919.275um), (1334.180um, 1032.675um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_4__data_mem/macro_mem/mem placed. Bounding box (1181.610um, 410.655um), (1334.180um, 524.055um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem placed. Bounding box (1181.610um, 541.975um), (1334.180um, 655.375um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_6__data_mem/macro_mem/mem placed. Bounding box (1015.385um, 16.975um), (1167.955um, 130.375um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/data_mem_7__data_mem/macro_mem/mem placed. Bounding box (1015.385um, 148.155um), (1167.955um, 261.555um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/stat_mem.macro_mem.mem placed. Bounding box (15.770um, 74.095um), (26.980um, 132.895um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/be/be_mmu/dcache/tag_mem.macro_mem.mem placed. Bounding box (15.770um, 153.895um), (70.300um, 243.295um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem placed. Bounding box (15.770um, 1170.435um), (168.340um, 1283.835um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem placed. Bounding box (1015.385um, 1170.435um), (1167.955um, 1283.835um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem placed. Bounding box (532.260um, 1170.435um), (684.830um, 1283.835um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem placed. Bounding box (704.420um, 1170.435um), (856.990um, 1283.835um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem placed. Bounding box (15.770um, 1044.855um), (168.340um, 1158.255um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_4__data_mem_bank/macro_mem/mem placed. Bounding box (1181.610um, 1044.855um), (1334.180um, 1158.255um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_5__data_mem_bank/macro_mem/mem placed. Bounding box (187.935um, 1170.435um), (340.505um, 1283.835um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_6__data_mem_bank/macro_mem/mem placed. Bounding box (1181.610um, 1170.435um), (1334.180um, 1283.835um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/data_mem_banks_7__data_mem_bank/macro_mem/mem placed. Bounding box (360.095um, 1170.435um), (512.665um, 1283.835um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/metadata_mem.macro_mem.mem placed. Bounding box (15.770um, 16.975um), (26.410um, 53.375um). Orientation R0
+[INFO MPL-0035] Macro multi_top/rof1_0__core/fe/icache_1/tag_mem.macro_mem.mem placed. Bounding box (15.770um, 262.395um), (70.300um, 351.795um). Orientation R0
+Elapsed time: 0:16.20[h:]min:sec. CPU time: user 12.61 sys 0.85 (83%). Peak memory: 654664KB.

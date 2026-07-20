@@ -1,0 +1,4100 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /work/OpenROAD-PPA-evaluation/platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation swerv_wrapper (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 566231 rc segments
+[INFO RCX-0439] Coupling Cap extraction swerv_wrapper ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 4% of 994968 wires extracted
+[INFO RCX-0442] 9% of 994968 wires extracted
+[INFO RCX-0442] 14% of 994968 wires extracted
+[INFO RCX-0442] 26% of 994968 wires extracted
+[INFO RCX-0442] 40% of 994968 wires extracted
+[INFO RCX-0442] 47% of 994968 wires extracted
+[INFO RCX-0442] 51% of 994968 wires extracted
+[INFO RCX-0442] 56% of 994968 wires extracted
+[INFO RCX-0442] 64% of 994968 wires extracted
+[INFO RCX-0442] 74% of 994968 wires extracted
+[INFO RCX-0442] 84% of 994968 wires extracted
+[INFO RCX-0442] 96% of 994968 wires extracted
+[INFO RCX-0442] 100% of 994968 wires extracted
+[INFO RCX-0045] Extract 118701 nets, 674761 rsegs, 674761 caps, 1662465 ccs
+[INFO RCX-0042] 100000 nets finished
+[INFO RCX-0443] 118701 nets finished
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns max -4230.43
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns max -2.10
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack max -2.10
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+swerv/lsu/stbuf/_17772_/ZN              0.20    0.34   -0.14 (VIOLATED)
+swerv/lsu/stbuf/_15176_/ZN              0.20    0.32   -0.12 (VIOLATED)
+swerv/lsu/stbuf/_18886_/ZN              0.20    0.31   -0.11 (VIOLATED)
+swerv/lsu/stbuf/_12694_/ZN              0.20    0.31   -0.11 (VIOLATED)
+swerv/lsu/stbuf/_16359_/ZN              0.20    0.30   -0.10 (VIOLATED)
+swerv/lsu/stbuf/_12677_/ZN              0.20    0.29   -0.09 (VIOLATED)
+swerv/lsu/stbuf/_12834_/Z               0.20    0.29   -0.09 (VIOLATED)
+swerv/lsu/stbuf/_13861_/Z               0.20    0.29   -0.09 (VIOLATED)
+swerv/lsu/stbuf/_14781_/Z               0.20    0.28   -0.08 (VIOLATED)
+swerv/lsu/stbuf/_11527_/ZN              0.20    0.28   -0.08 (VIOLATED)
+swerv/lsu/stbuf/_12942_/Z               0.20    0.28   -0.08 (VIOLATED)
+swerv/lsu/stbuf/_12597_/Z               0.20    0.27   -0.07 (VIOLATED)
+swerv/lsu/stbuf/_13085_/ZN              0.20    0.27   -0.07 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18881_/ZN    0.20    0.27   -0.07 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18848_/ZN    0.20    0.27   -0.07 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18875_/ZN    0.20    0.26   -0.06 (VIOLATED)
+swerv/lsu/stbuf/_13469_/Z               0.20    0.26   -0.06 (VIOLATED)
+swerv/lsu/stbuf/_12609_/ZN              0.20    0.26   -0.06 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18842_/ZN    0.20    0.26   -0.06 (VIOLATED)
+swerv/lsu/stbuf/_18650_/ZN              0.20    0.26   -0.06 (VIOLATED)
+swerv/lsu/stbuf/_13459_/ZN              0.20    0.26   -0.06 (VIOLATED)
+swerv/lsu/stbuf/_10168_/Z               0.20    0.26   -0.06 (VIOLATED)
+swerv/lsu/stbuf/_13574_/ZN              0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_13448_/ZN              0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_15166_/ZN              0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_13009_/Z               0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_12356_/Z               0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_18664_/ZN              0.20    0.25   -0.05 (VIOLATED)
+swerv/dec/arf/_10525_/Z                 0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_12794_/Z               0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_13527_/Z               0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_14577_/Z               0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_14664_/Z               0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_13121_/ZN              0.20    0.25   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_12987_/ZN              0.20    0.24   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_10145_/Z               0.20    0.24   -0.05 (VIOLATED)
+swerv/dec/arf/_11461_/ZN                0.20    0.24   -0.05 (VIOLATED)
+swerv/lsu/stbuf/_12968_/ZN              0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_12975_/Z               0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_16496_/ZN              0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_13223_/ZN              0.20    0.24   -0.04 (VIOLATED)
+swerv/dec/arf/_11464_/ZN                0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_18776_/ZN              0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18868_/ZN    0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18887_/ZN    0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_12404_/Z               0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_14102_/ZN              0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18854_/ZN    0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_10088_/Z               0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_12797_/Z               0.20    0.24   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_13103_/Z               0.20    0.23   -0.04 (VIOLATED)
+swerv/lsu/stbuf/_12974_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_19557_/ZN              0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_12447_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_10175_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_13680_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_12351_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_14213_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_11384_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_18860_/ZN    0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_18628_/ZN              0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_12543_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/dec/arf/_13060_/ZN                0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_12284_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_11507_/ZN              0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_13321_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_10298_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_18121_/ZN              0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_10196_/Z               0.20    0.23   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_12697_/Z               0.20    0.22   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_13423_/Z               0.20    0.22   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_11926_/Z               0.20    0.22   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_10090_/Z               0.20    0.22   -0.03 (VIOLATED)
+swerv/lsu/stbuf/_13471_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_13030_/ZN              0.20    0.22   -0.02 (VIOLATED)
+swerv/dec/arf/_12133_/ZN                0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_16858_/ZN              0.20    0.22   -0.02 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1023_/ZN      0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_10444_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12738_/ZN              0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12480_/ZN              0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12976_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_16258_/ZN              0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12604_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12432_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_13635_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_20884_/ZN    0.20    0.22   -0.02 (VIOLATED)
+mem/Gen_dccm_enable_dccm/_1037_/ZN      0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_18814_/ZN              0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12328_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12635_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/dec/arf/_07828_/ZN                0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_10445_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12354_/ZN              0.20    0.22   -0.02 (VIOLATED)
+swerv/dec/arf/_10524_/Z                 0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_13640_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/dec/arf/_13935_/Z                 0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12971_/Z               0.20    0.22   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12282_/Z               0.20    0.21   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12410_/Z               0.20    0.21   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12571_/Z               0.20    0.21   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_12317_/Z               0.20    0.21   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_10209_/Z               0.20    0.21   -0.02 (VIOLATED)
+swerv/lsu/stbuf/_13201_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_13355_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_10082_/ZN              0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_10432_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_12734_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_12382_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/dec/arf/_11683_/Z                 0.20    0.21   -0.01 (VIOLATED)
+swerv/dec/arf/_10527_/Z                 0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_10355_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_11334_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_13299_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_12842_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_14401_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_13220_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/_10192_/ZN                        0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_12201_/ZN              0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_12315_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_12273_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_10189_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_10208_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19800_/ZN    0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_16056_/ZN              0.20    0.21   -0.01 (VIOLATED)
+swerv/dec/arf/_12700_/Z                 0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_13874_/Z               0.20    0.21   -0.01 (VIOLATED)
+swerv/dec/arf/_10513_/Z                 0.20    0.21   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_13865_/Z               0.20    0.20   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_10433_/Z               0.20    0.20   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_12455_/ZN              0.20    0.20   -0.01 (VIOLATED)
+swerv/lsu/stbuf/_13032_/Z               0.20    0.20   -0.01 (VIOLATED)
+swerv/lsu/bus_intf/bus_buffer/_19658_/ZN    0.20    0.20   -0.01 (VIOLATED)
+swerv/lsu/_8713_/Z                      0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_12006_/ZN                0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_10435_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_12921_/ZN                0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_12411_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_13023_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_08147_/ZN                0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_13720_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_08223_/ZN                0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_18499_/ZN              0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_11450_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_12436_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_12289_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_13915_/ZN                0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_19873_/ZN              0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_14078_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_12793_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_13060_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_12643_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_10086_/Z               0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_07989_/ZN                0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_07993_/ZN                0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_10404_/Z                 0.20    0.20   -0.00 (VIOLATED)
+swerv/lsu/stbuf/_12536_/ZN              0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_11684_/Z                 0.20    0.20   -0.00 (VIOLATED)
+swerv/_10221_/ZN                        0.20    0.20   -0.00 (VIOLATED)
+swerv/dec/arf/_10382_/Z                 0.20    0.20   -0.00 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+swerv/lsu/stbuf/_12834_/Z              60.65  137.12  -76.46 (VIOLATED)
+
+swerv/lsu/stbuf/_13861_/Z              60.73  132.68  -71.95 (VIOLATED)
+
+swerv/lsu/stbuf/_14781_/Z              60.73  129.51  -68.78 (VIOLATED)
+
+swerv/lsu/stbuf/_12597_/Z              60.65  129.00  -68.34 (VIOLATED)
+
+swerv/lsu/stbuf/_12942_/Z              60.65  125.55  -64.89 (VIOLATED)
+
+swerv/lsu/stbuf/_13469_/Z              60.65  119.21  -58.56 (VIOLATED)
+
+swerv/lsu/stbuf/_10168_/Z              60.65  117.57  -56.91 (VIOLATED)
+
+swerv/lsu/stbuf/_13009_/Z              60.65  116.62  -55.96 (VIOLATED)
+
+swerv/lsu/stbuf/_12356_/Z              60.65  116.40  -55.75 (VIOLATED)
+
+swerv/lsu/stbuf/_12794_/Z              60.65  114.84  -54.18 (VIOLATED)
+
+swerv/lsu/stbuf/_10145_/Z              60.65  114.49  -53.84 (VIOLATED)
+
+swerv/dec/arf/_10525_/Z                60.65  113.87  -53.21 (VIOLATED)
+
+swerv/lsu/stbuf/_13527_/Z              60.65  112.87  -52.22 (VIOLATED)
+
+swerv/lsu/stbuf/_14577_/Z              60.65  112.26  -51.61 (VIOLATED)
+
+swerv/lsu/stbuf/_14664_/Z              60.65  111.53  -50.87 (VIOLATED)
+
+swerv/lsu/stbuf/_12975_/Z              60.65  110.25  -49.60 (VIOLATED)
+
+swerv/lsu/stbuf/_17772_/ZN             26.70   75.77  -49.06 (VIOLATED)
+
+swerv/lsu/stbuf/_13103_/Z              60.65  108.89  -48.24 (VIOLATED)
+
+swerv/lsu/stbuf/_12404_/Z              60.65  108.85  -48.20 (VIOLATED)
+
+swerv/lsu/stbuf/_10175_/Z              60.65  107.54  -46.88 (VIOLATED)
+
+swerv/lsu/stbuf/_12797_/Z              60.65  106.88  -46.23 (VIOLATED)
+
+swerv/lsu/stbuf/_10088_/Z              60.65  106.85  -46.20 (VIOLATED)
+
+swerv/lsu/stbuf/_12974_/Z              60.65  106.66  -46.01 (VIOLATED)
+
+swerv/lsu/stbuf/_12447_/Z              60.65  106.52  -45.86 (VIOLATED)
+
+swerv/lsu/stbuf/_14213_/Z              60.65  106.14  -45.48 (VIOLATED)
+
+swerv/lsu/stbuf/_11384_/Z              60.65  105.62  -44.97 (VIOLATED)
+
+swerv/lsu/stbuf/_13680_/Z              60.65  105.56  -44.90 (VIOLATED)
+
+swerv/lsu/stbuf/_12351_/Z              60.65  105.49  -44.84 (VIOLATED)
+
+swerv/lsu/stbuf/_15176_/ZN             23.23   67.28  -44.05 (VIOLATED)
+
+swerv/lsu/stbuf/_10298_/Z              60.65  103.72  -43.06 (VIOLATED)
+
+swerv/lsu/stbuf/_12543_/Z              60.65  103.71  -43.05 (VIOLATED)
+
+swerv/lsu/stbuf/_13423_/Z              60.73  103.61  -42.88 (VIOLATED)
+
+swerv/lsu/stbuf/_12284_/Z              60.65  103.53  -42.87 (VIOLATED)
+
+swerv/lsu/stbuf/_13471_/Z              60.65  103.20  -42.54 (VIOLATED)
+
+swerv/lsu/stbuf/_13448_/ZN             58.36  100.83  -42.47 (VIOLATED)
+
+swerv/lsu/stbuf/_11926_/Z              60.65  102.90  -42.24 (VIOLATED)
+
+swerv/lsu/stbuf/_13321_/Z              60.65  102.68  -42.03 (VIOLATED)
+
+swerv/lsu/stbuf/_12697_/Z              60.65  102.56  -41.91 (VIOLATED)
+
+swerv/lsu/stbuf/_10444_/Z              60.65  102.44  -41.78 (VIOLATED)
+
+swerv/lsu/stbuf/_12694_/ZN             22.16   63.75  -41.58 (VIOLATED)
+
+swerv/lsu/stbuf/_10196_/Z              60.65  102.14  -41.48 (VIOLATED)
+
+swerv/lsu/stbuf/_18886_/ZN             26.70   67.79  -41.09 (VIOLATED)
+
+swerv/lsu/stbuf/_10090_/Z              60.65  101.73  -41.07 (VIOLATED)
+
+swerv/lsu/stbuf/_12976_/Z              60.73  101.76  -41.03 (VIOLATED)
+
+swerv/lsu/stbuf/_12480_/ZN             59.36  100.16  -40.80 (VIOLATED)
+
+swerv/lsu/stbuf/_12635_/Z              60.65  101.34  -40.69 (VIOLATED)
+
+swerv/dec/arf/_10524_/Z                60.65  100.56  -39.91 (VIOLATED)
+
+swerv/lsu/stbuf/_12604_/Z              60.65  100.53  -39.88 (VIOLATED)
+
+swerv/lsu/stbuf/_12328_/Z              60.65  100.51  -39.85 (VIOLATED)
+
+swerv/lsu/stbuf/_10445_/Z              60.73  100.45  -39.72 (VIOLATED)
+
+swerv/lsu/stbuf/_13635_/Z              60.65  100.36  -39.70 (VIOLATED)
+
+swerv/lsu/stbuf/_12738_/ZN             59.36   98.97  -39.61 (VIOLATED)
+
+swerv/lsu/stbuf/_12432_/Z              60.65  100.07  -39.42 (VIOLATED)
+
+swerv/lsu/stbuf/_12410_/Z              60.65   99.69  -39.04 (VIOLATED)
+
+swerv/lsu/stbuf/_16359_/ZN             26.70   65.19  -38.49 (VIOLATED)
+
+swerv/lsu/stbuf/_12282_/Z              60.65   98.98  -38.32 (VIOLATED)
+
+swerv/lsu/stbuf/_12317_/Z              60.73   98.59  -37.86 (VIOLATED)
+
+swerv/lsu/stbuf/_12677_/ZN             26.70   64.35  -37.64 (VIOLATED)
+
+swerv/lsu/stbuf/_10209_/Z              60.65   98.25  -37.59 (VIOLATED)
+
+swerv/lsu/stbuf/_13640_/Z              60.65   98.22  -37.57 (VIOLATED)
+
+swerv/dec/arf/_13935_/Z                60.65   97.91  -37.26 (VIOLATED)
+
+swerv/lsu/stbuf/_10355_/Z              60.65   97.69  -37.04 (VIOLATED)
+
+swerv/lsu/stbuf/_12571_/Z              60.65   97.43  -36.78 (VIOLATED)
+
+swerv/lsu/stbuf/_12971_/Z              60.65   97.23  -36.58 (VIOLATED)
+
+swerv/lsu/stbuf/_12382_/Z              60.65   97.13  -36.47 (VIOLATED)
+
+swerv/lsu/stbuf/_13201_/Z              60.65   97.06  -36.41 (VIOLATED)
+
+swerv/lsu/stbuf/_13355_/Z              60.65   97.06  -36.41 (VIOLATED)
+
+swerv/lsu/stbuf/_10432_/Z              60.65   97.01  -36.36 (VIOLATED)
+
+swerv/lsu/_8713_/Z                     60.65   96.94  -36.29 (VIOLATED)
+
+swerv/lsu/stbuf/_11334_/Z              60.65   96.83  -36.18 (VIOLATED)
+
+swerv/dec/arf/_11683_/Z                60.65   96.47  -35.82 (VIOLATED)
+
+swerv/lsu/stbuf/_13220_/Z              60.65   96.36  -35.71 (VIOLATED)
+
+swerv/dec/arf/_10527_/Z                60.65   96.15  -35.50 (VIOLATED)
+
+swerv/lsu/stbuf/_12734_/Z              60.65   95.93  -35.27 (VIOLATED)
+
+swerv/lsu/stbuf/_12842_/Z              60.65   95.62  -34.97 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_19800_/ZN   60.58   95.30  -34.72 (VIOLATED)
+
+swerv/lsu/stbuf/_13299_/Z              60.65   95.34  -34.69 (VIOLATED)
+
+swerv/lsu/stbuf/_10208_/Z              60.65   95.08  -34.43 (VIOLATED)
+
+swerv/lsu/stbuf/_11527_/ZN             26.05   60.39  -34.33 (VIOLATED)
+
+swerv/lsu/stbuf/_14401_/Z              60.65   94.95  -34.29 (VIOLATED)
+
+swerv/lsu/stbuf/_12455_/ZN             59.36   93.47  -34.11 (VIOLATED)
+
+swerv/lsu/stbuf/_13720_/Z              60.65   94.39  -33.74 (VIOLATED)
+
+swerv/lsu/stbuf/_12315_/Z              60.65   94.31  -33.65 (VIOLATED)
+
+swerv/lsu/stbuf/_12273_/Z              60.65   93.97  -33.31 (VIOLATED)
+
+swerv/lsu/stbuf/_11450_/Z              60.65   93.90  -33.25 (VIOLATED)
+
+swerv/lsu/stbuf/_13874_/Z              60.65   93.64  -32.98 (VIOLATED)
+
+swerv/dec/arf/_10513_/Z                60.65   93.44  -32.79 (VIOLATED)
+
+swerv/lsu/stbuf/_10189_/Z              60.65   93.40  -32.74 (VIOLATED)
+
+swerv/lsu/stbuf/_13023_/Z              60.65   93.35  -32.69 (VIOLATED)
+
+swerv/dec/arf/_12700_/Z                60.65   93.27  -32.61 (VIOLATED)
+
+swerv/lsu/stbuf/_10433_/Z              60.65   93.12  -32.47 (VIOLATED)
+
+swerv/lsu/stbuf/_10435_/Z              60.65   92.65  -32.00 (VIOLATED)
+
+swerv/dec/arf/_12921_/ZN               59.36   91.21  -31.85 (VIOLATED)
+
+swerv/lsu/stbuf/_13865_/Z              60.65   92.37  -31.71 (VIOLATED)
+
+swerv/lsu/stbuf/_12411_/Z              60.73   92.42  -31.69 (VIOLATED)
+
+swerv/lsu/stbuf/_12289_/Z              60.65   92.24  -31.59 (VIOLATED)
+
+swerv/lsu/stbuf/_12536_/ZN             59.36   90.82  -31.46 (VIOLATED)
+
+swerv/lsu/stbuf/_13032_/Z              60.73   92.12  -31.39 (VIOLATED)
+
+swerv/dec/arf/_10382_/Z                60.65   92.00  -31.35 (VIOLATED)
+
+swerv/lsu/stbuf/_12016_/Z              60.65   91.85  -31.19 (VIOLATED)
+
+swerv/lsu/stbuf/_12436_/Z              60.65   91.67  -31.01 (VIOLATED)
+
+swerv/lsu/stbuf/_13906_/Z              60.65   91.51  -30.86 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1023_/ZN     58.36   89.11  -30.75 (VIOLATED)
+
+swerv/lsu/stbuf/_14629_/Z              60.65   91.37  -30.72 (VIOLATED)
+
+swerv/ifu/_3121_/Z                     60.50   91.14  -30.64 (VIOLATED)
+
+swerv/lsu/_8717_/Z                     60.65   91.17  -30.51 (VIOLATED)
+
+swerv/lsu/stbuf/_10086_/Z              60.65   90.91  -30.26 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1095_/Z      60.65   90.90  -30.25 (VIOLATED)
+
+swerv/lsu/stbuf/_18650_/ZN             26.05   56.20  -30.15 (VIOLATED)
+
+swerv/lsu/_8720_/Z                     60.65   90.69  -30.04 (VIOLATED)
+
+swerv/dec/arf/_10404_/Z                60.73   90.74  -30.01 (VIOLATED)
+
+swerv/lsu/stbuf/_12793_/Z              60.65   90.66  -30.01 (VIOLATED)
+
+swerv/lsu/stbuf/_14078_/Z              60.65   90.64  -29.98 (VIOLATED)
+
+swerv/lsu/stbuf/_12643_/Z              60.65   90.63  -29.98 (VIOLATED)
+
+swerv/lsu/stbuf/_10442_/Z              60.65   90.60  -29.95 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1100_/Z      60.65   90.54  -29.88 (VIOLATED)
+
+swerv/lsu/stbuf/_12657_/Z              60.65   90.41  -29.76 (VIOLATED)
+
+swerv/lsu/stbuf/_16907_/Z              60.65   90.36  -29.71 (VIOLATED)
+
+swerv/lsu/stbuf/_12609_/ZN             25.33   54.99  -29.66 (VIOLATED)
+
+swerv/dec/arf/_10531_/Z                60.65   90.31  -29.65 (VIOLATED)
+
+swerv/dec/arf/_13871_/Z                60.65   90.30  -29.65 (VIOLATED)
+
+swerv/lsu/stbuf/_13060_/Z              60.65   90.21  -29.56 (VIOLATED)
+
+swerv/lsu/stbuf/_13779_/Z              60.73   90.16  -29.43 (VIOLATED)
+
+swerv/lsu/stbuf/_10300_/Z              60.65   90.07  -29.41 (VIOLATED)
+
+swerv/dec/arf/_11684_/Z                60.65   90.04  -29.39 (VIOLATED)
+
+swerv/dec/arf/_12724_/Z                60.65   89.95  -29.29 (VIOLATED)
+
+swerv/dec/arf/_12687_/Z                60.65   89.77  -29.12 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1116_/Z      60.65   89.74  -29.08 (VIOLATED)
+
+swerv/dec/arf/_12746_/Z                60.65   89.68  -29.03 (VIOLATED)
+
+swerv/lsu/stbuf/_13235_/Z              60.65   89.41  -28.75 (VIOLATED)
+
+swerv/lsu/_8716_/Z                     60.65   89.37  -28.72 (VIOLATED)
+
+swerv/dec/arf/_10279_/Z                60.65   89.06  -28.40 (VIOLATED)
+
+swerv/lsu/stbuf/_11995_/Z              60.65   88.90  -28.25 (VIOLATED)
+
+swerv/lsu/stbuf/_18664_/ZN             26.70   54.95  -28.24 (VIOLATED)
+
+swerv/lsu/stbuf/_14559_/Z              60.65   88.86  -28.21 (VIOLATED)
+
+swerv/dec/arf/_11670_/Z                60.73   88.90  -28.17 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[10]$_DFF_PN0_/Q   60.58   88.69  -28.11 (VIOLATED)
+
+swerv/lsu/stbuf/_10441_/Z              60.65   88.70  -28.05 (VIOLATED)
+
+swerv/dec/arf/_12677_/Z                60.65   88.64  -27.98 (VIOLATED)
+
+swerv/dec/arf/_11625_/Z                60.65   88.53  -27.87 (VIOLATED)
+
+swerv/lsu/stbuf/_12933_/Z              60.65   88.51  -27.86 (VIOLATED)
+
+swerv/lsu/stbuf/_13165_/Z              60.65   88.51  -27.85 (VIOLATED)
+
+swerv/lsu/stbuf/_11851_/Z              60.65   88.37  -27.72 (VIOLATED)
+
+swerv/lsu/stbuf/_11825_/Z              60.65   88.21  -27.56 (VIOLATED)
+
+swerv/lsu/stbuf/_13745_/Z              60.65   88.19  -27.53 (VIOLATED)
+
+swerv/lsu/stbuf/_13196_/Z              60.65   87.95  -27.30 (VIOLATED)
+
+swerv/lsu/stbuf/_10229_/Z              60.65   87.91  -27.25 (VIOLATED)
+
+swerv/_10468_/Z                        60.65   87.85  -27.20 (VIOLATED)
+
+swerv/lsu/_8719_/Z                     60.65   87.84  -27.19 (VIOLATED)
+
+mem/icm/ic_data_inst/_0524_/Z          60.50   87.67  -27.17 (VIOLATED)
+
+swerv/lsu/stbuf/_12731_/Z              60.73   87.84  -27.11 (VIOLATED)
+
+swerv/lsu/stbuf/_12987_/ZN             26.70   53.69  -26.99 (VIOLATED)
+
+swerv/lsu/stbuf/_13162_/Z              60.73   87.72  -26.99 (VIOLATED)
+
+swerv/lsu/stbuf/_13286_/Z              60.65   87.48  -26.82 (VIOLATED)
+
+swerv/lsu/stbuf/_11929_/Z              60.65   87.46  -26.80 (VIOLATED)
+
+input191/Z                             60.65   87.38  -26.72 (VIOLATED)
+
+swerv/lsu/stbuf/_12418_/Z              60.65   87.35  -26.70 (VIOLATED)
+
+swerv/lsu/stbuf/_12574_/Z              60.65   87.23  -26.57 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[6]$_DFF_PN0_/Q   60.58   87.14  -26.56 (VIOLATED)
+
+swerv/lsu/stbuf/_12969_/Z              60.65   87.17  -26.52 (VIOLATED)
+
+swerv/lsu/stbuf/_16496_/ZN             26.70   53.14  -26.44 (VIOLATED)
+
+swerv/lsu/stbuf/_12895_/Z              60.65   87.08  -26.42 (VIOLATED)
+
+swerv/lsu/stbuf/_12651_/Z              60.65   87.03  -26.37 (VIOLATED)
+
+swerv/lsu/stbuf/_13420_/Z              60.65   87.01  -26.35 (VIOLATED)
+
+swerv/lsu/stbuf/_16067_/Z              60.65   87.00  -26.34 (VIOLATED)
+
+swerv/lsu/stbuf/_12610_/Z              60.65   86.63  -25.97 (VIOLATED)
+
+swerv/lsu/stbuf/_15428_/Z              60.65   86.60  -25.95 (VIOLATED)
+
+swerv/lsu/stbuf/_12647_/Z              60.65   86.57  -25.91 (VIOLATED)
+
+swerv/lsu/stbuf/_14865_/Z              60.65   86.53  -25.87 (VIOLATED)
+
+swerv/lsu/stbuf/_13770_/Z              60.65   86.50  -25.84 (VIOLATED)
+
+swerv/dec/arf/_12942_/Z                60.73   86.53  -25.80 (VIOLATED)
+
+swerv/dec/arf/_11464_/ZN               26.70   52.47  -25.77 (VIOLATED)
+
+swerv/lsu/stbuf/_13335_/Z              60.65   86.40  -25.74 (VIOLATED)
+
+swerv/dec/arf/_10300_/Z                60.65   86.25  -25.60 (VIOLATED)
+
+swerv/lsu/stbuf/_12940_/Z              60.65   86.14  -25.49 (VIOLATED)
+
+swerv/lsu/_8715_/Z                     60.65   86.09  -25.44 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[8]$_DFF_PN0_/Q   60.58   85.97  -25.39 (VIOLATED)
+
+swerv/lsu/stbuf/_13316_/Z              60.73   86.03  -25.30 (VIOLATED)
+
+swerv/lsu/stbuf/_14178_/Z              60.65   85.72  -25.06 (VIOLATED)
+
+swerv/lsu/stbuf/_14132_/ZN             52.11   77.07  -24.96 (VIOLATED)
+
+swerv/dec/arf/_10608_/Z                60.65   85.60  -24.95 (VIOLATED)
+
+swerv/lsu/stbuf/_14102_/ZN             26.70   51.64  -24.94 (VIOLATED)
+
+swerv/lsu/stbuf/_13952_/ZN             59.36   84.27  -24.92 (VIOLATED)
+
+swerv/lsu/_8718_/Z                     60.65   85.56  -24.91 (VIOLATED)
+
+swerv/lsu/stbuf/_13946_/Z              60.73   85.51  -24.78 (VIOLATED)
+
+swerv/dec/decode/_14355_/Z             60.50   85.23  -24.73 (VIOLATED)
+
+swerv/dec/arf/_11833_/Z                60.65   85.38  -24.73 (VIOLATED)
+
+swerv/lsu/stbuf/_12893_/Z              60.65   85.37  -24.71 (VIOLATED)
+
+swerv/dec/decode/_08914_/Z             60.65   85.32  -24.67 (VIOLATED)
+
+swerv/lsu/stbuf/_15266_/Z              60.65   85.23  -24.57 (VIOLATED)
+
+swerv/lsu/stbuf/_12425_/Z              60.65   85.18  -24.53 (VIOLATED)
+
+swerv/lsu/stbuf/_19557_/ZN             25.33   49.78  -24.45 (VIOLATED)
+
+swerv/lsu/stbuf/_10268_/Z              60.65   85.10  -24.45 (VIOLATED)
+
+swerv/lsu/stbuf/_11433_/Z              60.65   85.03  -24.38 (VIOLATED)
+
+swerv/lsu/stbuf/_14393_/Z              60.65   85.02  -24.37 (VIOLATED)
+
+swerv/lsu/stbuf/_12505_/Z              60.65   84.98  -24.33 (VIOLATED)
+
+swerv/lsu/stbuf/_14840_/Z              60.65   84.87  -24.21 (VIOLATED)
+
+swerv/dec/arf/_13846_/Z                60.65   84.80  -24.15 (VIOLATED)
+
+swerv/lsu/stbuf/_12681_/Z              60.65   84.77  -24.11 (VIOLATED)
+
+swerv/lsu/stbuf/_15263_/ZN             59.36   83.41  -24.05 (VIOLATED)
+
+swerv/lsu/stbuf/_12211_/ZN             59.36   83.38  -24.02 (VIOLATED)
+
+swerv/lsu/stbuf/_13285_/Z              60.65   84.63  -23.97 (VIOLATED)
+
+input253/Z                             60.65   84.54  -23.88 (VIOLATED)
+
+swerv/lsu/stbuf/_12567_/Z              60.73   84.52  -23.79 (VIOLATED)
+
+swerv/lsu/stbuf/_16769_/Z              60.65   84.44  -23.78 (VIOLATED)
+
+swerv/lsu/stbuf/_10167_/Z              60.65   84.37  -23.72 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[4]$_DFF_PN0_/Q   60.58   84.29  -23.71 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1042_/ZN     60.58   84.26  -23.68 (VIOLATED)
+
+swerv/lsu/stbuf/_12843_/Z              60.65   84.23  -23.58 (VIOLATED)
+
+swerv/lsu/stbuf/_13876_/Z              60.65   84.15  -23.50 (VIOLATED)
+
+mem/icm/ic_data_inst/_0514_/Z          60.50   83.98  -23.48 (VIOLATED)
+
+swerv/dec/arf/_10517_/Z                60.65   84.04  -23.39 (VIOLATED)
+
+swerv/lsu/stbuf/_11936_/Z              60.65   83.85  -23.20 (VIOLATED)
+
+swerv/lsu/stbuf/_12923_/Z              60.65   83.79  -23.14 (VIOLATED)
+
+swerv/lsu/stbuf/_17033_/Z              60.65   83.78  -23.13 (VIOLATED)
+
+mem/icm/ic_data_inst/_0525_/Z          60.50   83.57  -23.07 (VIOLATED)
+
+swerv/dec/arf/_13060_/ZN               26.70   49.75  -23.05 (VIOLATED)
+
+swerv/lsu/stbuf/_13851_/Z              60.73   83.77  -23.04 (VIOLATED)
+
+input450/Z                             60.65   83.61  -22.95 (VIOLATED)
+
+swerv/lsu/stbuf/_11507_/ZN             26.05   48.83  -22.77 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[2]$_DFF_PN0_/Q   60.58   83.33  -22.75 (VIOLATED)
+
+swerv/lsu/_5103_/ZN                    59.36   81.96  -22.60 (VIOLATED)
+
+swerv/dec/arf/_11610_/Z                60.65   83.26  -22.60 (VIOLATED)
+
+swerv/dec/arf/_10465_/Z                60.65   83.24  -22.58 (VIOLATED)
+
+swerv/dec/arf/_11424_/Z                60.65   83.23  -22.57 (VIOLATED)
+
+swerv/dec/arf/_12640_/Z                60.65   83.06  -22.40 (VIOLATED)
+
+swerv/lsu/stbuf/_12699_/Z              60.65   82.97  -22.32 (VIOLATED)
+
+swerv/lsu/stbuf/_10265_/Z              60.65   82.91  -22.25 (VIOLATED)
+
+mem/icm/ic_data_inst/_0512_/Z          60.50   82.71  -22.21 (VIOLATED)
+
+mem/icm/ic_data_inst/_0526_/Z          60.50   82.63  -22.13 (VIOLATED)
+
+swerv/dec/arf/_13961_/Z                60.65   82.75  -22.09 (VIOLATED)
+
+swerv/lsu/stbuf/_18121_/ZN             24.60   46.69  -22.08 (VIOLATED)
+
+swerv/lsu/stbuf/_12845_/Z              60.65   82.55  -21.89 (VIOLATED)
+
+swerv/lsu/stbuf/_13236_/Z              60.65   82.46  -21.81 (VIOLATED)
+
+swerv/lsu/stbuf/_14030_/Z              60.65   82.44  -21.79 (VIOLATED)
+
+mem/icm/ic_data_inst/_0516_/Z          60.50   82.28  -21.78 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20884_/ZN   26.05   47.80  -21.75 (VIOLATED)
+
+swerv/lsu/stbuf/_16858_/ZN             26.70   48.35  -21.65 (VIOLATED)
+
+swerv/lsu/stbuf/_13085_/ZN             16.02   37.64  -21.61 (VIOLATED)
+
+swerv/lsu/stbuf/_16258_/ZN             26.70   48.32  -21.61 (VIOLATED)
+
+swerv/lsu/stbuf/_13257_/Z              60.65   82.23  -21.58 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[3]$_DFF_PN0_/Q   60.58   82.15  -21.57 (VIOLATED)
+
+mem/icm/ic_data_inst/_0545_/Z          60.50   82.03  -21.53 (VIOLATED)
+
+swerv/dec/arf/_13953_/Z                60.65   82.16  -21.50 (VIOLATED)
+
+swerv/lsu/stbuf/_13651_/Z              60.73   82.23  -21.50 (VIOLATED)
+
+swerv/lsu/stbuf/_15166_/ZN             56.00   77.46  -21.46 (VIOLATED)
+
+swerv/lsu/stbuf/_12958_/Z              60.65   81.94  -21.29 (VIOLATED)
+
+swerv/lsu/stbuf/_13852_/Z              60.73   81.99  -21.26 (VIOLATED)
+
+input71/Z                              60.65   81.92  -21.26 (VIOLATED)
+
+swerv/lsu/stbuf/_12354_/ZN             26.70   47.86  -21.16 (VIOLATED)
+
+swerv/lsu/stbuf/_12678_/Z              60.73   81.88  -21.15 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13766_/Z   60.65   81.79  -21.14 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[15]$_DFF_PN0_/Q   60.58   81.70  -21.13 (VIOLATED)
+
+swerv/lsu/stbuf/_13344_/Z              60.65   81.73  -21.07 (VIOLATED)
+
+swerv/lsu/stbuf/_13051_/ZN             27.62   48.65  -21.03 (VIOLATED)
+
+swerv/lsu/stbuf/_13053_/Z              60.65   81.60  -20.95 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[7]$_DFF_PN0_/Q   60.58   81.47  -20.89 (VIOLATED)
+
+swerv/lsu/stbuf/_12695_/Z              60.65   81.54  -20.88 (VIOLATED)
+
+swerv/dec/arf/_07828_/ZN               26.70   47.48  -20.77 (VIOLATED)
+
+mem/icm/ic_data_inst/_0530_/Z          60.50   81.21  -20.71 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[46]$_DFF_PN0_/QN   60.27   80.96  -20.69 (VIOLATED)
+
+swerv/dec/arf/_12692_/Z                60.65   81.30  -20.64 (VIOLATED)
+
+swerv/lsu/stbuf/_13529_/Z              60.65   81.26  -20.61 (VIOLATED)
+
+swerv/lsu/stbuf/_17859_/ZN             31.74   52.35  -20.61 (VIOLATED)
+
+swerv/dec/arf/_13971_/Z                60.65   81.21  -20.56 (VIOLATED)
+
+swerv/dec/decode/_14381_/Z             60.50   80.99  -20.49 (VIOLATED)
+
+swerv/lsu/stbuf/_14024_/ZN             59.36   79.84  -20.49 (VIOLATED)
+
+swerv/dec/arf/_11627_/Z                60.65   81.12  -20.46 (VIOLATED)
+
+swerv/ifu/mem_ctl.imb_f2_ff.dout[19]$_DFFE_PN0N_/Q   60.58   80.93  -20.35 (VIOLATED)
+
+swerv/dec/arf/_13079_/Z                60.65   80.87  -20.21 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21183_/Z   60.50   80.71  -20.21 (VIOLATED)
+
+swerv/lsu/stbuf/_12431_/Z              60.65   80.75  -20.09 (VIOLATED)
+
+swerv/lsu/stbuf/_12650_/Z              60.65   80.62  -19.97 (VIOLATED)
+
+swerv/lsu/stbuf/_12542_/Z              60.65   80.62  -19.96 (VIOLATED)
+
+swerv/dec/arf/_11501_/Z                60.65   80.58  -19.93 (VIOLATED)
+
+mem/icm/ic_data_inst/_0535_/Z          60.50   80.43  -19.93 (VIOLATED)
+
+swerv/lsu/stbuf/_13320_/Z              60.65   80.49  -19.83 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[14]$_DFF_PN0_/Q   60.58   80.40  -19.82 (VIOLATED)
+
+swerv/lsu/stbuf/_13348_/Z              60.65   80.47  -19.82 (VIOLATED)
+
+mem/icm/ic_data_inst/_0515_/Z          60.50   80.28  -19.78 (VIOLATED)
+
+swerv/dec/arf/_13041_/Z                60.65   80.37  -19.72 (VIOLATED)
+
+swerv/lsu/stbuf/_12832_/Z              60.65   80.34  -19.69 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13935_/Z   60.65   80.33  -19.68 (VIOLATED)
+
+swerv/lsu/stbuf/_15484_/ZN             59.36   79.02  -19.67 (VIOLATED)
+
+swerv/dec/arf/_12848_/Z                60.65   80.28  -19.63 (VIOLATED)
+
+swerv/_10258_/ZN                       59.36   78.97  -19.61 (VIOLATED)
+
+input254/Z                             60.65   80.23  -19.58 (VIOLATED)
+
+swerv/lsu/stbuf/_11742_/Z              60.65   80.21  -19.56 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[21]$_DFF_PN0_/Q   60.58   80.10  -19.52 (VIOLATED)
+
+swerv/lsu/stbuf/_10082_/ZN             26.05   45.50  -19.45 (VIOLATED)
+
+swerv/lsu/stbuf/_13459_/ZN             13.81   33.25  -19.44 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11246_/ZN   58.36   77.72  -19.36 (VIOLATED)
+
+swerv/dec/decode/_08880_/Z             60.50   79.82  -19.32 (VIOLATED)
+
+swerv/dec/arf/_12630_/ZN               53.41   72.66  -19.26 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[13]$_DFF_PN0_/Q   60.58   79.83  -19.25 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[31]$_DFF_PN0_/Q   60.58   79.81  -19.24 (VIOLATED)
+
+swerv/lsu/stbuf/_13221_/Z              60.65   79.85  -19.20 (VIOLATED)
+
+swerv/dec/arf/_11850_/ZN               59.36   78.54  -19.19 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc2ff.dout[8]$_DFF_PN0_/Q   60.58   79.74  -19.16 (VIOLATED)
+
+swerv/_10192_/ZN                       26.05   45.08  -19.03 (VIOLATED)
+
+swerv/lsu/stbuf/_14597_/Z              60.65   79.68  -19.03 (VIOLATED)
+
+swerv/lsu/stbuf/_13574_/ZN             13.81   32.79  -18.98 (VIOLATED)
+
+swerv/lsu/stbuf/_13777_/Z              60.73   79.70  -18.97 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1125_/Z      60.65   79.52  -18.87 (VIOLATED)
+
+swerv/lsu/stbuf/_13087_/Z              60.65   79.52  -18.87 (VIOLATED)
+
+swerv/lsu/stbuf/_16975_/Z              60.65   79.48  -18.83 (VIOLATED)
+
+swerv/ifu/_3129_/Z                     60.50   79.26  -18.76 (VIOLATED)
+
+swerv/lsu/_8708_/Z                     60.65   79.39  -18.74 (VIOLATED)
+
+swerv/lsu/stbuf/_13066_/ZN             59.36   78.07  -18.71 (VIOLATED)
+
+swerv/lsu/stbuf/_12538_/Z              60.65   79.27  -18.62 (VIOLATED)
+
+swerv/_07391_/ZN                       60.58   79.18  -18.60 (VIOLATED)
+
+swerv/dec/arf/_10318_/Z                60.65   79.20  -18.55 (VIOLATED)
+
+swerv/lsu/stbuf/_13166_/Z              60.73   79.21  -18.48 (VIOLATED)
+
+swerv/lsu/stbuf/_16601_/ZN             59.36   77.83  -18.47 (VIOLATED)
+
+input147/Z                             60.65   79.09  -18.44 (VIOLATED)
+
+swerv/lsu/stbuf/_12661_/Z              60.65   79.07  -18.42 (VIOLATED)
+
+swerv/lsu/stbuf/_16056_/ZN             26.70   45.08  -18.38 (VIOLATED)
+
+swerv/dec/decode/i1e3instff.genblock_dff.dout[8]$_DFF_PN0_/Q   60.58   78.91  -18.33 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13707_/Z   60.65   78.98  -18.33 (VIOLATED)
+
+swerv/lsu/stbuf/_10141_/ZN             59.36   77.59  -18.23 (VIOLATED)
+
+swerv/dec/arf/_12800_/Z                60.65   78.84  -18.19 (VIOLATED)
+
+swerv/dec/decode/_08949_/Z             60.65   78.78  -18.13 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12045_/Z   60.65   78.77  -18.12 (VIOLATED)
+
+swerv/lsu/stbuf/_12448_/Z              60.65   78.75  -18.10 (VIOLATED)
+
+swerv/lsu/stbuf/_12703_/Z              60.65   78.75  -18.09 (VIOLATED)
+
+swerv/dec/arf/_11832_/Z                60.65   78.75  -18.09 (VIOLATED)
+
+swerv/lsu/stbuf/_13121_/ZN             16.02   34.11  -18.09 (VIOLATED)
+
+swerv/lsu/stbuf/_12363_/Z              60.65   78.73  -18.08 (VIOLATED)
+
+swerv/lsu/stbuf/_12515_/Z              60.65   78.71  -18.06 (VIOLATED)
+
+swerv/lsu/stbuf/_12659_/Z              60.65   78.71  -18.05 (VIOLATED)
+
+swerv/lsu/stbuf/_12416_/Z              60.65   78.70  -18.05 (VIOLATED)
+
+swerv/lsu/stbuf/_17725_/ZN             27.62   45.66  -18.04 (VIOLATED)
+
+swerv/_07394_/Z                        60.50   78.33  -17.83 (VIOLATED)
+
+swerv/lsu/stbuf/_12968_/ZN             16.02   33.85  -17.82 (VIOLATED)
+
+swerv/lsu/stbuf/_12492_/Z              60.65   78.44  -17.79 (VIOLATED)
+
+input456/Z                             60.65   78.44  -17.79 (VIOLATED)
+
+swerv/dec/arf/_11461_/ZN               16.02   33.81  -17.79 (VIOLATED)
+
+swerv/lsu/stbuf/_18600_/ZN             58.36   76.09  -17.73 (VIOLATED)
+
+input204/Z                             60.65   78.33  -17.67 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1435_/ZN     60.73   78.37  -17.64 (VIOLATED)
+
+swerv/lsu/stbuf/_10299_/Z              60.65   78.26  -17.61 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[17]$_DFF_PN0_/Q   60.58   78.00  -17.42 (VIOLATED)
+
+swerv/lsu/stbuf/_10267_/Z              60.65   78.05  -17.39 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[3]$_DFF_PN0_/Q   60.58   77.96  -17.38 (VIOLATED)
+
+swerv/dec/arf/_11647_/Z                60.65   78.01  -17.36 (VIOLATED)
+
+swerv/lsu/stbuf/_12779_/Z              60.65   77.98  -17.33 (VIOLATED)
+
+swerv/lsu/stbuf/_18499_/ZN             26.70   43.98  -17.28 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[10]$_DFF_PN0_/QN   60.27   77.55  -17.27 (VIOLATED)
+
+swerv/dec/arf/_11512_/Z                60.65   77.91  -17.26 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[46]$_DFF_PN0_/QN   60.27   77.52  -17.25 (VIOLATED)
+
+swerv/dec/arf/_12987_/Z                60.65   77.90  -17.25 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_addrff.genblock_dff.dout[4]$_DFF_PN0_/Q   60.58   77.82  -17.24 (VIOLATED)
+
+swerv/_05702_/Z                        60.65   77.89  -17.23 (VIOLATED)
+
+swerv/lsu/stbuf/_12401_/Z              60.65   77.85  -17.20 (VIOLATED)
+
+swerv/lsu/_8705_/Z                     60.65   77.79  -17.13 (VIOLATED)
+
+swerv/lsu/stbuf/_13223_/ZN             13.81   30.94  -17.13 (VIOLATED)
+
+swerv/lsu/stbuf/_12891_/ZN             27.62   44.74  -17.12 (VIOLATED)
+
+swerv/dec/arf/_10508_/Z                60.65   77.71  -17.06 (VIOLATED)
+
+input396/Z                             60.65   77.71  -17.05 (VIOLATED)
+
+swerv/lsu/stbuf/_18776_/ZN             13.81   30.84  -17.03 (VIOLATED)
+
+swerv/dec/arf/_08147_/ZN               26.70   43.73  -17.02 (VIOLATED)
+
+swerv/dec/arf/_13915_/ZN               26.70   43.70  -17.00 (VIOLATED)
+
+input257/Z                             60.65   77.64  -16.99 (VIOLATED)
+
+swerv/_10221_/ZN                       26.05   43.03  -16.97 (VIOLATED)
+
+swerv/lsu/stbuf/GenStBuf_0__stbuf_dataff.genblock_dff.dout[0]$_DFF_PN0_/Q   60.58   77.52  -16.95 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[26]$_DFF_PN0_/Q   60.58   77.52  -16.94 (VIOLATED)
+
+swerv/lsu/stbuf/_13318_/Z              60.65   77.57  -16.91 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[6]$_DFF_PN0_/Q   60.58   77.41  -16.84 (VIOLATED)
+
+swerv/dec/arf/_08223_/ZN               26.70   43.53  -16.83 (VIOLATED)
+
+swerv/lsu/stbuf/_12837_/Z             121.15  137.98  -16.83 (VIOLATED)
+
+swerv/dma_ctrl.rdbuf_addrff.genblock_dff.dout[17]$_DFF_PN0_/Q   60.58   77.37  -16.79 (VIOLATED)
+
+swerv/lsu/_8723_/Z                     60.65   77.45  -16.79 (VIOLATED)
+
+swerv/dec/arf/_07989_/ZN               26.70   43.48  -16.78 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[25]$_DFF_PN0_/Q   60.58   77.33  -16.76 (VIOLATED)
+
+swerv/lsu/stbuf/_13963_/ZN             26.70   43.43  -16.73 (VIOLATED)
+
+swerv/lsu/stbuf/_13492_/Z              60.73   77.44  -16.71 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc2ff.dout[11]$_DFF_PN0_/Q   60.58   77.27  -16.69 (VIOLATED)
+
+swerv/ifu/_3124_/Z                     60.50   77.18  -16.68 (VIOLATED)
+
+swerv/lsu/stbuf/_16510_/ZN             26.70   43.38  -16.68 (VIOLATED)
+
+mem/icm/ic_data_inst/_0540_/Z          60.50   77.17  -16.67 (VIOLATED)
+
+swerv/lsu/stbuf/_17182_/Z              60.65   77.24  -16.59 (VIOLATED)
+
+mem/icm/ic_data_inst/_0533_/Z          60.50   77.05  -16.55 (VIOLATED)
+
+swerv/lsu/stbuf/GenStBuf_1__stbuf_dataff.genblock_dff.dout[0]$_DFF_PN0_/Q   60.58   77.10  -16.52 (VIOLATED)
+
+swerv/lsu/stbuf/_13352_/Z              60.65   77.16  -16.51 (VIOLATED)
+
+swerv/lsu/stbuf/_14223_/Z              60.65   77.16  -16.51 (VIOLATED)
+
+swerv/lsu/stbuf/_12504_/Z              60.65   77.15  -16.50 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[24]$_DFF_PN0_/Q   60.58   77.07  -16.49 (VIOLATED)
+
+mem/icm/ic_data_inst/_0517_/Z          60.50   76.98  -16.48 (VIOLATED)
+
+swerv/dec/arf/_07993_/ZN               26.70   43.18  -16.48 (VIOLATED)
+
+swerv/lsu/stbuf/_13860_/Z              60.65   77.07  -16.42 (VIOLATED)
+
+mem/icm/ic_data_inst/_0591_/ZN         26.05   42.42  -16.37 (VIOLATED)
+
+swerv/lsu/stbuf/_13988_/Z              60.65   76.96  -16.31 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13640_/Z   60.65   76.80  -16.15 (VIOLATED)
+
+swerv/lsu/stbuf/_10356_/Z              60.65   76.78  -16.12 (VIOLATED)
+
+swerv/dec/arf/_13960_/Z                60.65   76.77  -16.11 (VIOLATED)
+
+swerv/dec/decode/i1wbpcff.genblock_dff.dout[2]$_DFF_PN0_/Q   60.58   76.61  -16.03 (VIOLATED)
+
+swerv/dec/tlu/_08711_/ZN               60.58   76.56  -15.99 (VIOLATED)
+
+swerv/lsu/stbuf/_16256_/ZN             26.70   42.68  -15.98 (VIOLATED)
+
+swerv/lsu/stbuf/_12572_/Z              60.65   76.60  -15.95 (VIOLATED)
+
+swerv/dec/tlu/dicawics_ff.genblock_dff.dout[15]$_DFF_PN0_/Q   60.58   76.49  -15.91 (VIOLATED)
+
+mem/icm/ic_data_inst/_0544_/Z          60.50   76.28  -15.78 (VIOLATED)
+
+swerv/lsu/_8706_/Z                     60.65   76.43  -15.78 (VIOLATED)
+
+swerv/lsu/stbuf/_12316_/Z              60.65   76.41  -15.76 (VIOLATED)
+
+mem/icm/ic_data_inst/_0534_/Z          60.50   76.21  -15.71 (VIOLATED)
+
+swerv/dec/arf/_07452_/ZN               26.70   42.33  -15.62 (VIOLATED)
+
+swerv/lsu/stbuf/_15004_/ZN             26.70   42.29  -15.59 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13936_/Z   60.65   76.21  -15.56 (VIOLATED)
+
+swerv/lsu/stbuf/_12525_/Z              60.65   76.14  -15.49 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[10]$_DFF_PN0_/Q   60.58   76.06  -15.48 (VIOLATED)
+
+input374/Z                             60.65   76.13  -15.48 (VIOLATED)
+
+swerv/lsu/stbuf/_12996_/Z              60.65   76.10  -15.45 (VIOLATED)
+
+swerv/lsu/stbuf/_12636_/Z              60.65   76.10  -15.45 (VIOLATED)
+
+swerv/dec/arf/_10516_/Z                60.65   76.09  -15.44 (VIOLATED)
+
+swerv/lsu/stbuf/_14558_/Z              60.65   76.07  -15.42 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_bvalid_ff.dout$_DFF_PN0_/Q   60.58   75.95  -15.38 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[9]$_DFF_PN0_/Q   60.58   75.94  -15.37 (VIOLATED)
+
+swerv/lsu/stbuf/_13719_/Z              60.65   75.99  -15.33 (VIOLATED)
+
+mem/icm/ic_data_inst/_0536_/Z          60.50   75.77  -15.27 (VIOLATED)
+
+swerv/lsu/stbuf/_13143_/ZN             59.36   74.62  -15.26 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21463_/Z   60.50   75.71  -15.21 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[59]$_DFF_PN0_/QN   60.27   75.44  -15.17 (VIOLATED)
+
+swerv/lsu/stbuf/_14269_/Z              60.65   75.82  -15.16 (VIOLATED)
+
+swerv/lsu/stbuf/_12972_/Z              60.65   75.79  -15.14 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21161_/Z   60.50   75.58  -15.08 (VIOLATED)
+
+swerv/_07387_/Z                        60.50   75.55  -15.05 (VIOLATED)
+
+swerv/lsu/stbuf/_12938_/Z              60.65   75.67  -15.02 (VIOLATED)
+
+swerv/dec/arf/_11395_/Z                60.65   75.67  -15.02 (VIOLATED)
+
+swerv/lsu/stbuf/_18628_/ZN             56.00   70.83  -14.83 (VIOLATED)
+
+swerv/lsu/stbuf/_13073_/ZN             26.70   41.52  -14.82 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11482_/ZN   59.36   74.12  -14.77 (VIOLATED)
+
+swerv/lsu/stbuf/_13488_/Z              60.65   75.42  -14.77 (VIOLATED)
+
+swerv/lsu/stbuf/_13337_/Z              60.65   75.40  -14.75 (VIOLATED)
+
+swerv/dec/arf/_13843_/Z                60.65   75.40  -14.74 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[22]$_DFF_PN0_/Q   60.58   75.30  -14.73 (VIOLATED)
+
+swerv/lsu/stbuf/_17390_/Z              60.73   75.45  -14.72 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13487_/Z   60.65   75.37  -14.71 (VIOLATED)
+
+swerv/lsu/stbuf/_12390_/Z              60.65   75.36  -14.71 (VIOLATED)
+
+swerv/lsu/stbuf/_13030_/ZN             16.02   30.70  -14.68 (VIOLATED)
+
+swerv/lsu/stbuf/_12864_/ZN             26.70   41.35  -14.64 (VIOLATED)
+
+swerv/lsu/stbuf/_13690_/Z              60.65   75.28  -14.63 (VIOLATED)
+
+swerv/lsu/stbuf/_13389_/ZN             22.16   36.76  -14.60 (VIOLATED)
+
+swerv/lsu/stbuf/_10039_/Z              60.65   75.22  -14.57 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[32]$_DFF_PN0_/QN   60.27   74.83  -14.56 (VIOLATED)
+
+swerv/dec/decode/_08936_/Z             60.65   75.20  -14.55 (VIOLATED)
+
+swerv/lsu/stbuf/_16453_/ZN             26.70   41.24  -14.53 (VIOLATED)
+
+swerv/lsu/stbuf/_11879_/ZN             31.74   46.26  -14.53 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13709_/Z   60.65   75.15  -14.49 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12718_/Z   60.65   75.12  -14.47 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1037_/ZN     16.02   30.46  -14.44 (VIOLATED)
+
+swerv/exu/_20552_/ZN                   26.05   40.48  -14.42 (VIOLATED)
+
+mem/icm/ic_data_inst/_0527_/Z          60.50   74.92  -14.42 (VIOLATED)
+
+swerv/lsu/stbuf/_10266_/Z              60.65   75.06  -14.40 (VIOLATED)
+
+swerv/lsu/stbuf/_13240_/ZN             26.70   41.05  -14.35 (VIOLATED)
+
+swerv/dec/arf/_13048_/Z                60.65   74.99  -14.34 (VIOLATED)
+
+swerv/lsu/stbuf/_19144_/ZN             24.60   38.93  -14.32 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_19922_/ZN   60.73   75.04  -14.31 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13828_/Z   60.65   74.88  -14.23 (VIOLATED)
+
+swerv/lsu/_5120_/ZN                    60.58   74.78  -14.20 (VIOLATED)
+
+mem/icm/ic_data_inst/_0539_/Z          60.50   74.68  -14.18 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[30]$_DFF_PN0_/Q   60.58   74.73  -14.15 (VIOLATED)
+
+swerv/lsu/stbuf/_12452_/Z              60.65   74.79  -14.14 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1307_/Z      60.50   74.63  -14.13 (VIOLATED)
+
+swerv/dec/arf/_11403_/Z                60.65   74.71  -14.06 (VIOLATED)
+
+input222/Z                             60.65   74.69  -14.04 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[10]$_DFF_PN0_/Q   60.58   74.60  -14.02 (VIOLATED)
+
+swerv/dec/arf/_14017_/Z                60.65   74.65  -14.00 (VIOLATED)
+
+swerv/dec/arf/_08227_/ZN               26.70   40.70  -14.00 (VIOLATED)
+
+swerv/dec/arf/_12745_/Z                60.65   74.65  -13.99 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11228_/ZN   58.36   72.35  -13.99 (VIOLATED)
+
+swerv/dec/decode/i1e3instff.genblock_dff.dout[9]$_DFF_PN0_/Q   60.58   74.56  -13.98 (VIOLATED)
+
+swerv/lsu/stbuf/_13653_/Z              60.65   74.56  -13.91 (VIOLATED)
+
+swerv/lsu/stbuf/_18814_/ZN             13.81   27.70  -13.89 (VIOLATED)
+
+swerv/dec/arf/_13930_/Z                60.65   74.48  -13.83 (VIOLATED)
+
+swerv/lsu/_8714_/Z                     60.65   74.46  -13.81 (VIOLATED)
+
+swerv/lsu/stbuf/_13869_/Z              60.65   74.44  -13.79 (VIOLATED)
+
+swerv/lsu/stbuf/_14077_/Z              60.65   74.40  -13.75 (VIOLATED)
+
+swerv/dec/arf/_08377_/ZN               26.70   40.44  -13.74 (VIOLATED)
+
+swerv/lsu/stbuf/_13889_/Z              60.73   74.47  -13.74 (VIOLATED)
+
+swerv/lsu/stbuf/_12833_/Z              60.65   74.38  -13.72 (VIOLATED)
+
+swerv/dec/tlu/mtval_ff.dout[22]$_DFF_PN0_/Q   60.58   74.29  -13.71 (VIOLATED)
+
+swerv/lsu/stbuf/_14347_/Z              60.73   74.43  -13.70 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[3]$_DFF_PN0_/Q   60.58   74.26  -13.68 (VIOLATED)
+
+swerv/lsu/stbuf/_16905_/Z              60.65   74.33  -13.67 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20922_/ZN   26.70   40.35  -13.65 (VIOLATED)
+
+swerv/dec/arf/_11739_/Z                60.65   74.28  -13.63 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20850_/ZN   26.05   39.67  -13.61 (VIOLATED)
+
+swerv/dec/arf/_12715_/ZN               41.50   55.10  -13.59 (VIOLATED)
+
+swerv/dec/arf/_07909_/ZN               26.70   40.28  -13.58 (VIOLATED)
+
+swerv/lsu/stbuf/_13007_/Z              60.65   74.19  -13.54 (VIOLATED)
+
+swerv/lsu/stbuf/_13072_/ZN             26.05   39.57  -13.51 (VIOLATED)
+
+swerv/lsu/stbuf/_10579_/Z              60.65   74.17  -13.51 (VIOLATED)
+
+mem/icm/ic_data_inst/_0541_/Z          60.50   74.01  -13.51 (VIOLATED)
+
+swerv/lsu/stbuf/_19063_/ZN             24.60   38.10  -13.50 (VIOLATED)
+
+swerv/lsu/stbuf/_17267_/Z              60.73   74.23  -13.50 (VIOLATED)
+
+swerv/_07846_/Z                        60.50   73.99  -13.49 (VIOLATED)
+
+swerv/lsu/stbuf/_10089_/Z              60.65   74.13  -13.48 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[6]$_DFF_PN0_/Q   60.58   74.04  -13.46 (VIOLATED)
+
+input464/Z                             60.65   74.11  -13.46 (VIOLATED)
+
+swerv/dec/arf/_13891_/ZN               41.50   54.88  -13.37 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20902_/ZN   26.70   40.06  -13.36 (VIOLATED)
+
+mem/icm/ic_data_inst/_0513_/Z          60.50   73.85  -13.35 (VIOLATED)
+
+swerv/lsu/stbuf/_10079_/ZN             26.70   40.01  -13.30 (VIOLATED)
+
+swerv/lsu/stbuf/_12670_/ZN             26.70   39.99  -13.29 (VIOLATED)
+
+swerv/lsu/stbuf/_18752_/ZN             26.70   39.97  -13.27 (VIOLATED)
+
+swerv/lsu/stbuf/_12660_/Z              60.65   73.91  -13.25 (VIOLATED)
+
+swerv/lsu/_4640_/ZN                    59.36   72.60  -13.25 (VIOLATED)
+
+swerv/dec/arf/_07474_/ZN               26.70   39.95  -13.25 (VIOLATED)
+
+input224/Z                             60.65   73.90  -13.24 (VIOLATED)
+
+swerv/dec/arf/_07991_/ZN               26.70   39.92  -13.22 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_19474_/Z   60.65   73.86  -13.21 (VIOLATED)
+
+swerv/lsu/stbuf/_19305_/ZN             22.16   35.36  -13.20 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[27]$_DFF_PN0_/Q   60.58   73.71  -13.13 (VIOLATED)
+
+swerv/_07873_/Z                        60.50   73.61  -13.11 (VIOLATED)
+
+swerv/lsu/stbuf/_14588_/Z              60.73   73.81  -13.08 (VIOLATED)
+
+swerv/dec/arf/_10500_/Z                60.65   73.68  -13.02 (VIOLATED)
+
+swerv/dec/arf/_07821_/ZN               26.70   39.70  -13.00 (VIOLATED)
+
+swerv/lsu/stbuf/_13315_/ZN             26.70   39.69  -12.98 (VIOLATED)
+
+swerv/lsu/stbuf/_12671_/Z              60.65   73.63  -12.98 (VIOLATED)
+
+swerv/dec/arf/_12822_/Z                60.65   73.59  -12.94 (VIOLATED)
+
+swerv/ifu/mem_ctl.imb_f2_ff.dout[15]$_DFFE_PN0N_/Q   60.58   73.51  -12.93 (VIOLATED)
+
+swerv/lsu/stbuf/_12547_/Z              60.65   73.59  -12.93 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_addrff.genblock_dff.dout[15]$_DFF_PN0_/Q   60.58   73.50  -12.93 (VIOLATED)
+
+swerv/lsu/stbuf/_16772_/Z              60.65   73.57  -12.92 (VIOLATED)
+
+swerv/ifu/_3120_/Z                     60.65   73.56  -12.91 (VIOLATED)
+
+swerv/lsu/stbuf/_15468_/Z              60.65   73.55  -12.89 (VIOLATED)
+
+swerv/dec/arf/_14118_/ZN               26.70   39.59  -12.89 (VIOLATED)
+
+swerv/lsu/stbuf/_13599_/ZN             31.74   44.63  -12.89 (VIOLATED)
+
+swerv/lsu/stbuf/_14563_/Z              60.65   73.52  -12.86 (VIOLATED)
+
+mem/icm/ic_data_inst/_0522_/Z          60.50   73.32  -12.82 (VIOLATED)
+
+swerv/dec/arf/_13215_/Z                60.65   73.45  -12.79 (VIOLATED)
+
+input179/Z                             60.65   73.43  -12.78 (VIOLATED)
+
+swerv/lsu/stbuf/_17001_/ZN             26.05   38.82  -12.77 (VIOLATED)
+
+swerv/dec/arf/_13908_/Z                60.65   73.38  -12.72 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[18]$_DFF_PN0_/Q   60.58   73.28  -12.70 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[5]$_DFF_PN0_/Q   60.58   73.27  -12.69 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[11]$_DFF_PN0_/Q   60.58   73.25  -12.67 (VIOLATED)
+
+swerv/dec/arf/_07740_/ZN               26.70   39.36  -12.66 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[17]$_DFF_PN0_/Q   60.58   73.20  -12.62 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc2ff.dout[5]$_DFF_PN0_/Q   60.58   73.19  -12.61 (VIOLATED)
+
+swerv/lsu/stbuf/_16078_/ZN             20.90   33.52  -12.61 (VIOLATED)
+
+swerv/dec/arf/_11554_/Z                60.65   73.25  -12.60 (VIOLATED)
+
+swerv/lsu/stbuf/_14183_/Z              60.65   73.16  -12.50 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18204_/Z   60.65   73.12  -12.47 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18145_/Z   60.65   73.09  -12.43 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[16]$_DFF_PN0_/Q   60.58   72.98  -12.40 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20181_/ZN   22.16   34.56  -12.40 (VIOLATED)
+
+input228/Z                             60.65   73.05  -12.39 (VIOLATED)
+
+input437/Z                             60.65   72.98  -12.32 (VIOLATED)
+
+swerv/dec/arf/_13862_/ZN               63.32   75.60  -12.28 (VIOLATED)
+
+mem/icm/ic_data_inst/_0528_/Z          60.50   72.76  -12.26 (VIOLATED)
+
+swerv/lsu/_4665_/ZN                    59.36   71.60  -12.24 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18191_/Z   60.65   72.88  -12.23 (VIOLATED)
+
+swerv/ifu/_3118_/Z                     60.50   72.72  -12.22 (VIOLATED)
+
+input265/Z                             60.65   72.86  -12.21 (VIOLATED)
+
+swerv/lsu/stbuf/_12925_/Z              60.65   72.82  -12.16 (VIOLATED)
+
+mem/icm/ic_data_inst/_0532_/Z          60.50   72.62  -12.12 (VIOLATED)
+
+swerv/lsu/stbuf/_12700_/Z              60.65   72.73  -12.07 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21571_/Z   60.50   72.53  -12.03 (VIOLATED)
+
+swerv/dec/tlu/_07080_/Z                60.65   72.64  -11.99 (VIOLATED)
+
+swerv/lsu/stbuf/_13056_/Z              60.65   72.64  -11.98 (VIOLATED)
+
+swerv/lsu/_7566_/ZN                    25.33   37.30  -11.97 (VIOLATED)
+
+swerv/lsu/_8707_/Z                     60.65   72.52  -11.86 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[25]$_DFF_PN0_/Q   60.58   72.44  -11.86 (VIOLATED)
+
+swerv/dec/arf/_12973_/Z                60.65   72.50  -11.84 (VIOLATED)
+
+swerv/lsu/stbuf/_12927_/Z              60.65   72.45  -11.80 (VIOLATED)
+
+swerv/dec/tlu/mtval_ff.dout[25]$_DFF_PN0_/Q   60.58   72.35  -11.77 (VIOLATED)
+
+swerv/lsu/stbuf/_10643_/Z              60.65   72.39  -11.73 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[21]$_DFF_PN0_/QN   60.27   71.99  -11.72 (VIOLATED)
+
+swerv/lsu/_7599_/ZN                    25.33   37.00  -11.67 (VIOLATED)
+
+swerv/lsu/_8721_/Z                     60.65   72.30  -11.65 (VIOLATED)
+
+swerv/dec/arf/_07913_/ZN               26.70   38.35  -11.65 (VIOLATED)
+
+swerv/lsu/_4994_/ZN                    60.73   72.36  -11.63 (VIOLATED)
+
+swerv/lsu/stbuf/_12357_/Z              60.65   72.28  -11.62 (VIOLATED)
+
+swerv/dec/arf/_10501_/Z                60.65   72.25  -11.60 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[62]$_DFF_PN0_/QN   60.27   71.87  -11.60 (VIOLATED)
+
+swerv/dec/decode/i0wb1pcff.genblock_dff.dout[2]$_DFF_PN0_/Q   60.58   72.17  -11.60 (VIOLATED)
+
+mem/icm/ic_data_inst/_0521_/Z          60.50   72.08  -11.57 (VIOLATED)
+
+swerv/lsu/stbuf/_14660_/Z              60.65   72.23  -11.57 (VIOLATED)
+
+swerv/exu/_14548_/ZN                   26.05   37.61  -11.55 (VIOLATED)
+
+mem/icm/ic_data_inst/_0518_/Z          60.50   72.05  -11.55 (VIOLATED)
+
+swerv/exu/_20550_/ZN                   26.05   37.60  -11.54 (VIOLATED)
+
+swerv/dec/arf/_11469_/Z                60.65   72.19  -11.54 (VIOLATED)
+
+swerv/dec/arf/_12695_/Z                60.65   72.19  -11.53 (VIOLATED)
+
+swerv/lsu/stbuf/_10069_/ZN             26.02   37.53  -11.51 (VIOLATED)
+
+swerv/dec/arf/_08143_/ZN               26.70   38.15  -11.45 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[28]$_DFF_PN0_/Q   60.58   72.01  -11.44 (VIOLATED)
+
+input465/Z                             60.65   72.09  -11.43 (VIOLATED)
+
+swerv/lsu/_7071_/ZN                    26.70   38.13  -11.43 (VIOLATED)
+
+swerv/lsu/stbuf/_12276_/Z              60.65   72.08  -11.42 (VIOLATED)
+
+swerv/lsu/stbuf/_10087_/Z              60.65   72.07  -11.41 (VIOLATED)
+
+swerv/lsu/stbuf/_12876_/ZN             25.33   36.70  -11.37 (VIOLATED)
+
+swerv/dec/arf/_12133_/ZN               56.00   67.35  -11.35 (VIOLATED)
+
+input451/Z                             60.65   71.99  -11.34 (VIOLATED)
+
+swerv/lsu/stbuf/_13773_/Z              60.65   71.99  -11.33 (VIOLATED)
+
+swerv/lsu/stbuf/_12990_/ZN             23.23   34.52  -11.29 (VIOLATED)
+
+swerv/lsu/stbuf/_13744_/Z              60.65   71.94  -11.29 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13992_/Z   60.65   71.94  -11.28 (VIOLATED)
+
+swerv/lsu/stbuf/_19873_/ZN             13.81   25.04  -11.23 (VIOLATED)
+
+swerv/_10395_/Z                        60.65   71.88  -11.23 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13764_/Z   60.65   71.79  -11.14 (VIOLATED)
+
+swerv/dec/arf/_11569_/Z                60.65   71.78  -11.12 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13644_/Z   60.65   71.77  -11.11 (VIOLATED)
+
+swerv/lsu/stbuf/_13832_/Z              60.65   71.77  -11.11 (VIOLATED)
+
+swerv/exu/_18605_/ZN                   26.05   37.15  -11.10 (VIOLATED)
+
+swerv/lsu/stbuf/_17224_/Z              60.65   71.71  -11.06 (VIOLATED)
+
+mem/icm/ic_data_inst/_0645_/ZN         26.05   37.11  -11.05 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_addrff.genblock_dff.dout[27]$_DFF_PN0_/Q   60.58   71.59  -11.01 (VIOLATED)
+
+swerv/lsu/stbuf/_12664_/ZN             31.74   42.73  -11.00 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[4]$_DFF_PN0_/Q   60.58   71.52  -10.94 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12679_/ZN   59.36   70.26  -10.91 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14000_/Z   60.65   71.54  -10.89 (VIOLATED)
+
+swerv/lsu/stbuf/_13398_/Z              60.65   71.51  -10.86 (VIOLATED)
+
+swerv/lsu/stbuf/_12638_/Z              60.65   71.49  -10.84 (VIOLATED)
+
+swerv/lsu/_8725_/Z                     60.65   71.49  -10.83 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18151_/Z   60.65   71.46  -10.81 (VIOLATED)
+
+swerv/dec/arf/_12980_/ZN               26.70   37.50  -10.80 (VIOLATED)
+
+swerv/lsu/stbuf/_13082_/ZN             59.36   70.13  -10.77 (VIOLATED)
+
+swerv/lsu/stbuf/_16898_/ZN             16.02   26.76  -10.74 (VIOLATED)
+
+swerv/dec/arf/_08379_/ZN               26.70   37.44  -10.74 (VIOLATED)
+
+swerv/dec/tlu/mcgc_ff.genblock_dff.dout[1]$_DFF_PN0_/Q   60.58   71.30  -10.72 (VIOLATED)
+
+swerv/lsu/stbuf/_13184_/Z              60.65   71.35  -10.70 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18189_/Z   60.65   71.35  -10.70 (VIOLATED)
+
+input449/Z                             60.65   71.35  -10.69 (VIOLATED)
+
+swerv/ifu/_3122_/Z                     60.50   71.18  -10.67 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18156_/Z   60.65   71.31  -10.66 (VIOLATED)
+
+mem/icm/ic_data_inst/_0538_/Z          60.50   71.16  -10.65 (VIOLATED)
+
+swerv/lsu/stbuf/_13416_/Z              60.65   71.30  -10.65 (VIOLATED)
+
+swerv/dec/tlu/_07372_/Z                60.65   71.28  -10.63 (VIOLATED)
+
+input262/Z                             60.65   71.26  -10.61 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12783_/Z   60.65   71.26  -10.61 (VIOLATED)
+
+swerv/dec/arf/_11533_/Z                60.65   71.25  -10.60 (VIOLATED)
+
+swerv/lsu/stbuf/_10144_/Z              60.65   71.22  -10.56 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[0]$_DFF_PN0_/QN   60.27   70.81  -10.54 (VIOLATED)
+
+swerv/lsu/stbuf/_12760_/ZN             50.66   61.19  -10.53 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[58]$_DFF_PN0_/QN   60.27   70.79  -10.52 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18170_/Z   60.65   71.16  -10.51 (VIOLATED)
+
+swerv/lsu/stbuf/_13746_/Z              60.65   71.10  -10.45 (VIOLATED)
+
+swerv/lsu/stbuf/_13669_/Z              60.65   71.09  -10.44 (VIOLATED)
+
+swerv/lsu/stbuf/_12633_/Z              60.65   71.07  -10.42 (VIOLATED)
+
+swerv/dec/tlu/_07305_/Z                60.65   71.02  -10.37 (VIOLATED)
+
+swerv/lsu/stbuf/_12477_/Z              60.65   71.02  -10.37 (VIOLATED)
+
+swerv/dec/decode/_14373_/Z             60.50   70.84  -10.34 (VIOLATED)
+
+mem/icm/ic_data_inst/_0523_/Z          60.50   70.81  -10.31 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[8]$_DFF_PN0_/Q   60.58   70.88  -10.30 (VIOLATED)
+
+swerv/lsu/stbuf/_11255_/ZN             26.05   36.32  -10.27 (VIOLATED)
+
+input250/Z                             60.65   70.90  -10.25 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21854_/Z   60.50   70.72  -10.22 (VIOLATED)
+
+swerv/dec/decode/_11690_/Z             60.65   70.87  -10.22 (VIOLATED)
+
+swerv/exu/_20542_/ZN                   26.05   36.26  -10.20 (VIOLATED)
+
+swerv/dec/decode/i1wbpcff.genblock_dff.dout[27]$_DFF_PN0_/Q   60.58   70.74  -10.17 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[9]$_DFF_PN0_/Q   60.58   70.72  -10.14 (VIOLATED)
+
+swerv/dec/arf/_08069_/ZN               26.70   36.83  -10.13 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[7]$_DFF_PN0_/Q   60.58   70.70  -10.13 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20867_/ZN   26.70   36.83  -10.13 (VIOLATED)
+
+swerv/lsu/stbuf/_12290_/Z              60.73   70.84  -10.11 (VIOLATED)
+
+swerv/lsu/stbuf/_13620_/ZN             26.70   36.81  -10.11 (VIOLATED)
+
+swerv/lsu/stbuf/_12548_/Z              60.65   70.76  -10.11 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[27]$_DFF_PN0_/Q   60.58   70.63  -10.05 (VIOLATED)
+
+input370/Z                             60.65   70.70  -10.04 (VIOLATED)
+
+mem/icm/ic_data_inst/_0529_/Z          60.50   70.53  -10.03 (VIOLATED)
+
+swerv/dec/arf/_14057_/Z                60.65   70.66  -10.01 (VIOLATED)
+
+swerv/lsu/stbuf/_14079_/Z              60.65   70.62   -9.97 (VIOLATED)
+
+swerv/dec/arf/_11555_/Z                60.65   70.58   -9.93 (VIOLATED)
+
+input347/Z                             60.65   70.54   -9.88 (VIOLATED)
+
+swerv/lsu/_4941_/ZN                    60.73   70.57   -9.84 (VIOLATED)
+
+swerv/exu/_18688_/ZN                   25.33   35.16   -9.83 (VIOLATED)
+
+swerv/lsu/stbuf/_14138_/Z              60.65   70.46   -9.81 (VIOLATED)
+
+swerv/dec/arf/_08067_/ZN               26.70   36.49   -9.79 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[6]$_DFF_PN0_/Q   60.58   70.35   -9.77 (VIOLATED)
+
+swerv/dec/tlu/_07300_/Z                60.73   70.49   -9.76 (VIOLATED)
+
+mem/icm/ic_data_inst/_0537_/Z          60.50   70.21   -9.71 (VIOLATED)
+
+swerv/lsu/stbuf/_16544_/ZN             26.70   36.40   -9.70 (VIOLATED)
+
+swerv/dec/decode/_14282_/ZN            23.23   32.91   -9.68 (VIOLATED)
+
+swerv/lsu/_5028_/ZN                    60.58   70.24   -9.66 (VIOLATED)
+
+mem/icm/ic_data_inst/_0510_/Z          60.50   70.13   -9.63 (VIOLATED)
+
+swerv/lsu/stbuf/_12917_/Z              60.73   70.35   -9.62 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1316_/ZN     60.73   70.34   -9.61 (VIOLATED)
+
+swerv/lsu/_8726_/Z                     60.65   70.24   -9.58 (VIOLATED)
+
+swerv/lsu/stbuf/_12417_/Z              60.65   70.22   -9.56 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11230_/ZN   58.36   67.90   -9.54 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20226_/ZN   22.16   31.69   -9.53 (VIOLATED)
+
+swerv/dec/tlu/_07139_/Z                60.65   70.18   -9.53 (VIOLATED)
+
+swerv/lsu/stbuf/_13127_/ZN             26.70   36.20   -9.50 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18174_/Z   60.65   70.13   -9.48 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20893_/ZN   26.70   36.17   -9.47 (VIOLATED)
+
+swerv/dec/arf/_11861_/ZN               59.36   68.83   -9.47 (VIOLATED)
+
+swerv/dec/arf/_12881_/Z                60.65   70.11   -9.45 (VIOLATED)
+
+swerv/dec/arf/_11473_/Z                60.65   70.08   -9.43 (VIOLATED)
+
+swerv/exu/_19484_/ZN                   26.05   35.43   -9.38 (VIOLATED)
+
+swerv/dec/tlu/_08826_/Z                60.65   70.03   -9.37 (VIOLATED)
+
+swerv/dec/arf/_13842_/Z                60.65   70.01   -9.35 (VIOLATED)
+
+swerv/exu/_18651_/ZN                   26.05   35.38   -9.32 (VIOLATED)
+
+swerv/lsu/_8710_/Z                     60.65   69.96   -9.31 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20095_/ZN   26.05   35.36   -9.31 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18154_/Z   60.65   69.96   -9.30 (VIOLATED)
+
+swerv/dec/arf/_12706_/Z                60.65   69.95   -9.30 (VIOLATED)
+
+swerv/lsu/stbuf/_18572_/ZN             58.36   67.62   -9.25 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[29]$_DFF_PN0_/Q   60.58   69.81   -9.23 (VIOLATED)
+
+swerv/dec/decode/_10858_/ZN            26.05   35.27   -9.22 (VIOLATED)
+
+swerv/_06071_/ZN                       60.58   69.79   -9.21 (VIOLATED)
+
+swerv/lsu/stbuf/_12784_/Z              60.65   69.86   -9.20 (VIOLATED)
+
+swerv/lsu/stbuf/_13325_/Z              60.65   69.86   -9.20 (VIOLATED)
+
+swerv/dec/arf/_07835_/ZN               26.70   35.87   -9.17 (VIOLATED)
+
+swerv/dec/arf/_12888_/Z                60.65   69.81   -9.16 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11245_/ZN   59.36   68.51   -9.16 (VIOLATED)
+
+swerv/dec/arf/_12633_/ZN               31.74   40.88   -9.14 (VIOLATED)
+
+swerv/dec/arf/_08225_/ZN               26.70   35.83   -9.12 (VIOLATED)
+
+swerv/dec/arf/_08301_/ZN               26.70   35.82   -9.12 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[9]$_DFF_PN0_/Q   60.58   69.69   -9.12 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13705_/Z   60.65   69.75   -9.10 (VIOLATED)
+
+input447/Z                             60.65   69.74   -9.09 (VIOLATED)
+
+swerv/lsu/stbuf/_12320_/ZN             59.36   68.39   -9.03 (VIOLATED)
+
+input145/Z                             60.65   69.65   -9.00 (VIOLATED)
+
+swerv/_07393_/Z                        60.50   69.47   -8.97 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[23]$_DFF_PN0_/Q   60.58   69.54   -8.96 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13495_/Z   60.65   69.57   -8.92 (VIOLATED)
+
+swerv/lsu/stbuf/_13360_/Z              60.65   69.56   -8.91 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[21]$_DFF_PN0_/Q   60.58   69.48   -8.90 (VIOLATED)
+
+swerv/lsu/stbuf/_13766_/Z              60.65   69.55   -8.89 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[57]$_DFF_PN0_/QN   60.27   69.12   -8.84 (VIOLATED)
+
+swerv/dec/instbuff.pc0ff.genblock_dff.dout[27]$_DFF_PN0_/Q   60.58   69.41   -8.83 (VIOLATED)
+
+swerv/lsu/stbuf/_16108_/ZN             25.33   34.16   -8.83 (VIOLATED)
+
+swerv/dec/decode/i1wbpcff.genblock_dff.dout[18]$_DFF_PN0_/Q   60.58   69.40   -8.82 (VIOLATED)
+
+swerv/dec/tlu/_08926_/Z                60.65   69.47   -8.81 (VIOLATED)
+
+swerv/dec/arf/_08452_/ZN               20.90   29.71   -8.80 (VIOLATED)
+
+swerv/lsu/stbuf/_16405_/ZN             26.05   34.84   -8.78 (VIOLATED)
+
+swerv/lsu/stbuf/_16816_/ZN             31.74   40.52   -8.78 (VIOLATED)
+
+swerv/lsu/stbuf/_12712_/ZN             58.36   67.08   -8.72 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[3]$_DFF_PN0_/QN   60.27   68.98   -8.71 (VIOLATED)
+
+mem/icm/ic_data_inst/_0511_/Z          60.50   69.21   -8.71 (VIOLATED)
+
+swerv/lsu/stbuf/_13414_/Z              60.65   69.35   -8.70 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[11]$_DFF_PN0_/Q   60.58   69.26   -8.69 (VIOLATED)
+
+swerv/lsu/stbuf/_11850_/ZN             16.02   24.68   -8.66 (VIOLATED)
+
+swerv/dec/arf/_14509_/ZN               26.70   35.36   -8.66 (VIOLATED)
+
+swerv/dec/arf/_11723_/Z                60.65   69.31   -8.66 (VIOLATED)
+
+mem/icm/ic_data_inst/_0988_/ZN         26.05   34.70   -8.64 (VIOLATED)
+
+swerv/lsu/stbuf/_18981_/ZN             22.16   30.79   -8.63 (VIOLATED)
+
+swerv/_05763_/Z                        60.50   69.12   -8.62 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11051_/Z   60.65   69.27   -8.61 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13955_/Z   60.65   69.26   -8.61 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[27]$_DFF_PN0_/Q   60.58   69.18   -8.60 (VIOLATED)
+
+swerv/dec/arf/_12914_/Z                60.65   69.20   -8.55 (VIOLATED)
+
+swerv/dec/arf/_12850_/Z                60.65   69.17   -8.51 (VIOLATED)
+
+swerv/dec/arf/_13928_/Z                60.65   69.17   -8.51 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rid_ff.dout[3]$_DFF_PN0_/Q   60.58   69.07   -8.50 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[55]$_DFF_PN0_/QN   60.27   68.76   -8.49 (VIOLATED)
+
+swerv/lsu/stbuf/_10439_/Z              60.73   69.22   -8.49 (VIOLATED)
+
+swerv/dec/arf/_07917_/ZN               26.70   35.18   -8.47 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc2ff.dout[3]$_DFF_PN0_/Q   60.58   69.05   -8.47 (VIOLATED)
+
+swerv/dec/arf/_12777_/ZN               26.70   35.17   -8.47 (VIOLATED)
+
+swerv/lsu/stbuf/_16151_/ZN             24.60   33.06   -8.45 (VIOLATED)
+
+input455/Z                             60.65   69.09   -8.43 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20875_/ZN   26.05   34.48   -8.43 (VIOLATED)
+
+swerv/lsu/stbuf/_13763_/Z              60.65   69.08   -8.42 (VIOLATED)
+
+swerv/lsu/stbuf/_13173_/Z              60.73   69.14   -8.41 (VIOLATED)
+
+swerv/exu/_20548_/ZN                   26.05   34.46   -8.40 (VIOLATED)
+
+swerv/exu/_20540_/ZN                   26.05   34.39   -8.33 (VIOLATED)
+
+swerv/_09536_/ZN                       60.58   68.88   -8.30 (VIOLATED)
+
+swerv/lsu/stbuf/_13147_/Z              60.65   68.94   -8.29 (VIOLATED)
+
+swerv/lsu/stbuf/_14510_/Z              60.65   68.94   -8.29 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13892_/Z   60.65   68.92   -8.27 (VIOLATED)
+
+swerv/lsu/stbuf/_12924_/Z              60.65   68.92   -8.26 (VIOLATED)
+
+swerv/dec/decode/_13073_/ZN            26.70   34.96   -8.26 (VIOLATED)
+
+swerv/lsu/stbuf/_16766_/ZN             31.74   40.00   -8.26 (VIOLATED)
+
+swerv/dec/decode/_08886_/Z             60.50   68.74   -8.24 (VIOLATED)
+
+swerv/exu/_18745_/ZN                   25.33   33.55   -8.22 (VIOLATED)
+
+swerv/lsu/stbuf/_15019_/ZN             13.81   22.02   -8.21 (VIOLATED)
+
+swerv/dec/arf/_08303_/ZN               26.70   34.88   -8.18 (VIOLATED)
+
+swerv/lsu/stbuf/_11769_/ZN             60.58   68.74   -8.16 (VIOLATED)
+
+swerv/lsu/_7772_/ZN                    25.33   33.47   -8.14 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[12]$_DFF_PN0_/Q   60.58   68.71   -8.14 (VIOLATED)
+
+swerv/lsu/stbuf/_18902_/ZN             24.60   32.72   -8.11 (VIOLATED)
+
+swerv/lsu/stbuf/_10766_/Z              60.65   68.76   -8.11 (VIOLATED)
+
+swerv/lsu/stbuf/_12422_/Z              60.65   68.76   -8.11 (VIOLATED)
+
+swerv/lsu/stbuf/_13785_/Z              60.65   68.75   -8.10 (VIOLATED)
+
+swerv/_05834_/ZN                       26.05   34.12   -8.07 (VIOLATED)
+
+swerv/lsu/stbuf/_12248_/ZN             63.32   71.37   -8.05 (VIOLATED)
+
+swerv/dec/arf/_10457_/ZN               26.70   34.75   -8.04 (VIOLATED)
+
+swerv/lsu/stbuf/_12240_/Z              60.73   68.77   -8.04 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[17]$_DFF_PN0_/Q   60.58   68.60   -8.02 (VIOLATED)
+
+swerv/lsu/_4687_/ZN                    59.36   67.38   -8.02 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[53]$_DFF_PN0_/QN   60.27   68.28   -8.00 (VIOLATED)
+
+swerv/dec/decode/i1e2instff.genblock_dff.dout[19]$_DFF_PN0_/Q   60.58   68.54   -7.97 (VIOLATED)
+
+swerv/dec/arf/_13013_/Z                60.65   68.62   -7.96 (VIOLATED)
+
+swerv/exu/_21760_/ZN                   25.33   33.28   -7.95 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20648_/ZN   26.05   34.00   -7.94 (VIOLATED)
+
+swerv/lsu/stbuf/_15441_/Z              60.65   68.58   -7.93 (VIOLATED)
+
+swerv/_10217_/ZN                       59.36   67.24   -7.88 (VIOLATED)
+
+swerv/dec/arf/_13950_/Z                60.65   68.52   -7.86 (VIOLATED)
+
+swerv/dec/arf/_10460_/Z                60.65   68.51   -7.85 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18184_/Z   60.65   68.46   -7.81 (VIOLATED)
+
+swerv/lsu/stbuf/_12655_/Z              60.65   68.43   -7.78 (VIOLATED)
+
+input246/Z                             60.65   68.43   -7.77 (VIOLATED)
+
+swerv/dec/arf/_10295_/ZN               41.50   49.24   -7.74 (VIOLATED)
+
+swerv/dec/tlu/mtval_ff.dout[29]$_DFF_PN0_/Q   60.58   68.29   -7.72 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[20]$_DFF_PN0_/Q   60.58   68.29   -7.71 (VIOLATED)
+
+swerv/lsu/_5164_/ZN                    60.58   68.28   -7.71 (VIOLATED)
+
+swerv/lsu/_5073_/ZN                    60.58   68.26   -7.68 (VIOLATED)
+
+swerv/lsu/stbuf/_13246_/ZN             25.33   33.01   -7.68 (VIOLATED)
+
+mem/icm/ic_data_inst/_0648_/ZN         26.05   33.72   -7.67 (VIOLATED)
+
+swerv/lsu/stbuf/_15036_/Z              60.65   68.32   -7.66 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20962_/ZN   20.07   27.73   -7.66 (VIOLATED)
+
+swerv/exu/_12513_/ZN                   26.02   33.67   -7.65 (VIOLATED)
+
+swerv/lsu/stbuf/_13698_/ZN             26.70   34.35   -7.65 (VIOLATED)
+
+swerv/ifu/_3136_/Z                     60.50   68.15   -7.65 (VIOLATED)
+
+swerv/lsu/stbuf/_12040_/ZN             16.02   23.67   -7.64 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[15]$_DFF_PN0_/Q   60.58   68.18   -7.60 (VIOLATED)
+
+swerv/_06744_/Z                        60.65   68.23   -7.57 (VIOLATED)
+
+swerv/dec/tlu/dicawics_ff.genblock_dff.dout[11]$_DFF_PN0_/Q   60.58   68.14   -7.57 (VIOLATED)
+
+input460/Z                             60.65   68.22   -7.57 (VIOLATED)
+
+swerv/lsu/stbuf/_12383_/ZN             60.58   68.12   -7.55 (VIOLATED)
+
+swerv/ifu/_5075_/Z                     60.65   68.19   -7.54 (VIOLATED)
+
+swerv/lsu/stbuf/_15992_/Z              60.65   68.19   -7.54 (VIOLATED)
+
+swerv/ifu/_3127_/Z                     60.50   68.02   -7.52 (VIOLATED)
+
+swerv/lsu/stbuf/_16817_/ZN             31.74   39.24   -7.50 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13528_/Z   60.65   68.15   -7.50 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18202_/Z   60.65   68.14   -7.49 (VIOLATED)
+
+input252/Z                             60.65   68.13   -7.48 (VIOLATED)
+
+swerv/dec/arf/_11511_/Z                60.65   68.11   -7.45 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12423_/Z   60.65   68.09   -7.43 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1483_/ZN     60.73   68.15   -7.42 (VIOLATED)
+
+swerv/dec/decode/_08612_/Z             60.65   68.06   -7.40 (VIOLATED)
+
+input176/Z                             60.65   68.04   -7.39 (VIOLATED)
+
+swerv/dec/arf/_12958_/Z                60.65   68.03   -7.38 (VIOLATED)
+
+swerv/dec/tlu/mtval_ff.dout[2]$_DFF_PN0_/Q   60.58   67.92   -7.34 (VIOLATED)
+
+swerv/exu/_18768_/ZN                   25.33   32.67   -7.34 (VIOLATED)
+
+swerv/ifu/mem_ctl.imb_f2_ff.dout[14]$_DFFE_PN0N_/Q   60.58   67.90   -7.32 (VIOLATED)
+
+swerv/exu/_19680_/ZN                   26.05   33.34   -7.28 (VIOLATED)
+
+input245/Z                             60.65   67.93   -7.27 (VIOLATED)
+
+swerv/lsu/stbuf/_13181_/ZN             58.36   65.60   -7.24 (VIOLATED)
+
+swerv/lsu/stbuf/_12409_/ZN             26.70   33.93   -7.23 (VIOLATED)
+
+swerv/lsu/stbuf/_11876_/ZN             26.70   33.93   -7.22 (VIOLATED)
+
+swerv/lsu/stbuf/_18754_/ZN             22.16   29.37   -7.20 (VIOLATED)
+
+input410/Z                             60.65   67.84   -7.18 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1663_/ZN     60.73   67.91   -7.18 (VIOLATED)
+
+input267/Z                             60.65   67.82   -7.17 (VIOLATED)
+
+swerv/lsu/stbuf/_13496_/Z              60.65   67.82   -7.16 (VIOLATED)
+
+swerv/lsu/stbuf/_18745_/ZN             22.16   29.30   -7.14 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[11]$_DFF_PN0_/Q   60.58   67.71   -7.13 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20204_/ZN   22.16   29.25   -7.09 (VIOLATED)
+
+swerv/_05585_/Z                        60.65   67.73   -7.08 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[17]$_DFF_PN0_/QN   60.27   67.35   -7.08 (VIOLATED)
+
+swerv/lsu/stbuf/_13176_/ZN             26.70   33.78   -7.08 (VIOLATED)
+
+swerv/dec/arf/_10836_/Z                60.65   67.73   -7.08 (VIOLATED)
+
+swerv/dec/tlu/freeff.dout[2]$_DFF_PN0_/Q   60.58   67.64   -7.06 (VIOLATED)
+
+input445/Z                             60.65   67.71   -7.05 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12752_/Z   60.65   67.67   -7.01 (VIOLATED)
+
+swerv/dec/arf/_11445_/Z                60.65   67.66   -7.01 (VIOLATED)
+
+swerv/exu/_20556_/ZN                   26.05   33.05   -7.00 (VIOLATED)
+
+swerv/lsu/stbuf/_14713_/ZN             59.36   66.33   -6.97 (VIOLATED)
+
+swerv/lsu/stbuf/_10436_/Z              60.73   67.69   -6.96 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14255_/ZN   41.50   48.45   -6.95 (VIOLATED)
+
+swerv/lsu/bus_intf/_1934_/ZN           52.11   59.03   -6.92 (VIOLATED)
+
+swerv/lsu/stbuf/_10703_/Z              60.65   67.55   -6.90 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20955_/ZN   26.70   33.60   -6.90 (VIOLATED)
+
+swerv/lsu/stbuf/_10154_/ZN             26.05   32.94   -6.89 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12291_/Z   60.65   67.53   -6.88 (VIOLATED)
+
+input346/Z                             60.65   67.53   -6.87 (VIOLATED)
+
+swerv/lsu/stbuf/_13350_/Z              60.65   67.52   -6.87 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[14]$_DFF_PN0_/Q   60.58   67.44   -6.86 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[19]$_DFF_PN0_/Q   60.58   67.38   -6.80 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_17619_/ZN   25.33   32.12   -6.79 (VIOLATED)
+
+swerv/lsu/stbuf/_16922_/Z              60.65   67.44   -6.78 (VIOLATED)
+
+swerv/dec/instbuff.pc0ff.genblock_dff.dout[15]$_DFF_PN0_/Q   60.58   67.35   -6.78 (VIOLATED)
+
+swerv/dec/arf/_14246_/Z                60.65   67.43   -6.77 (VIOLATED)
+
+swerv/_07386_/Z                        60.50   67.27   -6.77 (VIOLATED)
+
+swerv/lsu/stbuf/_17787_/ZN             13.81   20.57   -6.76 (VIOLATED)
+
+swerv/lsu/stbuf/_11940_/ZN             10.47   17.21   -6.74 (VIOLATED)
+
+swerv/lsu/stbuf/_13234_/Z              60.65   67.38   -6.73 (VIOLATED)
+
+swerv/ifu/aln/_5250_/ZN                25.33   32.05   -6.72 (VIOLATED)
+
+swerv/dec/arf/_08065_/ZN               26.70   33.42   -6.71 (VIOLATED)
+
+swerv/dec/arf/_12712_/Z                60.65   67.34   -6.68 (VIOLATED)
+
+swerv/lsu/stbuf/_12727_/ZN             26.70   33.38   -6.67 (VIOLATED)
+
+swerv/lsu/stbuf/_13788_/Z              60.65   67.32   -6.67 (VIOLATED)
+
+swerv/lsu/_4698_/ZN                    59.36   66.02   -6.66 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21726_/Z   60.50   67.15   -6.65 (VIOLATED)
+
+swerv/_07398_/Z                        60.50   67.15   -6.65 (VIOLATED)
+
+swerv/dec/arf/_10626_/Z                60.65   67.29   -6.64 (VIOLATED)
+
+swerv/lsu/stbuf/_12272_/Z              60.65   67.29   -6.63 (VIOLATED)
+
+swerv/lsu/stbuf/_13638_/Z              60.65   67.28   -6.63 (VIOLATED)
+
+swerv/exu/_18663_/ZN                   26.05   32.68   -6.63 (VIOLATED)
+
+swerv/dec/tlu/_06983_/ZN               26.70   33.31   -6.61 (VIOLATED)
+
+swerv/_07395_/Z                        60.50   67.09   -6.59 (VIOLATED)
+
+swerv/lsu/stbuf/_10042_/Z              60.65   67.23   -6.58 (VIOLATED)
+
+swerv/lsu/stbuf/_13586_/Z              60.65   67.23   -6.58 (VIOLATED)
+
+swerv/dec/tlu/_07556_/ZN               26.70   33.25   -6.55 (VIOLATED)
+
+swerv/_07397_/Z                        60.50   67.03   -6.53 (VIOLATED)
+
+swerv/_10465_/Z                        60.65   67.19   -6.53 (VIOLATED)
+
+swerv/dec/decode/_11083_/Z             60.65   67.17   -6.51 (VIOLATED)
+
+swerv/lsu/stbuf/_13259_/Z              60.65   67.16   -6.51 (VIOLATED)
+
+swerv/lsu/stbuf/_17049_/ZN             26.70   33.19   -6.49 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[14]$_DFF_PN0_/Q   60.58   67.05   -6.47 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13584_/Z   60.65   67.12   -6.47 (VIOLATED)
+
+swerv/dec/arf/_12652_/ZN               41.50   47.97   -6.47 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20911_/ZN   26.70   33.17   -6.46 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[23]$_DFF_PN0_/Q   60.58   67.01   -6.44 (VIOLATED)
+
+swerv/dma_ctrl.rdbuf_addrff.genblock_dff.dout[6]$_DFF_PN0_/Q   60.58   66.99   -6.41 (VIOLATED)
+
+swerv/lsu/stbuf/_16941_/ZN             31.74   38.14   -6.40 (VIOLATED)
+
+swerv/lsu/stbuf/_12913_/ZN             60.58   66.95   -6.37 (VIOLATED)
+
+swerv/lsu/stbuf/_12201_/ZN             56.00   62.37   -6.37 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12127_/ZN   25.33   31.68   -6.35 (VIOLATED)
+
+swerv/lsu/stbuf/_13018_/Z              60.65   67.00   -6.35 (VIOLATED)
+
+swerv/lsu/stbuf/_14256_/Z              60.65   67.00   -6.34 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18168_/Z   60.65   66.99   -6.34 (VIOLATED)
+
+swerv/exu/_18711_/ZN                   25.33   31.66   -6.33 (VIOLATED)
+
+swerv/lsu/stbuf/_13346_/Z              60.65   66.98   -6.33 (VIOLATED)
+
+swerv/exu/_20058_/ZN                   22.16   28.49   -6.32 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20215_/ZN   22.16   28.45   -6.29 (VIOLATED)
+
+swerv/lsu/stbuf/_13059_/ZN             22.16   28.44   -6.28 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[23]$_DFF_PN0_/Q   60.58   66.75   -6.17 (VIOLATED)
+
+swerv/lsu/stbuf/_13195_/Z              60.65   66.82   -6.17 (VIOLATED)
+
+swerv/lsu/stbuf/_19233_/ZN             13.81   19.96   -6.15 (VIOLATED)
+
+swerv/dec/arf/_14175_/ZN               59.36   65.47   -6.11 (VIOLATED)
+
+swerv/lsu/stbuf/_13507_/ZN             26.70   32.81   -6.11 (VIOLATED)
+
+swerv/lsu/_8728_/Z                     60.65   66.74   -6.09 (VIOLATED)
+
+swerv/dec/arf/_10263_/Z                60.65   66.72   -6.07 (VIOLATED)
+
+swerv/dec/arf/_10409_/ZN               26.70   32.77   -6.06 (VIOLATED)
+
+swerv/lsu/stbuf/_12332_/ZN             60.73   66.75   -6.02 (VIOLATED)
+
+swerv/dec/tlu/mtval_ff.dout[0]$_DFF_PN0_/Q   60.58   66.60   -6.02 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18158_/Z   60.65   66.67   -6.02 (VIOLATED)
+
+swerv/dma_ctrl.rdbuf_addrff.genblock_dff.dout[29]$_DFF_PN0_/Q   60.58   66.53   -5.95 (VIOLATED)
+
+swerv/lsu/stbuf/_12826_/Z              60.65   66.59   -5.94 (VIOLATED)
+
+input440/Z                             60.65   66.59   -5.94 (VIOLATED)
+
+swerv/lsu/stbuf/_17984_/ZN             13.81   19.71   -5.90 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14060_/ZN   58.36   64.25   -5.88 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18193_/Z   60.65   66.53   -5.88 (VIOLATED)
+
+swerv/dec/arf/_07462_/ZN               26.70   32.57   -5.86 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18180_/Z   60.65   66.52   -5.86 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12967_/ZN   25.33   31.19   -5.86 (VIOLATED)
+
+input233/Z                             60.65   66.49   -5.84 (VIOLATED)
+
+swerv/lsu/_8727_/Z                     60.65   66.49   -5.84 (VIOLATED)
+
+swerv/dec/arf/_13942_/Z                60.65   66.49   -5.84 (VIOLATED)
+
+swerv/dec/arf/_08151_/ZN               26.70   32.52   -5.81 (VIOLATED)
+
+swerv/dec/decode/_08329_/ZN            26.70   32.46   -5.75 (VIOLATED)
+
+swerv/lsu/stbuf/_12372_/Z              60.65   66.40   -5.75 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_19658_/ZN   56.00   61.73   -5.73 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc2ff.dout[15]$_DFF_PN0_/Q   60.58   66.29   -5.71 (VIOLATED)
+
+swerv/exu/_14226_/ZN                   25.33   31.00   -5.67 (VIOLATED)
+
+swerv/lsu/stbuf/_16058_/ZN             26.70   32.34   -5.64 (VIOLATED)
+
+swerv/exu/_20558_/ZN                   26.05   31.68   -5.63 (VIOLATED)
+
+swerv/dec/tlu/freeff.dout[3]$_DFF_PN0_/Q   60.58   66.20   -5.63 (VIOLATED)
+
+swerv/lsu/stbuf/_12419_/Z              60.65   66.28   -5.62 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18195_/Z   60.65   66.27   -5.61 (VIOLATED)
+
+swerv/lsu/_5931_/ZN                    26.70   32.31   -5.60 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12311_/Z   60.65   66.24   -5.59 (VIOLATED)
+
+swerv/exu/_18572_/ZN                   22.16   27.75   -5.58 (VIOLATED)
+
+mem/icm/ic_data_inst/_0519_/Z          60.50   66.08   -5.58 (VIOLATED)
+
+swerv/exu/_18617_/ZN                   26.05   31.62   -5.57 (VIOLATED)
+
+swerv/dec/arf/_12758_/ZN               26.70   32.27   -5.57 (VIOLATED)
+
+swerv/lsu/_8709_/Z                     60.65   66.21   -5.56 (VIOLATED)
+
+swerv/lsu/stbuf/_13108_/Z              60.65   66.21   -5.55 (VIOLATED)
+
+swerv/lsu/stbuf/_12551_/Z              60.65   66.19   -5.53 (VIOLATED)
+
+swerv/dec/arf/_10319_/Z                60.65   66.15   -5.49 (VIOLATED)
+
+swerv/lsu/stbuf/_13232_/Z              60.65   66.14   -5.48 (VIOLATED)
+
+swerv/ifu/_4381_/ZN                    26.05   31.53   -5.47 (VIOLATED)
+
+mem/icm/ic_data_inst/_0602_/ZN         26.05   31.50   -5.45 (VIOLATED)
+
+swerv/dec/arf/_10357_/Z                60.65   66.10   -5.45 (VIOLATED)
+
+swerv/lsu/stbuf/_12977_/Z              60.73   66.17   -5.44 (VIOLATED)
+
+swerv/dec/decode/_09507_/ZN            26.70   32.12   -5.42 (VIOLATED)
+
+swerv/lsu/stbuf/_12017_/ZN             26.70   32.11   -5.40 (VIOLATED)
+
+swerv/lsu/stbuf/_10928_/Z              60.65   66.04   -5.39 (VIOLATED)
+
+swerv/lsu/stbuf/_12841_/Z              60.65   66.03   -5.37 (VIOLATED)
+
+swerv/lsu/stbuf/_14554_/Z              60.65   66.02   -5.36 (VIOLATED)
+
+swerv/lsu/stbuf/_12086_/ZN             16.02   21.35   -5.33 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18637_/ZN   16.02   21.34   -5.32 (VIOLATED)
+
+swerv/lsu/stbuf/_13037_/Z              60.65   65.97   -5.32 (VIOLATED)
+
+swerv/lsu/stbuf/_13047_/Z              60.65   65.97   -5.32 (VIOLATED)
+
+swerv/lsu/stbuf/_13297_/ZN             59.36   64.66   -5.31 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[16]$_DFF_PN0_/Q   60.58   65.87   -5.29 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[3]$_DFF_PN0_/Q   60.58   65.87   -5.29 (VIOLATED)
+
+swerv/lsu/stbuf/_16940_/ZN             31.74   37.02   -5.29 (VIOLATED)
+
+swerv/dec/arf/_13920_/ZN               26.70   31.96   -5.26 (VIOLATED)
+
+swerv/lsu/stbuf/_12580_/ZN             26.70   31.96   -5.26 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12607_/Z   60.65   65.91   -5.25 (VIOLATED)
+
+swerv/_05942_/ZN                       60.73   65.98   -5.25 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21842_/Z   60.50   65.75   -5.24 (VIOLATED)
+
+input353/Z                             60.65   65.89   -5.24 (VIOLATED)
+
+swerv/dec/tlu/_07560_/ZN               26.70   31.94   -5.24 (VIOLATED)
+
+swerv/_06346_/Z                        60.65   65.89   -5.24 (VIOLATED)
+
+swerv/lsu/stbuf/_14065_/Z              60.65   65.87   -5.22 (VIOLATED)
+
+swerv/_10244_/ZN                       13.01   18.18   -5.17 (VIOLATED)
+
+swerv/lsu/stbuf/_13867_/Z              60.65   65.82   -5.17 (VIOLATED)
+
+swerv/lsu/_7776_/ZN                    25.33   30.49   -5.16 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12352_/Z   60.65   65.78   -5.13 (VIOLATED)
+
+swerv/dec/arf/_12006_/ZN               56.00   61.12   -5.12 (VIOLATED)
+
+swerv/dec/decode/_11372_/Z             60.50   65.62   -5.12 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_17604_/ZN   13.81   18.92   -5.11 (VIOLATED)
+
+swerv/lsu/stbuf/_12999_/Z              60.65   65.76   -5.10 (VIOLATED)
+
+swerv/dec/arf/_14162_/Z                60.65   65.76   -5.10 (VIOLATED)
+
+swerv/dec/arf/_10652_/Z                60.65   65.75   -5.10 (VIOLATED)
+
+swerv/exu/_19650_/ZN                   13.81   18.91   -5.10 (VIOLATED)
+
+swerv/lsu/stbuf/_14649_/ZN             26.70   31.79   -5.09 (VIOLATED)
+
+swerv/dec/tlu/_08752_/Z                60.65   65.73   -5.08 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13957_/Z   60.65   65.73   -5.08 (VIOLATED)
+
+swerv/lsu/stbuf/_12368_/Z              60.65   65.69   -5.03 (VIOLATED)
+
+swerv/lsu/stbuf/_16123_/Z              60.65   65.69   -5.03 (VIOLATED)
+
+swerv/exu/_14576_/ZN                   13.81   18.83   -5.02 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20745_/ZN   13.81   18.81   -5.00 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13901_/Z   60.65   65.65   -4.99 (VIOLATED)
+
+swerv/dec/arf/_10871_/Z                60.65   65.65   -4.99 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20474_/ZN   26.70   31.69   -4.98 (VIOLATED)
+
+swerv/lsu/stbuf/_12445_/Z             121.15  126.11   -4.95 (VIOLATED)
+
+swerv/dec/decode/_14370_/Z             60.50   65.44   -4.94 (VIOLATED)
+
+swerv/dec/tlu/_08795_/Z                60.65   65.59   -4.94 (VIOLATED)
+
+swerv/dec/tlu/_09962_/Z                60.65   65.59   -4.93 (VIOLATED)
+
+swerv/dec/arf/_13948_/Z                60.65   65.58   -4.92 (VIOLATED)
+
+swerv/lsu/stbuf/_18784_/ZN             13.81   18.72   -4.91 (VIOLATED)
+
+swerv/exu/_22743_/S                    25.25   30.13   -4.88 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12060_/Z   60.65   65.52   -4.86 (VIOLATED)
+
+swerv/lsu/stbuf/_19580_/ZN             13.81   18.67   -4.86 (VIOLATED)
+
+swerv/lsu/stbuf/_12753_/ZN             53.41   58.27   -4.86 (VIOLATED)
+
+swerv/lsu/stbuf/_13091_/ZN             23.23   28.09   -4.86 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18679_/ZN   16.02   20.87   -4.85 (VIOLATED)
+
+swerv/dec/arf/_08454_/ZN               20.90   25.73   -4.83 (VIOLATED)
+
+swerv/_10299_/ZN                       26.05   30.88   -4.83 (VIOLATED)
+
+swerv/lsu/stbuf/_12221_/ZN             31.74   36.55   -4.81 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12034_/Z   60.65   65.45   -4.79 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20520_/ZN   26.70   31.50   -4.79 (VIOLATED)
+
+swerv/lsu/stbuf/_14093_/ZN             26.05   30.84   -4.79 (VIOLATED)
+
+swerv/lsu/stbuf/_12690_/Z              60.65   65.43   -4.78 (VIOLATED)
+
+swerv/_07392_/Z                        60.50   65.28   -4.78 (VIOLATED)
+
+swerv/lsu/stbuf/_13014_/Z              60.65   65.42   -4.77 (VIOLATED)
+
+swerv/exu/_19607_/ZN                   26.05   30.82   -4.76 (VIOLATED)
+
+swerv/lsu/stbuf/_14253_/Z              60.65   65.41   -4.76 (VIOLATED)
+
+swerv/dec/decode/_12318_/ZN            25.33   30.08   -4.75 (VIOLATED)
+
+swerv/dec/arf/_10647_/Z                60.65   65.39   -4.74 (VIOLATED)
+
+swerv/lsu/stbuf/_12684_/Z              60.65   65.39   -4.74 (VIOLATED)
+
+swerv/exu/_21740_/ZN                   25.33   30.07   -4.74 (VIOLATED)
+
+swerv/lsu/stbuf/_12828_/Z              60.73   65.46   -4.73 (VIOLATED)
+
+swerv/lsu/stbuf/_13453_/Z              60.73   65.46   -4.73 (VIOLATED)
+
+swerv/dec/decode/_11379_/Z             60.50   65.22   -4.72 (VIOLATED)
+
+swerv/dec/decode/_10083_/ZN            25.33   30.04   -4.71 (VIOLATED)
+
+swerv/dec/_4645_/Z                     60.65   65.33   -4.68 (VIOLATED)
+
+swerv/ifu/bp/_4907_/ZN                 26.70   31.38   -4.68 (VIOLATED)
+
+swerv/dec/arf/_11406_/Z                60.65   65.33   -4.67 (VIOLATED)
+
+swerv/dec/decode/i1wb1instff.genblock_dff.dout[14]$_DFF_PN0_/Q   60.58   65.25   -4.67 (VIOLATED)
+
+swerv/lsu/bus_intf/_1918_/ZN           53.41   58.07   -4.66 (VIOLATED)
+
+swerv/exu/_14596_/ZN                   13.81   18.46   -4.65 (VIOLATED)
+
+swerv/exu/_16190_/ZN                   25.33   29.97   -4.64 (VIOLATED)
+
+swerv/lsu/stbuf/_17179_/ZN             31.74   36.38   -4.64 (VIOLATED)
+
+swerv/lsu/stbuf/_13956_/ZN             26.70   31.34   -4.64 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12803_/Z   60.65   65.28   -4.63 (VIOLATED)
+
+swerv/ifu/_5781_/ZN                    13.01   17.63   -4.62 (VIOLATED)
+
+swerv/lsu/stbuf/_18818_/ZN             22.16   26.78   -4.62 (VIOLATED)
+
+swerv/dec/arf/_14177_/Z                60.65   65.25   -4.60 (VIOLATED)
+
+swerv/dec/decode/i0wb1instff.genblock_dff.dout[18]$_DFF_PN0_/Q   60.58   65.16   -4.58 (VIOLATED)
+
+swerv/lsu/_7575_/ZN                    25.33   29.91   -4.58 (VIOLATED)
+
+swerv/lsu/_7638_/ZN                    13.81   18.38   -4.57 (VIOLATED)
+
+swerv/dec/arf/_11570_/Z                60.65   65.21   -4.56 (VIOLATED)
+
+swerv/dec/arf/_07744_/ZN               26.70   31.22   -4.52 (VIOLATED)
+
+swerv/exu/_17676_/ZN                   22.16   26.68   -4.52 (VIOLATED)
+
+swerv/lsu/stbuf/_12424_/Z              60.65   65.17   -4.52 (VIOLATED)
+
+swerv/ifu/_5942_/Z                     60.65   65.17   -4.52 (VIOLATED)
+
+swerv/dec/decode/i1wbpcff.genblock_dff.dout[8]$_DFF_PN0_/Q   60.58   65.08   -4.51 (VIOLATED)
+
+swerv/lsu/stbuf/_13823_/Z              60.65   65.16   -4.51 (VIOLATED)
+
+swerv/dec/tlu/exthaltff.dout[3]$_DFF_PN0_/Q   60.58   65.07   -4.49 (VIOLATED)
+
+swerv/exu/_17441_/ZN                   26.05   30.54   -4.49 (VIOLATED)
+
+swerv/_06247_/Z                        60.65   65.14   -4.48 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[20]$_DFF_PN0_/QN   60.27   64.75   -4.48 (VIOLATED)
+
+mem/icm/_509_/ZN                       24.60   29.07   -4.47 (VIOLATED)
+
+swerv/dec/arf/_13922_/ZN               56.00   60.46   -4.46 (VIOLATED)
+
+swerv/lsu/stbuf/_12795_/Z              60.65   65.11   -4.46 (VIOLATED)
+
+swerv/exu/_19302_/ZN                   26.05   30.48   -4.43 (VIOLATED)
+
+swerv/_10185_/ZN                       26.05   30.47   -4.42 (VIOLATED)
+
+swerv/ifu/_3125_/Z                     60.50   64.92   -4.42 (VIOLATED)
+
+swerv/ifu/aln/_7906_/ZN                20.07   24.46   -4.39 (VIOLATED)
+
+swerv/lsu/_7606_/ZN                    13.81   18.20   -4.39 (VIOLATED)
+
+swerv/dec/arf/_08457_/ZN               20.90   25.29   -4.39 (VIOLATED)
+
+swerv/dec/decode/_13031_/ZN            13.81   18.19   -4.38 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18200_/Z   60.65   65.01   -4.35 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[18]$_DFF_PN0_/Q   60.58   64.93   -4.35 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21332_/Z   60.50   64.84   -4.34 (VIOLATED)
+
+swerv/lsu/stbuf/_12803_/Z              60.65   65.00   -4.34 (VIOLATED)
+
+swerv/dec/arf/_12708_/Z                60.65   64.99   -4.34 (VIOLATED)
+
+swerv/lsu/stbuf/_14465_/ZN             16.02   20.36   -4.34 (VIOLATED)
+
+swerv/lsu/stbuf/_10827_/Z              60.65   64.99   -4.33 (VIOLATED)
+
+swerv/dec/decode/_13673_/ZN            26.05   30.39   -4.33 (VIOLATED)
+
+swerv/dec/decode/_10814_/ZN            25.33   29.60   -4.27 (VIOLATED)
+
+swerv/dec/arf/_13994_/Z                60.65   64.90   -4.24 (VIOLATED)
+
+swerv/dec/instbuff.pc1ff.genblock_dff.dout[18]$_DFF_PN0_/Q   60.58   64.82   -4.24 (VIOLATED)
+
+swerv/dec/tlu/_07066_/Z                60.73   64.97   -4.24 (VIOLATED)
+
+swerv/dec/arf/_10585_/ZN               59.36   63.58   -4.22 (VIOLATED)
+
+swerv/dec/tlu/_12814_/Z                60.65   64.87   -4.22 (VIOLATED)
+
+swerv/dec/instbuff.pc1ff.genblock_dff.dout[16]$_DFF_PN0_/Q   60.58   64.79   -4.21 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_17065_/ZN   26.05   30.25   -4.20 (VIOLATED)
+
+swerv/lsu/stbuf/_19643_/ZN             49.13   53.31   -4.18 (VIOLATED)
+
+swerv/lsu/stbuf/_16973_/Z              60.65   64.81   -4.15 (VIOLATED)
+
+swerv/lsu/stbuf/_18267_/ZN             26.70   30.85   -4.15 (VIOLATED)
+
+swerv/lsu/stbuf/_11945_/ZN             63.32   67.44   -4.12 (VIOLATED)
+
+swerv/dec/decode/_12336_/ZN            25.33   29.43   -4.10 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[10]$_DFF_PN0_/Q   60.58   64.68   -4.10 (VIOLATED)
+
+swerv/lsu/stbuf/_10207_/Z              60.65   64.74   -4.09 (VIOLATED)
+
+swerv/exu/_14606_/ZN                   13.81   17.88   -4.07 (VIOLATED)
+
+swerv/ifu/aln/_4775_/ZN                11.48   15.55   -4.07 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12908_/ZN   16.02   20.08   -4.06 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14066_/ZN   25.33   29.38   -4.05 (VIOLATED)
+
+swerv/lsu/_4900_/ZN                    26.70   30.75   -4.04 (VIOLATED)
+
+mem/icm/_511_/ZN                       24.60   28.65   -4.04 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_19930_/ZN   28.99   33.03   -4.04 (VIOLATED)
+
+swerv/dec/arf/_09493_/ZN               20.90   24.92   -4.02 (VIOLATED)
+
+swerv/lsu/stbuf/_12307_/ZN             26.70   30.72   -4.02 (VIOLATED)
+
+swerv/exu/_14493_/ZN                   13.81   17.82   -4.01 (VIOLATED)
+
+swerv/dec/decode/_10001_/ZN            25.33   29.33   -4.00 (VIOLATED)
+
+swerv/dec/arf/_12828_/ZN               31.74   35.71   -3.97 (VIOLATED)
+
+swerv/exu/_14626_/ZN                   13.81   17.78   -3.97 (VIOLATED)
+
+swerv/dec/arf/_07736_/ZN               26.70   30.67   -3.97 (VIOLATED)
+
+swerv/dec/_5124_/Z                     60.65   64.62   -3.97 (VIOLATED)
+
+swerv/exu/_21736_/ZN                   25.33   29.28   -3.95 (VIOLATED)
+
+swerv/exu/_18786_/ZN                   26.05   29.99   -3.93 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13372_/ZN   10.47   14.40   -3.93 (VIOLATED)
+
+swerv/dec/decode/i0wbpcff.genblock_dff.dout[0]$_DFF_PN0_/Q   60.58   64.51   -3.93 (VIOLATED)
+
+swerv/exu/_14585_/ZN                   13.81   17.71   -3.90 (VIOLATED)
+
+swerv/_05599_/ZN                       26.05   29.95   -3.90 (VIOLATED)
+
+swerv/dec/arf/_14289_/Z                60.65   64.55   -3.89 (VIOLATED)
+
+swerv/lsu/stbuf/_12243_/ZN             63.32   67.20   -3.88 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12515_/Z   60.65   64.53   -3.88 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14094_/ZN   26.70   30.58   -3.87 (VIOLATED)
+
+swerv/dec/arf/_10344_/Z                60.65   64.53   -3.87 (VIOLATED)
+
+input237/Z                             60.65   64.52   -3.86 (VIOLATED)
+
+swerv/lsu/stbuf/_10047_/Z              60.65   64.52   -3.86 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13188_/ZN   16.02   19.88   -3.86 (VIOLATED)
+
+swerv/exu/_14577_/ZN                   26.05   29.90   -3.84 (VIOLATED)
+
+swerv/lsu/stbuf/_11993_/ZN             10.47   14.31   -3.83 (VIOLATED)
+
+swerv/lsu/stbuf/_12773_/Z              60.65   64.48   -3.83 (VIOLATED)
+
+swerv/dec/arf/_09491_/ZN               20.90   24.72   -3.82 (VIOLATED)
+
+swerv/ifu/_3030_/Z                     60.65   64.46   -3.81 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11195_/Z   60.65   64.46   -3.81 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13826_/Z   60.65   64.46   -3.80 (VIOLATED)
+
+swerv/exu/_18779_/ZN                   26.05   29.85   -3.79 (VIOLATED)
+
+swerv/lsu/stbuf/_10187_/Z              60.65   64.44   -3.79 (VIOLATED)
+
+swerv/dec/arf/_11467_/Z                60.65   64.43   -3.78 (VIOLATED)
+
+swerv/dec/decode/i1wb1instff.genblock_dff.dout[0]$_DFF_PN0_/Q   60.58   64.35   -3.77 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_17056_/ZN   26.05   29.82   -3.77 (VIOLATED)
+
+swerv/ifu/_6128_/Z                     60.65   64.41   -3.76 (VIOLATED)
+
+swerv/exu/_17213_/ZN                   22.16   25.92   -3.75 (VIOLATED)
+
+swerv/lsu/stbuf/_10438_/Z              60.65   64.40   -3.75 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18186_/Z   60.65   64.39   -3.74 (VIOLATED)
+
+swerv/dec/decode/_12243_/ZN            25.33   29.07   -3.74 (VIOLATED)
+
+swerv/exu/_20249_/ZN                   13.81   17.55   -3.74 (VIOLATED)
+
+swerv/lsu/stbuf/_13019_/Z              60.65   64.36   -3.71 (VIOLATED)
+
+swerv/lsu/stbuf/_15013_/ZN             26.70   30.41   -3.70 (VIOLATED)
+
+swerv/lsu/stbuf/_13102_/ZN             16.02   19.72   -3.70 (VIOLATED)
+
+swerv/dec/decode/_11376_/Z             60.50   64.18   -3.68 (VIOLATED)
+
+swerv/lsu/stbuf/_12242_/ZN             10.47   14.15   -3.67 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12017_/ZN   41.50   45.17   -3.67 (VIOLATED)
+
+swerv/dec/decode/_09502_/Z             60.65   64.32   -3.66 (VIOLATED)
+
+swerv/_10369_/Z                        60.65   64.30   -3.65 (VIOLATED)
+
+swerv/dec/arf/_13848_/ZN               26.70   30.35   -3.65 (VIOLATED)
+
+swerv/dec/arf/_14124_/ZN               59.36   63.00   -3.64 (VIOLATED)
+
+swerv/dec/arf/_11524_/Z                60.65   64.28   -3.63 (VIOLATED)
+
+swerv/_07926_/ZN                       26.05   29.67   -3.61 (VIOLATED)
+
+swerv/lsu/stbuf/_12589_/ZN             26.70   30.31   -3.60 (VIOLATED)
+
+swerv/dec/tlu/_07321_/Z                60.73   64.33   -3.60 (VIOLATED)
+
+swerv/lsu/stbuf/_13873_/Z              60.65   64.24   -3.59 (VIOLATED)
+
+swerv/dec/arf/_12702_/Z                60.65   64.23   -3.58 (VIOLATED)
+
+swerv/lsu/stbuf/_18685_/ZN             26.70   30.26   -3.56 (VIOLATED)
+
+swerv/lsu/_7583_/ZN                    25.33   28.89   -3.56 (VIOLATED)
+
+swerv/ifu/_6130_/Z                     60.65   64.21   -3.56 (VIOLATED)
+
+swerv/lsu/stbuf/_17704_/ZN             27.62   31.18   -3.56 (VIOLATED)
+
+swerv/exu/_17551_/ZN                   26.05   29.61   -3.56 (VIOLATED)
+
+swerv/lsu/stbuf/_12742_/ZN             16.02   19.58   -3.55 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12294_/Z   60.65   64.17   -3.51 (VIOLATED)
+
+mem/icm/ic_data_inst/_1056_/ZN         13.01   16.51   -3.50 (VIOLATED)
+
+swerv/exu/_18672_/ZN                   13.81   17.31   -3.50 (VIOLATED)
+
+swerv/lsu/_4701_/ZN                    16.02   19.49   -3.46 (VIOLATED)
+
+swerv/lsu/_8724_/Z                     60.65   64.11   -3.46 (VIOLATED)
+
+swerv/lsu/_6759_/ZN                    25.33   28.78   -3.45 (VIOLATED)
+
+input225/Z                             60.65   64.09   -3.44 (VIOLATED)
+
+swerv/exu/_18588_/ZN                   22.16   25.60   -3.44 (VIOLATED)
+
+swerv/lsu/stbuf/_14435_/Z              60.65   64.09   -3.44 (VIOLATED)
+
+swerv/dec/tlu/_08762_/Z                60.65   64.07   -3.41 (VIOLATED)
+
+swerv/exu/_12936_/ZN                   26.02   29.41   -3.39 (VIOLATED)
+
+swerv/lsu/stbuf/_11892_/ZN             31.74   35.13   -3.39 (VIOLATED)
+
+swerv/dec/arf/_12771_/ZN               26.70   30.09   -3.38 (VIOLATED)
+
+swerv/lsu/stbuf/_16446_/Z              60.65   64.03   -3.38 (VIOLATED)
+
+swerv/_05886_/ZN                       60.73   64.09   -3.36 (VIOLATED)
+
+swerv/lsu/stbuf/_12213_/ZN             26.70   30.05   -3.35 (VIOLATED)
+
+swerv/dec/decode/_12278_/ZN            25.33   28.66   -3.33 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1087_/Z      60.50   63.83   -3.32 (VIOLATED)
+
+swerv/lsu/stbuf/_11797_/Z              60.65   63.97   -3.32 (VIOLATED)
+
+swerv/dec/arf/_11550_/Z                60.65   63.95   -3.30 (VIOLATED)
+
+swerv/exu/_17840_/ZN                   22.16   25.46   -3.30 (VIOLATED)
+
+swerv/dec/arf/_11529_/Z                60.65   63.95   -3.29 (VIOLATED)
+
+swerv/dec/tlu/mtval_ff.dout[30]$_DFF_PN0_/Q   60.58   63.87   -3.29 (VIOLATED)
+
+swerv/dec/arf/_12759_/ZN               26.70   29.98   -3.28 (VIOLATED)
+
+swerv/lsu/_6036_/ZN                    16.02   19.30   -3.27 (VIOLATED)
+
+swerv/lsu/stbuf/_12014_/ZN             10.47   13.72   -3.25 (VIOLATED)
+
+swerv/ifu/aln/_4995_/ZN                26.70   29.94   -3.24 (VIOLATED)
+
+swerv/lsu/stbuf/_13175_/Z              60.65   63.89   -3.23 (VIOLATED)
+
+mem/icm/ic_data_inst/_1052_/ZN         13.01   16.24   -3.23 (VIOLATED)
+
+swerv/lsu/stbuf/_12763_/Z              60.65   63.87   -3.21 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/obuf_addrff.genblock_dff.dout[4]$_DFF_PN0_/Q   60.58   63.79   -3.21 (VIOLATED)
+
+swerv/dec/_6815_/ZN                    60.58   63.78   -3.20 (VIOLATED)
+
+swerv/exu/_12486_/ZN                   26.02   29.21   -3.20 (VIOLATED)
+
+swerv/dec/arf/_12785_/Z                60.65   63.83   -3.18 (VIOLATED)
+
+mem/icm/ic_data_inst/_1026_/ZN         13.01   16.18   -3.18 (VIOLATED)
+
+swerv/lsu/stbuf/_13491_/Z              60.65   63.83   -3.17 (VIOLATED)
+
+swerv/lsu/stbuf/_12721_/Z              60.65   63.81   -3.16 (VIOLATED)
+
+swerv/exu/_20235_/ZN                   13.81   16.95   -3.14 (VIOLATED)
+
+swerv/ifu/aln/_5730_/ZN                24.60   27.74   -3.14 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13753_/ZN   26.05   29.18   -3.12 (VIOLATED)
+
+swerv/dec/arf/_07672_/Z                60.73   63.84   -3.11 (VIOLATED)
+
+swerv/lsu/stbuf/_16332_/ZN             11.48   14.59   -3.11 (VIOLATED)
+
+input459/Z                             60.65   63.76   -3.10 (VIOLATED)
+
+swerv/lsu/stbuf/_19243_/ZN             22.16   25.27   -3.10 (VIOLATED)
+
+swerv/exu/_17817_/ZN                   22.16   25.27   -3.10 (VIOLATED)
+
+swerv/lsu/stbuf/_19579_/ZN             31.74   34.84   -3.10 (VIOLATED)
+
+swerv/dec/decode/_12253_/ZN            25.33   28.43   -3.10 (VIOLATED)
+
+swerv/lsu/stbuf/_19279_/ZN             22.16   25.26   -3.09 (VIOLATED)
+
+swerv/exu/_18793_/ZN                   25.33   28.42   -3.09 (VIOLATED)
+
+swerv/lsu/stbuf/_16304_/ZN             11.48   14.57   -3.09 (VIOLATED)
+
+input462/Z                             60.65   63.73   -3.08 (VIOLATED)
+
+swerv/lsu/stbuf/_15857_/Z              60.65   63.73   -3.07 (VIOLATED)
+
+swerv/lsu/stbuf/_13410_/Z              60.65   63.73   -3.07 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13396_/ZN   16.02   19.09   -3.07 (VIOLATED)
+
+swerv/lsu/stbuf/_12717_/ZN             26.70   29.76   -3.06 (VIOLATED)
+
+swerv/lsu/_7095_/ZN                    25.33   28.39   -3.06 (VIOLATED)
+
+swerv/lsu/stbuf/_17668_/ZN             58.36   61.42   -3.06 (VIOLATED)
+
+swerv/lsu/stbuf/_11610_/ZN             10.47   13.53   -3.06 (VIOLATED)
+
+mem/icm/ic_data_inst/_0995_/ZN         13.01   16.06   -3.05 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12685_/ZN   25.33   28.38   -3.05 (VIOLATED)
+
+swerv/lsu/_6385_/ZN                    26.05   29.09   -3.03 (VIOLATED)
+
+swerv/lsu/stbuf/_12463_/Z              60.65   63.67   -3.02 (VIOLATED)
+
+mem/icm/ic_data_inst/_0409_/ZN         26.70   29.72   -3.01 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14308_/Z   60.65   63.67   -3.01 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20778_/ZN   13.81   16.80   -2.99 (VIOLATED)
+
+swerv/dec/tlu/_06988_/ZN               26.05   29.04   -2.99 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12046_/ZN   20.90   23.89   -2.99 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18166_/Z   60.65   63.64   -2.98 (VIOLATED)
+
+swerv/dec/decode/_11465_/ZN            23.23   26.19   -2.95 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13894_/Z   60.65   63.60   -2.94 (VIOLATED)
+
+swerv/lsu/stbuf/_13328_/Z              60.65   63.59   -2.94 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[26]$_DFF_PN0_/Q   60.58   63.51   -2.93 (VIOLATED)
+
+swerv/lsu/_7912_/ZN                    16.02   18.95   -2.93 (VIOLATED)
+
+swerv/lsu/stbuf/_18799_/ZN             13.81   16.74   -2.93 (VIOLATED)
+
+swerv/ifu/aln/_8222_/ZN                16.02   18.95   -2.93 (VIOLATED)
+
+swerv/lsu/stbuf/_17191_/ZN             20.90   23.82   -2.92 (VIOLATED)
+
+swerv/lsu/stbuf/_13565_/Z              60.65   63.57   -2.91 (VIOLATED)
+
+swerv/dec/arf/_10597_/Z                60.65   63.56   -2.91 (VIOLATED)
+
+swerv/lsu/stbuf/_12941_/ZN             26.70   29.61   -2.91 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18213_/Z   60.65   63.56   -2.90 (VIOLATED)
+
+swerv/_06342_/Z                        60.65   63.55   -2.90 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_21870_/Z   60.50   63.39   -2.89 (VIOLATED)
+
+swerv/exu/_21738_/ZN                   25.33   28.21   -2.88 (VIOLATED)
+
+swerv/dec/arf/_10766_/ZN               56.00   58.87   -2.87 (VIOLATED)
+
+swerv/lsu/stbuf/_14191_/Z              60.65   63.49   -2.83 (VIOLATED)
+
+swerv/_07399_/Z                        60.50   63.33   -2.83 (VIOLATED)
+
+swerv/ifu/aln/_4934_/ZN                16.02   18.84   -2.82 (VIOLATED)
+
+swerv/lsu/stbuf/_18768_/ZN             25.33   28.14   -2.81 (VIOLATED)
+
+swerv/lsu/stbuf/_13158_/Z              60.65   63.44   -2.78 (VIOLATED)
+
+swerv/dec/tlu/_08747_/Z                60.65   63.43   -2.78 (VIOLATED)
+
+swerv/lsu/stbuf/_19226_/ZN             22.16   24.94   -2.77 (VIOLATED)
+
+swerv/lsu/stbuf/_14375_/Z              60.65   63.42   -2.77 (VIOLATED)
+
+swerv/exu/_18722_/ZN                   26.05   28.82   -2.77 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12279_/Z   60.65   63.42   -2.76 (VIOLATED)
+
+swerv/dec/decode/_12262_/ZN            25.33   28.09   -2.76 (VIOLATED)
+
+swerv/exu/_19987_/ZN                   22.16   24.91   -2.75 (VIOLATED)
+
+swerv/lsu/stbuf/_12466_/Z              60.65   63.39   -2.74 (VIOLATED)
+
+swerv/dec/decode/_12326_/ZN            25.33   28.06   -2.73 (VIOLATED)
+
+swerv/lsu/stbuf/_10935_/Z              60.65   63.37   -2.72 (VIOLATED)
+
+swerv/lsu/stbuf/_12934_/Z              60.65   63.37   -2.72 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12120_/ZN   24.60   27.30   -2.70 (VIOLATED)
+
+swerv/lsu/stbuf/_13893_/Z              60.65   63.35   -2.69 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11043_/Z   60.65   63.34   -2.69 (VIOLATED)
+
+swerv/_10215_/ZN                       60.58   63.23   -2.66 (VIOLATED)
+
+swerv/ifu/_3133_/Z                     60.50   63.14   -2.64 (VIOLATED)
+
+swerv/dec/arf/_08375_/ZN               26.70   29.35   -2.64 (VIOLATED)
+
+swerv/lsu/bus_intf/_2294_/ZN           10.47   13.11   -2.64 (VIOLATED)
+
+swerv/dec/decode/_09650_/ZN            26.05   28.69   -2.63 (VIOLATED)
+
+swerv/dec/tlu/_07697_/ZN               26.70   29.33   -2.63 (VIOLATED)
+
+swerv/dec/instbuff.ib0ff.genblock_dff.dout[22]$_DFF_PN0_/Q   60.58   63.16   -2.59 (VIOLATED)
+
+swerv/ifu/aln/_5528_/ZN                26.70   29.28   -2.58 (VIOLATED)
+
+swerv/lsu/stbuf/_12306_/ZN             59.36   61.93   -2.57 (VIOLATED)
+
+swerv/dec/decode/_11380_/Z             60.50   63.06   -2.56 (VIOLATED)
+
+swerv/lsu/stbuf/_16821_/ZN             11.48   14.04   -2.56 (VIOLATED)
+
+swerv/dec/instbuff.pc0ff.genblock_dff.dout[31]$_DFF_PN0_/Q   60.58   63.13   -2.55 (VIOLATED)
+
+swerv/dec/instbuff.pc0ff.genblock_dff.dout[19]$_DFF_PN0_/Q   60.58   63.11   -2.53 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14406_/ZN   26.70   29.23   -2.53 (VIOLATED)
+
+swerv/dec/tlu/_07391_/ZN               23.23   25.74   -2.51 (VIOLATED)
+
+swerv/lsu/stbuf/_13490_/ZN             13.81   16.30   -2.49 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12520_/ZN   16.02   18.50   -2.48 (VIOLATED)
+
+swerv/dec/arf/_11567_/Z                60.65   63.12   -2.46 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13002_/ZN   16.02   18.48   -2.46 (VIOLATED)
+
+swerv/dec/decode/_10804_/ZN            16.02   18.48   -2.45 (VIOLATED)
+
+swerv/dec/decode/_14280_/ZN            23.23   25.67   -2.43 (VIOLATED)
+
+swerv/dec/decode/_10831_/ZN            16.02   18.46   -2.43 (VIOLATED)
+
+swerv/lsu/stbuf/_16239_/ZN             11.48   13.90   -2.42 (VIOLATED)
+
+swerv/_10211_/ZN                       24.60   27.02   -2.41 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_19498_/ZN   56.00   58.40   -2.40 (VIOLATED)
+
+swerv/dec/arf/_13820_/ZN               26.70   29.10   -2.39 (VIOLATED)
+
+swerv/lsu/stbuf/_18607_/ZN             25.33   27.72   -2.39 (VIOLATED)
+
+swerv/dec/decode/_11814_/ZN            13.81   16.19   -2.38 (VIOLATED)
+
+swerv/lsu/stbuf/_11378_/Z              60.65   63.02   -2.37 (VIOLATED)
+
+swerv/lsu/stbuf/_12796_/Z              60.65   63.00   -2.35 (VIOLATED)
+
+swerv/lsu/stbuf/_17035_/Z              60.65   63.00   -2.34 (VIOLATED)
+
+swerv/dec/arf/_11505_/Z                60.65   62.98   -2.33 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18890_/ZN   10.47   12.77   -2.30 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11044_/ZN   26.70   28.99   -2.29 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13015_/ZN   16.02   18.30   -2.28 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18623_/ZN   16.02   18.29   -2.27 (VIOLATED)
+
+swerv/lsu/bus_intf/_2284_/ZN           10.47   12.74   -2.27 (VIOLATED)
+
+swerv/ifu/_5842_/ZN                    13.81   16.05   -2.24 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20169_/ZN   16.02   18.26   -2.24 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13618_/ZN   26.70   28.94   -2.23 (VIOLATED)
+
+swerv/lsu/stbuf/_15883_/ZN             26.70   28.93   -2.23 (VIOLATED)
+
+swerv/lsu/stbuf/_12782_/Z              60.73   62.96   -2.23 (VIOLATED)
+
+swerv/lsu/stbuf/_16071_/Z              60.65   62.88   -2.22 (VIOLATED)
+
+swerv/lsu/stbuf/_12902_/ZN             22.16   24.39   -2.22 (VIOLATED)
+
+swerv/lsu/stbuf/_13214_/ZN             31.74   33.95   -2.21 (VIOLATED)
+
+swerv/ifu/bp/_5176_/ZN                 26.70   28.90   -2.20 (VIOLATED)
+
+swerv/_10386_/Z                        60.65   62.84   -2.19 (VIOLATED)
+
+swerv/ifu/mem_ctl.imb_f2_ff.dout[25]$_DFFE_PN0N_/Q   60.58   62.77   -2.19 (VIOLATED)
+
+swerv/dec/decode/_07812_/ZN            23.23   25.42   -2.19 (VIOLATED)
+
+swerv/lsu/_8598_/ZN                    10.47   12.65   -2.18 (VIOLATED)
+
+swerv/lsu/stbuf/_13472_/ZN             13.81   15.98   -2.18 (VIOLATED)
+
+swerv/dec/decode/_09724_/ZN            26.05   28.23   -2.17 (VIOLATED)
+
+swerv/lsu/stbuf/_16802_/ZN             63.32   65.49   -2.17 (VIOLATED)
+
+swerv/dec/tlu/mpvhalt_ff.dout[6]$_DFF_PN0_/Q   60.58   62.75   -2.17 (VIOLATED)
+
+swerv/lsu/stbuf/_13418_/Z              60.65   62.82   -2.17 (VIOLATED)
+
+swerv/dec/arf/_10473_/ZN               59.36   61.52   -2.16 (VIOLATED)
+
+swerv/dec/instbuff.ib0ff.genblock_dff.dout[21]$_DFF_PN0_/Q   60.58   62.73   -2.15 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1309_/Z      60.50   62.63   -2.13 (VIOLATED)
+
+swerv/exu/_17662_/ZN                   26.05   28.18   -2.13 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11967_/ZN   24.60   26.73   -2.13 (VIOLATED)
+
+swerv/lsu/stbuf/_18733_/ZN             25.33   27.45   -2.12 (VIOLATED)
+
+swerv/lsu/_7115_/ZN                    26.05   28.17   -2.12 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[31]$_DFF_PN0_/Q   60.58   62.70   -2.12 (VIOLATED)
+
+swerv/dec/decode/_10828_/ZN            16.02   18.14   -2.12 (VIOLATED)
+
+swerv/dec/arf/_07567_/Z                60.65   62.76   -2.10 (VIOLATED)
+
+swerv/dec/decode/_11286_/ZN            23.23   25.33   -2.10 (VIOLATED)
+
+swerv/lsu/_8729_/Z                     60.65   62.75   -2.10 (VIOLATED)
+
+swerv/exu/_18596_/ZN                   26.05   28.15   -2.09 (VIOLATED)
+
+swerv/dec/arf/_12165_/ZN               56.00   58.07   -2.07 (VIOLATED)
+
+swerv/lsu/stbuf/_13533_/ZN             26.70   28.76   -2.06 (VIOLATED)
+
+swerv/dec/decode/_07717_/Z             60.65   62.71   -2.05 (VIOLATED)
+
+swerv/dec/arf/_12854_/Z                60.65   62.69   -2.04 (VIOLATED)
+
+swerv/dec/tlu/_07184_/ZN               16.02   18.03   -2.01 (VIOLATED)
+
+swerv/dec/tlu/_07523_/ZN               16.02   18.02   -2.00 (VIOLATED)
+
+swerv/dec/arf/_10623_/Z                60.73   62.73   -2.00 (VIOLATED)
+
+mem/icm/ic_data_inst/_0562_/Z          60.50   62.49   -1.99 (VIOLATED)
+
+swerv/dma_ctrl.rdbuf_addrff.genblock_dff.dout[1]$_DFF_PN0_/Q   60.58   62.56   -1.98 (VIOLATED)
+
+swerv/_10170_/ZN                       24.60   26.58   -1.98 (VIOLATED)
+
+swerv/dec/tlu/_08803_/ZN               10.47   12.44   -1.97 (VIOLATED)
+
+swerv/dec/arf/_10491_/Z                60.65   62.60   -1.94 (VIOLATED)
+
+swerv/lsu/stbuf/_12343_/ZN             26.70   28.64   -1.94 (VIOLATED)
+
+swerv/lsu/stbuf/_12267_/ZN             56.00   57.92   -1.92 (VIOLATED)
+
+swerv/dec/tlu/_07189_/ZN               10.47   12.39   -1.92 (VIOLATED)
+
+swerv/dec/arf/_14051_/Z                60.65   62.55   -1.90 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18176_/Z   60.65   62.55   -1.89 (VIOLATED)
+
+swerv/dec/decode/_09968_/ZN            25.33   27.21   -1.88 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18211_/Z   60.65   62.52   -1.87 (VIOLATED)
+
+swerv/ifu/aln/_5036_/ZN                26.70   28.57   -1.87 (VIOLATED)
+
+swerv/exu/_17806_/ZN                   22.16   24.02   -1.86 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11858_/ZN   26.05   27.90   -1.85 (VIOLATED)
+
+swerv/dec/arf/_13815_/ZN               26.70   28.54   -1.84 (VIOLATED)
+
+swerv/lsu/_8034_/ZN                    16.02   17.85   -1.83 (VIOLATED)
+
+swerv/exu/_21734_/ZN                   25.33   27.14   -1.81 (VIOLATED)
+
+swerv/dec/arf/_13825_/Z                60.65   62.45   -1.80 (VIOLATED)
+
+swerv/dec/arf/_10333_/ZN               41.50   43.29   -1.79 (VIOLATED)
+
+swerv/lsu/stbuf/_16619_/ZN             11.48   13.27   -1.79 (VIOLATED)
+
+swerv/lsu/stbuf/_10057_/Z              60.65   62.44   -1.78 (VIOLATED)
+
+swerv/dec/arf/_14083_/Z                60.65   62.43   -1.78 (VIOLATED)
+
+swerv/lsu/_7065_/ZN                    10.47   12.25   -1.78 (VIOLATED)
+
+swerv/lsu/_7625_/ZN                    13.81   15.58   -1.78 (VIOLATED)
+
+swerv/lsu/stbuf/_14639_/ZN             16.02   17.79   -1.77 (VIOLATED)
+
+swerv/lsu/stbuf/_12626_/ZN             11.48   13.25   -1.77 (VIOLATED)
+
+swerv/lsu/_7033_/ZN                    22.16   23.93   -1.77 (VIOLATED)
+
+swerv/lsu/stbuf/_12550_/ZN             26.70   28.47   -1.76 (VIOLATED)
+
+swerv/dec/decode/_09632_/ZN            26.05   27.81   -1.76 (VIOLATED)
+
+input226/Z                             60.65   62.41   -1.75 (VIOLATED)
+
+swerv/dma_ctrl.wrbuf_dataff.genblock_dff.dout[45]$_DFF_PN0_/QN   60.27   62.01   -1.74 (VIOLATED)
+
+swerv/lsu/stbuf/_10910_/ZN             10.47   12.20   -1.73 (VIOLATED)
+
+swerv/dec/tlu/_08741_/Z                60.65   62.36   -1.70 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/lsu_axi_rdata_ff.genblock_dff.dout[43]$_DFF_PN0_/QN   60.27   61.97   -1.69 (VIOLATED)
+
+swerv/exu/_21764_/ZN                   25.33   27.01   -1.68 (VIOLATED)
+
+swerv/dec/decode/i1wbpcff.genblock_dff.dout[1]$_DFF_PN0_/Q   60.58   62.25   -1.68 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12682_/ZN   26.70   28.37   -1.67 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.sadc2ff.dout[13]$_DFF_PN0_/Q   60.58   62.25   -1.67 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13831_/Z   60.65   62.31   -1.66 (VIOLATED)
+
+swerv/dec/arf/_11829_/ZN               59.36   61.00   -1.65 (VIOLATED)
+
+swerv/dec/decode/_11822_/ZN            13.81   15.45   -1.64 (VIOLATED)
+
+swerv/lsu/_8712_/Z                     60.65   62.29   -1.63 (VIOLATED)
+
+swerv/lsu/stbuf/_17841_/Z              60.65   62.29   -1.63 (VIOLATED)
+
+swerv/exu/_18732_/ZN                   26.05   27.68   -1.63 (VIOLATED)
+
+swerv/exu/_21754_/ZN                   25.33   26.95   -1.62 (VIOLATED)
+
+swerv/exu/_21732_/ZN                   25.33   26.95   -1.62 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_19810_/ZN   60.58   62.19   -1.62 (VIOLATED)
+
+swerv/lsu/stbuf/_12663_/ZN             26.70   28.29   -1.59 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13537_/ZN   26.02   27.60   -1.58 (VIOLATED)
+
+swerv/dec/decode/_09623_/ZN            26.05   27.63   -1.58 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13890_/Z   60.65   62.23   -1.57 (VIOLATED)
+
+swerv/lsu/stbuf/_13944_/ZN             25.33   26.90   -1.57 (VIOLATED)
+
+swerv/dec/decode/_11267_/ZN            22.16   23.73   -1.57 (VIOLATED)
+
+swerv/ifu/_3135_/Z                     60.50   62.05   -1.55 (VIOLATED)
+
+swerv/dec/decode/_14378_/Z             60.50   62.05   -1.55 (VIOLATED)
+
+swerv/dec/decode/_11292_/ZN            23.23   24.77   -1.54 (VIOLATED)
+
+swerv/dec/decode/_10166_/ZN            25.33   26.85   -1.52 (VIOLATED)
+
+swerv/exu/_12403_/Z                    25.33   26.85   -1.52 (VIOLATED)
+
+swerv/dbg.dbg_sbaddress0_reg.genblock_dff.dout[24]$_DFF_PN0_/Q   60.58   62.09   -1.51 (VIOLATED)
+
+swerv/dec/decode/_13081_/ZN            26.70   28.22   -1.51 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1253_/Z      60.50   62.01   -1.50 (VIOLATED)
+
+swerv/lsu/stbuf/_15357_/ZN             26.70   28.21   -1.50 (VIOLATED)
+
+swerv/dec/decode/_11373_/Z             60.50   62.00   -1.50 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13417_/ZN   16.02   17.52   -1.50 (VIOLATED)
+
+swerv/dec/tlu/_06758_/ZN               16.02   17.51   -1.49 (VIOLATED)
+
+swerv/exu/_14359_/ZN                   16.02   17.51   -1.49 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14434_/Z   60.65   62.14   -1.48 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_14427_/Z   60.65   62.13   -1.47 (VIOLATED)
+
+mem/Gen_dccm_enable_dccm/_1137_/Z      60.65   62.11   -1.45 (VIOLATED)
+
+swerv/dec/decode/i1wbpcff.genblock_dff.dout[26]$_DFF_PN0_/Q   60.58   62.02   -1.45 (VIOLATED)
+
+swerv/lsu/stbuf/_16809_/Z              60.65   62.10   -1.44 (VIOLATED)
+
+swerv/exu/_21758_/ZN                   25.33   26.77   -1.44 (VIOLATED)
+
+swerv/lsu/stbuf/_13386_/ZN             26.70   28.14   -1.43 (VIOLATED)
+
+swerv/dec/arf/_11454_/ZN               26.70   28.13   -1.43 (VIOLATED)
+
+swerv/ifu/_3673_/ZN                    16.02   17.43   -1.41 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11196_/Z   60.65   62.06   -1.40 (VIOLATED)
+
+swerv/dbg.dbg_data0_reg.genblock_dff.dout[11]$_DFF_PN0_/Q   60.58   61.96   -1.38 (VIOLATED)
+
+swerv/dec/arf/_13945_/Z                60.65   62.02   -1.37 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11085_/ZN   11.48   12.85   -1.37 (VIOLATED)
+
+swerv/lsu/stbuf/_16250_/ZN             24.60   25.97   -1.36 (VIOLATED)
+
+swerv/dec/decode/_14301_/ZN            11.48   12.83   -1.35 (VIOLATED)
+
+swerv/dec/decode/_11375_/Z             60.50   61.85   -1.35 (VIOLATED)
+
+swerv/dec/arf/_14009_/Z                60.65   61.98   -1.32 (VIOLATED)
+
+swerv/ifu/aln/_7867_/ZN                20.07   21.37   -1.31 (VIOLATED)
+
+swerv/dec/decode/i0wbpcff.genblock_dff.dout[25]$_DFF_PN0_/Q   60.58   61.86   -1.28 (VIOLATED)
+
+swerv/exu/_21796_/ZN                   25.33   26.61   -1.28 (VIOLATED)
+
+swerv/exu/_17593_/ZN                   13.81   15.09   -1.28 (VIOLATED)
+
+swerv/lsu/stbuf/_12682_/ZN             59.36   60.62   -1.27 (VIOLATED)
+
+swerv/dec/tlu/mtval_ff.dout[9]$_DFF_PN0_/Q   60.58   61.84   -1.26 (VIOLATED)
+
+swerv/lsu/stbuf/_10166_/Z              60.65   61.91   -1.26 (VIOLATED)
+
+swerv/lsu/stbuf/_13477_/ZN             26.70   27.96   -1.26 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_13871_/ZN   16.02   17.28   -1.26 (VIOLATED)
+
+swerv/dec/tlu/_08865_/Z                60.65   61.91   -1.25 (VIOLATED)
+
+swerv/lsu/stbuf/_19383_/ZN             22.16   23.39   -1.23 (VIOLATED)
+
+swerv/dec/arf/_09495_/ZN               20.90   22.13   -1.22 (VIOLATED)
+
+swerv/exu/_18789_/ZN                   26.05   27.27   -1.22 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_12051_/ZN   26.70   27.92   -1.21 (VIOLATED)
+
+swerv/ifu/_5876_/ZN                    25.33   26.54   -1.21 (VIOLATED)
+
+swerv/exu/_14556_/ZN                   20.07   21.27   -1.20 (VIOLATED)
+
+swerv/lsu/_5829_/ZN                    24.60   25.80   -1.19 (VIOLATED)
+
+swerv/dec/decode/_09706_/ZN            26.05   27.23   -1.18 (VIOLATED)
+
+swerv/dec/tlu/_07039_/Z                60.73   61.89   -1.16 (VIOLATED)
+
+swerv/lsu/stbuf/_14335_/ZN             58.36   59.52   -1.16 (VIOLATED)
+
+swerv/dec/decode/_08803_/ZN            16.02   17.18   -1.15 (VIOLATED)
+
+swerv/lsu/stbuf/_12955_/ZN             59.36   60.51   -1.15 (VIOLATED)
+
+swerv/dec/tlu/dicawics_ff.genblock_dff.dout[6]$_DFF_PN0_/Q   60.58   61.73   -1.15 (VIOLATED)
+
+swerv/lsu/_7194_/ZN                    16.02   17.17   -1.15 (VIOLATED)
+
+swerv/_07385_/ZN                       60.58   61.72   -1.14 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18172_/Z   60.65   61.79   -1.14 (VIOLATED)
+
+swerv/dec/tlu/excinfo_wb_ff.dout[8]$_DFF_PN0_/Q   60.58   61.71   -1.13 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_20964_/ZN   26.70   27.83   -1.13 (VIOLATED)
+
+swerv/lsu/bus_intf/_2558_/Z            25.33   26.42   -1.09 (VIOLATED)
+
+swerv/exu/_12154_/ZN                   10.47   11.56   -1.09 (VIOLATED)
+
+swerv/ifu/bp/_6220_/ZN                 26.70   27.79   -1.09 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.end_addr_dc2ff.dout[9]$_DFF_PN0_/Q   60.58   61.66   -1.08 (VIOLATED)
+
+swerv/lsu/stbuf/_16159_/ZN             26.70   27.76   -1.06 (VIOLATED)
+
+swerv/lsu/lsu_lsc_ctl.end_addr_dc2ff.dout[13]$_DFF_PN0_/Q   60.58   61.63   -1.05 (VIOLATED)
+
+swerv/dec/arf/_10471_/ZN               59.36   60.41   -1.05 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_18160_/Z   60.65   61.70   -1.04 (VIOLATED)
+
+swerv/dec/arf/_10456_/Z                60.65   61.70   -1.04 (VIOLATED)
+
+swerv/dec/arf/_10361_/Z                60.65   61.68   -1.02 (VIOLATED)
+
+swerv/lsu/bus_intf/bus_buffer/_11181_/ZN   11.48   12.48   -1.00 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-0.1418049931526184
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.7143
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-76.46205139160156
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+60.65370559692383
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-1.2606
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 160
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 1462
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 7759
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 25
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+[WARNING STA-0503] report_checks -group_count is deprecated. Use -group_path_count instead.
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[25]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.14    0.54 ^ input384/Z (BUF_X1)
+   0.03    0.57 v swerv/_07165_/ZN (INV_X1)
+   0.15    0.72 ^ swerv/_07167_/ZN (AOI21_X1)
+   0.07    0.79 ^ max_cap3960/Z (CLKBUF_X3)
+   0.06    0.85 ^ wire3959/Z (CLKBUF_X3)
+   0.06    0.91 ^ max_cap3958/Z (CLKBUF_X3)
+   0.06    0.96 ^ max_cap3957/Z (CLKBUF_X3)
+   0.05    1.02 ^ max_cap3956/Z (CLKBUF_X3)
+   0.05    1.07 ^ max_cap3955/Z (CLKBUF_X3)
+   0.05    1.12 ^ max_cap3954/Z (CLKBUF_X3)
+   0.06    1.17 ^ wire3953/Z (CLKBUF_X3)
+   0.05    1.23 ^ max_cap3951/Z (CLKBUF_X3)
+   0.05    1.28 ^ max_cap3949/Z (CLKBUF_X3)
+   0.05    1.33 ^ max_cap3948/Z (CLKBUF_X3)
+   0.05    1.38 ^ max_cap3947/Z (CLKBUF_X3)
+   0.05    1.44 ^ max_cap3946/Z (CLKBUF_X3)
+   0.05    1.49 ^ max_cap3944/Z (CLKBUF_X3)
+   0.05    1.54 ^ max_cap3942/Z (CLKBUF_X3)
+   0.05    1.60 ^ wire3941/Z (CLKBUF_X3)
+   0.05    1.65 ^ max_cap3940/Z (CLKBUF_X3)
+   0.05    1.70 ^ max_cap3939/Z (CLKBUF_X3)
+   0.05    1.75 ^ max_cap3938/Z (CLKBUF_X3)
+   0.05    1.80 ^ max_cap3934/Z (CLKBUF_X3)
+   0.05    1.85 ^ max_cap3924/Z (CLKBUF_X3)
+   0.05    1.90 ^ max_cap3923/Z (CLKBUF_X3)
+   0.05    1.95 ^ max_cap3922/Z (CLKBUF_X3)
+   0.05    2.01 ^ max_cap3921/Z (CLKBUF_X3)
+   0.05    2.06 ^ max_cap3919/Z (CLKBUF_X3)
+   0.05    2.11 ^ max_cap3918/Z (CLKBUF_X3)
+   0.05    2.16 ^ max_cap3917/Z (CLKBUF_X3)
+   0.05    2.21 ^ max_cap3914/Z (CLKBUF_X3)
+   0.05    2.27 ^ max_cap3851/Z (CLKBUF_X3)
+   0.05    2.32 ^ swerv/wire3849/Z (CLKBUF_X3)
+   0.05    2.37 ^ swerv/max_cap3848/Z (CLKBUF_X3)
+   0.05    2.42 ^ swerv/wire3847/Z (CLKBUF_X3)
+   0.05    2.48 ^ swerv/max_cap3846/Z (CLKBUF_X3)
+   0.05    2.53 ^ swerv/max_cap3845/Z (CLKBUF_X3)
+   0.05    2.58 ^ swerv/max_cap3843/Z (CLKBUF_X3)
+   0.05    2.63 ^ swerv/max_cap3842/Z (CLKBUF_X3)
+   0.05    2.68 ^ swerv/max_cap3841/Z (CLKBUF_X3)
+   0.05    2.73 ^ swerv/max_cap3840/Z (CLKBUF_X3)
+   0.05    2.78 ^ swerv/max_cap3830/Z (CLKBUF_X3)
+   0.05    2.83 ^ swerv/max_cap3829/Z (CLKBUF_X3)
+   0.05    2.88 ^ swerv/max_cap3828/Z (CLKBUF_X3)
+   0.05    2.93 ^ swerv/max_cap3825/Z (CLKBUF_X3)
+   0.05    2.98 ^ swerv/max_cap3824/Z (CLKBUF_X3)
+   0.05    3.03 ^ swerv/max_cap3823/Z (CLKBUF_X3)
+   0.06    3.09 ^ swerv/max_cap3822/Z (CLKBUF_X3)
+   0.06    3.14 ^ swerv/max_cap3819/Z (CLKBUF_X3)
+   0.06    3.20 ^ swerv/max_cap3817/Z (CLKBUF_X3)
+   0.05    3.26 ^ swerv/max_cap3816/Z (CLKBUF_X3)
+   0.06    3.31 ^ swerv/wire3815/Z (CLKBUF_X3)
+   0.06    3.37 ^ swerv/max_cap3814/Z (CLKBUF_X3)
+   0.06    3.42 ^ swerv/max_cap3812/Z (CLKBUF_X3)
+   0.05    3.47 ^ swerv/max_cap3811/Z (CLKBUF_X3)
+   0.05    3.52 ^ swerv/max_cap3810/Z (CLKBUF_X3)
+   0.05    3.57 ^ swerv/max_cap3807/Z (CLKBUF_X3)
+   0.06    3.63 ^ swerv/lsu/stbuf/max_cap3806/Z (CLKBUF_X3)
+   0.05    3.68 ^ swerv/lsu/stbuf/max_cap3805/Z (CLKBUF_X3)
+   0.05    3.73 ^ swerv/lsu/stbuf/max_cap3804/Z (CLKBUF_X3)
+   0.00    3.73 ^ swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[25]$_DFF_PN0_/RN (DFFR_X1)
+           3.73   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.38    2.38   clock network delay (propagated)
+   0.00    2.38   clock reconvergence pessimism
+           2.38 ^ swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[25]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.44   library recovery time
+           2.44   data required time
+---------------------------------------------------------
+           2.44   data required time
+          -3.73   data arrival time
+---------------------------------------------------------
+          -1.29   slack (VIOLATED)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/lsu/stbuf/GenStBuf_6__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.14    0.54 ^ input384/Z (BUF_X1)
+   0.03    0.57 v swerv/_07165_/ZN (INV_X1)
+   0.15    0.72 ^ swerv/_07167_/ZN (AOI21_X1)
+   0.07    0.79 ^ max_cap3960/Z (CLKBUF_X3)
+   0.06    0.85 ^ wire3959/Z (CLKBUF_X3)
+   0.06    0.91 ^ max_cap3958/Z (CLKBUF_X3)
+   0.06    0.96 ^ max_cap3957/Z (CLKBUF_X3)
+   0.05    1.02 ^ max_cap3956/Z (CLKBUF_X3)
+   0.05    1.07 ^ max_cap3955/Z (CLKBUF_X3)
+   0.05    1.12 ^ max_cap3954/Z (CLKBUF_X3)
+   0.06    1.17 ^ wire3953/Z (CLKBUF_X3)
+   0.05    1.23 ^ max_cap3951/Z (CLKBUF_X3)
+   0.05    1.28 ^ max_cap3949/Z (CLKBUF_X3)
+   0.05    1.33 ^ max_cap3948/Z (CLKBUF_X3)
+   0.05    1.38 ^ max_cap3947/Z (CLKBUF_X3)
+   0.05    1.44 ^ max_cap3946/Z (CLKBUF_X3)
+   0.05    1.49 ^ max_cap3944/Z (CLKBUF_X3)
+   0.05    1.54 ^ max_cap3942/Z (CLKBUF_X3)
+   0.05    1.60 ^ wire3941/Z (CLKBUF_X3)
+   0.05    1.65 ^ max_cap3940/Z (CLKBUF_X3)
+   0.05    1.70 ^ max_cap3939/Z (CLKBUF_X3)
+   0.05    1.75 ^ max_cap3938/Z (CLKBUF_X3)
+   0.05    1.80 ^ max_cap3934/Z (CLKBUF_X3)
+   0.05    1.85 ^ max_cap3924/Z (CLKBUF_X3)
+   0.05    1.90 ^ max_cap3923/Z (CLKBUF_X3)
+   0.05    1.95 ^ max_cap3922/Z (CLKBUF_X3)
+   0.05    2.01 ^ max_cap3921/Z (CLKBUF_X3)
+   0.05    2.06 ^ max_cap3919/Z (CLKBUF_X3)
+   0.05    2.11 ^ max_cap3918/Z (CLKBUF_X3)
+   0.05    2.16 ^ max_cap3917/Z (CLKBUF_X3)
+   0.05    2.21 ^ max_cap3914/Z (CLKBUF_X3)
+   0.05    2.27 ^ max_cap3851/Z (CLKBUF_X3)
+   0.05    2.32 ^ swerv/wire3849/Z (CLKBUF_X3)
+   0.05    2.37 ^ swerv/max_cap3848/Z (CLKBUF_X3)
+   0.05    2.42 ^ swerv/wire3847/Z (CLKBUF_X3)
+   0.05    2.48 ^ swerv/max_cap3846/Z (CLKBUF_X3)
+   0.05    2.53 ^ swerv/max_cap3845/Z (CLKBUF_X3)
+   0.05    2.58 ^ swerv/max_cap3843/Z (CLKBUF_X3)
+   0.05    2.63 ^ swerv/max_cap3842/Z (CLKBUF_X3)
+   0.05    2.68 ^ swerv/max_cap3841/Z (CLKBUF_X3)
+   0.05    2.73 ^ swerv/max_cap3840/Z (CLKBUF_X3)
+   0.05    2.78 ^ swerv/max_cap3830/Z (CLKBUF_X3)
+   0.05    2.83 ^ swerv/max_cap3829/Z (CLKBUF_X3)
+   0.05    2.88 ^ swerv/max_cap3828/Z (CLKBUF_X3)
+   0.05    2.93 ^ swerv/max_cap3825/Z (CLKBUF_X3)
+   0.05    2.98 ^ swerv/max_cap3824/Z (CLKBUF_X3)
+   0.05    3.03 ^ swerv/max_cap3823/Z (CLKBUF_X3)
+   0.06    3.09 ^ swerv/max_cap3822/Z (CLKBUF_X3)
+   0.06    3.14 ^ swerv/max_cap3819/Z (CLKBUF_X3)
+   0.06    3.20 ^ swerv/max_cap3817/Z (CLKBUF_X3)
+   0.05    3.26 ^ swerv/max_cap3816/Z (CLKBUF_X3)
+   0.06    3.31 ^ swerv/wire3815/Z (CLKBUF_X3)
+   0.06    3.37 ^ swerv/max_cap3814/Z (CLKBUF_X3)
+   0.06    3.42 ^ swerv/max_cap3812/Z (CLKBUF_X3)
+   0.05    3.47 ^ swerv/max_cap3811/Z (CLKBUF_X3)
+   0.05    3.52 ^ swerv/max_cap3810/Z (CLKBUF_X3)
+   0.05    3.57 ^ swerv/max_cap3807/Z (CLKBUF_X3)
+   0.06    3.63 ^ swerv/lsu/stbuf/max_cap3806/Z (CLKBUF_X3)
+   0.05    3.68 ^ swerv/lsu/stbuf/max_cap3805/Z (CLKBUF_X3)
+   0.05    3.73 ^ swerv/lsu/stbuf/max_cap3804/Z (CLKBUF_X3)
+   0.00    3.73 ^ swerv/lsu/stbuf/GenStBuf_6__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_/RN (DFFR_X1)
+           3.73   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.38    2.38   clock network delay (propagated)
+   0.00    2.38   clock reconvergence pessimism
+           2.38 ^ swerv/lsu/stbuf/GenStBuf_6__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.44   library recovery time
+           2.44   data required time
+---------------------------------------------------------
+           2.44   data required time
+          -3.73   data arrival time
+---------------------------------------------------------
+          -1.29   slack (VIOLATED)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/lsu/stbuf/GenStBuf_5__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.14    0.54 ^ input384/Z (BUF_X1)
+   0.03    0.57 v swerv/_07165_/ZN (INV_X1)
+   0.15    0.72 ^ swerv/_07167_/ZN (AOI21_X1)
+   0.07    0.79 ^ max_cap3960/Z (CLKBUF_X3)
+   0.06    0.85 ^ wire3959/Z (CLKBUF_X3)
+   0.06    0.91 ^ max_cap3958/Z (CLKBUF_X3)
+   0.06    0.96 ^ max_cap3957/Z (CLKBUF_X3)
+   0.05    1.02 ^ max_cap3956/Z (CLKBUF_X3)
+   0.05    1.07 ^ max_cap3955/Z (CLKBUF_X3)
+   0.05    1.12 ^ max_cap3954/Z (CLKBUF_X3)
+   0.06    1.17 ^ wire3953/Z (CLKBUF_X3)
+   0.05    1.23 ^ max_cap3951/Z (CLKBUF_X3)
+   0.05    1.28 ^ max_cap3949/Z (CLKBUF_X3)
+   0.05    1.33 ^ max_cap3948/Z (CLKBUF_X3)
+   0.05    1.38 ^ max_cap3947/Z (CLKBUF_X3)
+   0.05    1.44 ^ max_cap3946/Z (CLKBUF_X3)
+   0.05    1.49 ^ max_cap3944/Z (CLKBUF_X3)
+   0.05    1.54 ^ max_cap3942/Z (CLKBUF_X3)
+   0.05    1.60 ^ wire3941/Z (CLKBUF_X3)
+   0.05    1.65 ^ max_cap3940/Z (CLKBUF_X3)
+   0.05    1.70 ^ max_cap3939/Z (CLKBUF_X3)
+   0.05    1.75 ^ max_cap3938/Z (CLKBUF_X3)
+   0.05    1.80 ^ max_cap3934/Z (CLKBUF_X3)
+   0.05    1.85 ^ max_cap3924/Z (CLKBUF_X3)
+   0.05    1.90 ^ max_cap3923/Z (CLKBUF_X3)
+   0.05    1.95 ^ max_cap3922/Z (CLKBUF_X3)
+   0.05    2.01 ^ max_cap3921/Z (CLKBUF_X3)
+   0.05    2.06 ^ max_cap3919/Z (CLKBUF_X3)
+   0.05    2.11 ^ max_cap3918/Z (CLKBUF_X3)
+   0.05    2.16 ^ max_cap3917/Z (CLKBUF_X3)
+   0.05    2.21 ^ max_cap3914/Z (CLKBUF_X3)
+   0.05    2.27 ^ max_cap3851/Z (CLKBUF_X3)
+   0.05    2.32 ^ swerv/wire3849/Z (CLKBUF_X3)
+   0.05    2.37 ^ swerv/max_cap3848/Z (CLKBUF_X3)
+   0.05    2.42 ^ swerv/wire3847/Z (CLKBUF_X3)
+   0.05    2.48 ^ swerv/max_cap3846/Z (CLKBUF_X3)
+   0.05    2.53 ^ swerv/max_cap3845/Z (CLKBUF_X3)
+   0.05    2.58 ^ swerv/max_cap3843/Z (CLKBUF_X3)
+   0.05    2.63 ^ swerv/max_cap3842/Z (CLKBUF_X3)
+   0.05    2.68 ^ swerv/max_cap3841/Z (CLKBUF_X3)
+   0.05    2.73 ^ swerv/max_cap3840/Z (CLKBUF_X3)
+   0.05    2.78 ^ swerv/max_cap3830/Z (CLKBUF_X3)
+   0.05    2.83 ^ swerv/max_cap3829/Z (CLKBUF_X3)
+   0.05    2.88 ^ swerv/max_cap3828/Z (CLKBUF_X3)
+   0.05    2.93 ^ swerv/max_cap3825/Z (CLKBUF_X3)
+   0.05    2.98 ^ swerv/max_cap3824/Z (CLKBUF_X3)
+   0.05    3.03 ^ swerv/max_cap3823/Z (CLKBUF_X3)
+   0.06    3.09 ^ swerv/max_cap3822/Z (CLKBUF_X3)
+   0.06    3.14 ^ swerv/max_cap3819/Z (CLKBUF_X3)
+   0.06    3.20 ^ swerv/max_cap3817/Z (CLKBUF_X3)
+   0.05    3.26 ^ swerv/max_cap3816/Z (CLKBUF_X3)
+   0.06    3.31 ^ swerv/wire3815/Z (CLKBUF_X3)
+   0.06    3.37 ^ swerv/max_cap3814/Z (CLKBUF_X3)
+   0.06    3.42 ^ swerv/max_cap3812/Z (CLKBUF_X3)
+   0.05    3.47 ^ swerv/max_cap3811/Z (CLKBUF_X3)
+   0.05    3.52 ^ swerv/max_cap3810/Z (CLKBUF_X3)
+   0.05    3.57 ^ swerv/max_cap3807/Z (CLKBUF_X3)
+   0.06    3.63 ^ swerv/lsu/stbuf/max_cap3806/Z (CLKBUF_X3)
+   0.05    3.68 ^ swerv/lsu/stbuf/max_cap3805/Z (CLKBUF_X3)
+   0.05    3.73 ^ swerv/lsu/stbuf/max_cap3804/Z (CLKBUF_X3)
+   0.00    3.73 ^ swerv/lsu/stbuf/GenStBuf_5__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_/RN (DFFR_X1)
+           3.73   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.38    2.38   clock network delay (propagated)
+   0.00    2.38   clock reconvergence pessimism
+           2.38 ^ swerv/lsu/stbuf/GenStBuf_5__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.44   library recovery time
+           2.44   data required time
+---------------------------------------------------------
+           2.44   data required time
+          -3.73   data arrival time
+---------------------------------------------------------
+          -1.29   slack (VIOLATED)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[2]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.14    0.54 ^ input384/Z (BUF_X1)
+   0.03    0.57 v swerv/_07165_/ZN (INV_X1)
+   0.15    0.72 ^ swerv/_07167_/ZN (AOI21_X1)
+   0.07    0.79 ^ max_cap3960/Z (CLKBUF_X3)
+   0.06    0.85 ^ wire3959/Z (CLKBUF_X3)
+   0.06    0.91 ^ max_cap3958/Z (CLKBUF_X3)
+   0.06    0.96 ^ max_cap3957/Z (CLKBUF_X3)
+   0.05    1.02 ^ max_cap3956/Z (CLKBUF_X3)
+   0.05    1.07 ^ max_cap3955/Z (CLKBUF_X3)
+   0.05    1.12 ^ max_cap3954/Z (CLKBUF_X3)
+   0.06    1.17 ^ wire3953/Z (CLKBUF_X3)
+   0.05    1.23 ^ max_cap3951/Z (CLKBUF_X3)
+   0.05    1.28 ^ max_cap3949/Z (CLKBUF_X3)
+   0.05    1.33 ^ max_cap3948/Z (CLKBUF_X3)
+   0.05    1.38 ^ max_cap3947/Z (CLKBUF_X3)
+   0.05    1.44 ^ max_cap3946/Z (CLKBUF_X3)
+   0.05    1.49 ^ max_cap3944/Z (CLKBUF_X3)
+   0.05    1.54 ^ max_cap3942/Z (CLKBUF_X3)
+   0.05    1.60 ^ wire3941/Z (CLKBUF_X3)
+   0.05    1.65 ^ max_cap3940/Z (CLKBUF_X3)
+   0.05    1.70 ^ max_cap3939/Z (CLKBUF_X3)
+   0.05    1.75 ^ max_cap3938/Z (CLKBUF_X3)
+   0.05    1.80 ^ max_cap3934/Z (CLKBUF_X3)
+   0.05    1.85 ^ max_cap3924/Z (CLKBUF_X3)
+   0.05    1.90 ^ max_cap3923/Z (CLKBUF_X3)
+   0.05    1.95 ^ max_cap3922/Z (CLKBUF_X3)
+   0.05    2.01 ^ max_cap3921/Z (CLKBUF_X3)
+   0.05    2.06 ^ max_cap3919/Z (CLKBUF_X3)
+   0.05    2.11 ^ max_cap3918/Z (CLKBUF_X3)
+   0.05    2.16 ^ max_cap3917/Z (CLKBUF_X3)
+   0.05    2.21 ^ max_cap3914/Z (CLKBUF_X3)
+   0.05    2.27 ^ max_cap3851/Z (CLKBUF_X3)
+   0.05    2.32 ^ swerv/wire3849/Z (CLKBUF_X3)
+   0.05    2.37 ^ swerv/max_cap3848/Z (CLKBUF_X3)
+   0.05    2.42 ^ swerv/wire3847/Z (CLKBUF_X3)
+   0.05    2.48 ^ swerv/max_cap3846/Z (CLKBUF_X3)
+   0.05    2.53 ^ swerv/max_cap3845/Z (CLKBUF_X3)
+   0.05    2.58 ^ swerv/max_cap3843/Z (CLKBUF_X3)
+   0.05    2.63 ^ swerv/max_cap3842/Z (CLKBUF_X3)
+   0.05    2.68 ^ swerv/max_cap3841/Z (CLKBUF_X3)
+   0.05    2.73 ^ swerv/max_cap3840/Z (CLKBUF_X3)
+   0.05    2.78 ^ swerv/max_cap3830/Z (CLKBUF_X3)
+   0.05    2.83 ^ swerv/max_cap3829/Z (CLKBUF_X3)
+   0.05    2.88 ^ swerv/max_cap3828/Z (CLKBUF_X3)
+   0.05    2.93 ^ swerv/max_cap3825/Z (CLKBUF_X3)
+   0.05    2.98 ^ swerv/max_cap3824/Z (CLKBUF_X3)
+   0.05    3.03 ^ swerv/max_cap3823/Z (CLKBUF_X3)
+   0.06    3.09 ^ swerv/max_cap3822/Z (CLKBUF_X3)
+   0.06    3.14 ^ swerv/max_cap3819/Z (CLKBUF_X3)
+   0.06    3.20 ^ swerv/max_cap3817/Z (CLKBUF_X3)
+   0.05    3.26 ^ swerv/max_cap3816/Z (CLKBUF_X3)
+   0.06    3.31 ^ swerv/wire3815/Z (CLKBUF_X3)
+   0.06    3.37 ^ swerv/max_cap3814/Z (CLKBUF_X3)
+   0.06    3.42 ^ swerv/max_cap3812/Z (CLKBUF_X3)
+   0.05    3.47 ^ swerv/max_cap3811/Z (CLKBUF_X3)
+   0.05    3.52 ^ swerv/max_cap3810/Z (CLKBUF_X3)
+   0.05    3.57 ^ swerv/max_cap3807/Z (CLKBUF_X3)
+   0.06    3.63 ^ swerv/lsu/stbuf/max_cap3806/Z (CLKBUF_X3)
+   0.05    3.68 ^ swerv/lsu/stbuf/max_cap3805/Z (CLKBUF_X3)
+   0.05    3.73 ^ swerv/lsu/stbuf/max_cap3804/Z (CLKBUF_X3)
+   0.00    3.73 ^ swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[2]$_DFF_PN0_/RN (DFFR_X1)
+           3.73   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.38    2.38   clock network delay (propagated)
+   0.00    2.38   clock reconvergence pessimism
+           2.38 ^ swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[2]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.44   library recovery time
+           2.44   data required time
+---------------------------------------------------------
+           2.44   data required time
+          -3.73   data arrival time
+---------------------------------------------------------
+          -1.29   slack (VIOLATED)
+
+
+Startpoint: rst_l (input port clocked by core_clock)
+Endpoint: swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   0.40    0.40 ^ input external delay
+   0.00    0.40 ^ rst_l (in)
+   0.14    0.54 ^ input384/Z (BUF_X1)
+   0.03    0.57 v swerv/_07165_/ZN (INV_X1)
+   0.15    0.72 ^ swerv/_07167_/ZN (AOI21_X1)
+   0.07    0.79 ^ max_cap3960/Z (CLKBUF_X3)
+   0.06    0.85 ^ wire3959/Z (CLKBUF_X3)
+   0.06    0.91 ^ max_cap3958/Z (CLKBUF_X3)
+   0.06    0.96 ^ max_cap3957/Z (CLKBUF_X3)
+   0.05    1.02 ^ max_cap3956/Z (CLKBUF_X3)
+   0.05    1.07 ^ max_cap3955/Z (CLKBUF_X3)
+   0.05    1.12 ^ max_cap3954/Z (CLKBUF_X3)
+   0.06    1.17 ^ wire3953/Z (CLKBUF_X3)
+   0.05    1.23 ^ max_cap3951/Z (CLKBUF_X3)
+   0.05    1.28 ^ max_cap3949/Z (CLKBUF_X3)
+   0.05    1.33 ^ max_cap3948/Z (CLKBUF_X3)
+   0.05    1.38 ^ max_cap3947/Z (CLKBUF_X3)
+   0.05    1.44 ^ max_cap3946/Z (CLKBUF_X3)
+   0.05    1.49 ^ max_cap3944/Z (CLKBUF_X3)
+   0.05    1.54 ^ max_cap3942/Z (CLKBUF_X3)
+   0.05    1.60 ^ wire3941/Z (CLKBUF_X3)
+   0.05    1.65 ^ max_cap3940/Z (CLKBUF_X3)
+   0.05    1.70 ^ max_cap3939/Z (CLKBUF_X3)
+   0.05    1.75 ^ max_cap3938/Z (CLKBUF_X3)
+   0.05    1.80 ^ max_cap3934/Z (CLKBUF_X3)
+   0.05    1.85 ^ max_cap3924/Z (CLKBUF_X3)
+   0.05    1.90 ^ max_cap3923/Z (CLKBUF_X3)
+   0.05    1.95 ^ max_cap3922/Z (CLKBUF_X3)
+   0.05    2.01 ^ max_cap3921/Z (CLKBUF_X3)
+   0.05    2.06 ^ max_cap3919/Z (CLKBUF_X3)
+   0.05    2.11 ^ max_cap3918/Z (CLKBUF_X3)
+   0.05    2.16 ^ max_cap3917/Z (CLKBUF_X3)
+   0.05    2.21 ^ max_cap3914/Z (CLKBUF_X3)
+   0.05    2.27 ^ max_cap3851/Z (CLKBUF_X3)
+   0.05    2.32 ^ swerv/wire3849/Z (CLKBUF_X3)
+   0.05    2.37 ^ swerv/max_cap3848/Z (CLKBUF_X3)
+   0.05    2.42 ^ swerv/wire3847/Z (CLKBUF_X3)
+   0.05    2.48 ^ swerv/max_cap3846/Z (CLKBUF_X3)
+   0.05    2.53 ^ swerv/max_cap3845/Z (CLKBUF_X3)
+   0.05    2.58 ^ swerv/max_cap3843/Z (CLKBUF_X3)
+   0.05    2.63 ^ swerv/max_cap3842/Z (CLKBUF_X3)
+   0.05    2.68 ^ swerv/max_cap3841/Z (CLKBUF_X3)
+   0.05    2.73 ^ swerv/max_cap3840/Z (CLKBUF_X3)
+   0.05    2.78 ^ swerv/max_cap3830/Z (CLKBUF_X3)
+   0.05    2.83 ^ swerv/max_cap3829/Z (CLKBUF_X3)
+   0.05    2.88 ^ swerv/max_cap3828/Z (CLKBUF_X3)
+   0.05    2.93 ^ swerv/max_cap3825/Z (CLKBUF_X3)
+   0.05    2.98 ^ swerv/max_cap3824/Z (CLKBUF_X3)
+   0.05    3.03 ^ swerv/max_cap3823/Z (CLKBUF_X3)
+   0.06    3.09 ^ swerv/max_cap3822/Z (CLKBUF_X3)
+   0.06    3.14 ^ swerv/max_cap3819/Z (CLKBUF_X3)
+   0.06    3.20 ^ swerv/max_cap3817/Z (CLKBUF_X3)
+   0.05    3.26 ^ swerv/max_cap3816/Z (CLKBUF_X3)
+   0.06    3.31 ^ swerv/wire3815/Z (CLKBUF_X3)
+   0.06    3.37 ^ swerv/max_cap3814/Z (CLKBUF_X3)
+   0.06    3.42 ^ swerv/max_cap3812/Z (CLKBUF_X3)
+   0.05    3.47 ^ swerv/max_cap3811/Z (CLKBUF_X3)
+   0.05    3.52 ^ swerv/max_cap3810/Z (CLKBUF_X3)
+   0.05    3.57 ^ swerv/max_cap3807/Z (CLKBUF_X3)
+   0.06    3.63 ^ swerv/lsu/stbuf/max_cap3806/Z (CLKBUF_X3)
+   0.05    3.68 ^ swerv/lsu/stbuf/max_cap3805/Z (CLKBUF_X3)
+   0.05    3.73 ^ swerv/lsu/stbuf/max_cap3804/Z (CLKBUF_X3)
+   0.00    3.73 ^ swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_/RN (DFFR_X1)
+           3.73   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.38    2.38   clock network delay (propagated)
+   0.00    2.38   clock reconvergence pessimism
+           2.38 ^ swerv/lsu/stbuf/GenStBuf_7__stbuf_dataff.genblock_dff.dout[30]$_DFF_PN0_/CK (DFFR_X1)
+   0.06    2.44   library recovery time
+           2.44   data required time
+---------------------------------------------------------
+           2.44   data required time
+          -3.73   data arrival time
+---------------------------------------------------------
+          -1.29   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[29]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/CK (DFFR_X1)
+   0.23    0.58 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/Q (DFFR_X1)
+   0.05    0.64 ^ swerv/lsu/_4515_/Z (BUF_X4)
+   0.05    0.69 ^ swerv/lsu/_4516_/Z (BUF_X2)
+   0.06    0.75 ^ swerv/lsu/_4517_/Z (BUF_X2)
+   0.07    0.82 ^ swerv/lsu/_4518_/Z (BUF_X1)
+   0.08    0.90 ^ swerv/lsu/_4519_/Z (BUF_X1)
+   0.08    0.98 ^ swerv/lsu/_4520_/Z (BUF_X1)
+   0.10    1.08 ^ swerv/lsu/_4521_/Z (BUF_X1)
+   0.11    1.19 ^ swerv/lsu/_4522_/Z (BUF_X1)
+   0.11    1.29 ^ swerv/lsu/_4523_/Z (BUF_X1)
+   0.02    1.32 v swerv/lsu/_4551_/ZN (NAND2_X1)
+   0.03    1.35 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.02    1.37 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.10    1.47 ^ swerv/lsu/_4580_/ZN (AOI21_X1)
+   0.09    1.56 ^ swerv/lsu/_4587_/Z (MUX2_X1)
+   0.05    1.61 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.62 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.08    1.70 v swerv/lsu/_8619_/CO (FA_X1)
+   0.13    1.83 ^ swerv/lsu/_7038_/ZN (XNOR2_X1)
+   0.04    1.87 v swerv/lsu/bus_intf/_3747_/Z (XOR2_X1)
+   0.02    1.89 ^ swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.08    1.97 v swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X1)
+   0.20    2.16 ^ swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    2.28 v swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.02    2.30 ^ swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.09    2.39 v swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.14    2.53 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.06    2.59 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.66 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.72 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.02    2.74 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.11    2.85 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X1)
+   0.16    3.01 v swerv/lsu/_7889_/ZN (OR2_X1)
+   0.05    3.06 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    3.08 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    3.19 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.06    3.24 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    3.36 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    3.41 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.09    3.50 ^ swerv/dec/decode/_09326_/ZN (NOR4_X2)
+   0.04    3.54 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    3.63 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.06    3.69 ^ swerv/dec/decode/_14271_/ZN (OAI22_X1)
+   0.06    3.75 ^ swerv/lsu/wire1127/Z (CLKBUF_X3)
+   0.03    3.78 v swerv/lsu/_7124_/ZN (NOR4_X1)
+   0.04    3.83 v swerv/wire1123/Z (BUF_X2)
+   0.04    3.87 v swerv/wire1122/Z (CLKBUF_X3)
+   0.07    3.94 ^ swerv/_05666_/ZN (NAND2_X1)
+   0.06    3.99 v swerv/_05667_/ZN (INV_X1)
+   0.05    4.05 v swerv/lsu/_7255_/Z (BUF_X1)
+   0.04    4.09 ^ swerv/lsu/_7256_/ZN (INV_X1)
+   0.10    4.19 ^ swerv/lsu/_7257_/Z (BUF_X1)
+   0.13    4.32 ^ swerv/lsu/_7258_/Z (BUF_X1)
+   0.03    4.36 v swerv/lsu/_7685_/ZN (AOI222_X1)
+   0.07    4.43 ^ swerv/lsu/_7686_/ZN (INV_X1)
+   0.00    4.43 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[29]$_DFF_PN0_/D (DFFR_X1)
+           4.43   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.37    2.37   clock network delay (propagated)
+   0.00    2.37   clock reconvergence pessimism
+           2.37 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[29]$_DFF_PN0_/CK (DFFR_X1)
+  -0.04    2.33   library setup time
+           2.33   data required time
+---------------------------------------------------------
+           2.33   data required time
+          -4.43   data arrival time
+---------------------------------------------------------
+          -2.10   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[27]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/CK (DFFR_X1)
+   0.23    0.58 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/Q (DFFR_X1)
+   0.05    0.64 ^ swerv/lsu/_4515_/Z (BUF_X4)
+   0.05    0.69 ^ swerv/lsu/_4516_/Z (BUF_X2)
+   0.06    0.75 ^ swerv/lsu/_4517_/Z (BUF_X2)
+   0.07    0.82 ^ swerv/lsu/_4518_/Z (BUF_X1)
+   0.08    0.90 ^ swerv/lsu/_4519_/Z (BUF_X1)
+   0.08    0.98 ^ swerv/lsu/_4520_/Z (BUF_X1)
+   0.10    1.08 ^ swerv/lsu/_4521_/Z (BUF_X1)
+   0.11    1.19 ^ swerv/lsu/_4522_/Z (BUF_X1)
+   0.11    1.29 ^ swerv/lsu/_4523_/Z (BUF_X1)
+   0.02    1.32 v swerv/lsu/_4551_/ZN (NAND2_X1)
+   0.03    1.35 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.02    1.37 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.10    1.47 ^ swerv/lsu/_4580_/ZN (AOI21_X1)
+   0.09    1.56 ^ swerv/lsu/_4587_/Z (MUX2_X1)
+   0.05    1.61 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.62 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.08    1.70 v swerv/lsu/_8619_/CO (FA_X1)
+   0.13    1.83 ^ swerv/lsu/_7038_/ZN (XNOR2_X1)
+   0.04    1.87 v swerv/lsu/bus_intf/_3747_/Z (XOR2_X1)
+   0.02    1.89 ^ swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.08    1.97 v swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X1)
+   0.20    2.16 ^ swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    2.28 v swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.02    2.30 ^ swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.09    2.39 v swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.14    2.53 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.06    2.59 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.66 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.72 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.02    2.74 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.11    2.85 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X1)
+   0.16    3.01 v swerv/lsu/_7889_/ZN (OR2_X1)
+   0.05    3.06 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    3.08 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    3.19 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.06    3.24 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    3.36 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    3.41 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.09    3.50 ^ swerv/dec/decode/_09326_/ZN (NOR4_X2)
+   0.04    3.54 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    3.63 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.06    3.69 ^ swerv/dec/decode/_14271_/ZN (OAI22_X1)
+   0.06    3.75 ^ swerv/lsu/wire1127/Z (CLKBUF_X3)
+   0.03    3.78 v swerv/lsu/_7124_/ZN (NOR4_X1)
+   0.04    3.83 v swerv/wire1123/Z (BUF_X2)
+   0.04    3.87 v swerv/wire1122/Z (CLKBUF_X3)
+   0.07    3.94 ^ swerv/_05666_/ZN (NAND2_X1)
+   0.06    3.99 v swerv/_05667_/ZN (INV_X1)
+   0.05    4.05 v swerv/lsu/_7255_/Z (BUF_X1)
+   0.04    4.09 ^ swerv/lsu/_7256_/ZN (INV_X1)
+   0.10    4.19 ^ swerv/lsu/_7257_/Z (BUF_X1)
+   0.13    4.32 ^ swerv/lsu/_7258_/Z (BUF_X1)
+   0.03    4.36 v swerv/lsu/_7677_/ZN (AOI222_X1)
+   0.07    4.43 ^ swerv/lsu/_7678_/ZN (INV_X1)
+   0.01    4.43 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[27]$_DFF_PN0_/D (DFFR_X1)
+           4.43   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.37    2.37   clock network delay (propagated)
+   0.00    2.37   clock reconvergence pessimism
+           2.37 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[27]$_DFF_PN0_/CK (DFFR_X1)
+  -0.04    2.33   library setup time
+           2.33   data required time
+---------------------------------------------------------
+           2.33   data required time
+          -4.43   data arrival time
+---------------------------------------------------------
+          -2.10   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/lsu/lsu_lsc_ctl.lsu_pkt_dc1ff.dout[13]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/CK (DFFR_X1)
+   0.23    0.58 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/Q (DFFR_X1)
+   0.05    0.64 ^ swerv/lsu/_4515_/Z (BUF_X4)
+   0.05    0.69 ^ swerv/lsu/_4516_/Z (BUF_X2)
+   0.06    0.75 ^ swerv/lsu/_4517_/Z (BUF_X2)
+   0.07    0.82 ^ swerv/lsu/_4518_/Z (BUF_X1)
+   0.08    0.90 ^ swerv/lsu/_4519_/Z (BUF_X1)
+   0.08    0.98 ^ swerv/lsu/_4520_/Z (BUF_X1)
+   0.10    1.08 ^ swerv/lsu/_4521_/Z (BUF_X1)
+   0.11    1.19 ^ swerv/lsu/_4522_/Z (BUF_X1)
+   0.11    1.29 ^ swerv/lsu/_4523_/Z (BUF_X1)
+   0.02    1.32 v swerv/lsu/_4551_/ZN (NAND2_X1)
+   0.03    1.35 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.02    1.37 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.10    1.47 ^ swerv/lsu/_4580_/ZN (AOI21_X1)
+   0.09    1.56 ^ swerv/lsu/_4587_/Z (MUX2_X1)
+   0.05    1.61 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.62 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.08    1.70 v swerv/lsu/_8619_/CO (FA_X1)
+   0.13    1.83 ^ swerv/lsu/_7038_/ZN (XNOR2_X1)
+   0.04    1.87 v swerv/lsu/bus_intf/_3747_/Z (XOR2_X1)
+   0.02    1.89 ^ swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.08    1.97 v swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X1)
+   0.20    2.16 ^ swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    2.28 v swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.02    2.30 ^ swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.09    2.39 v swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.14    2.53 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.06    2.59 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.66 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.72 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.02    2.74 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.11    2.85 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X1)
+   0.16    3.01 v swerv/lsu/_7889_/ZN (OR2_X1)
+   0.05    3.06 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    3.08 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    3.19 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.06    3.24 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    3.36 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    3.41 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.09    3.50 ^ swerv/dec/decode/_09326_/ZN (NOR4_X2)
+   0.04    3.54 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    3.63 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.06    3.69 ^ swerv/dec/decode/_14271_/ZN (OAI22_X1)
+   0.06    3.75 ^ swerv/lsu/wire1127/Z (CLKBUF_X3)
+   0.03    3.78 v swerv/lsu/_7124_/ZN (NOR4_X1)
+   0.04    3.83 v swerv/wire1123/Z (BUF_X2)
+   0.04    3.87 v swerv/wire1122/Z (CLKBUF_X3)
+   0.07    3.94 ^ swerv/_05666_/ZN (NAND2_X1)
+   0.06    3.99 v swerv/_05667_/ZN (INV_X1)
+   0.05    4.05 v swerv/lsu/_7255_/Z (BUF_X1)
+   0.04    4.09 ^ swerv/lsu/_7256_/ZN (INV_X1)
+   0.10    4.19 ^ swerv/lsu/_7257_/Z (BUF_X1)
+   0.13    4.32 ^ swerv/lsu/_7258_/Z (BUF_X1)
+   0.02    4.35 v swerv/lsu/_7280_/ZN (NAND2_X1)
+   0.07    4.41 ^ swerv/lsu/_7281_/ZN (OAI21_X1)
+   0.00    4.42 ^ swerv/lsu/lsu_lsc_ctl.lsu_pkt_dc1ff.dout[13]$_DFF_PN0_/D (DFFR_X1)
+           4.42   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.37    2.37   clock network delay (propagated)
+   0.00    2.37   clock reconvergence pessimism
+           2.37 ^ swerv/lsu/lsu_lsc_ctl.lsu_pkt_dc1ff.dout[13]$_DFF_PN0_/CK (DFFR_X1)
+  -0.04    2.32   library setup time
+           2.32   data required time
+---------------------------------------------------------
+           2.32   data required time
+          -4.42   data arrival time
+---------------------------------------------------------
+          -2.09   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[28]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/CK (DFFR_X1)
+   0.23    0.58 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/Q (DFFR_X1)
+   0.05    0.64 ^ swerv/lsu/_4515_/Z (BUF_X4)
+   0.05    0.69 ^ swerv/lsu/_4516_/Z (BUF_X2)
+   0.06    0.75 ^ swerv/lsu/_4517_/Z (BUF_X2)
+   0.07    0.82 ^ swerv/lsu/_4518_/Z (BUF_X1)
+   0.08    0.90 ^ swerv/lsu/_4519_/Z (BUF_X1)
+   0.08    0.98 ^ swerv/lsu/_4520_/Z (BUF_X1)
+   0.10    1.08 ^ swerv/lsu/_4521_/Z (BUF_X1)
+   0.11    1.19 ^ swerv/lsu/_4522_/Z (BUF_X1)
+   0.11    1.29 ^ swerv/lsu/_4523_/Z (BUF_X1)
+   0.02    1.32 v swerv/lsu/_4551_/ZN (NAND2_X1)
+   0.03    1.35 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.02    1.37 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.10    1.47 ^ swerv/lsu/_4580_/ZN (AOI21_X1)
+   0.09    1.56 ^ swerv/lsu/_4587_/Z (MUX2_X1)
+   0.05    1.61 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.62 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.08    1.70 v swerv/lsu/_8619_/CO (FA_X1)
+   0.13    1.83 ^ swerv/lsu/_7038_/ZN (XNOR2_X1)
+   0.04    1.87 v swerv/lsu/bus_intf/_3747_/Z (XOR2_X1)
+   0.02    1.89 ^ swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.08    1.97 v swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X1)
+   0.20    2.16 ^ swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    2.28 v swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.02    2.30 ^ swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.09    2.39 v swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.14    2.53 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.06    2.59 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.66 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.72 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.02    2.74 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.11    2.85 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X1)
+   0.16    3.01 v swerv/lsu/_7889_/ZN (OR2_X1)
+   0.05    3.06 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    3.08 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    3.19 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.06    3.24 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    3.36 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    3.41 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.09    3.50 ^ swerv/dec/decode/_09326_/ZN (NOR4_X2)
+   0.04    3.54 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    3.63 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.06    3.69 ^ swerv/dec/decode/_14271_/ZN (OAI22_X1)
+   0.06    3.75 ^ swerv/lsu/wire1127/Z (CLKBUF_X3)
+   0.03    3.78 v swerv/lsu/_7124_/ZN (NOR4_X1)
+   0.04    3.83 v swerv/wire1123/Z (BUF_X2)
+   0.04    3.87 v swerv/wire1122/Z (CLKBUF_X3)
+   0.07    3.94 ^ swerv/_05666_/ZN (NAND2_X1)
+   0.06    3.99 v swerv/_05667_/ZN (INV_X1)
+   0.05    4.05 v swerv/lsu/_7255_/Z (BUF_X1)
+   0.04    4.09 ^ swerv/lsu/_7256_/ZN (INV_X1)
+   0.10    4.19 ^ swerv/lsu/_7257_/Z (BUF_X1)
+   0.13    4.32 ^ swerv/lsu/_7258_/Z (BUF_X1)
+   0.03    4.36 v swerv/lsu/_7681_/ZN (AOI222_X1)
+   0.07    4.42 ^ swerv/lsu/_7682_/ZN (INV_X1)
+   0.00    4.43 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[28]$_DFF_PN0_/D (DFFR_X1)
+           4.43   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.37    2.37   clock network delay (propagated)
+   0.00    2.37   clock reconvergence pessimism
+           2.37 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[28]$_DFF_PN0_/CK (DFFR_X1)
+  -0.04    2.34   library setup time
+           2.34   data required time
+---------------------------------------------------------
+           2.34   data required time
+          -4.43   data arrival time
+---------------------------------------------------------
+          -2.09   slack (VIOLATED)
+
+
+Startpoint: swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[25]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.36    0.36   clock network delay (propagated)
+   0.00    0.36 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/CK (DFFR_X1)
+   0.23    0.58 ^ swerv/lsu/lsu_lsc_ctl.sadc3ff.dout[0]$_DFF_PN0_/Q (DFFR_X1)
+   0.05    0.64 ^ swerv/lsu/_4515_/Z (BUF_X4)
+   0.05    0.69 ^ swerv/lsu/_4516_/Z (BUF_X2)
+   0.06    0.75 ^ swerv/lsu/_4517_/Z (BUF_X2)
+   0.07    0.82 ^ swerv/lsu/_4518_/Z (BUF_X1)
+   0.08    0.90 ^ swerv/lsu/_4519_/Z (BUF_X1)
+   0.08    0.98 ^ swerv/lsu/_4520_/Z (BUF_X1)
+   0.10    1.08 ^ swerv/lsu/_4521_/Z (BUF_X1)
+   0.11    1.19 ^ swerv/lsu/_4522_/Z (BUF_X1)
+   0.11    1.29 ^ swerv/lsu/_4523_/Z (BUF_X1)
+   0.02    1.32 v swerv/lsu/_4551_/ZN (NAND2_X1)
+   0.03    1.35 ^ swerv/lsu/_4578_/ZN (OAI21_X1)
+   0.02    1.37 v swerv/lsu/_4579_/ZN (NAND2_X1)
+   0.10    1.47 ^ swerv/lsu/_4580_/ZN (AOI21_X1)
+   0.09    1.56 ^ swerv/lsu/_4587_/Z (MUX2_X1)
+   0.05    1.61 ^ swerv/lsu/_8669_/CO (HA_X1)
+   0.01    1.62 v swerv/lsu/_6782_/ZN (INV_X1)
+   0.08    1.70 v swerv/lsu/_8619_/CO (FA_X1)
+   0.13    1.83 ^ swerv/lsu/_7038_/ZN (XNOR2_X1)
+   0.04    1.87 v swerv/lsu/bus_intf/_3747_/Z (XOR2_X1)
+   0.02    1.89 ^ swerv/lsu/bus_intf/bus_buffer/_11035_/ZN (INV_X1)
+   0.08    1.97 v swerv/lsu/bus_intf/bus_buffer/_11036_/ZN (NAND3_X1)
+   0.20    2.16 ^ swerv/lsu/bus_intf/bus_buffer/_21878_/S (FA_X1)
+   0.12    2.28 v swerv/lsu/bus_intf/bus_buffer/_21881_/S (FA_X1)
+   0.02    2.30 ^ swerv/lsu/bus_intf/bus_buffer/_13266_/ZN (INV_X1)
+   0.09    2.39 v swerv/lsu/bus_intf/bus_buffer/_21884_/S (FA_X1)
+   0.14    2.53 v swerv/lsu/bus_intf/bus_buffer/_21885_/S (FA_X1)
+   0.06    2.59 v swerv/lsu/bus_intf/bus_buffer/_21903_/CO (HA_X1)
+   0.08    2.66 v swerv/lsu/bus_intf/bus_buffer/_21886_/CO (FA_X1)
+   0.06    2.72 v swerv/lsu/bus_intf/bus_buffer/_19822_/Z (XOR2_X1)
+   0.02    2.74 ^ swerv/lsu/bus_intf/bus_buffer/_19823_/ZN (NAND3_X1)
+   0.11    2.85 v swerv/lsu/bus_intf/bus_buffer/_19829_/ZN (NAND2_X1)
+   0.16    3.01 v swerv/lsu/_7889_/ZN (OR2_X1)
+   0.05    3.06 ^ swerv/dec/decode/_09200_/ZN (OAI21_X1)
+   0.02    3.08 v swerv/dec/decode/_09201_/ZN (NAND3_X1)
+   0.10    3.19 ^ swerv/dec/decode/_09202_/ZN (NOR3_X1)
+   0.06    3.24 v swerv/dec/decode/_09209_/ZN (NAND4_X1)
+   0.12    3.36 v swerv/dec/decode/_09210_/ZN (OR4_X1)
+   0.05    3.41 v swerv/dec/decode/_09212_/ZN (OR2_X1)
+   0.09    3.50 ^ swerv/dec/decode/_09326_/ZN (NOR4_X2)
+   0.04    3.54 v swerv/dec/decode/_09494_/ZN (OAI211_X2)
+   0.09    3.63 v swerv/dec/decode/_09500_/ZN (OR3_X4)
+   0.06    3.69 ^ swerv/dec/decode/_14271_/ZN (OAI22_X1)
+   0.06    3.75 ^ swerv/lsu/wire1127/Z (CLKBUF_X3)
+   0.03    3.78 v swerv/lsu/_7124_/ZN (NOR4_X1)
+   0.04    3.83 v swerv/wire1123/Z (BUF_X2)
+   0.04    3.87 v swerv/wire1122/Z (CLKBUF_X3)
+   0.07    3.94 ^ swerv/_05666_/ZN (NAND2_X1)
+   0.06    3.99 v swerv/_05667_/ZN (INV_X1)
+   0.05    4.05 v swerv/lsu/_7255_/Z (BUF_X1)
+   0.04    4.09 ^ swerv/lsu/_7256_/ZN (INV_X1)
+   0.10    4.19 ^ swerv/lsu/_7257_/Z (BUF_X1)
+   0.13    4.32 ^ swerv/lsu/_7258_/Z (BUF_X1)
+   0.03    4.36 v swerv/lsu/_7669_/ZN (AOI222_X1)
+   0.06    4.42 ^ swerv/lsu/_7670_/ZN (INV_X1)
+   0.00    4.42 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[25]$_DFF_PN0_/D (DFFR_X1)
+           4.42   data arrival time
+
+   2.00    2.00   clock core_clock (rise edge)
+   0.37    2.37   clock network delay (propagated)
+   0.00    2.37   clock reconvergence pessimism
+           2.37 ^ swerv/lsu/lsu_lsc_ctl.sddc1ff.dout[25]$_DFF_PN0_/CK (DFFR_X1)
+  -0.04    2.34   library setup time
+           2.34   data required time
+---------------------------------------------------------
+           2.34   data required time
+          -4.42   data arrival time
+---------------------------------------------------------
+          -2.09   slack (VIOLATED)
+
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+4.4338
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-2.0994
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-47.349903
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             4.49e-02   3.54e-03   9.35e-04   4.94e-02  20.3%
+Combinational          1.78e-02   3.65e-02   2.53e-03   5.69e-02  23.4%
+Clock                  5.43e-03   1.37e-02   4.97e-05   1.92e-02   7.9%
+Macro                  9.69e-02   0.00e+00   2.07e-02   1.18e-01  48.4%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.65e-01   5.37e-02   2.43e-02   2.43e-01 100.0%
+                          67.9%      22.1%      10.0%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 1024809 um^2 97% utilization.
+
+Elapsed time: 9:27.57[h:]min:sec. CPU time: user 510.80 sys 11.46 (92%). Peak memory: 1417744KB.

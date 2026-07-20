@@ -120,4 +120,4 @@ Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
 [INFO GPL-1008]     - For 80% usage of free space: 0.3365
 [INFO GPL-1009]     - For 50% usage of free space: 0.5384
 [INFO GPL-1014] Final placement area: 100291.74 (+0.00%)
-Elapsed time: 2:52.65[h:]min:sec. CPU time: user 171.75 sys 0.36 (99%). Peak memory: 356276KB.
+Elapsed time: 2:41.59[h:]min:sec. CPU time: user 160.89 sys 0.24 (99%). Peak memory: 356116KB.

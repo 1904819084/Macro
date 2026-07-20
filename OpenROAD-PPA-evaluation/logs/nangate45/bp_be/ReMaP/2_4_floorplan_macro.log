@@ -13,4 +13,4 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO MPL-0035] Macro be_mmu/dcache/data_mem_7__data_mem/macro_mem/mem placed. Bounding box (631.560um, 147.035um), (784.130um, 260.435um). Orientation R0
 [INFO MPL-0035] Macro be_mmu/dcache/stat_mem.macro_mem.mem placed. Bounding box (15.770um, 624.435um), (26.980um, 683.235um). Orientation R0
 [INFO MPL-0035] Macro be_mmu/dcache/tag_mem.macro_mem.mem placed. Bounding box (15.770um, 16.975um), (70.300um, 106.375um). Orientation R0
-Elapsed time: 0:05.31[h:]min:sec. CPU time: user 4.60 sys 0.18 (90%). Peak memory: 237696KB.
+Elapsed time: 0:05.16[h:]min:sec. CPU time: user 4.31 sys 0.15 (86%). Peak memory: 237704KB.

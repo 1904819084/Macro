@@ -1,0 +1,9 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+[INFO ODB-0303] The initial 413 rows (1694952 sites) were cut with 11 shapes for a total of 1276 rows (1040390 sites).
+[INFO TAP-0004] Inserted 826 endcaps.
+[INFO TAP-0005] Inserted 688 tapcells.
+Elapsed time: 0:04.12[h:]min:sec. CPU time: user 3.43 sys 0.17 (87%). Peak memory: 192228KB.

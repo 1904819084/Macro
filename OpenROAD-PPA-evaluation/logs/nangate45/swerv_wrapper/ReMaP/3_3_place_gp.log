@@ -1,0 +1,123 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.190  1.400 ) um
+[INFO GPL-0004] CoreBBox: ( 10.070 11.200 ) ( 1089.840 989.800 ) um
+[INFO GPL-0036] Movable instances area:     171238.032 um^2
+[INFO GPL-0037] Total instances area:       647407.292 um^2
+[INFO GPL-0035] Pin density area adjust:     16150.676 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:            102607
+[INFO GPL-0007] Movable instances:               98079
+[INFO GPL-0008] Fixed instances:                    28
+[INFO GPL-0009] Dummy instances:                  4500
+[INFO GPL-0010] Number of nets:                 113622
+[INFO GPL-0011] Number of pins:                 379158
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 1100.000 1000.000 ) um
+[INFO GPL-0013] Core BBox: ( 10.070 11.200 ) ( 1089.840 989.800 ) um
+[INFO GPL-0016] Core area:                  1056662.922 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                1056662.922 um^2
+[INFO GPL-0017] Fixed instances area:       503098.568 um^2
+[INFO GPL-0018] Movable instances area:     187388.708 um^2
+[INFO GPL-0019] Utilization:                    33.851 %
+[INFO GPL-0020] Standard cells area:        187388.708 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 98079	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.06226856 HPWL: 4668330270
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00782356 HPWL: 4463616913
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00234663 HPWL: 4221254665
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00162588 HPWL: 4010527514
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00182395 HPWL: 3815245271
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00143369 HPWL: 3692454139
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00114783 HPWL: 3586349568
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00123744 HPWL: 3506692724
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00144077 HPWL: 3436352133
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00118441 HPWL: 3377550942
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00126729 HPWL: 3313756866
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00080802 HPWL: 3269859071
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00041098 HPWL: 3245863242
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00060199 HPWL: 3226822401
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00054064 HPWL: 3200183049
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00068324 HPWL: 3183285471
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00048743 HPWL: 3164988492
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00045028 HPWL: 3151089151
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00042292 HPWL: 3137181987
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00036701 HPWL: 3126102402
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.4300
+[INFO GPL-0024] Movable insts average area:      1.911 um^2
+[INFO GPL-0025] Ideal bin area:                  4.443 um^2
+[INFO GPL-0026] Ideal bin count:                237814
+[INFO GPL-0027] Total bin area:             1056662.922 um^2
+[INFO GPL-0028] Bin count (X, Y):         256 ,    256
+[INFO GPL-0029] Bin size (W * H):       4.218 *  3.823 um
+[INFO GPL-0030] Number of bins:                  65536
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9900 |  1.165519e+06 |   +0.00% |  3.82e-16 |      
+       10 |   0.9751 |  1.361532e+06 |  +16.82% |  5.92e-16 |      
+       20 |   0.9706 |  1.413130e+06 |   +3.79% |  9.53e-16 |      
+       30 |   0.9704 |  1.444958e+06 |   +2.25% |  1.54e-15 |      
+       40 |   0.9704 |  1.463186e+06 |   +1.26% |  2.50e-15 |      
+       50 |   0.9700 |  1.470023e+06 |   +0.47% |  4.06e-15 |      
+       60 |   0.9698 |  1.472761e+06 |   +0.19% |  6.61e-15 |      
+       70 |   0.9697 |  1.473361e+06 |   +0.04% |  1.08e-14 |      
+       80 |   0.9694 |  1.471950e+06 |   -0.10% |  1.75e-14 |      
+       90 |   0.9690 |  1.469526e+06 |   -0.16% |  2.86e-14 |      
+      100 |   0.9685 |  1.467996e+06 |   -0.10% |  4.66e-14 |      
+      110 |   0.9681 |  1.468285e+06 |   +0.02% |  7.58e-14 |      
+      120 |   0.9679 |  1.469869e+06 |   +0.11% |  1.23e-13 |      
+      130 |   0.9678 |  1.472858e+06 |   +0.20% |  2.01e-13 |      
+      140 |   0.9675 |  1.478240e+06 |   +0.37% |  3.27e-13 |      
+      150 |   0.9673 |  1.488300e+06 |   +0.68% |  5.32e-13 |      
+      160 |   0.9671 |  1.506036e+06 |   +1.19% |  8.63e-13 |      
+      170 |   0.9667 |  1.535237e+06 |   +1.94% |  1.40e-12 |      
+      180 |   0.9659 |  1.580789e+06 |   +2.97% |  2.25e-12 |      
+      190 |   0.9649 |  1.650627e+06 |   +4.42% |  3.62e-12 |      
+      200 |   0.9627 |  1.755252e+06 |   +6.34% |  5.76e-12 |      
+      210 |   0.9559 |  1.900965e+06 |   +8.30% |  9.10e-12 |      
+      220 |   0.9405 |  2.080667e+06 |   +9.45% |  1.43e-11 |      
+      230 |   0.9216 |  2.290473e+06 |  +10.08% |  2.22e-11 |      
+      240 |   0.8806 |  2.516563e+06 |   +9.87% |  3.44e-11 |      
+      250 |   0.8435 |  2.723975e+06 |   +8.24% |  5.35e-11 |      
+      260 |   0.8023 |  2.919766e+06 |   +7.19% |  8.35e-11 |      
+      270 |   0.7719 |  3.076677e+06 |   +5.37% |  1.31e-10 |      
+      280 |   0.7313 |  3.146733e+06 |   +2.28% |  2.10e-10 |      
+      290 |   0.7126 |  3.223505e+06 |   +2.44% |  3.38e-10 |      
+      300 |   0.6816 |  3.301253e+06 |   +2.41% |  5.40e-10 |      
+      310 |   0.6497 |  3.356186e+06 |   +1.66% |  8.69e-10 |      
+      320 |   0.6158 |  3.360516e+06 |   +0.13% |  1.41e-09 |      
+      330 |   0.5702 |  3.384394e+06 |   +0.71% |  2.29e-09 |      
+      340 |   0.5250 |  3.467949e+06 |   +2.47% |  3.66e-09 |      
+      350 |   0.4756 |  3.562104e+06 |   +2.71% |  5.85e-09 |      
+      360 |   0.4286 |  3.637730e+06 |   +2.12% |  9.36e-09 |      
+      370 |   0.3820 |  3.692834e+06 |   +1.51% |  1.51e-08 |      
+      380 |   0.3282 |  3.722700e+06 |   +0.81% |  2.39e-08 |      
+      390 |   0.2913 |  3.718958e+06 |   -0.10% |  3.52e-08 |      
+      400 |   0.2533 |  3.721358e+06 |   +0.06% |  5.17e-08 |      
+      410 |   0.2213 |  3.721707e+06 |   +0.01% |  7.62e-08 |      
+      420 |   0.1911 |  3.718536e+06 |   -0.09% |  1.12e-07 |      
+      430 |   0.1650 |  3.710170e+06 |   -0.22% |  1.65e-07 |      
+      440 |   0.1409 |  3.702421e+06 |   -0.21% |  2.43e-07 |      
+      450 |   0.1200 |  3.697272e+06 |   -0.14% |  3.59e-07 |      
+      460 |   0.1024 |  3.694035e+06 |   -0.09% |  5.28e-07 |      
+      462 |   0.0992 |  3.693291e+06 |          |  5.93e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 462
+[INFO GPL-1002] Placed Cell Area            187388.7078
+[INFO GPL-1003] Available Free Area         553564.3540
+[INFO GPL-1004] Minimum Feasible Density        0.3400 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.3761
+[INFO GPL-1008]     - For 80% usage of free space: 0.4231
+[INFO GPL-1009]     - For 50% usage of free space: 0.6770
+[INFO GPL-1014] Final placement area: 187388.71 (+0.00%)
+Elapsed time: 5:03.22[h:]min:sec. CPU time: user 301.11 sys 1.23 (99%). Peak memory: 587468KB.

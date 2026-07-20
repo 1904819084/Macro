@@ -1,0 +1,2720 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /work/OpenROAD-PPA-evaluation/platforms/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation ariane (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 941883 rc segments
+[INFO RCX-0439] Coupling Cap extraction ariane ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 8% of 1426689 wires extracted
+[INFO RCX-0442] 13% of 1426689 wires extracted
+[INFO RCX-0442] 18% of 1426689 wires extracted
+[INFO RCX-0442] 26% of 1426689 wires extracted
+[INFO RCX-0442] 31% of 1426689 wires extracted
+[INFO RCX-0442] 37% of 1426689 wires extracted
+[INFO RCX-0442] 42% of 1426689 wires extracted
+[INFO RCX-0442] 48% of 1426689 wires extracted
+[INFO RCX-0442] 53% of 1426689 wires extracted
+[INFO RCX-0442] 63% of 1426689 wires extracted
+[INFO RCX-0442] 70% of 1426689 wires extracted
+[INFO RCX-0442] 79% of 1426689 wires extracted
+[INFO RCX-0442] 87% of 1426689 wires extracted
+[INFO RCX-0442] 96% of 1426689 wires extracted
+[INFO RCX-0442] 100% of 1426689 wires extracted
+[INFO RCX-0045] Extract 206786 nets, 1130341 rsegs, 1130341 caps, 2389855 ccs
+[INFO RCX-0042] 100000 nets finished
+[INFO RCX-0042] 200000 nets finished
+[INFO RCX-0443] 206786 nets finished
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns max -11088.89
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns max -3.52
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack max -3.52
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+issue_stage_i/i_scoreboard/_40392_/ZN    0.20    0.30   -0.10 (VIOLATED)
+issue_stage_i/i_scoreboard/_45573_/ZN    0.20    0.28   -0.09 (VIOLATED)
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13409_/ZN    0.20    0.25   -0.05 (VIOLATED)
+issue_stage_i/i_scoreboard/_39084_/ZN    0.20    0.24   -0.04 (VIOLATED)
+i_cache_subsystem/i_nbdcache/_6161_/ZN    0.20    0.24   -0.04 (VIOLATED)
+issue_stage_i/i_scoreboard/_43814_/Z    0.20    0.24   -0.04 (VIOLATED)
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14163_/Z    0.20    0.23   -0.03 (VIOLATED)
+issue_stage_i/i_scoreboard/_42270_/Z    0.20    0.23   -0.03 (VIOLATED)
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13283_/ZN    0.20    0.22   -0.02 (VIOLATED)
+i_cache_subsystem/i_nbdcache/_6311_/ZN    0.20    0.22   -0.02 (VIOLATED)
+i_cache_subsystem/i_nbdcache/_6320_/ZN    0.20    0.22   -0.02 (VIOLATED)
+i_cache_subsystem/i_nbdcache/_6315_/ZN    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16054_/ZN    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_scoreboard/_47163_/Z    0.20    0.21   -0.01 (VIOLATED)
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22378_/ZN    0.20    0.21   -0.01 (VIOLATED)
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22131_/ZN    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_scoreboard/_46241_/Z    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_scoreboard/_42895_/ZN    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14939_/Z    0.20    0.21   -0.01 (VIOLATED)
+i_cache_subsystem/i_nbdcache/i_miss_handler/_14430_/Z    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_scoreboard/_48970_/Z    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14594_/Z    0.20    0.21   -0.01 (VIOLATED)
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14199_/Z    0.20    0.20   -0.01 (VIOLATED)
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15400_/Z    0.20    0.20   -0.00 (VIOLATED)
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14265_/ZN    0.20    0.20   -0.00 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14163_/Z   60.65  105.91  -45.26 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6311_/ZN   52.11   95.17  -43.06 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6320_/ZN   52.11   95.12  -43.01 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6315_/ZN   52.11   92.54  -40.43 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14939_/Z   60.65   95.40  -34.75 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14594_/Z   60.65   94.72  -34.07 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14199_/Z   60.65   93.03  -32.37 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14876_/Z   60.65   91.10  -30.44 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15400_/Z   60.65   90.89  -30.24 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32376_/Z   60.50   90.69  -30.19 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14625_/Z   60.73   89.59  -28.86 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[29]$_DFF_PN0_/Q   60.58   89.37  -28.80 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14698_/Z   60.65   89.41  -28.75 (VIOLATED)
+
+_5818_/Z                               60.50   89.16  -28.66 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14964_/Z   60.65   89.18  -28.53 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14944_/Z   60.65   88.87  -28.22 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14404_/Z   60.65   88.03  -27.38 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6313_/ZN   52.11   79.31  -27.20 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15308_/Z   60.65   87.85  -27.20 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14680_/Z   60.65   87.67  -27.01 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15996_/Z   60.65   87.06  -26.41 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14690_/Z   60.65   86.46  -25.80 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15410_/Z   60.65   86.15  -25.50 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6331_/ZN   52.11   77.53  -25.42 (VIOLATED)
+
+_5865_/Z                               60.50   85.76  -25.26 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37233_/Z   60.65   85.83  -25.17 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14143_/Z   60.65   85.64  -24.99 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14525_/Z   60.65   85.62  -24.97 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16287_/Z   60.65   85.43  -24.78 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15288_/Z   60.73   85.48  -24.75 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14565_/Z   60.65   85.35  -24.70 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14161_/ZN   53.41   77.61  -24.21 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16067_/Z   60.65   84.79  -24.14 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14856_/Z   60.65   84.60  -23.95 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15119_/Z   60.73   84.16  -23.43 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15930_/Z   60.65   84.06  -23.40 (VIOLATED)
+
+input90/Z                              60.65   83.96  -23.31 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15952_/Z   60.65   83.90  -23.25 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14300_/Z   60.65   83.87  -23.22 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14731_/Z   60.65   83.77  -23.12 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14789_/Z   60.65   83.76  -23.11 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6334_/ZN   52.11   75.16  -23.05 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14615_/Z   60.65   83.54  -22.88 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14868_/Z   60.73   83.61  -22.88 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15988_/Z   60.65   83.50  -22.85 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_29496_/Z   60.65   83.18  -22.52 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34279_/Z   60.65   83.14  -22.48 (VIOLATED)
+
+_5855_/Z                               60.50   82.69  -22.19 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14763_/Z   60.65   82.80  -22.14 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14630_/Z   60.65   82.78  -22.12 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[34]$_DFF_PN0_/Q   60.58   82.62  -22.04 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36670_/Z   60.65   82.56  -21.91 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14518_/Z   60.65   82.48  -21.82 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15291_/Z   60.65   82.42  -21.76 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14735_/Z   60.65   82.23  -21.57 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16141_/Z   60.65   82.10  -21.45 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3625_/ZN   60.58   82.02  -21.44 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14328_/ZN   59.36   80.70  -21.34 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16030_/Z   60.65   81.76  -21.10 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14605_/Z   60.65   81.73  -21.08 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6322_/ZN   52.11   73.13  -21.02 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14904_/Z   60.65   81.40  -20.75 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[80]$_DFF_PN0_/Q   60.58   81.28  -20.70 (VIOLATED)
+
+csr_regfile_i/_10506_/ZN               52.11   72.29  -20.18 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14551_/ZN   53.41   73.48  -20.08 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32433_/Z   60.50   80.55  -20.05 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3621_/ZN   60.58   80.45  -19.87 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16188_/Z   60.65   80.41  -19.75 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14326_/ZN   59.36   79.05  -19.70 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16120_/Z   60.65   80.28  -19.63 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[103]$_DFF_PN0_/Q   60.58   80.18  -19.61 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14678_/Z   60.65   80.22  -19.57 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6528_/ZN   52.11   71.66  -19.55 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15867_/Z   60.65   80.19  -19.53 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16134_/Z   60.65   80.17  -19.52 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_48360_/Z   60.65   79.98  -19.33 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22131_/ZN   25.33   44.59  -19.26 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14941_/Z   60.65   79.89  -19.23 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22378_/ZN   25.33   44.54  -19.21 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15775_/Z   60.65   79.81  -19.16 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3679_/ZN   60.58   79.73  -19.16 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15740_/Z   60.65   79.81  -19.15 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18064_/Z   60.65   79.70  -19.04 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15337_/Z   60.73   79.77  -19.04 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6606_/ZN   52.11   71.13  -19.03 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3677_/ZN   60.58   79.52  -18.95 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14530_/Z   60.65   79.58  -18.93 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14296_/Z   60.65   79.56  -18.90 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15386_/Z   60.65   79.46  -18.81 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15403_/Z   60.65   79.45  -18.79 (VIOLATED)
+
+_5851_/Z                               60.50   79.28  -18.78 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[84]$_DFF_PN0_/Q   60.58   79.35  -18.77 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_45472_/Z   60.65   79.42  -18.77 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20309_/Z   60.65   79.42  -18.77 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16054_/ZN   20.07   38.64  -18.57 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16033_/Z   60.65   79.18  -18.52 (VIOLATED)
+
+input37/Z                              60.65   79.16  -18.50 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30013_/Z   60.65   79.15  -18.50 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[32]$_DFF_PN0_/Q   60.58   79.06  -18.48 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6608_/ZN   52.11   70.58  -18.47 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14133_/Z   60.65   79.10  -18.45 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14774_/Z   60.65   79.10  -18.45 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16124_/ZN   59.36   77.79  -18.44 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16102_/Z   60.65   79.09  -18.44 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3674_/ZN   60.58   78.96  -18.38 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_51163_/Z   60.65   78.98  -18.32 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15364_/Z   60.65   78.87  -18.22 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32935_/Z   60.65   78.81  -18.16 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15997_/Z   60.65   78.81  -18.15 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14132_/ZN   58.36   76.34  -17.98 (VIOLATED)
+
+csr_regfile_i/_10356_/ZN               52.11   69.97  -17.87 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30425_/Z   60.65   78.51  -17.85 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44019_/Z   60.65   78.49  -17.84 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_29764_/Z   60.65   78.45  -17.80 (VIOLATED)
+
+_5805_/Z                               60.50   78.22  -17.72 (VIOLATED)
+
+input116/Z                             60.65   78.35  -17.69 (VIOLATED)
+
+ex_stage_i/_10545_/CO                  60.58   77.96  -17.38 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3617_/ZN   60.58   77.96  -17.38 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6161_/ZN   56.00   73.23  -17.23 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3678_/ZN   60.58   77.60  -17.02 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3680_/ZN   60.58   77.58  -17.00 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14829_/Z   60.65   77.61  -16.96 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16390_/Z   60.65   77.45  -16.79 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3713_/ZN   60.58   77.20  -16.62 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14265_/ZN   26.70   43.21  -16.50 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13327_/Z   60.73   77.10  -16.37 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14064_/Z   60.65   76.88  -16.22 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34528_/Z   60.73   76.86  -16.13 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34286_/Z   60.73   76.71  -15.98 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34248_/Z   60.65   76.60  -15.95 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32892_/Z   60.73   76.67  -15.94 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14553_/Z   60.65   76.58  -15.93 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14780_/Z   60.65   76.57  -15.92 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_45716_/Z  121.15  137.02  -15.86 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6532_/ZN   52.11   67.95  -15.84 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14335_/ZN   59.36   75.18  -15.82 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6550_/ZN   52.11   67.92  -15.81 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1672_/Z        60.50   76.31  -15.81 (VIOLATED)
+
+csr_regfile_i/_10475_/Z                60.65   76.38  -15.73 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3890_/ZN   59.36   74.92  -15.56 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16148_/ZN   25.33   40.86  -15.53 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6534_/ZN   52.11   67.39  -15.28 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14331_/Z   60.65   75.82  -15.17 (VIOLATED)
+
+input4/Z                               60.65   75.73  -15.08 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22227_/ZN   25.33   40.39  -15.07 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[82]$_DFF_PN0_/Q   60.58   75.45  -14.87 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15419_/Z   60.65   75.50  -14.84 (VIOLATED)
+
+_5844_/Z                               60.50   75.23  -14.73 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15764_/Z   60.65   75.28  -14.62 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32924_/Z   60.73   75.35  -14.62 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32757_/Z   60.65   75.06  -14.40 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14489_/Z   60.65   75.01  -14.35 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14621_/Z   60.65   74.95  -14.30 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33598_/Z   60.50   74.62  -14.11 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34261_/Z   60.65   74.76  -14.11 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6553_/ZN   52.11   66.16  -14.05 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3609_/ZN   60.58   74.61  -14.03 (VIOLATED)
+
+csr_regfile_i/_10376_/ZN               60.73   74.74  -14.01 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[27]$_DFF_PN0_/Q   60.58   74.58  -14.00 (VIOLATED)
+
+i_cache_subsystem/_0807_/Z             60.50   74.35  -13.85 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6309_/ZN   52.11   65.96  -13.85 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[30]$_DFF_PN0_/Q   60.58   74.41  -13.83 (VIOLATED)
+
+i_cache_subsystem/_0788_/Z             60.50   74.29  -13.79 (VIOLATED)
+
+i_cache_subsystem/_0700_/Z             60.50   74.28  -13.78 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14622_/Z   60.65   74.42  -13.77 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32215_/Z   60.50   74.26  -13.76 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16155_/Z   60.65   74.40  -13.74 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16186_/Z   60.65   74.35  -13.69 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32358_/Z   60.50   74.17  -13.66 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3676_/ZN   60.58   74.19  -13.61 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33654_/Z   60.50   74.11  -13.61 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[81]$_DFF_PN0_/Q   60.58   74.17  -13.59 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44778_/Z   60.65   74.14  -13.49 (VIOLATED)
+
+csr_regfile_i/_08051_/Z                60.65   74.11  -13.45 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14306_/ZN   31.74   45.14  -13.40 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34376_/Z   60.65   74.02  -13.37 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_35022_/Z   60.73   74.05  -13.32 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14641_/Z   60.65   73.92  -13.27 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3626_/ZN   60.58   73.84  -13.26 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[38]$_DFF_PN0_/Q   60.58   73.79  -13.22 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14365_/Z   60.65   73.86  -13.21 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21142_/ZN   25.33   38.53  -13.20 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14433_/Z   60.65   73.68  -13.03 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34516_/Z   60.73   73.72  -12.99 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3671_/ZN   60.58   73.57  -12.99 (VIOLATED)
+
+input123/Z                             60.65   73.63  -12.98 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14713_/Z   60.73   73.70  -12.97 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15206_/Z   60.65   73.61  -12.95 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16937_/ZN   23.23   36.16  -12.93 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15920_/Z   60.65   73.58  -12.92 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14568_/ZN   58.36   71.27  -12.91 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14650_/Z   60.65   73.55  -12.90 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15879_/Z   60.65   73.52  -12.86 (VIOLATED)
+
+input61/Z                              60.65   73.49  -12.83 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3615_/ZN   60.58   73.39  -12.82 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15422_/Z   60.65   73.42  -12.76 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3668_/ZN   60.58   73.26  -12.69 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3721_/ZN   60.58   73.23  -12.65 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14479_/Z   60.65   73.24  -12.58 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33756_/Z   60.50   73.06  -12.56 (VIOLATED)
+
+csr_regfile_i/_10540_/Z                60.65   73.20  -12.54 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_42272_/Z   60.73   73.24  -12.51 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15048_/Z   60.73   73.23  -12.50 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_4829_/Z   60.65   73.14  -12.48 (VIOLATED)
+
+csr_regfile_i/_10214_/ZN               52.11   64.54  -12.43 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34273_/Z   60.65   72.97  -12.31 (VIOLATED)
+
+input114/Z                             60.65   72.97  -12.31 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14086_/Z   60.65   72.96  -12.31 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[35]$_DFF_PN0_/Q   60.58   72.88  -12.30 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3622_/ZN   60.58   72.88  -12.30 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[31]$_DFF_PN0_/Q   60.58   72.87  -12.30 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44876_/Z   60.65   72.87  -12.21 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20770_/Z   60.65   72.86  -12.21 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6329_/ZN   52.11   64.28  -12.17 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20063_/ZN   25.33   37.50  -12.17 (VIOLATED)
+
+i_perf_counters/_07571_/ZN             60.73   72.86  -12.13 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34509_/Z   60.73   72.84  -12.11 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34537_/Z   60.65   72.67  -12.02 (VIOLATED)
+
+csr_regfile_i/_10458_/Z                60.65   72.59  -11.93 (VIOLATED)
+
+i_perf_counters/_07289_/ZN             25.33   37.25  -11.92 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6559_/ZN   52.11   64.02  -11.91 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2278_/Z        60.50   72.38  -11.88 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15721_/ZN   22.16   34.00  -11.84 (VIOLATED)
+
+ex_stage_i/_10500_/Z                   25.33   37.15  -11.82 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3686_/ZN   60.58   72.36  -11.79 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[1]$_DFF_PN0_/Q   60.58   72.34  -11.76 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_10285_/ZN   23.23   34.99  -11.76 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14062_/Z   60.65   72.37  -11.71 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[105]$_DFF_PN0_/Q   60.58   72.29  -11.71 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3619_/ZN   60.58   72.26  -11.68 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30250_/Z   60.65   72.33  -11.68 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33279_/Z   60.50   72.17  -11.67 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14858_/Z   60.65   72.29  -11.63 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6530_/ZN   52.11   63.64  -11.53 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32481_/Z   60.65   72.13  -11.48 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/lsu_paddr_o[2]$_DFF_PN0_/Q   60.58   72.03  -11.46 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[51]$_DFF_PN0_/Q   60.58   71.98  -11.40 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_48973_/Z   60.65   72.01  -11.35 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[158]$_DFFE_PN0P_/Q   60.58   71.90  -11.32 (VIOLATED)
+
+i_perf_counters/_06948_/ZN             22.16   33.38  -11.21 (VIOLATED)
+
+input59/Z                              60.65   71.85  -11.20 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3612_/ZN   60.58   71.76  -11.18 (VIOLATED)
+
+ex_stage_i/_09589_/ZN                  23.23   34.39  -11.16 (VIOLATED)
+
+i_frontend/_12201_/ZN                  60.58   71.71  -11.13 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_45513_/Z   60.73   71.84  -11.11 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15064_/Z   60.65   71.73  -11.07 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14333_/ZN   31.74   42.80  -11.07 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[109]$_DFF_PN0_/Q   60.58   71.63  -11.05 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18454_/ZN   22.16   33.20  -11.04 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/i_amo_buffer.i_amo_fifo.i_fifo_v3.data_o[127]$_DFFE_PN0P_/Q   60.58   71.53  -10.95 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1659_/Z        60.50   71.45  -10.95 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_29889_/Z   60.65   71.54  -10.89 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6564_/ZN   52.11   62.95  -10.84 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14582_/Z   60.65   71.49  -10.84 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57268_/Z   60.73   71.46  -10.73 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32339_/Z   60.50   71.21  -10.71 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3610_/ZN   60.58   71.23  -10.65 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6600_/ZN   52.11   62.67  -10.57 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3620_/ZN   60.58   71.13  -10.55 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32754_/Z   60.65   71.19  -10.54 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14373_/Z   60.65   71.10  -10.44 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6371_/ZN   26.05   36.41  -10.35 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6408_/ZN   26.05   36.40  -10.34 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6356_/ZN   26.05   36.29  -10.23 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57257_/Z   60.73   70.89  -10.16 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33532_/Z   60.50   70.65  -10.15 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[104]$_DFF_PN0_/Q   60.58   70.69  -10.11 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30461_/Z   60.65   70.71  -10.05 (VIOLATED)
+
+id_stage_i.issue_entry_o[230]$_DFFE_PN0P_/Q   60.58   70.61  -10.03 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34529_/Z   60.65   70.67  -10.02 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6539_/ZN   52.11   62.10   -9.99 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[45]$_DFF_PN0_/Q   60.58   70.47   -9.89 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14088_/Z   60.65   70.51   -9.85 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33325_/Z   60.50   70.35   -9.84 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15448_/ZN   25.33   35.15   -9.83 (VIOLATED)
+
+csr_regfile_i/_13390_/ZN               26.70   36.51   -9.81 (VIOLATED)
+
+csr_regfile_i/_10446_/Z                60.65   70.45   -9.80 (VIOLATED)
+
+csr_regfile_i/_10196_/Z                60.65   70.43   -9.77 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6478_/ZN   26.05   35.82   -9.77 (VIOLATED)
+
+i_frontend/i_fetch_fifo/i_fifo_v3/_8740_/ZN   22.16   31.91   -9.75 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[87]$_DFF_PN0_/Q   60.58   70.32   -9.75 (VIOLATED)
+
+ex_stage_i/_09188_/Z                   60.65   70.36   -9.70 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6336_/ZN   52.11   61.81   -9.70 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14305_/Z   60.65   70.33   -9.68 (VIOLATED)
+
+i_perf_counters/_07327_/ZN             25.33   34.99   -9.66 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6555_/ZN   52.11   61.75   -9.65 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33301_/Z   60.50   70.13   -9.63 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2200_/ZN       22.16   31.78   -9.62 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16634_/ZN   23.23   32.85   -9.62 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_49364_/Z   60.73   70.32   -9.59 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16534_/ZN   24.60   34.19   -9.58 (VIOLATED)
+
+i_cache_subsystem/_0799_/Z             60.50   70.08   -9.57 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6596_/ZN   52.11   61.68   -9.57 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15393_/Z   60.65   70.21   -9.55 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3669_/ZN   60.58   70.10   -9.52 (VIOLATED)
+
+input113/Z                             60.65   70.18   -9.52 (VIOLATED)
+
+i_perf_counters/_06538_/ZN             22.16   31.68   -9.51 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33679_/Z   60.50   69.97   -9.46 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57253_/Z   60.65   70.10   -9.45 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3607_/ZN   60.58   69.99   -9.41 (VIOLATED)
+
+csr_regfile_i/_10279_/ZN               52.11   61.52   -9.41 (VIOLATED)
+
+csr_regfile_i/_10563_/ZN               60.73   70.12   -9.39 (VIOLATED)
+
+csr_regfile_i/_10417_/ZN               49.13   58.51   -9.38 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_48980_/Z   60.65   70.01   -9.36 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_50586_/Z   60.65   69.99   -9.34 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[165]$_DFFE_PN0P_/Q   60.58   69.91   -9.33 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44015_/Z   60.73   70.02   -9.29 (VIOLATED)
+
+csr_regfile_i/_10481_/Z                60.65   69.88   -9.22 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_20151_/Z   60.65   69.87   -9.21 (VIOLATED)
+
+_5822_/Z                               60.50   69.71   -9.21 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_51143_/Z   60.65   69.85   -9.20 (VIOLATED)
+
+i_frontend/i_btb/_19235_/Z             60.65   69.83   -9.17 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34252_/Z   60.65   69.82   -9.17 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3618_/ZN   60.58   69.75   -9.17 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_51215_/Z   60.65   69.79   -9.14 (VIOLATED)
+
+csr_regfile_i/_10394_/ZN               52.11   61.18   -9.07 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34638_/Z   60.65   69.72   -9.07 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_48977_/Z   60.73   69.78   -9.05 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[28]$_DFF_PN0_/Q   60.58   69.60   -9.02 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14620_/Z   60.65   69.66   -9.01 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6578_/ZN   52.11   61.08   -8.97 (VIOLATED)
+
+i_cache_subsystem/_0801_/Z             60.50   69.46   -8.96 (VIOLATED)
+
+_5853_/Z                               60.50   69.46   -8.96 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_29497_/Z   60.65   69.58   -8.92 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2103_/ZN       24.60   33.51   -8.90 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16483_/ZN   23.23   32.13   -8.90 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3611_/ZN   60.58   69.47   -8.90 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3692_/ZN   60.58   69.45   -8.87 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16276_/Z   60.73   69.49   -8.76 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17576_/ZN   25.33   34.08   -8.75 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_35185_/Z   60.73   69.47   -8.74 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_10143_/ZN   23.23   31.96   -8.73 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32166_/Z   60.73   69.45   -8.72 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14212_/Z   60.65   69.31   -8.66 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6307_/ZN   52.11   60.73   -8.62 (VIOLATED)
+
+csr_regfile_i/_09877_/Z                60.65   69.27   -8.62 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30450_/Z   60.65   69.15   -8.50 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6537_/ZN   52.11   60.60   -8.49 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14502_/ZN   26.70   35.18   -8.48 (VIOLATED)
+
+i_cache_subsystem/_0837_/Z             60.65   69.09   -8.44 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14588_/ZN   26.70   35.13   -8.43 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32415_/Z   60.50   68.92   -8.42 (VIOLATED)
+
+csr_regfile_i/_14517_/ZN               26.70   35.06   -8.36 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15529_/Z   60.73   69.09   -8.36 (VIOLATED)
+
+ex_stage_i/_09897_/ZN                  23.23   31.58   -8.35 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30897_/Z   60.65   69.00   -8.34 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15545_/ZN   23.23   31.54   -8.30 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[42]$_DFF_PN0_/Q   60.58   68.86   -8.28 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14486_/Z   60.65   68.92   -8.27 (VIOLATED)
+
+csr_regfile_i/_10078_/ZN               52.11   60.36   -8.25 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2215_/ZN       22.16   30.34   -8.17 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[40]$_DFF_PN0_/Q   60.58   68.73   -8.15 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_45577_/ZN   60.73   68.88   -8.15 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14393_/ZN   59.36   67.50   -8.14 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6594_/ZN   52.11   60.21   -8.10 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31856_/Z   60.65   68.72   -8.07 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_20087_/Z   60.65   68.71   -8.05 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/store_buffer_i/_09196_/ZN   26.70   34.69   -7.99 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[108]$_DFF_PN0_/Q   60.58   68.56   -7.98 (VIOLATED)
+
+csr_regfile_i/_10261_/Z                60.65   68.62   -7.96 (VIOLATED)
+
+ex_stage_i/_08671_/ZN                  22.16   30.10   -7.94 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_35255_/Z   60.73   68.62   -7.89 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_50383_/Z   60.65   68.54   -7.88 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14900_/Z   60.65   68.53   -7.88 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6275_/ZN   26.05   33.87   -7.81 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32779_/Z   60.73   68.53   -7.80 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6353_/ZN   26.05   33.83   -7.78 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32169_/Z   60.65   68.37   -7.71 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3716_/ZN   60.58   68.26   -7.68 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[39]$_DFF_PN0_/Q   60.58   68.25   -7.68 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_40193_/ZN   60.73   68.39   -7.66 (VIOLATED)
+
+ex_stage_i/_10112_/ZN                  23.23   30.89   -7.65 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18264_/ZN   13.81   21.45   -7.65 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_14173_/Z   60.65   68.28   -7.63 (VIOLATED)
+
+ex_stage_i/_10498_/ZN                  26.02   33.64   -7.63 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37250_/ZN   25.33   32.95   -7.62 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1678_/Z        60.50   68.11   -7.61 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15989_/ZN   23.23   30.82   -7.59 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_06998_/Z   60.65   68.23   -7.57 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15580_/ZN   24.60   32.16   -7.56 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6598_/ZN   52.11   59.66   -7.55 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[7]$_DFF_PN0_/Q   60.58   68.05   -7.48 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_39270_/Z   60.73   68.19   -7.46 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3672_/ZN   60.58   68.03   -7.45 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[151]$_DFFE_PN0P_/Q   60.58   68.03   -7.45 (VIOLATED)
+
+input132/Z                             60.65   68.05   -7.40 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32010_/Z   60.50   67.88   -7.38 (VIOLATED)
+
+ex_stage_i/lsu_i/_4195_/Z              60.50   67.87   -7.37 (VIOLATED)
+
+ex_stage_i/lsu_i/_4284_/Z              60.50   67.85   -7.35 (VIOLATED)
+
+i_cache_subsystem/i_icache/sram_block_2__data_sram/genblk1_1__i_ram/_2_/ZN   60.73   68.05   -7.32 (VIOLATED)
+
+i_perf_counters/_06814_/ZN             25.33   32.55   -7.22 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_29485_/Z   60.65   67.86   -7.21 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37312_/ZN   25.33   32.48   -7.16 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17750_/Z   60.65   67.79   -7.14 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6350_/ZN   26.05   33.17   -7.12 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6513_/ZN   26.05   33.15   -7.09 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57378_/Z   60.65   67.74   -7.09 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[62]$_DFF_PN0_/Q   60.58   67.65   -7.07 (VIOLATED)
+
+ex_stage_i/lsu_i/_4323_/Z              60.50   67.56   -7.06 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[4]$_DFF_PN0_/Q   60.58   67.63   -7.05 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3613_/ZN   60.58   67.62   -7.04 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22503_/ZN   22.16   29.20   -7.04 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14967_/ZN   26.70   33.65   -6.95 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14787_/Z   60.65   67.59   -6.94 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32713_/Z   60.65   67.59   -6.94 (VIOLATED)
+
+i_frontend/_11767_/ZN                  60.73   67.64   -6.91 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17195_/ZN   22.16   29.06   -6.90 (VIOLATED)
+
+id_stage_i.issue_entry_o[288]$_DFFE_PN0P_/Q   60.58   67.46   -6.88 (VIOLATED)
+
+ex_stage_i/_09780_/ZN                  23.23   30.11   -6.88 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6546_/ZN   52.11   58.99   -6.88 (VIOLATED)
+
+csr_regfile_i/_09199_/ZN               13.81   20.67   -6.86 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15785_/ZN   53.41   60.21   -6.81 (VIOLATED)
+
+ex_stage_i/_09982_/ZN                  23.23   29.98   -6.75 (VIOLATED)
+
+input89/Z                              60.65   67.36   -6.71 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33190_/Z   60.50   67.19   -6.69 (VIOLATED)
+
+i_perf_counters/_07096_/ZN             22.16   28.84   -6.68 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57269_/Z   60.73   67.34   -6.61 (VIOLATED)
+
+ex_stage_i/_08144_/Z                   25.33   31.94   -6.61 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_20448_/Z   60.65   67.25   -6.60 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31022_/Z   60.65   67.25   -6.60 (VIOLATED)
+
+i_cache_subsystem/i_icache/_4334_/ZN   59.36   65.94   -6.58 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_39527_/Z   60.65   67.23   -6.58 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3628_/ZN   60.58   67.15   -6.57 (VIOLATED)
+
+_5222_/ZN                              23.23   29.79   -6.55 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36199_/Z   60.73   67.28   -6.55 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21469_/Z   60.65   67.20   -6.55 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6272_/ZN   26.70   33.24   -6.54 (VIOLATED)
+
+ex_stage_i/_08727_/ZN                  22.16   28.68   -6.52 (VIOLATED)
+
+input129/Z                             60.65   67.15   -6.50 (VIOLATED)
+
+ex_stage_i/lsu_i/_3771_/ZN             31.74   38.23   -6.49 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_5280_/ZN   26.70   33.15   -6.45 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_13562_/Z   60.65   67.10   -6.44 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_07056_/Z   60.65   67.08   -6.43 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20772_/Z   60.65   67.04   -6.39 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13423_/Z   60.65   67.01   -6.35 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17907_/Z   60.65   66.95   -6.30 (VIOLATED)
+
+i_frontend/i_fetch_fifo/i_fifo_v3/_6964_/ZN   22.16   28.46   -6.29 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[130]$_DFF_PN0_/Q   60.58   66.87   -6.29 (VIOLATED)
+
+i_perf_counters/_07075_/ZN             22.16   28.42   -6.25 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[122]$_DFF_PN0_/Q   60.58   66.74   -6.16 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_45680_/Z   60.65   66.79   -6.14 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_41626_/Z   60.65   66.79   -6.13 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/store_buffer_i/_09464_/ZN   26.70   32.83   -6.12 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[44]$_DFF_PN0_/Q   60.58   66.69   -6.12 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44009_/Z   60.65   66.74   -6.08 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15823_/Z   60.65   66.73   -6.07 (VIOLATED)
+
+csr_regfile_i/_11523_/Z                60.65   66.71   -6.06 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/evict_cl_q_data__99_$_DFFE_PN0P_/Q   60.58   66.62   -6.04 (VIOLATED)
+
+csr_regfile_i/_08650_/ZN               13.81   19.84   -6.03 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15326_/ZN   22.16   28.19   -6.02 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15779_/ZN   23.23   29.25   -6.01 (VIOLATED)
+
+i_frontend/i_btb/_19393_/Z             60.65   66.64   -5.99 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34297_/Z   60.65   66.64   -5.99 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/_4633_/ZN   16.02   22.00   -5.98 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33246_/Z   60.50   66.48   -5.98 (VIOLATED)
+
+csr_regfile_i/_10577_/ZN               52.11   58.08   -5.97 (VIOLATED)
+
+ex_stage_i/_10194_/ZN                  23.23   29.19   -5.96 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36932_/ZN   25.33   31.29   -5.96 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6580_/ZN   52.11   58.06   -5.95 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_5701_/ZN   26.05   32.00   -5.95 (VIOLATED)
+
+ex_stage_i/lsu_i/_6057_/Z              60.50   66.41   -5.91 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16395_/ZN   24.60   30.50   -5.89 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[90]$_DFF_PN0_/Q   60.58   66.47   -5.89 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15402_/Z   60.65   66.52   -5.87 (VIOLATED)
+
+i_frontend/i_btb/_19154_/Z             60.65   66.52   -5.86 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[37]$_DFF_PN0_/Q   60.58   66.42   -5.85 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17003_/ZN   11.48   17.32   -5.84 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30352_/Z   60.65   66.48   -5.83 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31731_/Z   60.65   66.47   -5.82 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34639_/Z   60.65   66.44   -5.79 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6589_/ZN   52.11   57.88   -5.77 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16973_/ZN   26.70   32.46   -5.76 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2154_/ZN       23.23   28.98   -5.75 (VIOLATED)
+
+i_perf_counters/_07146_/ZN             25.33   31.06   -5.73 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15801_/ZN   59.36   65.08   -5.72 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57320_/Z   60.65   66.34   -5.68 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_13560_/Z   60.65   66.32   -5.66 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[106]$_DFF_PN0_/Q   60.58   66.22   -5.65 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3697_/ZN   60.58   66.21   -5.63 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_49822_/Z   60.65   66.25   -5.60 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14642_/Z   60.65   66.24   -5.59 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_42253_/Z   60.65   66.24   -5.59 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44439_/ZN   25.33   30.90   -5.57 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_49922_/Z   60.73   66.29   -5.56 (VIOLATED)
+
+input6/Z                               60.65   66.17   -5.52 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33644_/Z   60.50   66.00   -5.50 (VIOLATED)
+
+csr_regfile_i/_10485_/ZN               49.13   54.60   -5.46 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16517_/ZN   24.60   30.05   -5.44 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6548_/ZN   52.11   57.54   -5.43 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[110]$_DFF_PN0_/Q   60.58   66.00   -5.42 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33022_/Z   60.50   65.90   -5.40 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_51637_/Z   60.65   66.04   -5.38 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17718_/ZN   26.70   32.06   -5.36 (VIOLATED)
+
+ex_stage_i/_10098_/ZN                  23.23   28.56   -5.33 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32268_/Z   60.50   65.83   -5.33 (VIOLATED)
+
+csr_regfile_i/_10522_/ZN               25.33   30.64   -5.31 (VIOLATED)
+
+i_perf_counters/_06925_/ZN             25.33   30.63   -5.30 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2052_/ZN       22.16   27.45   -5.28 (VIOLATED)
+
+ex_stage_i/_10467_/ZN                  23.23   28.51   -5.28 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17023_/ZN   13.81   19.08   -5.27 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_47212_/Z   60.73   66.00   -5.27 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34782_/Z   60.73   65.97   -5.24 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15933_/ZN   23.23   28.44   -5.20 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_07081_/Z   60.65   65.86   -5.20 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30555_/Z   60.65   65.84   -5.18 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57224_/Z   60.65   65.82   -5.17 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3624_/ZN   60.58   65.69   -5.12 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1242_/Z        60.65   65.73   -5.08 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16146_/ZN   59.36   64.43   -5.07 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_39216_/Z   60.65   65.72   -5.06 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31974_/Z   60.50   65.54   -5.04 (VIOLATED)
+
+i_frontend/_12197_/ZN                  23.23   28.27   -5.04 (VIOLATED)
+
+csr_regfile_i/_10490_/ZN               52.11   57.07   -4.96 (VIOLATED)
+
+i_frontend/i_btb/_20380_/ZN            26.70   31.65   -4.95 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22498_/ZN   22.16   27.10   -4.94 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_29890_/Z   60.65   65.59   -4.93 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3718_/ZN   60.58   65.49   -4.91 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[41]$_DFF_PN0_/Q   60.58   65.48   -4.90 (VIOLATED)
+
+ex_stage_i/_09882_/ZN                  23.23   28.11   -4.88 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1658_/Z        60.50   65.36   -4.86 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[55]$_DFF_PN0_/Q   60.58   65.43   -4.85 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16551_/ZN   24.60   29.40   -4.79 (VIOLATED)
+
+i_cache_subsystem/i_icache/_4244_/ZN   59.36   64.12   -4.76 (VIOLATED)
+
+i_frontend/i_btb/_17068_/Z             60.65   65.40   -4.75 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3681_/ZN   60.58   65.30   -4.72 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_14180_/Z   60.73   65.45   -4.72 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/_4648_/ZN   31.74   36.45   -4.71 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20346_/Z   60.73   65.41   -4.68 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57121_/Z   60.65   65.32   -4.67 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3670_/ZN   60.58   65.24   -4.66 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6582_/ZN   52.11   56.77   -4.66 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14463_/Z   60.65   65.31   -4.66 (VIOLATED)
+
+csr_regfile_i/_09789_/Z                60.65   65.30   -4.65 (VIOLATED)
+
+input72/Z                              60.65   65.25   -4.60 (VIOLATED)
+
+csr_regfile_i/_10299_/Z                60.65   65.25   -4.60 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3003_/Z    60.65   65.24   -4.59 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14792_/ZN   26.70   31.29   -4.59 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57113_/ZN   24.60   29.19   -4.58 (VIOLATED)
+
+_5835_/Z                               60.50   65.06   -4.56 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32724_/Z   60.73   65.29   -4.56 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20077_/ZN   25.33   29.88   -4.55 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15562_/ZN   24.60   29.14   -4.54 (VIOLATED)
+
+i_frontend/_09837_/ZN                  26.70   31.24   -4.53 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31736_/Z   60.65   65.17   -4.51 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15464_/ZN   24.60   29.11   -4.50 (VIOLATED)
+
+i_frontend/i_btb/_20173_/ZN            41.50   46.00   -4.49 (VIOLATED)
+
+id_stage_i.issue_entry_o[268]$_DFFE_PN0P_/Q   60.58   65.07   -4.49 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_41777_/Z   60.65   65.15   -4.49 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16861_/ZN   26.02   30.50   -4.49 (VIOLATED)
+
+i_perf_counters/_07192_/ZN             25.33   29.81   -4.48 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_56986_/ZN   26.70   31.17   -4.46 (VIOLATED)
+
+csr_regfile_i/_13368_/ZN               60.58   65.02   -4.44 (VIOLATED)
+
+_5842_/Z                               60.50   64.93   -4.43 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14850_/ZN   22.16   26.59   -4.43 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_17010_/ZN   25.33   29.75   -4.42 (VIOLATED)
+
+i_cache_subsystem/i_icache/_2344_/ZN   24.60   29.01   -4.41 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31992_/Z   60.50   64.90   -4.39 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3592_/ZN   60.58   64.96   -4.39 (VIOLATED)
+
+input58/Z                              60.65   65.04   -4.38 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14606_/Z   60.65   65.03   -4.38 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16702_/ZN   25.33   29.70   -4.37 (VIOLATED)
+
+ex_stage_i/_08621_/ZN                  22.16   26.52   -4.36 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14216_/ZN   59.36   63.71   -4.36 (VIOLATED)
+
+i_cache_subsystem/_0852_/Z             60.50   64.84   -4.34 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57165_/ZN   16.02   20.36   -4.34 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18433_/ZN   20.07   24.39   -4.32 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32576_/Z   60.65   64.98   -4.32 (VIOLATED)
+
+i_perf_counters/_07447_/ZN             22.16   26.47   -4.30 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_19793_/ZN   26.70   31.00   -4.30 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_50385_/ZN   16.02   20.31   -4.29 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15418_/ZN   26.70   30.99   -4.29 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31738_/Z   60.65   64.94   -4.28 (VIOLATED)
+
+ex_stage_i/_08112_/Z                   25.33   29.61   -4.28 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18852_/Z   60.65   64.92   -4.27 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_56954_/Z   60.65   64.91   -4.26 (VIOLATED)
+
+i_frontend/i_btb/_20721_/ZN            26.70   30.93   -4.22 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33289_/Z   60.50   64.69   -4.18 (VIOLATED)
+
+i_cache_subsystem/_1075_/Z             60.65   64.81   -4.16 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34349_/Z   60.65   64.79   -4.13 (VIOLATED)
+
+csr_regfile_i/_09582_/ZN               13.81   17.94   -4.13 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[47]$_DFF_PN0_/Q   60.58   64.69   -4.11 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16500_/ZN   24.60   28.71   -4.10 (VIOLATED)
+
+id_stage_i.issue_entry_o[199]$_DFFE_PN0P_/Q   60.58   64.67   -4.10 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13720_/ZN   24.60   28.70   -4.10 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22664_/ZN   25.33   29.42   -4.09 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3714_/ZN   60.58   64.64   -4.07 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14217_/ZN   26.70   30.76   -4.06 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_1__i_ram/_1_/ZN   60.73   64.78   -4.05 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37280_/ZN   25.33   29.37   -4.04 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14654_/ZN   26.70   30.73   -4.03 (VIOLATED)
+
+csr_regfile_i/_10246_/Z                60.65   64.68   -4.03 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[157]$_DFFE_PN0P_/Q   60.58   64.59   -4.01 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34535_/Z   60.65   64.65   -4.00 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_28413_/ZN   26.70   30.70   -3.99 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_43816_/Z   60.65   64.63   -3.98 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14038_/Z   60.65   64.60   -3.95 (VIOLATED)
+
+ex_stage_i/lsu_i/_6043_/ZN             26.05   30.00   -3.95 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15917_/ZN   26.70   30.65   -3.95 (VIOLATED)
+
+_5743_/Z                               60.50   64.45   -3.95 (VIOLATED)
+
+csr_regfile_i/_09374_/ZN               13.81   17.73   -3.92 (VIOLATED)
+
+i_frontend/_13289_/ZN                  13.01   16.92   -3.91 (VIOLATED)
+
+i_frontend/i_btb/_21874_/ZN            13.81   17.71   -3.90 (VIOLATED)
+
+ex_stage_i/_10479_/ZN                  23.23   27.13   -3.90 (VIOLATED)
+
+csr_regfile_i/_12037_/ZN               10.47   14.36   -3.89 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[169]$_DFFE_PN0P_/Q   60.58   64.45   -3.88 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6544_/ZN   52.11   55.97   -3.87 (VIOLATED)
+
+i_cache_subsystem/i_icache/_2252_/ZN   16.02   19.88   -3.86 (VIOLATED)
+
+i_frontend/_12175_/ZN                  22.16   26.02   -3.86 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_20070_/Z   60.65   64.50   -3.84 (VIOLATED)
+
+i_frontend/i_fetch_fifo/i_fifo_v3/_7095_/ZN   25.33   29.17   -3.84 (VIOLATED)
+
+csr_regfile_i/_09242_/ZN               13.81   17.64   -3.83 (VIOLATED)
+
+input95/Z                              60.65   64.47   -3.82 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_07135_/Z   60.65   64.47   -3.82 (VIOLATED)
+
+csr_regfile_i/_13654_/ZN               25.33   29.14   -3.81 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13361_/Z   60.73   64.52   -3.79 (VIOLATED)
+
+input83/Z                              60.65   64.43   -3.77 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22496_/ZN   22.16   25.93   -3.77 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6340_/ZN   52.11   55.87   -3.76 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3749_/Z    60.65   64.41   -3.75 (VIOLATED)
+
+ex_stage_i/lsu_i/_4332_/Z              60.50   64.24   -3.74 (VIOLATED)
+
+ex_stage_i/lsu_i/_5984_/ZN             26.05   29.79   -3.74 (VIOLATED)
+
+i_cache_subsystem/_0710_/Z             60.50   64.23   -3.73 (VIOLATED)
+
+csr_regfile_i/_13392_/ZN               16.02   19.73   -3.71 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[83]$_DFF_PN0_/Q   60.58   64.25   -3.68 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3689_/ZN   60.58   64.24   -3.66 (VIOLATED)
+
+id_stage_i.issue_entry_o[228]$_DFFE_PN0P_/Q   60.58   64.24   -3.66 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3498_/ZN   25.33   28.97   -3.64 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36923_/ZN   25.33   28.94   -3.61 (VIOLATED)
+
+i_cache_subsystem/i_icache/_4176_/ZN   24.60   28.21   -3.61 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_09024_/Z   60.65   64.25   -3.60 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_20445_/Z   60.65   64.25   -3.59 (VIOLATED)
+
+ex_stage_i/_09768_/ZN                  23.23   26.82   -3.59 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_58829_/Z   60.65   64.23   -3.58 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3717_/ZN   60.58   64.14   -3.57 (VIOLATED)
+
+ex_stage_i/_08854_/ZN                  22.16   25.73   -3.56 (VIOLATED)
+
+i_cache_subsystem/i_icache/_2678_/ZN   10.47   14.02   -3.55 (VIOLATED)
+
+i_cache_subsystem/_0907_/Z             60.73   64.26   -3.53 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20080_/ZN   25.33   28.86   -3.53 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17230_/ZN   25.33   28.85   -3.52 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[120]$_DFF_PN0_/Q   60.58   64.09   -3.51 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[162]$_DFFE_PN0P_/Q   60.58   64.09   -3.51 (VIOLATED)
+
+ex_stage_i/_10471_/ZN                  23.23   26.74   -3.51 (VIOLATED)
+
+i_cache_subsystem/_1022_/Z             60.50   64.00   -3.50 (VIOLATED)
+
+csr_regfile_i/_07904_/ZN               16.02   19.50   -3.48 (VIOLATED)
+
+ex_stage_i/lsu_i/_6292_/Z              60.73   64.18   -3.45 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57382_/Z   60.73   64.18   -3.45 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_21264_/Z   60.65   64.09   -3.44 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3731_/Z    60.65   64.09   -3.43 (VIOLATED)
+
+i_frontend/_17398_/ZN                  26.70   30.13   -3.42 (VIOLATED)
+
+csr_regfile_i/_09604_/ZN               13.81   17.21   -3.40 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_38561_/Z   60.50   63.90   -3.40 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57266_/Z   60.65   64.05   -3.39 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_17214_/ZN   26.70   30.08   -3.38 (VIOLATED)
+
+ex_stage_i/_07367_/ZN                  26.70   30.05   -3.35 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3623_/ZN   60.58   63.93   -3.35 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[144]$_DFFE_PN0P_/Q   60.58   63.89   -3.31 (VIOLATED)
+
+csr_regfile_i/_10992_/ZN               59.36   62.66   -3.30 (VIOLATED)
+
+csr_regfile_i/_08999_/ZN               13.81   17.11   -3.30 (VIOLATED)
+
+i_frontend/i_btb/_22630_/ZN            13.81   17.10   -3.29 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[107]$_DFF_PN0_/Q   60.58   63.87   -3.29 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30560_/Z   60.65   63.94   -3.29 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21922_/Z   60.65   63.94   -3.29 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_itlb/_08580_/Z   60.65   63.93   -3.28 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3604_/ZN   60.58   63.85   -3.27 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21793_/ZN   24.60   27.87   -3.26 (VIOLATED)
+
+ex_stage_i/_10088_/ZN                  23.23   26.50   -3.26 (VIOLATED)
+
+ex_stage_i/_10490_/ZN                  23.23   26.48   -3.25 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15857_/ZN   58.36   61.61   -3.25 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_09686_/ZN   26.70   29.95   -3.25 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32774_/Z   60.65   63.88   -3.22 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_14013_/Z   60.65   63.87   -3.22 (VIOLATED)
+
+ex_stage_i/_10473_/ZN                  23.23   26.44   -3.21 (VIOLATED)
+
+csr_regfile_i/_14469_/ZN               25.33   28.51   -3.18 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32558_/Z   60.50   63.67   -3.17 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15632_/ZN   24.60   27.76   -3.15 (VIOLATED)
+
+ex_stage_i/lsu_i/_4293_/Z              60.50   63.64   -3.14 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[126]$_DFF_PN0_/Q   60.58   63.70   -3.12 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37010_/ZN   25.33   28.44   -3.12 (VIOLATED)
+
+csr_regfile_i/_14504_/ZN               26.70   29.81   -3.11 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15595_/ZN   23.23   26.32   -3.09 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3608_/ZN   60.58   63.64   -3.06 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6569_/ZN   52.11   55.17   -3.06 (VIOLATED)
+
+ex_stage_i/_08547_/Z                   25.33   28.38   -3.05 (VIOLATED)
+
+i_cache_subsystem/i_icache/_4008_/ZN   59.36   62.40   -3.04 (VIOLATED)
+
+ex_stage_i/i_mult/_6655_/ZN            16.02   19.06   -3.04 (VIOLATED)
+
+csr_regfile_i/_10312_/Z                60.65   63.69   -3.03 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_49817_/Z   60.73   63.76   -3.03 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36801_/ZN   25.33   28.35   -3.02 (VIOLATED)
+
+csr_regfile_i/_10280_/Z                60.65   63.66   -3.00 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15350_/ZN   22.16   25.17   -3.00 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3720_/ZN   60.58   63.58   -3.00 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33665_/Z   60.50   63.47   -2.97 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16174_/Z   60.65   63.62   -2.97 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[88]$_DFF_PN0_/Q   60.58   63.54   -2.96 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/store_buffer_i/_09923_/ZN   26.70   29.66   -2.96 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30442_/Z   60.65   63.59   -2.93 (VIOLATED)
+
+csr_regfile_i/_14499_/ZN               25.33   28.26   -2.93 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18755_/ZN   28.99   31.92   -2.93 (VIOLATED)
+
+csr_regfile_i/_10474_/ZN               50.66   53.58   -2.92 (VIOLATED)
+
+input189/Z                             60.65   63.58   -2.92 (VIOLATED)
+
+_5237_/ZN                              23.23   26.15   -2.91 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21321_/ZN   23.23   26.15   -2.91 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32491_/Z   60.50   63.41   -2.91 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30134_/Z   60.65   63.56   -2.91 (VIOLATED)
+
+i_frontend/i_btb/_21802_/ZN            13.81   16.71   -2.90 (VIOLATED)
+
+id_stage_i.issue_entry_o[232]$_DFFE_PN0P_/Q   60.58   63.47   -2.89 (VIOLATED)
+
+_5849_/Z                               60.50   63.38   -2.88 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3491_/ZN   25.33   28.19   -2.86 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_06547_/Z   60.65   63.49   -2.84 (VIOLATED)
+
+_5847_/Z                               60.50   63.32   -2.82 (VIOLATED)
+
+i_perf_counters/_06449_/ZN             22.16   24.96   -2.79 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_41985_/Z   60.65   63.44   -2.79 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44013_/ZN   16.02   18.81   -2.78 (VIOLATED)
+
+csr_regfile_i/_09013_/ZN               13.81   16.59   -2.78 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57270_/Z   60.65   63.44   -2.78 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[102]$_DFF_PN0_/Q   60.58   63.34   -2.77 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32592_/Z   60.65   63.42   -2.76 (VIOLATED)
+
+csr_regfile_i/_08196_/ZN               26.70   29.45   -2.74 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_5524_/ZN   26.70   29.45   -2.74 (VIOLATED)
+
+id_stage_i.issue_entry_o[226]$_DFFE_PN0P_/Q   60.58   63.32   -2.74 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14379_/Z   60.65   63.39   -2.73 (VIOLATED)
+
+ex_stage_i/lsu_i/_4000_/ZN             25.33   28.05   -2.72 (VIOLATED)
+
+i_perf_counters/_06422_/ZN             22.16   24.89   -2.72 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_29762_/Z   60.65   63.37   -2.71 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21836_/ZN   16.02   18.73   -2.71 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14638_/Z   60.65   63.36   -2.70 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6327_/ZN   26.05   28.75   -2.70 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33055_/Z   60.50   63.20   -2.70 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16249_/ZN   13.81   16.50   -2.69 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[56]$_DFF_PN0_/Q   60.58   63.26   -2.68 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34265_/Z   60.65   63.34   -2.68 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6615_/ZN   26.05   28.73   -2.68 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14290_/Z   60.65   63.33   -2.68 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/_3874_/ZN   10.47   13.14   -2.67 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3691_/ZN   60.58   63.24   -2.66 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32290_/Z   60.50   63.12   -2.62 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[127]$_DFF_PN0_/Q   60.58   63.20   -2.62 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/store_buffer_i/_08749_/ZN   26.70   29.31   -2.61 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_30426_/Z   60.65   63.27   -2.61 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37030_/ZN   25.33   27.93   -2.60 (VIOLATED)
+
+i_frontend/i_btb/_25308_/ZN            22.16   24.76   -2.60 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20066_/ZN   25.33   27.93   -2.60 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/sram_block_0__data_sram/genblk1_0__i_ram/_1_/ZN   60.73   63.32   -2.59 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2006_/ZN       22.16   24.76   -2.59 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_50583_/Z   60.65   63.24   -2.59 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3505_/ZN   25.33   27.91   -2.58 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_51618_/Z   60.65   63.23   -2.58 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32472_/Z   60.50   63.08   -2.58 (VIOLATED)
+
+csr_regfile_i/_10610_/ZN               13.01   15.58   -2.57 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_3109_/ZN   20.90   23.47   -2.56 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_40386_/ZN   26.70   29.27   -2.56 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3682_/ZN   60.58   63.14   -2.56 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16168_/Z   60.73   63.28   -2.55 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[58]$_DFF_PN0_/Q   60.58   63.13   -2.55 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/_3092_/ZN   22.16   24.71   -2.55 (VIOLATED)
+
+csr_regfile_i/_14526_/ZN               26.70   29.24   -2.54 (VIOLATED)
+
+id_stage_i.issue_entry_o[227]$_DFFE_PN0P_/Q   60.58   63.11   -2.54 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3684_/ZN   60.58   63.10   -2.53 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_14807_/ZN   24.60   27.12   -2.51 (VIOLATED)
+
+csr_regfile_i/_10267_/ZN               13.81   16.32   -2.51 (VIOLATED)
+
+csr_regfile_i/_10424_/Z                60.65   63.16   -2.50 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20350_/ZN   13.81   16.30   -2.49 (VIOLATED)
+
+i_perf_counters/_11584_/ZN             10.47   12.96   -2.49 (VIOLATED)
+
+i_frontend/i_btb/_19473_/Z             60.65   63.14   -2.49 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_42900_/Z   60.65   63.14   -2.48 (VIOLATED)
+
+csr_regfile_i/_09081_/ZN               13.81   16.24   -2.43 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14421_/ZN   26.70   29.12   -2.42 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[129]$_DFF_PN0_/Q   60.58   62.99   -2.42 (VIOLATED)
+
+i_cache_subsystem/_0848_/Z             60.50   62.91   -2.41 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2123_/ZN       23.23   25.64   -2.41 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14644_/Z   60.73   63.13   -2.40 (VIOLATED)
+
+input102/Z                             60.65   63.05   -2.40 (VIOLATED)
+
+i_frontend/i_btb/_21654_/ZN            13.81   16.18   -2.37 (VIOLATED)
+
+i_frontend/i_btb/_20572_/ZN            26.70   29.07   -2.36 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_10921_/ZN   23.23   25.54   -2.31 (VIOLATED)
+
+id_stage_i.issue_entry_o[214]$_DFFE_PN0P_/Q   60.58   62.87   -2.29 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15944_/ZN   59.36   61.65   -2.29 (VIOLATED)
+
+csr_regfile_i/_09006_/ZN               13.81   16.08   -2.27 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2160_/ZN       23.23   25.49   -2.26 (VIOLATED)
+
+id_stage_i.issue_entry_o[198]$_DFFE_PN0P_/Q   60.58   62.84   -2.26 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_38889_/Z   60.65   62.89   -2.24 (VIOLATED)
+
+ex_stage_i/i_mult/_6041_/ZN            31.74   33.97   -2.23 (VIOLATED)
+
+_5282_/ZN                              23.23   25.46   -2.23 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57383_/Z   60.65   62.87   -2.22 (VIOLATED)
+
+csr_regfile_i/_09625_/ZN               13.81   16.03   -2.22 (VIOLATED)
+
+i_perf_counters/_09858_/ZN             20.90   23.11   -2.21 (VIOLATED)
+
+ex_stage_i/_08719_/ZN                  10.47   12.67   -2.20 (VIOLATED)
+
+_5840_/Z                               60.50   62.69   -2.19 (VIOLATED)
+
+csr_regfile_i/_09020_/ZN               13.81   16.00   -2.19 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34779_/Z   60.65   62.84   -2.19 (VIOLATED)
+
+ex_stage_i/_07417_/ZN                  26.70   28.89   -2.18 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[36]$_DFF_PN0_/Q   60.58   62.76   -2.18 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16970_/ZN   13.81   15.98   -2.17 (VIOLATED)
+
+ex_stage_i/i_mult/_6894_/ZN            13.81   15.98   -2.17 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15510_/ZN   24.60   26.74   -2.14 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_52567_/ZN   26.70   28.81   -2.11 (VIOLATED)
+
+ex_stage_i/_10167_/ZN                  23.23   25.34   -2.11 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3696_/ZN   60.58   62.69   -2.11 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6443_/ZN   26.05   28.16   -2.11 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3652_/ZN   60.58   62.68   -2.10 (VIOLATED)
+
+csr_regfile_i/_08568_/ZN               13.81   15.91   -2.10 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18135_/ZN   22.16   24.26   -2.09 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15741_/Z   60.65   62.74   -2.09 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34541_/Z   60.73   62.81   -2.08 (VIOLATED)
+
+i_frontend/i_btb/_20897_/ZN            26.70   28.77   -2.07 (VIOLATED)
+
+_5741_/Z                               60.50   62.56   -2.06 (VIOLATED)
+
+csr_regfile_i/_07961_/ZN               25.33   27.38   -2.05 (VIOLATED)
+
+ex_stage_i/_10506_/ZN                  23.23   25.28   -2.05 (VIOLATED)
+
+i_frontend/i_btb/_20255_/ZN            26.70   28.74   -2.04 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_itlb/_06553_/Z   60.65   62.67   -2.02 (VIOLATED)
+
+i_frontend/_09777_/ZN                  26.70   28.72   -2.02 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[121]$_DFF_PN0_/Q   60.58   62.58   -2.00 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20072_/ZN   25.33   27.32   -1.99 (VIOLATED)
+
+ex_stage_i/_09947_/ZN                  23.23   25.21   -1.98 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15351_/ZN   26.70   28.66   -1.96 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_48833_/Z   60.65   62.62   -1.96 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57110_/Z   60.65   62.60   -1.95 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21294_/ZN   13.81   15.76   -1.95 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_20413_/Z   60.65   62.60   -1.94 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37565_/Z   60.50   62.44   -1.93 (VIOLATED)
+
+i_frontend/i_fetch_fifo/i_fifo_v3/_7523_/ZN   22.16   24.09   -1.92 (VIOLATED)
+
+ex_stage_i/_09968_/ZN                  23.23   25.14   -1.91 (VIOLATED)
+
+id_stage_i.issue_entry_o[225]$_DFFE_PN0P_/Q   60.58   62.48   -1.90 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1909_/ZN       59.36   61.22   -1.86 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22591_/ZN   22.16   24.03   -1.86 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_17755_/Z   60.65   62.51   -1.86 (VIOLATED)
+
+i_frontend/i_btb/_21731_/ZN            13.81   15.66   -1.85 (VIOLATED)
+
+ex_stage_i/_08302_/Z                   25.33   27.17   -1.84 (VIOLATED)
+
+csr_regfile_i/_08729_/ZN               13.81   15.63   -1.82 (VIOLATED)
+
+input34/Z                              60.65   62.47   -1.81 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_ptw.itlb_update_o[63]$_DFF_PN0_/Q   60.58   62.39   -1.81 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_35037_/Z   60.73   62.53   -1.80 (VIOLATED)
+
+csr_regfile_i/_14528_/ZN               16.02   17.81   -1.79 (VIOLATED)
+
+i_frontend/i_btb/_15556_/Z             60.65   62.44   -1.79 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33622_/Z   60.65   62.44   -1.79 (VIOLATED)
+
+csr_regfile_i/_08800_/ZN               13.81   15.59   -1.78 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3634_/ZN   60.58   62.35   -1.77 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_34890_/Z   60.73   62.49   -1.76 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37396_/Z   60.65   62.41   -1.76 (VIOLATED)
+
+_5473_/ZN                              26.70   28.46   -1.75 (VIOLATED)
+
+ex_stage_i/_10475_/ZN                  23.23   24.98   -1.75 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20097_/ZN   25.33   27.07   -1.74 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_14474_/Z   60.73   62.45   -1.72 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_19724_/ZN   56.00   57.72   -1.72 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6557_/ZN   52.11   53.82   -1.72 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_20196_/Z   60.65   62.35   -1.70 (VIOLATED)
+
+ex_stage_i/_07920_/Z                   25.33   27.02   -1.70 (VIOLATED)
+
+_4198_/ZN                              22.16   23.85   -1.68 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/sram_block_1__data_sram/genblk1_1__i_ram/_2_/ZN   60.73   62.41   -1.68 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_29964_/ZN   22.16   23.83   -1.67 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/store_buffer_i/_09733_/ZN   26.70   28.35   -1.65 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57095_/ZN   23.23   24.88   -1.65 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/i_amo_buffer.i_amo_fifo.i_fifo_v3.data_o[129]$_DFFE_PN0P_/Q   60.58   62.22   -1.65 (VIOLATED)
+
+i_perf_counters/_06994_/ZN             22.16   23.81   -1.65 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3658_/ZN   60.58   62.21   -1.63 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3816_/ZN   24.60   26.23   -1.63 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[152]$_DFFE_PN0P_/Q   60.58   62.19   -1.61 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[22]$_DFF_PN0_/Q   60.58   62.18   -1.60 (VIOLATED)
+
+input97/Z                              60.65   62.24   -1.59 (VIOLATED)
+
+i_frontend/i_fetch_fifo/i_fifo_v3/_8684_/ZN   22.16   23.75   -1.58 (VIOLATED)
+
+i_cache_subsystem/i_icache/_4154_/ZN   59.36   60.93   -1.58 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32451_/Z   60.50   62.07   -1.57 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_06986_/Z   60.65   62.22   -1.57 (VIOLATED)
+
+csr_regfile_i/_09286_/ZN               13.81   15.37   -1.56 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3865_/ZN   24.60   26.16   -1.55 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15195_/Z   60.65   62.20   -1.54 (VIOLATED)
+
+i_cache_subsystem/i_icache/dreq_o[147]$_DFFE_PN0P_/Q   60.58   62.10   -1.52 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6300_/ZN   26.05   27.57   -1.51 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37134_/ZN   25.33   26.84   -1.51 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33745_/Z   60.50   62.00   -1.50 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22540_/ZN   22.16   23.66   -1.50 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16806_/ZN   26.70   28.20   -1.49 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16156_/ZN   26.70   28.19   -1.49 (VIOLATED)
+
+i_frontend/i_btb/_20153_/ZN            41.50   42.99   -1.49 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16480_/ZN   26.70   28.19   -1.48 (VIOLATED)
+
+csr_regfile_i/_10289_/ZN               53.41   54.87   -1.47 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32692_/Z   60.73   62.19   -1.46 (VIOLATED)
+
+csr_regfile_i/_08505_/ZN               24.60   26.06   -1.46 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13421_/Z   60.73   62.18   -1.45 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15135_/ZN   22.16   23.61   -1.44 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32136_/Z   60.50   61.94   -1.44 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16431_/ZN   24.60   26.04   -1.44 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_13374_/Z   60.73   62.17   -1.44 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16554_/ZN   26.05   27.47   -1.42 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2193_/ZN       26.05   27.47   -1.42 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_44808_/Z   60.65   62.06   -1.40 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16440_/Z   60.73   62.11   -1.38 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[43]$_DFF_PN0_/Q   60.58   61.95   -1.37 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_16449_/ZN   24.60   25.98   -1.37 (VIOLATED)
+
+csr_regfile_i/_10451_/ZN               26.05   27.43   -1.37 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21293_/ZN   10.47   11.84   -1.37 (VIOLATED)
+
+csr_regfile_i/_08669_/ZN               25.33   26.69   -1.36 (VIOLATED)
+
+_4510_/ZN                              25.33   26.69   -1.36 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_52214_/ZN   26.70   28.06   -1.36 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3665_/ZN   60.58   61.92   -1.34 (VIOLATED)
+
+i_frontend/i_btb/_16193_/Z             60.65   62.00   -1.34 (VIOLATED)
+
+ex_stage_i/_06322_/ZN                  16.02   17.36   -1.34 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_32515_/Z   60.65   61.98   -1.33 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/fu_data_o[89]$_DFF_PN0_/Q   60.58   61.91   -1.33 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3616_/ZN   60.58   61.90   -1.33 (VIOLATED)
+
+i_frontend/i_btb/_22857_/ZN            13.81   15.13   -1.32 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_15682_/ZN   24.60   25.92   -1.31 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_33409_/Z   60.50   61.81   -1.31 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_14663_/ZN   26.70   28.00   -1.30 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22075_/ZN   16.02   17.31   -1.29 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/_3415_/ZN   10.47   11.76   -1.29 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6562_/ZN   52.11   53.40   -1.29 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_20747_/ZN   11.48   12.77   -1.29 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_dtlb/_08507_/Z   60.65   61.94   -1.29 (VIOLATED)
+
+csr_regfile_i/_09101_/ZN               13.81   15.07   -1.26 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3191_/ZN   16.02   17.26   -1.24 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_57389_/Z   60.73   61.97   -1.24 (VIOLATED)
+
+csr_regfile_i/_09326_/ZN               13.81   15.04   -1.24 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_31924_/Z   60.65   61.89   -1.24 (VIOLATED)
+
+csr_regfile_i/_08105_/ZN               22.16   23.40   -1.23 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36719_/ZN   25.33   26.56   -1.23 (VIOLATED)
+
+i_perf_counters/_10435_/ZN             26.70   27.93   -1.23 (VIOLATED)
+
+i_cache_subsystem/i_icache/_2922_/ZN   11.48   12.71   -1.23 (VIOLATED)
+
+csr_regfile_i/_10245_/ZN               25.33   26.56   -1.23 (VIOLATED)
+
+csr_regfile_i/_08363_/ZN               13.81   15.04   -1.23 (VIOLATED)
+
+csr_regfile_i/_09459_/ZN               13.81   15.04   -1.23 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36819_/ZN   25.33   26.55   -1.22 (VIOLATED)
+
+ex_stage_i/_08466_/ZN                  22.16   23.38   -1.21 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16426_/ZN   20.07   21.28   -1.21 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3685_/ZN   60.58   61.79   -1.21 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_50384_/ZN   31.74   32.94   -1.21 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_5278_/ZN   26.70   27.90   -1.19 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_55812_/Z   60.65   61.84   -1.19 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_37370_/ZN   25.33   26.52   -1.19 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1956_/Z        60.65   61.84   -1.19 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_15079_/ZN   26.70   27.88   -1.18 (VIOLATED)
+
+ex_stage_i/i_mult/i_multiplier/_29914_/ZN   22.16   23.34   -1.18 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_18026_/Z   60.65   61.83   -1.17 (VIOLATED)
+
+csr_regfile_i/_09252_/ZN               13.81   14.98   -1.17 (VIOLATED)
+
+i_frontend/i_btb/_20273_/ZN            10.47   11.62   -1.15 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_35715_/Z   60.65   61.80   -1.15 (VIOLATED)
+
+i_frontend/i_btb/_20860_/ZN            13.81   14.95   -1.14 (VIOLATED)
+
+csr_regfile_i/_10558_/ZN               26.70   27.83   -1.13 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/store_buffer_i/_07568_/Z   60.65   61.78   -1.13 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6317_/ZN   52.11   53.23   -1.12 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_2069_/ZN       22.16   23.28   -1.12 (VIOLATED)
+
+i_perf_counters/_11526_/ZN             16.02   17.14   -1.11 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_55721_/ZN   20.90   22.02   -1.11 (VIOLATED)
+
+ex_stage_i/_08073_/ZN                  26.02   27.12   -1.10 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_21939_/ZN   11.48   12.58   -1.10 (VIOLATED)
+
+ex_stage_i/lsu_i/i_store_unit/store_buffer_i/_09145_/ZN   26.70   27.80   -1.10 (VIOLATED)
+
+issue_stage_i/i_issue_read_operands/i_ariane_regfile/_16026_/ZN   26.05   27.15   -1.09 (VIOLATED)
+
+ex_stage_i/_08329_/ZN                  13.01   14.09   -1.08 (VIOLATED)
+
+i_perf_counters/_07263_/ZN             25.33   26.41   -1.08 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/i_itlb/_08451_/Z   60.65   61.73   -1.08 (VIOLATED)
+
+ex_stage_i/lsu_i/i_mmu/_1715_/Z        60.50   61.57   -1.07 (VIOLATED)
+
+issue_stage_i/i_scoreboard/_36950_/ZN   25.33   26.39   -1.06 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_22124_/ZN   26.70   27.76   -1.06 (VIOLATED)
+
+i_cache_subsystem/i_icache/_3935_/ZN   24.60   25.66   -1.06 (VIOLATED)
+
+i_frontend/i_fetch_fifo/i_fifo_v3/_8706_/ZN   22.16   23.20   -1.03 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/_6262_/ZN   26.70   27.73   -1.03 (VIOLATED)
+
+i_cache_subsystem/i_nbdcache/i_miss_handler/_19715_/ZN   25.33   26.35   -1.02 (VIOLATED)
+
+ex_stage_i/_05689_/ZN                  60.73   61.74   -1.01 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-0.10447634756565094
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.5262
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-45.25905227661133
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+60.65370559692383
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-0.7462
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 25
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 958
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 4666
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+[WARNING STA-0503] report_checks -group_count is deprecated. Use -group_path_count instead.
+Startpoint: issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: issue_stage_i/i_scoreboard/mem_q[1287]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.49    0.49   clock network delay (propagated)
+   0.00    0.49 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/CK (DFFR_X1)
+   0.12    0.61 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/Q (DFFR_X1)
+   0.10    0.71 ^ issue_stage_i/i_scoreboard/_30412_/Z (BUF_X1)
+   0.07    0.78 ^ issue_stage_i/i_scoreboard/_30423_/ZN (AND2_X1)
+   0.08    0.85 ^ issue_stage_i/i_scoreboard/_30424_/Z (BUF_X1)
+   0.12    0.97 ^ issue_stage_i/i_scoreboard/_30668_/Z (BUF_X1)
+   0.19    1.16 ^ issue_stage_i/i_scoreboard/_31856_/Z (BUF_X1)
+   0.10    1.26 ^ issue_stage_i/i_scoreboard/_33204_/Z (BUF_X1)
+   0.02    1.28 v issue_stage_i/i_scoreboard/_33281_/ZN (NAND2_X1)
+   0.03    1.31 ^ issue_stage_i/i_scoreboard/_33283_/ZN (AOI21_X1)
+   0.02    1.32 v issue_stage_i/i_scoreboard/_33284_/ZN (AOI21_X1)
+   0.03    1.36 ^ issue_stage_i/i_scoreboard/_33285_/ZN (OAI21_X1)
+   0.04    1.40 ^ issue_stage_i/i_scoreboard/_33286_/Z (MUX2_X1)
+   0.04    1.43 ^ issue_stage_i/i_scoreboard/_33287_/Z (MUX2_X1)
+   0.04    1.47 ^ issue_stage_i/i_scoreboard/_33288_/Z (MUX2_X1)
+   0.17    1.64 ^ issue_stage_i/i_scoreboard/_33289_/Z (MUX2_X1)
+   0.13    1.77 ^ max_cap2273/Z (CLKBUF_X3)
+   0.03    1.79 v _2982_/ZN (INV_X1)
+   0.03    1.83 ^ _2985_/ZN (AOI21_X1)
+   0.05    1.87 v _2986_/ZN (AOI21_X1)
+   0.07    1.95 ^ _2992_/ZN (NOR2_X1)
+   0.01    1.96 v _2993_/ZN (INV_X1)
+   0.07    2.03 ^ _2994_/ZN (AOI21_X1)
+   0.04    2.07 v _5195_/ZN (NAND2_X1)
+   0.03    2.10 ^ _5196_/ZN (INV_X1)
+   0.08    2.18 ^ _5197_/Z (BUF_X1)
+   0.14    2.32 ^ _5198_/Z (BUF_X1)
+   0.06    2.38 ^ _5207_/ZN (AND2_X1)
+   0.02    2.40 v csr_regfile_i/_07669_/ZN (NOR4_X2)
+   0.04    2.44 v csr_regfile_i/_07670_/ZN (AND2_X2)
+   0.08    2.52 ^ csr_regfile_i/_09771_/ZN (AOI21_X1)
+   0.07    2.59 ^ csr_regfile_i/wire2006/Z (CLKBUF_X3)
+   0.04    2.62 v csr_regfile_i/_09772_/ZN (NOR2_X2)
+   0.06    2.68 v csr_regfile_i/_09778_/ZN (AND4_X1)
+   0.05    2.73 ^ csr_regfile_i/_09787_/ZN (AOI211_X2)
+   0.07    2.80 v csr_regfile_i/_09795_/ZN (OAI22_X1)
+   0.15    2.95 ^ csr_regfile_i/_09810_/ZN (NOR2_X1)
+   0.03    2.98 v _3016_/ZN (NAND2_X1)
+   0.06    3.04 v _3017_/ZN (OR2_X1)
+   0.08    3.12 ^ _3018_/ZN (OAI21_X1)
+   0.11    3.23 ^ _3019_/ZN (AND2_X1)
+   0.08    3.31 ^ max_cap1608/Z (CLKBUF_X3)
+   0.10    3.41 ^ csr_regfile_i/_08050_/Z (BUF_X2)
+   0.18    3.59 ^ csr_regfile_i/_08051_/Z (BUF_X1)
+   0.07    3.65 v csr_regfile_i/_10753_/ZN (NOR4_X1)
+   0.04    3.69 ^ csr_regfile_i/_10754_/ZN (NAND3_X1)
+   0.05    3.74 ^ csr_regfile_i/_10984_/ZN (OR2_X1)
+   0.04    3.79 ^ csr_regfile_i/_10985_/Z (BUF_X1)
+   0.08    3.87 ^ csr_regfile_i/_10986_/Z (BUF_X1)
+   0.15    4.02 v csr_regfile_i/_10992_/ZN (NAND2_X1)
+   0.08    4.10 ^ _3030_/ZN (NOR3_X1)
+   0.13    4.22 v _3031_/ZN (NAND2_X1)
+   0.10    4.32 v max_cap546/Z (CLKBUF_X3)
+   0.10    4.42 v wire545/Z (CLKBUF_X3)
+   0.10    4.52 v ex_stage_i/i_mult/_4586_/Z (BUF_X1)
+   0.04    4.56 ^ ex_stage_i/i_mult/_7871_/ZN (OAI21_X1)
+   0.10    4.66 ^ ex_stage_i/_05958_/Z (BUF_X1)
+   0.03    4.69 v ex_stage_i/_06628_/ZN (INV_X1)
+   0.11    4.81 ^ ex_stage_i/_06629_/ZN (NOR2_X1)
+   0.08    4.89 ^ ex_stage_i/_06979_/Z (BUF_X1)
+   0.09    4.98 ^ ex_stage_i/_06980_/Z (BUF_X1)
+   0.10    5.07 ^ ex_stage_i/_06981_/Z (BUF_X1)
+   0.10    5.17 v ex_stage_i/_08942_/Z (MUX2_X1)
+   0.06    5.23 v issue_stage_i/i_scoreboard/_38947_/Z (BUF_X2)
+   0.06    5.29 ^ issue_stage_i/i_scoreboard/_38958_/ZN (INV_X1)
+   0.10    5.39 ^ issue_stage_i/i_scoreboard/_38959_/Z (BUF_X1)
+   0.02    5.42 v issue_stage_i/i_scoreboard/_55518_/ZN (NOR4_X1)
+   0.16    5.58 ^ issue_stage_i/i_scoreboard/_55523_/ZN (NOR4_X1)
+   0.07    5.64 v issue_stage_i/i_scoreboard/_55524_/Z (MUX2_X1)
+   0.07    5.71 ^ issue_stage_i/i_scoreboard/_55541_/ZN (NOR4_X1)
+   0.06    5.77 v issue_stage_i/i_scoreboard/_55583_/ZN (NAND4_X1)
+   0.07    5.84 v issue_stage_i/i_scoreboard/_57067_/ZN (AND2_X1)
+   0.05    5.89 ^ issue_stage_i/i_scoreboard/_57232_/ZN (AOI21_X1)
+   0.03    5.92 v issue_stage_i/i_scoreboard/_57233_/ZN (NOR2_X2)
+   0.05    5.97 v issue_stage_i/i_scoreboard/_57247_/Z (BUF_X2)
+   0.09    6.06 ^ issue_stage_i/i_scoreboard/_58381_/ZN (OAI21_X1)
+   0.05    6.12 v issue_stage_i/i_scoreboard/_58382_/ZN (AOI22_X1)
+   0.06    6.18 v issue_stage_i/i_issue_read_operands/wire533/Z (CLKBUF_X3)
+   0.16    6.33 ^ issue_stage_i/i_issue_read_operands/_4607_/ZN (AOI21_X1)
+   0.06    6.40 ^ issue_stage_i/i_issue_read_operands/_4622_/ZN (OR4_X4)
+   0.04    6.44 ^ issue_stage_i/i_issue_read_operands/_4623_/Z (BUF_X16)
+   0.03    6.47 v issue_stage_i/i_issue_read_operands/_4624_/ZN (AOI21_X4)
+   0.03    6.50 v issue_stage_i/i_scoreboard/_29128_/Z (BUF_X4)
+   0.04    6.54 v issue_stage_i/i_scoreboard/_29170_/ZN (AND2_X1)
+   0.05    6.59 ^ issue_stage_i/i_scoreboard/_29171_/ZN (NAND4_X2)
+   0.15    6.73 ^ issue_stage_i/i_scoreboard/_29495_/Z (BUF_X1)
+   0.10    6.83 ^ issue_stage_i/i_scoreboard/max_cap531/Z (CLKBUF_X3)
+   0.23    7.07 ^ issue_stage_i/i_scoreboard/_29496_/Z (BUF_X1)
+   0.21    7.27 ^ issue_stage_i/i_scoreboard/_29497_/Z (BUF_X1)
+   0.09    7.36 ^ issue_stage_i/i_scoreboard/_29498_/Z (BUF_X1)
+   0.09    7.46 ^ issue_stage_i/i_scoreboard/wire521/Z (CLKBUF_X3)
+   0.12    7.57 ^ issue_stage_i/i_scoreboard/_29499_/Z (BUF_X1)
+   0.09    7.66 ^ issue_stage_i/i_scoreboard/max_cap515/Z (CLKBUF_X3)
+   0.13    7.79 ^ issue_stage_i/i_scoreboard/_29500_/Z (BUF_X1)
+   0.10    7.89 ^ issue_stage_i/i_scoreboard/max_cap500/Z (CLKBUF_X3)
+   0.09    7.98 v issue_stage_i/i_scoreboard/_29511_/Z (MUX2_X1)
+   0.00    7.98 v issue_stage_i/i_scoreboard/mem_q[1287]$_DFFE_PN0P_/D (DFFR_X1)
+           7.98   data arrival time
+
+   4.00    4.00   clock core_clock (rise edge)
+   0.49    4.49   clock network delay (propagated)
+   0.00    4.49   clock reconvergence pessimism
+           4.49 ^ issue_stage_i/i_scoreboard/mem_q[1287]$_DFFE_PN0P_/CK (DFFR_X1)
+  -0.03    4.46   library setup time
+           4.46   data required time
+---------------------------------------------------------
+           4.46   data required time
+          -7.98   data arrival time
+---------------------------------------------------------
+          -3.52   slack (VIOLATED)
+
+
+Startpoint: issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: issue_stage_i/i_scoreboard/mem_q[1288]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.49    0.49   clock network delay (propagated)
+   0.00    0.49 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/CK (DFFR_X1)
+   0.12    0.61 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/Q (DFFR_X1)
+   0.10    0.71 ^ issue_stage_i/i_scoreboard/_30412_/Z (BUF_X1)
+   0.07    0.78 ^ issue_stage_i/i_scoreboard/_30423_/ZN (AND2_X1)
+   0.08    0.85 ^ issue_stage_i/i_scoreboard/_30424_/Z (BUF_X1)
+   0.12    0.97 ^ issue_stage_i/i_scoreboard/_30668_/Z (BUF_X1)
+   0.19    1.16 ^ issue_stage_i/i_scoreboard/_31856_/Z (BUF_X1)
+   0.10    1.26 ^ issue_stage_i/i_scoreboard/_33204_/Z (BUF_X1)
+   0.02    1.28 v issue_stage_i/i_scoreboard/_33281_/ZN (NAND2_X1)
+   0.03    1.31 ^ issue_stage_i/i_scoreboard/_33283_/ZN (AOI21_X1)
+   0.02    1.32 v issue_stage_i/i_scoreboard/_33284_/ZN (AOI21_X1)
+   0.03    1.36 ^ issue_stage_i/i_scoreboard/_33285_/ZN (OAI21_X1)
+   0.04    1.40 ^ issue_stage_i/i_scoreboard/_33286_/Z (MUX2_X1)
+   0.04    1.43 ^ issue_stage_i/i_scoreboard/_33287_/Z (MUX2_X1)
+   0.04    1.47 ^ issue_stage_i/i_scoreboard/_33288_/Z (MUX2_X1)
+   0.17    1.64 ^ issue_stage_i/i_scoreboard/_33289_/Z (MUX2_X1)
+   0.13    1.77 ^ max_cap2273/Z (CLKBUF_X3)
+   0.03    1.79 v _2982_/ZN (INV_X1)
+   0.03    1.83 ^ _2985_/ZN (AOI21_X1)
+   0.05    1.87 v _2986_/ZN (AOI21_X1)
+   0.07    1.95 ^ _2992_/ZN (NOR2_X1)
+   0.01    1.96 v _2993_/ZN (INV_X1)
+   0.07    2.03 ^ _2994_/ZN (AOI21_X1)
+   0.04    2.07 v _5195_/ZN (NAND2_X1)
+   0.03    2.10 ^ _5196_/ZN (INV_X1)
+   0.08    2.18 ^ _5197_/Z (BUF_X1)
+   0.14    2.32 ^ _5198_/Z (BUF_X1)
+   0.06    2.38 ^ _5207_/ZN (AND2_X1)
+   0.02    2.40 v csr_regfile_i/_07669_/ZN (NOR4_X2)
+   0.04    2.44 v csr_regfile_i/_07670_/ZN (AND2_X2)
+   0.08    2.52 ^ csr_regfile_i/_09771_/ZN (AOI21_X1)
+   0.07    2.59 ^ csr_regfile_i/wire2006/Z (CLKBUF_X3)
+   0.04    2.62 v csr_regfile_i/_09772_/ZN (NOR2_X2)
+   0.06    2.68 v csr_regfile_i/_09778_/ZN (AND4_X1)
+   0.05    2.73 ^ csr_regfile_i/_09787_/ZN (AOI211_X2)
+   0.07    2.80 v csr_regfile_i/_09795_/ZN (OAI22_X1)
+   0.15    2.95 ^ csr_regfile_i/_09810_/ZN (NOR2_X1)
+   0.03    2.98 v _3016_/ZN (NAND2_X1)
+   0.06    3.04 v _3017_/ZN (OR2_X1)
+   0.08    3.12 ^ _3018_/ZN (OAI21_X1)
+   0.11    3.23 ^ _3019_/ZN (AND2_X1)
+   0.08    3.31 ^ max_cap1608/Z (CLKBUF_X3)
+   0.10    3.41 ^ csr_regfile_i/_08050_/Z (BUF_X2)
+   0.18    3.59 ^ csr_regfile_i/_08051_/Z (BUF_X1)
+   0.07    3.65 v csr_regfile_i/_10753_/ZN (NOR4_X1)
+   0.04    3.69 ^ csr_regfile_i/_10754_/ZN (NAND3_X1)
+   0.05    3.74 ^ csr_regfile_i/_10984_/ZN (OR2_X1)
+   0.04    3.79 ^ csr_regfile_i/_10985_/Z (BUF_X1)
+   0.08    3.87 ^ csr_regfile_i/_10986_/Z (BUF_X1)
+   0.15    4.02 v csr_regfile_i/_10992_/ZN (NAND2_X1)
+   0.08    4.10 ^ _3030_/ZN (NOR3_X1)
+   0.13    4.22 v _3031_/ZN (NAND2_X1)
+   0.10    4.32 v max_cap546/Z (CLKBUF_X3)
+   0.10    4.42 v wire545/Z (CLKBUF_X3)
+   0.10    4.52 v ex_stage_i/i_mult/_4586_/Z (BUF_X1)
+   0.04    4.56 ^ ex_stage_i/i_mult/_7871_/ZN (OAI21_X1)
+   0.10    4.66 ^ ex_stage_i/_05958_/Z (BUF_X1)
+   0.03    4.69 v ex_stage_i/_06628_/ZN (INV_X1)
+   0.11    4.81 ^ ex_stage_i/_06629_/ZN (NOR2_X1)
+   0.08    4.89 ^ ex_stage_i/_06979_/Z (BUF_X1)
+   0.09    4.98 ^ ex_stage_i/_06980_/Z (BUF_X1)
+   0.10    5.07 ^ ex_stage_i/_06981_/Z (BUF_X1)
+   0.10    5.17 v ex_stage_i/_08942_/Z (MUX2_X1)
+   0.06    5.23 v issue_stage_i/i_scoreboard/_38947_/Z (BUF_X2)
+   0.06    5.29 ^ issue_stage_i/i_scoreboard/_38958_/ZN (INV_X1)
+   0.10    5.39 ^ issue_stage_i/i_scoreboard/_38959_/Z (BUF_X1)
+   0.02    5.42 v issue_stage_i/i_scoreboard/_55518_/ZN (NOR4_X1)
+   0.16    5.58 ^ issue_stage_i/i_scoreboard/_55523_/ZN (NOR4_X1)
+   0.07    5.64 v issue_stage_i/i_scoreboard/_55524_/Z (MUX2_X1)
+   0.07    5.71 ^ issue_stage_i/i_scoreboard/_55541_/ZN (NOR4_X1)
+   0.06    5.77 v issue_stage_i/i_scoreboard/_55583_/ZN (NAND4_X1)
+   0.07    5.84 v issue_stage_i/i_scoreboard/_57067_/ZN (AND2_X1)
+   0.05    5.89 ^ issue_stage_i/i_scoreboard/_57232_/ZN (AOI21_X1)
+   0.03    5.92 v issue_stage_i/i_scoreboard/_57233_/ZN (NOR2_X2)
+   0.05    5.97 v issue_stage_i/i_scoreboard/_57247_/Z (BUF_X2)
+   0.09    6.06 ^ issue_stage_i/i_scoreboard/_58381_/ZN (OAI21_X1)
+   0.05    6.12 v issue_stage_i/i_scoreboard/_58382_/ZN (AOI22_X1)
+   0.06    6.18 v issue_stage_i/i_issue_read_operands/wire533/Z (CLKBUF_X3)
+   0.16    6.33 ^ issue_stage_i/i_issue_read_operands/_4607_/ZN (AOI21_X1)
+   0.06    6.40 ^ issue_stage_i/i_issue_read_operands/_4622_/ZN (OR4_X4)
+   0.04    6.44 ^ issue_stage_i/i_issue_read_operands/_4623_/Z (BUF_X16)
+   0.03    6.47 v issue_stage_i/i_issue_read_operands/_4624_/ZN (AOI21_X4)
+   0.03    6.50 v issue_stage_i/i_scoreboard/_29128_/Z (BUF_X4)
+   0.04    6.54 v issue_stage_i/i_scoreboard/_29170_/ZN (AND2_X1)
+   0.05    6.59 ^ issue_stage_i/i_scoreboard/_29171_/ZN (NAND4_X2)
+   0.15    6.73 ^ issue_stage_i/i_scoreboard/_29495_/Z (BUF_X1)
+   0.10    6.83 ^ issue_stage_i/i_scoreboard/max_cap531/Z (CLKBUF_X3)
+   0.23    7.07 ^ issue_stage_i/i_scoreboard/_29496_/Z (BUF_X1)
+   0.21    7.27 ^ issue_stage_i/i_scoreboard/_29497_/Z (BUF_X1)
+   0.09    7.36 ^ issue_stage_i/i_scoreboard/_29498_/Z (BUF_X1)
+   0.09    7.46 ^ issue_stage_i/i_scoreboard/wire521/Z (CLKBUF_X3)
+   0.12    7.57 ^ issue_stage_i/i_scoreboard/_29499_/Z (BUF_X1)
+   0.09    7.66 ^ issue_stage_i/i_scoreboard/max_cap515/Z (CLKBUF_X3)
+   0.13    7.79 ^ issue_stage_i/i_scoreboard/_29500_/Z (BUF_X1)
+   0.10    7.89 ^ issue_stage_i/i_scoreboard/max_cap500/Z (CLKBUF_X3)
+   0.08    7.98 v issue_stage_i/i_scoreboard/_29513_/Z (MUX2_X1)
+   0.00    7.98 v issue_stage_i/i_scoreboard/mem_q[1288]$_DFFE_PN0P_/D (DFFR_X1)
+           7.98   data arrival time
+
+   4.00    4.00   clock core_clock (rise edge)
+   0.49    4.49   clock network delay (propagated)
+   0.00    4.49   clock reconvergence pessimism
+           4.49 ^ issue_stage_i/i_scoreboard/mem_q[1288]$_DFFE_PN0P_/CK (DFFR_X1)
+  -0.03    4.46   library setup time
+           4.46   data required time
+---------------------------------------------------------
+           4.46   data required time
+          -7.98   data arrival time
+---------------------------------------------------------
+          -3.52   slack (VIOLATED)
+
+
+Startpoint: issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: issue_stage_i/i_scoreboard/mem_q[1289]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.49    0.49   clock network delay (propagated)
+   0.00    0.49 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/CK (DFFR_X1)
+   0.12    0.61 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/Q (DFFR_X1)
+   0.10    0.71 ^ issue_stage_i/i_scoreboard/_30412_/Z (BUF_X1)
+   0.07    0.78 ^ issue_stage_i/i_scoreboard/_30423_/ZN (AND2_X1)
+   0.08    0.85 ^ issue_stage_i/i_scoreboard/_30424_/Z (BUF_X1)
+   0.12    0.97 ^ issue_stage_i/i_scoreboard/_30668_/Z (BUF_X1)
+   0.19    1.16 ^ issue_stage_i/i_scoreboard/_31856_/Z (BUF_X1)
+   0.10    1.26 ^ issue_stage_i/i_scoreboard/_33204_/Z (BUF_X1)
+   0.02    1.28 v issue_stage_i/i_scoreboard/_33281_/ZN (NAND2_X1)
+   0.03    1.31 ^ issue_stage_i/i_scoreboard/_33283_/ZN (AOI21_X1)
+   0.02    1.32 v issue_stage_i/i_scoreboard/_33284_/ZN (AOI21_X1)
+   0.03    1.36 ^ issue_stage_i/i_scoreboard/_33285_/ZN (OAI21_X1)
+   0.04    1.40 ^ issue_stage_i/i_scoreboard/_33286_/Z (MUX2_X1)
+   0.04    1.43 ^ issue_stage_i/i_scoreboard/_33287_/Z (MUX2_X1)
+   0.04    1.47 ^ issue_stage_i/i_scoreboard/_33288_/Z (MUX2_X1)
+   0.17    1.64 ^ issue_stage_i/i_scoreboard/_33289_/Z (MUX2_X1)
+   0.13    1.77 ^ max_cap2273/Z (CLKBUF_X3)
+   0.03    1.79 v _2982_/ZN (INV_X1)
+   0.03    1.83 ^ _2985_/ZN (AOI21_X1)
+   0.05    1.87 v _2986_/ZN (AOI21_X1)
+   0.07    1.95 ^ _2992_/ZN (NOR2_X1)
+   0.01    1.96 v _2993_/ZN (INV_X1)
+   0.07    2.03 ^ _2994_/ZN (AOI21_X1)
+   0.04    2.07 v _5195_/ZN (NAND2_X1)
+   0.03    2.10 ^ _5196_/ZN (INV_X1)
+   0.08    2.18 ^ _5197_/Z (BUF_X1)
+   0.14    2.32 ^ _5198_/Z (BUF_X1)
+   0.06    2.38 ^ _5207_/ZN (AND2_X1)
+   0.02    2.40 v csr_regfile_i/_07669_/ZN (NOR4_X2)
+   0.04    2.44 v csr_regfile_i/_07670_/ZN (AND2_X2)
+   0.08    2.52 ^ csr_regfile_i/_09771_/ZN (AOI21_X1)
+   0.07    2.59 ^ csr_regfile_i/wire2006/Z (CLKBUF_X3)
+   0.04    2.62 v csr_regfile_i/_09772_/ZN (NOR2_X2)
+   0.06    2.68 v csr_regfile_i/_09778_/ZN (AND4_X1)
+   0.05    2.73 ^ csr_regfile_i/_09787_/ZN (AOI211_X2)
+   0.07    2.80 v csr_regfile_i/_09795_/ZN (OAI22_X1)
+   0.15    2.95 ^ csr_regfile_i/_09810_/ZN (NOR2_X1)
+   0.03    2.98 v _3016_/ZN (NAND2_X1)
+   0.06    3.04 v _3017_/ZN (OR2_X1)
+   0.08    3.12 ^ _3018_/ZN (OAI21_X1)
+   0.11    3.23 ^ _3019_/ZN (AND2_X1)
+   0.08    3.31 ^ max_cap1608/Z (CLKBUF_X3)
+   0.10    3.41 ^ csr_regfile_i/_08050_/Z (BUF_X2)
+   0.18    3.59 ^ csr_regfile_i/_08051_/Z (BUF_X1)
+   0.07    3.65 v csr_regfile_i/_10753_/ZN (NOR4_X1)
+   0.04    3.69 ^ csr_regfile_i/_10754_/ZN (NAND3_X1)
+   0.05    3.74 ^ csr_regfile_i/_10984_/ZN (OR2_X1)
+   0.04    3.79 ^ csr_regfile_i/_10985_/Z (BUF_X1)
+   0.08    3.87 ^ csr_regfile_i/_10986_/Z (BUF_X1)
+   0.15    4.02 v csr_regfile_i/_10992_/ZN (NAND2_X1)
+   0.08    4.10 ^ _3030_/ZN (NOR3_X1)
+   0.13    4.22 v _3031_/ZN (NAND2_X1)
+   0.10    4.32 v max_cap546/Z (CLKBUF_X3)
+   0.10    4.42 v wire545/Z (CLKBUF_X3)
+   0.10    4.52 v ex_stage_i/i_mult/_4586_/Z (BUF_X1)
+   0.04    4.56 ^ ex_stage_i/i_mult/_7871_/ZN (OAI21_X1)
+   0.10    4.66 ^ ex_stage_i/_05958_/Z (BUF_X1)
+   0.03    4.69 v ex_stage_i/_06628_/ZN (INV_X1)
+   0.11    4.81 ^ ex_stage_i/_06629_/ZN (NOR2_X1)
+   0.08    4.89 ^ ex_stage_i/_06979_/Z (BUF_X1)
+   0.09    4.98 ^ ex_stage_i/_06980_/Z (BUF_X1)
+   0.10    5.07 ^ ex_stage_i/_06981_/Z (BUF_X1)
+   0.10    5.17 v ex_stage_i/_08942_/Z (MUX2_X1)
+   0.06    5.23 v issue_stage_i/i_scoreboard/_38947_/Z (BUF_X2)
+   0.06    5.29 ^ issue_stage_i/i_scoreboard/_38958_/ZN (INV_X1)
+   0.10    5.39 ^ issue_stage_i/i_scoreboard/_38959_/Z (BUF_X1)
+   0.02    5.42 v issue_stage_i/i_scoreboard/_55518_/ZN (NOR4_X1)
+   0.16    5.58 ^ issue_stage_i/i_scoreboard/_55523_/ZN (NOR4_X1)
+   0.07    5.64 v issue_stage_i/i_scoreboard/_55524_/Z (MUX2_X1)
+   0.07    5.71 ^ issue_stage_i/i_scoreboard/_55541_/ZN (NOR4_X1)
+   0.06    5.77 v issue_stage_i/i_scoreboard/_55583_/ZN (NAND4_X1)
+   0.07    5.84 v issue_stage_i/i_scoreboard/_57067_/ZN (AND2_X1)
+   0.05    5.89 ^ issue_stage_i/i_scoreboard/_57232_/ZN (AOI21_X1)
+   0.03    5.92 v issue_stage_i/i_scoreboard/_57233_/ZN (NOR2_X2)
+   0.05    5.97 v issue_stage_i/i_scoreboard/_57247_/Z (BUF_X2)
+   0.09    6.06 ^ issue_stage_i/i_scoreboard/_58381_/ZN (OAI21_X1)
+   0.05    6.12 v issue_stage_i/i_scoreboard/_58382_/ZN (AOI22_X1)
+   0.06    6.18 v issue_stage_i/i_issue_read_operands/wire533/Z (CLKBUF_X3)
+   0.16    6.33 ^ issue_stage_i/i_issue_read_operands/_4607_/ZN (AOI21_X1)
+   0.06    6.40 ^ issue_stage_i/i_issue_read_operands/_4622_/ZN (OR4_X4)
+   0.04    6.44 ^ issue_stage_i/i_issue_read_operands/_4623_/Z (BUF_X16)
+   0.03    6.47 v issue_stage_i/i_issue_read_operands/_4624_/ZN (AOI21_X4)
+   0.03    6.50 v issue_stage_i/i_scoreboard/_29128_/Z (BUF_X4)
+   0.04    6.54 v issue_stage_i/i_scoreboard/_29170_/ZN (AND2_X1)
+   0.05    6.59 ^ issue_stage_i/i_scoreboard/_29171_/ZN (NAND4_X2)
+   0.15    6.73 ^ issue_stage_i/i_scoreboard/_29495_/Z (BUF_X1)
+   0.10    6.83 ^ issue_stage_i/i_scoreboard/max_cap531/Z (CLKBUF_X3)
+   0.23    7.07 ^ issue_stage_i/i_scoreboard/_29496_/Z (BUF_X1)
+   0.21    7.27 ^ issue_stage_i/i_scoreboard/_29497_/Z (BUF_X1)
+   0.09    7.36 ^ issue_stage_i/i_scoreboard/_29498_/Z (BUF_X1)
+   0.09    7.46 ^ issue_stage_i/i_scoreboard/wire521/Z (CLKBUF_X3)
+   0.12    7.57 ^ issue_stage_i/i_scoreboard/_29499_/Z (BUF_X1)
+   0.09    7.66 ^ issue_stage_i/i_scoreboard/max_cap515/Z (CLKBUF_X3)
+   0.13    7.79 ^ issue_stage_i/i_scoreboard/_29500_/Z (BUF_X1)
+   0.10    7.89 ^ issue_stage_i/i_scoreboard/max_cap500/Z (CLKBUF_X3)
+   0.08    7.97 v issue_stage_i/i_scoreboard/_29515_/Z (MUX2_X1)
+   0.00    7.97 v issue_stage_i/i_scoreboard/mem_q[1289]$_DFFE_PN0P_/D (DFFR_X1)
+           7.97   data arrival time
+
+   4.00    4.00   clock core_clock (rise edge)
+   0.49    4.49   clock network delay (propagated)
+   0.00    4.49   clock reconvergence pessimism
+           4.49 ^ issue_stage_i/i_scoreboard/mem_q[1289]$_DFFE_PN0P_/CK (DFFR_X1)
+  -0.03    4.46   library setup time
+           4.46   data required time
+---------------------------------------------------------
+           4.46   data required time
+          -7.97   data arrival time
+---------------------------------------------------------
+          -3.52   slack (VIOLATED)
+
+
+Startpoint: issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: issue_stage_i/i_scoreboard/mem_q[1092]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.49    0.49   clock network delay (propagated)
+   0.00    0.49 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/CK (DFFR_X1)
+   0.12    0.61 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/Q (DFFR_X1)
+   0.10    0.71 ^ issue_stage_i/i_scoreboard/_30412_/Z (BUF_X1)
+   0.07    0.78 ^ issue_stage_i/i_scoreboard/_30423_/ZN (AND2_X1)
+   0.08    0.85 ^ issue_stage_i/i_scoreboard/_30424_/Z (BUF_X1)
+   0.12    0.97 ^ issue_stage_i/i_scoreboard/_30668_/Z (BUF_X1)
+   0.19    1.16 ^ issue_stage_i/i_scoreboard/_31856_/Z (BUF_X1)
+   0.10    1.26 ^ issue_stage_i/i_scoreboard/_33204_/Z (BUF_X1)
+   0.02    1.28 v issue_stage_i/i_scoreboard/_33281_/ZN (NAND2_X1)
+   0.03    1.31 ^ issue_stage_i/i_scoreboard/_33283_/ZN (AOI21_X1)
+   0.02    1.32 v issue_stage_i/i_scoreboard/_33284_/ZN (AOI21_X1)
+   0.03    1.36 ^ issue_stage_i/i_scoreboard/_33285_/ZN (OAI21_X1)
+   0.04    1.40 ^ issue_stage_i/i_scoreboard/_33286_/Z (MUX2_X1)
+   0.04    1.43 ^ issue_stage_i/i_scoreboard/_33287_/Z (MUX2_X1)
+   0.04    1.47 ^ issue_stage_i/i_scoreboard/_33288_/Z (MUX2_X1)
+   0.17    1.64 ^ issue_stage_i/i_scoreboard/_33289_/Z (MUX2_X1)
+   0.13    1.77 ^ max_cap2273/Z (CLKBUF_X3)
+   0.03    1.79 v _2982_/ZN (INV_X1)
+   0.03    1.83 ^ _2985_/ZN (AOI21_X1)
+   0.05    1.87 v _2986_/ZN (AOI21_X1)
+   0.07    1.95 ^ _2992_/ZN (NOR2_X1)
+   0.01    1.96 v _2993_/ZN (INV_X1)
+   0.07    2.03 ^ _2994_/ZN (AOI21_X1)
+   0.04    2.07 v _5195_/ZN (NAND2_X1)
+   0.03    2.10 ^ _5196_/ZN (INV_X1)
+   0.08    2.18 ^ _5197_/Z (BUF_X1)
+   0.14    2.32 ^ _5198_/Z (BUF_X1)
+   0.06    2.38 ^ _5207_/ZN (AND2_X1)
+   0.02    2.40 v csr_regfile_i/_07669_/ZN (NOR4_X2)
+   0.04    2.44 v csr_regfile_i/_07670_/ZN (AND2_X2)
+   0.08    2.52 ^ csr_regfile_i/_09771_/ZN (AOI21_X1)
+   0.07    2.59 ^ csr_regfile_i/wire2006/Z (CLKBUF_X3)
+   0.04    2.62 v csr_regfile_i/_09772_/ZN (NOR2_X2)
+   0.06    2.68 v csr_regfile_i/_09778_/ZN (AND4_X1)
+   0.05    2.73 ^ csr_regfile_i/_09787_/ZN (AOI211_X2)
+   0.07    2.80 v csr_regfile_i/_09795_/ZN (OAI22_X1)
+   0.15    2.95 ^ csr_regfile_i/_09810_/ZN (NOR2_X1)
+   0.03    2.98 v _3016_/ZN (NAND2_X1)
+   0.06    3.04 v _3017_/ZN (OR2_X1)
+   0.08    3.12 ^ _3018_/ZN (OAI21_X1)
+   0.11    3.23 ^ _3019_/ZN (AND2_X1)
+   0.08    3.31 ^ max_cap1608/Z (CLKBUF_X3)
+   0.10    3.41 ^ csr_regfile_i/_08050_/Z (BUF_X2)
+   0.18    3.59 ^ csr_regfile_i/_08051_/Z (BUF_X1)
+   0.07    3.65 v csr_regfile_i/_10753_/ZN (NOR4_X1)
+   0.04    3.69 ^ csr_regfile_i/_10754_/ZN (NAND3_X1)
+   0.05    3.74 ^ csr_regfile_i/_10984_/ZN (OR2_X1)
+   0.04    3.79 ^ csr_regfile_i/_10985_/Z (BUF_X1)
+   0.08    3.87 ^ csr_regfile_i/_10986_/Z (BUF_X1)
+   0.15    4.02 v csr_regfile_i/_10992_/ZN (NAND2_X1)
+   0.08    4.10 ^ _3030_/ZN (NOR3_X1)
+   0.13    4.22 v _3031_/ZN (NAND2_X1)
+   0.10    4.32 v max_cap546/Z (CLKBUF_X3)
+   0.10    4.42 v wire545/Z (CLKBUF_X3)
+   0.10    4.52 v ex_stage_i/i_mult/_4586_/Z (BUF_X1)
+   0.04    4.56 ^ ex_stage_i/i_mult/_7871_/ZN (OAI21_X1)
+   0.10    4.66 ^ ex_stage_i/_05958_/Z (BUF_X1)
+   0.03    4.69 v ex_stage_i/_06628_/ZN (INV_X1)
+   0.11    4.81 ^ ex_stage_i/_06629_/ZN (NOR2_X1)
+   0.08    4.89 ^ ex_stage_i/_06979_/Z (BUF_X1)
+   0.09    4.98 ^ ex_stage_i/_06980_/Z (BUF_X1)
+   0.10    5.07 ^ ex_stage_i/_06981_/Z (BUF_X1)
+   0.10    5.17 v ex_stage_i/_08942_/Z (MUX2_X1)
+   0.06    5.23 v issue_stage_i/i_scoreboard/_38947_/Z (BUF_X2)
+   0.06    5.29 ^ issue_stage_i/i_scoreboard/_38958_/ZN (INV_X1)
+   0.10    5.39 ^ issue_stage_i/i_scoreboard/_38959_/Z (BUF_X1)
+   0.02    5.42 v issue_stage_i/i_scoreboard/_55518_/ZN (NOR4_X1)
+   0.16    5.58 ^ issue_stage_i/i_scoreboard/_55523_/ZN (NOR4_X1)
+   0.07    5.64 v issue_stage_i/i_scoreboard/_55524_/Z (MUX2_X1)
+   0.07    5.71 ^ issue_stage_i/i_scoreboard/_55541_/ZN (NOR4_X1)
+   0.06    5.77 v issue_stage_i/i_scoreboard/_55583_/ZN (NAND4_X1)
+   0.07    5.84 v issue_stage_i/i_scoreboard/_57067_/ZN (AND2_X1)
+   0.05    5.89 ^ issue_stage_i/i_scoreboard/_57232_/ZN (AOI21_X1)
+   0.03    5.92 v issue_stage_i/i_scoreboard/_57233_/ZN (NOR2_X2)
+   0.05    5.97 v issue_stage_i/i_scoreboard/_57247_/Z (BUF_X2)
+   0.09    6.06 ^ issue_stage_i/i_scoreboard/_58381_/ZN (OAI21_X1)
+   0.05    6.12 v issue_stage_i/i_scoreboard/_58382_/ZN (AOI22_X1)
+   0.06    6.18 v issue_stage_i/i_issue_read_operands/wire533/Z (CLKBUF_X3)
+   0.16    6.33 ^ issue_stage_i/i_issue_read_operands/_4607_/ZN (AOI21_X1)
+   0.06    6.40 ^ issue_stage_i/i_issue_read_operands/_4622_/ZN (OR4_X4)
+   0.04    6.44 ^ issue_stage_i/i_issue_read_operands/_4623_/Z (BUF_X16)
+   0.03    6.47 v issue_stage_i/i_issue_read_operands/_4624_/ZN (AOI21_X4)
+   0.03    6.50 v issue_stage_i/i_scoreboard/_29128_/Z (BUF_X4)
+   0.04    6.54 v issue_stage_i/i_scoreboard/_29170_/ZN (AND2_X1)
+   0.05    6.59 ^ issue_stage_i/i_scoreboard/_29171_/ZN (NAND4_X2)
+   0.15    6.73 ^ issue_stage_i/i_scoreboard/_29495_/Z (BUF_X1)
+   0.10    6.83 ^ issue_stage_i/i_scoreboard/max_cap531/Z (CLKBUF_X3)
+   0.23    7.07 ^ issue_stage_i/i_scoreboard/_29496_/Z (BUF_X1)
+   0.21    7.27 ^ issue_stage_i/i_scoreboard/_29497_/Z (BUF_X1)
+   0.09    7.36 ^ issue_stage_i/i_scoreboard/_29498_/Z (BUF_X1)
+   0.09    7.46 ^ issue_stage_i/i_scoreboard/wire521/Z (CLKBUF_X3)
+   0.12    7.57 ^ issue_stage_i/i_scoreboard/_29499_/Z (BUF_X1)
+   0.09    7.66 ^ issue_stage_i/i_scoreboard/max_cap515/Z (CLKBUF_X3)
+   0.13    7.79 ^ issue_stage_i/i_scoreboard/_29500_/Z (BUF_X1)
+   0.10    7.89 ^ issue_stage_i/i_scoreboard/max_cap500/Z (CLKBUF_X3)
+   0.07    7.96 v issue_stage_i/i_scoreboard/_29507_/Z (MUX2_X1)
+   0.00    7.96 v issue_stage_i/i_scoreboard/mem_q[1092]$_DFFE_PN0P_/D (DFFR_X1)
+           7.96   data arrival time
+
+   4.00    4.00   clock core_clock (rise edge)
+   0.49    4.49   clock network delay (propagated)
+   0.00    4.49   clock reconvergence pessimism
+           4.49 ^ issue_stage_i/i_scoreboard/mem_q[1092]$_DFFE_PN0P_/CK (DFFR_X1)
+  -0.03    4.46   library setup time
+           4.46   data required time
+---------------------------------------------------------
+           4.46   data required time
+          -7.96   data arrival time
+---------------------------------------------------------
+          -3.50   slack (VIOLATED)
+
+
+Startpoint: issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: issue_stage_i/i_scoreboard/mem_q[1091]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.49    0.49   clock network delay (propagated)
+   0.00    0.49 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/CK (DFFR_X1)
+   0.12    0.61 ^ issue_stage_i/i_scoreboard/commit_pointer_q[2]$_DFF_PN0_/Q (DFFR_X1)
+   0.10    0.71 ^ issue_stage_i/i_scoreboard/_30412_/Z (BUF_X1)
+   0.07    0.78 ^ issue_stage_i/i_scoreboard/_30423_/ZN (AND2_X1)
+   0.08    0.85 ^ issue_stage_i/i_scoreboard/_30424_/Z (BUF_X1)
+   0.12    0.97 ^ issue_stage_i/i_scoreboard/_30668_/Z (BUF_X1)
+   0.19    1.16 ^ issue_stage_i/i_scoreboard/_31856_/Z (BUF_X1)
+   0.10    1.26 ^ issue_stage_i/i_scoreboard/_33204_/Z (BUF_X1)
+   0.02    1.28 v issue_stage_i/i_scoreboard/_33281_/ZN (NAND2_X1)
+   0.03    1.31 ^ issue_stage_i/i_scoreboard/_33283_/ZN (AOI21_X1)
+   0.02    1.32 v issue_stage_i/i_scoreboard/_33284_/ZN (AOI21_X1)
+   0.03    1.36 ^ issue_stage_i/i_scoreboard/_33285_/ZN (OAI21_X1)
+   0.04    1.40 ^ issue_stage_i/i_scoreboard/_33286_/Z (MUX2_X1)
+   0.04    1.43 ^ issue_stage_i/i_scoreboard/_33287_/Z (MUX2_X1)
+   0.04    1.47 ^ issue_stage_i/i_scoreboard/_33288_/Z (MUX2_X1)
+   0.17    1.64 ^ issue_stage_i/i_scoreboard/_33289_/Z (MUX2_X1)
+   0.13    1.77 ^ max_cap2273/Z (CLKBUF_X3)
+   0.03    1.79 v _2982_/ZN (INV_X1)
+   0.03    1.83 ^ _2985_/ZN (AOI21_X1)
+   0.05    1.87 v _2986_/ZN (AOI21_X1)
+   0.07    1.95 ^ _2992_/ZN (NOR2_X1)
+   0.01    1.96 v _2993_/ZN (INV_X1)
+   0.07    2.03 ^ _2994_/ZN (AOI21_X1)
+   0.04    2.07 v _5195_/ZN (NAND2_X1)
+   0.03    2.10 ^ _5196_/ZN (INV_X1)
+   0.08    2.18 ^ _5197_/Z (BUF_X1)
+   0.14    2.32 ^ _5198_/Z (BUF_X1)
+   0.06    2.38 ^ _5207_/ZN (AND2_X1)
+   0.02    2.40 v csr_regfile_i/_07669_/ZN (NOR4_X2)
+   0.04    2.44 v csr_regfile_i/_07670_/ZN (AND2_X2)
+   0.08    2.52 ^ csr_regfile_i/_09771_/ZN (AOI21_X1)
+   0.07    2.59 ^ csr_regfile_i/wire2006/Z (CLKBUF_X3)
+   0.04    2.62 v csr_regfile_i/_09772_/ZN (NOR2_X2)
+   0.06    2.68 v csr_regfile_i/_09778_/ZN (AND4_X1)
+   0.05    2.73 ^ csr_regfile_i/_09787_/ZN (AOI211_X2)
+   0.07    2.80 v csr_regfile_i/_09795_/ZN (OAI22_X1)
+   0.15    2.95 ^ csr_regfile_i/_09810_/ZN (NOR2_X1)
+   0.03    2.98 v _3016_/ZN (NAND2_X1)
+   0.06    3.04 v _3017_/ZN (OR2_X1)
+   0.08    3.12 ^ _3018_/ZN (OAI21_X1)
+   0.11    3.23 ^ _3019_/ZN (AND2_X1)
+   0.08    3.31 ^ max_cap1608/Z (CLKBUF_X3)
+   0.10    3.41 ^ csr_regfile_i/_08050_/Z (BUF_X2)
+   0.18    3.59 ^ csr_regfile_i/_08051_/Z (BUF_X1)
+   0.07    3.65 v csr_regfile_i/_10753_/ZN (NOR4_X1)
+   0.04    3.69 ^ csr_regfile_i/_10754_/ZN (NAND3_X1)
+   0.05    3.74 ^ csr_regfile_i/_10984_/ZN (OR2_X1)
+   0.04    3.79 ^ csr_regfile_i/_10985_/Z (BUF_X1)
+   0.08    3.87 ^ csr_regfile_i/_10986_/Z (BUF_X1)
+   0.15    4.02 v csr_regfile_i/_10992_/ZN (NAND2_X1)
+   0.08    4.10 ^ _3030_/ZN (NOR3_X1)
+   0.13    4.22 v _3031_/ZN (NAND2_X1)
+   0.10    4.32 v max_cap546/Z (CLKBUF_X3)
+   0.10    4.42 v wire545/Z (CLKBUF_X3)
+   0.10    4.52 v ex_stage_i/i_mult/_4586_/Z (BUF_X1)
+   0.04    4.56 ^ ex_stage_i/i_mult/_7871_/ZN (OAI21_X1)
+   0.10    4.66 ^ ex_stage_i/_05958_/Z (BUF_X1)
+   0.03    4.69 v ex_stage_i/_06628_/ZN (INV_X1)
+   0.11    4.81 ^ ex_stage_i/_06629_/ZN (NOR2_X1)
+   0.08    4.89 ^ ex_stage_i/_06979_/Z (BUF_X1)
+   0.09    4.98 ^ ex_stage_i/_06980_/Z (BUF_X1)
+   0.10    5.07 ^ ex_stage_i/_06981_/Z (BUF_X1)
+   0.10    5.17 v ex_stage_i/_08942_/Z (MUX2_X1)
+   0.06    5.23 v issue_stage_i/i_scoreboard/_38947_/Z (BUF_X2)
+   0.06    5.29 ^ issue_stage_i/i_scoreboard/_38958_/ZN (INV_X1)
+   0.10    5.39 ^ issue_stage_i/i_scoreboard/_38959_/Z (BUF_X1)
+   0.02    5.42 v issue_stage_i/i_scoreboard/_55518_/ZN (NOR4_X1)
+   0.16    5.58 ^ issue_stage_i/i_scoreboard/_55523_/ZN (NOR4_X1)
+   0.07    5.64 v issue_stage_i/i_scoreboard/_55524_/Z (MUX2_X1)
+   0.07    5.71 ^ issue_stage_i/i_scoreboard/_55541_/ZN (NOR4_X1)
+   0.06    5.77 v issue_stage_i/i_scoreboard/_55583_/ZN (NAND4_X1)
+   0.07    5.84 v issue_stage_i/i_scoreboard/_57067_/ZN (AND2_X1)
+   0.05    5.89 ^ issue_stage_i/i_scoreboard/_57232_/ZN (AOI21_X1)
+   0.03    5.92 v issue_stage_i/i_scoreboard/_57233_/ZN (NOR2_X2)
+   0.05    5.97 v issue_stage_i/i_scoreboard/_57247_/Z (BUF_X2)
+   0.09    6.06 ^ issue_stage_i/i_scoreboard/_58381_/ZN (OAI21_X1)
+   0.05    6.12 v issue_stage_i/i_scoreboard/_58382_/ZN (AOI22_X1)
+   0.06    6.18 v issue_stage_i/i_issue_read_operands/wire533/Z (CLKBUF_X3)
+   0.16    6.33 ^ issue_stage_i/i_issue_read_operands/_4607_/ZN (AOI21_X1)
+   0.06    6.40 ^ issue_stage_i/i_issue_read_operands/_4622_/ZN (OR4_X4)
+   0.04    6.44 ^ issue_stage_i/i_issue_read_operands/_4623_/Z (BUF_X16)
+   0.03    6.47 v issue_stage_i/i_issue_read_operands/_4624_/ZN (AOI21_X4)
+   0.03    6.50 v issue_stage_i/i_scoreboard/_29128_/Z (BUF_X4)
+   0.04    6.54 v issue_stage_i/i_scoreboard/_29170_/ZN (AND2_X1)
+   0.05    6.59 ^ issue_stage_i/i_scoreboard/_29171_/ZN (NAND4_X2)
+   0.15    6.73 ^ issue_stage_i/i_scoreboard/_29495_/Z (BUF_X1)
+   0.10    6.83 ^ issue_stage_i/i_scoreboard/max_cap531/Z (CLKBUF_X3)
+   0.23    7.07 ^ issue_stage_i/i_scoreboard/_29496_/Z (BUF_X1)
+   0.21    7.27 ^ issue_stage_i/i_scoreboard/_29497_/Z (BUF_X1)
+   0.09    7.36 ^ issue_stage_i/i_scoreboard/_29498_/Z (BUF_X1)
+   0.09    7.46 ^ issue_stage_i/i_scoreboard/wire521/Z (CLKBUF_X3)
+   0.12    7.57 ^ issue_stage_i/i_scoreboard/_29499_/Z (BUF_X1)
+   0.09    7.66 ^ issue_stage_i/i_scoreboard/max_cap515/Z (CLKBUF_X3)
+   0.13    7.79 ^ issue_stage_i/i_scoreboard/_29500_/Z (BUF_X1)
+   0.10    7.89 ^ issue_stage_i/i_scoreboard/max_cap500/Z (CLKBUF_X3)
+   0.07    7.96 v issue_stage_i/i_scoreboard/_29505_/Z (MUX2_X1)
+   0.00    7.96 v issue_stage_i/i_scoreboard/mem_q[1091]$_DFFE_PN0P_/D (DFFR_X1)
+           7.96   data arrival time
+
+   4.00    4.00   clock core_clock (rise edge)
+   0.50    4.50   clock network delay (propagated)
+   0.00    4.50   clock reconvergence pessimism
+           4.50 ^ issue_stage_i/i_scoreboard/mem_q[1091]$_DFFE_PN0P_/CK (DFFR_X1)
+  -0.03    4.46   library setup time
+           4.46   data required time
+---------------------------------------------------------
+           4.46   data required time
+          -7.96   data arrival time
+---------------------------------------------------------
+          -3.50   slack (VIOLATED)
+
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+-
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+7.9763
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+-3.5211
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+-44.144528
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             4.66e-02   5.44e-03   1.72e-03   5.37e-02  18.1%
+Combinational          3.92e-02   6.55e-02   4.51e-03   1.09e-01  36.9%
+Clock                  5.74e-03   1.45e-02   1.08e-04   2.03e-02   6.9%
+Macro                  9.05e-02   0.00e+00   2.24e-02   1.13e-01  38.1%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.82e-01   8.55e-02   2.88e-02   2.96e-01 100.0%
+                          61.4%      28.8%       9.7%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 1981142 um^2 96% utilization.
+
+Elapsed time: 13:22.67[h:]min:sec. CPU time: user 751.69 sys 10.30 (94%). Peak memory: 2228368KB.

@@ -145,4 +145,4 @@ legalized HPWL        3285569.3 u
 delta HPWL                    0 %
 
 Command succeeded: detailed_placement
-Elapsed time: 1:42.16[h:]min:sec. CPU time: user 101.08 sys 0.47 (99%). Peak memory: 546008KB.
+Elapsed time: 1:34.66[h:]min:sec. CPU time: user 93.85 sys 0.37 (99%). Peak memory: 546012KB.

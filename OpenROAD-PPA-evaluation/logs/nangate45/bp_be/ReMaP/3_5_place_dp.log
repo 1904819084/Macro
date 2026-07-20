@@ -85,4 +85,4 @@ optimize_mirroring
 [INFO DPL-0022] HPWL after           3236892.2 u
 [INFO DPL-0023] HPWL delta               -0.0 %
 [INFO FLW-0012] Placement violations .
-Elapsed time: 1:01.53[h:]min:sec. CPU time: user 60.52 sys 0.43 (99%). Peak memory: 499732KB.
+Elapsed time: 0:54.32[h:]min:sec. CPU time: user 53.56 sys 0.30 (99%). Peak memory: 499856KB.

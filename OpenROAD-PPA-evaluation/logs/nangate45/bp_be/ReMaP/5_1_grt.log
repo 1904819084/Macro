@@ -76,7 +76,7 @@ Total          2685907       1362649           50.73%            17 / 11 / 3803
 [INFO GRT-0018] Total wirelength: 4481320 um
 [INFO GRT-0014] Routed nets: 59318
 [WARNING GRT-0115] Global routing finished with congestion. Check the congestion regions in the DRC Viewer.
-[INFO GRT-0303] Global routing runtime = 00:06:17
+[INFO GRT-0303] Global routing runtime = 00:05:58
 
 ==========================================================================
 check_antennas
@@ -85,4 +85,4 @@ check_antennas
 [INFO FLW-0008] Clock CLK period 4.372
 [INFO FLW-0009] Clock CLK slack -2.002
 [INFO FLW-0011] Path endpoint count 19916
-Elapsed time: 7:08.92[h:]min:sec. CPU time: user 425.14 sys 1.47 (99%). Peak memory: 1496584KB.
+Elapsed time: 6:47.57[h:]min:sec. CPU time: user 403.94 sys 1.81 (99%). Peak memory: 1496540KB.

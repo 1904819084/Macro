@@ -1,0 +1,79 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0003] Macros: 28
+[INFO GRT-0004] Blockages: 4724
+[INFO GRT-0019] Found 468 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 43
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical      1129434        527232          53.32%
+metal3     Horizontal    1520734        750060          50.68%
+metal4     Vertical       765580        540090          29.45%
+metal5     Horizontal    1371264        967296          29.46%
+metal6     Vertical      1370872        967079          29.46%
+metal7     Horizontal     479616        344832          28.10%
+metal8     Vertical       479526        344812          28.09%
+metal9     Horizontal     239616        134784          43.75%
+metal10    Vertical       239763        135063          43.67%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove congestion.
+[INFO GRT-0102] Start extra iteration 1/2
+[INFO GRT-0102] Start extra iteration 2/2
+[INFO GRT-0197] Via related to pin nodes: 783917
+[INFO GRT-0198] Via related Steiner nodes: 20769
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1078415
+[INFO GRT-0112] Final usage 3D: 4810397
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Congestion
+---------------------------------------------------------------------------------------
+metal1               0             0            0.00%             0 /  0 /  0
+metal2          527232        253830           48.14%             1 /  4 / 281
+metal3          750060        373558           49.80%             5 /  1 / 716
+metal4          540090        219474           40.64%             1 /  2 / 133
+metal5          967296        329534           34.07%             4 /  1 / 392
+metal6          967079        265758           27.48%             1 /  2 / 136
+metal7          344832         64489           18.70%             3 /  0 / 236
+metal8          344812         42998           12.47%             1 /  2 / 55
+metal9          134784         15855           11.76%             2 /  0 / 114
+metal10         135063          9656            7.15%             0 /  1 / 44
+---------------------------------------------------------------------------------------
+Total          4711248       1575152           33.43%            18 / 13 / 2107
+
+[INFO GRT-0018] Total wirelength: 5467519 um
+[INFO GRT-0014] Routed nets: 108530
+[WARNING GRT-0704] Try reduce the layer adjustment from 25% to 2%
+[WARNING GRT-0115] Global routing finished with congestion. Check the congestion regions in the DRC Viewer.
+[INFO GRT-0303] Global routing runtime = 00:01:18
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO FLW-0007] clock core_clock period 2.000000
+[INFO FLW-0008] Clock core_clock period 3.690
+[INFO FLW-0009] Clock core_clock slack -1.885
+[INFO FLW-0011] Path endpoint count 36269
+Elapsed time: 3:00.76[h:]min:sec. CPU time: user 174.46 sys 4.04 (98%). Peak memory: 2215188KB.

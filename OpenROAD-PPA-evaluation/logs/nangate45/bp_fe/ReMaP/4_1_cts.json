@@ -1,0 +1,21 @@
+{
+	"cts__utilizatin__before__dpl": 48.5807,
+	"cts__design__instance__displacement__total": 686.446,
+	"cts__design__instance__displacement__mean": 0.016,
+	"cts__design__instance__displacement__max": 15.27,
+	"cts__route__wirelength__estimated": 2.28861e+06,
+	"cts__dpl__hpwl__delta": 2.02093e+07,
+	"cts__dpl__hpwl__delta__percent": 0,
+	"cts__utilizatin__before__dpl": 48.5807,
+	"cts__design__instance__displacement__total": 0,
+	"cts__design__instance__displacement__mean": 0,
+	"cts__design__instance__displacement__max": 0,
+	"cts__route__wirelength__estimated": 2.28861e+06,
+	"cts__dpl__hpwl__delta": 0,
+	"cts__dpl__hpwl__delta__percent": 0,
+	"cts__design__violations": 0,
+	"cts__flow__warnings__count": 1,
+	"cts__flow__errors__count": 0,
+	"cts__flow__warnings__count:CTS-0132": 1,
+	"cts__flow__warnings__type_count": 1
+}

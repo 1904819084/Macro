@@ -276,4 +276,4 @@ Components of this program may be licensed under more restrictive licenses which
 [WARNING PDN-0178] Remaining channel (10.0700, 11.1150) - (789.8300, 14.7050) on metal4 for nets: VDD
 [ERROR PDN-0179] Unable to repair all channels.
 ErrorPDN: PDN-0179
-Elapsed time: 0:08.42[h:]min:sec. CPU time: user 7.75 sys 0.23 (94%). Peak memory: 289816KB.
+Elapsed time: 0:08.04[h:]min:sec. CPU time: user 7.41 sys 0.15 (94%). Peak memory: 289652KB.

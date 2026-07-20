@@ -1,0 +1,21 @@
+OpenROAD 26Q2-2123-g8f0a892fa2 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Perform port buffering...
+[INFO RSZ-0027] Inserted 209 BUF_X1 input buffers.
+[INFO RSZ-0028] Inserted 224 BUF_X1 output buffers.
+Perform buffer insertion...
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |    201608
+    final |     +0.9% |       0 |    5314 |          2548 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 934 slew violations.
+[INFO RSZ-0036] Found 2548 capacitance violations.
+[INFO RSZ-0038] Inserted 5314 buffers in 2548 nets.
+Repair tie lo fanout...
+[INFO RSZ-0042] Inserted 1596 tie LOGIC0_X1 instances.
+Repair tie hi fanout...
+[INFO RSZ-0042] Inserted 2202 tie LOGIC1_X1 instances.
+Elapsed time: 4:25.52[h:]min:sec. CPU time: user 262.88 sys 0.99 (99%). Peak memory: 1034936KB.

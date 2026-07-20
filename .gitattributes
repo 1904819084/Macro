@@ -10,3 +10,7 @@ OpenROAD-PPA-evaluation/results/nangate45/bp_be/ReMaP/6_1_fill.odb filter=lfs di
 downloads/openroad_ppa_synth_netlists.zip filter=lfs diff=lfs merge=lfs -text
 ReMaP/install/results/20260616/black_parrot/123509/black_parrot.gp.def filter=lfs diff=lfs merge=lfs -text
 ReMaP/install/benchmarks/or_cases/black_parrot/black_parrot.def filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/*/ReMaP/*.odb filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/*/ReMaP/*.spef filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/*/ReMaP/*.def filter=lfs diff=lfs merge=lfs -text
+OpenROAD-PPA-evaluation/results/nangate45/*/ReMaP/*.guide filter=lfs diff=lfs merge=lfs -text

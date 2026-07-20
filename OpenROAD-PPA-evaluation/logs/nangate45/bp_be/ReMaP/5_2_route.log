@@ -111,7 +111,7 @@ Number of nets:           67558
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:28:51, elapsed time = 00:07:20, memory = 546.45 (MB), peak = 564.27 (MB)
+[INFO DRT-0267] cpu time = 00:26:39, elapsed time = 00:06:47, memory = 546.36 (MB), peak = 564.39 (MB)
 [INFO DRT-0156] guideIn read 100000 guides.
 [INFO DRT-0156] guideIn read 200000 guides.
 [INFO DRT-0156] guideIn read 300000 guides.
@@ -195,44 +195,44 @@ Number of nets:           67558
 [INFO DRT-0036] via9 guide region query size = 0.
 [INFO DRT-0036] metal10 guide region query size = 477.
 [INFO DRT-0179] Init gr pin query.
-[INFO DRT-0267] cpu time = 00:00:07, elapsed time = 00:00:02, memory = 787.14 (MB), peak = 786.62 (MB)
+[INFO DRT-0267] cpu time = 00:00:06, elapsed time = 00:00:02, memory = 785.82 (MB), peak = 785.38 (MB)
 [INFO DRT-0245] skipped writing guide updates to database.
 [INFO DRT-0181] Start track assignment.
 [INFO DRT-0184] Done with 225724 vertical wires in 6 frboxes and 317925 horizontal wires in 5 frboxes.
 [INFO DRT-0186] Done with 60370 vertical wires in 6 frboxes and 74102 horizontal wires in 5 frboxes.
 [INFO DRT-0182] Complete track assignment.
-[INFO DRT-0267] cpu time = 00:04:57, elapsed time = 00:01:26, memory = 1804.65 (MB), peak = 1814.40 (MB)
+[INFO DRT-0267] cpu time = 00:04:43, elapsed time = 00:01:23, memory = 1815.23 (MB), peak = 1814.75 (MB)
 [INFO DRT-0187] Start routing data preparation.
-[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1869.70 (MB), peak = 1869.27 (MB)
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1880.28 (MB), peak = 1879.75 (MB)
 [INFO DRT-0194] Start detail routing.
 [INFO DRT-0195] Start 0th optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:01:22, memory = 2052.30 (MB).
+    elapsed time = 00:01:16, memory = 2050.63 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:04:02, memory = 2384.03 (MB).
+    elapsed time = 00:03:34, memory = 2377.01 (MB).
     Completing 30% with 4769 violations.
-    elapsed time = 00:05:08, memory = 2697.37 (MB).
+    elapsed time = 00:04:34, memory = 2706.62 (MB).
     Completing 40% with 4769 violations.
-    elapsed time = 00:08:20, memory = 2764.60 (MB).
+    elapsed time = 00:07:16, memory = 2754.32 (MB).
     Completing 50% with 4769 violations.
-    elapsed time = 00:10:31, memory = 2880.11 (MB).
+    elapsed time = 00:09:16, memory = 2972.71 (MB).
     Completing 60% with 9235 violations.
-    elapsed time = 00:12:12, memory = 3002.93 (MB).
+    elapsed time = 00:10:45, memory = 3081.20 (MB).
     Completing 70% with 9235 violations.
-    elapsed time = 00:15:18, memory = 3007.54 (MB).
+    elapsed time = 00:13:20, memory = 3179.24 (MB).
     Completing 80% with 13309 violations.
-    elapsed time = 00:16:14, memory = 3090.33 (MB).
+    elapsed time = 00:14:15, memory = 3290.68 (MB).
     Completing 90% with 13309 violations.
-    elapsed time = 00:19:33, memory = 3248.29 (MB).
+    elapsed time = 00:17:02, memory = 3455.24 (MB).
     Completing 100% with 16943 violations.
-    elapsed time = 00:22:00, memory = 3304.29 (MB).
+    elapsed time = 00:19:13, memory = 3495.57 (MB).
 [INFO DRT-0199]   Number of violations = 24332.
 Viol/Layer      metal1   via1 metal2   via2 metal3   via3 metal4   via4 metal5   via5 metal6 metal7 metal8 metal9   via9 me..10
 Cut Spacing          0      3      0     12      0      2      0    480      0     82      0      0      0      0     12      0
 Metal Spacing        0      0   1082      0    199      0     82      0    146      0     15     27      8      1      0      0
 Recheck             28      0   2890      0   2728      0    460      0   1013      0    133    102     17     18      0      0
 Short                0     14   7882     13   3083     35    888     49   1900     11    534    263     88     28      0      4
-[INFO DRT-0267] cpu time = 01:26:49, elapsed time = 00:22:05, memory = 3304.71 (MB), peak = 3384.84 (MB)
+[INFO DRT-0267] cpu time = 01:15:36, elapsed time = 00:19:19, memory = 3496.00 (MB), peak = 3589.09 (MB)
 Total wire length = 3934513 um.
 Total wire length on LAYER metal1 = 0 um.
 Total wire length on LAYER metal2 = 519020 um.
@@ -264,32 +264,32 @@ Up-via summary (total 547877):
 
 [INFO DRT-0195] Start 1st optimization iteration.
     Completing 10% with 24332 violations.
-    elapsed time = 00:01:26, memory = 3347.21 (MB).
+    elapsed time = 00:02:05, memory = 3581.17 (MB).
     Completing 20% with 24332 violations.
-    elapsed time = 00:04:21, memory = 3362.12 (MB).
+    elapsed time = 00:04:52, memory = 3538.46 (MB).
     Completing 30% with 20498 violations.
-    elapsed time = 00:05:19, memory = 3479.69 (MB).
+    elapsed time = 00:05:47, memory = 3679.60 (MB).
     Completing 40% with 20498 violations.
-    elapsed time = 00:07:53, memory = 3472.21 (MB).
+    elapsed time = 00:08:24, memory = 3664.05 (MB).
     Completing 50% with 20498 violations.
-    elapsed time = 00:09:53, memory = 3574.86 (MB).
+    elapsed time = 00:10:42, memory = 3684.70 (MB).
     Completing 60% with 15478 violations.
-    elapsed time = 00:11:14, memory = 3692.11 (MB).
+    elapsed time = 00:12:12, memory = 3783.77 (MB).
     Completing 70% with 15478 violations.
-    elapsed time = 00:14:18, memory = 3688.40 (MB).
+    elapsed time = 00:15:30, memory = 3773.67 (MB).
     Completing 80% with 11454 violations.
-    elapsed time = 00:15:18, memory = 3624.54 (MB).
+    elapsed time = 00:16:34, memory = 3817.79 (MB).
     Completing 90% with 11454 violations.
-    elapsed time = 00:17:56, memory = 3648.98 (MB).
+    elapsed time = 00:19:18, memory = 3853.62 (MB).
     Completing 100% with 6895 violations.
-    elapsed time = 00:19:54, memory = 3681.42 (MB).
+    elapsed time = 00:21:23, memory = 3897.05 (MB).
 [INFO DRT-0199]   Number of violations = 6895.
 Viol/Layer        via1 metal2   via2 metal3 metal4   via4 metal5   via5 metal6 metal7 metal8   via9
 Cut Spacing         10      0     11      0      0     91      0     22      0      0      0      1
 Metal Spacing        0    960      0     69     70      0     43      0      6      4      1      0
 Recheck              0      3      0      1      0      0      0      0      0      0      0      0
 Short                0   3654      0    973    129      0    557      1    255     18     16      0
-[INFO DRT-0267] cpu time = 01:18:38, elapsed time = 00:19:59, memory = 3681.42 (MB), peak = 3819.21 (MB)
+[INFO DRT-0267] cpu time = 01:22:45, elapsed time = 00:21:27, memory = 3897.05 (MB), peak = 4025.71 (MB)
 Total wire length = 3926157 um.
 Total wire length on LAYER metal1 = 0 um.
 Total wire length on LAYER metal2 = 515264 um.
@@ -349,7 +349,7 @@ Up-via summary (total 544096):
        544096
 
 
-[INFO DRT-0267] cpu time = 02:45:28, elapsed time = 00:42:05, memory = 3683.69 (MB), peak = 3819.21 (MB)
+[INFO DRT-0267] cpu time = 02:38:23, elapsed time = 00:40:48, memory = 3899.31 (MB), peak = 4025.71 (MB)
 
 [INFO DRT-0180] Post processing.
-Elapsed time: 51:13.01[h:]min:sec. CPU time: user 11969.67 sys 11.59 (389%). Peak memory: 3910872KB.
+Elapsed time: 49:19.76[h:]min:sec. CPU time: user 11399.38 sys 11.07 (385%). Peak memory: 4122324KB.
